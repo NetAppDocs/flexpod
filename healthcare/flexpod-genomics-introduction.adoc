@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: healthcare/flexpod-genomics-introduction.html
+keywords:
+summary:
+---
+
+= Introduction
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-11-04 14:24:47.667749
+//
+
+There are few fields of medicine that are more important than genomics for healthcare and the life sciences,  and genomics are fast becoming a key clinical tool for doctors and nurses.  Genomics,  when combined with medical imaging and digital pathology,  help us understand how a patient’s genes might be affected by treatment protocols. The success of genomics in healthcare increasingly depends on data interoperability at scale. The end goal is to make sense of the enormous volumes of genetic data and identify clinically relevant correlations and variants that improve diagnosis and make precision medicine a reality. Genomics help us understand the origin of disease outbreaks, how diseases evolve, and which treatments and strategies might be effective.  Clearly, genomics has many benefits that span prevention, diagnosis,  and treatment. Healthcare organizations are grappling with several challenges, including the following:
+
+* Improved care quality
+* Value- based care
+* Data explosion
+* Precision medicine
+* Pandemics
+* Wearables and remote monitoring and care
+* Cyber securityStandardized clinical pathways and clinical protocols are one of the critical components of modern medicine. One of the key aspects of standardization is interoperability between care providers, not just for medical records but also for genomic data. The big question is will healthcare organizations relinquish ownership of genomic data in lieu of patient ownership of their personal genomics data and related medical records?
+
+Interoperable patient data is key for enabling precision medicine, one of the driving forces behind the recent explosion of data growth. The objective for precision medicine is to make health maintenance, disease prevention, diagnoses, and treatment solutions more effective and precise.
+
+The rate of data growth has been exponential.  In early February 2021, US laboratories sequenced approximately 8,000 COVID-19 strains per week. The number of genomes sequenced had increased to 29,000 per week by April 2021.  Each fully sequenced human genome is around 125GB in size.  Therefore,  at a rate of 29,000 genomes sequenced per week, total genome storage at rest would be more than 180 petabytes per year. Various countries have committed resources to genomic epidemiology to improve genomic surveillance and prepare for the next wave of global health challenges.
+
+The reduced cost of genomic research is driving genetic testing and research at an unprecedented rate.  The three Ps are at an inflection point: computer power, privacy of data,  and personalization of medicine. By 2025 researchers estimate that 100 million to as many as 2 billion human genomes will be sequenced. For genomics to be effective and a valuable proposition, genomics capabilities must be a seamless part of care workflows;  it should be easy to access and be actionable during a patient’s visit. It is also equally important that patient electronic medical- record data be integrated with patient genomics data.  With the advent of state-of-the-art converged infrastructure like FlexPod, organizations can bring their genomics capabilities into the everyday workflows of physicians, nurses, and clinic managers.  For the latest FlexPod platform information, see this https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/flex-pod-datacenter-ucs-intersight.html[FlexPod Datacenter with Cisco UCS X-Series White Paper^].
+
+For a physician,  the true value of genomics includes precision medicine and personalized treatment plans based on the genomic data of a patient. There has never been such synergy between clinicians and data scientists in the past, and genomics is benefiting from the technological innovations in the recent past,  and also real partnerships between healthcare organizations and technology leaders in the industry.
+
+Academic medical centers and other healthcare and life science organizations are well on their way to establishing center of excellence (COE) in genome science. According to Dr. Charlie Gersbach, Dr. Greg Crawford,  and Dr. Tim E Reddy from Duke University,  “We know that genes aren’t turned on or off by a simple binary switch, but instead it’s a result of multiple gene regulatory switches that work together. ” They have also determined that “none of these parts of the genome work in isolation. The genome is a very complicated web that evolution has woven” ( https://genome.duke.edu/news/thu-09242020-1054/multimillion-dollar-nih-grant-creates-first-duke-center-excellence-genome[ref^]).
+
+NetApp and Cisco have been hard at work implementing incremental improvements into the FlexPod platform for over 10 years. All customer feedback is heard, evaluated, and tied into the value streams and feature sets in FlexPod. It is this continuous loop of feedback, collaboration, improvement, and celebration that sets FlexPod apart as a trusted converged infrastructure platform the world over. It has been simplified and designed from the ground up to be the most reliable, robust, versatile,  and agile platform for healthcare organizations.
+
+=== Scope
+
+The FlexPod converged infrastructure platform enables a healthcare organization to host one or more genomics workloads,  along with other clinical and nonclinical healthcare applications.  This technical report uses an open-source,  industry- standard genomics tool called GATK during FlexPod platform validation. However, a deeper discussion of genomics or GATK is outside the scope of this document.
+
+=== Audience
+
+This document is intended for technical leaders in the healthcare industry and for Cisco and NetApp partner solutions engineers and professional services personnel. NetApp assumes that the reader has a good understanding of compute and storage sizing concepts as well as a technical familiarity with healthcare threats, healthcare security, healthcare IT systems, Cisco UCS, and NetApp storage systems.
+
+=== Hospital capabilities deployed on FlexPod
+
+A typical hospital has a diversified set of IT systems. The majority of such systems are purchased from a vendor, whereas very few are built by the hospital system in house. Therefore,  the hospital system must manage a diverse infrastructure environment in their data centers. When hospitals unify their systems into a converged infrastructure platform like FlexPod, organizations can standardize their data center operations. With FlexPod, healthcare organizations can implement clinical and non-clinical systems on the same platform, thereby unifying data center operations.
+
+image:flexpod-genomics-image2.png[Error: Missing Graphic Image]
