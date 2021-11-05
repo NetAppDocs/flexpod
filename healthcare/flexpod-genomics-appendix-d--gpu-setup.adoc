@@ -5,7 +5,7 @@ keywords: gpu, setup, cvd, nvidia, tesla
 summary: At the time of publication, the GATK tool does not have native support for GPU-based execution on premises. The following setup and guidance is provided to enable the readers understand how simple it is to use FlexPod with a rear-mounted NVIDIA Tesla P6 GPU using a PCIe mezzanine card for GATK.
 ---
 
-= Appendix D: GPU setup
+= GPU setup
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -18,13 +18,15 @@ summary: At the time of publication, the GATK tool does not have native support 
 // 2021-11-04 14:24:47.750266
 //
 
-link:flexpod-genomics-appendix-c.html[Previous: Appendix C.]
+link:flexpod-genomics-appendix-c.html[Previous: Output for execution of GATK using the Cromwell engine.]
 
 At the time of publication, the GATK tool does not have native support for GPU-based execution on premises. The following setup and guidance is provided to enable the readers understand how simple it is to use FlexPod with a rear-mounted NVIDIA Tesla P6 GPU using a PCIe mezzanine card for GATK.
 
 We used the following Cisco-Validated Design (CVD) as the reference architecture and best-practice guide to set up the FlexPod environment so that we can run applications that use GPUs.
 
-* https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_480ml_aiml_deployment.pdf[FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning^]Here is a set of key takeaways during this setup:
+* https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_480ml_aiml_deployment.pdf[FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning^]
+
+Here is a set of key takeaways during this setup:
 
 . We used a PCIe NVIDIA Tesla P6 GPU in a mezzanine slot in the UCS B200 M5 servers.
 +
@@ -75,7 +77,7 @@ Wed Aug 18 21:37:19 2021
 [root@localhost:~]
 ....
 
-. Using vCenter,  https://blogs.vmware.com/apps/2018/09/using-gpus-with-virtual-machines-on-vsphere-part-2-vmdirectpath-i-o.html[configure^] the graphics device settings to “Shared Direct. ”
+. Using vCenter, https://blogs.vmware.com/apps/2018/09/using-gpus-with-virtual-machines-on-vsphere-part-2-vmdirectpath-i-o.html[configure^] the graphics device settings to “Shared Direct.”
 +
 image:flexpod-genomics-image20.png[Error: Missing Graphic Image]
 +
@@ -94,12 +96,12 @@ image:flexpod-genomics-image23.png[Error: Missing Graphic Image]
 +
 image:flexpod-genomics-image24.png[Error: Missing Graphic Image]
 
-. When adding vGPUs as a new PCI Device to the virtual machine in vCenter,  make sure to select NVIDIA GRID vGPU as the PCI Device type.
-. Choose the correct GPU profile that suites the GPU being used, GPU memory and the usage purpose ex: graphics vs.  compute.
+. When adding vGPUs as a new PCI Device to the virtual machine in vCenter, make sure to select NVIDIA GRID vGPU as the PCI Device type.
+. Choose the correct GPU profile that suites the GPU being used, the GPU memory, and the usage purpose: for example, graphics versus compute.
 +
 image:flexpod-genomics-image25.png[Error: Missing Graphic Image]
 
-. On the RedHat Linux VM NVIDIA drivers can be installed by running the following command:
+. On the RedHat Linux VM, NVIDIA drivers can be installed by running the following command:
 +
 ....
 [root@genomics1 genomics]#sh NVIDIA-Linux-x86_64-460.73.01-grid.run

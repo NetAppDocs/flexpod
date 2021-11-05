@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: healthcare/flexpod-genomics-introduction.html
 keywords: tr-4911, tr4911, 4911, genomics, healthcare, life sciences, medical imaging, pathology
-summary: The FlexPod converged infrastructure platform enables a healthcare organization to host one or more genomics workloads, along with other clinical and nonclinical healthcare applications. This technical report uses an open-source,  industry-standard genomics tool called GATK during FlexPod platform validation.
+summary: The FlexPod converged infrastructure platform enables a healthcare organization to host one or more genomics workloads, along with other clinical and nonclinical healthcare applications. This technical report uses an open-source, industry-standard genomics tool called GATK during FlexPod platform validation.
 ---
 
 = TR-4911: FlexPod Genomics
@@ -46,7 +46,7 @@ NetApp and Cisco have been hard at work implementing incremental improvements in
 
 == Scope
 
-The FlexPod converged infrastructure platform enables a healthcare organization to host one or more genomics workloads,  along with other clinical and nonclinical healthcare applications. This technical report uses an open-source, industry- standard genomics tool called GATK during FlexPod platform validation. However, a deeper discussion of genomics or GATK is outside the scope of this document.
+The FlexPod converged infrastructure platform enables a healthcare organization to host one or more genomics workloads, along with other clinical and nonclinical healthcare applications. This technical report uses an open-source, industry-standard genomics tool called GATK during FlexPod platform validation. However, a deeper discussion of genomics or GATK is outside the scope of this document.
 
 == Audience
 

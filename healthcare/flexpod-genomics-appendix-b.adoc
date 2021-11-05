@@ -20,7 +20,7 @@ summary: This section describes the execution of the ./gatk output.
 
 link:flexpod-genomics-appendix-a.html[Previous: Output for execution of GATK using the jar file.]
 
-The execution of GATK using the `./gatk` script produces the following output.
+The execution of GATK using the `./gatk` script produced the following sample output.
 
 ....
 [root@genomics1 gatk-4.2.0.0]# ./gatk --java-options "-Xmx4G" \

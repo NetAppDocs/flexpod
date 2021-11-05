@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: healthcare/flexpod-genomics-benefits-of-deploying-genomic-workloads-on-flexpod.html
 keywords: benefits, siloes, control plane, multitenancy, storage efficiency,
-summary: This section provides a brief list of benefits for running a genomics workload on a FlexPod converged infrastructure platform. 
+summary: This section provides a brief list of benefits for running a genomics workload on a FlexPod converged infrastructure platform.
 ---
 
 = Benefits of deploying genomic workloads on FlexPod
@@ -20,7 +20,7 @@ summary: This section provides a brief list of benefits for running a genomics w
 
 link:flexpod-genomics-introduction.html[Previous: Introduction.]
 
-This section provides a brief list of benefits for running a genomics workload on a FlexPod converged infrastructure platform. Let’s quickly describe the capabilities of a hospital. The following business architecture view shows a hospital’s capabilities deployed on a hybrid- cloud- ready FlexPod converged infrastructure platform.
+This section provides a brief list of benefits for running a genomics workload on a FlexPod converged infrastructure platform. Let’s quickly describe the capabilities of a hospital. The following business architecture view shows a hospital’s capabilities deployed on a hybrid-cloud-ready FlexPod converged infrastructure platform.
 
 * *Avoid siloes in healthcare.* Silos in healthcare are a very real concern. Departments are often siloed into their own set of hardware and software not by choice but organically by evolution. For example, radiology, cardiology, EHR, genomics, analytics, revenue cycle, and other departments end up with their individual set of dedicated software and hardware. Healthcare organizations maintain a limited set of IT professionals to manage their hardware and software assets. The inflection point comes when this set of individuals are expected to manage a very diversified set of hardware and software. Heterogeneity is made worse by an incongruent set of processes brought to the healthcare organization by vendors.
 * *Start small and grow.* The GATK tool kit is tuned for CPU execution, which best suites platforms like FlexPod. FlexPod enables independent scalability of network, compute, and storage. Start small and scale as your genomics capabilities and the environment grows. Healthcare organizations don’t have to invest in specialized platforms to run genomic workloads. Instead, organizations can leverage versatile platforms like a FlexPod to run genomics and non-genomics workloads on the same platform. For example, if the pediatrics department wants to implement genomics capability, IT leadership can provision compute, storage, and networking on an existing FlexPod instance. As the genomics business unit grows,  healthcare organization can scale their FlexPod platform as needed.

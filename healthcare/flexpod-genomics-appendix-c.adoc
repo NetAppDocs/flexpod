@@ -20,7 +20,7 @@ summary: This section shows the output after executing GATK using the Cromwell e
 
 link:flexpod-genomics-appendix-b.html[Previous: Output for execution of GATK using the `./gatk` script.]
 
-The execution of GATK using the Cromwell engine produces the following output.
+The execution of GATK using the Cromwell engine produced the following sample output.
 
 ....
 [root@genomics1 genomics]# java -jar  cromwell-65.jar run /mnt/genomics/GATK/seq/ghplo.wdl  --inputs /mnt/genomics/GATK/seq/ghplo.json

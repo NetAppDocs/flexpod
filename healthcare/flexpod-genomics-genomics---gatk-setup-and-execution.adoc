@@ -59,7 +59,7 @@ Genomics has a broad set of benefits. Here is a small set of benefits in the hea
 * Improved disease monitoring
 * Effective clinical trial participation and better selection of patients for clinical trials based on genotypes.
 
-Genomics is a https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494865/["four-headed beast"^]; because of the computational demands across the lifecycle of a dataset: acquisition, storage, distribution, and analysis.
+Genomics is a https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494865/["four-headed beast,"^] because of the computational demands across the lifecycle of a dataset: acquisition, storage, distribution, and analysis.
 
 == Genome Analysis Toolkit (GATK)
 
@@ -87,6 +87,9 @@ To perform FlexPod lab setup, complete the following steps:
 image:flexpod-genomics-image10.png[Error: Missing Graphic Image]
 
 . Configure iSCSI-based boot LUNs on the ONTAP SVM.
++
+image:flexpod-genomics-image9.png[Error: Missing Graphic Image]
+
 . Map LUNs to iSCSI initiator groups.
 +
 image:flexpod-genomics-image11.png[Error: Missing Graphic Image]
@@ -98,9 +101,18 @@ image:flexpod-genomics-image12.png[Error: Missing Graphic Image]
 +
 image:flexpod-genomics-image13.png[Error: Missing Graphic Image]
 
-. Provision an NFS datastore `infra_datastore_nfs` on the ONTAP storage
-. vCenter.
+. Provision an NFS datastore `infra_datastore_nfs` on the ONTAP storage.
++
+image:flexpod-genomics-image14.png[Error: Missing Graphic Image]
+
+. Add the datastore to the vCenter.
++
+image:flexpod-genomics-image16.png[Error: Missing Graphic Image]
+
 . Using vCenter, add an NFS datastore to the ESXi hosts.
++
+image:flexpod-genomics-image15.png[Error: Missing Graphic Image]
+
 . Using the vCenter, create a Red Hat Enterprise Linux (RHEL) 8.3 VM to run GATK.
 . An NFS datastore is presented to the VM and mounted at `/mnt/genomics`, which is used to store GATK executables, scripts, Binary Alignment Map (BAM) files, reference files, index files, dictionary files, and out files for variant calling.
 +
@@ -111,12 +123,14 @@ image:flexpod-genomics-image17.png[Error: Missing Graphic Image]
 Install the following prerequisites on the RedHat Enterprise 8.3 Linux VM:
 
 * Java 8 or SDK 1.8 or later
-* Download GATK 4.2.0.0 from the Broad Institute https://github.com/broadinstitute/gatk/releases[GitHub site^]. Genome sequence data is generally stored in the form of a series of tab-delimited ASCII columns. However ASCII takes too much space to store. Therefore, a new standard evolved called a BAM (\*.bam) file. A BAM file stores the sequence data in a compressed, indexed, and binary form. We https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/[downloaded^] a set of publicly available BAM files for GATK execution from the https://www.nih.gov/[public domain^]. We also downloaded index files (\*.bai), dictionary files (\*. dict), and reference data files (*. fasta) from the same public domain.
+* Download GATK 4.2.0.0 from the Broad Institute https://github.com/broadinstitute/gatk/releases[GitHub site^]. Genome sequence data is generally stored in the form of a series of tab-delimited ASCII columns. However, ASCII takes too much space to store. Therefore, a new standard evolved called a BAM (\*.bam) file. A BAM file stores the sequence data in a compressed, indexed, and binary form. We https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/[downloaded^] a set of publicly available BAM files for GATK execution from the https://www.nih.gov/[public domain^]. We also downloaded index files (\*.bai), dictionary files (\*. dict), and reference data files (*. fasta) from the same public domain.
 
 After downloading, the GATK tool kit has a jar file and a set of support scripts.
 
 * `gatk-package-4.2.0.0-local.jar` executable
-*  `gatk` script file.We downloaded the BAM files and the corresponding index, dictionary, and reference genome files for a family that consisted of father, mother, and son *.bam files.
+*  `gatk` script file.
+
+We downloaded the BAM files and the corresponding index, dictionary, and reference genome files for a family that consisted of father, mother, and son *.bam files.
 
 === Cromwell engine
 
@@ -191,7 +205,7 @@ HaplotypeCaller \
 -O /mnt/genomics/GATK/TEST\ DATA/variants.vcf
 ....
 
-We are passing several parameters to the command.
+We pass several parameters to the command.
 
 * This parameter indicates that we are invoking the `HaplotypeCaller` variant caller pipeline.
 * `-I` specifies the input BAM file.
@@ -212,7 +226,7 @@ run /mnt/genomics/GATK/seq/ghplo.wdl  \
 
 Here, we invoke the Java command by passing the `-jar` parameter to indicate that we intend to execute a jar file, for example, `Cromwell-65.jar`. The next parameter passed (`run`) indicates that the Cromwell engine is running in Run mode, the other possible option is Server mode. The next parameter is `*.wdl` that the Run mode should use to execute the pipelines. The next parameter is the set of input parameters to the workflows being executed.
 
-Here’s what the contents of the `ghplo.wdl` file looks like:
+Here’s what the contents of the `ghplo.wdl` file look like:
 
 ....
 [root@genomics1 seq]# cat ghplo.wdl
