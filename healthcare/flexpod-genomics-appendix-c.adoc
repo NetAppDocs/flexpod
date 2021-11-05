@@ -115,4 +115,4 @@ The execution of GATK using the Cromwell engine produced the following sample ou
 [root@genomics1 genomics]#
 ....
 
-link:flexpod-genomics-appendix-d--gpu-setup.html[Next: GPU setup.]
+link:flexpod-genomics-appendix-d-gpu-setup.html[Next: GPU setup.]

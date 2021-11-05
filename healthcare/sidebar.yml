@@ -19,7 +19,7 @@ entries:
       - title: Output for execution of GATK using the Cromwell engine
         url: /healthcare/flexpod-genomics-appendix-c.html
       - title: GPU setup
-        url: /healthcare/flexpod-genomics-appendix-d--gpu-setup.html
+        url: /healthcare/flexpod-genomics-appendix-d-gpu-setup.html
       - title: Conclusion
         url: /healthcare/flexpod-genomics-conclusion.html
   - title: FlexPod Datacenter for Epic Directional Sizing Guide

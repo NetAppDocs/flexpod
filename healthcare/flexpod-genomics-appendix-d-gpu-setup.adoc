@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: healthcare/flexpod-genomics-appendix-d--gpu-setup.html
+permalink: healthcare/flexpod-genomics-appendix-d-gpu-setup.html
 keywords: gpu, setup, cvd, nvidia, tesla
 summary: At the time of publication, the GATK tool does not have native support for GPU-based execution on premises. The following setup and guidance is provided to enable the readers understand how simple it is to use FlexPod with a rear-mounted NVIDIA Tesla P6 GPU using a PCIe mezzanine card for GATK.
 ---
