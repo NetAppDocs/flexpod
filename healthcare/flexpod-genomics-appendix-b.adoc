@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: healthcare/flexpod-genomics-appendix-b.html
-keywords:
-summary:
+keywords: execution, gatk script, output
+summary: This section describes the execution of the ./gatk output.
 ---
 
-= Appendix B
+= Output for execution of GATK using the `./gatk` script
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -18,7 +18,9 @@ summary:
 // 2021-11-04 14:24:47.718231
 //
 
-Execution of `. /gatk` script output below.
+link:flexpod-genomics-appendix-a.html[Previous: Output for execution of GATK using the jar file.]
+
+The execution of GATK using the `./gatk` script produces the following output.
 
 ....
 [root@genomics1 gatk-4.2.0.0]# ./gatk --java-options "-Xmx4G" \
@@ -87,3 +89,5 @@ Runtime.totalMemory()=2111832064
 ....
 
 Notice that the output file is located at the location specified after the execution.
+
+link:flexpod-genomics-appendix-c.html[Next: Output for execution of GATK using the Cromwell engine.]

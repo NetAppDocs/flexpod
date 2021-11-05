@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: healthcare/flexpod-genomics-solution-infrastructure-hardware-and-software-components.html
-keywords:
-summary:
+keywords: GATK, setup, validation, cabling, hardware, software
+summary: This section describes the solution infrastructure and software components used in this solution.
 ---
 
 = Solution infrastructure hardware and software components
@@ -18,6 +18,8 @@ summary:
 // 2021-11-04 14:24:47.682524
 //
 
+link:flexpod-genomics-benefits-of-deploying-genomic-workloads-on-flexpod.html[Previous: Benefits of deploying genomic workloads on FlexPod.]
+
 The following figure depicts the FlexPod system used for GATK setup and validation. We used https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_vmware_vsphere_7_0_ontap_9_7.html[FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7 Cisco Validated Design (CVD)^] during the setup process.
 
 image:flexpod-genomics-image6.png[Error: Missing Graphic Image]
@@ -26,7 +28,7 @@ The following diagram depicts the FlexPod cabling details.
 
 image:flexpod-genomics-image7.png[Error: Missing Graphic Image]
 
-The following table lists the hardware components used during the GATK testing enabling on a FlexPod.  Here is the https://mysupport.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] (IMT) and https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility List (HCL)^].
+The following table lists the hardware components used during the GATK testing enabling on a FlexPod. Here is the https://mysupport.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] (IMT) and https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility List (HCL)^].
 
 |===
 |Layer |Product family  |Quantity and model |Details
@@ -146,3 +148,5 @@ or later
 |4.1(3c) or later
 |
 |===
+
+link:flexpod-genomics-genomics---gatk-setup-and-execution.html[Next: Genomics - GATK setup and execution.]

@@ -2,6 +2,7 @@ section: healthcare
 title: Healthcare
 entries:
   - title: FlexPod for Genomics
+    type: solutions
     entries:
       - title: Introduction
         url: /healthcare/flexpod-genomics-introduction.html
@@ -11,13 +12,13 @@ entries:
         url: /healthcare/flexpod-genomics-solution-infrastructure-hardware-and-software-components.html
       - title: Genomics - GATK setup and execution
         url: /healthcare/flexpod-genomics-genomics---gatk-setup-and-execution.html
-      - title: Appendix A
+      - title: Output for execution of GATK using the jar file
         url: /healthcare/flexpod-genomics-appendix-a.html
-      - title: Appendix B
+      - title: Output for execution of GATK using the ./gatk script
         url: /healthcare/flexpod-genomics-appendix-b.html
-      - title: Appendix C
+      - title: Output for execution of GATK using the Cromwell engine
         url: /healthcare/flexpod-genomics-appendix-c.html
-      - title: Appendix D  GPU setup
+      - title: GPU setup
         url: /healthcare/flexpod-genomics-appendix-d--gpu-setup.html
       - title: Conclusion
         url: /healthcare/flexpod-genomics-conclusion.html

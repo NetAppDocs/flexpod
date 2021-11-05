@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: healthcare/flexpod-genomics-appendix-a.html
-keywords:
-summary:
+keywords: jar file, execution, GATK
+summary: This section provides the jar file output from GATK.
 ---
 
-= Appendix A
+= Output for execution of GATK using the jar file
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -17,6 +17,8 @@ summary:
 //
 // 2021-11-04 14:24:47.710941
 //
+
+link:flexpod-genomics-genomics---gatk-setup-and-execution.html[Previous: Genomics - GATK setup and execution.]
 
 Execution of GATK using the jar file output below.
 
@@ -88,3 +90,5 @@ Runtime.totalMemory()=5561122816
 ....
 
 Notice that the output file is located at the location specified after the execution.
+
+link:flexpod-genomics-appendix-b.html[Next: Output for execution of GATK using the `./gatk` script.]

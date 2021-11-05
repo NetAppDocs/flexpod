@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: healthcare/flexpod-genomics-appendix-c.html
-keywords:
-summary:
+keywords: cromwell engine, gatk, output
+summary: This section shows the output after executing GATK using the Cromwell engine.
 ---
 
-= Appendix C
+= Output for execution of GATK using the Cromwell engine
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -18,7 +18,9 @@ summary:
 // 2021-11-04 14:24:47.729917
 //
 
-Execution of GATK using Cromwell engine produces the following output.
+link:flexpod-genomics-appendix-b.html[Previous: Output for execution of GATK using the `./gatk` script.]
+
+The execution of GATK using the Cromwell engine produces the following output.
 
 ....
 [root@genomics1 genomics]# java -jar  cromwell-65.jar run /mnt/genomics/GATK/seq/ghplo.wdl  --inputs /mnt/genomics/GATK/seq/ghplo.json
@@ -112,3 +114,5 @@ Execution of GATK using Cromwell engine produces the following output.
 [2021-08-18 17:11:33,67] [info] WDL HTTP import resolver closed
 [root@genomics1 genomics]#
 ....
+
+link:flexpod-genomics-appendix-d--gpu-setup.html[Next: GPU setup.]
