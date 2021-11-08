@@ -80,6 +80,6 @@ https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_ope
 |Version |Date |Document version history
 
 |Version 1.0
-|October 2021
+|November 2021
 |Initial release.
 |===
