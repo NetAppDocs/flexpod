@@ -1,0 +1,152 @@
+---
+sidebar: sidebar
+permalink: healthcare/flexpod-genomics-solution-infrastructure-hardware-and-software-components.html
+keywords: GATK, setup, validation, cabling, hardware, software
+summary: This section describes the solution infrastructure and software components used in this solution.
+---
+
+= Solution infrastructure hardware and software components
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-11-04 14:24:47.682524
+//
+
+link:flexpod-genomics-benefits-of-deploying-genomic-workloads-on-flexpod.html[Previous: Benefits of deploying genomic workloads on FlexPod.]
+
+The following figure depicts the FlexPod system used for GATK setup and validation. We used https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_vmware_vsphere_7_0_ontap_9_7.html[FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7 Cisco Validated Design (CVD)^] during the setup process.
+
+image:flexpod-genomics-image6.png[Error: Missing Graphic Image]
+
+The following diagram depicts the FlexPod cabling details.
+
+image:flexpod-genomics-image7.png[Error: Missing Graphic Image]
+
+The following table lists the hardware components used during the GATK testing enabling on a FlexPod. Here is the https://mysupport.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] (IMT) and https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility List (HCL)^].
+
+|===
+|Layer |Product family  |Quantity and model |Details
+
+|Compute
+|Cisco UCS 5108 chassis
+|1 or 2
+|
+|
+|Cisco UCS blade servers
+|6 B200 M5
+|Each with 2x 20 or more cores, 2.7GHz, and 128-384GB RAM
+|
+|Cisco UCS Virtual Interface Card (VIC)
+|Cisco UCS 1440
+|See the
+|
+|2x Cisco UCS Fabric Interconnects
+|6332
+|-
+|Network
+|Cisco Nexus switches
+|2x Cisco Nexus 9332
+|-
+|Storage network
+|IP network for storage access over SMB/CIFS, NFS, or iSCSI protocols
+|Same network switches as above
+|-
+|
+|Storage access over FC
+|2x Cisco MDS 9148S
+|-
+|Storage
+|NetApp AFF A700 all-flash storage system
+|1 Cluster
+|Cluster with two nodes
+|
+|Disk shelf
+|One DS224C or NS224 disk shelf
+|Fully populated with 24 drives
+|
+|SSD
+|24, 1.2TB or larger capacity
+|-
+|===
+
+This table lists the infrastructure software.
+
+|===
+|Software |Product family  |Version or release |Details
+
+|Various
+|Linux
+|RHEL 8.3
+|-
+|
+|Windows
+|Windows Server 2012 R2 (64 bit)
+|-
+|
+|NetApp ONTAP
+|ONTAP 9.8 or later
+|-
+|
+|Cisco UCS Fabric Interconnect
+|Cisco UCS Manager 4.1 or later
+|-
+|
+|Cisco Ethernet 3000 or 9000 series switches
+|For 9000 series, 7.0(3)I7(7) or later
+For 3000 series, 9.2(4)
+or later
+|-
+|
+|Cisco FC: Cisco MDS 9132T
+|8.4(1a) or later
+|-
+|
+|Hypervisor
+|VMware vSphere ESXi 7.0
+|-
+|Storage
+|Hypervisor management system
+|VMware vCenter Server 7.0 (vCSA) or later
+|-
+|Network
+|NetApp Virtual Storage Console (VSC)
+|VSC 9.7 or later
+|-
+|
+|NetApp SnapCenter
+|SnapCenter 4.3 or later
+|-
+|
+|Cisco UCS Manager
+|4.1(3c) or later
+|
+|Hypervisor
+|ESXi
+|
+|
+|Management
+|Hypervisor management systemVMware vCenter Server 7.0 (vCSA) or later
+|
+|
+|
+|NetApp Virtual Storage Console (VSC)
+
+|VSC 9.7 or later
+|
+|
+|NetApp SnapCenter
+|SnapCenter 4.3 or later
+|
+|
+|Cisco UCS Manager
+|4.1(3c) or later
+|
+|===
+
+link:flexpod-genomics-genomics---gatk-setup-and-execution.html[Next: Genomics - GATK setup and execution.]

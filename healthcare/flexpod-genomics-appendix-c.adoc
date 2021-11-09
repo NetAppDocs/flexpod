@@ -1,0 +1,118 @@
+---
+sidebar: sidebar
+permalink: healthcare/flexpod-genomics-appendix-c.html
+keywords: cromwell engine, gatk, output
+summary: This section shows the output after executing GATK using the Cromwell engine.
+---
+
+= Output for execution of GATK using the Cromwell engine
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-11-04 14:24:47.729917
+//
+
+link:flexpod-genomics-appendix-b.html[Previous: Output for execution of GATK using the `./gatk` script.]
+
+The execution of GATK using the Cromwell engine produced the following sample output.
+
+....
+[root@genomics1 genomics]# java -jar  cromwell-65.jar run /mnt/genomics/GATK/seq/ghplo.wdl  --inputs /mnt/genomics/GATK/seq/ghplo.json
+[2021-08-18 17:10:50,78] [info] Running with database db.url = jdbc:hsqldb:mem:856a1f0d-9a0d-42e5-9199-5e6c1d0f72dd;shutdown=false;hsqldb.tx=mvcc
+[2021-08-18 17:10:57,74] [info] Running migration RenameWorkflowOptionsInMetadata with a read batch size of 100000 and a write batch size of 100000
+[2021-08-18 17:10:57,75] [info] [RenameWorkflowOptionsInMetadata] 100%
+[2021-08-18 17:10:57,83] [info] Running with database db.url = jdbc:hsqldb:mem:6afe0252-2dc9-4e57-8674-ce63c67aa142;shutdown=false;hsqldb.tx=mvcc
+[2021-08-18 17:10:58,17] [info] Slf4jLogger started
+[2021-08-18 17:10:58,33] [info] Workflow heartbeat configuration:
+{
+  "cromwellId" : "cromid-41b7e30",
+  "heartbeatInterval" : "2 minutes",
+  "ttl" : "10 minutes",
+  "failureShutdownDuration" : "5 minutes",
+  "writeBatchSize" : 10000,
+  "writeThreshold" : 10000
+}
+[2021-08-18 17:10:58,38] [info] Metadata summary refreshing every 1 second.
+[2021-08-18 17:10:58,38] [info] No metadata archiver defined in config
+[2021-08-18 17:10:58,38] [info] No metadata deleter defined in config
+[2021-08-18 17:10:58,40] [info] KvWriteActor configured to flush with batch size 200 and process rate 5 seconds.
+[2021-08-18 17:10:58,40] [info] WriteMetadataActor configured to flush with batch size 200 and process rate 5 seconds.
+[2021-08-18 17:10:58,44] [info] CallCacheWriteActor configured to flush with batch size 100 and process rate 3 seconds.
+[2021-08-18 17:10:58,44] [warn] 'docker.hash-lookup.gcr-api-queries-per-100-seconds' is being deprecated, use 'docker.hash-lookup.gcr.throttle' instead (see reference.conf)
+[2021-08-18 17:10:58,54] [info] JobExecutionTokenDispenser - Distribution rate: 50 per 1 seconds.
+[2021-08-18 17:10:58,58] [info] SingleWorkflowRunnerActor: Version 65
+[2021-08-18 17:10:58,58] [info] SingleWorkflowRunnerActor: Submitting workflow
+[2021-08-18 17:10:58,64] [info] Unspecified type (Unspecified version) workflow 3e246147-b1a9-41dc-8679-319f81b7701e submitted
+[2021-08-18 17:10:58,66] [info] SingleWorkflowRunnerActor: Workflow submitted 3e246147-b1a9-41dc-8679-319f81b7701e
+[2021-08-18 17:10:58,66] [info] 1 new workflows fetched by cromid-41b7e30: 3e246147-b1a9-41dc-8679-319f81b7701e
+[2021-08-18 17:10:58,67] [info] WorkflowManagerActor: Starting workflow 3e246147-b1a9-41dc-8679-319f81b7701e
+[2021-08-18 17:10:58,68] [info] WorkflowManagerActor: Successfully started WorkflowActor-3e246147-b1a9-41dc-8679-319f81b7701e
+[2021-08-18 17:10:58,68] [info] Retrieved 1 workflows from the WorkflowStoreActor
+[2021-08-18 17:10:58,70] [info] WorkflowStoreHeartbeatWriteActor configured to flush with batch size 10000 and process rate 2 minutes.
+[2021-08-18 17:10:58,76] [info] MaterializeWorkflowDescriptorActor [3e246147]: Parsing workflow as WDL draft-2
+[2021-08-18 17:10:59,34] [info] MaterializeWorkflowDescriptorActor [3e246147]: Call-to-Backend assignments: helloHaplotypeCaller.haplotypeCaller -> Local
+[2021-08-18 17:11:00,54] [info] WorkflowExecutionActor-3e246147-b1a9-41dc-8679-319f81b7701e [3e246147]: Starting helloHaplotypeCaller.haplotypeCaller
+[2021-08-18 17:11:01,56] [info] Assigned new job execution tokens to the following groups: 3e246147: 1
+[2021-08-18 17:11:01,70] [info] BackgroundConfigAsyncJobExecutionActor [3e246147helloHaplotypeCaller.haplotypeCaller:NA:1]: java -jar /mnt/genomics/cromwell-executions/helloHaplotypeCaller/3e246147-b1a9-41dc-8679-319f81b7701e/call-haplotypeCaller/inputs/-179397211/gatk-package-4.2.0.0-local.jar \
+     HaplotypeCaller \
+    -R /mnt/genomics/cromwell-executions/helloHaplotypeCaller/3e246147-b1a9-41dc-8679-319f81b7701e/call-haplotypeCaller/inputs/604632695/workshop_1906_2-germline_ref_ref.fasta \
+    -I /mnt/genomics/cromwell-executions/helloHaplotypeCaller/3e246147-b1a9-41dc-8679-319f81b7701e/call-haplotypeCaller/inputs/604617202/workshop_1906_2-germline_bams_father.bam \
+    -O fatherbam.raw.indels.snps.vcf
+[2021-08-18 17:11:01,72] [info] BackgroundConfigAsyncJobExecutionActor [3e246147helloHaplotypeCaller.haplotypeCaller:NA:1]: executing: /bin/bash /mnt/genomics/cromwell-executions/helloHaplotypeCaller/3e246147-b1a9-41dc-8679-319f81b7701e/call-haplotypeCaller/execution/script
+[2021-08-18 17:11:03,49] [info] BackgroundConfigAsyncJobExecutionActor [3e246147helloHaplotypeCaller.haplotypeCaller:NA:1]: job id: 26867
+[2021-08-18 17:11:03,53] [info] BackgroundConfigAsyncJobExecutionActor [3e246147helloHaplotypeCaller.haplotypeCaller:NA:1]: Status change from - to WaitingForReturnCode
+[2021-08-18 17:11:03,54] [info] Not triggering log of token queue status. Effective log interval = None
+[2021-08-18 17:11:23,65] [info] BackgroundConfigAsyncJobExecutionActor [3e246147helloHaplotypeCaller.haplotypeCaller:NA:1]: Status change from WaitingForReturnCode to Done
+[2021-08-18 17:11:25,04] [info] WorkflowExecutionActor-3e246147-b1a9-41dc-8679-319f81b7701e [3e246147]: Workflow helloHaplotypeCaller complete. Final Outputs:
+{
+  "helloHaplotypeCaller.haplotypeCaller.rawVCF": "/mnt/genomics/cromwell-executions/helloHaplotypeCaller/3e246147-b1a9-41dc-8679-319f81b7701e/call-haplotypeCaller/execution/fatherbam.raw.indels.snps.vcf"
+}
+[2021-08-18 17:11:28,43] [info] WorkflowManagerActor: Workflow actor for 3e246147-b1a9-41dc-8679-319f81b7701e completed with status 'Succeeded'. The workflow will be removed from the workflow store.
+[2021-08-18 17:11:32,24] [info] SingleWorkflowRunnerActor workflow finished with status 'Succeeded'.
+{
+  "outputs": {
+    "helloHaplotypeCaller.haplotypeCaller.rawVCF": "/mnt/genomics/cromwell-executions/helloHaplotypeCaller/3e246147-b1a9-41dc-8679-319f81b7701e/call-haplotypeCaller/execution/fatherbam.raw.indels.snps.vcf"
+  },
+  "id": "3e246147-b1a9-41dc-8679-319f81b7701e"
+}
+[2021-08-18 17:11:33,45] [info] Workflow polling stopped
+[2021-08-18 17:11:33,46] [info] 0 workflows released by cromid-41b7e30
+[2021-08-18 17:11:33,46] [info] Shutting down WorkflowStoreActor - Timeout = 5 seconds
+[2021-08-18 17:11:33,46] [info] Shutting down WorkflowLogCopyRouter - Timeout = 5 seconds
+[2021-08-18 17:11:33,46] [info] Shutting down JobExecutionTokenDispenser - Timeout = 5 seconds
+[2021-08-18 17:11:33,46] [info] Aborting all running workflows.
+[2021-08-18 17:11:33,46] [info] JobExecutionTokenDispenser stopped
+[2021-08-18 17:11:33,46] [info] WorkflowStoreActor stopped
+[2021-08-18 17:11:33,47] [info] WorkflowLogCopyRouter stopped
+[2021-08-18 17:11:33,47] [info] Shutting down WorkflowManagerActor - Timeout = 3600 seconds
+[2021-08-18 17:11:33,47] [info] WorkflowManagerActor: All workflows finished
+[2021-08-18 17:11:33,47] [info] WorkflowManagerActor stopped
+[2021-08-18 17:11:33,64] [info] Connection pools shut down
+[2021-08-18 17:11:33,64] [info] Shutting down SubWorkflowStoreActor - Timeout = 1800 seconds
+[2021-08-18 17:11:33,64] [info] Shutting down JobStoreActor - Timeout = 1800 seconds
+[2021-08-18 17:11:33,64] [info] Shutting down CallCacheWriteActor - Timeout = 1800 seconds
+[2021-08-18 17:11:33,64] [info] SubWorkflowStoreActor stopped
+[2021-08-18 17:11:33,64] [info] Shutting down ServiceRegistryActor - Timeout = 1800 seconds
+[2021-08-18 17:11:33,64] [info] Shutting down DockerHashActor - Timeout = 1800 seconds
+[2021-08-18 17:11:33,64] [info] Shutting down IoProxy - Timeout = 1800 seconds
+[2021-08-18 17:11:33,64] [info] CallCacheWriteActor Shutting down: 0 queued messages to process
+[2021-08-18 17:11:33,64] [info] JobStoreActor stopped
+[2021-08-18 17:11:33,64] [info] CallCacheWriteActor stopped
+[2021-08-18 17:11:33,64] [info] KvWriteActor Shutting down: 0 queued messages to process
+[2021-08-18 17:11:33,64] [info] IoProxy stopped
+[2021-08-18 17:11:33,64] [info] WriteMetadataActor Shutting down: 0 queued messages to process
+[2021-08-18 17:11:33,65] [info] ServiceRegistryActor stopped
+[2021-08-18 17:11:33,65] [info] DockerHashActor stopped
+[2021-08-18 17:11:33,67] [info] Database closed
+[2021-08-18 17:11:33,67] [info] Stream materializer shut down
+[2021-08-18 17:11:33,67] [info] WDL HTTP import resolver closed
+[root@genomics1 genomics]#
+....
+
+link:flexpod-genomics-appendix-d-gpu-setup.html[Next: GPU setup.]
