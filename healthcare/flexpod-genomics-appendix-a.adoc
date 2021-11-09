@@ -1,0 +1,94 @@
+---
+sidebar: sidebar
+permalink: healthcare/flexpod-genomics-appendix-a.html
+keywords: jar file, execution, GATK
+summary: This section provides the jar file output from GATK.
+---
+
+= Output for execution of GATK using the jar file
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-11-04 14:24:47.710941
+//
+
+link:flexpod-genomics-genomics---gatk-setup-and-execution.html[Previous: Genomics - GATK setup and execution.]
+
+Execution of GATK using the jar file produced the following sample output.
+
+....
+[root@genomics1 execution]# java -Dsamjdk.use_async_io_read_samtools=false \
+-Dsamjdk.use_async_io_write_samtools=true \
+-Dsamjdk.use_async_io_write_tribble=false \
+-Dsamjdk.compression_level=2 \
+-jar /mnt/genomics/GATK/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar \
+HaplotypeCaller \
+--input /mnt/genomics/GATK/TEST\ DATA/bam/workshop_1906_2-germline_bams_father.bam \
+--output workshop_1906_2-germline_bams_father.validation.vcf \
+--reference /mnt/genomics/GATK/TEST\ DATA/ref/workshop_1906_2-germline_ref_ref.fasta \
+22:52:58.430 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/mnt/genomics/GATK/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Aug 17, 2021 10:52:58 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+22:52:58.541 INFO  HaplotypeCaller - ------------------------------------------------------------
+22:52:58.542 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.2.0.0
+22:52:58.542 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+22:52:58.542 INFO  HaplotypeCaller - Executing as root@genomics1.healthylife.fp on Linux v4.18.0-305.3.1.el8_4.x86_64 amd64
+22:52:58.542 INFO  HaplotypeCaller - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_302-b08
+22:52:58.542 INFO  HaplotypeCaller - Start Date/Time: August 17, 2021 10:52:58 PM EDT
+22:52:58.542 INFO  HaplotypeCaller - ------------------------------------------------------------
+22:52:58.542 INFO  HaplotypeCaller - ------------------------------------------------------------
+22:52:58.542 INFO  HaplotypeCaller - HTSJDK Version: 2.24.0
+22:52:58.542 INFO  HaplotypeCaller - Picard Version: 2.25.0
+22:52:58.542 INFO  HaplotypeCaller - Built for Spark Version: 2.4.5
+22:52:58.542 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+22:52:58.543 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+22:52:58.543 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+22:52:58.543 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+22:52:58.543 INFO  HaplotypeCaller - Deflater: IntelDeflater
+22:52:58.543 INFO  HaplotypeCaller - Inflater: IntelInflater
+22:52:58.543 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+22:52:58.543 INFO  HaplotypeCaller - Requester pays: disabled
+22:52:58.543 INFO  HaplotypeCaller - Initializing engine
+22:52:58.804 INFO  HaplotypeCaller - Done initializing engine
+22:52:58.809 INFO  HaplotypeCallerEngine - Disabling physical phasing, which is supported only for reference-model confidence output
+22:52:58.820 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/mnt/genomics/GATK/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+22:52:58.821 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/mnt/genomics/GATK/gatk-4.2.0.0/gatk-package-4.2.0.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+22:52:58.854 INFO  IntelPairHmm - Using CPU-supported AVX-512 instructions
+22:52:58.854 INFO  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+22:52:58.854 INFO  IntelPairHmm - Available threads: 16
+22:52:58.854 INFO  IntelPairHmm - Requested threads: 4
+22:52:58.854 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+22:52:58.872 INFO  ProgressMeter - Starting traversal
+22:52:58.873 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+22:53:00.733 WARN  InbreedingCoeff - InbreedingCoeff will not be calculated at position 20:9999900 and possibly subsequent; at least 10 samples must have called genotypes
+22:53:08.873 INFO  ProgressMeter -          20:17538652              0.2                 58900         353400.0
+22:53:17.681 INFO  HaplotypeCaller - 405 read(s) filtered by: MappingQualityReadFilter
+0 read(s) filtered by: MappingQualityAvailableReadFilter
+0 read(s) filtered by: MappedReadFilter
+0 read(s) filtered by: NotSecondaryAlignmentReadFilter
+6628 read(s) filtered by: NotDuplicateReadFilter
+0 read(s) filtered by: PassesVendorQualityCheckReadFilter
+0 read(s) filtered by: NonZeroReferenceLengthAlignmentReadFilter
+0 read(s) filtered by: GoodCigarReadFilter
+0 read(s) filtered by: WellformedReadFilter
+7033 total reads filtered
+22:53:17.681 INFO  ProgressMeter -          20:63024652              0.3                210522         671592.9
+22:53:17.681 INFO  ProgressMeter - Traversal complete. Processed 210522 total regions in 0.3 minutes.
+22:53:17.687 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 0.010347438
+22:53:17.687 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 0.259172573
+22:53:17.687 INFO  SmithWatermanAligner - Total compute time in java Smith-Waterman : 1.27 sec
+22:53:17.687 INFO  HaplotypeCaller - Shutting down engine
+[August 17, 2021 10:53:17 PM EDT] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 0.32 minutes.
+Runtime.totalMemory()=5561122816
+[root@genomics1 execution]#
+....
+
+Notice that the output file is located at the location specified after the execution.
+
+link:flexpod-genomics-appendix-b.html[Next: Output for execution of GATK using the `./gatk` script.]
