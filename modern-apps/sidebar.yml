@@ -11,3 +11,15 @@ entries:
     url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html
   - title: FlexPod Datacenter with Docker Datacenter for Container Management [Design]
     url: http://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_docker_deploy_design.html
+  - title: FlexPod Datacenter for OpenShift Container Platform 4 Design guide
+    url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_openshift4_design.html
+  - title: FlexPod Datacenter for AI/ML with Cisco UCS 480 ML & Nvidia T4 & vGPU for Deep Learning CVD Design Guide
+    url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html
+  - title: FlexPod Datacenter for AI/ML with Cisco UCS 480 ML & Nvidia T4 & vGPU for Deep Learning CVD Deployment Guide
+    url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_480ml_aiml_deployment.html
+  - title: FlexPod Datacenter for AI/ML with Cisco UCS C480 ML for Deep Learning Design Guide
+    url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html
+  - title: FlexPod for 3D Graphics Visualization with VMware and NVIDIA
+    url: https://www.cisco.com/c/dam/en/us/solutions/collateral/data-center-virtualization/desktop-virtualization-solutions-vmware-horizon-view/whitepaper-c11-741606.pdf
+  - title: FlexPod for 3D Graphics Visualization with Citrix and NVIDIA (White Paper)
+    url: https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/whitepaper-c11-741586.pdf
