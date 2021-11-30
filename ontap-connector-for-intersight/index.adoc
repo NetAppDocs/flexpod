@@ -12,7 +12,7 @@ summary: NetApp and Cisco have partnered to provide Cisco Intersight, a single-p
 :linkattrs:
 :imagesdir: ./../media/
 
-Rachel Lithman and Sree Lanka, NetApp
+Rachel Lithman and Jyh-Shing Chen, NetApp
 
 In partnership with:
 image:cisco logo.png[Error: Missing Graphic Image]
