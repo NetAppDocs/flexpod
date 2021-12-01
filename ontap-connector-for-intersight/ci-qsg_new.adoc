@@ -16,7 +16,7 @@ This section lists new features and functionality available for Cisco Intersight
 
 == October 2021
 
-* Updated list of NetApp storage tasks available within Cisco Intersight. See link:ontap-connector-for-intersight/ci-qsg_use_cases.html#use-case-3:-custom-workflows-using-designer-free-form[Use case 3: Custom workflows using designer-free form for a complete list of NetApp storage tasks].
+* Updated list of NetApp storage tasks available within Cisco Intersight. See link:ci-qsg_use_cases.html#use-case-3:-custom-workflows-using-designer-free-form[Use case 3: Custom workflows using designer-free form] for a complete list of NetApp storage tasks.
 * Added Health column under the Cluster list page.
 * Expanded details now available under the General page for a selected cluster.
 * NTP Server table now accessible through the navigation pane.
