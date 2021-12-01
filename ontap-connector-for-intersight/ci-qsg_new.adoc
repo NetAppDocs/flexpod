@@ -20,8 +20,8 @@ This section lists new features and functionality available for Cisco Intersight
 * Added Health column under the Cluster list page.
 * Expanded details now available under the General page for a selected cluster.
 * NTP Server table now accessible through the navigation pane.
-* Added a new Sensors tab containing PSU, Fan, FRU information under the Nodes page.
-* CIFS and NVMe information now listed under the General page for the Storage Virtual Machine.
+* Added a new Sensors tab containing
+ the General page for the Storage Virtual Machine.
 * VLAN and link aggregation group summary now available under the Port General page.
 * Total Data Capacity column added under the Volume Total Capacity table.
 * Latency, IOPS, and Throughput columns added under Average Volume Statistics, Average LUN Statistics, Average Aggregate Statistics, Average Storage VM Statistics, and Average Node Statistics tables
