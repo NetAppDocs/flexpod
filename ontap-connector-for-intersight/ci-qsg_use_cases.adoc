@@ -15,7 +15,7 @@ summary: These are a few use case examples for monitoring and orchestration of N
 [.lead]
 These are a few use case examples for monitoring and orchestration of NetApp storage from Cisco Intersight.
 
-== Use case 1 Monitoring NetApp storage inventory and widgets
+== Use case 1: Monitoring NetApp storage inventory and widgets
 
 When the NetApp storage environment is available in Cisco Intersight, you can monitor NetApp storage objects in detail from storage inventory and get an overview from storage widgets.
 
@@ -26,7 +26,7 @@ When the NetApp storage environment is available in Cisco Intersight, you can mo
 +
 Here is a https://tv.netapp.com/detail/video/6228096841001[link^] to the video showing NetApp ONTAP Storage Monitoring Features from Cisco Intersight.
 
-== Use case 2 NetApp storage orchestration using Reference Workflows
+== Use case 2: NetApp storage orchestration using Reference Workflows
 
 When NetApp storage and vCenter environments are available in Cisco Intersight, you can execute end-to-end Reference Workflows available out of box that include storage and virtualization tasks.
 
@@ -52,7 +52,7 @@ Here is a list of Reference Workflows:
 ** New Storage Virtual Machine
 ** New Virtual Machine
 
-== Use case 3 Custom workflows using designer-free form
+== Use case 3: Custom workflows using designer-free form
 
 When the NetApp Storage and vCenter environments are available in Cisco Intersight, you can build custom workflows using the NetApp storage and virtualization tasks.
 
