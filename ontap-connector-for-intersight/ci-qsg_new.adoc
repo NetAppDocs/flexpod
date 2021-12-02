@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: ontap-connector-for-intersight/reference-new.html
+permalink: ontap-connector-for-intersight/ci-qsg_new.html
 keywords: netapp, cisco, ontap, intersight, flexpod, what's new, features, release notes, enhancements
 summary: Cisco Intersight introduces new releases to bring you new features, enhancements, and bug fixes.
 ---
@@ -16,12 +16,12 @@ This section lists new features and functionality available for Cisco Intersight
 
 == October 2021
 
-* Updated list of NetApp storage tasks available within Cisco Intersight. See link:ontap-connector-for-intersight/ci-qsg_use_cases.html[Use case 3: Custom workflows using designer-free form for a complete list of NetApp storage tasks].
+* Updated list of NetApp storage tasks available within Cisco Intersight. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form] for a complete list of NetApp storage tasks.
 * Added Health column under the Cluster list page.
 * Expanded details now available under the General page for a selected cluster.
 * NTP Server table now accessible through the navigation pane.
-* Added a new Sensors tab containing PSU, Fan, FRU information under the Nodes page.
-* CIFS and NVMe information now listed under the General page for the Storage Virtual Machine.
+* Added a new Sensors tab containing
+ the General page for the Storage Virtual Machine.
 * VLAN and link aggregation group summary now available under the Port General page.
 * Total Data Capacity column added under the Volume Total Capacity table.
 * Latency, IOPS, and Throughput columns added under Average Volume Statistics, Average LUN Statistics, Average Aggregate Statistics, Average Storage VM Statistics, and Average Node Statistics tables
