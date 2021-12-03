@@ -1,0 +1,14 @@
+section: infrastructure
+title: Infrastructure
+entries:
+  - title: NVMe with vSphere 7 for FlexPod
+    type: solutions
+    entries:
+      - title: Introduction
+        url: /infrastructure/nvme-vsphere-introduction.html
+      - title: Testing approach
+        url: /infrastructure/nvme-vsphere-testing-approach.html
+      - title: Test results
+        url: /infrastructure/nvme-vsphere-test-results.html
+      - title: Conclusion
+        url: /infrastructure/nvme-vsphere-conclusion.html
