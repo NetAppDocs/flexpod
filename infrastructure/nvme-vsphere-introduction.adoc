@@ -6,7 +6,7 @@ summary: This solution provides a high-level summary of the FC-NVMe performance 
 
 ---
 
-= TR-4914: End-to-End NVMe for FlexPod with Cisco UCSM, vSphere 7.0, and NetApp ONTAP 9
+= TR-4914: End-to-End NVMe for FlexPod with Cisco UCSM, VMware vSphere 7.0, and NetApp ONTAP 9
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -22,7 +22,7 @@ summary: This solution provides a high-level summary of the FC-NVMe performance 
 Chris Schmitt and Kamini Singh, NetApp
 
 In partnership with:
-image:nvme-vsphere-image8.png[Error: Missing Graphic Image]
+image:cisco logo.png[Error: Missing Graphic Image]
 
 The NVMe data-storage standard, an emerging core technology, is transforming enterprise data storage access and transport by delivering very high bandwidth and very low latency storage access for current and future memory technologies. NVMe replaces the SCSI command set with the NVMe command set.
 
