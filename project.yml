@@ -21,6 +21,7 @@ sidebar:
     - section: express
     - section: security
     - section: ontap-connector-for-intersight
+    - section: infrastructure
 
 homepage:
   tiles:
