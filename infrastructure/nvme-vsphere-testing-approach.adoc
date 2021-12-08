@@ -1,0 +1,120 @@
+---
+sidebar: sidebar
+permalink: infrastructure/nvme-vsphere-testing-approach.html
+keywords: test, environment, hardware, software, plan
+summary: This section provides a high-level summary of the FC-NVMe on FlexPod validation testing. It includes both the test environment/configuration and the test plan adopted to perform the workload testing with respect to FC-NVMe for FlexPod with VMware vSphere 7.
+---
+
+= Testing approach
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-12-02 11:36:19.877872
+//
+
+link:nvme-vsphere-introduction.html[Previous: Introduction.]
+
+This section provides a high-level summary of the FC-NVMe on FlexPod validation testing. It includes both the test environment/configuration and the test plan adopted to perform the workload testing with respect to FC-NVMe for FlexPod with VMware vSphere 7.
+
+== Test environment
+
+The Cisco Nexus 9000 Series Switches support two modes of operation:
+
+* NX-OS standalone mode, using Cisco NX-OS software
+* ACI fabric mode, using the Cisco Application Centric Infrastructure (Cisco ACI) platform
+
+In standalone mode, the switch performs like a typical Cisco Nexus switch, with increased port density, low latency, and 40GbE and 100GbE connectivity.
+
+FlexPod with NX-OS is designed to be fully redundant in the computing, network, and storage layers. There is no single point of failure from a device or traffic path perspective. The figure below shows the connection of the various elements of the latest FlexPod design used in this validation of FC-NVMe.
+
+image:nvme-vsphere-image2.png[Error: Missing Graphic Image]
+
+From an FC SAN perspective, this design uses the latest fourth-generation Cisco UCS 6454 fabric interconnects and the Cisco UCS VICs 1400 platform with port expander in the servers. The Cisco UCS B200 M6 Blade Servers in the Cisco UCS chassis use the Cisco UCS VIC 1440 with Port Expander connected to the Cisco UCS 2408 Fabric Extender IOM, and each Fibre Channel over Ethernet (FCoE) virtual host bus adapter (vHBA) has a speed of 40Gbps. The Cisco UCS C220 M5 Rack Servers managed by Cisco UCS use the Cisco UCS VIC 1457 with two 25Gbps interfaces to each Fabric Interconnect. Each C220 M5 FCoE vHBA has a speed of 50Gbps.
+
+The fabric interconnects connect through 32Gbps SAN port channels to the latest-generation Cisco MDS 9148T or 9132T FC switches. The connectivity between the Cisco MDS switches and the NetApp AFF A800 storage cluster is also 32Gbps FC. This configuration supports 32Gbps FC, for Fibre Channel Protocol (FCP), and FC-NVMe storage between the storage cluster and Cisco UCS. For this validation, four FC connections to each storage controller are used. On each storage controller, the four FC ports are used for both FCP and FC-NVMe protocols.
+
+Connectivity between the Cisco Nexus switches and the latest-generation NetApp AFF A800 storage cluster is also 100Gbps with port channels on the storage controllers and vPCs on the switches. The NetApp AFF A800 storage controllers are equipped with NVMe disks on the higher-speed Peripheral Connect Interface Express (PCIe) bus.
+
+The FlexPod implementation used in this validation is based on https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_m6_esxi7u2.html[FlexPod Datacenter with Cisco UCS 4.2(1) in UCS Managed Mode, VMware vSphere 7.0U2, and NetApp ONTAP 9.9^].
+
+== Validated hardware and software
+
+The following table lists the hardware and software versions used during the solution validation process. Note that Cisco and NetApp have interoperability matrixes that should be referenced to determine support for any specific implementation of FlexPod. For more information, see the following resources:
+
+* https://mysupport.netapp.com/matrix/[NetApp Interoperability Matrix Tool^]
+* https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Interoperability Tool]
+
+|===
+|Layer |Device |Image |Comments
+
+|Computing
+a|* Two Cisco UCS 6454 Fabric Interconnects
+* One Cisco UCS 5108 blade chassis with two Cisco UCS 2408 I/O modules
+* Four Cisco UCS B200 M6 blades, each with one Cisco UCS VIC 1440 adapter and port expander card
+|Release 4.2(1f)
+|Includes Cisco UCS Manager, Cisco UCS VIC 1440, and port expander
+|CPU
+|Two Intel Xeon Gold 6330 CPUs at 2.0 GHz, with 42-MB Layer 3 cache and 28 cores per CPU
+|–
+|–
+|Memory
+|1024GB (16x 64GB DIMMS operating at 3200MHz)
+|–
+|–
+|Network
+|Two Cisco Nexus 9336C-FX2 switches in NX-OS standalone mode
+|Release 9.3(8)
+|–
+|Storage network
+|Two Cisco MDS 9132T 32Gbps 32-port FC switches
+|Release 8.4(2c)
+|Supports FC-NVMe SAN analytics
+|Storage
+|Two NetApp AFF A800 storage controllers with 24x 1.8TB NVMe SSDs
+|NetApp ONTAP 9.9.1P1
+|–
+|Software
+|Cisco UCS Manager
+|Release 4.2(1f)
+|–
+|
+|VMware vSphere
+|7.0U2
+|–
+|
+|VMware ESXi
+|7.0.2
+|–
+|
+|VMware ESXi native Fibre Channel NIC driver (NFNIC)
+|5.0.0.12
+|Supports FC-NVMe on VMware
+|
+|VMware ESXi native Ethernet NIC driver (NENIC)
+|1.0.35.0
+|–
+|Testing tool
+|FIO
+|3.19
+|–
+|===
+
+== Test plan
+
+We developed a performance test plan to validate NVMe on FlexPod using a synthetic workload. This workload allowed us to execute 8KB random reads and writes as well as 64KB reads and writes. We used VMware ESXi hosts to run our test cases against the AFF A800 storage.
+
+We used FIO, an open-source synthetic I/O tool that can be used for performance measurement, to generate our synthetic workload.
+
+To complete our performance testing, we conducted several configuration steps on both the storage and servers. Below are the detailed steps for the implementation:
+
+. On the storage side, we created four storage virtual machines (SVMs, formerly known as Vservers), eight volumes per SVM, and one namespace per volume. We created 1TB volumes and 960GB namespaces. We created four LIFs per SVM as well as one subsystem per SVM. The SVM LIFs were evenly spread across the eight available FC ports on the cluster.
+. On the server side, we created a single virtual machine (VM) on each of our ESXi hosts, for a total of four VMs. We installed FIO on our servers to run the synthetic workloads.
+. After the storage and the VMs were configured, we were able to connect to the storage namespaces from the ESXi hosts. This allowed us to create datastores based on our namespace and then create Virtual Machine Disks (VMDKs) based on those datastores.
+
+link:nvme-vsphere-test-results.html[Next: Test results.]

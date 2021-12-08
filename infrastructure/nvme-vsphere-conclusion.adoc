@@ -1,0 +1,113 @@
+---
+sidebar: sidebar
+permalink: infrastructure/nvme-vsphere-conclusion.html
+keywords: conclusion, additional information, acknowledgements, interoperability matrixes
+summary: With FlexPod, Cisco and NetApp have created a platform that is both flexible and scalable for multiple use cases and applications. With FC-NVMe, FlexPod adds another feature to help organizations efficiently and effectively support business-critical applications running simultaneously from the same shared infrastructure.
+---
+
+= Conclusion
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./..media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-12-02 11:36:19.888778
+//
+
+link:nvme-vsphere-test-results.html[Previous: Test results.]
+
+The observed throughput for this solution was 14GBps and 220k IOPS for a sequential read workload under 1ms latency. For random read workloads, we reached a throughput of 9.5GBps and 1.25M IOPS. The ability of FlexPod to provide this performance with FC-NVMe can address the needs of any mission-critical applications.
+
+FlexPod Datacenter with VMware vSphere 7.0 U2 is the optimal shared infrastructure foundation to deploy FC-NVMe for a variety of IT workloads thereby providing high-performance storage access to applications that require it. As FC-NVMe evolves to include high availability, multipathing, and additional operating system support, FlexPod is well suited as the platform of choice, providing the scalability and reliability needed to support these capabilities.
+
+With FlexPod, Cisco and NetApp have created a platform that is both flexible and scalable for multiple use cases and applications. With FC-NVMe, FlexPod adds another feature to help organizations efficiently and effectively support business-critical applications running simultaneously from the same shared infrastructure. The flexibility and scalability of FlexPod also enables customers to start with a right-sized infrastructure that can grow with and adapt to their evolving business requirements.
+
+== Additional information
+
+To learn more about the information that is described in this document, review the following documents and/or websites:
+
+* Cisco Unified Computing System (UCS)
++
+http://www.cisco.com/en/US/products/ps10265/index.html[http://www.cisco.com/en/US/products/ps10265/index.html^]
+
+* Cisco UCS 6400 Series Fabric Interconnects Data Sheet
++
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/datasheet-c78-741116.html[https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/datasheet-c78-741116.html^]
+
+* Cisco UCS 5100 Series Blade Server Chassis
++
+http://www.cisco.com/en/US/products/ps10279/index.html[http://www.cisco.com/en/US/products/ps10279/index.html^]
+
+* Cisco UCS B-Series Blade Servers
++
+http://www.cisco.com/en/US/partner/products/ps10280/index.html[http://www.cisco.com/en/US/partner/products/ps10280/index.html^]
+
+* Cisco UCS C-Series Rack Servers
++
+http://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html[http://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html^]
+
+* Cisco Unified Computing System Adapters
++
+http://www.cisco.com/en/US/products/ps10277/prod_module_series_home.html[http://www.cisco.com/en/US/products/ps10277/prod_module_series_home.html^]
+
+* Cisco UCS Manager
++
+http://www.cisco.com/en/US/products/ps10281/index.html[http://www.cisco.com/en/US/products/ps10281/index.html^]
+
+* Cisco Nexus 9000 Series Switches
++
+http://www.cisco.com/c/en/us/products/switches/nexus-9000-series-switches/index.html[http://www.cisco.com/c/en/us/products/switches/nexus-9000-series-switches/index.html^]
+
+* Cisco MDS 9000 Multilayer Fabric Switches
++
+http://www.cisco.com/c/en/us/products/storage-networking/mds-9000-series-multilayer-switches/index.html[http://www.cisco.com/c/en/us/products/storage-networking/mds-9000-series-multilayer-switches/index.html^]
+
+* Cisco MDS 9132T 32-Gbps 32-Port Fibre Channel Switch
++
+https://www.cisco.com/c/en/us/products/collateral/storage-networking/mds-9100-series-multilayer-fabric-switches/datasheet-c78-739613.html[https://www.cisco.com/c/en/us/products/collateral/storage-networking/mds-9100-series-multilayer-fabric-switches/datasheet-c78-739613.html^]
+
+* NetApp ONTAP 9
++
+http://www.netapp.com/us/products/platform-os/ontap/index.aspx[http://www.netapp.com/us/products/platform-os/ontap/index.aspx^]
+
+* NetApp AFF A-Series
++
+http://www.netapp.com/us/products/storage-systems/all-flash-array/aff-a-series.aspx[http://www.netapp.com/us/products/storage-systems/all-flash-array/aff-a-series.aspx^]
+
+* VMware vSphere
++
+https://www.vmware.com/products/vsphere[https://www.vmware.com/products/vsphere^]
+
+* VMware vCenter Server
++
+http://www.vmware.com/products/vcenter-server/overview.html[http://www.vmware.com/products/vcenter-server/overview.html^]
+
+* Best Practices for modern SAN
++
+https://www.netapp.com/us/media/tr-4080.pdf[https://www.netapp.com/us/media/tr-4080.pdf^]
+
+* Introducing End-to-End NVMe for FlexPod
++
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/whitepaper-c11-741907.html[https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/whitepaper-c11-741907.html^]
+
+== Interoperability matrixes
+
+* NetApp Interoperability Matrix Tool
++
+http://support.netapp.com/matrix/[http://support.netapp.com/matrix/^]
+
+* Cisco UCS Hardware Compatibility Matrix
++
+https://ucshcltool.cloudapps.cisco.com/public/[https://ucshcltool.cloudapps.cisco.com/public/^]
+
+* VMware Compatibility Guide
++
+http://www.vmware.com/resources/compatibility[http://www.vmware.com/resources/compatibility^]
+
+== Acknowledgements
+
+The authors would like to thank John George from Cisco and Scott Lane and Bobby Oommen from NetApp for the assistance and guidance offered during this project execution.
