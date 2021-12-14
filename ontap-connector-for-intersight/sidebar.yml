@@ -4,6 +4,8 @@ entries:
   - title: Introduction
     url: /ontap-connector-for-intersight/index.html
     type: solutions
+  - title: What's new
+    url: /ontap-connector-for-intersight/ci-qsg_new.html
   - title: Requirements
     url: /ontap-connector-for-intersight/ci-qsg_requirements.html
   - title: Before you begin

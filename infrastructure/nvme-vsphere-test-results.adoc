@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: infrastructure/nvme-vsphere-test-results.html
+keywords: test, results, iops, latency
+summary:
+---
+
+= Test results
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-12-02 11:36:19.883073
+//
+
+link:nvme-vsphere-testing-approach.html[Previous: Testing approach.]
+
+Testing consisted of running the FIO workloads to measure the FC-NVMe performance in terms of IOPS and latency.
+
+The following graph illustrates our findings when running a 100% random read workload using 8KB block sizes.
+
+image:nvme-vsphere-image3.png[Error: Missing Graphic Image]
+
+In our testing, we found that the system achieved over 1.2M IOPS while maintaining just under 0.35ms of server-side latency.
+
+The following graph illustrates our findings when running a 100% random write workload using 8KB block sizes.
+
+image:nvme-vsphere-image4.png[Error: Missing Graphic Image]
+
+In our testing, we found that the system achieved close to 300k IOPS while maintaining just under 1ms of server-side latency.
+
+For 8KB block size with 80% random reads and 20% writes, we observed the following results:
+
+image:nvme-vsphere-image5.png[Error: Missing Graphic Image]
+
+In our testing, we found that the system achieved over 1M IOPS while maintaining just under 1ms of server-side latency.
+
+For 64KB block size and 100% sequential reads, we observed the following results:
+
+image:nvme-vsphere-image6.png[Error: Missing Graphic Image]
+
+In our testing, we found that the system achieved around 250k IOPS while maintaining just under 1ms of server-side latency.
+
+For 64KB block size and 100% sequential writes, we observed the following results:
+
+image:nvme-vsphere-image7.png[Error: Missing Graphic Image]
+
+In our testing, we found that the system achieved around 120k IOPS while maintaining under 1ms of server-side latency.
+
+link:nvme-vsphere-conclusion.html[Next: Conclusion.]
