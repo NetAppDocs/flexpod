@@ -12,6 +12,7 @@ sidebar:
     - title: FlexPod Solutions Documentation
       url: /index.html
     - section: fp-def
+    - section: flexpod-dc
     - section: hybrid-cloud
     - section: ent-db
     - section: healthcare
