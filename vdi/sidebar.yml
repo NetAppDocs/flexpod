@@ -11,3 +11,5 @@ entries:
     url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/cisco_ucs_xd715esxi65u1_flexpod.html
   - title: FlexPod Datacenter with VMware Horizon View 7.3 and VMware vSphere 6.5 Update 1 with Cisco UCS Manager 3.2 for 5000 Seats
     url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vmware_horizon_n9k_aff_ucsm32.html
+  - title: FlexPod Datacenter with NetApp ONTAP 9.6, VMware Horizon View 7.10, and VMware vSphere 6.7 U2 with Cisco UCS Manager 4.0 for up to 6700 Seats
+    url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_ontap96_vmware710_67_u2_ucs_40_6700_seats.html
