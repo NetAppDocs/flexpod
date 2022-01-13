@@ -38,20 +38,16 @@ The controller families that are listed in the table below are appropriate for u
 
 == Cluster interconnect switch options
 
-The following table lists the NetApp and Cisco Nexus cluster interconnect switches that are available for FlexPod architectures. In addition, FlexPod supports all ONTAP supported cluster switches including non-Cisco switches, provided they are compatible with the version of ONTAP being deployed. See the https://hwu.netapp.com/[NetApp Hardware Universe^] for additional compatibility details for specific switch models.
+The following table lists the Nexus cluster interconnect switches that are available for FlexPod architectures. In addition, FlexPod supports all ONTAP supported cluster switches including non-Cisco switches, provided they are compatible with the version of ONTAP being deployed. See the https://hwu.netapp.com/[NetApp Hardware Universe^] for additional compatibility details for specific switch models.
 
 |===
 |Cluster interconnect switch |Technical specifications
-
-|NetApp CN1610
-|
-https://mysupport.netapp.com/documentation/docweb/index.html?productID=62373&language=en-US[NetApp Documentation: CN1610 switches]
-|Cisco Nexus 3232C
-|
-https://mysupport.netapp.com/documentation/docweb/index.html?productID=62619&language=en-US[NetApp Documentation: Cisco Nexus 3232C switches]
 |Cisco Nexus 3132Q-V
 |
 https://mysupport.netapp.com/documentation/docweb/index.html?productID=62377&language=en-US[NetApp Documentation: Cisco Nexus 3132Q-V switches]
+|Cisco Nexus 9336C-FX2
+|
+https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336/9336-overview.html[NetApp Documentation: Cisco Nexus 9336C-FX2 switches]
 |===
 
 == NetApp disk shelf and drive options
