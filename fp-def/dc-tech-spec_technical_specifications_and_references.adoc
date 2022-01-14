@@ -66,44 +66,78 @@ The technical specifications for Cisco UCS B-Series Blade Servers, as shown in t
 |===
 |Component |Cisco UCS datasheet
 
-|Cisco UCS B200 M5
+|Cisco UCS B200 M6
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/b200m5-specsheet.pdf[Cisco UCS B200 M5 Blade Server]
-|Cisco UCS B480 M5
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/datasheet-c78-739280.html[Cisco UCS B480 M5 Blade Server]
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/datasheet-c78-2368888.html[Cisco UCS B200 M6 Blade Server]
 |===
 
 == Cisco UCS C-Series rack servers
 
-The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and the size of the form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The tables below illustrate the C-Series Rack Server datasheets and Cisco UCS C-Series chassis option, respectively.
+The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and the size of the form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The following tables illustrate the C-Series Rack Server datasheets and Cisco UCS C-Series chassis option, respectively.
 
 |===
 |Component |Cisco UCS datasheet
 
-|Cisco UCS C220 M5
+|Cisco UCS C220 M6
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/datasheet-c78-739281.html[Cisco UCS C220 M5 Rack Server]
-|Cisco UCS C240 M5
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m6-sff-specsheet.pdf[Cisco UCS C220 M6 Rack Server]
+|Cisco UCS C225 M6
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/datasheet-c78-739279.html[Cisco UCS C240 M5 Rack Server]
-|Cisco UCS C480 M5
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c225-m6-sff-specsheet.pdf[Cisco UCS C225 M6 Rack Server]
+|Cisco UCS C240 M6
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/datasheet-c78-739291.html[Cisco UCS C480 M5 Rack Server]
-|Cisco UCS C480 ML M5
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c240m6-sff-specsheet.pdf[Cisco UCS C240 M6 Rack Server]
+|Cisco UCS C245 M6
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/datasheet-c78-741211.html[Cisco UCS C480 ML M5 Rack Server]
-|Cisco UCS C125 M5
-|
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c125m5-rack-server-node.pdf[Cisco UCS C125 M5 Rack Server Node]
-|===
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c245m6-sff-specsheet.pdf[Cisco UCS C245 M6 Rack Server]
 
 |===
-|Cisco UCS C-Series Chassis |Cisco UCS datasheet
 
-|Cisco UCS C4200
+== Cisco UCS X-Series chassis
+
+The technical specifications for Cisco UCS X-Series chassis, as shown in the table below, include the following components:
+
+* Number of rack units
+* Maximum number of nodes
+* Unified Fabric capability
+* Number of I/O bays for IFMs
+
+|===
+|Component |Cisco UCS 9508 X-Series compute node chassis
+
+|Rack units
+|7
+|Maximum number of nodes
+|8
+|Capable of Unified Fabric
+|Yes
+|I/O bays for IFMs
+|Two bays for Cisco UCS 9108 Intelligent Fabric Modules (IFMs)
+
+|===
+
+For more information, see the link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/datasheet-c78-2472574.html[Cisco UCS X9508 X-Series Chassis Datasheet^].
+
+== Cisco UCS X-Series compute node
+
+The technical specifications for Cisco UCS X-Series compute node, as shown in the following table below, include the following components:
+
+*	Number of processor sockets
+*	Processor support
+*	Memory capacity
+*	Size and speed
+*	SAN boot support
+*	Number of mezzanine adapter slots
+*	I/O maximum throughput
+*	Form factor
+* Maximum number of compute nodes per chassis
+
+|===
+|Component | Cisco UCS datasheet
+|Cisco UCS X210c M6
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c4200-series-rack-server-chassis/datasheet-c78-740839.html[Cisco UCS C4200 Series Rack Server Chassis]
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/datasheet-c78-2465523.html?ccid=cc002456&oid=dstcsm026318[Cisco UCS X210c M6 Compute Node]
+
 |===
 
 == GPU recommendation for FlexPod AI, ML, and DL
@@ -115,18 +149,14 @@ The table below also lists the recommended GPUs that can be used with these serv
 |===
 |Server |GPUs
 
-|Cisco UCS C480 ML M5
-|NVIDIA SXM2 V100 32G
-|Cisco UCS C480 M5
-|NVIDIA V100 (16GB/ 32GB)
-NVIDIA T4 (16GB)
-|Cisco UCS C240 M5
-|NVIDIA V100 (16GB/ 32GB)
-NVIDIA T4 (16GB)
-|Cisco UCS C220 M5
-|NVIDIA T4 (16GB)
-|Cisco UCS C125 M5
-|NVIDIA T4 (16GB)
+|Cisco UCS C220 M6
+|NVIDIA T4
+|Cisco UCS C225 M6
+|NVIDIA T4
+|Cisco UCS C240 M6
+|NVIDIA TESLA A10, A100
+|Cisco UCS C245 M6
+|NVIDIA TESLA A10, A100
 |===
 
 == Cisco UCS VIC adapters for Cisco UCS B-Series blade servers
@@ -293,10 +323,10 @@ The technical specifications for NetApp storage controllers include the followin
 
 === FAS Series
 
-All available models of FAS storage controllers are supported for use in a FlexPod Datacenter. Detailed specifications for all FAS series storage controllers are available in the https://hwu.netapp.com/[NetApp Hardware Universe^] and in the platform datasheets listed in the following table.
+All available models of FAS storage controllers are supported for use in a FlexPod Datacenter. Detailed specifications for all FAS series storage controllers are available in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific FAS model.
 
 |===
-|Component |FAS Series Controller Datasheet
+|Component |FAS Series controller platform documentation
 
 |FAS9000 Series
 |
@@ -307,6 +337,9 @@ https://www.netapp.com/us/media/ds-4020.pdf[FAS8700 Series Datasheet]
 |FAS8300 Series
 |
 https://www.netapp.com/us/media/ds-4020.pdf[FAS8300 Series Datasheet]
+|FAS500f Series
+|
+https://docs.netapp.com/us-en/ontap-systems/fas500f/index.html[FAS500f Series Datasheet]
 |FAS2700 Series
 |
 https://www.netapp.com/us/media/ds-3929.pdf[FAS2700 Series Datasheet]
@@ -321,22 +354,19 @@ All current models of NetApp AFF A-Series storage controllers are supported for 
 
 |NetApp AFF A800
 |
-http://docs.netapp.com/platstor/topic/com.netapp.nav.a800/home.html[AFF A800 Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a800/index.html[AFF A800 Platform Documentation]
 |NetApp AFF A700
 |
-http://docs.netapp.com/platstor/topic/com.netapp.nav.fas9000/home.html[AFF A700 Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/fas9000/index.html[AFF A700 Platform Documentation]
 |NetApp AFF A700s
 |
-http://docs.netapp.com/platstor/topic/com.netapp.nav.a700s/home.html[AFF A700s Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a700s/index.html[AFF A700s Platform Documentation]
 |NetApp AFF A400
 |
-http://docs.netapp.com/platstor/index.jsp?topic=%2Fcom.netapp.nav.a400%2Fhome.html[AFF A400 Platform Documentation]
-|NetApp AFF A300
+https://docs.netapp.com/us-en/ontap-systems/a400/index.html[AFF A400 Platform Documentation]
+|NetApp AFF A250
 |
-http://docs.netapp.com/platstor/topic/com.netapp.nav.a300/home.html[AFF A300 Platform Documentation]
-|NetApp AFF A220
-|
-http://docs.netapp.com/platstor/topic/com.netapp.nav.fas2700/home.html[AFF A220 Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a250/index.html[AFF A250 Platform Documentation]
 |===
 
 === AFF ASA A-Series

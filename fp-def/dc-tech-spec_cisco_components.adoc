@@ -69,57 +69,67 @@ Cisco UCS B-Series Blade Servers are available in half-width and full-width vari
 |===
 |Cisco UCS B-Series blade |Part number |Technical specifications
 
-|Cisco UCS B200 M5
-|UCSB-B200-M5
+|Cisco UCS B200 M6
+|UCSB-B200-M6
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/datasheet-c78-739296.html[Cisco UCS B200 M5 Blade Server]
-|Cisco UCS B480 M5
-|UCSB-B480-M5
-|Cisco UCS B480 M5 Blade Server
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/datasheet-c78-2368888.html[Cisco UCS B200 M6 Blade Server]
 |===
 
 Previous generations of Cisco UCS B-Series blades can be used in the FlexPod architecture, if they are supported on the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^]. The Cisco UCS B-Series Blade Servers must also have a valid SmartNet support contract.
 
+== Cisco UCS X-Series chassis option
+
+To use Cisco UCS X-Series compute nodes, you must have a Cisco UCS X-Series chassis. The following table describes the Cisco UCS X-Series chassis option.
+
+|===
+|Cisco UCS X-Series blade |Part number |Technical specifications
+
+|Cisco UCS 9508 M6
+|UCSX-9508
+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/datasheet-c78-2472574.html[Cisco UCX9508 X-Series Chassis]
+|===
+
+Each Cisco UCS 9508 chassis must have two Cisco UCS 9108 Intelligent Fabric Modules (IFMs) to provide redundant connectivity to the fabric interconnects.
+
+== Cisco UCS X-Series device options
+
+Cisco UCS X-Series compute nodes are available with various CPU, memory, and I/O options. The part numbers listed in the following table are for the base node. They do not include the CPU, memory, drives, or mezzanine adapter cards. Multiple configuration options are available and are supported in the FlexPod architecture.
+
+|===
+|Cisco UCS X-Series compute nodes |Part number |Technical specifications
+
+|Cisco UCS X210c M6
+|UCSX-210C-M6
+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/datasheet-c78-2465523.html?ccid=cc002456&oid=dstcsm026318[Cisco UCS X210c M6 Compute Node]
+|===
+
 == Cisco UCS C-Series rack server options
 
-Cisco UCS C-Series Rack Servers are available in one-, two-, and four-rack unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the second table below are for the base server. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards, or the Cisco Fabric Extender. Multiple configuration options are available and are supported in the FlexPod architecture.
+Cisco UCS C-Series Rack Servers are available in one and two rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the second table below are for the base server. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards, or the Cisco Fabric Extender. Multiple configuration options are available and are supported in the FlexPod architecture.
 
-To use Cisco UCS C-Series Rack Server nodes, you must have a Cisco UCS C-Series chassis as illustrated in the first table below.
-
-|===
-|Cisco UCS C-Series chassis |Part number |Technical specifications
-
-|Cisco UCS C4200
-|UCSC-C4200-SFF
-|
-https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c4200-series-rack-server-chassis/index.html[Cisco UCS C4200 Series Rack Server Chassis]
-|===
-
-The table below describes the Cisco UCS CSeries Rack Server options.
+The following table lists the Cisco UCS C-Series Rack Server options.
 
 |===
 |Cisco UCS C-Series rack server |Part number |Technical specifications
 
-|Cisco UCS C220 M5
-|UCSC-C220-M5SN
+|Cisco UCS C220 M6
+|UCSC-C220-M6
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m5-sff-specsheet.pdf[Cisco UCS C220 M5 Rack Server]
-|Cisco UCS C240 M5
-|UCS-C-C240-M5S
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m6-sff-specsheet.pdf[Cisco UCS C220 M6 Rack Server]
+|Cisco UCS C225 M6
+|UCSC-C225-M6
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c240m5-sff-specsheet.pdf[Cisco UCS C240 M5 Rack Server]
-|Cisco UCS C480 M5
-|UCSC-C480-M5
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c225-m6-sff-specsheet.pdf[Cisco UCS C225 M6 Rack Server]
+|Cisco UCS C240 M6
+|UCSC-C240-M6
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c480-m5-high-performance-specsheet.pdf[Cisco UCS C480 M5 Rack Server]
-|Cisco UCS C480 ML M5
-|UCSC-C480-M5ML8
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c240m6-sff-specsheet.pdf[Cisco UCS C240 M6 Rack Server]
+|Cisco UCS C245 M6
+|UCSC-C245-M6
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c480m5-specsheet-ml-m5-server.pdf[Cisco UCS C480 ML M5 Rack Server]
-|Cisco UCS C125 M5
-|UCSC-C125
-|
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c125m5-rack-server-node.pdf[Cisco UCS C125 M5 Rack Server Node]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c245m6-sff-specsheet.pdf[Cisco UCS C245 M6 Rack Server]
 |===
 
 Previous generations of Cisco UCS C-Series servers can be used in the FlexPod architecture, if they are supported on the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^]. The Cisco UCS C-Series servers must also have a valid SmartNet support contract.

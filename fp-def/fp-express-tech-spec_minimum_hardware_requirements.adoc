@@ -30,7 +30,7 @@ The Cisco Integrated Management Controller (CIMC) configuration includes the fol
 
 * Two 10Gbps standard Ethernet switches in a redundant configuration (Cisco Nexus 0808 is recommended, with Cisco Nexus 3000 and 9000 models supported)
 * Cisco UCS C-Series standalone rack servers
-* Two AFF C190, AFF A220, FAS2600, or FAS 2700 series controllers in a high-availability (HA) pair configuration deployed as a two-node cluster
+* Two AFF C190, AFF A250, FAS2600, or FAS 2700 series controllers in a high-availability (HA) pair configuration deployed as a two-node cluster
 
 === Cisco UCS-managed configuration
 
@@ -40,7 +40,7 @@ The Cisco UCS-managed confirmation includes the following hardware components:
 * One Cisco UCS 5108 alternating current (AC) blade server chassis
 * Two Cisco UCS 6324 fabric interconnects
 * Cisco UCS B-Series servers (at least four Cisco UCS B200 M5 blade servers)
-* Two AFF C190, AFF A220, FAS2750, or FAS2720 controllers in an HA pair configuration (requires two available unified target adapter 2 [UTA2] ports per controller)
+* Two AFF C190, AFF A250, FAS2750, or FAS2720 controllers in an HA pair configuration (requires two available unified target adapter 2 [UTA2] ports per controller)
 
 == FlexPod Express with E-Series
 
