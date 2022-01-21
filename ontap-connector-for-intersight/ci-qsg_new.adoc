@@ -18,6 +18,7 @@ This section lists new features and functionality available for Cisco Intersight
 * Added event-based Intersight alarms for NetApp Active IQ Unified Manager 9.10 or above.
 
 NOTE: To ensure compatibility and complete functionality with future releases, it is recommended that you upgrade your NetApp Active IQ Unified Manager to version 9.10.
+
 * Explicitly set each protocol enabled (true or false) for Storage Virtual Machine
 * Mapped clusterHealthStatus state ok-with-suppressed to OK
 * Renamed Health column to Cluster Status column under the Cluster list page
@@ -25,7 +26,7 @@ NOTE: To ensure compatibility and complete functionality with future releases, i
 * Renamed Health column to Array Status column under the Cluster General page
 * SVM now has a “Volumes” tab that shows all the volumes for the SVM
 * Volume has a snapshot capacity section
-* Licenses now display correctly  
+* Licenses now display correctly
 
 == October 2021
 
