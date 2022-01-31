@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flexpod</title>
+    <atom:link href="https://docs.netapp.com/us-en/flexpod/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/us-en/flexpod</link>
+    <description>The latest updates from NetApp Cloud Docs</description>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <pubDate>Mon, 31 Jan 2022 19:21:10 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Jan 2022 19:21:10 +0000</lastBuildDate>
+    
+  </channel>
+</rss>
