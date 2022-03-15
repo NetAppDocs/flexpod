@@ -20,3 +20,29 @@ entries:
         url: /security/security-ransomware_acknowledgements.html
       - title: Additional Information
         url: /security/security-ransomware_additional_information.html
+
+  - title: FIPS 140-2 security-compliant FlexPod solution for healthcare
+    type: solutions
+    entries:
+      - title: Introduction
+        url: /security/flexpod-fips-introduction.html
+      - title: Cybersecurity threats in healthcare
+        url: /security/flexpod-fips-cybersecurity-threats-in-healthcare.html
+      - title: Overview of FIPS 140-2
+        url: /security/flexpod-fips-overview-of-fips-140-2.html
+      - title: Control plane versus data plane
+        url: /security/flexpod-fips-control-plane-versus-data-plane.html
+      - title: FlexPod Cisco UCS compute and FIPS 140-2
+        url: /security/flexpod-fips-flexpod-cisco-ucs-compute-and-fips-140-2.html
+      - title: FlexPod Cisco networking and FIPS 140-2
+        url: /security/flexpod-fips-flexpod-cisco-networking-and-fips-140-2.html
+      - title: FlexPod NetApp ONTAP storage and FIPS 140-2
+        url: /security/flexpod-fips-flexpod-netapp-ontap-storage-and-fips-140-2.html
+      - title: Solution benefits of FlexPod converged infrastructure
+        url: /security/flexpod-fips-solution-benefits-of-flexpod-converged-infrastructure.html
+      - title: Additional FlexPod security considerations
+        url: /security/flexpod-fips-additional-flexpod-security-consideration.html
+      - title: Conclusion
+        url: /security/flexpod-fips-conclusion.html
+      - title: Acknowlegements, version history, and where to find additional information
+        url: /security/flexpod-fips-where-to-find-additional-information.html
