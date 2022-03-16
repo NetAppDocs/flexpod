@@ -1,0 +1,208 @@
+---
+sidebar: sidebar
+permalink: security/flexpod-fips-flexpod-cisco-networking-and-fips-140-2.html
+keywords: cisco mds, mds 9000, cryptograhic, snmpv3, ssh,
+summary: Cisco MDS 9000 series platform with software 8.4.x is FIPS 140-2 compliant. Cisco MDS implements cryptographic modules and the following services for SNMPv3 and SSH.
+---
+
+= FlexPod Cisco networking and FIPS 140-2
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-03-08 10:45:57.653943
+//
+
+link:flexpod-fips-flexpod-cisco-ucs-compute-and-fips-140-2.html[Previous: FlexPod Cisco UCS compute and FIPS 140-2.]
+
+== Cisco MDS
+
+Cisco MDS 9000 series platform with software 8.4.x is https://www.cisco.com/c/en/us/solutions/industries/government/global-government-certifications/fips-140.html?flt0_general-table0=mds[FIPS 140-2 compliant^]. Cisco MDS implements cryptographic modules and the following services for SNMPv3 and SSH.
+
+* Session establishment supporting each service
+* All underlying cryptographic algorithms supporting each services key derivation functions
+* Hashing for each service
+* Symmetric encryption for each service
+
+Before you enable FIPS mode, complete the following tasks on the MDS switch:
+
+. Make your passwords a minimum of eight characters in length.
+. Disable Telnet. Users should log in using SSH only.
+. Disable remote authentication through RADIUS/TACACS+. Only users local to the switch can be authenticated.
+. Disable SNMP v1 and v2. Any existing user accounts on the switch that have been configured for SNMPv3 should be configured only with SHA for authentication and AES/3DES for privacy.
+. Disable VRRP.
+. Delete all IKE policies that either have MD5 for authentication or DES for encryption. Modify the policies so they use SHA for authentication and 3DES/AES for encryption.
+. Delete all SSH Server RSA1 keypairs.
+
+To enable FIPS mode and to display FIPS status on the MDS switch, complete the following steps:
+
+. Show the FIPS status.
++
+....
+MDSSwitch# show fips status
+FIPS mode is disabled
+MDSSwitch# conf
+Enter configuration commands, one per line.  End with CNTL/Z.
+....
+
+. Set up the 2048 bits SSH key.
++
+....
+MDSSwitch(config)# no feature ssh
+XML interface to system may become unavailable since ssh is disabled
+MDSSwitch(config)# no ssh key
+MDSSwitch(config)# show ssh key
+**************************************
+could not retrieve rsa key information
+bitcount: 0
+**************************************
+could not retrieve dsa key information
+bitcount: 0
+**************************************
+no ssh keys present. you will have to generate them
+**************************************
+MDSSwitch(config)# ssh key
+dsa   rsa
+MDSSwitch(config)# ssh key rsa 2048 force
+generating rsa key(2048 bits).....
+...
+generated rsa key
+....
+
+. Enable FIPS mode.
++
+....
+MDSSwitch(config)# fips mode enable
+FIPS mode is enabled
+System reboot is required after saving the configuration for the system to be in FIPS mode
+Warning: As per NIST requirements in 6.X, the minimum RSA Key Size has to be 2048
+....
+
+. Show the FIPS status.
++
+....
+MDSSwitch(config)# show fips status
+FIPS mode is enabled
+MDSSwitch(config)# feature ssh
+MDSSwitch(config)# show feature | grep ssh
+sshServer            1        enabled
+....
+
+. Save the configuration to the running configuration.
++
+....
+MDSSwitch(config)# copy ru st
+[########################################] 100%
+exitCopy complete.
+MDSSwitch(config)# exit
+....
+
+. Restart MDS switch
++
+....
+MDSSwitch# reload
+This command will reboot the system. (y/n)?  [n] y
+....
+
+. Show the FIPS status.
++
+....
+Switch(config)# fips mode enable
+Switch(config)# show fips status
+....
+
+For more information, see https://www.cisco.com/c/en/us/td/docs/switches/datacenter/mds9000/sw/5_0/configuration/guides/sec/nxos/sec/fips.html[Enabling FIPS Mode^].
+
+== Cisco Nexus
+
+Cisco Nexus 9000 series switches (version 9.3) are https://www.cisco.com/c/en/us/solutions/industries/government/global-government-certifications/fips-140.html?flt0_general-table0=nexus[FIPS 140-2 compliant^]. Cisco Nexus implements cryptographic modules and the following services for SNMPv3 and SSH.
+
+* Session establishment supporting each service
+* All underlying cryptographic algorithms supporting each services key derivation functions
+* Hashing for each service
+* Symmetric encryption for each service
+
+Before you enable FIPS mode, complete the following tasks on the Cisco Nexus switch:
+
+. Disable Telnet. Users should log in using Secure Shell (SSH) only.
+. Disable SNMPv1 and v2. Any existing user accounts on the device that have been configured for SNMPv3 should be configured only with SHA for authentication and AES/3DES for privacy.
+. Delete all SSH server RSA1 key-pairs.
+. Enable HMAC-SHA1 message integrity checking (MIC) to use during the Cisco TrustSec Security Association Protocol (SAP) negotiation. To do so, enter the sap hash-algorithm `HMAC-SHA-1` command from the `cts-manual` or `cts-dot1x` mode.
+
+To enable FIPS mode on the Nexus switch, complete the following steps:
+
+. Set up 2048 bits SSH key.
++
+....
+NexusSwitch# show fips status
+FIPS mode is disabled
+NexusSwitch# conf
+Enter configuration commands, one per line.  End with CNTL/Z.
+....
+
+. Set up the 2048 bits SSH key.
++
+....
+NexusSwitch(config)# no feature ssh
+XML interface to system may become unavailable since ssh is disabled
+NexusSwitch(config)# no ssh key
+NexusSwitch(config)# show ssh key
+**************************************
+could not retrieve rsa key information
+bitcount: 0
+**************************************
+could not retrieve dsa key information
+bitcount: 0
+**************************************
+no ssh keys present. you will have to generate them
+**************************************
+NexusSwitch(config)# ssh key
+dsa   rsa
+NexusSwitch(config)# ssh key rsa 2048 force
+generating rsa key(2048 bits).....
+...
+generated rsa key
+....
+
+. Enable FIPS mode.
++
+....
+NexusSwitch(config)# fips mode enable
+FIPS mode is enabled
+System reboot is required after saving the configuration for the system to be in FIPS mode
+Warning: As per NIST requirements in 6.X, the minimum RSA Key Size has to be 2048
+Show fips status
+NexusSwitch(config)# show fips status
+FIPS mode is enabled
+NexusSwitch(config)# feature ssh
+NexusSwitch(config)# show feature | grep ssh
+sshServer            1        enabled
+Save configuration to the running configuration
+NexusSwitch(config)# copy ru st
+[########################################] 100%
+exitCopy complete.
+NexusSwitch(config)# exit
+....
+
+. Restart the Nexus switch.
++
+....
+NexusSwitch# reload
+This command will reboot the system. (y/n)?  [n] y
+....
+
+. Show the FIPS status.
++
+....
+NexusSwitch(config)# fips mode enable
+NexusSwitch(config)# show fips status
+....
+
+Additionally, Cisco NX OS software supports the NetFlow feature that enables enhanced detection of network anomalies and security. NetFlow captures the metadata of every conversation on the network, the parties involved in the communication, the protocol being used, and the duration of the transaction. After the information is aggregated and analyzed, it can provide insight into normal behavior. The collected data also allows identification of questionable patterns of activity, such as malware spreading across the network, which might otherwise go unnoticed. NetFlow uses flows to provide statistics for network monitoring. A flow is a unidirectional stream of packets that arrives on a source interface (or VLAN) and has the same values for the keys. A key is an identified value for a field within the packet. You create a flow using a flow record to define the unique keys for your flow. You can export the data that NetFlow gathers for your flows by using a flow exporter to a remote NetFlow collector, such as Cisco Stealthwatch. Stealthwatch uses this information for continuous monitoring of the network and provides real-time threat detection and incident response forensics if a ransomware outbreak occurs.
+
+link:flexpod-fips-flexpod-netapp-ontap-storage-and-fips-140-2.html[Next: FlexPod NetApp ONTAP storage and FIPS 140-2.]

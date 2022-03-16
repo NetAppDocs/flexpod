@@ -1,0 +1,177 @@
+---
+sidebar: sidebar
+permalink: security/flexpod-fips-flexpod-netapp-ontap-storage-and-fips-140-2.html
+keywords: storage, data plane, control plane, encryption, NAE CLI, nve, key management, external key management
+summary: NetApp offers a variety of hardware, software, and services, which can include various components of the cryptographic modules validated under the standard. Therefore, NetApp uses a variety of approaches for FIPS 140-2 compliance for the control plane and data plane.
+---
+
+= FlexPod NetApp ONTAP storage and FIPS 140-2
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-03-08 10:45:57.691335
+//
+
+link:flexpod-fips-flexpod-cisco-networking-and-fips-140-2.html[Previous: FlexPod Cisco networking and FIPS 140-2.]
+
+NetApp offers a variety of hardware, software, and services, which can include various components of the cryptographic modules validated under the standard. Therefore, NetApp uses a variety of approaches for FIPS 140-2 compliance for the control plane and data plane:
+
+* NetApp includes cryptographic modules that have achieved level 1 validation for data-in-transit and data-at-rest encryption.
+* NetApp acquires both hardware and software modules that have been FIPS 140-2 validated by the suppliers of those components. For example, the NetApp Storage Encryption solution leverages FIPS level 2 validated drives.
+* NetApp products can use a validated module in a way that complies with the standard even though the product or feature is not within the boundary of the validation. For example, NetApp Volume Encryption (NVE) is FIPS 140-2 compliant. Although not separately validated, it leverages the NetApp cryptographic module, which is level 1 validated. To understand the specifics of compliance for your version of ONTAP, contact your FlexPod SME.
+
+*NetApp Cryptographic modules are FIPS 140-2 level 1 validated*
+
+* The NetApp Cryptographic Security Module (NCSM) is FIPS 140-2 level 1 validated.
+
+*NetApp self-encrypting drives are FIPS 140-2 level 2 validated*
+
+NetApp purchases self-encrypting drives (SEDs) that have been FIPS 140-2 validated by the original equipment manufacturer (OEM); customers seeking these drives must specify them when ordering. Drives are validated at level 2. The following NetApp products can leverage validated SEDs:
+
+* AFF A-Series and FAS storage systems
+* E-Series and EF-Series storage systems
+
+*NetApp Aggregate Encryption and NetApp Volume Encryption*
+
+NVE and NetApp Aggregate Encryption (NAE) technologies enable encryption of data at the volume and aggregate level respectively, making the solution agnostic to the physical drive.
+
+NVE is a software-based, data-at-rest encryption solution available starting with ONTAP 9.1, and it has been FIPS 140-2 compliant since ONTAP 9.2. NVE allows ONTAP to encrypt data for each volume for granularity. NAE, available with ONTAP 9.6, is an outgrowth of NVE; it allows ONTAP to encrypt data for each volume, and the volumes can share keys across the aggregate. Both NVE and NAE use AES 256-bit encryption. Data can also be stored on disk without SEDs. NVE and NAE enable you to use storage efficiency features even when encryption is enabled. An application- layer- only encryption defeats all benefits of storage efficiency. With NVE and NAE, storage efficiencies are maintained because the data comes in from the network through NetApp WAFL to the RAID layer, which determines whether the data should be encrypted. For greater storage efficiency, you can use aggregate deduplication with NAE. NVE volumes and NAE volumes can coexist on the same NAE aggregate. NAE aggregates do not support unencrypted volumes.
+
+Here’s how the process works: When data is encrypted, it is sent to the cryptographic module which is FIPS 140-2 level 1 validated. The cryptographic module encrypts the data and sends it back to the RAID layer. The encrypted data is then sent to the disk. Therefore, with the combination of NVE and NAE, the data is already encrypted on the way to the disk. Reads follow the reverse path. In other words, the data leaves the disk encrypted, is sent to RAID, is decrypted by the cryptographic module, and is then sent up the rest of the stack, as shown in the following figure.
+
+image:flexpod-fips-image3.png[Error: Missing Graphic Image]
+
+[NOTE]
+NVE uses a software cryptographic module which is FIPS 140-2 level 1 validated.
+
+For more information about NVE, see the https://www.netapp.com/us/media/ds-3899.pdf[NVE Datasheet^].
+
+NVE protects data in the cloud. Cloud Volumes ONTAP and Azure NetApp Files are capable of providing FIPS 140-2 compliant data encryption at rest.
+
+Starting with ONTAP 9.7, newly created aggregates and volumes are encrypted by default when you have the NVE license and onboard or external key management. Starting with ONTAP 9.6, you can use aggregate-level encryption to assign keys to the containing aggregate for the volumes to be encrypted. Volumes you create in the aggregate are encrypted by default. You can override the default when you encrypt the volume.
+
+== ONTAP NAE CLI commands
+
+Before you run the following CLI commands, make sure the cluster has the required NVE license.
+
+To create an aggregate and encrypt it, run the following command (when run on an ONTAP 9.6 and later cluster CLI):
+
+....
+fp-health::> storage aggregate create -aggregate aggregatename -encrypt-with-aggr-key true
+....
+
+To convert a non-NAE aggregate to an NAE an aggregate, run the following command (when run on an ONTAP 9.6 and later cluster CLI ):
+
+....
+fp-health::> storage aggregate modify -aggregate aggregatename  -node svmname -encrypt-with-aggr-key true
+....
+
+To convert an NAE aggregate to an non-NAE an aggregate, run the following command (when run on an ONTAP 9.6 and later cluster CLI):
+
+....
+fp-health::> storage aggregate modify -aggregate aggregatename -node svmname -encrypt-with-aggr-key false
+....
+
+== ONTAP NVE CLI commands
+
+Starting with ONTAP 9.6, you can use aggregate-level encryption to assign keys to the containing aggregate for the volumes to be encrypted. Volumes you create in the aggregate are encrypted by default.
+
+To create a volume on an aggregate that is NAE enabled, run the following command (when run on an ONTAP 9.6 and later cluster CLI):
+
+....
+fp-health::> volume create -vserver svmname -volume volumename -aggregate aggregatename -encrypt true
+....
+
+To enable encryption of an existing volume “inplace” without a volume move, run the following command (when run on an ONTAP 9.6 and later cluster CLI):
+
+....
+fp-health::> volume encryption conversion start -vserver svmname -volume volumename
+....
+
+To verify that volumes are enabled for encryption, run the following CLI command:
+
+....
+fp-health::> volume show -is-encrypted true
+....
+
+== NSE
+
+NSE uses SEDs to perform the data encryption through a hardware-accelerated mechanism.
+
+NSE is configured to use FIPS 140-2 level 2 self-encrypting drives to facilitate compliance and spares return by enabling the protection of data at rest through AES 256-bit transparent disk encryption. The drives perform all of the data encryption operations internally, as depicted in the following figure, including encryption key generation. To prevent unauthorized access to the data, the storage system must authenticate itself with the drive using an authentication key that is established the first time the drive is used.
+
+image:flexpod-fips-image4.png[Error: Missing Graphic Image]
+
+[NOTE]
+NSE uses hardware encryption on each drive,  which is FIPS 140-2 level 2 validated.
+
+For more information about NSE, see the https://www.netapp.com/us/media/ds-3213-en.pdf[NSE datasheet^].
+
+== Key management
+
+The FIPS 140-2 standard applies to the cryptographic module as defined by the boundary, as shown in the following figure.
+
+image:flexpod-fips-image5.png[Error: Missing Graphic Image]
+
+Key manager keeps track of all the encryption keys used by ONTAP. NSE SEDs use the key manager to set the authentication keys for NSE SEDs. When using the key manager, the combined NVE and NAE solution is composed of a software cryptographic module, encryption keys, and a key manager. For each volume, NVE uses a unique XTS-AES 256 data encryption key, which the key manager stores. The key used for a data volume is unique to the data volume in that cluster and is generated when the encrypted volume is created. Similarly, an NAE volume uses unique XTS-AES 256 data encryption keys per aggregate, which the key manager also stores. NAE keys are generated when the encrypted aggregate is created. ONTAP does not pregenerate keys, reuse them, or display them in plain text—they are stored and protected by the key manager.
+
+== Support for external key manager
+
+Beginning with ONTAP 9.3, external key managers are supported in both NVE and NSE solutions. The FIPS 140-2 standard applies to the cryptographic module used in the specific vendor’s implementation. Most often, FlexPod and ONTAP customers use one of the following validated (per the http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix^]) key managers:
+
+* Gemalto or SafeNet AT
+* Vormetric (Thales)
+* IBM SKLM
+* Utimaco (formerly Microfocus, HPE)
+
+NSE and NVMe SED authentication key is backed up to an external key manager by using the industry-standard OASIS Key Management Interoperability Protocol (KMIP). Only the storage system, drive, and key manager have access to the key, and the drive cannot be unlocked if it is moved outside the security domain, thus preventing data leakage. The external key manager also stores NVE volume encryption keys and NAE aggregate encryption keys. If the controller and disks are moved and no longer have access to the external key manager, the NVE and NAE volumes won’t be accessible and cannot be decrypted.
+
+The following example command adds two key management servers to the list of servers used by the external key manager for store virtual machine (SVM) `svmname1`.
+
+....
+fp-health::> security key-manager external add-servers -vserver svmname1 -key-servers 10.0.0.20:15690, 10.0.0.21:15691
+....
+
+When a FlexPod Datacenter is being used in a multitenancy scenario, ONTAP enables users by providing tenancy separation for security reasons at the SVM level.
+
+To verify list of external key managers, run the following CLI command:
+
+....
+fp-health::> security key-manager external show
+....
+
+== Combine encryption for double encryption (layered defense)
+
+If you need to segregate access to data and make sure that data is protected all the time, NSE SEDs can be combined with network- or fabric-level encryption. NSE SEDs act like a backstop if an administrator forgets to configure or misconfigures higher-level encryption. For two distinct layers of encryption, you can combine NSE SEDs with NVE and NAE.
+
+== NetApp ONTAP cluster-wide control plane FIPS mode
+
+NetApp ONTAP data management software has a FIPS mode configuration that instantiates an added level of security for the customer. This FIPS mode only applies to the control plane. When FIPS mode is enabled, in accordance with key elements of FIPS 140-2, Transport Layer Security v1 (TLSv1) and SSLv3 are disabled, and only TLS v1.1 and TLS v1.2 remain enabled.
+
+[NOTE]
+ONTAP cluster-wide control pane in FIPS mode is FIPS 140-2 level 1 compliant. Cluster-wide FIPS mode uses a software-based cryptographic module provided by NCSM.
+
+FIPS 140-2 compliance mode for cluster-wide control plane secures all control Interfaces of ONTAP. By default, the FIPS 140-2 only mode is disabled; however you can enable this mode by setting the `is- fips-enabled` parameter to `true` for the `security config modify` command.
+
+To enable FIPS mode on the ONTAP cluster, run the following command:
+
+....
+fp-health::> security config modify -interface SSL -is-fips-enabled true
+....
+
+When SSL FIPS mode is enabled, SSL communication from ONTAP to the external client or server components outside of ONTAP will use FIPS complaint cryptographic for SSL.
+
+To show the FIPS status for the entire cluster, run the following commands:
+
+....
+fp-health::> set advanced
+fp-health::*> security config modify -interface SSL -is-fips-enabled true
+....
+
+link:flexpod-fips-solution-benefits-of-flexpod-converged-infrastructure.html[Next: Solution benefits of FlexPod converged infrastructure.]

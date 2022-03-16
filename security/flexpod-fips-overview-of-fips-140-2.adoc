@@ -1,0 +1,41 @@
+---
+sidebar: sidebar
+permalink: security/flexpod-fips-overview-of-fips-140-2.html
+keywords: fips 120-2, cryptographic module, security level,
+summary: FIPS 140-2 specifies the security requirements for a cryptographic module used within a security system that protects sensitive information in computer and telecommunication systems.
+---
+
+= Overview of FIPS 140-2
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-03-08 10:45:57.627641
+//
+
+link:flexpod-fips-cybersecurity-threats-in-healthcare.html[Previous: Cybersecurity threats in healthcare.]
+
+https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf[FIPS 140-2^] specifies the security requirements for a cryptographic module used within a security system that protects sensitive information in computer and telecommunication systems. A cryptographic module should be a set of hardware, software, firmware, or a combination. FIPS applies to the cryptographic algorithms, key generation and key managers contained within a cryptographic boundary. It is important to understand that FIPS 140-2 applies specifically to the cryptographic module, not the product, architecture, data, or ecosystem. The cryptographic module, which is defined in the key terms later in this document, is the specific component (whether it’s hardware, software, and/or firmware) that implements approved security functions. In addition, FIPS 140-2 specifies four levels. Approved cryptographic algorithms are common to all levels. Key elements and requirements of each security level include:
+
+* *Security level 1*
+** Specifies basic security requirements for a cryptographic module (at least one approved algorithm or security function is required).
+** No specified physical security mechanisms are required for level 1 beyond the basic requirements for production-grade components.
+* *Security level 2*
+** Enhances the physical security mechanisms by adding the requirement for tamper-evidence by using tamper-evident solutions such as coatings or seals, locks on removable covers or doors of the cryptographic modules.
+** Requires, at minimum, role-based access control (RBAC) in which the cryptographic module authenticates the authorization of an operator or administrator to assume a specific role and perform a corresponding set of functions.
+* *Security level 3*
+** Builds on the tamper-evident requirements of level 2 and attempts to prevent further access to critical security parameters (CSPs) within the cryptographic module.
+** Physical security mechanisms required at level 3 are intended to have a high probability to detect and respond to attempts at physical access, or any use or modification of the cryptographic module. Examples might include strong enclosures, tamper detection, and response circuitry that zeros all plaintext CSPs when a removable cover on the cryptographic module is opened.
+** Requires identity-based authentication mechanisms to enhance the security of the RBAC mechanisms specified in level 2. A cryptographic module authenticates the identity of an operator and verifies that the operator is authorized to use a role and perform the functions of the role.
+* *Security level 4*
+** The highest level of security in FIPS 140-2.
+** The most useful level for operations in physically unprotected environments.
+** At this level, the physical security mechanisms are intended to provide complete protection around the cryptographic module with the responsibility of detecting and responding to any unauthorized attempts at physical access.
+** Penetration or exposure of the cryptographic module should have a high probability of detection and result in the immediate zeroization of all unsecure or plaintext CSPs.
+
+link:flexpod-fips-control-plane-versus-data-plane.html[Next: Control plane versus data plane.]

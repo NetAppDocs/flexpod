@@ -1,0 +1,152 @@
+---
+sidebar: sidebar
+permalink: security/flexpod-fips-solution-benefits-of-flexpod-converged-infrastructure.html
+keywords: benefits, hardware, software,
+summary: To demonstrate the FIPS setup on a FlexPod system, we used an open-source EHR and an open-source picture archiving and communication system (PACS) system for the lab setup and workload validation on the FlexPod system.
+---
+
+= Solution benefits of FlexPod converged infrastructure
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-03-08 10:45:57.711497
+//
+
+link:flexpod-fips-flexpod-netapp-ontap-storage-and-fips-140-2.html[Previous: FlexPod NetApp ONTAP storage and FIPS 140-2.]
+
+Healthcare organizations have several mission-critical systems. Two of the most critical systems are the electronic health record (EHR) systems and medical imaging systems. To demonstrate the FIPS setup on a FlexPod system, we used an open-source EHR and an open-source picture archiving and communication system (PACS) system for the lab setup and workload validation on the FlexPod system. For a complete list of EHR capabilities, EHR logical application components, and how EHR systems benefit when implemented on a FlexPod system see https://www.netapp.com/pdf.html?item=/media/22199-tr-4881.pdf[TR-4881: FlexPod for Electronic Health Record Systems^]. For a complete list of a medical imaging system capabilities, logical application components, and how medical imaging systems benefit when implemented on FlexPod, see https://www.netapp.com/media/19793-tr-4865.pdf[TR-4865: FlexPod for Medical Imaging^].
+
+During the FIPS setup and workload validation, we exercised workload characteristics that were representative of a typical healthcare organization. For example, we exercised an open-source EHR system to include realistic patient data access and change scenarios. Additionally, we exercised medical imaging workloads that included digital imaging and communications in medicine (DICOM) objects in a `*. dcm` file format. DICOM objects with metadata were stored on both the file and block storage. Additionally, we implemented multipathing capabilities from within a virtualized RedHat Enterprise Linux (RHEL) server. We stored DICOM objects on an NFS, mounted LUNs using iSCSI, and mounted LUNs using FC. During the FIPS setup and validation, we observed that the FlexPod converged infrastructure exceeded our expectations and performed seamlessly.
+
+The following figure depicts the FlexPod system used for FIPS setup and validation. We leveraged the https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_vmware_vsphere_7_0_ontap_9_7.html[FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7 Cisco Validated Design (CVD)^] during the setup process.
+
+image:flexpod-fips-image6.png[Error: Missing Graphic Image]
+
+== Solution infrastructure hardware and software components
+
+The following two figures list the hardware and software components respectively used during the FIPS testing enabling on a FlexPod. The recommendations in these tables are examples; you should work with your NetApp SME to make sure that the components are suitable for your organization. Also, make sure that the components and versions are supported in the https://mysupport.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] (IMT) and https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility List (HCL)^].
+
+|===
+|Layer |Product family  |Quantity and model |Details
+
+|Compute
+|Cisco UCS 5108 chassis
+|1 or 2
+|
+|
+|Cisco UCS blade servers
+|3 B200 M5
+|Each with 2x 20 or more cores, 2.7GHz, and 128-384GB RAM
+|
+|Cisco UCS Virtual Interface Card (VIC)
+|Cisco UCS 1440
+|See the
+|
+|2x Cisco UCS Fabric Interconnects
+|6332
+|-
+|Network
+|Cisco Nexus switches
+|2x Cisco Nexus 9332
+|-
+|Storage network
+|IP network for storage access over SMB/CIFS, NFS, or iSCSI protocols
+|Same network switches as above
+|-
+|
+|Storage access over FC
+|2x Cisco MDS 9148S
+|-
+|Storage
+|NetApp AFF A700 all-flash storage system
+|1 Cluster
+|Cluster with two nodes
+|
+|Disk shelf
+|One DS224C or NS224 disk shelf
+|Fully populated with 24 drives
+|
+|SSD
+|>24, 1.2TB or larger capacity
+|-
+|===
+
+|===
+|Software |Product family  |Version or release |Details
+
+|Various
+|Linux
+|RHEL 7.X
+|-
+|
+|Windows
+|Windows Server 2012 R2 (64 bit)
+|-
+|
+|NetApp ONTAP
+|ONTAP 9.7 or later
+|-
+|
+|Cisco UCS Fabric Interconnect
+|Cisco UCS Manager 4.1 or later
+|-
+|
+|Cisco Ethernet 3000 or 9000 series switches
+|For 9000 series, 7.0(3)I7(7) or later
+For 3000 series, 9.2(4)
+or later
+|-
+|
+|Cisco FC: Cisco MDS 9132T
+|8.4(1a) or later
+|-
+|
+|Hypervisor
+|VMware vSphere ESXi 6.7 U2 or later
+|-
+|Storage
+|Hypervisor management system
+|VMware vCenter Server 6.7 U3 (vCSA) or later
+|-
+|Network
+|NetApp Virtual Storage Console (VSC)
+|VSC 9.7 or later
+|-
+|
+|NetApp SnapCenter
+|SnapCenter 4.3 or later
+|-
+|
+|Cisco UCS Manager
+|4.1(1c) or later
+|
+|Hypervisor
+|ESXi
+|
+|
+|Management
+|Hypervisor management systemVMware vCenter Server 6.7 U3 (vCSA) or later
+|
+|
+|
+|NetApp Virtual Storage Console (VSC)
+
+|VSC 9.7 or later
+|
+|
+|NetApp SnapCenter
+|SnapCenter 4.3 or later
+|
+|
+|Cisco UCS Manager
+|4.1(1c) or later
+|
+|===
+
+link:flexpod-fips-additional-flexpod-security-consideration.html[Next: Additional FlexPod security considerations.]
