@@ -27,6 +27,9 @@ homepage:
   tiles:
     - title: FlexPod - Start Here
       links:
+        - title: "What's New"
+          summary:
+          url: https://fieldportal.netapp.com/content/1668183
         - title: "Videos and Demos"
           summary:
           url: https://tv.netapp.com/search?q=FlexPod

@@ -1,0 +1,46 @@
+---
+sidebar: sidebar
+permalink: security/flexpod-fips-additional-flexpod-security-consideration.html
+keywords: security, cisco intersight, fpolicy, data at rest, data in flight, secure multitenancy
+summary: The FlexPod infrastructure is a modular, converged, optionally virtualized, scalable (scale out and scale up), and cost-effective platform. With the FlexPod platform, you can independently scale out compute, network, and storage to accelerate your application deployment. And the modular architecture enables nondisruptive operations even during your system scale-out and upgrade activities.
+---
+
+= Additional FlexPod security considerations
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-03-08 10:45:57.716862
+//
+
+link:flexpod-fips-solution-benefits-of-flexpod-converged-infrastructure.html[Previous: Solution benefits of FlexPod converged infrastructure.]
+
+The FlexPod infrastructure is a modular, converged, optionally virtualized, scalable (scale out and scale up), and cost-effective platform. With the FlexPod platform, you can independently scale out compute, network, and storage to accelerate your application deployment. And the modular architecture enables nondisruptive operations even during your system scale-out and upgrade activities.
+
+Different components of an HIT system require data to be stored in SMB/CIFS, NFS, Ext4, and NTFS file systems. This requirement means that the infrastructure must provide data access over the NFS, CIFS, and SAN protocols. A single NetApp storage system can support all these protocols, eliminating the need for the legacy practice of protocol-specific storage systems. Additionally, a single NetApp storage system can support multiple HIT workloads such as EHRs, PACS or VNA, genomics, VDI, and more, with guaranteed and configurable performance levels.
+
+When deployed in a FlexPod system, HIT delivers several benefits that are specific to the healthcare industry. The following list is a high-level description of these benefits:
+
+* *FlexPod security*. Security is at the very foundation of a FlexPod system. In the past few years, ransomware has become a threat. Ransomware is a type of malware that is based on cryptovirology, the use of cryptography to build malicious software. This malware can use both symmetric and asymmetric key encryption to lock a victim’s data and demand a ransom to provide the key to decrypt the data. To learn how the FlexPod solution helps mitigate threats like ransomware, see https://www.netapp.com/us/media/tr-4802.pdf[TR-4802: The Solution to Ransomware^]. FlexPod infrastructure components are also https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf[FIPS 140-2-compliant^].
+* *Cisco Intersight.* Cisco Intersight is an innovative, cloud-based, management-as-a-service platform that provides a single pane of glass for full-stack FlexPod management and orchestration. The Intersight platform uses FIPS 140-2 security-compliant cryptographic modules. The platform’s out-of-band management architecture makes it out of scope for some standards or audits such as HIPAA. No individual identifiable health information on the network is ever sent to the Intersight portal.
+* *NetApp FPolicy technology.* NetApp FPolicy (an evolution of the name file policy) is a file-access notification framework for monitoring and to managing file access over the NFS or SMB/CIFS protocols. This technology has been part of the ONTAP data management software for more than a decade—it is useful in helping detect ransomware. This Zero Trust engine provides extra security measures beyond permissions in access control lists (ACLs). FPolicy has two modes of operation: native and external:
+** Native mode provides both blacklisting and whitelisting of file extensions.
+** External mode has the same capabilities as native mode, but it also integrates with an FPolicy server that runs externally to the ONTAP system as well as a security information and event management (SIEM) system. For more information about how to fight ransomware, see the https://blog.netapp.com/fighting-ransomware-tools[Fighting Ransomware: Part Three – ONTAP FPolicy, Another Powerful Native (aka Free) Tool^] blog.
+* *Data at rest*. ONTAP 9 and later has three FIPS 140-2-compliant, data-at-rest encryption solutions:
+** NSE is a hardware solution that uses self-encrypting drives.
+** NVE is a software solution that enables encryption of any data volume on any drive type where it is enabled with a unique key for each volume.
+** NAE is a software solution that enables encryption of any data volume on any drive type where it is enabled with unique keys for each aggregate.
+
+[NOTE]
+Starting with ONTAP 9.7, NAE and NVE are enabled by default if the NetApp NVE license package with name VE is in place.
+
+* *Data in flight*. Starting with ONTAP 9.8, Internet Protocol security (IPsec) provides end-to-end encryption support for all IP traffic between a client and an ONTAP SVM. IPsec data encryption for all IP traffic includes NFS, iSCSI, and SMB/CIFS protocols. IPsec provides the only encryption in flight option for iSCSI traffic.
+* *End-to-end data encryption across a hybrid, multicloud data fabric*. Customers who use data-at-rest encryption technologies such as NSE or NVE and Cluster Peering Encryption (CPE) for data replication traffic can now use end-to-end encryption between client and storage across their hybrid multicloud data fabric by upgrading to ONTAP 9.8 or later and using IPsec. Beginning with ONTAP 9, you can enable the FIPS 140-2 compliance mode for cluster-wide control plane interfaces. By default, the FIPS 140-2-only mode is disabled. Starting with ONTAP 9.6, CPE provides TLS 1.2 AES-256 GCM encryption support for ONTAP data replication features such as NetApp SnapMirror, NetApp SnapVault, and NetApp FlexCache technologies. Encryption is setup by way of a pre-shared key (PSK) between two cluster peers.
+* *Secure multitenancy*. Supports the increased needs of virtualized server and storage shared infrastructure, enabling secure multitenancy of facility-specific information, particularly when hosting multiple instances of databases and software.
+
+link:flexpod-fips-conclusion.html[Next: Conclusion.]
