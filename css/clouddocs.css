@@ -1,4 +1,3 @@
-
 /* NetApp.com Overrides */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
  body, html{font-family: "Source Sans Pro", sans-serif; font-weight: 400;}
@@ -89,6 +88,18 @@ dl dt {
    font-family: 'Source Sans Pro',sans-serif;
 }
 
+/* External Link Indicator */
+
+article a[target="_blank"]:after{
+  content: "";
+  background: url('/us-en/flexpod/images/external_lg_v2.png') left center no-repeat;
+  vertical-align: middle;
+  background-size: 14px auto;
+  padding-top: 4px;
+  padding-left: 16px;
+  margin-left: 3px;
+}
+
 /* Collapsible Block */
 
 details{
@@ -163,6 +174,18 @@ table.frame-all {
 }
 
 time+span {
+  border-left: solid 1px #686868;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+span+a {
+  border-left: solid 1px #686868;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+time+a {
   border-left: solid 1px #686868;
   margin-left: 12px;
   padding-left: 12px;
@@ -288,7 +311,7 @@ time+span+span {
   display: inline-block;
   font-size: 14px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   padding: 6px 12px;
   position: relative;
   vertical-align: middle;
@@ -317,7 +340,7 @@ time+span+span {
   right: auto;
   left: auto;
   background: #FFF;
-  border-bottom: solid 4px #0A0B09;
+  border-bottom: none;
   display: none;
   min-width: auto;
   z-index: 200;
@@ -347,7 +370,6 @@ time+span+span {
   display: block;
   font-size: 12px;
   padding: 6px 0;
-  text-transform: uppercase;
 }
 
 .n-top-hat {
@@ -967,7 +989,7 @@ div#version-dropdown div#version-dropdown-ie-i18n div#version-dropdown-ie-i18n-m
 div#version-dropdown div#version-dropdown-ie-i18n div#version-dropdown-n-property-navigation-bar__menu--language-selector {
   top: 50px !important;
   width: 100%;
-  border-bottom: 4px solid #0a0b09 !important;
+  border-bottom: none;
   min-width: auto;
   background-color: #ffffff;
   padding-left: 0;
@@ -1073,7 +1095,7 @@ div#version-dropdown div#version-dropdown-ie-i18n .menu__footer {
   .col-md-3 {  position: absolute;
     top: 30px;
     top: 0px;
-    left: -94%;
+    left: -92%;
     width: 89%;
   max-height: 88vh}
   .ie-content-pane {padding: 24px 15px;  margin: 0px;  width: 100%;}
@@ -1116,7 +1138,6 @@ div#version-dropdown div#version-dropdown-ie-i18n .menu__footer {
     left: -93%;
     width: 88%;}
 }
-
 
 @media screen and (max-width: 767px) {
   div#version-dropdown {

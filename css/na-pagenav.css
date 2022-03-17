@@ -70,7 +70,8 @@
 @media screen and (max-width: 767px) {
   .page-nav-toolbar {
     top: 58px;
-    z-index: 99;
+    z-index: 2;
+    position: absolute;
     width: 240px;
     padding: 0 15px;
     background-color: transparent;

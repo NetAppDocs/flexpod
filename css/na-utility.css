@@ -25,9 +25,13 @@
   white-space: nowrap;
 }
 
+.n-breadcrumb__list-item:last-child > a:after{
+  content: none;
+}
+
 .ie-utility {
   width: 100%;
-  z-index: 500;
+  z-index: 2;
   background: white;
   height: auto;
 
@@ -322,7 +326,6 @@ button.n-property-bar__search-toggle-button {
 
   .n-breadcrumb__list-item:last-child {
     min-height: 19px;
-    padding-top: 6px;
   }
 }
 @media screen and (max-width: 1100px){

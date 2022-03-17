@@ -16,20 +16,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="FlexPod solutions are a set of strategic and technology capabilities that emphasize the NetApp portfolio of products and services to support our customers' m...">
-  <meta name="keywords" content=" ">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="FlexPod solutions are a set of strategic and technology capabilities that emphasize the NetApp portfolio of products and services to support our customers' m...">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/us-en/flexpod/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/us-en/flexpod/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/us-en/flexpod/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/us-en/flexpod/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/us-en/flexpod/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/us-en/flexpod/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/us-en/flexpod/js/na-search.js'></script>
-  
 
-  
-  <script src='/us-en/flexpod/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/us-en/flexpod/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/us-en/flexpod/js/na-search.js'></script><script src='/us-en/flexpod/js/na-pagenav.js'></script><link rel='stylesheet' href='/us-en/flexpod/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/us-en/flexpod/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/us-en/flexpod/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/us-en/flexpod/js/toc.js'></script>
-  <script src='/us-en/flexpod/js/customscripts.js'></script>
-
-  <script>
+  <script src='/us-en/flexpod/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -158,7 +131,6 @@
   }
   </script>
   <script src='/us-en/flexpod/js/version-dropdown.js'></script>
-  <script src='/us-en/flexpod/js/product-family.js'></script>
   <script src='/us-en/flexpod/js/FileSaver.min.js'></script>
   <script src='/us-en/flexpod/js/jszip-utils.min.js'></script>
   <script src='/us-en/flexpod/js/jszip.min.js'></script>
@@ -171,6 +143,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/flexpod/issues/new?body=Page%3A%20[FlexPod Solutions](https://docs.netapp.com/us-en/flexpod/index.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/discuss-sm.svg" class="github-icon" />Request doc changes</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/flexpod/blob/main/index.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/edit-sm.svg" class="github-icon" />Edit this page</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/flexpod/images/article-sm.svg" class="github-icon" />Learn how to contribute</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">ON THIS PAGE</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -1665,6 +1656,50 @@
 
 
 
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          <a target="_blank" 
+            
+              href="/us-en/flexpod/pdfs/sidebar/FIPS_140_2_security_compliant_FlexPod_solution_for_healthcare.pdf" 
+            
+          >
+            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            FIPS 140-2 security-compliant FlexPod solution for healthcare
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
           
         </li>
       </ul>
@@ -2417,6 +2452,31 @@
         Acknowledgements
       </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/security-ransomware_additional_information.html">
         Additional Information
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> FIPS 140-2 security-compliant FlexPod solution for healthcare</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-introduction.html">
+        Introduction
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-cybersecurity-threats-in-healthcare.html">
+        Cybersecurity threats in healthcare
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-overview-of-fips-140-2.html">
+        Overview of FIPS 140-2
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-control-plane-versus-data-plane.html">
+        Control plane versus data plane
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-flexpod-cisco-ucs-compute-and-fips-140-2.html">
+        FlexPod Cisco UCS compute and FIPS 140-2
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-flexpod-cisco-networking-and-fips-140-2.html">
+        FlexPod Cisco networking and FIPS 140-2
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-flexpod-netapp-ontap-storage-and-fips-140-2.html">
+        FlexPod NetApp ONTAP storage and FIPS 140-2
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-solution-benefits-of-flexpod-converged-infrastructure.html">
+        Solution benefits of FlexPod converged infrastructure
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-additional-flexpod-security-consideration.html">
+        Additional FlexPod security considerations
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-conclusion.html">
+        Conclusion
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/security/flexpod-fips-where-to-find-additional-information.html">
+        Acknowlegements, version history, and where to find additional information
       </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> Cisco Intersight with NetApp ONTAP storage quick start guide</div>
       </a>
@@ -2466,26 +2526,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">Home</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">Documentation</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/us-en/flexpod/">FlexPod</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          FlexPod Solutions
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -2509,6 +2565,11 @@
           <div class="ie-feature-block__text">
             FlexPod - Start Here
           </div>
+        </div>
+        
+        <div class="ie-feature-block__section">
+          
+          <a class="ie-feature-block__link" href="https://fieldportal.netapp.com/content/1668183">What's New</a>
         </div>
         
         <div class="ie-feature-block__section">
@@ -2664,27 +2725,7 @@
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/flexpod/issues/new?body=Page%3A%20[FlexPod Solutions](https://docs.netapp.com/us-en/flexpod/index.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/discuss-sm.svg" class="github-icon" />Request doc changes</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/flexpod/blob/main/index.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/edit-sm.svg" class="github-icon" />Edit this page</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/flexpod/images/article-sm.svg" class="github-icon" />Learn how to contribute</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">ON THIS PAGE</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -2786,9 +2827,7 @@
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/us-en/flexpod/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -2803,7 +2842,4 @@
     </script>
     <script src='/us-en/flexpod/js/www-ntap.js'></script>
     <script src='/us-en/flexpod/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>

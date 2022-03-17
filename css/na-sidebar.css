@@ -173,7 +173,9 @@ li.subfolders.active > a, li.subfolders.active > a:hover {
 li.subfolders.active:after{display:none;}
 li.subfolders.active > ul li.active > a ,li.subfolders.active > ul li.active > a:hover {
 color:#101820;
-  font-weight: 600;}
+  font-weight: 600;
+  padding-right:5px;
+}
 .nav li > a {
     color: #101820;
 }
