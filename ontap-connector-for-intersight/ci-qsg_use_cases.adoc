@@ -65,25 +65,46 @@ When the NetApp Storage and vCenter environments are available in Cisco Intersig
 +
 Here are the NetApp storage tasks that are available from Cisco Intersight:
 
-** Task 1: Add Storage Export Policy to Volume
-** Task 2: Connect Initiators to Storage Host (igroup)
-** Task 3: Expand Storage LUN
-** Task 4: Expand Storage Volume
-** Task 5: Find NetApp igroup LUN Map
-** Task 6: Find Storage LUN by ID
-** Task 7: Find Storage Volume by ID
-** Task 8: New Storage Export Policy
-** Task 9: New Storage Fibre Channel Interface
-** Task 10: New Storage Host
-** Task 11: New storage IP interface
-** Task 12: New storage LUN
-** Task 13: New storage LUN ID
-** Task 14: New Storage Virtual Machine
-** Task 15: New storage volume
-** Task 16: Remove storage export policy
-** Task 17: Remove storage host
-** Task 18: Remove storage LUN
-** Task 19: Remove storage LUN ID
-** Task 20: Remove storage volume
+** Add Storage Export Policy to Volume
+** Connect Initiators to Storage Host (igroup)
+** Expand Storage LUN
+** Expand Storage Volume
+** Find NetApp igroup LUN Map
+** Find Storage LUN by ID
+** Find Storage Volume by ID
+** New Storage Export Policy
+** New Storage Fibre Channel Interface
+** New Storage Host
+** New storage IP interface
+** New storage LUN
+** New storage LUN ID
+** New Storage Virtual Machine
+** New storage volume
+** Remove storage export policy
+** Remove storage host
+** Remove storage LUN
+** Remove storage LUN ID
+** Remove storage volume
+** New Storage Snapshot Policy
+** New Storage Snapshot Policy Schedule
+** Remove Storage Snapshot Policy
+** Remove Storage Snapshot Policy Schedule
+** Edit Storage Snapshot Policy
+** Edit Storage Snapshot Policy Schedule
+** New Storage Volume Snapshot
+** Remove Storage Volume Snapshot
+** Rename Storage Volume Snapshot
+** New Storage Export Policy Rule
+** Edit Storage Export Policy Rule
+** Remove Storage Export Policy Rule
+** Disconnect Storage Export Policy From Volume
+** Remove Storage FC Interface
+** Remove Storage IP Interface
+** Remove Storage Virtual Machine
+** Edit Aggregates for Storage Virtual Machine
+** New Storage NAS Smart Volume
+** New Storage Smart LUN
++
+NOTE: The New Storage NAS Smart Volume and New Storage Smart LUN tasks will only work with ONTAP 9.8 and above. ONTAP 9.7P1 is currently the minimum supported version.
 
 To learn more about customizing workflows with NetApp storage and virtualization tasks, watch the video https://tv.netapp.com/detail/video/6228095945001[NetApp ONTAP Storage Orchestration in Cisco Intersight^].

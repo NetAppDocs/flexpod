@@ -14,6 +14,19 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== April 2022
+NOTE: To ensure compatibility and complete functionality with future releases, it is recommended that you upgrade your NetApp Active IQ Unified Manager to version 9.10P1.
+
+* Added Broadcast Domain to Ethernet Port Detail page
+* Changed the term “Aggregate” to “Tier” for the Aggregate and SVM within the user interface
+* Changed the term "Cluster Status" to "Array Status"
+* MTU filter now works for <,>,=,<=,>= characters
+* Added Network Interface Page to Cluster Inventory
+* Added AutoSupport to Cluster Inventory
+* Added `cdpd.enable` option to node
+* Added an object for CDP neighbor
+* Added NetApp workflow storage tasks within Cisco Intersight. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form] for a complete list of NetApp storage tasks.
+
 == January 2022
 * Added event-based Intersight alarms for NetApp Active IQ Unified Manager 9.10 or above.
 

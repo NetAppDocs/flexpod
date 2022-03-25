@@ -24,4 +24,6 @@ image:ci-qsg_image7.png[screenshot of enabled NetApp AIQ UM API Gateway]
 
 The following example shows the NetApp AIQ UM target being claimed from Cisco Intersight.
 
+NOTE: When you claim the NetApp AIQ UM target, all clusters managed by Active IQ Unified Manager are automatically added to Intersight. 
+
 image:ci-qsg_image8.png[screenshot of NetApp AIQ UM target being claimed from Cisco Intersight]
