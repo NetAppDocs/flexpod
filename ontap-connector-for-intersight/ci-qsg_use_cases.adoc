@@ -104,6 +104,7 @@ Here are the NetApp storage tasks that are available from Cisco Intersight:
 ** Edit Aggregates for Storage Virtual Machine
 ** New Storage NAS Smart Volume
 ** New Storage Smart LUN
+** Remove Storage Smart LUN
 +
 NOTE: The New Storage NAS Smart Volume and New Storage Smart LUN tasks will only work with ONTAP 9.8 and above. ONTAP 9.7P1 is currently the minimum supported version.
 
