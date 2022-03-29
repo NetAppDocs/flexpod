@@ -343,7 +343,7 @@ time+span+span {
   border-bottom: none;
   display: none;
   min-width: auto;
-  z-index: 200;
+  z-index: 3;
   width: 100%;
 }
 
@@ -785,7 +785,7 @@ div#version-dropdown div#version-dropdown-ie-i18n {
   }
 
   .site-header {
-    z-index: 501;
+    z-index: 3;
   }
 
   .n-property-bar__inner-wrap {

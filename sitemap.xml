@@ -15,1561 +15,1561 @@
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/ci-qsg_before_you_begin.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-25T16:21:19+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/ci-qsg_claim_targets.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-25T16:21:19+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-05-11T19:57:40+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/ci-qsg_monitor_netapp_storage_from_cisco_intersight.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-24T15:03:53+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/ci-qsg_new.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-25T16:21:19+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/ci-qsg_references.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-05-05T19:58:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/ci-qsg_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-25T16:21:19+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/ci-qsg_use_cases.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-28T16:06:15+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_add_a_cloud_tier_to_ontap.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_attach_a_cloud_tier_to_an_ontap_aggregate.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_cost_of_ownership.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_create_aws_s3_bucket.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_fabricpool.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_fabricpool_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_flexpod_overview_and_architecture.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_install_fabricpool_license.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_performance_considerations.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_set_volume_tiering_minimum_cooling_days.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_set_volume_tiering_policy.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_software_revisions.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-fabricpool_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_architecture.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_deploy_cloud_insights_for_flexpod.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_design_considerations.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_netapp_cloud_insights_for_flexpod.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_use_cases.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_use_cases_01.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/hybrid-cloud/cloud-insights_videos_and_demos.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_cisco_components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-01-13T20:14:49+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_cisco_nexus_switching_modes_of_operation.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_connectivity_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_flexpod_platforms.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_flexpod_rules.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_legacy_equipment.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_minimum_hardware_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-08-31T17:58:53+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_minimum_software_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-08-27T19:53:26+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_netapp_components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-01-13T20:14:49+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_netapp_ontap.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-08-27T19:53:26+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_optional_features.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-08-31T17:58:53+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_other_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-08-31T17:58:53+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_power_and_cabling_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_solution_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-01-13T20:14:49+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_supported_versus_validated_flexpod_configurations.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_technical_specifications_and_references.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-01-13T20:14:49+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:53:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_acknowledgements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_base_infrastructure_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T19:42:19+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_cisco_mds_9148s_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_cisco_ucs_blade_server_and_switch_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_deployment_and_configuration_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_design.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_esxi_configuration_best_practices.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_genio_tool.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_infrastructure_hardware_and_software_components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_netapp_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_ontap_documentation.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_where_to_find_additional_information_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_acknowledgements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_executive_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_test_methodology.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_workload_testing.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_acknowledgements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_cisco_ucs_reference_architecture_for_epic.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_netapp_storage_reference_architectures_for_epic.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_reference_architecture.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_technical_specifications_for_small,_medium,_and_large_architectures.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_acknowledgments.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_aggregate_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_base_infrastructure_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_cisco_ucs_blade_server_and_switch_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_deployment_and_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_deployment_and_configuration_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_design.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_esxi_configuration_best_practices.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_initiator_group_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_lun_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_lun_mappings.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_meditech_modules_and_components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_netapp_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_storage_virtual_machine_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_volume_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-sizing_acknowledgments.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-sizing_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-sizing_introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-sizing_meditech_workload_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-sizing_technical_specifications_for_small,_medium_and_large_architectures.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_acknowledgments.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_cisco_nexus_3172p_deployment_procedure.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_cisco_ucs_c-series_rack_server_deployment_procedure.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_configure_vmware_vcenter_server_6.7_and_vsphere_clustering.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_deployment_procedures.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_deployment_procedures_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_flexpod_express_cabling_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_install_vmware_vcenter_server_6.7.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_netapp_aff_storage_deployment_procedure_@part_2@.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_netapp_storage_deployment_procedure_@part_1@.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_program_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_solution_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_technology_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_vmware_vsphere_6.7_deployment_procedure.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_design_choices.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_executive_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_program_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_solution_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_solution_verification.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_technology_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-design_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_acknowledgments.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_deploy_cisco_nexus_31108pc-v.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_deploy_cisco_ucs_c-series_rack_server.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_deployment_procedures.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_deployment_procedures_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_flexpod_express_cabling_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_netapp_aff_storage_deployment_procedure_@part_2@.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_netapp_storage_deployment_procedure_@part_1@.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_netapp_virtual_storage_console_9.6_deployment_procedures.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_program_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_program_summary_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_solution_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_technology_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_version_history.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_vmware_vcenter_server_6.7u2_and_vsphere_clustering_configuration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_vmware_vcenter_server_6.7u2_installation_procedure.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T20:49:18+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_vmware_vsphere_6.7u2_deployment_procedure.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-deploy_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T21:06:22+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-design_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-design_design_choices.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-design_executive_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-design_program_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-design_technology_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-design_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_deployment_procedures.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_flexpod_express_cabling_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_program_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_solution_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_technology_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_design_choices.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_program_summary.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_solution_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_solution_verification.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_technology_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-design_where_to_find_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:42:06+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-additional-flexpod-security-consideration.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-control-plane-versus-data-plane.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-cybersecurity-threats-in-healthcare.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-flexpod-cisco-networking-and-fips-140-2.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-flexpod-cisco-ucs-compute-and-fips-140-2.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-flexpod-netapp-ontap-storage-and-fips-140-2.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-overview-of-fips-140-2.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-solution-benefits-of-flexpod-converged-infrastructure.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/flexpod-fips-where-to-find-additional-information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-03-15T20:34:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-a.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T18:20:04+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-b.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T18:20:04+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-c.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T18:53:40+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-d-gpu-setup.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T18:53:40+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-benefits-of-deploying-genomic-workloads-on-flexpod.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T18:20:04+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-08T20:29:02+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-genomics---gatk-setup-and-execution.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T18:20:04+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T18:20:04+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-solution-infrastructure-hardware-and-software-components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-05T17:50:02+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec__cisco_components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_connectivity_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_flexpod_platforms.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-01-13T20:14:49+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_flexpod_rules.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_legacy_equipment.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_minimum_hardware_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2022-01-13T20:14:49+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_minimum_software_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec__netapp_components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec__optional_features.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_other_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-10-20T14:21:17+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec__power_and_cabling_requirements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec__previous_architectures_and_equipment.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_storage_software.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-09-09T21:27:53+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_supported_versus_validated_flexpod_configurations.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec__technical_specifications_and_references.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ent-db/</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-09-07T17:32:38+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-11-24T15:03:53+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:53:15+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/medical-imaging_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/medical-imaging_architecture.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/medical-imaging_best_practices.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/medical-imaging_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/medical-imaging_introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/medical-imaging_solution_infrastructure_hardware_and_software_components.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/medical-imaging_solution_sizing.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-08T18:27:08+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/infrastructure/nvme-vsphere-abstract.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-12-03T19:00:36+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/infrastructure/nvme-vsphere-conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-12-03T19:00:36+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/infrastructure/nvme-vsphere-introduction.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-12-08T15:52:45+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/infrastructure/nvme-vsphere-test-results.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-12-03T19:00:36+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/infrastructure/nvme-vsphere-testing-approach.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-12-03T19:00:36+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod//search.html</loc>
       
-      <lastmod>2022-03-17T20:13:09+00:00</lastmod>
+      <lastmod>2022-03-29T20:23:34+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_acknowledgements.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:48:21+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_additional_information.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_conclusion.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_continue_business_operations_without_paying_ransom.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:48:21+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_flexpod_overview.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:48:21+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_protect_and_recover_data_on_flexpod.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-03T20:48:21+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_ransomware_protection_measures.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_what_is_ransomware.html</loc>
       
-      <lastmod>2022-03-17T20:12:51+00:00</lastmod>
+      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
       
     </url>
   
