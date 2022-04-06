@@ -1,0 +1,497 @@
+---
+sidebar: sidebar
+permalink: flexpod-dc/sm-bcs-solution-validation_overview.html
+keywords: validation topology, hardware, software, compute, connectivity, service, profiles, san boot, Port channel, virtual port channel
+summary: The FlexPod SM-BC solution design and implementation details depend on the specific FlexPod situation configuration and solution objectives. After the general business continuity requirements are defined, the FlexPod SM-BC solution can be created by implementing a completely new solution with two new FlexPod systems, adding a new FlexPod at another site to pair with an existing FlexPod, or by pairing two existing FlexPod systems together.
+---
+
+= Solution validation - Overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-04-04 13:13:16.386576
+//
+
+link:sm-bcs-flexpod-sm-bc-solution.html[Previous: FlexPod SM-BC solution.]
+
+The FlexPod SM-BC solution design and implementation details depend on the specific FlexPod situation configuration and solution objectives. After the   new solution with two new FlexPod systems, adding a new FlexPod at another site to pair with an existing FlexPod, or by pairing two existing FlexPod systems together.
+
+Since FlexPod solutions are flexible in nature in its configurations, all supported FlexPod configurations and components can potentially be used. The remainder of this section provides information for the implementation validations performed for a VMware-based virtual infrastructure solution. Except for the SM-BC related aspects,  the implementation follows the standard FlexPod deployment processes. Please see the available FlexPod CVDs and NVAs appropriate for your specific configurations for general FlexPod implementation details.
+
+== Validation topology
+
+For validation of the FlexPod SM-BC solution, supported technology components from NetApp, Cisco, and VMware are used. The solution features NetApp AFF A250 HA pairs running ONTAP 9.10.1, dual Cisco Nexus 9336C-FX2 switches at site A and dual Cisco Nexus 3232C switches at site B, Cisco UCS 6454 FIs at both sites, and three Cisco UCS B200 M5 servers at each site running VMware vSphere 7.0u2 and managed by UCS Manager and VMware vCenter server. The following figure shows the component-level solution validation topology with two FlexPod systems running at site A and site B connected by extended layer-2 inter-site links and ONTAP Mediator running at site C.
+
+image:sm-bcs-image16.png[Error: Missing Graphic Image]
+
+== Hardware and software
+
+The following table lists the hardware and software used for the solution validation. It is important to note that Cisco, NetApp, and VMware have interoperability matrixes used to determine support for any specific implementation of FlexPod:
+
+* http://support.netapp.com/matrix/[http://support.netapp.com/matrix/^]
+* http://www.cisco.com/web/techdoc/ucs/interoperability/matrix/matrix.html[Cisco UCS Hardware and Software Interoperability Tool^]
+* http://www.vmware.com/resources/compatibility/search.php[http://www.vmware.com/resources/compatibility/search.php^]
+
+|===
+|Category |Component |Software version |Quantity
+
+|Compute
+|Cisco UCS Fabric Interconnect 6454
+|4.2(1f)
+|4 (2 per site)
+|
+|Cisco UCS B200 M5 servers
+|4.2(1f)
+|6 (3 per site)
+|
+|Cisco UCS IOM 2204XP
+|4.2(1f)
+|4 (2 per site)
+|
+|Cisco VIC 1440 (PID: UCSB-MLOM-40G-04)
+|5.2(1a)
+|2 (1 per site)
+|
+|Cisco VIC 1340 (PID: UCSB-MLOM-40G-03)
+|4.5(1a)
+|4 (2 per site)
+|Network
+|Cisco Nexus 9336C-FX2
+|9.3(6)
+|2 (site A)
+|
+|Cisco Nexus 3232C
+|9.3(6)
+|2 (site B)
+|Storage
+|NetApp AFF A250
+|9.10.1
+|4 (2 per site)
+|
+|NetApp System Manager
+|9.10.1
+|2 (1 per site)
+|
+|NetApp Active IQ Unified Manager
+|9.10
+|1
+|
+|NetApp ONTAP Tools for VMware vSphere
+|9.10
+|1
+|
+|NetApp SnapCenter Plugin for VMware vSphere
+|4.6
+|1
+|
+|NetApp ONTAP Mediator
+|1.3
+|1
+|
+|NAbox
+|3.0.2
+|1
+|
+|NetApp Harvest
+|21.11.1-1
+|1
+|Virtualization
+|VMware ESXi
+|7.0U2
+|6 (3 per site)
+|
+|VMware ESXi nenic Ethernet Driver
+|1.0.35.0
+|6 (3 per site)
+|
+|VMware vCenter
+|7.0U2
+|1
+|
+|NetApp NFS Plug-in for VMware VAAI
+|2.0
+|6 (3 per site)
+|Testing
+|Microsoft Windows
+|2022
+|1
+|
+|Microsoft SQL Server
+|2019
+|1
+|
+|Microsoft SQL Server Management Studio
+|18.10
+|1
+|
+|HammerDB
+|4.3
+|1
+|
+|Microsoft Windows
+|10
+|6 (3 per site)
+|
+|IOMeter
+|1.1.0
+|6 (3 per site)
+|===
+
+== Compute
+
+The compute configuration for the FlexPod SM-BC solution follows typical FlexPod solution best practices.  The following sections highlight some of the connectivity and configurations used for the validation. Some of the SM-BC-related considerations are also highlighted to provide implementation references and guidance.
+
+=== Connectivity
+
+The connectivity between the UCS B200 blade servers and the IOMs are provided by the UCS VIC card through the UCS 5108 chassis backplane connections. The UCS 2204XP Fabric Extenders used for the validation has sixteen 10G ports each to connect to the eight half-width blade servers, for example, two for each server. To increase server connectivity bandwidth, an additional mezzanine-based VIC can be added to connect the server to the alternative UCS 2408 IOM which provides four 10G connections to each server.
+
+image:sm-bcs-image17.png[Error: Missing Graphic Image]
+
+The connectivity between the UCS 5108 chassis and the UCS 6454 FIs used for the validation are provided by the IOM 2204XP which use four 10G connections. The FI ports 1 through 4 are configured as server ports for these connections. The FI ports 25 through 28 are configured as network uplink ports to the Nexus switch A and B at the local site. The following figure and table provide the connectivity diagram and port connection details for the UCS 6454 FIs to connect to the UCS 5108 chassis and the Nexus switches.
+
+image:sm-bcs-image18.png[Error: Missing Graphic Image]
+
+|===
+|Local device |Local port |Remote device |Remote port
+
+|UCS 6454 FI A
+|1
+|IOM A
+
+|1
+|
+|2
+|
+|2
+|
+|3
+|
+|3
+|
+|4
+|
+|4
+|
+|25
+|Nexus A
+|1/13/1
+|
+|26
+|
+|1/13/2
+|
+|27
+|Nexus B
+
+|1/13/3
+|
+|28
+|
+|1/13/4
+|
+|L1
+|UCS 6454 FI B
+|L1
+|
+|L2
+|
+|L2
+|UCS 6454 FI B
+|1
+|IOM B
+|1
+|
+|2
+|
+|2
+|
+|3
+|
+|3
+|
+|4
+|
+|4
+|
+|25
+|Nexus A
+
+|1/13/3
+|
+|26
+|
+|1/13/4
+|
+|27
+|Nexus B
+
+|1/13/1
+|
+|28
+|
+|1/13/2
+|
+|L1
+|UCS 6454 FI A
+|L1
+|
+|L2
+|
+|L2
+|===
+
+[NOTE]
+The connections above are similar for both sites A and B, despite site A using Nexus 9336C-FX2switches and site B using Nexus 3232C switches. 40G to 4x10G breakout cables are used for the Nexus to FI connections. The FI connections to Nexus utilizes port channel and virtual port channels are configured on the Nexus switches to aggregate the connections to each FI.
+
+[NOTE]
+When using a different combination of IOM, FI, and Nexus switch components, be sure to use appropriate cables and port speed for the environment combination.
+
+[NOTE]
+Additional bandwidth can be achieved by using components that support higher speed connections or more connections. Additional redundancy can be achieved by adding additional connections with components that support them.
+
+=== Service profiles
+
+A blade server chassis with fabric interconnects managed by UCS Manager (UCSM) or Cisco Intersight can abstract the servers by using service profiles available in UCSM and server profiles in Intersight. This validation uses UCSM and service profiles to simplify server management. With service profiles, replacing or upgrading a server can be done simply by associating the original service profile with the new hardware.
+
+The created service profiles support the following for the VMware ESXi hosts:
+
+* SAN boot from the AFF A250 storage at either site using iSCSI protocol.
+* Six vNICs are created for the servers where:
+** Two redundant vNICs (vSwitch0-A and vSwitch0-B) carry in-band management traffic. Optionally, these vNICs can also be used by NFS protocol data that is not protected by SM-BC.
+** Two redundant vNICs (vDS-A and vDS-B) are used by the vSphere distributed switch to carry VMware vMotion and other application traffic.
+** iSCSI-A vNIC used by iSCSI-A vSwitch to provide access to iSCSI-A path.
+** iSCSI-B vNIC used by iSCSI-B vSwitch to provide access to iSCSI-B path.
+
+=== SAN boot
+
+For iSCSI SAN boot configuration, the iSCSI boot parameters are set to allow iSCSI boot from both iSCSI fabrics. To accommodate the SM-BC failover scenario in which an iSCSI SAN boot LUN is served from the secondary cluster when the primary cluster is not available, the iSCSI static target configuration should include targets from both site A and site B. In addition, to maximize boot LUN availability, configure the iSCSI boot parameter settings to boot from all storage controllers.
+
+The iSCSI static target can be configured in the boot policy of service profile templates under the Set iSCSI Boot Parameter dialog as shown in the following figure. The recommended iSCSI boot parameter setting configuration is shown in the following table,  which implements the boot strategy discussed above to achieve high availability.
+
+image:sm-bcs-image19.png[Error: Missing Graphic Image]
+
+|===
+|iSCSI fabric |Priority |iSCSI target |iSCSI LIF
+
+|iSCSI A
+
+|1
+|Site A iSCSI target
+|Site A Controller 1 iSCSI A LIF
+|
+|2
+|Site B iSCSI target
+|Site B Controller 2 iSCSI A LIF
+|iSCSI B
+
+|1
+|Site B iSCSI target
+|Site B Controller 1 iSCSI B LIF
+|
+|2
+|Site A iSCSI target
+|Site A Controller 2 iSCSI B LIF
+|===
+
+== Network
+
+The network configuration for FlexPod SM-BC solution follows typical FlexPod solution best practices at each site. For inter-site connectivity, the solution validation configuration connects the FlexPod Nexus switches at the two sites together to provide inter-site connectivity that extends VLANs between the two sites. The following sections highlight some of the connectivity and configurations used for the validation.
+
+=== Connectivity
+
+The FlexPod Nexus switches at each site provides the local connectivity between the UCS compute and ONTAP storage in a highly available configuration. The redundant components and redundant connectivity provide the resiliency against single-point-of-failure scenarios.
+
+The following diagram shows the Nexus switch local connectivity at each site. In addition to what is shown in the diagram, there are also console and management network connections for each component that are not shown. The 40G to 4 x 10G breakout cables are used to connect the Nexus switches to the UCS FIs and the ONTAP AFF A250 storage controllers. Alternatively, the 100G to 4 x 25G breakout cables can be used to increase the communication speed between the Nexus switches and the AFF A250 storage controllers. For simplicity, the two AFF A250 controllers are logically shown as side-by-side for cabling illustration. The two connections between the two storage controllers allow the storage to form a switchless cluster.
+
+image:sm-bcs-image20.png[Error: Missing Graphic Image]
+
+The following table shows the connectivity between Nexus switches and AFF A250 storage controllers at each site.
+
+|===
+|Local device |Local port |Remote device |Remote port
+
+|Nexus A
+|1/10/1
+|AFF A250 A
+|e1a
+|
+|1/10/2
+|
+|e1b
+|
+|1/10/3
+|AFF A250 B
+|e1a
+|
+|1/10/4
+|
+|e1b
+|Nexus B
+|1/10/1
+|AFF A250 A
+|e1c
+|
+|1/10/2
+|
+|e1d
+|
+|1/10/3
+|AFF A250 B
+|e1c
+|
+|1/10/4
+|
+|e1d
+|===
+
+The connectivity between the FlexPod switches at site A and site B is shown in the following figure with cabling details listed in the accompanying table. The connections between the two switches at each site are for the vPC peer links. On the other hand, the connections between the switches across sites provide the inter-site links.  The links extend the VLANs across sites for intercluster communication, SM-BC data replication, in-band management, and data access for the remote site resources.
+
+image:sm-bcs-image21.png[Error: Missing Graphic Image]
+
+|===
+|Local device |Local port |Remote device |Remote port
+
+|Site A switch A
+|33
+|Site B switch A
+|31
+|
+|34
+|
+|32
+|
+|25
+|Site A switch B
+|25
+|
+|26
+|
+|26
+|Site A switch B
+|33
+|Site B switch B
+|31
+|
+|34
+|
+|32
+|
+|25
+|Site A switch A
+|25
+|
+|26
+|
+|26
+|Site B switch A
+|31
+|Site A switch A
+|33
+|
+|32
+|
+|34
+|
+|25
+|Site B switch B
+|25
+|
+|26
+|
+|26
+|Site B switch B
+|31
+|Site A switch B
+|33
+|
+|32
+|
+|34
+|
+|25
+|Site B switch A
+|25
+|
+|26
+|
+|26
+|===
+
+[NOTE]
+The table above lists connectivity from the perspectives of each FlexPod switch. As a result, the table contains duplicate information for readability.
+
+=== Port channel and virtual port channel
+
+Port channel enables link aggregation by using the Link Aggregation Control Protocol (LACP) for bandwidth aggregation and link failure resiliency. Virtual port channel (vPC) allows the port channel connections between two Nexus switches to logically appear as one. This further improves failure resiliency for scenarios such as a single link failure or a single switch failure.
+
+The UCS server traffic to storage take the paths of IOM A to FI A and IOM B to FI B before reaching the Nexus switches. As the FI connections to Nexus switches utilize port channel on the FI side and virtual port channel on the Nexus switch side, the UCS server can effectively use paths through both Nexus switches and can survive single-point-of-failure scenarios. Between the two sites, the Nexus switches are inter-connected as illustrated in the previous figure. There are two links each to connect the switch pairs between the sites and they also use a port- channel configuration.
+
+The in-band management, inter-cluster, and iSCSI / NFS data storage protocol connectivity is provided by interconnecting the storage controllers at each site to the local Nexus switches in a redundant configuration. Each storage controller is connected to two Nexus switches. The four connections are configured as part of an interface group on the storage for increased resiliency. On the Nexus switch side, those ports are also part of a vPC between switches.
+
+The following table lists the port channel ID and usage at each site.
+
+|===
+|Port channel ID |Usage
+
+|10
+|Local Nexus peer link
+|15
+|Fabric interconnect A links
+|16
+|Fabric interconnect B links
+|27
+|Storage controller A links
+|28
+|Storage controller B links
+|100
+|Inter-site switch A links
+|200
+|Inter-site switch B links
+|===
+
+=== VLANs
+
+The following table lists VLANs configured for setting up the FlexPod SM-BC solution validation environment along with their usage.
+
+|===
+|Name |VLAN ID |Usage
+
+|Native-VLAN
+|2
+|VLAN 2 used as native VLAN instead of default VLAN (1)
+|OOB-MGMT-VLAN
+|3333
+|Out-of-band management VLAN for devices
+|IB-MGMT-VLAN
+|3334
+|In-band management VLAN for ESXi hosts, VM management, etc.
+|NFS-VLAN
+|3335
+|Optional NFS VLAN for NFS traffic
+|iSCSI-A-VLAN
+|3336
+|iSCSI-A fabric VLAN for iSCSI traffic
+|iSCSI-B-VLAN
+|3337
+|iSCSI-B fabric VLAN for iSCSI traffic
+|vMotion-VLAN
+|3338
+|VMware vMotion traffic VLAN
+|VM-Traffic-VLAN
+|3339
+|VMware VM traffic VLAN
+|Intercluster-VLAN
+|3340
+|Intercluster VLAN for ONTAP cluster peer communications
+|===
+
+[NOTE]
+While SM-BC does not support NFS or CIFS protocols for business continuity,  you can still use them for workloads that do not need to be protected for business continuity.  NFS datastores were not created for this validation.
+
+link:sm-bcs-storage.html[Next: Solution validation - Storage.]

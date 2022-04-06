@@ -1,6 +1,28 @@
 section: flexpod-dc
 title: FlexPod Datacenter
 entries:
+  - title: FlexPod DataCenter with NetApp SnapMirror Business Continuity and ONTAP 9.10
+    type: solutions
+    entries:
+      - title: Introduction
+        url: /flexpod-dc/sm-bcs-introduction.html
+      - title: FlexPod SM-BC solution
+        url: /flexpod-dc/sm-bcs-flexpod-sm-bc-solution.html
+      - title: Solution validation
+        entries:
+          - title: Overview
+            url: /flexpod-dc/sm-bcs-solution-validation_overview.html
+          - title: Storage
+            url: /flexpod-dc/sm-bcs-storage.html
+          - title: Virtualization
+            url: /flexpod-dc/sm-bcs-virtualization.html
+          - title: Validated scenarios
+            url: /flexpod-dc/sm-bcs-validated-scenarios.html
+      - title: Conclusion
+        url: /flexpod-dc/sm-bcs-conclusion.html
+      - title: Where to find additional information and version history
+        url: /flexpod-dc/sm-bcs-where-to-find-additional-information-and-version-history.html
+#
   - title: FlexPod Datacenter with VMware vSphere 7.0, Cisco VXLAN Single-Site Fabric, and NetApp ONTAP 9.7 Design Guide
     url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_esxi70_vxlan_evpn_design.html
   - title: FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7

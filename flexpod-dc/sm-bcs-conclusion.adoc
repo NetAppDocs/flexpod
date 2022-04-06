@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: flexpod-dc/sm-bcs-conclusion.html
+keywords: conclusion
+summary: The FlexPod Datacenter with SM-BC uses an active-active data center design to provide business continuity and disaster recovery for business-critical workloads. The solution typically interconnects two data centers deployed in separate, geographically dispersed locations in a metro area. The NetApp SM-BC solution uses synchronous replication to protect business-critical data services against a site failure. The solution requires that the two FlexPod deployment sites have a round-trip network latency of less than 10 milliseconds.
+
+---
+
+= Conclusion
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-04-04 13:13:16.437362
+//
+
+link:sm-bcs-validated-scenarios.html[Previous: Solution validation - Validated scenarios.]
+
+The FlexPod Datacenter with SM-BC uses an active-active data center design to provide business continuity and disaster recovery for business-critical workloads. The solution typically interconnects two data centers deployed in separate, geographically dispersed locations in a metro area. The NetApp SM-BC solution uses synchronous replication to protect business-critical data services against a site failure. The solution requires that the two FlexPod deployment sites have a round-trip network latency of less than 10 milliseconds.
+
+The NetApp ONTAP Mediator deployed at a third site monitors the SM-BC solution and enables automated failover when a site disaster is detected. The VMware vCenter with VMware HA and stretched VMware vSphere Metro Storage Cluster configuration work seamlessly with NetApp SM-BC to enable the solution to meet the desired zero RPO and near zero RTO objectives.
+
+The FlexPod SM-BC solution can also be deployed on existing FlexPod infrastructures if they meet the requirements or by adding an additional FlexPod solution to an existing FlexPod to achieve business continuity objectives.  Additional management, monitoring, and automation tools, such as Cisco Intersight, Ansible, and HashiCorp Terraform- based automation, are available from NetApp and Cisco so you can easily monitor the solution, gain insights on its operations, and automate its deployment and operations.
+
+From the perspectives of a business-critical application such as Microsoft SQL Server, a database that resides on a VMware datastore protected by an ONTAP SM-BC CG relationship continues to be available despite a site storage outage. As verified during the validation testing, after a power outage of the storage cluster where the database resides, a failover of the SM-BC CG relationship occurs, and the Microsoft SQL Server transactions resume without application disruption.
+
+With application granular data protection, the ONTAP SM-BC CG relationships can be created for your business-critical applications to meet zero RPO and near zero RTO requirements. So that the VMware cluster on which the Microsoft SQL Server application is running can survive a site storage outage, the boot LUNs of the ESXi hosts at each site are also protected by a SM-BC CG relationship.
+
+The flexibility and scalability of FlexPod enables you to start out with a right-sized infrastructure that can grow and evolve as your business requirements change. This validated design enables you to reliably deploy VMware vSphere-based private cloud on a distributed and integrated infrastructure, thereby delivering a solution that is resilient to many single-point-of-failure scenarios as well as a site failure to protect critical business data services.
+
+link:sm-bcs-where-to-find-additional-information-and-version-history.html[Next: Where to find additional information and version history.]
