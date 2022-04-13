@@ -168,5 +168,4 @@ image:sm-bcs-image19.png[Error: Missing Graphic Image]
 |Site A Controller 2 iSCSI B LIF
 |===
 
-- title: Network
 link:sm-bcs-network.html[Next: Solution validation - Network.]
