@@ -12,6 +12,10 @@ entries:
         entries:
           - title: Overview
             url: /flexpod-dc/sm-bcs-solution-validation_overview.html
+          - title: Compute
+            url: /flexpod-dc/sm-bcs-compute.html
+          - title: Network
+            url: /flexpod-dc/sm-bcs-network.html
           - title: Storage
             url: /flexpod-dc/sm-bcs-storage.html
           - title: Virtualization

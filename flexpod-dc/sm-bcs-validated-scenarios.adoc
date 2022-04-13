@@ -89,7 +89,7 @@ Shortly after initiating the failover of the two consistency groups, `cg_esxi_a`
 
 image:sm-bcs-image53.png[Error: Missing Graphic Image]
 
-On the other hand, the Performance pane of the site B System Manager dashboard shows a significant increase in IOPs, due to serving additional I/O moved over from site A, to about 130K IOPs, and reached a throughput of approximately 1GB/s while maintaining an I/O latency of less than 1 second.
+On the other hand, the Performance pane of the site B System Manager dashboard shows a significant increase in IOPs, due to serving additional I/O moved over from site A, to about 130K IOPs, and reached a throughput of approximately 1GB/s while maintaining an I/O latency of less than 1 millisecond.
 
 image:sm-bcs-image54.png[Error: Missing Graphic Image]
 
