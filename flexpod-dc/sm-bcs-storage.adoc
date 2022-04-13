@@ -18,7 +18,7 @@ summary: The storage configuration for FlexPod SM-BC solution follows typical Fl
 // 2022-04-04 13:13:16.403246
 //
 
-link:sm-bcs-solution-validation_overview.html[Previous: Solution validation - Overview.]
+link:sm-bcs-network.html[Previous: Solution validation - Network.]
 
 The storage configuration for FlexPod SM-BC solution follows typical FlexPod solution best practices at each site. For SM-BC cluster peering and data replication, they use the inter-site links established between the FlexPod switches at both sites. The following sections highlight some of the connectivity and configurations used for the validation.
 

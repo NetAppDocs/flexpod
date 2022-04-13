@@ -13,6 +13,7 @@ summary: The network configuration for FlexPod SM-BC solution follows typical Fl
 :imagesdir: ./../media/
 
 
+link:sm-bcs-compute.html[Previous: Solution validation - Compute.]
 
 The network configuration for FlexPod SM-BC solution follows typical FlexPod solution best practices at each site. For inter-site connectivity, the solution validation configuration connects the FlexPod Nexus switches at the two sites together to provide inter-site connectivity that extends VLANs between the two sites. The following sections highlight some of the connectivity and configurations used for the validation.
 
@@ -206,3 +207,5 @@ The following table lists VLANs configured for setting up the FlexPod SM-BC solu
 
 [NOTE]
 While SM-BC does not support NFS or CIFS protocols for business continuity, you can still use them for workloads that do not need to be protected for business continuity.  NFS datastores were not created for this validation.
+
+link:sm-bcs-storage.html[Next: Solution validation - Storage.]
