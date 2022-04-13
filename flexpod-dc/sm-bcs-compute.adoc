@@ -12,7 +12,7 @@ summary: The compute configuration for the FlexPod SM-BC solution follows typica
 :linkattrs:
 :imagesdir: ./../media/
 
-link:sm-bcs-solution-validation_overview.html[Preivous: Overview.]
+link:sm-bcs-solution-validation_overview.html[Preivous: Solution validation - Overview.]
 
 The compute configuration for the FlexPod SM-BC solution follows typical FlexPod solution best practices. The following sections highlight some of the connectivity and configurations used for the validation. Some of the SM-BC-related considerations are also highlighted to provide implementation references and guidance.
 
@@ -169,4 +169,4 @@ image:sm-bcs-image19.png[Error: Missing Graphic Image]
 |===
 
 - title: Network
-  url: /flexpod-dc/sm-bcs-network.html
+link:sm-bcs-network.html[Next: Solution validation - Network.]
