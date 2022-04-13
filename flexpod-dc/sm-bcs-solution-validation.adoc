@@ -1,0 +1,21 @@
+---
+sidebar: sidebar
+permalink: sm-bcs-solution-validation.html
+keywords:
+summary:
+---
+
+= Solution validation
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-04-04 13:13:16.382418
+//
+
+
