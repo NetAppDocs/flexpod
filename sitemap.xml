@@ -1406,16 +1406,16 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/ent-db/</loc>
+      <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/</loc>
       
-      <lastmod>2021-09-07T17:32:38+00:00</lastmod>
+      <lastmod>2021-11-24T15:03:53+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/ontap-connector-for-intersight/</loc>
+      <loc>https://docs.netapp.com/us-en/flexpod/ent-db/</loc>
       
-      <lastmod>2021-11-24T15:03:53+00:00</lastmod>
+      <lastmod>2021-09-07T17:32:38+00:00</lastmod>
       
     </url>
   
@@ -1513,7 +1513,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod//search.html</loc>
       
-      <lastmod>2022-03-29T20:23:34+00:00</lastmod>
+      <lastmod>2022-04-13T18:17:51+00:00</lastmod>
       
     </url>
   
@@ -1570,6 +1570,90 @@
       <loc>https://docs.netapp.com/us-en/flexpod/security/security-ransomware_what_is_ransomware.html</loc>
       
       <lastmod>2021-07-01T21:29:37+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/sm-bcs-abstract.html</loc>
+      
+      <lastmod>2022-04-06T19:48:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-compute.html</loc>
+      
+      <lastmod>2022-04-13T17:27:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-conclusion.html</loc>
+      
+      <lastmod>2022-04-06T19:48:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-flexpod-sm-bc-solution.html</loc>
+      
+      <lastmod>2022-04-13T17:27:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-introduction.html</loc>
+      
+      <lastmod>2022-04-06T19:48:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-network.html</loc>
+      
+      <lastmod>2022-04-13T17:27:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/sm-bcs-solution-validation.html</loc>
+      
+      <lastmod>2022-04-06T19:48:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-solution-validation_overview.html</loc>
+      
+      <lastmod>2022-04-13T17:27:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-storage.html</loc>
+      
+      <lastmod>2022-04-06T19:48:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-validated-scenarios.html</loc>
+      
+      <lastmod>2022-04-13T17:27:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-virtualization.html</loc>
+      
+      <lastmod>2022-04-13T17:27:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/flexpod/flexpod-dc/sm-bcs-where-to-find-additional-information-and-version-history.html</loc>
+      
+      <lastmod>2022-04-06T19:48:48+00:00</lastmod>
       
     </url>
   
