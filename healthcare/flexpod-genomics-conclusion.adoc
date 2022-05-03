@@ -38,10 +38,6 @@ https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_vmware_v
 +
 http://docs.netapp.com[http://docs.netapp.com^]
 
-* Epic honor roll
-+
-https://www.netapp.com/blog/achieving-epic-honor-roll/[https://www.netapp.com/blog/achieving-epic-honor-roll/^]
-
 * Agile and efficient—how FlexPod drives data center modernization
 +
 https://www.flexpod.com/idc-white-paper/[https://www.flexpod.com/idc-white-paper/^]
