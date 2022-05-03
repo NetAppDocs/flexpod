@@ -356,195 +356,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_acknowledgements.html</loc>
-      
-      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_base_infrastructure_configuration.html</loc>
-      
-      <lastmod>2021-06-03T19:42:19+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_cisco_mds_9148s_configuration.html</loc>
-      
-      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_cisco_ucs_blade_server_and_switch_configuration.html</loc>
-      
-      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_deployment_and_configuration_overview.html</loc>
-      
-      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_design.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_esxi_configuration_best_practices.html</loc>
-      
-      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_genio_tool.html</loc>
-      
-      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_infrastructure_hardware_and_software_components.html</loc>
-      
-      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_netapp_configuration.html</loc>
-      
-      <lastmod>2021-06-04T13:32:12+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_ontap_documentation.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_overview.html</loc>
-      
-      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-deploy_where_to_find_additional_information_overview.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_acknowledgements.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_additional_information.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_conclusion.html</loc>
-      
-      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_executive_summary.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_introduction.html</loc>
-      
-      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_test_methodology.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-performance_workload_testing.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_acknowledgements.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_additional_information.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_cisco_ucs_reference_architecture_for_epic.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_introduction.html</loc>
-      
-      <lastmod>2021-07-01T21:29:37+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_netapp_storage_reference_architectures_for_epic.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_reference_architecture.html</loc>
-      
-      <lastmod>2021-06-03T20:08:24+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-epic-sizing_technical_specifications_for_small,_medium,_and_large_architectures.html</loc>
-      
-      <lastmod>2021-06-04T21:08:05+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_acknowledgments.html</loc>
       
       <lastmod>2021-06-03T20:08:24+00:00</lastmod>
@@ -1261,7 +1072,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-conclusion.html</loc>
       
-      <lastmod>2021-11-08T20:29:02+00:00</lastmod>
+      <lastmod>2022-05-03T20:32:26+00:00</lastmod>
       
     </url>
   
@@ -1513,7 +1324,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/flexpod//search.html</loc>
       
-      <lastmod>2022-05-03T05:52:47+00:00</lastmod>
+      <lastmod>2022-05-03T21:05:05+00:00</lastmod>
       
     </url>
   
