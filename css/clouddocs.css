@@ -104,6 +104,10 @@ a.ext-link-indicator:hover{
   color: transparent;
 }
 
+.ext-link-indicator > img{
+  margin-bottom: 3px;
+ }
+
 /* Collapsible Block */
 
 details{

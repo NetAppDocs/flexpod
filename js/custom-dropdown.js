@@ -8,7 +8,7 @@ $(document).ready(function () {
   });
   $('.custom-dropdown').focusout(function () {
     $(this).removeClass('active');
-    $(this).find('.custom-dropdown-menu').slideUp(300);
+    $(this).find('.custom-dropdown-menu').delay(100).slideUp(300);
     $(this).find('.chevrondown').addClass('invisible');
     $(this).find('.chevronup').removeClass('invisible');
   });
