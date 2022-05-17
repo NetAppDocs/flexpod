@@ -28,7 +28,7 @@ The hardware requirements for FlexPod Express solutions that use NetApp FAS cont
 
 The Cisco Integrated Management Controller (CIMC) configuration includes the following hardware components:
 
-* Two 10Gbps standard Ethernet switches in a redundant configuration (Cisco Nexus 0808 is recommended, with Cisco Nexus 3000 and 9000 models supported)
+* Two 10Gbps standard Ethernet switches in a redundant configuration (Cisco Nexus 31108 is recommended, with Cisco Nexus 3000 and 9000 models supported)
 * Cisco UCS C-Series standalone rack servers
 * Two AFF C190, AFF A250, FAS2600, or FAS 2700 series controllers in a high-availability (HA) pair configuration deployed as a two-node cluster
 
