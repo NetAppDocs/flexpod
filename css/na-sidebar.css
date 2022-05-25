@@ -52,6 +52,7 @@ ul#mysidebar {
     font-size: 13px;
     font-weight: bolder;
     padding: 7px;
+    text-align: center;
 }
 
 
@@ -174,7 +175,6 @@ li.subfolders.active:after{display:none;}
 li.subfolders.active > ul li.active > a ,li.subfolders.active > ul li.active > a:hover {
 color:#101820;
   font-weight: 600;
-  padding-right:5px;
 }
 .nav li > a {
     color: #101820;
