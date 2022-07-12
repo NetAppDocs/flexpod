@@ -56,19 +56,17 @@ image:ci-qsg_image4.png[Error: Missing Graphic Image]
 +
 The installation process automatically begins. Installation can take up to one hour depending on bandwidth to Intersight.com. It can also take several seconds for the secure site to be operational after the VM powers on.
 
-.. During the post-deployment process, select what you would like to install:
+.. During the post-deployment process, select the following option:
 +
-** *Intersight Connected Virtual Appliance.* This deployment requires a connection back to Cisco and Intersight services for updates and access to required services for full functionality of Intersight.com.
-** *Intersight Private Virtual Appliance.* This deployment is intended for an environment where you operate data centers in a disconnected (air gap) mode.
 ** *Intersight Assist.* This deployment enables SaaS model to connect to Cisco Intersight.
 +
 [NOTE]
-If you select Intersight Assist, take note of the device ID and claim code before you continue.
+When selecting Intersight Assist, take note of the device ID and claim code before you continue.
 +
 image:ci-qsg_image5.png[screenshot of Intersight deployment options]
 
 .. Click *Proceed*.
-.. If you selected *Intersight Assist*, complete the following steps:
+.. Select *Intersight Assist* and complete the following steps:
 
 ... Navigate to your SaaS Intersight account at https://intersight.com[https://intersight.com^].
 ... Click *Targets*, *Cisco Intersight Assist*, and then *Start*.

@@ -37,20 +37,20 @@ When NetApp storage and vCenter environments are available in Cisco Intersight, 
 +
 Here is a list of Reference Workflows:
 
-** New Storage Interface
-** New VMFS Datastore
-** Update VMFS Datastore
-** Remove VMFS Datastore
 ** New NAS Datastore
-** Update NAS Datastore
-** Remove NAS Datastore
-** New Storage Host
-** Update Storage Host
-** Remove Storage Host
 ** New Storage Export Policy
-** Remove Storage Export Policy
+** New Storage Host
+** New Storage Interface
 ** New Storage Virtual Machine
 ** New Virtual Machine
+** New VMFS Datastore
+** Remove NAS Datastore
+** Remove Storage Export Policy
+** Remove Storage Host
+** Remove VMFS Datastore
+** Update NAS Datastore
+** Update Storage Host
+** Update VMFS Datastore
 
 == Use case 3: Custom workflows using designer-free form
 
@@ -66,45 +66,45 @@ When the NetApp Storage and vCenter environments are available in Cisco Intersig
 Here are the NetApp storage tasks that are available from Cisco Intersight:
 
 ** Add Storage Export Policy to Volume
-** Connect Initiators to Storage Host (igroup)
+** Connect Initiators to Storage Host
+** Disconnect Storage Export Policy From Volume
+** Edit Aggregates for Storage Virtual Machine
+** Edit Storage Export Policy Rule
+** Edit Storage Snapshot Policy
+** Edit Storage Snapshot Policy Schedule
 ** Expand Storage LUN
 ** Expand Storage Volume
 ** Find NetApp igroup LUN Map
 ** Find Storage LUN by ID
 ** Find Storage Volume by ID
 ** New Storage Export Policy
-** New Storage Fibre Channel Interface
+** New Storage Export Policy Rule
+** New NetApp Storage Fibre Channel Interface
 ** New Storage Host
-** New storage IP interface
-** New storage LUN
-** New storage LUN ID
-** New Storage Virtual Machine
-** New storage volume
-** Remove storage export policy
-** Remove storage host
-** Remove storage LUN
-** Remove storage LUN ID
-** Remove storage volume
+** New Storage IP interface
+** New Storage LUN
+** New Storage LUN ID
+** New NetApp Storage NAS Smart Volume
+** New NetApp Storage Smart LUN
 ** New Storage Snapshot Policy
 ** New Storage Snapshot Policy Schedule
+** New Storage Virtual Machine
+** New Storage volume
+** New Storage Volume Snapshot
+** Remove Storage export policy
+** Remove Storage Export Policy Rule
+** Remove Storage FC Interface
+** Remove Storage host
+** Remove Storage IP Interface
+** Remove Storage LUN
+** Remove Storage LUN ID
+** Remove NetApp Storage Smart LUN
 ** Remove Storage Snapshot Policy
 ** Remove Storage Snapshot Policy Schedule
-** Edit Storage Snapshot Policy
-** Edit Storage Snapshot Policy Schedule
-** New Storage Volume Snapshot
+** Remove Storage Virtual Machine
+** Remove storage volume
 ** Remove Storage Volume Snapshot
 ** Rename Storage Volume Snapshot
-** New Storage Export Policy Rule
-** Edit Storage Export Policy Rule
-** Remove Storage Export Policy Rule
-** Disconnect Storage Export Policy From Volume
-** Remove Storage FC Interface
-** Remove Storage IP Interface
-** Remove Storage Virtual Machine
-** Edit Aggregates for Storage Virtual Machine
-** New Storage NAS Smart Volume
-** New Storage Smart LUN
-** Remove Storage Smart LUN
 +
 NOTE: The New Storage NAS Smart Volume and New Storage Smart LUN tasks will only work with ONTAP 9.8 and above. ONTAP 9.7P1 is currently the minimum supported version.
 
