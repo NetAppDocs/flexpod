@@ -19,6 +19,6 @@ https://www.netapp.com/pdf.html?item=/media/25001-tr-4883.pdf[TR 4883: FlexPod D
 
 https://www.cisco.com/c/en/us/solutions/collateral/data-center-virtualization/flexpod/cisco-imm-for-flexpod.html[Cisco Intersight Managed Mode for FlexPod^]
 
-https://intersight.com/help/getting_started[Cisco Intersight Getting Started Overview^]
+https://intersight.com/help/saas/getting_started/overview[Cisco Intersight Getting Started Overview^]
 
 https://www.cisco.com/c/en/us/td/docs/unified_computing/Intersight/b_Cisco_Intersight_Appliance_Getting_Started_Guide/b_Cisco_Intersight_Appliance_Install_and_Upgrade_Guide_chapter_00.html[Intersight Appliance Install and Upgrade Guide^]

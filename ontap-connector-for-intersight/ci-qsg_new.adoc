@@ -14,6 +14,21 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== July 2022
+*	Improved visuals for Cluster Data Reduction ratio now available under the Capacity Widget
+*	Added FC Interfaces tab to the Network Interfaces page
+*	Creating a new volume using the generic “New Storage Volume” task now sets volume space guarantee to none and snapshot reserve percent to 0%
+*	Comment field under the Edit Snapshot Policy task now optional and no longer mandatory
+*	Improved UI inventory and orchestration consistency
+*	Intersight capacity information under Cluster Capacity now consistent with System Manager
+*	Added checkbox under New Storage Virtual Machine task to display all parameters when creating a new management interface to improve usability
+*	Moved Protocols below Client Match, now consistent with System Manager
+*	Export policy general page now displaying Access Protocol(s)
+*	igroup removal now conditionally logged
+*	Added “Failover Policy” and "autorevert” parameters for NAS under New Storage NAS Data Interface and New Storage iSCSI Data Interface
+*	Rollback for New Storage NAS Smart Volume task now removes export policy if no other volumes are attached
+*	Made enhancements for Smart Volume and Smart LUN tasks
+
 == April 2022
 NOTE: To ensure compatibility and complete functionality with future releases, it is recommended that you upgrade your NetApp Active IQ Unified Manager to version 9.10P1.
 
