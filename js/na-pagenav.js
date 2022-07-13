@@ -3,7 +3,7 @@ $(document).ready(function() {
   const SECTIONS = $("main h2, main h3");
   // PAGE NAV - Init
   if(SECTIONS.length == 0) {
-    $(".page-nav-container").css('display','none');
+    $(".page-nav-container").remove();
     $("#pagenav-css").attr("disabled", "disabled");
   } else {
     $(".page-nav-title").css('display','block');
@@ -78,7 +78,7 @@ $(document).ready(function() {
     if ($('#version-dropdown-new').length && $('#version-dropdown-new').isVisibleAndInViewport()) {
       h += $('#version-dropdown-new').outerHeight(true);
     }
-    
+
     if ($('.n-footer').length && $('.n-footer').isVisibleAndInViewport()) {
       h += $('.n-footer').outerHeight(true);
     }

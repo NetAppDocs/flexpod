@@ -13,8 +13,8 @@ $(document).ready(function () {
     $(this).find('.chevronup').removeClass('invisible');
   });
 
-  
-  $('#version-dropdown-new .custom-dropdown-menu li').click(function () {
+
+  $('#version-dropdown-new .custom-dropdown-menu li, #language-dropdown .custom-dropdown-menu li').click(function () {
     var link = $(this).find('a').attr("href");
     var target = $(this).find('a').attr("target");
     var win = window.open(link, target);

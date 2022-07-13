@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/flexpod/issues/new?body=Page%3A%20[Output for execution of GATK using the <code>./gatk</code> script](https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-b.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/flexpod/blob/main/healthcare/flexpod-genomics-appendix-b.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/flexpod/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/flexpod/issues/new?body=Page%3A%20[Output for execution of GATK using the <code>./gatk</code> script](https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-b.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/discuss-sm.svg" alt="" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/flexpod/blob/main/healthcare/flexpod-genomics-appendix-b.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/flexpod/images/edit-sm.svg" alt="" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/flexpod/images/article-sm.svg" alt="" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -258,11 +258,13 @@
           <div id="react-search" 
           data-search-html="/us-en/flexpod/search.html"
           data-type="widget" 
-          data-placeholder="Search Documentation" 
-          data-no-results-found="No results were found for {query}" 
-          data-did-you-mean="Search for {suggestion}." 
-          data-no-results-found-did-you-mean="No results found for {query}. Did you mean {suggestion}?" 
-          data-results-found="{hitCount} results found"  
+          data-placeholder="Search Documentation"
+          data-no-results-found="No results were found for {query}"
+          data-did-you-mean="Search for {suggestion}."
+          data-no-results-found-did-you-mean="No results found for {query}. Did you mean {suggestion}?"
+          data-results-found="{hitCount} results found"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -277,35 +279,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/flexpod/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-b.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/flexpod/healthcare/flexpod-genomics-appendix-b.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/flexpod/healthcare/flexpod-genomics-appendix-b.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/flexpod/healthcare/flexpod-genomics-appendix-b.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/flexpod/healthcare/flexpod-genomics-appendix-b.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/flexpod/healthcare/flexpod-genomics-appendix-b.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/flexpod/healthcare/flexpod-genomics-appendix-b.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/flexpod/healthcare/flexpod-genomics-appendix-b.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/flexpod/healthcare/flexpod-genomics-appendix-b.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/flexpod/healthcare/flexpod-genomics-appendix-b.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -349,7 +343,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>Available PDFs<span>
+    <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>Available PDFs<span>
     </span>
   </a>
 </div>
@@ -359,7 +353,7 @@
         
         
         <a target="_blank" href="/us-en/flexpod/pdfs/fullsite-sidebar/FlexPod_Solutions.pdf" >
-          <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>PDF of this doc site</a>
+          <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>PDF of this doc site</a>
 
 
 
@@ -374,7 +368,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Definition.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Definition
           </a>
           
@@ -390,7 +384,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express_Technical_Specifications.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express Technical Specifications
           </a>
           
@@ -428,8 +422,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -449,7 +441,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Datacenter_Technical_Specifications.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Datacenter Technical Specifications
           </a>
           
@@ -487,8 +479,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -496,8 +486,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -517,7 +505,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Datacenter.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Datacenter
           </a>
           
@@ -533,7 +521,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_DataCenter_with_NetApp_SnapMirror_Business_Continuity_and_ONTAP_9_10.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod DataCenter with NetApp SnapMirror Business Continuity and ONTAP 9.10
           </a>
           
@@ -553,7 +541,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Solution_validation.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Solution validation
           </a>
           
@@ -569,8 +557,17 @@
 
 
 
+        </li>
+      </ul>
+    
 
-          
+  
+
+
+
+
+
+
         </li>
       </ul>
     
@@ -583,12 +580,6 @@
 
 
 
-          
-        </li>
-      </ul>
-    
-
-  
 
 
 
@@ -606,15 +597,6 @@
 
 
 
-
-
-
-
-
-
-
-
-          
         </li>
       </ul>
     
@@ -634,7 +616,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Hybrid_Cloud.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Hybrid Cloud
           </a>
           
@@ -650,7 +632,7 @@
               href="/us-en/flexpod/pdfs/sidebar/NetApp_Cloud_Insights_for_FlexPod.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             NetApp Cloud Insights for FlexPod
           </a>
           
@@ -670,8 +652,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -691,7 +671,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_with_FabricPool___Inactive_Data_Tiering_to_Amazon_AWS_S3.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod with FabricPool - Inactive Data Tiering to Amazon AWS S3
           </a>
           
@@ -715,7 +695,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Configuration.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Configuration
           </a>
           
@@ -733,8 +713,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -750,8 +728,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -767,8 +743,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -788,7 +762,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Enterprise_Databases.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Enterprise Databases
           </a>
           
@@ -804,7 +778,7 @@
               href="/us-en/flexpod/pdfs/sidebar/SAP.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             SAP
           </a>
           
@@ -848,8 +822,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -869,7 +841,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Oracle.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Oracle
           </a>
           
@@ -881,8 +853,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -902,7 +872,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Microsoft_SQL_Server.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Microsoft SQL Server
           </a>
           
@@ -916,8 +886,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -925,8 +893,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -946,7 +912,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Healthcare.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Healthcare
           </a>
           
@@ -962,7 +928,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_for_Genomics.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod for Genomics
           </a>
           
@@ -976,14 +942,7 @@
 
 
 
-    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
-  <a target="_blank" href="/us-en/flexpod/pdfs/pages/healthcare/flexpod-genomics-appendix-b.pdf" >
-    <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
-    PDF of this page
-  </a>
-</li>
-
-</ul>
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
   
 
 
@@ -993,8 +952,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1014,7 +971,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_for_MEDITECH_Directional_Sizing_Guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod for MEDITECH Directional Sizing Guide
           </a>
           
@@ -1028,8 +985,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1049,7 +1004,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Datacenter_for_MEDITECH_Deployment_Guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Datacenter for MEDITECH Deployment Guide
           </a>
           
@@ -1069,7 +1024,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Deployment_and_configuration.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Deployment and configuration
           </a>
           
@@ -1095,8 +1050,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1110,8 +1063,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1131,7 +1082,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_for_Medical_Imaging.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod for Medical Imaging
           </a>
           
@@ -1149,8 +1100,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1158,8 +1107,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1179,7 +1126,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Virtual_Desktop_Infrastructure.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Virtual Desktop Infrastructure
           </a>
           
@@ -1195,8 +1142,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1216,7 +1161,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Modern_Apps.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Modern Apps
           </a>
           
@@ -1242,8 +1187,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1263,7 +1206,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Microsoft_Apps.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Microsoft Apps
           </a>
           
@@ -1275,8 +1218,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1296,7 +1237,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express
           </a>
           
@@ -1312,7 +1253,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express_with_Cisco_UCS_C_Series_and_NetApp_AFF_C190_Series_Design_Guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express with Cisco UCS C-Series and NetApp AFF C190 Series Design Guide
           </a>
           
@@ -1328,8 +1269,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1349,7 +1288,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express_with_Cisco_UCS_C_Series_and_NetApp_AFF_C190_Series_Deployment_Guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express with Cisco UCS C-Series and NetApp AFF C190 Series Deployment Guide
           </a>
           
@@ -1373,7 +1312,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Deployment_procedures.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Deployment procedures
           </a>
           
@@ -1395,8 +1334,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1412,8 +1349,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1433,7 +1368,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express_with_Cisco_UCS_C_Series_and_AFF_A220_Series_Design_Guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express with Cisco UCS C-Series and AFF A220 Series Design Guide
           </a>
           
@@ -1453,8 +1388,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1474,7 +1407,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express_with_Cisco_UCS_C_Series_and_AFF_A220_Series_Deployment_Guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express with Cisco UCS C-Series and AFF A220 Series Deployment Guide
           </a>
           
@@ -1498,7 +1431,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Deployment_procedures.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Deployment procedures
           </a>
           
@@ -1516,8 +1449,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1529,8 +1460,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1550,7 +1479,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express_with_VMware_vSphere_6_7U1_and_NetApp_AFF_A220_with_Direct_Attached_IP_Based_Storage_Design_Guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express with VMware vSphere 6.7U1 and NetApp AFF A220 with Direct-Attached IP-Based Storage Design Guide
           </a>
           
@@ -1570,8 +1499,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1591,7 +1518,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_Express_with_VMware_vSphere_6_7U1_and_NetApp_AFF_A220_with_Direct_Attached_IP_Based_Storage.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod Express with VMware vSphere 6.7U1 and NetApp AFF A220 with Direct-Attached IP-Based Storage
           </a>
           
@@ -1609,8 +1536,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1620,8 +1545,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1641,7 +1564,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod_and_Security.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod and Security
           </a>
           
@@ -1657,7 +1580,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FlexPod__The_Solution_to_Ransomware.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FlexPod, The Solution to Ransomware
           </a>
           
@@ -1677,8 +1600,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1698,7 +1619,7 @@
               href="/us-en/flexpod/pdfs/sidebar/FIPS_140_2_security_compliant_FlexPod_solution_for_healthcare.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             FIPS 140-2 security-compliant FlexPod solution for healthcare
           </a>
           
@@ -1724,8 +1645,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1733,8 +1652,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1754,7 +1671,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Cisco_Intersight_with_NetApp_ONTAP_storage_quick_start_guide.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Cisco Intersight with NetApp ONTAP storage quick start guide
           </a>
           
@@ -1774,8 +1691,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1795,7 +1710,7 @@
               href="/us-en/flexpod/pdfs/sidebar/Infrastructure.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             Infrastructure
           </a>
           
@@ -1811,7 +1726,7 @@
               href="/us-en/flexpod/pdfs/sidebar/End_to_End_NVMe_for_FlexPod_with_Cisco_UCSM__VMware_vSphere_7_0__and_NetApp_ONTAP_9.pdf" 
             
           >
-            <img src="/us-en/flexpod/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/flexpod/images/pdf.png" alt="" width="16" height="16"/>
             End-to-End NVMe for FlexPod with Cisco UCSM, VMware vSphere 7.0, and NetApp ONTAP 9
           </a>
           
@@ -1823,8 +1738,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1832,19 +1745,16 @@
   
 
 
-
-          
         </li>
       </ul>
     
 
   
-
 
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/us-en/flexpod/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/us-en/flexpod/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>Collection of separate PDF docs<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -1877,7 +1787,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/flexpod/index.html">
         FlexPod Solutions Documentation
       </a></li><li class="subfolders "><a href="#">
@@ -2796,4 +2706,5 @@ Runtime.totalMemory()=2111832064
     </script>
     <script src='/us-en/flexpod/js/www-ntap.js'></script>
     <script src='/us-en/flexpod/js/tabbed-blocks.js'></script>
+    <script src='/us-en/flexpod/js/sidebar.js'></script>
   </body></html>
