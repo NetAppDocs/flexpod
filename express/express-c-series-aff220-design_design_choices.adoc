@@ -77,7 +77,7 @@ The Cisco UCS C220 M5 rack server (in the previous figure) is among the most ver
 
 For more information about C220 M5 servers, see the https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/datasheet-c78-739281.html[Cisco UCS C220 M5 Rack Server Data Sheet^].
 
-==== Connectivity options for C220 M5 rack servers
+=== Connectivity options for C220 M5 rack servers
 
 The connectivity options for the C220 M5 rack servers are as follows:
 
