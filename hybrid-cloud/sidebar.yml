@@ -1,7 +1,7 @@
 section: hybrid-cloud
 title: Hybrid Cloud
 entries:
-  - title: Dorian must update
+  - title: FlexPod for hybrid cloud with Red Hat OpenShift, NetApp Astra, Cloud Volumes ONTAP, and Cisco Intersight
     type: solutions
     entries:
       - title: Solution overview
