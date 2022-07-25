@@ -175,60 +175,29 @@ This solution can be extended to any FlexPod environment that is running support
 
 Only a single instance of Astra Control Center is required to manage multiple OpenShift (k8s) clusters, while Trident CSI is installed on each OpenShift cluster. Astra Control Center can be installed on any of these OpenShift cluster. In this solution,  Astra Control Center is installed on the OpenShift bare- metal cluster.
 
-The following table lists the FlexPod hardware and software revisions for OpenShift bare metal.
+The following table lists the FlexPod hardware and software revisions for OpenShift.
 
 |===
 |Component |Product |Version
 
 |Compute
-|Cisco UCS Fabric Interconnects 6248
+|Cisco UCS Fabric Interconnects 6454
 |4.1(3c)
 |
 |Cisco UCS B200 M5 Servers
 |4.1(3c)
 |Network
 |Cisco Nexus 9336C-FX2 NX-OS
-|9.3(7)
-|Storage
-|NetApp AFF C190
-|9.11.1
-|
-|NetApp Astra Trident
-|22.04.0
-|
-|NetApp Astra Control Center
-|22.04.0
-|Software
-|OpenShift Container Platform
-|4.9
-|
-|OpenShift Container Platform Master Node
-|RHCOS 4.9
-|
-|OpenShift Container Platform Worker Node
-|RHCOS 4.9
-|===
-
-The following table lists the FlexPod hardware and software revisions for OpenShift on VMware vSphere.
-
-|===
-|Component |Product |Version
-
-|Compute
-|Cisco UCS Fabric Interconnects 6248
-|4.1(3c)
-|
-|Cisco UCS B200 M5 Servers
-|4.1(3c)
-|Network
-|Cisco Nexus C9332PQ NX-OS
 |9.3(8)
 |Storage
 |NetApp AFF A700
 |9.11.1
 |
+|NetApp Astra Control Center
+|22.04.0
+|
 |NetApp Astra Trident CSI Plugin
-|22.0.4.0
+|22.04.0
 |
 |NetApp Active IQ Unified Manager
 |9.11

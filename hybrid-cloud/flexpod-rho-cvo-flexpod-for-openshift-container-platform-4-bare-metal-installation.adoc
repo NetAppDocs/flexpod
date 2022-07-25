@@ -22,7 +22,7 @@ link:flexpod-rho-cvo-solution-components.html[Previous: Solution components.]
 
 To understand FlexPod for OpenShift Container Platform 4 bare-metal design, deployment details, and the NetApp Astra Trident installation and configuration, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_iac_redhat_openshift.html[FlexPod with OpenShift Cisco Validated Design and Deployment guide (CVD)^]. This CVD covers FlexPod and OpenShift Container Platform deployment using Ansible. The CVD also provide detailed information about preparing worker nodes, Astra Trident installation, storage backend, and storage class configurations, which are the few prerequisites for deploying and configuring Astra Control Center.
 
-The following figure illustrates the FlexPod for OpenShift Container Platform 4 bare-metal logical topology.
+The following figure illustrates the OpenShift Container Platform 4 Bare Metal on FlexPod.
 
 image:flexpod-rho-cvo-image8.png[Error: Missing Graphic Image]
 
