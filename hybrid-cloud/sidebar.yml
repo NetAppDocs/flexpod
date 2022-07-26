@@ -1,6 +1,32 @@
 section: hybrid-cloud
 title: Hybrid Cloud
 entries:
+  - title: FlexPod for hybrid cloud with Red Hat OpenShift, NetApp Astra, Cloud Volumes ONTAP, and Cisco Intersight
+    type: solutions
+    entries:
+      - title: Solution overview
+        url: /hybrid-cloud/flexpod-rho-cvo-solution-overview.html
+      - title: Solution components
+        url: /hybrid-cloud/flexpod-rho-cvo-solution-components.html
+      - title: Installation and configuration
+        entries:
+          - title: FlexPod for OpenShift Container Platform 4 bare-metal installation
+            url: /hybrid-cloud/flexpod-rho-cvo-flexpod-for-openshift-container-platform-4-bare-metal-installation.html
+          - title: Red Hat OpenShift on AWS
+            url: /hybrid-cloud/flexpod-rho-cvo-red-hat-openshift-on-aws.html
+          - title: NetApp Cloud Volumes ONTAP
+            url: /hybrid-cloud/flexpod-rho-cvo-netapp-cloud-volumes-ontap.html
+          - title: Astra Control Center installation on OpenShift Container Platform
+            url: /hybrid-cloud/flexpod-rho-cvo-astra-control-center-installation-on-openshift-container-platform.html
+      - title: Solution validation
+        entries:
+          - title: Overview
+            url: /hybrid-cloud/flexpod-rho-cvo-solution-validation_overview.html
+          - title: Application recovery with remote backups
+            url: /hybrid-cloud/flexpod-rho-cvo-application-recovery-with-remote-backups.html
+      - title: Conclusion
+        url: /hybrid-cloud/flexpod-rho-cvo-conclusion.html
+
   - title: NetApp Cloud Insights for FlexPod
     type: solutions
     entries:

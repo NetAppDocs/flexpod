@@ -1,0 +1,66 @@
+---
+sidebar: sidebar
+permalink: hybrid-cloud/flexpod-rho-cvo-solution-overview.html
+keywords: tr4936, 4936, containers, kubernetes, introduction, Astra, openshift, cvo, intersight
+summary: This technical report brings together NetApp Astra Control Center with Red Hat OpenShift Container Platform on a FlexPod converged infrastructure solution and extends to Amazon Web Services (AWS) to form a hybrid cloud data center.
+---
+
+= TR-4936: FlexPod for hybrid cloud with Red Hat OpenShift, NetApp Astra, Cloud Volumes ONTAP, and Cisco Intersight
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-07-21 11:39:45.630275
+//
+
+Abhinav Singh
+
+== Introduction
+
+As containers and Kubernetes become the de facto choice for developing, deploying, running, managing, and scaling containerized apps, enterprises are increasingly running business-critical applications on them. Business-critical applications are heavily dependent on state. A stateful application has associated state, data, and configuration information and depends on previous data transactions to execute its business logic. Business-critical applications while running on Kubernetes continue to have availability and business continuity requirements like traditional applications. A service outage can seriously affect a loss of revenue, productivity, and reputation of the company. Therefore, it’s very critical to protect, recover, and move Kubernetes workloads quickly and easily within and across clusters, on-premises data centers, and Hybrid cloud environments. Enterprises have seen the benefits of shifting their business to a hybrid cloud model and modernizing their applications to a cloud-native form factor is high on their list.
+
+This technical report brings together NetApp Astra Control Center with Red Hat OpenShift Container Platform on a FlexPod converged infrastructure solution and extends to Amazon Web Services (AWS) to form a hybrid cloud data center. Building on the familiarity with https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_iac_redhat_openshift.html[FlexPod and Red Hat OpenShift^], this document discusses NetApp Astra Control Center, starting from installation, configuration, application protection workflows, and application migration between on-premises and cloud. It also discusses the advantages of application-aware data management features (such as backup and recovery, business continuity) when using NetApp Astra Control Center for containerized applications running on Red Hat OpenShift.
+
+The following figure illustrates the solution overview.
+
+image:flexpod-rho-cvo-image2.png[Error: Missing Graphic Image]
+
+== Audience
+
+The intended audience of this document includes chief technology officers (CTOs), application developers, cloud solution architects, site reliability engineers (SREs), DevOps Engineers, ITOps, and professional services teams that are focused on designing, hosting, and managing containerized applications.
+
+== NetApp Astra Control – Key use cases
+
+NetApp Astra Control aims at simplifying application protection for customers who deal with cloud native microservices:
+
+* *Point-in-time (PiT) application representation with snapshots.* With Astra Control you can take end-to-end snapshots of your containerized applications that include the configuration details of the application running on Kubernetes and the associated persistent storage. In case of an incident, applications can be restored to a known good state in button click.
+* *Full copy application backup.* With Astra Control you can take a full application backup on a predefined schedule which can be used to restore the application to the same K8s cluster or to a different K8s cluster on-demand in an automated fashion.
+* *Application portability and migration with clones.* With Astra Control you can clone an entire application along with its data from one Kubernetes cluster to another or within the same K8s cluster. This feature also helps in porting or migrating an application across K8s clusters no matter where the clusters are located (simply delete the source application instance after cloning).
+* *Customize application consistency.* With Astra Control you can take control of defining application quiesce states by leveraging the execution hooks. Drop the ‘pre’ and ‘post’ execution hooks to the snapshot and backup workflows, your applications will be quiesced in your own way before a snapshot or backup is taken.
+* *Automate application-level disaster recovery (DR).* With Astra Control you can configure a business continuity disaster recovery (BCDR) plan for your containerized applications. NetApp SnapMirror is used in the backend and the complete implementation of the DR workflow is automated.
+
+=== Solution topology
+
+This section describes the logical topology of the solution.
+
+The following illustration represents the solution topology comprising the FlexPod on-premises environment running OpenShift Container Platform clusters, and a self-managed OpenShift Container Platform cluster on AWS with NetApp Cloud Volumes ONTAP, Cisco Intersight, and NetApp Cloud Manager SaaS platform.
+
+image:flexpod-rho-cvo-image3.png[Error: Missing Graphic Image]
+
+The first OpenShift Container Platform cluster is a bare-metal installation on FlexPod, the second OpenShift Container Platform cluster is deployed on VMware vSphere running on FlexPod, and the third OpenShift Container Platform cluster is deployed as a https://docs.openshift.com/container-platform/4.8/installing/installing_aws/installing-aws-private.html[private cluster^] into an existing virtual private cloud (VPC) on AWS as a self-managed infrastructure.
+
+In this solution, FlexPod is connected to AWS through a site-to-site VPN, however, customers can also use the direct connect implementations to extend to a hybrid cloud. Cisco Intersight is used to manage the FlexPod infrastructure components.
+
+In this solution, Astra Control Center manages the containerized application hosted on the OpenShift Container Platform cluster running on FlexPod and on AWS. Astra Control Center is installed on the OpenShift bare-metal instance running on FlexPod. Astra Control communicates with the kube-api on the master node and continually watches the Kubernetes cluster for changes. Any new applications added to the K8s cluster are automatically discovered and made available for management.
+
+PiT representations of containerized applications can be captured as snapshots using Astra Control Center. Application snapshots can be triggered through a scheduled protection policy or on demand. For applications that Astra supports, the snapshot is crash consistent. An application snapshot constitutes a snapshot of the application data in the persistent volumes as well as the application metadata of the various Kubernetes resources associated with that application.
+
+A full copy backup of an application can be created by using Astra Control using a predefined backup schedule or on demand. An object storage is used to store the backup of the application data. NetApp ONTAP S3, NetApp StorageGRID, and any generic S3 implementation can be used as an object store.
+
+link:flexpod-rho-cvo-solution-components.html[Next: Solution components.]
