@@ -5,7 +5,7 @@ keywords: tr4936, 4936, containers, kubernetes, introduction, Astra, openshift, 
 summary: This technical report brings together NetApp Astra Control Center with Red Hat OpenShift Container Platform on a FlexPod converged infrastructure solution and extends to Amazon Web Services (AWS) to form a hybrid cloud data center.
 ---
 
-= TR-4936: FlexPod for hybrid cloud with Red Hat OpenShift, NetApp Astra, Cloud Volumes ONTAP, and Cisco Intersight
+= TR-4936: FlexPod hybrid cloud with NetApp Astra and Cisco Intersight for Red Hat OpenShift
 
 :hardbreaks:
 :nofooter:
