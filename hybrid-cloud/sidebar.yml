@@ -1,7 +1,7 @@
 section: hybrid-cloud
 title: Hybrid Cloud
 entries:
-  - title: FlexPod for hybrid cloud with Red Hat OpenShift, NetApp Astra, Cloud Volumes ONTAP, and Cisco Intersight
+  - title: FlexPod hybrid cloud with NetApp Astra and Cisco Intersight for Red Hat OpenShift
     type: solutions
     entries:
       - title: Solution overview
