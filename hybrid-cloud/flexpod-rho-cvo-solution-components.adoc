@@ -224,7 +224,7 @@ The following table lists the FlexPod hardware and software revisions for OpenSh
 |RHCOS 4.9
 |===
 
-The following table lists the software revisions for OpenShift on AWS.
+The following table lists the software versions for OpenShift on AWS.
 
 |===
 |Component |Product |Version
@@ -244,7 +244,7 @@ Transit Gateway
 |9.11.1
 |
 |NetApp Astra Trident CSI Plugin
-|22.0.4.0
+|22.04.0
 |Software
 |OpenShift Container Platform
 |4.9
