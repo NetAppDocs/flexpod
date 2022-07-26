@@ -1,0 +1,42 @@
+---
+sidebar: sidebar
+permalink: hybrid-cloud/flexpod-rho-cvo-red-hat-openshift-on-aws.html
+keywords: red hat, openshift, aws, deployment, master, worker
+summary: A separate self-managed OpenShift Container Platform 4 cluster is deployed on AWS as a DR site. The master and worker nodes span across three availability zones for high availability.
+---
+
+= Red Hat OpenShift on AWS
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-07-21 11:39:45.671423
+//
+
+link:flexpod-rho-cvo-flexpod-for-openshift-container-platform-4-bare-metal-installation.html[Previous: FlexPod for OpenShift Container Platform 4 bare-metal installation.]
+
+A separate self-managed OpenShift Container Platform 4 cluster is deployed on AWS as a DR site. The master and worker nodes span across three availability zones for high availability.
+
+image:flexpod-rho-cvo-image10.png[Error: Missing Graphic Image]
+
+....
+[ec2-user@ip-172-30-164-92 ~]$ oc get nodes
+NAME                             STATUS   ROLES    AGE   VERSION
+ip-172-30-164-128.ec2.internal   Ready    worker   29m   v1.22.8+f34b40c
+ip-172-30-164-209.ec2.internal   Ready    master   36m   v1.22.8+f34b40c
+ip-172-30-165-160.ec2.internal   Ready    master   33m   v1.22.8+f34b40c
+ip-172-30-165-93.ec2.internal    Ready    worker   30m   v1.22.8+f34b40c
+ip-172-30-166-162.ec2.internal   Ready    master   36m   v1.22.8+f34b40c
+ip-172-30-166-51.ec2.internal    Ready    worker   28m   v1.22.8+f34b40c
+....
+
+OpenShift is deployed as a https://docs.openshift.com/container-platform/4.8/installing/installing_aws/installing-aws-private.html[private cluster^] into an existing VPC on AWS. A private OpenShift Container Platform cluster does not expose external endpoints and is accessible from only an internal network and is not visible to the internet. A single-node NetApp Cloud Volumes ONTAP is deployed using NetApp Cloud Manager, which provides a storage backend to Astra Trident.
+
+For more information about installing OpenShift on AWS, see https://docs.openshift.com/container-platform/4.8/installing/installing_aws/installing-aws-vpc.html[OpenShift documentation^].
+
+link:flexpod-rho-cvo-netapp-cloud-volumes-ontap.html[Next: NetApp Cloud Volumes ONTAP.]

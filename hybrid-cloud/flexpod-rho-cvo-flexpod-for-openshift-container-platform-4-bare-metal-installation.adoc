@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: hybrid-cloud/flexpod-rho-cvo-flexpod-for-openshift-container-platform-4-bare-metal-installation.html
+keywords: platform 4, openshift, bare-metal, vmware, installation
+summary: This page describes the logical topology and installation for FlexPod for OpenShift Container Platform 4 bare-metal.
+---
+
+= FlexPod for OpenShift Container Platform 4 bare-metal installation
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-07-21 11:39:45.667107
+//
+
+link:flexpod-rho-cvo-solution-components.html[Previous: Solution components.]
+
+To understand FlexPod for OpenShift Container Platform 4 bare-metal design, deployment details, and the NetApp Astra Trident installation and configuration, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_iac_redhat_openshift.html[FlexPod with OpenShift Cisco Validated Design and Deployment guide (CVD)^]. This CVD covers FlexPod and OpenShift Container Platform deployment using Ansible. The CVD also provide detailed information about preparing worker nodes, Astra Trident installation, storage backend, and storage class configurations, which are the few prerequisites for deploying and configuring Astra Control Center.
+
+The following figure illustrates the OpenShift Container Platform 4 Bare Metal on FlexPod.
+
+image:flexpod-rho-cvo-image8.png[Error: Missing Graphic Image]
+
+== FlexPod for OpenShift Container Platform 4 on VMware installation
+
+For more information about deploying Red Hat OpenShift Container Platform 4 on FlexPod running VMware vSphere, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_openshift_platform_4.html[FlexPod Datacenter for OpenShift Container Platform 4^].
+
+The following figure illustrates FlexPod for OpenShift Container Platform 4 on vSphere.
+
+image:flexpod-rho-cvo-image9.png[Error: Missing Graphic Image]
+
+link:flexpod-rho-cvo-red-hat-openshift-on-aws.html[Next: Red Hat OpenShift on AWS.]

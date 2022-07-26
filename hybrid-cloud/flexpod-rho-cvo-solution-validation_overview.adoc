@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: hybrid-cloud/flexpod-rho-cvo-solution-validation_overview.html
+keywords: validation, overview, restoring, application mobility,
+summary: In this section, we revisit the solution with various validated use cases.
+---
+
+= Overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2022-07-21 11:39:45.730447
+//
+
+link:flexpod-rho-cvo-astra-control-center-installation-on-openshift-container-platform.html[Previous: Astra Control Center installation on OpenShift Container Platform.]
+
+In this section, we revisit the solution with some use cases:
+
+* Restoring a stateful application from a remote backup to another OpenShift cluster running in the cloud.
+* Restoring a stateful application to the same namespace in the OpenShift cluster.
+* Application mobility by cloning from one FlexPod system (OpenShift Container Platform Bare Metal) to another FlexPod system (OpenShift Container Platform on VMware).
+
+Notably, only a few use cases are validated in this solution. This validation does not in any way represent the entire functionality of Astra Control Center.
+
+link:flexpod-rho-cvo-application-recovery-with-remote-backups.html[Next: Application recovery with remote backups.]
