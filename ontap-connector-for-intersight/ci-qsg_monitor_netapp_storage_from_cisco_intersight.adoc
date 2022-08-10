@@ -23,7 +23,7 @@ image:ci-qsg_image9.png[screenshot displays the Operate > Storage screen]
 
 The following screenshot shows the storage cluster overview.
 
-NOTE: The following performance metric summary information will only display if the storage array is monitored through NetApp Active IQ Unified Manager 9.9 or above. 
+NOTE: The following performance metric summary information will only display if the storage array is monitored through NetApp Active IQ Unified Manager 9.9 or above.
 
 image:ci-qsg_image10.png[screenshot shows the storage cluster overview]
 

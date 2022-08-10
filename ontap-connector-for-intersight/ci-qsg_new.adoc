@@ -14,6 +14,18 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== August 2022
+NOTE: An upgrade to NetApp Active IQ Unified Manager 9.11 GA is required to ensure compatibility and full functionality with the latest release.
+
+*	Updated cluster available capacity calculation to match System Manager
+* Updated cluster General page to hide the performance metrics summary until performance data is populated
+* Fixed cluster General page UI issue that occasionally caused the page to hang
+* Added CIFS shares, CIFS services, Qtrees, and SVM SnapMirror policies to backend inventory.
+* Added Shares and Qtrees to the UI navigation menu under the Logical inventory section
+* Added Shares as a tab from a selected Storage VM
+* Added CIFS Service information on the Storage VM General tab if the Storage VM is CIFS enabled
+* Added a cluster Checks page that allow users to validate the configuration of NetApp storage systems adhere to best practices
+
 == July 2022
 *	Improved visuals for Cluster Data Reduction ratio now available under the Capacity Widget
 *	Added FC Interfaces tab to the Network Interfaces page
