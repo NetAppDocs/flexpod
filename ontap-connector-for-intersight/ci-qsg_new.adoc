@@ -15,7 +15,7 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
 == August 2022
-NOTE: An upgrade to NetApp Active IQ Unified Manager 9.11 GA is required to ensure compatibility and full functionality with the latest release.
+NOTE: An upgrade to NetApp Active IQ Unified Manager 9.11 GA is required to ensure compatibility and full functionality with the latest release. For a list of known issues related to this release, see <<Known Issues>>.
 
 *	Updated cluster available capacity calculation to match System Manager
 * Updated cluster General page to hide the performance metrics summary until performance data is populated
@@ -81,3 +81,8 @@ NOTE: To ensure compatibility and complete functionality with future releases, i
 * Latency, IOPS, and Throughput columns added under Average Volume Statistics, Average LUN Statistics, Average Aggregate Statistics, Average Storage VM Statistics, and Average Node Statistics tables
 +
 NOTE: The above performance metrics are only available for storage arrays monitored through NetApp Active IQ Unified Manager 9.9 or above.
+
+= Known Issues
+* To ensure Intersight storage inventory data is unaffected during the data collection process, any unsupported ONTAP clusters (i.e., ONTAP 9.7P1) must be removed from the Active IQ Unified Manager (AIQUM).
+* All claimed targets require a minimum AIQUM version of 9.11 for FlexPod Integrated System Interoperability queries to complete successfully.
+* The Storage Inventory Checks page will not populate if the ONTAP cluster is added to AIQ-UM using an FQDN. Users must add ONTAP clusters to AIQ-UM using an IP address.  
