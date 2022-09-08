@@ -18,12 +18,12 @@ After Cisco Intersight Assist is installed, you can claim your NetApp storage an
 [NOTE]
 Make sure that the NetApp Active IQ Unified Manager (AIQ UM) API Gateway is enabled.
 
-Navigate to *Settings > General > Feature Settings*.
+From the NetApp IQ Unified Manager, navigate to *Settings > General > Feature Settings*.
 
 image:ci-qsg_image7.png[screenshot of enabled NetApp AIQ UM API Gateway]
 
 The following example shows the NetApp AIQ UM target being claimed from Cisco Intersight.
 
-NOTE: When you claim the NetApp AIQ UM target, all clusters managed by Active IQ Unified Manager are automatically added to Intersight. 
+NOTE: When you claim the NetApp AIQ UM target, all clusters managed by Active IQ Unified Manager are automatically added to Intersight.
 
 image:ci-qsg_image8.png[screenshot of NetApp AIQ UM target being claimed from Cisco Intersight]
