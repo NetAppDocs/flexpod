@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: gcp-ncvo-solution-validation.html
-keywords:
-summary:
+permalink: hybrid-cloud/gcp-ncvo-solution-validation.html
+keywords: validation, data replication workflow, measurements
+summary: On this page, we revisit the solution with a sample data-replication workflow and take a few measurements to verify the integrity of data replication from the NetApp ONTAP instance running in FlexPod to NetApp Cloud Volumes ONTAP running on Google Cloud.
 ---
 
 = Solution validation
@@ -10,7 +10,7 @@ summary:
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ./../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)
@@ -18,14 +18,15 @@ summary:
 // 2022-09-29 18:43:12.721054
 //
 
-[.lead]
-In this section,  we revisit the solution with a sample data- replication workflow and take a few measurements to verify the integrity of data replication from the NetApp ONTAP instance running in FlexPod to NetApp Cloud Volumes ONTAP running on Google Cloud.
+link:gcp-ncvo-terraform-execution-from-controller.html[Previous: Terraform execution from controller.]
+
+In this section, we revisit the solution with a sample data-replication workflow and take a few measurements to verify the integrity of data replication from the NetApp ONTAP instance running in FlexPod to NetApp Cloud Volumes ONTAP running on Google Cloud.
 
 We used the Cisco Intersight workflow orchestrator in this solution and will continue to use this for our use case.
 
-Notably,  the limited set of Cisco Intersight workflows used in this solution do not represent the full set of workflows that Cisco Intersight is equipped with. You can create custom workflows based on your specific requirements and have them triggered from Cisco Intersight.
+Notably, the limited set of Cisco Intersight workflows used in this solution do not represent the full set of workflows that Cisco Intersight is equipped with. You can create custom workflows based on your specific requirements and have them triggered from Cisco Intersight.
 
-To perform the validation of a successful DR scenario, first move data from a volume in ONTAP that is part of FlexPod to Cloud Volumes ONTAP using SnapMirror.  Then you can attempt to access the data from the Google cloud compute instance followed by a data integrity check.
+To perform the validation of a successful DR scenario, first move data from a volume in ONTAP that is part of FlexPod to Cloud Volumes ONTAP using SnapMirror. Then you can attempt to access the data from the Google cloud compute instance followed by a data integrity check.
 
 The following high-level steps are used to verify the success criteria of this solution:
 
@@ -35,63 +36,69 @@ The following high-level steps are used to verify the success criteria of this s
 . Break the SnapMirror relationship and promote the volume in Cloud Volumes ONTAP to production.
 . Map the Cloud Volumes ONTAP volume with the dataset to a compute instance in Google Cloud.
 . Generate an SHA256 checksum on the sample dataset in Cloud Volumes ONTAP.
-. Compare the checksum on the source and destination; presumably,  the checksums on both sides match.To execute the on-premises workflow, complete the following steps:
+. Compare the checksum on the source and destination; presumably, the checksums on both sides match.
+
+To execute the on-premises workflow, complete the following steps:
 
 . Create a workflow in Intersight for on-premises FlexPod.
-
-image:gcp-ncvo-image78.png[Error: Missing Graphic Image]
++
+image:gcp-ncvo-image78.png[Screenshot]
 
 . Provide the required inputs and execute the workflow.
-
-image:gcp-ncvo-image79.png[Error: Missing Graphic Image]
++
+image:gcp-ncvo-image79.png[Screenshot]
 
 . Verify the newly created SVM in the system manager.
-
-image:gcp-ncvo-image80.png[Error: Missing Graphic Image]
++
+image:gcp-ncvo-image80.png[Screenshot]
 
 . Create and execute another disaster recovery workflow to create a volume in on-prem FlexPod and establish a SnapMirror relationship between this volume in FlexPod and Cloud Volumes ONTAP.
-
-image:gcp-ncvo-image81.png[Error: Missing Graphic Image]
++
+image:gcp-ncvo-image81.png[Screenshot]
 
 . Verify the newly created volume in ONTAP system manager.
-
-image:gcp-ncvo-image82.png[Error: Missing Graphic Image]
++
+image:gcp-ncvo-image82.png[Screenshot]
 
 . Mount the same NFS volume to an on-premises virtual machine, then copy the sample dataset and perform the checksum.
++
+image:gcp-ncvo-image83.png[Screenshot]
++
+image:gcp-ncvo-image84.png[Screenshot]
 
-image:gcp-ncvo-image83.png[Error: Missing Graphic Image]
-
-image:gcp-ncvo-image84.png[Error: Missing Graphic Image]
-
-. Check the replication status in Cloud Manager.  The data transfer can take few minutes based on the size of the data.  After it is completed,  you can see the SnapMirror status as *Idle*.
-
-image:gcp-ncvo-image85.png[Error: Missing Graphic Image]
+. Check the replication status in Cloud Manager. The data transfer can take few minutes based on the size of the data. After it is completed, you can see the SnapMirror status as *Idle*.
++
+image:gcp-ncvo-image85.png[Screenshot]
 
 . When the data transfer is complete, simulate a disaster on the source side by stopping the SVM that hosts the `Test_vol1` volume.
 +
 After the SVM has been stopped, the `Test_vol1` volume is not visible in the Cloud Manager.
-
-image:gcp-ncvo-image86.png[Error: Missing Graphic Image]
++
+image:gcp-ncvo-image86.png[Screenshot]
 
 . Break the replication relationship and promote the Cloud Volumes ONTAP destination volume to production.
-
-image:gcp-ncvo-image87.png[Error: Missing Graphic Image]
-
-image:gcp-ncvo-image88.png[Error: Missing Graphic Image]
++
+image:gcp-ncvo-image87.png[Screenshot]
++
+image:gcp-ncvo-image88.png[Screenshot]
 
 . Edit the volume and enable client access by associating it with an export policy.
++
+image:gcp-ncvo-image89.png[Screenshot]
 
-image:gcp-ncvo-image89.png[Error: Missing Graphic Image]
+. Obtain the ready-to-use mount command for the volume.
++
+image:gcp-ncvo-image90.png[Screenshot]
++
+image:gcp-ncvo-image91.png[Screenshot]
 
-. Obtain the ready- to- use mount command for the volume.
-
-image:gcp-ncvo-image90.png[Error: Missing Graphic Image]
-
-image:gcp-ncvo-image91.png[Error: Missing Graphic Image]
-
-. Mount the volume to a compute instance, verify that the data is present in the destination volume,  and generate the SHA256 checksum of the `sample_dataset_2GB` file.
-
-image:gcp-ncvo-image92.png[Error: Missing Graphic Image]
+. Mount the volume to a compute instance, verify that the data is present in the destination volume, and generate the SHA256 checksum of the `sample_dataset_2GB` file.
++
+image:gcp-ncvo-image92.png[Screenshot]
 
 . Compare the checksum values at both the source (FlexPod) and the destination (Cloud Volumes ONTAP).
-. The checksums match to the source and destination.You can confirm that the data replication from the source to the destination was completed successfully and the data integrity was maintained. This data can now be safely consumed by the applications to serve clients while the source site goes through restoration.
+. The checksums match to the source and destination.
+
+You can confirm that the data replication from the source to the destination was completed successfully and the data integrity was maintained. This data can now be safely consumed by the applications to serve clients while the source site goes through restoration.
+
+link:gcp-ncvo-conclusion.html[Next: Conclusion.]

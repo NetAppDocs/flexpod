@@ -3,7 +3,7 @@ sidebar: sidebar
 permalink: hybrid-cloud/gcp-ncvo-terraform-cloud-integration-with-ico-prerequisite.html
 keywords: user token, terraform cloud target, agents, api
 summary: This page describes how to connect Cisco Intersight and Terraform Cloud, how to generate a user token, how to claim a terraform cloud target, and how to add Terraform Cloud agents.
---- 
+---
 
 = Terraform Cloud Integration with ICO prerequisite
 :hardbreaks:
@@ -12,13 +12,9 @@ summary: This page describes how to connect Cisco Intersight and Terraform Cloud
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2022-09-29 18:43:12.521461
-//
+link:gcp-ncvo-cisco-intersight-configuration.html[Previous: Cisco Intersight configuration.]
 
-== Procedure 1: Connect Cisco Intersight and Terraform Cloud
+== Procedure 1 Connect Cisco Intersight and Terraform Cloud
 
 . Claim or create a Terraform cloud target by providing the relevant Terraform Cloud account details.
 . Create a Terraform Cloud Agent target for private clouds so that customers can install the agent in the data center and enable communication with Terraform Cloud.

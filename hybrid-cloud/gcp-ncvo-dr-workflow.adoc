@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: gcp-ncvo-dr-workflow.html
-keywords:
-summary:
+permalink: hybrid-cloud/gcp-ncvo-dr-workflow.html
+keywords: workflow, new volume, storage export policy, workspace, terraform plan, sleep task, synchronization
+summary: This page lists 11 procedures needed to implement a disaster recovery workflow.
 ---
 
 = DR workflow
@@ -10,7 +10,7 @@ summary:
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ./../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)
@@ -399,7 +399,9 @@ image:gcp-ncvo-image56.png[Screenshot]
 image:gcp-ncvo-image57.png[Screenshot]
 
 . Click *Map*.
-. Click *Save*.This completes the task of creating a workspace in a Terraform Cloud for Business account.
+. Click *Save*.
+
+This completes the task of creating a workspace in a Terraform Cloud for Business account.
 
 == Procedure 6: Add non-sensitive variables to workspace 
 
@@ -531,9 +533,9 @@ image:gcp-ncvo-image65.png[Screenshot]
 .. Click *Set Default Value*.
 .. Click *Variable Type* and then click *Sensitive Variables*.
 .. Click *Add*.
-
-image:gcp-ncvo-image66.png[Screenshot]
 +
+image:gcp-ncvo-image66.png[Screenshot]
+
 . In the *Add Terraform Variables* section, provide the following information:
 
 ** *Key.* `cloudmanager_refresh_token`.
@@ -600,7 +602,9 @@ image:gcp-ncvo-image70.png[Screenshot]
 image:gcp-ncvo-image71.png[Screenshot]
 
 . Click *Map*. 
-. Click *Save*.This completes the task of adding a Terraform Plan in Terraform Cloud for Business account. Next, create a sleep task for a few seconds.
+. Click *Save*.
+
+This completes the task of adding a Terraform Plan in Terraform Cloud for Business account. Next, create a sleep task for a few seconds.
 
 == Procedure 9: Sleep task for synchronization
 
@@ -620,7 +624,9 @@ image:gcp-ncvo-image72.png[Screenshot]
 image:gcp-ncvo-image73.png[Screenshot]
 
 . Click *Map*.
-. Click *Save*.This completes the sleep task. Next,  create the last task of this workflow, confirming and applying the Terraform Run.
+. Click *Save*.
+
+This completes the sleep task. Next,  create the last task of this workflow, confirming and applying the Terraform Run.
 
 == Procedure 10: Confirm and apply Terraform Run
 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: gcp-ncvo-terraform-execution-from-controller.html
-keywords:
-summary:
+permalink: hybrid-cloud/gcp-ncvo-terraform-execution-from-controller.html
+keywords: prerequisites, clone github repo, terraform execution, init, plan, apply, destroy
+summary: We can execute the Terraform plan using a controller. You can skip this section if you have already executed your Terraform plan using an ICO workflow.
 ---
 
 = Terraform execution from controller
@@ -10,7 +10,7 @@ summary:
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ./../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)
@@ -18,30 +18,33 @@ summary:
 // 2022-09-29 18:43:12.712559
 //
 
-[.lead]
-We can execute the Terraform plan using a controller.  You can skip this section if you have already executed your Terraform plan using an ICO workflow.
+link:gcp-ncvo-dr-workflow.html[Previous: DR workflow.]
 
-=== Prerequisites
+We can execute the Terraform plan using a controller. You can skip this section if you have already executed your Terraform plan using an ICO workflow.
+
+== Prerequisites
 
 Setup of the solution begins with a management workstation that has access to the Internet and with a working installation of Terraform.
 
 A guide for installing Terraform can be found https://learn.hashicorp.com/tutorials/terraform/install-cli[here^].  
 
-==== Clone GitHub repo
+== Clone GitHub repo
 
-The first step in the process is to clone the GitHub repo to a new empty folder on the management workstation. To clone the GitHub repository,  complete the following steps:
+The first step in the process is to clone the GitHub repo to a new empty folder on the management workstation. To clone the GitHub repository, complete the following steps:
 
 . From the management workstation, create a new folder for the project. Create a new folder inside this folder named `/root/snapmirror-cvo` and Clone the GitHub repo into it.
 . Open a command-line or console interface on the management workstation and change directories to the new folder just created.
 . Clone the GitHub collection using the following command:
 
 ....
-Git clone 
+Git clone https://github.com/NetApp-Automation/FlexPod-hybrid-cloud-for-GCP-with-Intersight-and-CVO
 ....
 
-. Change directories to the new folder named `snapmirror-cvo`.*Terraform execution*
+. Change directories to the new folder named `snapmirror-cvo`.
 
-image:gcp-ncvo-image77.png[Error: Missing Graphic Image]
+*Terraform execution*
+
+image:gcp-ncvo-image77.png[Schematic for Terraform execution.]
 
 * *Init.* Initialize the (local) Terraform environment. Usually executed only once per session.
 * *Plan.* Compare the terraform state with the as-in state in the cloud and build and display an execution plan. This does not change the deployment (read-only).
@@ -49,3 +52,5 @@ image:gcp-ncvo-image77.png[Error: Missing Graphic Image]
 * *Destroy.* All resources that are governed by this specific terraform environment.
 +
 For details, see https://www.terraform.io/cli/commands[here^].
+
+link:gcp-ncvo-solution-validation.html[Next: Solution validation.]

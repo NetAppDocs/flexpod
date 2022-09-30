@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: gcp-ncvo-conclusion.html
-keywords:
-summary:
+permalink: hybrid-cloud/gcp-ncvo-conclusion.html
+keywords: conclusion
+summary: In this solution, the NetApp Cloud Data service, Cloud Volumes ONTAP, and FlexPod Datacenter infrastructure were used to build a DR solution with a public cloud powered by the Cisco Intersight Cloud Orchestrator. The FlexPod solution has constantly evolved to enable customers to modernize their applications and business-delivery processes. With this solution, you can build a BCDR plan with the public cloud as your go-to location for a transient or full-time DR plan while keeping the cost of the DR solution low.
 ---
 
 = Conclusion
@@ -10,7 +10,7 @@ summary:
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ./../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)
@@ -18,8 +18,9 @@ summary:
 // 2022-09-29 18:43:12.733128
 //
 
-[.lead]
-In this solution, the NetApp Cloud Data service, Cloud Volumes ONTAP, and FlexPod Datacenter infrastructure were used to build a DR solution with a public cloud powered by the Cisco Intersight Cloud Orchestrator. The FlexPod solution has constantly evolved to enable customers to modernize their applications and business- delivery processes. With this solution, you can build a BCDR plan with the public cloud as your go-to location for a transient or full-time DR plan while keeping the cost of the DR solution low.
+link:gcp-ncvo-solution-validation.html[Previous: Solution validation.]
+
+In this solution, the NetApp Cloud Data service, Cloud Volumes ONTAP, and FlexPod Datacenter infrastructure were used to build a DR solution with a public cloud powered by the Cisco Intersight Cloud Orchestrator. The FlexPod solution has constantly evolved to enable customers to modernize their applications and business-delivery processes. With this solution, you can build a BCDR plan with the public cloud as your go-to location for a transient or full-time DR plan while keeping the cost of the DR solution low.
 
 Data replication between on-premises FlexPod and NetApp Cloud Volumes ONTAP was handled by proven SnapMirror technology, but you can also select other NetApp data- transfer and synchronization tools like Cloud Sync for your data mobility requirements. Security of the data in-flight provided by built-in encryption technologies based on TLS/AES.
 
@@ -27,15 +28,11 @@ Whether you have a temporary DR plan for an application or a full-time DR plan f
 
 The solution enables the management of FlexPod on-premises and data replication across a hybrid cloud in a very easy and convenient manner with automation and orchestration provided by Cisco Intersight Cloud Orchestrator.
 
-=== Where to find additional information
+== Where to find additional information
 
 To learn more about the information that is described in this document, review the following documents and/or websites:
 
-==== Demo
-
-* Short demo of the solution
-
-==== GitHub
+=== GitHub
 
 * All Terraform Configurations used
 +
@@ -45,7 +42,7 @@ https://github.com/NetApp-Automation/FlexPod-hybrid-cloud-for-GCP-with-Intersigh
 +
 https://github.com/ucs-compute-solutions/FlexPod_DR_Workflows[https://github.com/ucs-compute-solutions/FlexPod_DR_Workflows^]
 
-==== Cisco Intersight
+=== Cisco Intersight
 
 * Cisco Intersight Help Center
 +
@@ -71,7 +68,7 @@ https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/inter
 +
 https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intersight/nb-06-intersight-terraf-ser-aag-cte-en.html[https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intersight/nb-06-intersight-terraf-ser-aag-cte-en.html^]
 
-==== FlexPod
+=== FlexPod
 
 * FlexPod Home Page
 +
@@ -85,7 +82,7 @@ https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_m6_
 +
 https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_xseries_esxi7u2_design.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_xseries_esxi7u2_design.html^]
 
-==== Interoperability
+=== Interoperability
 
 * NetApp Interoperability Matrix Tool
 +
@@ -99,7 +96,7 @@ http://www.cisco.com/web/techdoc/ucs/interoperability/matrix/matrix.html[http://
 +
 http://www.vmware.com/resources/compatibility/search.php[http://www.vmware.com/resources/compatibility/search.php^]
 
-==== NetApp Cloud Volumes ONTAP reference documents
+=== NetApp Cloud Volumes ONTAP reference documents
 
 * NetApp Cloud Manager
 +
@@ -133,7 +130,7 @@ https://docs.netapp.com/us-en/occm/reference_infrastructure_as_code.html[https:/
 
 https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Volumes_ONTAP_(CVO)[https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Volumes_ONTAP_(CVO)^]
 
-==== Terraform
+=== Terraform
 
 * Terraform Cloud
 +
@@ -147,7 +144,7 @@ https://www.terraform.io/docs/[https://www.terraform.io/docs/^]
 +
 https://registry.terraform.io/providers/NetApp/netapp-cloudmanager/lates[https://registry.terraform.io/providers/NetApp/netapp-cloudmanager/lates^]
 
-==== GCP
+=== GCP
 
 * ONTAP High Availability for GCP
 +
