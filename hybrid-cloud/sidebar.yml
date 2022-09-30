@@ -1,6 +1,35 @@
 section: hybrid-cloud
 title: Hybrid Cloud
 entries:
+
+  - title: FlexPod Hybrid Cloud for Google Cloud Platform with NetApp Cloud Volumes ONTAP and Cisco Intersight
+    type: solutions
+    entries:
+      - title: Solution overview
+        url: /hybrid-cloud/gcp-ncvo-solution-overview.html
+      - title: Solution components
+        url: /hybrid-cloud/gcp-ncvo-solution-components.html
+      - title: Installation and configuration
+        entries:
+          - title: Deploy FlexPod
+            url: /hybrid-cloud/gcp-ncvo-deploy-flexpod.html
+          - title: Cisco Intersight configuration
+            url: /hybrid-cloud/gcp-ncvo-cisco-intersight-configuration.html
+          - title: Terraform Cloud Integration with ICO prerequisite
+            url: /hybrid-cloud/gcp-ncvo-terraform-cloud-integration-with-ico-prerequisite.html
+          - title: Configure Public Cloud Service provider
+            url: /hybrid-cloud/gcp-ncvo-configure-public-cloud-service-provider.html
+          - title: Automated deployment of Hybrid Cloud NetApp Storage
+            url: /hybrid-cloud/gcp-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html
+          - title: DR workflow
+            url: /hybrid-cloud/gcp-ncvo-dr-workflow.html
+          - title: Terraform execution from controller
+            url: /hybrid-cloud/gcp-ncvo-terraform-execution-from-controller.html
+      - title: Solution validation
+        url: /hybrid-cloud/gcp-ncvo-solution-validation.html
+      - title: Conclusion
+        url: /hybrid-cloud/gcp-ncvo-conclusion.html
+
   - title: FlexPod hybrid cloud with NetApp Astra and Cisco Intersight for Red Hat OpenShift
     type: solutions
     entries:
@@ -46,6 +75,7 @@ entries:
         url: /hybrid-cloud/cloud-insights_videos_and_demos.html
       - title: Additional information
         url: /hybrid-cloud/cloud-insights_additional_information.html
+        
   - title: FlexPod with FabricPool - Inactive Data Tiering to Amazon AWS S3
     type: solutions
     entries:
