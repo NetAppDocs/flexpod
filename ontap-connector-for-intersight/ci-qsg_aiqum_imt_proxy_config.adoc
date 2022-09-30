@@ -46,8 +46,8 @@ um option set imt.https.proxy.port=<IMT_PROXY_PORT>
 *Example*
 +
 ----
-um option set imt.https.proxy.host=svc-proxy.cls.eng.netapp.com
-um option set imt.https.proxy.port=:8200
+um option set imt.https.proxy.host=example-proxy.cls.eng.com
+um option set imt.https.proxy.port=8200
 ----
 +
 [NOTE]
