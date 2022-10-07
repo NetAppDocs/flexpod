@@ -70,7 +70,7 @@ image:gcp-ncvo-image7.png[Screenshot showing the variable input screen.]
 
 == Procedure 2. Create a new volume in FlexPod
 
-. Go to the *Designer* tab and click *Tasks *from the *Tools* section.
+. Go to the *Designer* tab and click *Tasks* from the *Tools* section.
 . Drag and drop the *Storage > New Storage Volume* task from the *Tools* section into the *Design* area.
 . Click *New Storage Volume*.
 +
@@ -127,7 +127,7 @@ image:gcp-ncvo-image19.png[Screenshot showing the map task input.]
 . In the Add Input wizard, complete the following steps: 
 .. Provide a display name and reference name (optional).
 .. Make sure that *Storage Vendor Volume Options* is selected for the *Type*.
-.. Click *Set Default Value *and* Override*.
+.. Click *Set Default Value and Override*.
 .. Click *Required*.
 .. Set the *Platform Type* to *NetApp Active IQ Unified Manager*.
 .. Provide a default value for the created volume under *Volume*.
@@ -147,7 +147,7 @@ image:gcp-ncvo-image21.png[Screenshot showing how to create a name in teh Map Ta
 .. Provide a display name and a reference name (optional).
 .. Click *Required*.
 .. For *Type*, select *Storage Capacity*.
-.. Click *Set Default Value *and* Override*.
+.. Click *Set Default Value and Override*.
 .. Provide a default value for the volume size and unit.
 .. Click *Add*.
 +
@@ -213,13 +213,13 @@ This completes addition of an export policy to the volume. Next, you create a ne
 +
 image:gcp-ncvo-image30.png[Screenshot]
 
-. Click *New Hypervisor Datastore*. In the *Task Properties* area, click the *General *tab. Optionally, you can change the name and description for this task. In this example, the name of the task is *Map volume to Datastore*.
+. Click *New Hypervisor Datastore*. In the *Task Properties* area, click the *General* tab. Optionally, you can change the name and description for this task. In this example, the name of the task is *Map volume to Datastore*.
 +
 image:gcp-ncvo-image31.png[Screenshot]
 
 . In the *Task Properties* area, click *Inputs*.
 . Click *Map* in the *Hypervisor Manager* field.
-. Choose *Static Value* and click *Select Hypervisor Manager*. Click the VMware vCenter target explained in the section “Add FlexPod Components to Cisco Intersight account. ” (xref)
+. Choose *Static Value* and click *Select Hypervisor Manager*. Click the VMware vCenter target.
 +
 image:gcp-ncvo-image32.png[Screenshot]
 
@@ -254,7 +254,7 @@ image:gcp-ncvo-image36.png[Screenshot]
 .. Provide a display name and reference name (optional).
 .. Click *Required*.
 .. Select Cluster as the type.
-.. Click *Set Default Value *and* Override*.
+.. Click *Set Default Value and Override*.
 .. Click *Select Cluster*.
 .. Click the cluster associated with the new datastore.
 .. Click *Select*.
@@ -273,7 +273,7 @@ image:gcp-ncvo-image39.png[Screenshot]
 
 . Click *Select and Map*.
 . Click *Map* in the *Datastore* field. 
-. Choose *Direct Mapping *and click *Workflow Input*.
+. Choose *Direct Mapping* and click *Workflow Input*.
 . Click *Input Name* and *Create Workflow Input*.
 +
 image:gcp-ncvo-image40.png[Screenshot]
@@ -281,7 +281,7 @@ image:gcp-ncvo-image40.png[Screenshot]
 . In the Add Input wizard: 
 .. Provide a display name and reference name (optional).
 .. Click *Required*.
-.. Click *Set Default Value *and* Override*.
+.. Click *Set Default Value and Override*.
 .. Provide a default value for the datastore and click *Add*.
 +
 image:gcp-ncvo-image41.png[Screenshot]
@@ -325,7 +325,7 @@ image:gcp-ncvo-image46.png[Screenshot]
 
 . In the Task Properties area, click *Inputs*.
 . Click *Map* in the input field *Terraform Cloud Target*.
-. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added as explained in the section “Configure Cisco Intersight Service for HashiCorp Terraform. ” (xref)
+. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added as explained in link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_cvo_ico_ntap.html[Configure Cisco Intersight Service for HashiCorp Terraform^].”.
 +
 image:gcp-ncvo-image47.png[Screenshot]
 
@@ -392,8 +392,8 @@ image:gcp-ncvo-image55.png[Screenshot]
 image:gcp-ncvo-image56.png[Screenshot]
 
 . Provide the following GitHub repository details:
-.. In *Repository Name*, enter the name of the repository detailed in the “Set up environment prerequisites” <<xref>> section. 
-.. Provide the OAuth Token ID as detailed in the “Setting up environment prerequisites” <<xref>> section.
+.. In *Repository Name*, enter the name of the repository detailed in the section link:p-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites”]. 
+.. Provide the OAuth Token ID as detailed in the section link:p-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites”].
 .. Select the *Automatic Run Triggering* option.
 +
 image:gcp-ncvo-image57.png[Screenshot]
@@ -414,7 +414,7 @@ image:gcp-ncvo-image58.png[Screenshot]
 
 . In the *Workflow Properties* area, click *Inputs*.
 . Click *Map* in the *Terraform Cloud Target* field.
-. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added as explained in the section ‘Configure Cisco Intersight Service for HashiCorp Terraform. ” (xref)
+. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added as explained in link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_cvo_ico_ntap.html[Configure Cisco Intersight Service for HashiCorp Terraform^].”.
 +
 image:gcp-ncvo-image59.png[Screenshot]
 
@@ -442,12 +442,12 @@ image:gcp-ncvo-image62.png[Screenshot]
 . In the Add Input wizard, complete the following steps:
 .. Provide a display name and reference name (Optional).
 .. Make sure to select *String* for the *Type*.
-.. Click *Set Default Value and Override.*
+.. Click *Set Default Value and Override*.
 .. Click *Variable Type* and then click *Non-Sensitive Variables*.
 . In the *Add Terraform Variables* section, provide the following information:
 
-** *Key.* `name_of_on-prem- ontap`
-** *Value.* Provide the name of on-premises ONTAP added in the “Deploying FlexPod Datacenter” <<xref>> section.
+** *Key.* `name_of_on-prem-ontap`
+** *Value.* Provide the name of on-premises ONTAP.
 ** *Description.* Name of the on-premises ONTAP.
 
 . Click *+* to add additional variables.
@@ -514,7 +514,7 @@ image:gcp-ncvo-image65.png[Screenshot]
 
 . In the *Workflow Properties* area, click *Inputs*.
 . Click *Map* in the *Terraform Cloud Target* field.
-. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added in the “ https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_cvo_ico_ntap.html[Configure Cisco Intersight Service for HashiCorp Terraform^]” <<xref>> section.
+. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added in the section link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_cvo_ico_ntap.html[Configure Cisco Intersight Service for HashiCorp Terraform^].”
 . Click *Map*.
 . Click *Map* in the *Terraform Organization Name* field.
 . Choose *Static Value* and click *Select Terraform Organization*. Select the name of the Terraform Organization that you are part of in your Terraform Cloud for Business account.
@@ -543,7 +543,7 @@ image:gcp-ncvo-image66.png[Screenshot]
 ** *Description.* Refresh token.
 +
 [NOTE]
-For more information about obtaining a refresh token for the NetApp Cloud Manager API operations, see the section “Set up environment prerequisites. ” <<xref>>
+For more information about obtaining a refresh token for the NetApp Cloud Manager API operations, see the section link:p-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites.”]
 +
 image:gcp-ncvo-image67.png[Screenshot]
 
@@ -612,7 +612,7 @@ Terraform Apply requires RunID,  which is generated as a part of the Terraform P
 
 . Go to the *Designer* tab and click *Tasks* from the *Tools* section.
 . Drag and drop the *Core Tasks > Sleep Task* from the *Tools* section in the *Design* area.
-. Use Connector to connect the tasks *Start New Terraform Plan* and *Sleep Task*. Cick *Save*.
+. Use Connector to connect the tasks *Start New Terraform Plan* and *Sleep Task*. Click *Save*.
 +
 image:gcp-ncvo-image72.png[Screenshot]
 
@@ -639,7 +639,7 @@ image:gcp-ncvo-image74.png[Screenshot]
 
 . In the *Task Properties* area, click *Inputs*.
 . Click *Map* in the *Terraform Cloud Target* field.
-. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added in the section “Configure Cisco Intersight Service for HashiCorp Terraform. ” (xref)
+. Choose *Static Value* and click *Select Terraform Cloud Target*. Select the Terraform Cloud for Business account that was added in link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_cvo_ico_ntap.html[Configure Cisco Intersight Service for HashiCorp Terraform^].”
 . Click *Map*.
 . Click *Map* in the *Run ID* field.
 . Choose *Direct Mapping* and click *Task Output*.
@@ -654,7 +654,7 @@ image:gcp-ncvo-image75.png[Screenshot]
 +
 image:gcp-ncvo-image76.png[Screenshot]
 
-This completes the Confirm and Apply Terraform Run task. Use Connector to connect between the *Confirm* *and* *Apply Terraform Run* task and the *Success* and *Failed* tasks.
+This completes the Confirm and Apply Terraform Run task. Use Connector to connect between the *Confirm and Apply Terraform Run* task and the *Success* and *Failed* tasks.
 
 == Procedure 11: Import a Cisco-built workflow
 

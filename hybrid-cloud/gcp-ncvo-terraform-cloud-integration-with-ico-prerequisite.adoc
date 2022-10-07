@@ -14,7 +14,7 @@ summary: This page describes how to connect Cisco Intersight and Terraform Cloud
 
 link:gcp-ncvo-cisco-intersight-configuration.html[Previous: Cisco Intersight configuration.]
 
-== Procedure 1 Connect Cisco Intersight and Terraform Cloud
+== Procedure 1: Connect Cisco Intersight and Terraform Cloud
 
 . Claim or create a Terraform cloud target by providing the relevant Terraform Cloud account details.
 . Create a Terraform Cloud Agent target for private clouds so that customers can install the agent in the data center and enable communication with Terraform Cloud.
