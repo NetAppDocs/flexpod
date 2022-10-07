@@ -10,6 +10,8 @@ entries:
     url: /ontap-connector-for-intersight/ci-qsg_requirements.html
   - title: Before you begin
     url: /ontap-connector-for-intersight/ci-qsg_before_you_begin.html
+  - title: Configure AIQ UM proxy server for IMT service
+    url: /ontap-connector-for-intersight/ci-qsg_aiqum_imt_proxy_config.html
   - title: Claim targets
     url: /ontap-connector-for-intersight/ci-qsg_claim_targets.html
   - title: Monitor NetApp storage from Cisco Intersight
