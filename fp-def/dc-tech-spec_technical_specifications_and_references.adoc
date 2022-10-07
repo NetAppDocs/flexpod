@@ -393,16 +393,16 @@ The technical specifications for NetApp disk shelves include the form factor siz
 
 |NetApp DS212C Disk Shelf
 |
-http://docs.netapp.com/platstor/topic/com.netapp.nav.sas3/home.html[DS212C Disk Shelf Documentation]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[DS212C Disk Shelf Documentation]
 |NetApp DS224C Disk Shelf
 |
-http://docs.netapp.com/platstor/topic/com.netapp.nav.sas3/home.html[DS224C Disk Shelf Documentation]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[DS224C Disk Shelf Documentation]
 |NetApp DS460C Disk Shelf
 |
-http://docs.netapp.com/platstor/topic/com.netapp.nav.sas3/home.html[DS460C Disk Shelf Documentation]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[DS460C Disk Shelf Documentation]
 |NetApp NS224 NVMe-SSD Disk Shelf
 |
-https://docs.netapp.com/platstor/index.jsp?topic=%2Fcom.netapp.doc.hw-ds-nvme-shelfid%2FGUID-2C057CF4-8897-4270-BF57-CA90333FBCF4.html&lang=en[NS224 Disk Shelf Documentation]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[NS224 Disk Shelf Documentation]
 |===
 
 === NetApp drives
