@@ -1,0 +1,80 @@
+---
+sidebar: sidebar
+permalink: hybrid-cloud/gcp-ncvo-terraform-cloud-integration-with-ico-prerequisite.html
+keywords: user token, terraform cloud target, agents, api
+summary: This page describes how to connect Cisco Intersight and Terraform Cloud, how to generate a user token, how to claim a terraform cloud target, and how to add Terraform Cloud agents.
+---
+
+= Terraform Cloud Integration with ICO prerequisite
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+link:gcp-ncvo-cisco-intersight-configuration.html[Previous: Cisco Intersight configuration.]
+
+== Procedure 1: Connect Cisco Intersight and Terraform Cloud
+
+. Claim or create a Terraform cloud target by providing the relevant Terraform Cloud account details.
+. Create a Terraform Cloud Agent target for private clouds so that customers can install the agent in the data center and enable communication with Terraform Cloud.
++
+For more information, follow https://intersight.com/help/saas/features/terraform_cloud/admin[this link^].
+
+== Procedure 2: Generate user token
+
+As a part of adding a target for Terraform Cloud, you must provide the username and API token from the Terraform Cloud settings page.
+
+. Login to Terraform Cloud and go to *User Tokens*: https://app.terraform.io/app/settings/tokens[https://app.terraform.io/app/settings/tokens^].
+. Click *Create a new API token*.
+. Assign a name to remember and save the token in a secure place.
+
+== Procedure 3: Claim Terraform Cloud Target
+
+. Log into Intersight with Account Administrator, Device Administrator, or Device Technician privileges.
+. Navigate to *ADMIN > Targets > Claim a New Target*.
+. In *Categories*, click *Cloud*.
+. Click *Terraform Cloud* and click *Start*.
++
+image:gcp-ncvo-image3.png[Screenshot of Selecting target type in Cisco Intersight.]
+
+. Enter a name for the target, your username for the Terraform Cloud, the API token, and a default organization in Terraform Cloud as displayed in the following image.
+. In the *Default Managed Hosts* field, make sure to add the following links along with other managed hosts:
++
+** github.com
+** github-releases.githubusercontent.com
++
+image:gcp-ncvo-image4.png[Screenshot of Default Managed Host field.]
+
+If everything is correctly entered, you will see your Terraform Cloud target displayed in the *Intersight Targets* section.
+
+== Procedure 4: Add Terraform Cloud agents
+
+Prerequisites:
+
+* Terraform Cloud target.
+* Claimed Intersight Assist into Intersight before deploying the Terraform Cloud Agent.
+
+[NOTE]
+You can only claim five agents for each Assist.
+
+[NOTE]
+After you have created the connection to Terraform, you must spin up a Terraform Agent to execute the Terraform code.
+
+. Click *Claim Terraform Cloud Agent* from the drop-down list of your Terraform Cloud target.
+. Enter the details for the Terraform Cloud agent. The following screenshot shows the configuration details for Terraform agent.
++
+image:gcp-ncvo-image5.png[Screenshot showing configuration details for the Terraform agent.]
+
+[NOTE]
+You can update any Terraform Agent property. If the target is in the *Not Connected* state and has never been in the *Connected* state, then a token has not been generated for the Terraform agent.
+
+After the agent validation succeeds and an agent token is generated, you are unable to reconfigure the Organization and/or Agent Pool. Successful deployment of a Terraform agent is indicated by a status of *Connected*.
+
+After you have enabled and claimed the Terraform Cloud integration, you can deploy one or more Terraform Cloud agents in Cisco Intersight Assist. The Terraform Cloud agent is modelled as a child target of the Terraform Cloud target. When you claim the agent target, you see a message to indicate that the target claim is in progress.
+
+After a few seconds, the target is moved to the *Connected* state, and the Intersight platform routes HTTPS packets from the agent to the Terraform Cloud gateway.
+
+Your Terraform Agent should be correctly claimed and should show up under targets as *Connected*.
+
+link:gcp-ncvo-configure-public-cloud-service-provider.html[Next: Configure Public Cloud Service provider.]
