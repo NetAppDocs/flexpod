@@ -1,0 +1,60 @@
+---
+sidebar: sidebar
+permalink: ontap-connector-for-intersight/ci-qsg_aiqum_imt_proxy_config.html
+keywords: cisco, intersight, intersight assist, netapp, ontap, connector, configuration, active iq unified manager, proxy, imt, deployment, interoperability, ai qm, ova, cli
+summary: AIQ UM with proxy server configurations require setup through the CLI to utilize the IMT service.
+---
+
+= Configure AIQ UM proxy server for IMT service
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+[.lead]
+If you are using a proxy server with AIQ UM for Cisco Intersight with NetApp ONTAP storage, you must configure the setup through the command line interface (CLI) to utilize the interoperability matrix tool service (IMT). You must use the Active IQ Unified Manager Virtual Machine (OVA) Diag shell to configure the AIQ UM proxy server settings.
+
+[NOTE]
+For information on how to access the AIQ UM Diag shell, see https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_access_Active_IQ_Unified_Manager_Virtual_Machine_OVA_DIAG_shell[How to access Active IQ Unified Manager Virtual Machine (OVA) DIAG shell]
+
+*Steps*
+
+. Log into the AIQ UM terminal and run the following command to log into um.
++
+----
+um cli login -u <um maintenance user name>
+----
++
+*Example*
++
+----
+um cli login -u admin
+----
+
+. Set the `imt_proxy_host` and `imt_proxy_port` by running the following commands.
+[NOTE]
+The IMT proxy is a separate configuration from AutoSupport (ASUP) proxy configurations.
+
++
+----
+um option set imt.https.proxy.host=<IMT_PROXY_HOST>
+um option set imt.https.proxy.port=<IMT_PROXY_PORT>
+----
+
++
+*Example*
++
+----
+um option set imt.https.proxy.host=example-proxy.cls.eng.com
+um option set imt.https.proxy.port=8200
+----
++
+[NOTE]
+IMT proxy server configurations do not support authentication.
+
+. View the IMT proxy details to verify the `proxy_host` and `proxy_port` settings through the following command.
++
+----
+um option list |grep imt
+----
