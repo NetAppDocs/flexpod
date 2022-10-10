@@ -91,18 +91,13 @@ For placement of the LUNs in a storage volume, follow the guidelines in the next
 
 ==== Storage volumes
 
-For optimal performance, management, and backup operations, NetApp recommends the following volume design best practices:
+For optimal performance and management NetApp recommends the following volume design best practices:
 
-* Isolate databases with I/O-intensive queries throughout the day in different volumes and eventually have separate jobs to back them up.
-* For faster recovery, place large databases and databases that have minimal recovery time objectives (RTOs) in separate volumes.
-* Consolidate into a single volume your small-to-medium-sized databases that are less critical or that have fewer I/O requirements. When you back up a large number of databases that reside in the same volume, fewer Snapshot copies need to be maintained. NetApp also recommends that you consolidate Oracle database server instances to use the same volumes to control the number of backup Snapshot copies that are created.
-* For database replicas, place the data and log files for replicas in an identical folder structure on all nodes.
-* Place database files in a single FlexVol; don’t spread them across FlexVols.
-* Configure a volume auto size policy, when appropriate, to help prevent out-of-space conditions.
-* When the database I/O profile consists mostly of large sequential reads, such as with decision support system workloads, enable read reallocation on the volume. Read reallocation optimizes the blocks for better performance.
-* For ease of monitoring from an operational perspective, set the Snapshot copy reserve value in the volume to zero.
-* Disable storage Snapshot copy schedules and retention policies. Instead, use NetApp SnapCenter Plug-In for Oracle Database to coordinate Snapshot copies of the Oracle data volumes.
-* Place user data files and log files on separate FlexVols so that appropriate QoS can be configured for the respective FlexVols and so that different backup schedules can be created.
+•	Isolate databases with I/O-intensive queries on separate storage volumes.
+•	The datafiles could be placed on a single LUN or a volume, but multiple volumes/LUNs are recommended for higher throughput.
+•	I/O parallelism can be attained by using any supported filesystem when multiple LUNs are used.
+•	Place database files and transaction logs on separate volumes to increase the recovery granularity.
+•	Consider using volume attributes like auto size, Snapshot reserve, QoS, and so on.
 
 ==== Aggregates
 
@@ -123,7 +118,7 @@ Storage aggregate layout guidance for AFF A300 systems (with two disk shelves wi
 * Use Advanced Disk Partitioning to create three partitions on each drive: root and data.
 * Use a total of 20 data partitions and two parity partitions for each aggregate.
 
-=== Backup best practices
+== Backup best practices
 
 NetApp SnapCenter is used for VM and database backups. NetApp recommends the following backup best practices:
 
@@ -147,13 +142,13 @@ NetApp recommends the following networking best practices:
 
 You can find additional networking best practices in the FlexPod infrastructure design and deployment guides.
 
-=== Compute best practices
+== Compute best practices
 
 NetApp recommends the following compute best practice:
 
 * Make sure that each specified vCPU is supported by a physical core.
 
-=== Virtualization best practices
+== Virtualization best practices
 
 NetApp recommends the following virtualization best practices:
 
@@ -172,5 +167,5 @@ See the following best practices and some requirements from a typical medical im
 * Make sure that the VM OS VMDKs are hosted in fast tier 1 storage.
 * Work with the medical imaging system vendor to identify the best approach to prepare VM templates for quick deployment and maintenance.
 * Management, storage, and production networks require LAN segregation for the database, with isolated VLANs for VMware vMotion.
-* Use the NetApp storage-array-based replication technology called https://www.netapp.com/us/media/tr-4015.pdf[SnapMirror^] instead of vSphere- based replication.
+* Use the NetApp storage-array-based replication technology called https://www.netapp.com/us/media/tr-4015.pdf[SnapMirror^] instead of vSphere-based replication.
 * Use backup technologies that leverage VMware APIs; backup windows should be outside the normal production hours.
