@@ -1,0 +1,34 @@
+---
+sidebar: sidebar
+permalink: ent-db/fpd-oracle-rac-linux.html
+keywords: 
+summary: 
+---
+
+= FlexPod Data Center with Oracle RAC on Oracle Linux
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Tushar Patel,  Cisco Systems, Inc.
+Niranjan Mohapatra, Cisco Systems, Inc.
+John Elliott, NetApp
+
+The Cisco Unified Computing System (Cisco UCS) is a next-generation data center platform that unites computing, network, storage access, and virtualization into a single cohesive system. Cisco UCS is an ideal platform for the architecture of mission critical database workloads. The combination of Cisco UCS platform, NetApp® storage, and Oracle Real Application Cluster (RAC) architecture can accelerate your IT transformation by enabling faster deployments, greater flexibility of choice, efficiency, and lower risk. This Cisco Validated Design (CVD) highlights a flexible, multitenant, highly performant and resilient FlexPod reference architecture featuring the Oracle 12c RAC Database. 
+
+The FlexPod platform, developed by NetApp and Cisco, is a flexible, integrated infrastructure solution that delivers pre-validated storage, networking, and server technologies. It’s designed to increase IT responsiveness to business demands while reducing the overall cost of computing. Think maximum uptime, minimal risk. FlexPod components are integrated and standardized to help you achieve timely, repeatable, consistent deployments. You can plan with accuracy the power, floor space, usable capacity, performance, and cost of each FlexPod deployment.
+
+FlexPod embraces the latest technology and efficiently simplifies the data center workloads that redefine the way IT delivers value:
+
+* NetApp FAS Hybrid Arrays with Flash Pool™ flash provide the capability to deploy the precise proportion of flash to spinning media for your specific application or environment.
+
+* Leverage a pre-validated platform to minimize business disruption and improve IT agility and reduce deployment time from months to weeks.
+
+* Slash administration time and total cost of ownership (TCO) by 50 percent.
+
+* Meet or exceed constantly expanding hardware performance demands for data center workloads.
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orcrac_12c_bm.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orcrac_12c_bm.html^]

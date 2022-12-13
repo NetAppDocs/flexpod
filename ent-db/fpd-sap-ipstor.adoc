@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: ent-db/fpd-sap-ipstor.html
+keywords: 
+summary: 
+---
+
+= FlexPod Datacenter for SAP Solution with IP-Based Storage using NetApp AFF A-Series and Cisco UCS Manager 3.2
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Shailendra Mruthunjaya, Cisco Systems, Inc.
+Ralf Klahr, Cisco Systems, Inc.
+Marco Schoen, NetApp
+
+The reference architecture detailed in this document highlights the resiliency, cost benefit, and ease of deployment of an IP-based storage solution. A storage system capable of serving multiple protocols across a single interface allows for customer choice and investment protection because it truly a wire-once architecture. The solution is designed to host scalable SAP HANA workloads.
+
+SAP HANA is SAP SE’s implementation of in-memory database technology. A SAP HANA database takes advantage of low cost main memory (RAM), the data-processing capabilities of multicore processors, and faster data access to provide better performance for analytical and transactional applications. SAP HANA offers a multi-engine query-processing environment that supports relational data with both row-oriented and column-oriented physical representations in a hybrid engine. It also offers graph and text processing for semi-structured and unstructured data management within the same system.
+
+With the introduction of SAP HANA TDI for shared infrastructure, the FlexPod solution provides you the advantage of having the compute, storage, and network stack integrated with the programmability of the Cisco UCS. SAP HANA TDI enables organizations to run multiple SAP HANA production systems in one FlexPod solution. It also enables customers to run the SAP applications servers and the SAP HANA database on the same infrastructure.
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_saphana_n9k_aff_ucsm.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_saphana_n9k_aff_ucsm.html^]

@@ -30,7 +30,7 @@ entries:
   - title: FlexPod Datacenter with VMware vSphere 7.0, Cisco VXLAN Single-Site Fabric, and NetApp ONTAP 9.7 Design Guide
     url: /flexpod-dc/fpd-vxlan-design.html
   - title: FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7
-    url: /flexpod-dc/fpd-vsphere-design.html
+    url: /flexpod-dc/fpd-vsphere-deploy.html
   - title: FlexPod Datacenter with NetApp ONTAP 9.7, Cisco Intersight, and VMware vSphere 6.7 U3 - Design
     url: /flexpod-dc/fpd-cisco-vm-vs-design.html
   - title: FlexPod Datacenter with NetApp ONTAP 9.7, Cisco Intersight, and VMware vSphere 6.7 U3 - Deploy

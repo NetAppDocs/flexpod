@@ -1,0 +1,24 @@
+---
+sidebar: sidebar
+permalink: ent-db/fpd-microsoft-sql-2016.html
+keywords: 
+summary: 
+---
+
+= FlexPod Datacenter for Microsoft SQL Server 2019 and VMware vSphere 6.7
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Gopu Narasimha Reddy, Cisco Systems, Inc.
+Sanjeev Naldurgkar, Cisco Systems, Inc.
+Atul Bhalodia, NetApp
+
+This document describes a FlexPod reference architecture using the latest hardware and software products and provides deployment recommendations for hosting Microsoft SQL Server 2019 databases in VMware ESXi virtualized environments. This solution also uses Cisco Workload Optimization Manager (CWOM) which provides automated recommendations for optimal and efficient resource utilization both for SQL workloads and infrastructure.
+
+The solution is built on Cisco Unified Computing System (Cisco UCS) using the unified software release 4.1.1c to support the Cisco UCS hardware platforms including Cisco UCS B-Series Blade Servers, Cisco UCS 6400 Fabric Interconnects, Cisco Nexus 9000 Series Switches, and NetApp AFF Series Storage Arrays.
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/mssql2019_flexpod.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/mssql2019_flexpod.html^]

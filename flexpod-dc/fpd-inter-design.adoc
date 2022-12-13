@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-John George, Cisco Systems
+John George, Cisco Systems, Inc.
 Scott Kovacs, NetApp
 
 This document describes the Cisco and NetApp  solution, which is a validated approach for deploying Cisco and NetApp technologies as shared cloud infrastructure. This validated design provides a framework for deploying VMware vSphere, the most popular virtualization platform in enterprise class data centers, on FlexPod.

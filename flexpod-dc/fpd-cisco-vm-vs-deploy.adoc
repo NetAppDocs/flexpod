@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: flexpod-dc/ontap-cisco-vm-vs-deploy.html
+permalink: flexpod-dc/fpd-cisco-vm-vs-deploy.html
 keywords: 
 summary: 
 ---
@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-John George, Cisco Systems
+John George, Cisco Systems, Inc.
 Scott Kovacs, NetApp
 
 The current industry trend in datacenter design is towards shared infrastructures. By using virtualization along with pre-validated IT platforms, enterprise customers have embarked on the journey to the cloud by moving away from application silos and toward shared infrastructure that can be quickly deployed, thereby increasing agility and reducing costs. Cisco and NetApp have partnered to deliver FlexPod, which uses best of breed storage, server and network components to serve as the foundation for a variety of workloads, enabling efficient architectural designs that can be quickly and confidently deployed.

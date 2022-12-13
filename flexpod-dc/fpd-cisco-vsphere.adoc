@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-John George, Cisco Systems
+John George, Cisco Systems, Inc.
 Sree Lakshmi Lanka, NetApp
 
 This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.6, Cisco UCS Manager unified software release 4.0(4) with 2nd Generation Intel Xeon Scalable Processors and VMware vSphere 6.7 U2. Cisco UCS Manager (UCSM) 4.0(4) provides consolidated support of all current Cisco UCS Fabric Interconnect models (6200, 6300, 6324 (Cisco UCS Mini)), 6454,2200/2300/2400 series IOM, Cisco UCS B-Series, and Cisco UCS C-Series.  FlexPod Datacenter with NetApp ONTAP 9.6, Cisco UCS unified software release 4.0(4), and VMware vSphere 6.7 U2 is a predesigned, best-practice data center architecture built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus® 9000 family of switches, MDS 9000 multilayer fabric switches, and NetApp AFF A-Series storage arrays running ONTAP 9.6 storage OS

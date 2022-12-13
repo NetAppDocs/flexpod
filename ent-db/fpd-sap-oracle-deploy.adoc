@@ -1,0 +1,22 @@
+---
+sidebar: sidebar
+permalink: ent-db/fpd-oracle-deploy.html
+keywords: 
+summary: 
+---
+
+= FlexPod Datacenter with Oracle 19c RAC Databases on Cisco UCS and NetApp AFF with NVMe over FibreChannel
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Tushar Patel,  Cisco Systems, Inc.
+Hardikkumar Vyas, Cisco Systems, Inc.
+
+Cisco Validated Designs (CVDs) consist of systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. This CVD document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying highly available Oracle RAC Database environment. Cisco and NetApp have validated the reference architecture with various Database workloads like OLTP (Online Transactional Processing) and Data Warehouse in Cisco’s UCS Datacenter lab. This document shows the hardware and software configuration of the components involved, results of various tests and offers implementation and a framework for implementing Oracle RAC Databases on NVMe/FC using Cisco UCS and NetApp Storage System.
+
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_oracle_ucs_m5.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_oracle_ucs_m5.html^]
