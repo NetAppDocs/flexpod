@@ -66,4 +66,4 @@ entries:
       - title: FlexPod Datacenter for Microsoft SQL Server 2019 and VMware vSphere 6.7
         url: /ent-db/fpd-microsoft-sql-2016.html
       - title: FlexPod Datacenter with Microsoft SQL Server 2017 on Linux VM Running on VMware and Hyper-V
-        url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/mssql2017_flexpod_linux.html
+        url: /ent-db/fpd-microsoft-sql-2017-hyper.html

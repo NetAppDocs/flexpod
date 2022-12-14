@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: modern-apps/fpd-docker-contm-design.html
+keywords: 
+summary: 
+---
+
+= FlexPod Datacenter with Docker Enterprise Edition for Container Management
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Muhammad Afzal, Cisco Systems Inc.
+John George, Cisco Systems, Inc.
+Amit Borulkar, NetApp, Inc.
+Uday Shetty, Docker, Inc.
+
+Docker is the world’s leading software container platform for developers and IT operations to build, ship, and run distributed applications anywhere. With Microservices architecture shaping the next generation of IT, enterprises with large investments in monolithic applications are finding ways to adopt Docker as a strategy for modernizing their application architectures and keeping the organization competitive and cost effective. Containerization provides the agility, control, and portability that developers and IT operations require to build and deploy applications across any infrastructure. The Docker platform allows distributed applications to be easily composed into a lightweight application container that can change dynamically yet non-disruptively. This capability makes the applications portable across development, test, and production environments running on physical or virtual machines locally, in data centres, and across the networks of different cloud service providers.
+
+Cisco Unified Computing System (UCS) is a next-generation Datacenter platform that unifies computing, networking, storage access, and virtualization into a single cohesive system, which makes Cisco UCS an ideal platform for Docker Enterprise Edition
+
+In FlexPod with Docker Enterprise Edition, NetApp Docker Volume Plugin (nDVP) provides direct integration with the Docker ecosystem for NetApp's ONTAP, E-Series, and SolidFire storage platforms. The nDVP package supports the provisioning and management of storage resources from the storage platform to Docker hosts, with a robust framework for adding additional platforms in the future.
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_docker_deploy_design.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_docker_deploy_design.html^]
