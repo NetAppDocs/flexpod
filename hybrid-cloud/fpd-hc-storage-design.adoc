@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp Private Storage Design Guide
+= FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp Private Storage - Design Guide
 
 :hardbreaks:
 :nofooter:
@@ -34,4 +34,4 @@ Customers looking to deploy applications using a shared data center infrastructu
 
 Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms with the above characteristics. FlexPod solution delivers an integrated architecture that incorporates compute, storage and network design best practices thereby minimizing IT risks by validating the integrated architecture to ensure compatibility between various components. The solution also addresses IT pain points by providing documented design guidance, deployment guidance and support that can be used in various stages (planning, designing and implementation) of a deployment.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_hybridcloud_design.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_hybridcloud_design.html^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_hybridcloud_design.html[FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp Private Storage - Design Guide^]

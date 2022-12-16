@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: vdi/fpd-citrix-xend-vmw.html
+keywords: 
+summary: 
+---
+
+= FlexPod Datacenter with Citrix XenDesktop/XenApp 7.15 and VMware vSphere 6.5 Update 1 for 6000 Seats
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Vadim Lebedev, Cisco Systems, Inc.
+Chris Rodriguez, NetApp
+
+This document provides a Reference Architecture for a virtual desktop and application design using Citrix XenApp/XenDesktop 7.15 built on Cisco UCS with a NetApp All Flash FAS (AFF) A300 storage and the VMware vSphere ESXi 6.5 hypervisor platform.
+
+The landscape of desktop and application virtualization is changing constantly. The new M5 high-performance Cisco UCS Blade Servers and Cisco UCS Unified Fabric combined as part of the FlexPod proven Infrastructure, with the latest generation NetApp AFF storage result in a more compact, more powerful, more reliable and more efficient platform.
+
+This document provides the architecture and design of a virtual desktop infrastructure for up to 6000 mixed use-case users. The solution virtualized on fifth generation Cisco UCS B200 M5 blade servers, booting VMware vSphere 6.5 Update 1 through FC SAN from the AFF A300 storage array. The virtual desktops are powered using Citrix Provisioning Server 7.15 and Citrix XenApp/XenDesktop 7.15, with a mix of RDS hosted shared desktops (1900), pooled/non-persistent hosted virtual Windows 10 desktops (2050) and persistent hosted virtual Windows 10 desktops provisioned with Citrix Machine Creation Services (2050) to support the user population. Where applicable, the document provides best practice recommendations and sizing guidelines for customer deployments of this solution.
+
+The solution is fully capable of supporting hardware accelerated graphicss workloads. The Cisco UCS B200 M5 server supports up to two NVIDIA P6 cards for high density, high-performance graphics workload support. See our Cisco Graphics White Paper for details about integrating NVIDIA GPU with Citrix XenDesktop.
+
+This solution provides an outstanding virtual desktop end-user experience as measured by the Login VSI 4.1.25.6 Knowledge Worker workload running in benchmark mode, along with the 6000-seat solution providing a large-scale building block that can be replicated to confidently scale-out to tens of thousands of users. 
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/cisco_ucs_xd715esxi65u1_flexpod.html[FlexPod Datacenter with Citrix XenDesktop/XenApp 7.15 and VMware vSphere 6.5 Update 1 for 6000 Seats^]

@@ -20,4 +20,4 @@ This document describes the deployment methodology of Cisco and NetApp FlexPod D
 
 Cisco UCS Manager (UCSM) 4.0(4) provides consolidated support of all current Cisco UCS Fabric Interconnect models (6200, 6300, 6324 and 6454), 2200/2300 series IOM, Cisco UCS B-Series Blade and Cisco UCS C-Series Rack Formfactor servers. FlexPod Datacenter with Cisco UCS unified software release 4.0(4d) and NetApp ONTAP 9.6, is a predesigned, best-practice data center architecture built on the Cisco UCS, the Cisco Nexus 9000 family of switches, and NetApp AFF A-Series storage arrays.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_sap_ontap96.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_sap_ontap96.html^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_sap_ontap96.html[FlexPod Datacenter for SAP Solution with Cisco UCS 3rd Generation Fabric and NetApp AFF A–Series^]
