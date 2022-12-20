@@ -21,4 +21,4 @@ This document describes a FlexPod reference architecture using the latest hardwa
 
 The solution is built on Cisco Unified Computing System (Cisco UCS) using the unified software release 4.1.1c to support the Cisco UCS hardware platforms including Cisco UCS B-Series Blade Servers, Cisco UCS 6400 Fabric Interconnects, Cisco Nexus 9000 Series Switches, and NetApp AFF Series Storage Arrays. 
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/mssql2019_flexpod.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/mssql2019_flexpod.html^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/mssql2019_flexpod.html[FlexPod Datacenter for Microsoft SQL Server 2019 and VMware vSphere 6.7^]
