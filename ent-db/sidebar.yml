@@ -49,7 +49,7 @@ entries:
       - title: FlexPod Datacenter with Oracle 19c RAC Databases on Cisco UCS and NetApp AFF with NVMe over FibreChannel [Deploy]
         url: /ent-db/fpd-oracle-deploy.html
       - title: FlexPod Datacenter with Oracle RAC Databases on Cisco UCS and NetApp AFF A-Series [Design]
-        url: ent-db/fpd-oracle-rac-db.html
+        url: /ent-db/fpd-oracle-rac-db.html
       - title: FlexPod Datacenter with Oracle RAC on Oracle Linux [Deploy]
         url: /ent-db/fpd-oracle-rac-linux.html
       - title: FlexPod Datacenter with Oracle RAC Databases on Cisco UCS and NetApp AFF A-Series
