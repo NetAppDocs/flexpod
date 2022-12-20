@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: hybrid-cloud/fpd-hc-storage-design.html
+permalink: hybrid-cloud/multi-cloud-deploy.html
 keywords: 
 summary: 
 ---
