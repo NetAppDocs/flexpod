@@ -28,7 +28,7 @@ The recommended solution architecture is built on the Cisco Unified Computing Sy
 
 * Cisco Nexus 9000 Series switches
 
-NetApp All Flash series storage arrays
+* NetApp All Flash series storage arrays
 
 In addition, this guide provides validations for both Red Hat Enterprise Linux and SUSE Linux Enterprise Server for SAP HANA.
 

@@ -13,7 +13,8 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Pramod Ramamurthy, Cisco Systems, Inc.
+Shailendra Mruthunjaya, Cisco Systems, Inc.
+Ralf Klahr, Cisco Systems, Inc.
 Marco Schoen, NetApp
 
 This document describes the deployment methodology of Cisco and NetApp FlexPod Datacenter for SAP HANA based on 2nd Generation Intel Xeon Scalable Processors supported Cisco UCS Computing System (Cisco UCS).
