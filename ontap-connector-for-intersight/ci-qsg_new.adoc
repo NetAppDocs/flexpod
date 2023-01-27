@@ -88,7 +88,7 @@ NOTE: To ensure compatibility and complete functionality with future releases, i
 +
 NOTE: The above performance metrics are only available for storage arrays monitored through NetApp Active IQ Unified Manager 9.9 or above.
 
-= Known Issues
+== Known Issues
 * If you are using a version of AIQUM 9.11 or earlier, a discrepancy will occur between the displayed values on the Storage List page and capacity bar chart on the Storage general page. To resolve this issue, upgrade to AIQUM 9.12 or greater to ensure the accuracy of the displayed capacity values. 
 * To ensure Intersight storage inventory data is unaffected during the data collection process, any unsupported ONTAP clusters (i.e., ONTAP 9.7P1) must be removed from the Active IQ Unified Manager (AIQUM).
 * All claimed targets require a minimum AIQUM version of 9.11 for FlexPod Integrated System Interoperability queries to complete successfully.
