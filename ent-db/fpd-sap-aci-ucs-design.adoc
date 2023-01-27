@@ -16,9 +16,7 @@ summary:
 Pramod Ramamurthy, Cisco Systems, Inc.
 Marco Schoen, NetApp
 
-Cisco Validated Designs include systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. These designs incorporate a wide range of technologies and products into a portfolio of solutions that have been developed to address the business needs of customers. Cisco and NetApp have partnered to deliver FlexPod, which serves as the foundation for a variety of workloads and enables efficient architectural designs that are based on customer requirements. A FlexPod solution is a validated approach for deploying Cisco and NetApp technologies as a shared infrastructure.
-
-This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute and switching products that leverage Cisco Application Centric Infrastructure [ACI] - the industry-leading software-defined networking solution (SDN) along with NetApp® A-series AFF arrays. The intent of this document is to show the design principles with the detailed configuration steps for SAP HANA deployment.
+This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute and switching products that leverage Cisco Application Centric Infrastructure [ACI] - the industry-leading software-defined networking solution (SDN) along with NetApp A-series AFF arrays. The intent of this document is to show the design principles with the detailed configuration steps for SAP HANA deployment.
 
 The intended audience for this document includes, but is not limited to, sales engineers, field consultants, professional services, IT managers, partner engineering, and customers deploying the FlexPod Datacenter Solution for SAP HANA with NetApp clustered Data ONTAP. External references are provided wherever applicable, but readers are expected to be familiar with the technology, infrastructure, and database security policies of the customer installation.
 

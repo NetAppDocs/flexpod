@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= 3D Graphics Visualization with Citrix and NVIDIA - White paper
+= 3D graphics visualization with Citrix and NVIDIA - White paper
 
 :hardbreaks:
 :nofooter:

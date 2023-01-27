@@ -16,8 +16,6 @@ summary:
 Pramod Ramamurthy, Cisco Systems, Inc.
 Marco Schoen, NetApp
 
-Cisco Validated Designs (CVDs) include systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. These designs incorporate a wide range of technologies and products into a portfolio of solutions that have been developed to address the business needs of customers. Cisco and NetApp have partnered to deliver FlexPod, which serves as the foundation for a variety of workloads and enables efficient architectural designs that are based on customer requirements. A FlexPod solution is a validated approach for deploying Cisco and NetApp technologies as a shared infrastructure.
-
 This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute based on 2nd Generation Intel Xeon Scalable Processors supported Cisco UCS Computing System (Cisco UCS) and switching products that leverage Cisco Application Centric Infrastructure [ACI] along with NetApp A-series AFF arrays. The intent of this document is to show the detailed configuration steps for SAP HANA deployment.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_ACI_sap_netappaffa.html[FlexPod Datacenter for SAP with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series^]

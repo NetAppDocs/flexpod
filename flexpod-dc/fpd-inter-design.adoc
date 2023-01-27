@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter with Cisco Intersight and NetApp ONTAP 9.7 - Design Guide
+= FlexPod Datacenter with Cisco Intersight and NetApp ONTAP 9.7 - Design
 
 :hardbreaks:
 :nofooter:
@@ -20,4 +20,4 @@ This document describes the Cisco and NetApp  solution, which is a validated app
 
 FlexPod is a leading integrated infrastructure supporting a broad range of enterprise workloads and use cases. This solution enables customers to quickly and reliably deploy VMware vSphere based private cloud on integrated infrastructure.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_dc_ontap_97_ucs_4_vmw_vs_67_U3_design.html[FlexPod Datacenter with Cisco Intersight and NetApp ONTAP 9.7 - Design Guide^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_dc_ontap_97_ucs_4_vmw_vs_67_U3_design.html[FlexPod Datacenter with Cisco Intersight and NetApp ONTAP 9.7 - Design^]

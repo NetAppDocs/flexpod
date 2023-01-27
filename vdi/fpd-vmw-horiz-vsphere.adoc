@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter with VMware Horizon View 7.3 and VMware vSphere 6.5 Update 1 with Cisco UCS Manager 3.2 for 5000 Seats
+= FlexPod Datacenter with VMware Horizon View 7.3 and VMware vSphere 6.5 Update 1 with Cisco UCS Manager 3.2 for 5000 seats
 
 :hardbreaks:
 :nofooter:
@@ -16,16 +16,6 @@ summary:
 Ramesh Guduru, Cisco Systems, Inc.
 David Arnette, NetApp 
 
-This document provides a reference architecture, design guide, and deployment for up to  a 5000 seat mixed workload end user computing environment on FlexPod Datacenter with Cisco UCS and  NetApp All Flash FAS (AFF) A300 storage. The solution includes VMware Horizon server-based Remote Desktop Sever Hosted sessions, VMware Horizon persistent Microsoft Windows 10 virtual desktops and VMware Horizon non-persistent Microsoft Windows 10 instant clone virtual desktops on VMware vSphere 6.5.
+This document provides a reference architecture, design guide, and deployment for up to a 5000 seat mixed workload end user computing environment on FlexPod Datacenter with Cisco UCS and NetApp All Flash FAS (AFF) A300 storage. The solution includes VMware Horizon server-based Remote Desktop Sever Hosted sessions, VMware Horizon persistent Microsoft Windows 10 virtual desktops and VMware Horizon non-persistent Microsoft Windows 10 instant clone virtual desktops on VMware vSphere 6.5.
 
-The solution is a predesigned, best-practice data center architecture built on the FlexPod reference architecture. The FlexPod Datacenter used in this validation includes Cisco Unified Computing System (UCS), the Cisco Nexus 9000 family of switches, Cisco MDS 9000 family of Fibre Channel (FC) switches and a NetApp AFF A300 system.
-
-This solution is 100 percent virtualized on fifth generation Cisco UCS B200 M5 blade servers, booting VMware vSphere 6.5 Update 1 through FC SAN from the AFF A300 storage array. The virtual desktop sessions are powered by VMware Horizon 7. VMware Horizon Remote Desktop Server Hosted Sessions (1680 RDS Server sessions) and 1660 VMware Horizon Instant and 1660 Full Clones Window 10 desktops (3320 virtual desktops) were provisioned on the AFF A300 storage array. Where applicable the document provides best practice recommendations and sizing guidelines for customer deployment of this solution.
-
-This solution delivers the design 5000 user payload with five fewer blade servers than previous 5000 seat solutions on fourth generation Cisco UCS Blade Servers making it more efficient and cost effective in the data center.
-
-The solution provides outstanding virtual desktop end user experience as measured by the Login VSI 4.1.25.6 Knowledge Worker workload running in benchmark mode.
-
-The 5000-seat solution provides a large-scale building block that can be replicated to confidently scale-out to tens of thousands of users.
-
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vmware_horizon_n9k_aff_ucsm32.html[FlexPod Datacenter with VMware Horizon View 7.3 and VMware vSphere 6.5 Update 1 with Cisco UCS Manager 3.2 for 5000 Seat^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vmware_horizon_n9k_aff_ucsm32.html[FlexPod Datacenter with VMware Horizon View 7.3 and VMware vSphere 6.5 Update 1 with Cisco UCS Manager 3.2 for 5000 seats^]

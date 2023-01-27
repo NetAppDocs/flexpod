@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter with VMware Horizon View 7.10, VMware vSphere 6.7 U2, Cisco UCS Manager 4.0, and NetApp ONTAP 9.6 for up to 6700 Seats
+= FlexPod Datacenter with VMware Horizon View 7.10, VMware vSphere 6.7 U2, Cisco UCS Manager 4.0, and NetApp ONTAP 9.6 for up to 6700 seats
 
 :hardbreaks:
 :nofooter:
@@ -16,10 +16,6 @@ summary:
 Vadim Lebedev, Cisco Systems, Inc
 Suresh Thoppay, NetApp
 
-This document provides a Reference Architecture for a virtual desktop and application design using Citrix RDS/Citrix Virtual Apps & Desktops 1912 LTSR built on Cisco UCS with a NetApp All Flash FAS (AFF) A400 storage and the VMware vSphere ESXi 7.01 hypervisor platform.
+This document provides a reference architecture and design guide for a 5000 to 6000 seat desktop workload end user computing environment on FlexPod Datacenter with Cisco UCS and NetApp AFF A300 and NetApp ONTAP data management software. The solution includes VMware Horizon server-based RDS Windows Sever 2019 sessions, VMware Horizon persistent full clone Microsoft Windows 10 virtual desktops and VMware Horizon non-persistent instant-clone Microsoft Windows 10 virtual desktops on VMware vSphere 6.7U2
 
-The landscape of desktop and application virtualization is changing constantly. The new M5 high-performance Cisco UCS Blade Servers and Cisco UCS unified fabric combined as part of the FlexPod Proven Infrastructure with the latest generation NetApp AFF storage result in a more compact, more powerful, more reliable, and more efficient platform.
-
-This document provides the architecture and design of a virtual desktop infrastructure for up to 6000 End User Compute users. The solution virtualized on fifth generation Cisco UCS B200 M5 blade servers, booting VMware vSphere 7.01 Update 1 through FC SAN from the AFF A400 storage array. The virtual desktops are powered using Citrix Provisioning Server 1912 LTSR and Citrix RDS/Citrix Virtual Apps & Desktops 1912 LTSR, with a mix of RDS hosted shared desktops (6000), pooled/non-persistent hosted virtual Windows 10 desktops (5000) and persistent hosted virtual Windows 10 desktops provisioned with Citrix Machine Creation Services (5000) to support the user population. Where applicable, the document provides best practice recommendations and sizing guidelines for customer deployments of this solution.
-
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_ontap96_vmware710_67_u2_ucs_40_6700_seats.html[FlexPod Datacenter with VMware Horizon View 7.10, VMware vSphere 6.7 U2, Cisco UCS Manager 4.0, and NetApp ONTAP 9.6 for up to 6700 Seats^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_ontap96_vmware710_67_u2_ucs_40_6700_seats.html[FlexPod Datacenter with VMware Horizon View 7.10, VMware vSphere 6.7 U2, Cisco UCS Manager 4.0, and NetApp ONTAP 9.6 for up to 6700 seats^]

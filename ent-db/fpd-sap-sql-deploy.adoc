@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= Deploy SAP Application Servers on FlexPod with SQL
+= Deploy SAP application servers on FlexPod with SQL
 
 :hardbreaks:
 :nofooter:
@@ -13,8 +13,6 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-The current IT industry is witnessing a dramatic transformation in data center solutions. In recent years, there has been a considerable interest in prevalidated and engineered data center solutions. Introduction of virtualization technology in critical areas has had a major impact on the design principles and architecture of these solutions. It has allowed many applications running on bare-metal systems to migrate to new virtualized integrated solutions.
+FlexPod is one such pre-validated and engineered data center solution designed to address the rapidly changing needs of IT departments. Cisco and NetApp have partnered to deliver FlexPod, which uses bestin-class computing, networking, and storage components as the foundation for a variety of enterprise workloads, including databases, enterprise resource planning (ERP), customer relationship management (CRM), and web applications. The consolidation of IT applications, particularly databases, has generated considerable interest in recent years. The most widely adopted and deployed database platform over the past several years is Microsoft SQL Server. SQL Server databases frequently have become subject to database sprawl, leading to IT challenges such as underutilized servers, incorrect licensing, security concerns, management concerns, and huge operational costs. Hence, SQL Server databases are good candidates for consolidation on a more robust, flexible, and resilient platform. This document discusses a FlexPod reference architecture for deploying and consolidating SQL Server databases.
 
-FlexPod is one such prevalidated and engineered data center solution designed to address the rapidly changing needs of IT departments. Cisco and NetApp have partnered to deliver FlexPod, which uses bestin-class computing, networking, and storage components as the foundation for a variety of enterprise workloads, including databases, enterprise resource planning (ERP), customer relationship management (CRM), and web applications. The consolidation of IT applications, particularly databases, has generated considerable interest in recent years. The most widely adopted and deployed database platform over the past several years is Microsoft SQL Server. SQL Server databases frequently have become subject to database sprawl, leading to IT challenges such as underutilized servers, incorrect licensing, security concerns, management concerns, and huge operational costs. Hence, SQL Server databases are good candidates for consolidation on a more robust, flexible, and resilient platform. This document discusses a FlexPod reference architecture for deploying and consolidating SQL Server databases.
-
-link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/sap-appservers-flexpod-with-sql.pdf[Deploy SAP Application Servers on FlexPod with SQL^]
+link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/sap-appservers-flexpod-with-sql.pdf[Deploy SAP application servers on FlexPod with SQL^]

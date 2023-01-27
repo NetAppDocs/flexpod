@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning - Design Guide
+= FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for deep learning - Design Guide
 
 :hardbreaks:
 :nofooter:
@@ -16,8 +16,6 @@ summary:
 Haseeb Niazi, Cisco Systems, Inc.
 Arvind Ramakrishnan, NetApp, Inc
 
-Artificial Intelligence (AI) and Machine Learning (ML) initiatives have seen a tremendous growth due to the recent advances in GPU computing technology and Deep learning (DL) and ML techniques offer the potential for unparalleled access to accelerated insights. With the capability to learn from data and make informed and faster decisions, an organization is better positioned to deliver innovative products and services in an increasingly competitive marketplace. ML and AI help organizations make new discoveries, analyze patterns, detect fraud, improve customer relationships, automate processes, and optimize supply chains for unique business advantages. Designing, configuring and maintaining a reliable infrastructure to satisfy the compute, network and storage requirements for these initiatives is the top of mind for all major customers and their IT departments. However, due to intense and rather unique network, storage and processing requirements of the AI/ML workloads, the successful integration of these new platforms into customer environments requires a lot of time and expertise.
-
 This document is intended to provide design details around the integration of the Cisco UCS C480 ML M5 platform into the FlexPod datacenter solution to deliver a unified approach for providing AI and ML capabilities within the converged infrastructure. By providing customers the ability to manage the AI/ML servers with the familiar tools they use to administer traditional FlexPod systems, the administrative overhead as well as the cost of deploying deep learning platform is greatly reduced. The design presented in this CVD also includes other Cisco UCS platforms such as C220 M5 server with 2 NVIDIA T4 GPUs and C240 M5 server equipped with 2 NVIDIA V100 32GB PCIe cards as additional options for AI/ML workloads.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html[FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning - Design Guide^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html[FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning - Design^]

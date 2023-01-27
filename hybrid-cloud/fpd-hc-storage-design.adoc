@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp Private Storage - Design Guide
+= FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp private storage - Design 
 
 :hardbreaks:
 :nofooter:
@@ -18,20 +18,4 @@ David Arnette, NetApp
 
 Cisco Validated Designs (CVDs) deliver systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. These designs incorporate a wide range of technologies and products into a portfolio of solutions that have been developed to address the business needs of the customers and to guide them from design to deployment.
 
-Customers looking to deploy applications using a shared data center infrastructure face a number of challenges. A recurrent infrastructure challenge is to achieve the required levels of IT agility and efficiency that can effectively meet the company’s business objectives. Addressing these challenges requires having an optimal solution with the following key characteristics:
-
-* Availability: Help ensure applications and services availability at all times with no single point of failure
-
-* Flexibility: Ability to support new services without requiring underlying infrastructure modifications
-
-* Efficiency: Facilitate efficient operation of the infrastructure through re-usable policies
-
-* Manageability: Ease of deployment and ongoing management to minimize operating costs
-
-* Scalability: Ability to expand and grow with significant investment protection
-
-* Compatibility: Minimize risk by ensuring compatibility of integrated components
-
-Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms with the above characteristics. FlexPod solution delivers an integrated architecture that incorporates compute, storage and network design best practices thereby minimizing IT risks by validating the integrated architecture to ensure compatibility between various components. The solution also addresses IT pain points by providing documented design guidance, deployment guidance and support that can be used in various stages (planning, designing and implementation) of a deployment.
-
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_hybridcloud_design.html[FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp Private Storage - Design Guide^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_hybridcloud_design.html[FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp private storage - Design^]

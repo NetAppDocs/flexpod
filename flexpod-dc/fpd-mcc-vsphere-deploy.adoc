@@ -19,18 +19,4 @@ Arvind Ramakrishnan, NetApp
 
 Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms with the above characteristics. FlexPod solution delivers an integrated architecture that incorporates compute, storage, and network design best practices thereby minimizing IT risks by validating the integrated architecture to ensure compatibility between various components. The solution also addresses IT pain points by providing documented design guidance, deployment guidance and support that can be used in various stages (planning, designing and implementation) of a deployment.
 
-FlexPod Datacenter with Cisco ACI Multi-Pod, NetApp MetroCluster IP CVD delivers a FlexPod Datacenter solution to provide a highly available multi-datacenter environment. The multi-datacenter architecture offers the ability to balance workloads between two datacenters utilizing non-disruptive workload mobility thereby enabling migration of services between sites without the need for sustaining an outage.
-
-The FlexPod with ACI Multi-Pod and NetApp MetroCluster IP solution showcases:
-
-* Seamless workload mobility across Data Centers
-
-* Consistent policies across the sites
-
-* Layer-2 extension across geographically dispersed DCs
-
-* Enhanced downtime avoidance during maintenance
-
-* Disaster avoidance and recovery
-
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_esxi67_n9k_aci_metrocluster.html[FlexPod Datacenter with Cisco ACI Multi-Pod with NetApp MetroCluster IP and VMware vSphere 6.7^]

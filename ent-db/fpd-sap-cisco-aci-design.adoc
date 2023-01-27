@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for SAP Solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series - Design Guide
+= FlexPod Datacenter for SAP Solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series - Design 
 
 :hardbreaks:
 :nofooter:
@@ -16,9 +16,7 @@ summary:
 Pramod Ramamurthy, Cisco Systems, Inc.
 Marco Schoen, NetApp
 
-Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms. FlexPod solution delivers an integrated architecture that incorporates compute, storage, and network design best practices thereby minimizing IT risks by validating the integrated architecture to ensure compatibility between various components. The solution also addresses IT pain points by providing documented design guidance, deployment guidance and support that can be used in various stages (planning, designing and implementation) of a deployment.
-
-This document describes Cisco ACI integrated FlexPod® solution as a validated approach for deploying SAP HANA® Tailored Data Center Integration (TDI) environments. This validated design provides guidelines and a framework for implementing SAP HANA with best practices from Cisco and NetApp.
+This document describes Cisco ACI integrated FlexPod solution as a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI)environments. This validated design provides guidelines and a framework for implementing SAP HANA with best practices from Cisco and NetApp.
 
 The recommended solution architecture is built on the Cisco Unified Computing System (Cisco UCS) using a unified software release to support Cisco UCS hardware platforms that include the following components:
 
