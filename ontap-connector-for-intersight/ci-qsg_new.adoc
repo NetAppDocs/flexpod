@@ -14,6 +14,12 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== January 2023 
+NOTE: An upgrade to NetApp Active IQ Unified Manager 9.12 GA is required to ensure compatibility and full functionality with the latest release. For a list of known issues related to this release, see <<Known Issues>>.
+
+* Intersight interoperability checks can now distinguish between UCSM and IMM firmware modes when carrying out compatibility checks.
+* Protection Relationships will not display in Intersight for ONTAP 9.7. This issue was fixed in ONTAP 9.8RC1.
+
 == August 2022
 NOTE: An upgrade to NetApp Active IQ Unified Manager 9.11 GA is required to ensure compatibility and full functionality with the latest release. For a list of known issues related to this release, see <<Known Issues>>.
 
@@ -82,7 +88,9 @@ NOTE: To ensure compatibility and complete functionality with future releases, i
 +
 NOTE: The above performance metrics are only available for storage arrays monitored through NetApp Active IQ Unified Manager 9.9 or above.
 
-= Known Issues
-* To ensure Intersight storage inventory data is unaffected during the data collection process, any unsupported ONTAP clusters (i.e., ONTAP 9.7P1) must be removed from the Active IQ Unified Manager (AIQUM).
+== Known Issues
+* If you are using a version of AIQUM 9.11 or earlier, a discrepancy will occur between the displayed values on the Storage List page and capacity bar chart on the Storage general page. To resolve this issue, upgrade to AIQUM 9.12 or greater to ensure the accuracy of the displayed capacity values. 
+* If you are using AIQUM 9.11 or earlier, any checks performed by the "Interoperability" tab under the "Integrated Systems" page will fail to distinguish IMM and UCSM Cisco components accurately. To resolve this issue, upgrade to AIQUM 9.12 to ensure all components are properly identified.
+* To ensure Intersight storage inventory data is unaffected during the data collection process, any unsupported ONTAP clusters (i.e., versions below ONTAP 9.7P1) must be removed from the Active IQ Unified Manager (AIQUM).
 * All claimed targets require a minimum AIQUM version of 9.11 for FlexPod Integrated System Interoperability queries to complete successfully.
 * The Storage Inventory Checks page will not populate if the ONTAP cluster is added to AIQ-UM using an FQDN. Users must add ONTAP clusters to AIQ-UM using an IP address.  
