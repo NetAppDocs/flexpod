@@ -13,7 +13,7 @@ summary: AIQ UM with proxy server configurations require setup through the CLI t
 :imagesdir: ./../media/
 
 [.lead]
-If you are using a proxy server with AIQ UM for Cisco Intersight with NetApp ONTAP storage, you must configure the setup through the command line interface (CLI) to utilize the interoperability matrix tool service (IMT). The IMT service is available under the "Interoperability" tab of the "Integrated Systems" page. You must use the Active IQ Unified Manager Virtual Machine (OVA) Diag shell to configure the AIQ UM proxy server settings.
+If you are using a proxy server with AIQ UM for Cisco Intersight with NetApp ONTAP storage, you must configure the setup through the command line interface (CLI) to utilize the interoperability matrix tool service (IMT). The IMT service is available under the *Interoperability* tab of the *Integrated Systems* page. You must use the Active IQ Unified Manager Virtual Machine (OVA) Diag shell to configure the AIQ UM proxy server settings.
 
 [NOTE]
 For information on how to access the AIQ UM Diag shell, see https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_access_Active_IQ_Unified_Manager_Virtual_Machine_OVA_DIAG_shell[How to access Active IQ Unified Manager Virtual Machine (OVA) DIAG shell]
