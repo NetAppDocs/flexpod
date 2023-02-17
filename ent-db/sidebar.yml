@@ -45,7 +45,7 @@ entries:
       - title: FlexPod Datacenter with Oracle RAC on Oracle Linux [Deploy]
         url: /ent-db/fpd-oracle-rac-linux.html
       - title: FlexPod Datacenter with Oracle RAC Databases on Cisco UCS and NetApp AFF A-Series
-        url: /ent-db/fpd-oracle-rac-aseries.html
+        url: /ent-db/fpd-oracle-rac-aseries.html 
 #
   - title: Microsoft SQL Server
     entries:
