@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Data Center with Oracle RAC on Oracle Linux
+= FlexPod Datacenter with Oracle RAC on Oracle Linux
 
 :hardbreaks:
 :nofooter:
@@ -31,4 +31,4 @@ FlexPod embraces the latest technology and efficiently simplifies the data cente
 
 * Meet or exceed constantly expanding hardware performance demands for data center workloads.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orcrac_12c_bm.html[FlexPod Data Center with Oracle RAC on Oracle Linux^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orcrac_12c_bm.html[FlexPod Datacenter with Oracle RAC on Oracle Linux^]

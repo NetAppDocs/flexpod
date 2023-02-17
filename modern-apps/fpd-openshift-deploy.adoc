@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for OpenShift Container Platform 4 - Deployment guide
+= FlexPod Datacenter for OpenShift Container Platform 4 - Deployment
 
 :hardbreaks:
 :nofooter:
@@ -20,4 +20,4 @@ Red Hat OpenShift is an enterprise ready Kubernetes container platform to manage
 
 Combining Red Hat OpenShift with FlexPod Datacenter solution can simplify the deployment and the management of the container infrastructure. Customers can benefit from improved efficiency, better data protection, lower risk, and the flexibility to scale this highly available enterprise-grade infrastructure stack to accommodate new business requirements. The pre-validated converged solution approach helps organizations achieve the speed, flexibility, and scale required for all of their application modernization and digital transformation initiatives.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_openshift_platform_4.html[FlexPod Datacenter for OpenShift Container Platform 4 - Deployment guide^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_openshift_platform_4.html[FlexPod Datacenter for OpenShift Container Platform 4 - Deployment^]

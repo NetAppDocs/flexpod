@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for SAP Solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series Design 
+= FlexPod Datacenter for SAP solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series design 
 
 :hardbreaks:
 :nofooter:
@@ -30,4 +30,4 @@ The recommended solution architecture is built on the Cisco Unified Computing Sy
 
 Additionally, this guide provides validations for both Red Hat Enterprise Linux and SUSE Linux Enterprise Server for SAP HANA.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_ACI_sap_netappaffa_design.html[FlexPod Datacenter for SAP Solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series Design^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_ACI_sap_netappaffa_design.html[FlexPod Datacenter for SAP solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series design^]

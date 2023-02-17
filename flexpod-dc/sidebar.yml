@@ -43,8 +43,6 @@ entries:
     url: /flexpod-dc/fpd-cisco-vsphere-design.html
   - title: FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS 4th Generation, and NetApp AFF A-Series - Deploy
     url: /flexpod-dc/fpd-cisco-vsphere-deploy.html
-  - title: Introducing End-to-End NVMe for FlexPod
-    url: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/whitepaper-c11-741907.html
   - title: FlexPod Datacenter with Cisco ACI Multi-Pod, NetApp MetroCluster IP, and VMware vSphere 6.7 Design guide
     url: /flexpod-dc/fpd-mcc-vsphere-design.html
   - title: FlexPod Datacenter with Cisco ACI Multi-Pod, NetApp MetroCluster IP, and VMware vSphere 6.7 Deployment guide

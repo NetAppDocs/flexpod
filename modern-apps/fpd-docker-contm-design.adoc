@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter with Docker Enterprise Edition for Container Management 
+= FlexPod Datacenter with Docker Enterprise Edition for Container management 
 
 :hardbreaks:
 :nofooter:
