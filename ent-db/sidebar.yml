@@ -19,7 +19,7 @@ entries:
         url: /ent-db/fpd-sap-cisco-aci-deploy.html
       - title: FlexPod Datacenter for SAP Solution with Cisco UCS Manager 4.0 and NetApp AFF A with ONTAP 9.6 (CVD) [Design]
         url: /ent-db/fpd-sap-afa-design.html
-      - title: FlexPod Datacenter for SAP Solution with Cisco UCS Manager 3.2 and Cisco Application Centric Infrastructure (ACI) [Design]
+      - title: FlexPod Datacenter for SAP solution with Cisco ACI on Cisco UCS M5 servers with SLES 12 SP3 and RHEL 7.4 
         url: /ent-db/fpd-sap-aci-ucs-design.html
       - title: FlexPod Datacenter for SAP Solution with IP-Based Storage using NetApp AFF A-Series and Cisco UCS Manager 3.2
         url: /ent-db/fpd-sap-ipstor.html
