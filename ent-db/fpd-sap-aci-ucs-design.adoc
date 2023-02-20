@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for SAP solution with Cisco ACI on Cisco UCS M5 servers with SLES 12 SP3 and RHEL 7.4
+= FlexPod Datacenter for SAP solution with Cisco ACI on Cisco UCS M5 servers with SLES 12 SP3 and RHEL 7.4 
 
 :hardbreaks:
 :nofooter:
