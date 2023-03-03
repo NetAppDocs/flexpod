@@ -5,7 +5,7 @@ keywords:
 summary: 
 ---
 
-= FlexPod Datacenter for SAP solution with Cisco UCS Manager 4.0 and NetApp AFF A–Series - Design Guide
+= FlexPod Datacenter for SAP solution with Cisco UCS Manager 4.0 and NetApp AFF A–Series - Design
 
 :hardbreaks:
 :nofooter:
@@ -18,11 +18,11 @@ Marco Schoen, NetApp
 
 This document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments. This validated design provides guidelines and a framework for implementing SAP HANA with best practices from Cisco and NetApp.
 
-FlexPod is a leading integrated infrastructure that supports a broad range of enterprise workloads and use cases. This solution allows you to quickly and reliably deploy SAP HANA with a model of tailored datacenter integration mode.
+FlexPod is a leading integrated infrastructure that supports a broad range of enterprise workloads and use cases. This solution allows you to quickly and reliably deploy SAP HANA with a model of a tailored datacenter integration mode.
 
 The recommended solution architecture is built on the Cisco Unified Computing System (Cisco UCS) using a unified software release to support Cisco UCS hardware platforms that include the following components:
 
-* Cisco UCS B-Series blade servers and Cisco UCS C-Series rack servers configurable with Intel Optane Data Center Persistent Memory Module (DCPMM) option
+* Cisco UCS B-Series blade servers, and Cisco UCS C-Series rack servers configurable with Intel Optane Data Center Persistent Memory Module (DCPMM) option
 
 * Cisco UCS 6300 series Fabric Interconnects
 
@@ -30,6 +30,6 @@ The recommended solution architecture is built on the Cisco Unified Computing Sy
 
 * NetApp All Flash series storage arrays
 
-In addition, this guide provides validations for both Red Hat Enterprise Linux and SUSE Linux Enterprise Server for SAP HANA.
+In addition, this document provides validations for both Red Hat Enterprise Linux and SUSE Linux Enterprise Server for SAP HANA.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_sap_netappaffa_design.html[FlexPod Datacenter for SAP solution with Cisco UCS Manager 4.0 and NetApp AFF A–Series - Design^]

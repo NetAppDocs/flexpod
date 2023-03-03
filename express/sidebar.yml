@@ -148,5 +148,5 @@ entries:
       - title: Additional Information
         url: /express/express-direct-attach-aff220-deploy_additional_information.html
 
-  - title: FlexPod Express for VMware vSphere 7.0 with Cisco UCS Mini and NetApp AFF / FAS (NVA)
+  - title: FlexPod Express for VMware vSphere 7.0 with Cisco UCS Mini and NetApp AFF/FAS (NVA)
     url: /express/express-nva-1154-deploy.html

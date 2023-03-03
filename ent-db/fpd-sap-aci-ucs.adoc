@@ -16,6 +16,10 @@ summary:
 Pramod Ramamurthy, Cisco Systems, Inc.
 Marco Schoen, NetApp
 
-This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute based on 2nd Generation Intel Xeon Scalable Processors supported Cisco UCS Computing System (Cisco UCS) and switching products that leverage Cisco Application Centric Infrastructure [ACI] along with NetApp A-series AFF arrays. The intent of this document is to show the detailed configuration steps for SAP HANA deployment.
+This document describes the architecture and deployment procedures for the SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure, which is composed of:
+
+* Cisco UCS Computing System (Cisco UCS) supported by second-generation Intel Xeon Scalable Processors.
+* Switching products that leverage Cisco Application Centric Infrastructure (ACI).
+* NetApp A-series AFF arrays.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_ACI_sap_netappaffa.html[FlexPod Datacenter for SAP with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series^]

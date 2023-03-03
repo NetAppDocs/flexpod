@@ -16,7 +16,7 @@ summary:
 Pramod Ramamurthy, Cisco Systems, Inc.
 Marco Schoen, NetApp
 
-This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.7 on NetApp AFF A400 storage, Cisco UCS Manager unified software release 4.1(1) with 2nd Generation Intel Xeon Scalable Processors for SAP HANA in particular.
+This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.7 on NetApp AFF A400 storage and Cisco UCS Manager unified software release 4.1(1) with second-generation Intel Xeon Scalable Processors for SAP HANA in particular.
 
 FlexPod Datacenter with NetApp ONTAP 9.7 and Cisco UCS unified software release 4.1(1) is a pre-designed, best-practice datacenter architecture built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus 9000 family of switches, MDS 9000 multilayer fabric switches, and NetApp AFF A-Series storage arrays running ONTAP 9.7 storage OS.
 

@@ -17,7 +17,7 @@ Gopu Narasimha Reddy, Cisco Systems, Inc.
 Sanjeev Naldurgkar, Cisco Systems, Inc.
 Atul Bhalodia, NetApp
 
-This document discusses a FlexPod reference architecture using the latest hardware and software products and provides deployment recommendations for hosting Microsoft SQL Server databases in VMware ESXi and Microsoft Windows Hyper-V virtualized environments, with Linux support enablement from Microsoft for SQL Server deployment.
+This document discusses a FlexPod reference architecture using the latest hardware and software products and provides deployment recommendations for hosting Microsoft SQL Server databases in VMware ESXi and Microsoft Windows Hyper-V virtualized environments with Linux support enablement from Microsoft for SQL Server deployment.
 
 The recommended solution architecture is built on Cisco Unified Computing System (Cisco UCS) using the unified software release 4.0.1c to support the Cisco UCS hardware platforms including Cisco UCS B-Series Blade Servers, Cisco UCS 6300 Fabric Interconnects, Cisco Nexus 9000 Series Switches, and NetApp AFF Series Storage Arrays.
 

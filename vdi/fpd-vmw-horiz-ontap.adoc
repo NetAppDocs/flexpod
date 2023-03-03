@@ -16,6 +16,6 @@ summary:
 Vadim Lebedev, Cisco Systems, Inc.
 Suresh Thoppay, NetApp
 
-This document provides a reference architecture and design guide for a 5000 to 6000 seat desktop workload end user computing environment on FlexPod Datacenter with Cisco UCS and NetApp AFF A300 and NetApp ONTAP data management software. The solution includes VMware Horizon server-based RDS Windows Sever 2019 sessions, VMware Horizon persistent full clone Microsoft Windows 10 virtual desktops and VMware Horizon non-persistent instant-clone Microsoft Windows 10 virtual desktops on VMware vSphere 6.7 U2.
+This document provides a reference architecture and design guide for a 5000-seat to 6000-seat desktop workload end-user computing environment on FlexPod Datacenter with Cisco UCS and NetApp AFF A300 and NetApp ONTAP data management software. The solution includes VMware Horizon server-based RDS Windows Server 2019 sessions, VMware Horizon persistent, full clone Microsoft Windows 10 virtual desktops, and VMware Horizon non-persistent, instant-clone Microsoft Windows 10 virtual desktops on VMware vSphere 6.7 U2.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_ontap96_vmware710_67_u2_ucs_40_6700_seats.html[FlexPod Datacenter with VMware Horizon View 7.10, VMware vSphere 6.7 U2, Cisco UCS Manager 4.0, and NetApp ONTAP 9.6 for up to 6700 seats^]

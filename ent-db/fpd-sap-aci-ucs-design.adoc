@@ -16,7 +16,7 @@ summary:
 Pramod Ramamurthy, Cisco Systems, Inc.
 Marco Schoen, NetApp
 
-This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute and switching products that leverage Cisco Application Centric Infrastructure [ACI] - the industry-leading software-defined networking solution (SDN) along with NetApp A-series AFF arrays. The intent of this document is to show the design principles with the detailed configuration steps for SAP HANA deployment.
+This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute and switching products that leverage Cisco Application Centric Infrastructure (ACI) - the industry-leading software-defined networking solution (SDN) -- along with NetApp A-series AFF arrays. The intent of this document is to show the design principles with the detailed configuration steps for SAP HANA deployment.
 
 The intended audience for this document includes, but is not limited to, sales engineers, field consultants, professional services, IT managers, partner engineering, and customers deploying the FlexPod Datacenter Solution for SAP HANA with NetApp clustered Data ONTAP. External references are provided wherever applicable, but readers are expected to be familiar with the technology, infrastructure, and database security policies of the customer installation.
 
