@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-aci-aseries-design.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, SAP, ACI, UCS manager, AFF A-Series, TDI, SAP, HANA
+summary: "This document describes Cisco ACI integrated FlexPod solution as a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments."
 ---
 
 = FlexPod Datacenter for SAP solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series - Design 
@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Pramod Ramamurthy, Cisco Systems, Inc.
+Pramod Ramamurthy, Cisco 
 Marco Schoen, NetApp
 
 This document describes Cisco ACI integrated FlexPod solution as a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments. This validated design provides guidelines and a framework for implementing SAP HANA with best practices from Cisco and NetApp.

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: vdi/fpd-citrix-vir.html
 keywords: 
-summary: 
+summary: "This document provides the architecture and design of a virtual desktop infrastructure for up to 6000 end-user computing users."
 ---
 
 = FlexPod Datacenter with Citrix Virtual Apps & Desktops 1912 LTSR and VMware vSphere 7 for up to 6000 seats
@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Jeff Nichols, Cisco Systems, Inc.
+Jeff Nichols, Cisco 
 Suresh Thoppay, NetApp
 Dre Jackson, NetApp
 

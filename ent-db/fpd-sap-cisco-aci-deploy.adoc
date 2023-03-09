@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-cisco-aci-deploy.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, SAP, HANA, UCS, AFF, A-Series, ACI
+summary: "This document describes the architecture and deployment procedures for the SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure"
 ---
 
 = FlexPod Datacenter for SAP with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series - Deployment
@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Pramod Ramamurthy, Cisco Systems, Inc.
+Pramod Ramamurthy, Cisco 
 Marco Schoen, NetApp
 
 This document describes the architecture and deployment procedures for the SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure, which is composed of:

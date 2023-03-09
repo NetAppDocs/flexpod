@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: flexpod-dc/fpd-vsphere-deploy.html
 keywords: 
-summary: 
+summary: "This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.7 on NetApp AFF A400 All Flash storage system, Cisco UCS Manager unified software release 4.1(2) with second-generation Intel Xeon Scalable Processors and VMware vSphere 7.0."
 ---
 
 = FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7 - Deployment
@@ -13,10 +13,10 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-John George, Cisco Systems, Inc.
+John George, Cisco
 Sree Lakshmi Lanka, NetApp
 
-This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.7 on NetApp AFF A400 All Flash storage system, Cisco UCS Manager unified software release 4.1(2) with second-generation Intel Xeon Scalable Processors and VMware vSphere 7.0. Cisco UCS Manager (UCSM) 4.1(2) provides consolidated support of e following:
+This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.7 on NetApp AFF A400 All Flash storage system, Cisco UCS Manager unified software release 4.1(2) with second-generation Intel Xeon Scalable Processors and VMware vSphere 7.0. Cisco UCS Manager (UCSM) 4.1(2) provides consolidated support of the following:
 
 * All current Cisco UCS Fabric Interconnect models: 6200, 6300, 6324 (Cisco UCS Mini)
 * 6400

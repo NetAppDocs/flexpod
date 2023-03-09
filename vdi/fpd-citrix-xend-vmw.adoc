@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: vdi/fpd-citrix-xend-vmw.html
 keywords: 
-summary: 
+summary: "This document provides a Reference Architecture for a virtual desktop and application design using Citrix XenApp/XenDesktop 7.15 built on Cisco UCS with a NetApp All Flash FAS (AFF) A300 storage and the VMware vSphere ESXi 6.5 hypervisor platform."
 ---
 
 = FlexPod Datacenter with Citrix XenDesktop/XenApp 7.15 and VMware vSphere 6.5 Update 1 for 6000 seats
@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Vadim Lebedev, Cisco Systems, Inc.
+Vadim Lebedev, Cisco 
 Chris Rodriguez, NetApp
 
 This document provides a Reference Architecture for a virtual desktop and application design using Citrix XenApp/XenDesktop 7.15 built on Cisco UCS with a NetApp All Flash FAS (AFF) A300 storage and the VMware vSphere ESXi 6.5 hypervisor platform.

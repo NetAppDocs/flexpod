@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-oracle-rac-linux.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, datacenter, oracle, RAC, linux, UCS
+summary: "The Cisco Unified Computing System (Cisco UCS) is a next-generation data center platform that unites computing, network, storage access, and virtualization into a single cohesive system."
 ---
 
 = FlexPod Datacenter with Oracle RAC on Oracle Linux
@@ -13,8 +13,8 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Tushar Patel,  Cisco Systems, Inc.
-Niranjan Mohapatra, Cisco Systems, Inc.
+Tushar Patel,  Cisco 
+Niranjan Mohapatra, Cisco 
 John Elliott, NetApp
 
 The Cisco Unified Computing System (Cisco UCS) is a next-generation data center platform that unites computing, network, storage access, and virtualization into a single cohesive system. Cisco UCS is an ideal platform for the architecture of mission-critical database workloads. The combination of Cisco UCS platform, NetApp storage, and Oracle Real Application Cluster (RAC) architecture can accelerate your IT transformation by enabling faster deployments, greater flexibility of choice, efficiency, and lower risk. This Cisco Validated Design (CVD) highlights a flexible, multitenant, high performance and resilient FlexPod reference architecture featuring the Oracle 12c RAC Database. 

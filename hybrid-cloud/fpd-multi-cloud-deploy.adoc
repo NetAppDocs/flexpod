@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hybrid-cloud/multi-cloud-deploy.html
 keywords: 
-summary: 
+summary: "This document provides in-depth configuration and implementation guidelines for setting up FlexPod Datacenter for Hybrid Cloud"
 ---
 
 = FlexPod Datacenter for Multicloud with Cisco CloudCenter and NetApp Data Fabric
@@ -13,8 +13,8 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Haseeb Niazi, Cisco Systems, Inc
-David Arnette, NetApp.
+Haseeb Niazi, Cisco 
+David Arnette, NetApp
 
 This document provides in-depth configuration and implementation guidelines for setting up FlexPod Datacenter for Hybrid Cloud. The following design elements distinguish this version of FlexPod from previous models:
 

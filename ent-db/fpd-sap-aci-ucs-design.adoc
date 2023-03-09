@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-aci-ucs-design.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, SAP, ACI, UCS, SLES, RHEL, HANA, AFF, A-Series
+summary: "This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure."
 ---
 
 = FlexPod Datacenter for SAP solution with Cisco ACI on Cisco UCS M5 servers with SLES 12 SP3 and RHEL 7.4 
@@ -13,11 +13,9 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Pramod Ramamurthy, Cisco Systems, Inc.
+Pramod Ramamurthy, Cisco
 Marco Schoen, NetApp
 
-This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute and switching products that leverage Cisco Application Centric Infrastructure (ACI) - the industry-leading software-defined networking solution (SDN) -- along with NetApp A-series AFF arrays. The intent of this document is to show the design principles with the detailed configuration steps for SAP HANA deployment.
-
-The intended audience for this document includes, but is not limited to, sales engineers, field consultants, professional services, IT managers, partner engineering, and customers deploying the FlexPod Datacenter Solution for SAP HANA with NetApp clustered Data ONTAP. External references are provided wherever applicable, but readers are expected to be familiar with the technology, infrastructure, and database security policies of the customer installation.
+This document describes the architecture and deployment procedures for SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure composed of Cisco compute and switching products that leverage Cisco Application Centric Infrastructure (ACI) - the industry-leading software-defined networking solution (SDN) - along with NetApp A-series AFF arrays. The intent of this document is to show the design principles with the detailed configuration steps for SAP HANA deployment.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_saphana_aci_UCSM32.html[FlexPod Datacenter for SAP solution with Cisco ACI on Cisco UCS M5 servers with SLES 12 SP3 and RHEL 7.4^]

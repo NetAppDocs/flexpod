@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: flexpod-dc/fpd-inter-design.html
 keywords: 
-summary: 
+summary: "This document describes a validated solution for deploying Cisco and NetApp technologies as a shared cloud infrastructure."
 ---
 
 = FlexPod Datacenter with Cisco Intersight and NetApp ONTAP 9.7 - Design
@@ -13,7 +13,7 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-John George, Cisco Systems, Inc.
+John George, Cisco 
 Scott Kovacs, NetApp
 
 This document describes a validated solution for deploying Cisco and NetApp technologies as a shared cloud infrastructure. This validated design provides a framework for deploying VMware vSphere, the most popular virtualization platform in enterprise-class data centers, on FlexPod.

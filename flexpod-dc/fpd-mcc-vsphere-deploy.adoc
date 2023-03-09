@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: flexpod-dc/fpd-mcc-vsphere-deploy.html
 keywords: 
-summary: 
+summary: "Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms."
 ---
 
 = FlexPod Datacenter with Cisco ACI Multi-Pod with NetApp MetroCluster IP and VMware vSphere 6.7 - Deployment
@@ -13,8 +13,8 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Haseeb Niazi, Cisco Systems, Inc.
-Ramesh Issac, Cisco Systems, Inc.
+Haseeb Niazi, Cisco 
+Ramesh Issac, Cisco 
 Arvind Ramakrishnan, NetApp
 
 Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms. The FlexPod solution delivers an integrated architecture that incorporates best design practices for computing, storage, and networking, thereby minimizing IT risks by validating the integrated architecture to ensure compatibility between various components. The solution also addresses IT pain points by providing documented design guidance, deployment guidance, and support that can be used in various stages (planning, designing and implementation) of a deployment.

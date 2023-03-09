@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-microsoft-sql-2016.html
-keywords: 
-summary: 
+keywords: flexpod, microsoft, sql, netapp, cisco, vmware, vsphere
+summary: "This document discusses a FlexPod reference architecture using the latest hardware and software products and provides configuration recommendations for deploying Microsoft SQL Server databases in a virtualized environment."
 ---
 
 = FlexPod Datacenter with Microsoft SQL Server 2016 and VMware vSphere 6.5
@@ -13,8 +13,8 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Gopu Narasimha Reddy, Cisco Systems, Inc.
-Sanjeev Naldurgkar, Cisco Systems, Inc.
+Gopu Narasimha Reddy, Cisco 
+Sanjeev Naldurgkar, Cisco 
 David Arnette, NetApp
 
 This document discusses a FlexPod reference architecture using the latest hardware and software products and provides configuration recommendations for deploying Microsoft SQL Server databases in a virtualized environment.

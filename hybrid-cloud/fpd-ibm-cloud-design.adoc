@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hybrid-cloud/fpd-ibn-cloud-design.html
 keywords: 
-summary: 
+summary: "IBM Cloud Private (ICP) is an on-premises platform for developing and managing containerized applications for cloud-native and application-modernization use cases"
 ---
 
 = FlexPod Datacenter with IBM Cloud Private
@@ -13,8 +13,8 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Sreenivasa Edula, Cisco Systems, Inc.
-Thanachit Wichianchai (Bank), IBM
+Sreenivasa Edula, Cisco
+Thanachit Wichianchai, IBM
 Jacky Ben-Bassat, IBM Global Alliance, NetApp
 
 IBM Cloud Private (ICP) is an on-premises platform for developing and managing containerized applications for cloud-native and application-modernization use cases. It is an integrated environment built on Kubernetes as its container orchestration, and includes a private image repository for Docker containers, a management console, a monitoring framework, many open source-based and IBM containerized applications, and more. Combining ICP with FlexPod, the converged infrastructure from Cisco and NetApp, can simplify the deployment and the management of your infrastructure. You can also benefit from improved storage efficiency, better data protection, lower risk, and the flexibility to scale this highly available enterprise-grade infrastructure stack to accommodate new business requirements and other changes over time.

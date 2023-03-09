@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-microsoft-sql-2019.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, ESXi, microsoft, vmware, vsphere
+summary: "This document describes a FlexPod reference architecture using the latest hardware and software products and provides deployment recommendations for hosting Microsoft SQL Server 2019 databases in VMware ESXi virtualized environments."
 ---
 
 = FlexPod Datacenter for Microsoft SQL Server 2019 and VMware vSphere 6.7
@@ -13,8 +13,8 @@ summary:
 :linkattrs:
 :imagesdir: ./../media/
 
-Gopu Narasimha Reddy, Cisco Systems, Inc.
-Sanjeev Naldurgkar, Cisco Systems, Inc.
+Gopu Narasimha Reddy, Cisco 
+Sanjeev Naldurgkar, Cisco 
 Atul Bhalodia, NetApp
 
 This document describes a FlexPod reference architecture using the latest hardware and software products and provides deployment recommendations for hosting Microsoft SQL Server 2019 databases in VMware ESXi virtualized environments. This solution also uses Cisco Workload Optimization Manager (CWOM), which provides automated recommendations for optimal and efficient resource utilization for both SQL workloads and infrastructure.
