@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: modern-apps/fpd-ai-dl-design.html
-keywords: 
+keywords: flexpod, cisco, ai, ml, data, center, deep, learning, design
 summary: "This document provides design details around the integration of the Cisco UCS C480 ML M5 platform into the FlexPod Datacenter solution to deliver a unified approach for providing AI and ML capabilities within the converged infrastructure."
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-fibrechan-ucs.html
-keywords: 
+keywords: flexpod, cisco, ontap, aff, a400, ucs, intel, xeon, sap, hana
 summary: "This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.7 on NetApp AFF A400 storage and Cisco UCS Manager unified software release 4.1(1) with second-generation Intel Xeon Scalable Processors for SAP HANA in particular."
 ---
 

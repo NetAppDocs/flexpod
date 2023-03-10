@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-oracle-rac-linux.html
-keywords: flexpod, cisco, datacenter, oracle, RAC, linux, UCS
+keywords: flexpod, cisco, datacenter, oracle, rac, linux, ucs
 summary: "The Cisco Unified Computing System (Cisco UCS) is a next-generation data center platform that unites computing, network, storage access, and virtualization into a single cohesive system."
 ---
 

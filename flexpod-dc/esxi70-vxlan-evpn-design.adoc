@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-vxlan-design.html
-keywords: 
+keywords: flexpod, cisco, vmware, data, center, vsphere, vxlan, ontap, cloud, public
 summary: "Cisco Validated Designs (CVDs) consist of systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments."
 ---
 

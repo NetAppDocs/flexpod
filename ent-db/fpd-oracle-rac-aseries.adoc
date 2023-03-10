@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-oracle-rac-aseries.html
-keywords: flexpod, cisco, oracle, RAC, UCS, AFF, A-series, CVD
+keywords: flexpod, cisco, oracle, rac, ucs, aff, a-series, cvd
 summary: "The FlexPod Datacenter with NetApp All Flash AFF system is a converged infrastructure platform that combines best-of-breed technologies from Cisco and NetApp into a powerful converged platform for enterprise applications."
 ---
 

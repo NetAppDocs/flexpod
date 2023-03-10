@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-mcc-vsphere-design.html
-keywords: 
+keywords: flexpod, cisco, data, center, aci, mcc, ip, vmware, vsphere, aci
 summary: "This document describes the integration of the Cisco ACI Multi-Pod and NetApp MetroCluster IP solution into the FlexPod Datacenter to provide a highly available multi-data center solution."
 ---
 

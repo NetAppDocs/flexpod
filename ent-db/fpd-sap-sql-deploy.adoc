@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-sql-deploy.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, sap, sql, servers, data, bases
+summary: "FlexPod is a pre-validated and engineered data center solution designed to address the rapidly changing needs of IT departments."
 ---
 
 = Deploy SAP application servers on FlexPod with SQL

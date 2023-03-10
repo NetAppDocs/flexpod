@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-cisco-vsphere-design.html
-keywords: 
+keywords: flexpod, cisco, data, center, vmware, vsphere, 
 summary: "This document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying Cisco and NetApp technologies as shared cloud infrastructure."
 ---
 
-= FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS 4th Generation Fabric, and NetApp AFF A-Series - Design 
+= FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS fourth-generation fabric, and NetApp AFF A-Series - Design 
 
 :hardbreaks:
 :nofooter:
@@ -22,4 +22,4 @@ FlexPod is a leading integrated infrastructure supporting a broad range of enter
 
 The recommended solution architecture is built on Cisco Unified Computing System (Cisco UCS) using the unified software release to support the Cisco UCS hardware platforms, including Cisco UCS B-Series blade and C-Series rack servers, Cisco UCS 6454 Fabric Interconnects, Cisco Nexus 9000 Series switches, Cisco MDS Fibre channel switches, and NetApp All Flash series storage arrays. Additionally, it includes VMware vSphere 6.7 Update 1, which provides a number of new features for optimizing storage utilization and facilitating a private cloud.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_vmware_netappaffa_design.html[FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS 4th Generation Fabric, and NetApp AFF A-Series - Design^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_vmware_netappaffa_design.html[FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS fourth-generation fabric, and NetApp AFF A-Series - Design^]

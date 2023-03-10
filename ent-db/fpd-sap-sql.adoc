@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-sql.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, white, paper,sap, non-hana, sql
+summary: "The current IT industry is witnessing a dramatic transformation in data center solutions."
 ---
 
-= SAP Non-HANA with SQL whiite paper - Design
+= SAP Non-HANA with SQL white paper - Design
 
 :hardbreaks:
 :nofooter:

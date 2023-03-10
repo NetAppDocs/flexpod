@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-fibrechan-design.html
-keywords: 
+keywords: flexpod, data center, sap, fibre, channel, cisco, ucs, ontap
 summary: "Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms."
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-cisco-vm-vs-deploy.html
-keywords: 
+keywords: flexpod, data, center, cisco, intersight, ontap, deployment
 summary: "The current industry trend in data center design is towards shared infrastructures."
 ---
 

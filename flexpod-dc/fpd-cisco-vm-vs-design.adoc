@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-cisco-vm-vs-design.html
-keywords: 
+keywords: flexpod, cisco, intersight, vmware, vsphere, ontap
 summary: "This document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying Cisco and NetApp technologies as shared cloud infrastructure."
 ---
 

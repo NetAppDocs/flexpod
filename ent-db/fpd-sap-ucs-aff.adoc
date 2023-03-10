@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-ucs-aff.html
-keywords: 
+keywords: flexpod, cisco, data, center, sap, ucs, aff, a-series, tdi, tailored, design
 summary: "This document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments."
 ---
 

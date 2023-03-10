@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: hybrid-cloud/multi-cloud-deploy.html
-keywords: 
+keywords: flexpod, cisco, data, fabric, cloudcenter, hybrid, cloud, 
 summary: "This document provides in-depth configuration and implementation guidelines for setting up FlexPod Datacenter for Hybrid Cloud"
 ---
 

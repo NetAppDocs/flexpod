@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-oracle-rac-db.html
-keywords: flexpod, datacenter, oracle, RAC, cisco, UCS, AFF, MDS
+keywords: flexpod, datacenter, oracle, rac, cisco, ucs, aff, mds, deploy
 summary: "Cisco Validated Designs include systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. "
 ---
 

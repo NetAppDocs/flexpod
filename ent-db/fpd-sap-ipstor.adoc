@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-ipstor.html
-keywords: 
+keywords: flexpod, data,center, sap, cisco, aff, a-series, ucs, manager
 summary: "The reference architecture detailed in this document highlights the resiliency, cost benefit, and ease of deployment of an IP-based storage solution."
 ---
 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: express/express-nva-1154-deploy.html
-keywords: 
-summary: 
+keywords: flexpod, cisco, express, vmware, vsphere, ucs, aff, fas, deployment, nva
+summary: "The FlexPod Express for VMware vSphere 7.0 with Cisco UCS Mini and NetApp AFF/FAS solution leverages Cisco UCS Mini with B200 M5 blade servers, Cisco UCS 6324 in-chassis Fabric Interconnects, Cisco Nexus 31108PC-V switches, or other compliant switches."
 ---
 
 = FlexPod Express for VMware vSphere 7.0 with Cisco UCS Mini and NetApp AFF/FAS - NVA - Deployment 

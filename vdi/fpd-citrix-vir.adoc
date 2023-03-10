@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: vdi/fpd-citrix-vir.html
-keywords: 
+keywords: flexpod, cisco, data, center, citrix, virtual, apps, vmware, vsphere 
 summary: "This document provides the architecture and design of a virtual desktop infrastructure for up to 6000 end-user computing users."
 ---
 

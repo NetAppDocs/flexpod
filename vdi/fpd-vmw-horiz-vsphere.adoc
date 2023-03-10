@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: vdi/fpd-vmw-horiz-vsphere.html
-keywords: 
+keywords: flexpod, cisco, data, center, design, deployment, aff, fas, a300, 
 summary: "This document provides a reference architecture, design guide, and deployment for up to a 5000-seat, mixed workload end-user computing environment on FlexPod Datacenter with Cisco UCS and NetApp All Flash FAS (AFF) A300 storage."
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-vsphere-deploy.html
-keywords: 
+keywords: cisco, flexpod, data, center, vmware, vsphere, ontap, deployment
 summary: "This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.7 on NetApp AFF A400 All Flash storage system, Cisco UCS Manager unified software release 4.1(2) with second-generation Intel Xeon Scalable Processors and VMware vSphere 7.0."
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-aci-ucs.html
-keywords: flexpod, datacenter, cisco, ACI, UCS, AFF, A-Series
+keywords: flexpod, datacenter, cisco, aci, ucs, aff, a-series
 summary: "This document describes the architecture and deployment procedures for the SAP HANA Tailored DataCenter Integration option on FlexPod infrastructure."
 ---
 

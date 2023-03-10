@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-aseries-design.html
-keywords: flexpod, cisco, SAP, Intel, UCS, AFF, A-Series, Nexus 9000 
+keywords: flexpod, cisco, sap, intel, ucs, aff, a-series, nexus 9000 
 summary: "This document describes the deployment methodology of Cisco and NetApp FlexPod Datacenter for SAP HANA based on second-generation Intel Xeon Scalable Processors supported Cisco UCS Computing System (Cisco UCS)."
 ---
 

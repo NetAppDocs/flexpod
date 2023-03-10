@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-mcc-vsphere-deploy.html
-keywords: 
+keywords: flexpod, cisco, data, center, aci, multi-pod, mcc, ip, vmware, vsphere, deployment
 summary: "Cisco and NetApp have partnered to deliver a series of FlexPod solutions that enable strategic data center platforms."
 ---
 

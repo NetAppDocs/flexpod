@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: hybrid-cloud/fpd-hc-storage-design.html
-keywords: 
+keywords: flexpod, cisco, hybrid, cloud, storage, private
 summary: "Cisco Validated Designs (CVDs) deliver systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments."
 ---
 

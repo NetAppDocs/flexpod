@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-afa-design.html
-keywords: flexpod, cisco, SAP, UCS, AFF, A-Series, TDI
+keywords: flexpod, cisco, sap, hana, ucs, aff, a-series, tdi
 summary: "This document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments."
 ---
 

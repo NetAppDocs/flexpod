@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: vdi/fpd-citrix-xend-vmw.html
-keywords: 
+keywords: cisco, flexpod, all, flash, aff, citrix, vmware, vsphere, stroage, esxi, hypervisor
 summary: "This document provides a Reference Architecture for a virtual desktop and application design using Citrix XenApp/XenDesktop 7.15 built on Cisco UCS with a NetApp All Flash FAS (AFF) A300 storage and the VMware vSphere ESXi 6.5 hypervisor platform."
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-microsoft-sql-2017-hyper.html
-keywords: flexpod, datacenter, microsoft, linux, hyper-v, AFF-series, cisco
+keywords: flexpod, datacenter, microsoft, linux, hyper-v, aff-series, cisco
 summary: "This document discusses a FlexPod reference architecture using the latest hardware and software products and provides deployment recommendations for hosting Microsoft SQL Server databases in VMware ESXi and Microsoft Windows Hyper-V virtualized environments with Linux support enablement from Microsoft for SQL Server deployment."
 ---
 

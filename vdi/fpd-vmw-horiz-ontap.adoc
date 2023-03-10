@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: vdi/fpd-vmw-horiz-ontap.html
-keywords: 
+keywords: flexpod, cisco, aff, vmware, horizon, vsphere, ucs, ontap, a300, design
 summary: "This document provides a reference architecture and design guide for a 5000-seat to 6000-seat desktop workload end-user computing environment on FlexPod Datacenter with Cisco UCS and NetApp AFF A300 and NetApp ONTAP data management software."
 ---
 

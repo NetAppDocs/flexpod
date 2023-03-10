@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-microsoft-sql-2019.html
-keywords: flexpod, cisco, ESXi, microsoft, vmware, vsphere
+keywords: flexpod, cisco, esxi, microsoft, vmware, vsphere
 summary: "This document describes a FlexPod reference architecture using the latest hardware and software products and provides deployment recommendations for hosting Microsoft SQL Server 2019 databases in VMware ESXi virtualized environments."
 ---
 

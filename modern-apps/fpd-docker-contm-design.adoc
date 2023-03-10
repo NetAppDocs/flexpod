@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: modern-apps/fpd-docker-contm-design.html
-keywords: 
-summary: "Docker is the world’s leading software container platform for developers and IT operations to build, ship, and run distributed applications anywhere."
+keywords: flexpod, docket, cisco, container, management, data
+summary: "Docker is the world leading software container platform for developers and IT operations to build, ship, and run distributed applications anywhere."
 ---
 
 = FlexPod Datacenter with Docker Enterprise Edition for Container Management 

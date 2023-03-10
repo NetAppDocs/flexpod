@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-3gen-aff.html
-keywords: flexpod, cisco, SAP, UCS, third generation, fabric, AFF, A-Series
+keywords: flexpod, cisco, sap, ucs, third generation, fabric, aff, a-series
 summary: "This document describes the deployment methodology of Cisco and NetApp FlexPod Datacenter for SAP HANA based on based on the Cisco UCS Computing System (Cisco UCS) supported by second-generation Intel Xeon Scalable Processors."
 ---
 

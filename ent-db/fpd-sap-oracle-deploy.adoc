@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-oracle-deploy.html
-keywords: 
+keywords: flexpod, cisco, design, oracle, rac, data, base, ucs, nvme, fibrechannel, fc
 summary: "Cisco Validated Designs (CVDs) consist of systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments."
 ---
 

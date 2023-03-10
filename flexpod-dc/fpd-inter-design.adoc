@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: flexpod-dc/fpd-inter-design.html
-keywords: 
+keywords: flexpod, cisco, ontap, intersight, cloud, vmware, vsphere, deployment
 summary: "This document describes a validated solution for deploying Cisco and NetApp technologies as a shared cloud infrastructure."
 ---
 

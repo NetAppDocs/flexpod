@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: ent-db/fpd-sap-aci-aseries-design.html
-keywords: flexpod, cisco, SAP, ACI, UCS manager, AFF A-Series, TDI, SAP, HANA
+keywords: flexpod, cisco, sap, aci, UCS manager, aff, a-series, tdi, sap, hana
 summary: "This document describes Cisco ACI integrated FlexPod solution as a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments."
 ---
 
