@@ -9,7 +9,7 @@ entries:
         url: /ent-db/fpd-sap-deploy.html
       - title: SAP Non-HANA with SQL White Paper (WP) [Design]
         url: /ent-db/fpd-sap-sql.html
-      - title: FlexPod Datacenter for SAP Solution with Cisco UCS 3rd Generation and NetApp AFF A–Series - Design
+      - title: FlexPod Datacenter for SAP Solution with Cisco UCS third-generation and NetApp AFF A–Series - Design
         url: /ent-db/fpd-sap-aseries-design.html
       - title: FlexPod Datacenter for SAP Solution using FibreChannel SAN with Cisco UCS Manager 4.0 and NetApp ONTAP 9.7 - Design
         url: /ent-db/fpd-sap-fibrechan-design.html
@@ -31,7 +31,7 @@ entries:
         url: /ent-db/fpd-sap-aci-ucs.html
       - title: FlexPod Datacenter for SAP Solution with Cisco ACI, Cisco UCS Manager 4.0, and NetApp AFF A–Series - Design 
         url: /ent-db/fpd-sap-aci-aseries-design.html
-      - title: FlexPod Datacenter for SAP Solution with Cisco UCS 3rd Generation and NetApp AFF A–Series
+      - title: FlexPod Datacenter for SAP Solution with Cisco UCS third-generation and NetApp AFF A–Series
         url: /ent-db/fpd-sap-3gen-aff.html
       - title: FlexPod Datacenter for SAP Solution with Cisco UCS Manager 4.0 and NetApp AFF A with ONTAP 9.6
         url: /ent-db/fpd-sap-ucs-aff.html

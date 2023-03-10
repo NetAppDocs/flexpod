@@ -5,7 +5,7 @@ keywords: flexpod, cisco, data, center, ontap, ucs, xeon, vmware, vsphere, aff
 summary: "This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTAP 9.6, Cisco UCS Manager unified software release 4.0(4) with second-generation Intel Xeon Scalable Processors, and VMware vSphere 6.7 U2."
 ---
 
-= FlexPod Datacenter with VMware vSphere 6.7 U2, Cisco UCS 4th Generation Fabric and NetApp ONTAP 9.6
+= FlexPod Datacenter with VMware vSphere 6.7 U2, Cisco UCS fouth-generation Fabric and NetApp ONTAP 9.6
 
 :hardbreaks:
 :nofooter:
@@ -26,4 +26,4 @@ This document describes the Cisco and NetApp FlexPod Datacenter with NetApp ONTA
 
 FlexPod Datacenter with NetApp ONTAP 9.6, Cisco UCS unified software release 4.0(4), and VMware vSphere 6.7 U2 is a predesigned, best-practice data center architecture built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus 9000 family of switches, MDS 9000 multilayer fabric switches, and NetApp AFF A-Series storage arrays running ONTAP 9.
 
-link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_vmware_netappaffa_u2.html[FlexPod Datacenter with VMware vSphere 6.7 U2, Cisco UCS 4th Generation Fabric and NetApp ONTAP 9.6^]
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_vmware_netappaffa_u2.html[FlexPod Datacenter with VMware vSphere 6.7 U2, Cisco UCS fourth-generation Fabric and NetApp ONTAP 9.6^]

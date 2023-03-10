@@ -39,9 +39,9 @@ entries:
     url: /flexpod-dc/fpd-inter-design.html
   - title: FlexPod Datacenter with NetApp ONTAP 9.6, Cisco UCS 4th Gen, VMware vSphere 6.7U2 (CVD)
     url: /flexpod-dc/fpd-cisco-vsphere.html
-  - title: FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS 4th Generation, and NetApp AFF A-Series - Design
+  - title: FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS fourth-generation, and NetApp AFF A-Series - Design
     url: /flexpod-dc/fpd-cisco-vsphere-design.html
-  - title: FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS 4th Generation, and NetApp AFF A-Series - Deploy
+  - title: FlexPod Datacenter with VMware vSphere 6.7 U1, Cisco UCS fourth-generation, and NetApp AFF A-Series - Deploy
     url: /flexpod-dc/fpd-cisco-vsphere-deploy.html
   - title: FlexPod Datacenter with Cisco ACI Multi-Pod, NetApp MetroCluster IP, and VMware vSphere 6.7 Design guide
     url: /flexpod-dc/fpd-mcc-vsphere-design.html
