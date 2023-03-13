@@ -1,7 +1,7 @@
 section: modern-apps
 title: Modern Apps
 entries:
-  - title: FlexPod Datacenter for combined AI and ML with Cisco UCS 480 ML & Nvidia T4 & vGPU for Deep Learning CVD Design Guide - Design
+  - title: FlexPod Datacenter for combined AI and ML with Cisco UCS 480 ML & Nvidia T4 & vGPU for Deep Learning CVD - Design
     url: /modern-apps/fpd-ai-dl-design.html
   - title: Deploy NetApp Trident CSI plug-in on Cisco Container Platform with FlexPod - Deploy
     url: /modern-apps/fpd-trident-ccp-deploy.html

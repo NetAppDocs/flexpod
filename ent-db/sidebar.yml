@@ -55,5 +55,5 @@ entries:
         url: /ent-db/fpd-microsoft-sql-2016.html
       - title: FlexPod Datacenter with Microsoft SQL Server 2017 on Linux VM Running on VMware and Hyper-V - Design
         url: /ent-db/fpd-microsoft-sql-2017.html
-      - title: FlexPod Datacenter with Microsoft SQL Server 2017 on Linux VM Running on VMware and Hyper-V
+      - title: FlexPod Datacenter with Microsoft SQL Server 2017 on Linux VM Running on VMware and Hyper-V - Deploy
         url: /ent-db/fpd-microsoft-sql-2017-hyper.html
