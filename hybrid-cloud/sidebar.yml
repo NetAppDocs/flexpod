@@ -3,22 +3,22 @@ title: Hybrid Cloud
 entries:
 #
   - title: FlexPod Hybrid Cloud with Cloud Volumes ONTAP for Epic
-      type: solutions
-      entries:
-        - title: Solution Overview
-          url: /hybrid-cloud/fhc-cvoe-solution-overview.html
-        - title: Solution components
-          url: /hybrid-cloud/fhc-cvoe-solution-components.html
-        - title: Installation and configuration
-          url: /hybrid-cloud/fhc-cvoe-installation-and-configuration.html
-        - title: SAN configuration
-          url: /hybrid-cloud/fhc-cvoe-san-configuration.html
-        - title: Solution validation
-          url: /hybrid-cloud/fhc-cvoe-solution-validation.html
-        - title: Conclusion
-          url: /hybrid-cloud/fhc-cvoe-conclusion.html
-        - title: Where to find additional information
-          url: /hybrid-cloud/fhc-cvoe-where-to-find-additional-information.html
+    type: solutions
+    entries:
+      - title: Solution Overview
+        url: /hybrid-cloud/fhc-cvoe-solution-overview.html
+      - title: Solution components
+        url: /hybrid-cloud/fhc-cvoe-solution-components.html
+      - title: Installation and configuration
+        url: /hybrid-cloud/fhc-cvoe-installation-and-configuration.html
+      - title: SAN configuration
+        url: /hybrid-cloud/fhc-cvoe-san-configuration.html
+      - title: Solution validation
+        url: /hybrid-cloud/fhc-cvoe-solution-validation.html
+      - title: Conclusion
+        url: /hybrid-cloud/fhc-cvoe-conclusion.html
+      - title: Where to find additional information
+        url: /hybrid-cloud/fhc-cvoe-where-to-find-additional-information.html
 #
   - title: FlexPod Hybrid Cloud for Google Cloud Platform with NetApp Cloud Volumes ONTAP and Cisco Intersight
     type: solutions
