@@ -1,7 +1,25 @@
 section: hybrid-cloud
 title: Hybrid Cloud
 entries:
-
+#
+  - title: FlexPod Hybrid Cloud with Cloud Volumes ONTAP for Epic
+      type: solutions
+      entries:
+        - title: Solution Overview
+          url: /hybrid-cloud/fhc-cvoe-solution-overview.html
+        - title: Solution components
+          url: /hybrid-cloud/fhc-cvoe-solution-components.html
+        - title: Installation and configuration
+          url: /hybrid-cloud/fhc-cvoe-installation-and-configuration.html
+        - title: SAN configuration
+          url: /hybrid-cloud/fhc-cvoe-san-configuration.html
+        - title: Solution validation
+          url: /hybrid-cloud/fhc-cvoe-solution-validation.html
+        - title: Conclusion
+          url: /hybrid-cloud/fhc-cvoe-conclusion.html
+        - title: Where to find additional information
+          url: /hybrid-cloud/fhc-cvoe-where-to-find-additional-information.html
+#
   - title: FlexPod Hybrid Cloud for Google Cloud Platform with NetApp Cloud Volumes ONTAP and Cisco Intersight
     type: solutions
     entries:
@@ -29,7 +47,7 @@ entries:
         url: /hybrid-cloud/gcp-ncvo-solution-validation.html
       - title: Conclusion
         url: /hybrid-cloud/gcp-ncvo-conclusion.html
-
+#
   - title: FlexPod hybrid cloud with NetApp Astra and Cisco Intersight for Red Hat OpenShift
     type: solutions
     entries:
@@ -55,7 +73,7 @@ entries:
             url: /hybrid-cloud/flexpod-rho-cvo-application-recovery-with-remote-backups.html
       - title: Conclusion
         url: /hybrid-cloud/flexpod-rho-cvo-conclusion.html
-
+#
   - title: NetApp Cloud Insights for FlexPod
     type: solutions
     entries:
@@ -75,7 +93,7 @@ entries:
         url: /hybrid-cloud/cloud-insights_videos_and_demos.html
       - title: Additional information
         url: /hybrid-cloud/cloud-insights_additional_information.html
-        
+#       
   - title: FlexPod with FabricPool - Inactive Data Tiering to Amazon AWS S3
     type: solutions
     entries:
@@ -111,7 +129,7 @@ entries:
         url: /hybrid-cloud/cloud-fabricpool_conclusion.html
       - title: Where to find additional information
         url: /hybrid-cloud/cloud-fabricpool_where_to_find_additional_information.html
-
+#
   - title: FlexPod Datacenter with IBM Cloud Private with Cisco UCS Manager, NetApp ONTAP 9.3 AFF, and VMware vSphere 6.5U1 [Design]
     url: https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_icp_ucsm32.html
   - title: FlexPod Datacenter for Platform as a Service with Apprenda 8.2, Cisco ACI 3.1, and Kubernetes 1.9.4 [Design]
