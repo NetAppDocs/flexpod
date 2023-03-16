@@ -72,18 +72,18 @@ This section describes some of the important ONTAP configuration steps that are 
 . Configure an SVM with the iSCSI service running.
 +
 ....
-vserver create –vserver Healthcare_SVM –rootvolume Healthcare_SVM_root –aggregate aggr1_A400_G0312_01 –rootvolume-security-style unix
-vserver add-protocols -vserver Healthcare_SVM -protocols iscsi
-vserver iscsi create -vserver Healthcare_SVM
+1. vserver create –vserver Healthcare_SVM –rootvolume Healthcare_SVM_root –aggregate aggr1_A400_G0312_01 –rootvolume-security-style unix
+2. vserver add-protocols -vserver Healthcare_SVM -protocols iscsi
+3. vserver iscsi create -vserver Healthcare_SVM
 
-To verify:
+   To verify:
 
-A400-G0312::> vserver iscsi show -vserver Healthcare_SVM
-Vserver: Healthcare_SVM
-Target Name: 
-iqn.1992-08.com.netapp:sn.1fbf00f438c111ed866cd039ea91fb56:vs.3
-Target Alias: Healthcare_SVM
-Administrative Status: up
+   A400-G0312::> vserver iscsi show -vserver Healthcare_SVM
+   Vserver: Healthcare_SVM
+   Target Name: 
+   iqn.1992-08.com.netapp:sn.1fbf00f438c111ed866cd039ea91fb56:vs.3
+   Target Alias: Healthcare_SVM
+   Administrative Status: up
 ....
 +
 If the iSCSI license was not installed during cluster configuration, make sure to install the license before creating the iSCSI service.
@@ -91,16 +91,16 @@ If the iSCSI license was not installed during cluster configuration, make sure t
 . Create a FlexVol volume.
 +
 ....
-volume create -vserver Healthcare_SVM -volume hc_iscsi_vol -aggregate aggr1_A400_G0312_01 -size 500GB -state online -policy default -space guarantee none
+1. volume create -vserver Healthcare_SVM -volume hc_iscsi_vol -aggregate aggr1_A400_G0312_01 -size 500GB -state online -policy default -space guarantee none
 ....
 
 . Add interfaces for iSCSI access.
 +
 ....
-network interface create -vserver Healthcare_SVM -lif iscsi-lif-01a -service-policy default-data-iscsi -home-node <st-node01> -home-port a0a-<infra-iscsi-a-vlan-id> -address <st-node01-infra-iscsi-a–ip> -netmask <infra-iscsi-a-mask> -status-admin up
-network interface create -vserver Healthcare_SVM -lif iscsi-lif-01b -service-policy default-data-iscsi -home-node <st-node01> -home-port a0a-<infra-iscsi-b-vlan-id> -address <st-node01-infra-iscsi-b–ip> -netmask <infra-iscsi-b-mask> –status-admin up
-network interface create -vserver Healthcare_SVM -lif iscsi-lif-02a -service-policy default-data-iscsi -home-node <st-node02> -home-port a0a-<infra-iscsi-a-vlan-id> -address <st-node02-infra-iscsi-a–ip> -netmask <infra-iscsi-a-mask> –status-admin up
-network interface create -vserver Healthcare_SVM -lif iscsi-lif-02b -service-policy default-data-iscsi -home-node <st-node02> -home-port a0a-<infra-iscsi-b-vlan-id> -address <st-node02-infra-iscsi-b–ip> -netmask <infra-iscsi-b-mask> –status-admin up
+1. network interface create -vserver Healthcare_SVM -lif iscsi-lif-01a -service-policy default-data-iscsi -home-node <st-node01> -home-port a0a-<infra-iscsi-a-vlan-id> -address <st-node01-infra-iscsi-a–ip> -netmask <infra-iscsi-a-mask> -status-admin up
+2. network interface create -vserver Healthcare_SVM -lif iscsi-lif-01b -service-policy default-data-iscsi -home-node <st-node01> -home-port a0a-<infra-iscsi-b-vlan-id> -address <st-node01-infra-iscsi-b–ip> -netmask <infra-iscsi-b-mask> –status-admin up
+3. network interface create -vserver Healthcare_SVM -lif iscsi-lif-02a -service-policy default-data-iscsi -home-node <st-node02> -home-port a0a-<infra-iscsi-a-vlan-id> -address <st-node02-infra-iscsi-a–ip> -netmask <infra-iscsi-a-mask> –status-admin up
+4. network interface create -vserver Healthcare_SVM -lif iscsi-lif-02b -service-policy default-data-iscsi -home-node <st-node02> -home-port a0a-<infra-iscsi-b-vlan-id> -address <st-node02-infra-iscsi-b–ip> -netmask <infra-iscsi-b-mask> –status-admin up
 ....
 +
 In this solution, we created four iSCSI logical interfaces (LIFs), two on each node.
@@ -110,7 +110,7 @@ After the FlexPod instance is up and running with vCenter deployed and all ESXi 
 . Create a LUN.
 +
 ....
-lun create -vserver Healthcare_SVM -path /vol/hc_iscsi_vol/iscsi_lun1 -size 200GB -ostype linux -space-reserve disabled
+1. lun create -vserver Healthcare_SVM -path /vol/hc_iscsi_vol/iscsi_lun1 -size 200GB -ostype linux -space-reserve disabled
 ....
 +
 For an EHR operational database (ODB), a journal, and application workloads, EHR recommends presenting storage to servers as iSCSI LUNs.  NetApp also supports using FCP and NVMe/FC if you have versions of AIX and the RHEL operating systems that are capable, which enhances performance. FCP and NVMe/FC can coexist on the same fabric.
@@ -118,7 +118,7 @@ For an EHR operational database (ODB), a journal, and application workloads, EHR
 . Create an igroup.
 +
 ....
-igroup create –vserver Healthcare_SVM –igroup ehr –protocol iscsi –ostype linux –initiator iqn.1994-05.com.redhat:8e91e9769336
+1. igroup create –vserver Healthcare_SVM –igroup ehr –protocol iscsi –ostype linux –initiator iqn.1994-05.com.redhat:8e91e9769336
 ....
 +
 Igroups are used to allow server access to LUNs. For Linux host, the server IQN can be found in the file `/etc/iscsi/initiatorname.iscsi`.
@@ -126,7 +126,7 @@ Igroups are used to allow server access to LUNs. For Linux host, the server IQN 
 . Map the LUN to the igroup.
 +
 ....
-lun mapping create –vserver Healthcare_SVM –path /vol/hc_iscsi_vol/iscsi_lun1 –igroup ehr –lun-id 0
+1. lun mapping create –vserver Healthcare_SVM –path /vol/hc_iscsi_vol/iscsi_lun1 –igroup ehr –lun-id 0
 ....
 
 == Add on-premises FlexPod storage to BlueXP
