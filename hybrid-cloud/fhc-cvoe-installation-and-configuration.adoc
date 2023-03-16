@@ -75,7 +75,9 @@ This section describes some of the important ONTAP configuration steps that are 
 vserver create –vserver Healthcare_SVM –rootvolume Healthcare_SVM_root –aggregate aggr1_A400_G0312_01 –rootvolume-security-style unix
 vserver add-protocols -vserver Healthcare_SVM -protocols iscsi
 vserver iscsi create -vserver Healthcare_SVM
+
 To verify:
+
 A400-G0312::> vserver iscsi show -vserver Healthcare_SVM
 Vserver: Healthcare_SVM
 Target Name: 
