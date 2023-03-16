@@ -1,0 +1,174 @@
+---
+sidebar: sidebar
+permalink: hybrid-cloud/fhc-cvoe-solution-components.html
+keywords: flexpod, epic, bluexp, connector, cvo, active iq, unified manager, cisco, intersight, vsphere, vcenter
+summary: This section provides an overview of the various components necessary for this solution.
+---
+
+= Solution components
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2023-03-13 17:00:22.069969
+//
+
+link:fhc-cvoe-solution-overview.html[Previous: Solution Overview.]
+
+== FlexPod
+
+FlexPod is a defined set of hardware and software that forms an integrated foundation for both virtualized and non-virtualized solutions. FlexPod includes NetApp ONTAP storage, Cisco Nexus networking, Cisco MDS storage networking, and the Cisco Unified Computing System (Cisco UCS).
+
+Healthcare organizations are looking for a solution to ease their digital transformation and improve patient experiences and outcomes. With FlexPod, you get a secure, scalable platform that drives efficiency and empowers your staff to make more informed decisions faster so that they can provide better patient care.
+
+FlexPod is the ideal platform for healthcare workload needs because it provides the following benefits:
+
+* Optimization of operations to get faster insights and better patient outcomes.
+* Streamlining imaging apps with scalable, reliable infrastructure.
+* Deploying quickly and efficiently with a proven approach for healthcare-specific apps such as EHR.
+
+== Epic
+
+Epic Electronic Health Records (EHRs) makes software for midsize and large medical groups, hospitals, and integrated healthcare organizations. Customers also include community hospitals, academic facilities, children's organizations, safety net providers, and multi-hospital systems. EHR-integrated software spans clinical, access, and revenue functions and extends into the home.
+
+Healthcare provider organizations remain under pressure to maximize the benefits of their substantial investments in industry-leading EHRs. When customers design their data centers for EHR solutions and mission-critical applications, they often identify the following goals for their data center architecture:
+
+* High availability of the EHR applications
+* High performance
+* Ease of implementing EHR in the data center
+* Agility and scalability to enable growth with new EHR releases or applications
+* Cost effectiveness
+* Manageability, stability, and ease of support
+* Robust data protection, backup, recovery, and business continuance
+
+FlexPod is EHR certified and supports a platform containing Cisco Cisco UCS with Intel Xeon processors, Red Hat Enterprise Linux (RHEL), and virtualization with VMware ESXi. This platform, coupled with EHR’s High Comfort Level ranking for NetApp storage running ONTAP, gives customers the confidence to run their healthcare applications in a fully managed private cloud through FlexPod that can also be connected to any of the public cloud providers.
+
+== NetApp BlueXP
+
+BlueXP (formerly NetApp Cloud Manager) is an enterprise-class, SaaS-based management platform that enables IT experts and cloud architects to centrally manage their hybrid multi-cloud infrastructure using NetApp cloud solutions. It provides a centralized system for viewing and managing your on-premises and cloud storage, supporting hybrid, multiple cloud providers and accounts. For more information, see https://docs.netapp.com/us-en/cloud-manager-family/index.html[BlueXP^].
+
+== Connector
+
+A Connector instance enables BlueXP to manage resources and processes within a public cloud environment. Connector is required for many of the features provided by BlueXP, and it can be deployed in the cloud or in the on-premises network.
+
+Connector is supported in the following locations:
+
+* Amazon Web Services
+* Microsoft Azure
+* Google Cloud
+* On premises
+
+To learn more about Connector, see the https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[Connector page^].
+
+== NetApp Cloud Volumes ONTAP
+
+NetApp Cloud Volumes ONTAP is a software-defined storage offering that runs ONTAP data management software in the cloud to deliver advanced data management for file and block workloads. With Cloud Volumes ONTAP, you can optimize your cloud storage costs and increase application performance while enhancing data protection, security, and compliance.
+
+Key benefits include the following:
+
+* *Storage efficiencies.* Leverage built-in data deduplication, data compression, thin provisioning, and instantaneous cloning to minimize storage costs.
+* *High availability.* Provide enterprise reliability and continuous operations in case of failures in your cloud environment.
+* *Data protection.* Cloud Volumes ONTAP uses SnapMirror, the industry-leading NetApp replication technology, to replicate on-premises data to the cloud so that it is easy to have secondary copies available for multiple use cases. Cloud Volumes ONTAP also integrates with Cloud Backup to deliver backup and restore capabilities for protection, and long-term archiving of your cloud data.
+* *Data tiering.* Switch between high- and low-performance storage pools on-demand without taking applications offline.
+* *Application consistency.* Provide the consistency of NetApp Snapshot copies using NetApp SnapCenter technology.
+* *Data security.* Cloud Volumes ONTAP supports data encryption and provides protection against viruses and ransomware.
+* *Privacy compliance controls.* Integration with Cloud Data Sense helps you understand data context and identify sensitive data.
+
+For more detailed information, see https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/[Cloud Volumes ONTAP^].
+
+== NetApp Active IQ Unified Manager
+
+NetApp Active IQ Unified Manager allows the monitoring of your ONTAP storage clusters from a single, redesigned, and intuitive interface that delivers intelligence from community wisdom and AI analytics. It provides comprehensive operational, performant, and proactive insights into the storage environment and the virtual machines running on it. When an issue occurs with the storage infrastructure, Unified Manager can notify you about the details of the issue to help identify the root cause. The virtual machine dashboard gives you a view into the performance statistics for the VM so that you can investigate the entire I/O path from the vSphere host down through the network and finally to the storage.
+
+Some events also provide remedial actions that can be taken to rectify the issue. You can configure custom alerts for events so that when issues occur, you are notified through email and SNMP traps. Active IQ Unified Manager allows you to plan for the storage requirements of your users by forecasting capacity and usage trends so that you can act before issues arise, preventing reactive short-term decisions that can lead to additional problems in the long term.
+
+For more information, see https://docs.netapp.com/us-en/active-iq-unified-manager/[Active IQ Unified Manager^].
+
+== Cisco Intersight
+
+Cisco Intersight is a SaaS platform that delivers intelligent automation, observability, and optimization for traditional and cloud-native applications and infrastructure. The platform helps to drive change with IT teams and delivers an operating model designed for hybrid cloud. Cisco Intersight provides the following benefits:
+
+* *Faster delivery.* Intersight is delivered as a service from the cloud or in the customer’s data center with frequent updates and continued innovation, due to an agile-based software development model. In this way, the customer can focus on supporting critical business needs.
+* *Simplified operations.* Intersight simplifies operations by using a single, secure SaaS-delivered tool with common inventory, authentication, and APIs to work across the full stack and all locations, eliminating silos across teams. This allows you to manage physical servers and hypervisors on-premises, to VMs, K8s, serverless, automation, optimization, and cost control both on-premises and in public clouds.
+* *Continuous optimization.* You can continuously optimize your environment by using intelligence provided by Cisco Intersight across every layer, as well as by Cisco TAC. This intelligence is converted into recommended and automatable actions so that you can adapt in real-time to any changes: from moving workloads and monitoring the health of physical servers to cost reduction recommendations for the public clouds that you work with.
+
+There are two modes of management operations possible with Cisco Intersight: UCSM Managed Mode (UMM) and Intersight Managed Mode (IMM). You can select the native UCSM Managed Mode (UMM) or Intersight Managed Mode (IMM) for fabric-attached Cisco UCS systems during the initial setup of the fabric Interconnects. In this solution, native IMM is used. The following figure shows the Cisco Intersight Dashboard.
+
+image:fhc-cvoe-image3.png["This screenshot shows the Servers page of the Cisco Intersight Dashboard."]
+
+== VMware vSphere 7.0
+
+VMware vSphere is a virtualization platform for holistically managing large collections of infrastructure (including CPUs, storage, and networking) as a seamless, versatile, and dynamic operating environment. Unlike traditional operating systems that manage an individual machine, VMware vSphere aggregates the infrastructure of an entire datacenter to create a single powerhouse with resources that can be allocated quickly and dynamically to any application in need.
+
+For more information about VMware vSphere and its components, see https://www.vmware.com/products/vsphere.html[VMware vSphere^].
+
+== VMware vCenter Server
+
+VMware vCenter Server provides unified management of all hosts and VMs from a single console and aggregates performance monitoring of clusters, hosts, and VMs. VMware vCenter Server gives administrators a deep insight into the status and configuration of compute clusters, hosts, VMs, storage, the guest OS, and other critical components of a virtual infrastructure. VMware vCenter manages the rich set of features available in a VMware vSphere environment.
+
+For detailed information, see https://www.vmware.com/products/vcenter.html[VMware vCenter^].
+
+== Hardware and software revisions
+
+This hybrid cloud solution can be extended to any FlexPod environment that is running supported versions of software, firmware, and hardware as defined in the http://support.netapp.com/matrix/[NetApp Interoperability Matrix Tool^], https://ucshcltool.cloudapps.cisco.com/public/[UCS Hardware and Software Compatibility^], and https://www.vmware.com/resources/compatibility/search.php[VMware Compatibility Guide^].
+
+The following table shows the on-premises FlexPod hardware and software revisions.
+
+|===
+|Component |Product |Version
+
+|Compute
+|Cisco UCS X210c M6
+|5.0(1b)
+|
+|Cisco UCS Fabric Interconnects 6454
+|4.2(2a)
+|Network
+|Cisco Nexus 9336C-FX2 NX-OS
+|9.3(9)
+|Storage
+
+|NetApp AFF A400
+|ONTAP 9.11.1P2
+|
+|NetApp ONTAP Tools for VMware vSphere
+|9.11
+|
+|NetApp NFS Plug-in for VMware VAAI
+|2.0
+|
+|NetApp Active IQ Unified Manager
+|9.11P1
+|Software
+|VMware vSphere
+|7.0(U3)
+|
+|VMware ESXi nenic Ethernet Driver
+|1.0.35.0
+|
+|VMware vCenter Appliance
+|7.0.3
+|
+|Cisco Intersight Assist Virtual Appliance
+|1.0.9-342
+|===
+
+The following table shows the NetApp BlueXP and Cloud Volumes ONTAP versions.
+
+|===
+|Vendor |Product |Version
+
+|NetApp
+|BlueXP
+|3.9.24
+|
+|Cloud Volumes ONTAP
+|ONTAP 9.11
+|===
+
+link:fhc-cvoe-installation-and-configuration.html[Next: Installation and configuration.]
