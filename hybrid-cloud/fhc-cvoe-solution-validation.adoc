@@ -66,7 +66,7 @@ Application-consistent snapshot can also be performed using NetApp SnapCenter, w
 . Perform a SnapMirror update operation to keep the production and DR systems in sync.
 +
 ....
-Singlecvoaws::> snapmirror update -destination-path svm_singlecvoaws:hc_iscsi_vol_copy -source-path Healthcare_SVM:hc_iscsi_vol
+singlecvoaws::> snapmirror update -destination-path svm_singlecvoaws:hc_iscsi_vol_copy -source-path Healthcare_SVM:hc_iscsi_vol
 
 Operation is queued: snapmirror update of destination “svm_singlecvoaws:hc_iscsi_vol_copy”.
 ....
@@ -133,7 +133,7 @@ Output:
 sudo mount -t xfs /dev/datavg/datalv /file1
 
 cd /file1
-/df -k . 
+df -k . 
 Output:
 Filesystem                 1K-blocks  Used     Available  Use%  Mounted on
 /dev/mapper/datavg-datalv  209608708 183987096  25621612  88%    /file1
@@ -220,7 +220,7 @@ Output:
 sudo mount -t xfs /dev/datavg/datalv /file1
 
 cd /file1
-/df -k .
+df -k .
 Output:
 Filesystem                 1K-blocks  Used      Available  Use%  Mounted on
 /dev/mapper/datavg-datalv  209608708  183987096  25621612  88%   /file1

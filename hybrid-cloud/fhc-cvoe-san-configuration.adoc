@@ -214,9 +214,9 @@ tmpfs                       1620652       0   1620652   0% /run/user/0
 /dev/mapper/datavg-datalv 209608708 1494520 208114188   1% /file1
 ....
 
-For detailed information about these tasks, see the page LVM Administration with CLI Commands.
+For detailed information about these tasks, see the page link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/logical_volume_manager_administration/lvm_cli[LVM Administration with CLI Commands].
 
-== Data Generation
+== Data generation
 
 `Dgen.pl` is a perl script data generator for EHR’s I/O simulator (GenerateIO). Data inside the LUNs are generated with the EHR `Dgen.pl` script. The script is designed to create data similar to what would be found inside an EHR database.
 
