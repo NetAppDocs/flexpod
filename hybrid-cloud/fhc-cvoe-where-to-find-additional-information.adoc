@@ -77,6 +77,6 @@ http://www.vmware.com/resources/compatibility/search.php[http://www.vmware.com/r
 |Version |Date |Document version history
 
 |Version 1.0
-|January 2023
+|March 2023
 |Initial version
 |===

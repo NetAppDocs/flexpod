@@ -56,6 +56,7 @@ vserver(cDOT/FlashRay) lun-pathname filename  adapter protocol size   product
 -----------------------------------------------------------------------------
 Healthcare_SVM                       /dev/sdb host33  iSCSI    200g    cDOT
                        /vol/hc_iscsi_vol/iscsi_lun1 
+
 Healthcare_SVM                       /dev/sdc host34  iSCSI    200g    cDOT
                        /vol/hc_iscsi_vol/iscsi_lun1
 ....
@@ -102,7 +103,9 @@ devices {
 ....
 [root@hc-cloud-secure-1 ~]# modprobe -v dm-multipath
 insmod /lib/modules/4.18.0-408.el8.x86_64/kernel/drivers/md/dm-multipath.ko.xz
+
 [root@hc-cloud-secure-1 ~]# systemctl restart multipathd.service
+
 [root@hc-cloud-secure-1 ~]# multipath -ll
 3600a09803831494c372b545a4d786278 dm-2 NETAPP,LUN C-Mode
 size=200G features='3 queue_if_no_path pg_init_retries 50' hwhandler='1 alua' wp=rw
@@ -113,14 +116,15 @@ size=200G features='3 queue_if_no_path pg_init_retries 50' hwhandler='1 alua' wp
 ....
 
 [NOTE]
-For detailed information about these steps, see https://docs.netapp.com/us-en/ontap-sanhost/hu_centos_80.html[the page Discover on-premises ONTAP clusters^].
+For detailed information about these steps, see https://docs.netapp.com/us-en/ontap-sanhost/hu_centos_80.html[here^].
 
 == Create physical volume
 
 Use the `pvcreate` command to initialize a block device to be used as a physical volume. Initialization is analogous to formatting a file system.
 
 ....
-[root@hc-cloud-secure-1 ~]# pvcreate /dev/sdbPhysical volume "/dev/sdb" successfully created.
+[root@hc-cloud-secure-1 ~]# pvcreate /dev/sdb
+Physical volume "/dev/sdb" successfully created.
 ....
 
 == Create volume group
@@ -128,14 +132,34 @@ Use the `pvcreate` command to initialize a block device to be used as a physical
 To create a volume group from one or more physical volumes, use the `vgcreate` command. This command creates a new volume group by name and adds at least one physical volume to it.
 
 ....
-[root@hc-cloud-secure-1 ~]# vgcreate datavg /dev/sdbVolume group "datavg" successfully created.
+[root@hc-cloud-secure-1 ~]# vgcreate datavg /dev/sdb
+Volume group "datavg" successfully created.
 ....
 
 The `vgdisplay` command can be used to display volume group properties (such as size, extents, number of physical volumes, and so on) in a fixed form.
 
 ....
 [root@hc-cloud-secure-1 ~]# vgdisplay datavg
-  --- Volume group ---   VG Name               datavg  System ID  Format                lvm2  Metadata Areas        1  Metadata Sequence No  1  VG Access             read/write  VG Status             resizable  MAX LV                0  Cur LV                0  Open LV               0  Max PV                0  Cur PV                1  Act PV                1  VG Size               <200.00 GiB  PE Size               4.00 MiB  Total PE              51199  Alloc PE / Size       0 / 0  Free  PE / Size       51199 / <200.00 GiB  VG UUID               C7jmI0-J0SS-Cq91-t6b4-A9xw-nTfi-RXcy28
+  --- Volume group --- 
+  VG Name               datavg  
+  System ID  
+  Format                lvm2  
+  Metadata Areas        1  
+  Metadata Sequence No  1  
+  VG Access             read/write 
+  VG Status             resizable  
+  MAX LV                0  
+  Cur LV                0  
+  Open LV               0  
+  Max PV                0  
+  Cur PV                1  
+  Act PV                1  
+  VG Size               <200.00 GiB  
+  PE Size               4.00 MiB  
+  Total PE              51199  
+  Alloc PE / Size       0 / 0  
+  Free  PE / Size       51199 / <200.00 GiB  
+  VG UUID               C7jmI0-J0SS-Cq91-t6b4-A9xw-nTfi-RXcy28
 ....
 
 == Create logical volume
@@ -143,7 +167,8 @@ The `vgdisplay` command can be used to display volume group properties (such as 
 When you create a logical volume, the logical volume is carved from a volume group using the free extents on the physical volumes that make up the volume group.
 
 ....
-[root@hc-cloud-secure-1 ~]# lvcreate - l 100%FREE -n datalv datavgLogical volume "datalv" created.
+[root@hc-cloud-secure-1 ~]# lvcreate - l 100%FREE -n datalv datavg
+Logical volume "datalv" created.
 ....
 
 This command creates a logical volume called `datalv` that uses all of the unallocated space in the volume group `datavg`.
@@ -151,7 +176,17 @@ This command creates a logical volume called `datalv` that uses all of the unall
 == Create file system
 
 ....
-[root@hc-cloud-secure-1 ~]# mkfs.xfs -K /dev/datavg/datalvmeta-data=/dev/datavg/datalv     isize=512    agcount=4, agsize=13106944 blks         =                       sectsz=4096  attr=2, projid32bit=1         =                       crc=1        finobt=1, sparse=1, rmapbt=0         =                       reflink=1    bigtime=0 inobtcount=0data     =                       bsize=4096   blocks=52427776, imaxpct=25         =                       sunit=0      swidth=0 blksnaming   =version 2              bsize=4096   ascii-ci=0, ftype=1log      =internal log           bsize=4096   blocks=25599, version=2         =                       sectsz=4096  sunit=1 blks, lazy-count=1realtime =none                   extsz=4096   blocks=0, rtextents=0
+[root@hc-cloud-secure-1 ~]# mkfs.xfs -K /dev/datavg/datalv
+meta-data=/dev/datavg/datalv     isize=512    agcount=4, agsize=13106944 blks
+         =                       sectsz=4096  attr=2, projid32bit=1         
+         =                       crc=1        finobt=1, sparse=1, rmapbt=0         
+         =                       reflink=1    bigtime=0 inobtcount=0
+data     =                       bsize=4096   blocks=52427776, imaxpct=25         
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+log      =internal log           bsize=4096   blocks=25599, version=2
+         =                       sectsz=4096  sunit=1 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
 ....
 
 == Make folder to mount
@@ -163,18 +198,40 @@ This command creates a logical volume called `datalv` that uses all of the unall
 == Mount the file system
 
 ....
-[root@hc-cloud-secure-1 ~]# mount -t xfs /dev/datavg/datalv /file1[root@hc-cloud-secure-1 ~]# df -kFilesystem                1K-blocks    Used Available Use% Mounted ondevtmpfs                    8072804       0   8072804   0% /devtmpfs                       8103272       0   8103272   0% /dev/shmtmpfs                       8103272    9404   8093868   1% /runtmpfs                       8103272       0   8103272   0% /sys/fs/cgroup/dev/mapper/cs-root        45496624 5642104  39854520  13% //dev/sda2                   1038336  258712    779624  25% /boot/dev/sda1                    613184    7416    605768   2% /boot/efitmpfs                       1620652      12   1620640   1% /run/user/42tmpfs                       1620652       0   1620652   0% /run/user/0/dev/mapper/datavg-datalv 209608708 1494520 208114188   1% /file1
+[root@hc-cloud-secure-1 ~]# mount -t xfs /dev/datavg/datalv /file1
+
+[root@hc-cloud-secure-1 ~]# df -k
+Filesystem                1K-blocks    Used Available Use% Mounted on
+devtmpfs                    8072804       0   8072804   0% /dev
+tmpfs                       8103272       0   8103272   0% /dev/shm
+tmpfs                       8103272    9404   8093868   1% /run
+tmpfs                       8103272       0   8103272   0% /sys/fs/cgroup
+/dev/mapper/cs-root        45496624 5642104  39854520  13% /
+/dev/sda2                   1038336  258712    779624  25% /boot
+/dev/sda1                    613184    7416    605768   2% /boot/efi
+tmpfs                       1620652      12   1620640   1% /run/user/42
+tmpfs                       1620652       0   1620652   0% /run/user/0
+/dev/mapper/datavg-datalv 209608708 1494520 208114188   1% /file1
 ....
 
-For detailed information about these tasks, see the page LVM Administration with CLI Commands.
+For detailed information about these tasks, see the page link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/logical_volume_manager_administration/lvm_cli[LVM Administration with CLI Commands].
 
-== Data Generation
+== Data generation
 
 `Dgen.pl` is a perl script data generator for EHR’s I/O simulator (GenerateIO). Data inside the LUNs are generated with the EHR `Dgen.pl` script. The script is designed to create data similar to what would be found inside an EHR database.
 
 ....
-[root@hc-cloud-secure-1 ~]# cd GenerateIO-1.17.3/[root@hc-cloud-secure-1 GenerateIO-1.17.3]# ./dgen.pl --directory /file1 --jobs 80[root@hc-cloud-secure-1 ~]# cd /file1/[root@hc-cloud-secure-1 file1]# ls
-dir01  dir05  dir09  dir13  dir17  dir21  dir25  dir29  dir33  dir37  dir41  dir45  dir49  dir53  dir57  dir61  dir65  dir69  dir73  dir77  dir02  dir06  dir10  dir14  dir18  dir22  dir26  dir30  dir34  dir38  dir42  dir46  dir50  dir54  dir58  dir62  dir66  dir70  dir74  dir78  dir03  dir07  dir11  dir15  dir19  dir23  dir27  dir31  dir35  dir39  dir43  dir47  dir51  dir55  dir59  dir63  dir67  dir71  dir75  dir79  dir04  dir08  dir12  dir16  dir20  dir24  dir28  dir32  dir36  dir40  dir44  dir48  dir52  dir56  dir60  dir64  dir68  dir72  dir76  dir80[root@hc-cloud-secure-1 file1]# df -k . Filesystem                 1K-blocks  Used       Available  Use%  Mounted on/dev/mapper/datavg-datalv  209608708  178167156  31441552   85%   /file1
+[root@hc-cloud-secure-1 ~]# cd GenerateIO-1.17.3/
+
+[root@hc-cloud-secure-1 GenerateIO-1.17.3]# ./dgen.pl --directory /file1 --jobs 80
+
+[root@hc-cloud-secure-1 ~]# cd /file1/
+[root@hc-cloud-secure-1 file1]# ls
+dir01  dir05  dir09  dir13  dir17  dir21  dir25  dir29  dir33  dir37  dir41  dir45  dir49  dir53  dir57  dir61  dir65  dir69  dir73  dir77  dir02  dir06  dir10  dir14  dir18  dir22  dir26  dir30  dir34  dir38  dir42  dir46  dir50  dir54  dir58  dir62  dir66  dir70  dir74  dir78  dir03  dir07  dir11  dir15  dir19  dir23  dir27  dir31  dir35  dir39  dir43  dir47  dir51  dir55  dir59  dir63  dir67  dir71  dir75  dir79  dir04  dir08  dir12  dir16  dir20  dir24  dir28  dir32  dir36  dir40  dir44  dir48  dir52  dir56  dir60  dir64  dir68  dir72  dir76  dir80
+
+[root@hc-cloud-secure-1 file1]# df -k . 
+Filesystem                 1K-blocks  Used       Available  Use%  Mounted on
+/dev/mapper/datavg-datalv  209608708  178167156  31441552   85%   /file1
 ....
 
 While running, the `Dgen.pl` script uses 85% of the file system for data generation by default.
