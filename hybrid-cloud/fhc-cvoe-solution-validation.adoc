@@ -66,7 +66,9 @@ Application-consistent snapshot can also be performed using NetApp SnapCenter, w
 . Perform a SnapMirror update operation to keep the production and DR systems in sync.
 +
 ....
-Singlecvoaws::> snapmirror update -destination-path svm_singlecvoaws:hc_iscsi_vol_copy -source-path Healthcare_SVM:hc_iscsi_volOperation is queued: snapmirror update of destination “svm_singlecvoaws:hc_iscsi_vol_copy”.
+singlecvoaws::> snapmirror update -destination-path svm_singlecvoaws:hc_iscsi_vol_copy -source-path Healthcare_SVM:hc_iscsi_vol
+
+Operation is queued: snapmirror update of destination “svm_singlecvoaws:hc_iscsi_vol_copy”.
 ....
 +
 A SnapMirror update can also be performed through the BlueXP GUI under the *Replication* tab.
@@ -74,7 +76,9 @@ A SnapMirror update can also be performed through the BlueXP GUI under the *Repl
 . Create a FlexClone instance based on the application snapshot that was taken earlier.
 +
 ....
-singlecvoaws::> volume clone create -flexclone kamini_clone -type RW -parent-vserver svm_singlecvoaws -parent-volume hc_iscsi_vol_copy -junction-active true -foreground true -parent-snapshot kamini[Job 996] Job succeeded: Successful
+singlecvoaws::> volume clone create -flexclone kamini_clone -type RW -parent-vserver svm_singlecvoaws -parent-volume hc_iscsi_vol_copy -junction-active true -foreground true -parent-snapshot kamini
+
+[Job 996] Job succeeded: Successful
 ....
 +
 For the previous task, a new snapshot can also be created, but you must follow the same steps as above to ensure application consistency.
@@ -82,28 +86,57 @@ For the previous task, a new snapshot can also be created, but you must follow t
 . Activate a FlexClone volume to bring up the EHR instance in the cloud.
 +
 ....
-singlecvoaws::> lun mapping create –vserver svm_singlecvoaws –path /vol/kamini_clone/iscsi_lun1 -igroup ehr-igroup –lun-id 0singlecvoaws::> lun mapping showVserver     Path                                Igroup   LUN ID  Protocol----------  -------------- --------------- -----  --------   ------ --------- svm_singlecvoaws                  /vol/kamini_clone/iscsi_lun1  ehr-igroup  0    iscsi
+singlecvoaws::> lun mapping create –vserver svm_singlecvoaws –path /vol/kamini_clone/iscsi_lun1 -igroup ehr-igroup –lun-id 0
+
+singlecvoaws::> lun mapping show
+Vserver     Path                                  Igroup    LUN ID  Protocol
+---------- -------------- --------------- -----  --------   ------ --------- 
+svm_singlecvoaws 
+                 /vol/kamini_clone/iscsi_lun1    ehr-igroup   0    iscsi
 ....
 
 . Execute the following commands on the EHR instance in the cloud to access the data or filesystem.
 .. Discover ONTAP storage. Check the multipathing status.
 +
 ....
-sudo rescan-scsi-bus.shsudo iscsiadm -m discovery -t sendtargets -p <iscsi-lif-ip>sudo iscsiadm -m node -L all
-sudo sanlun lun showOutput: controller(7mode/E-Series)/         device    host             lunvserver(cDOT/FlashRay) lun-pathname filename  adapter protocol size   product----------------------------------------------------------------------------- svm_singlecvoaws                    /dev/sda  host2   iSCSI    200g    cDOT                    /vol/kamini_clone/iscsi_lun1
-sudo multipath -llOutput: 3600a09806631755a452b543041313053 dm-0 NETAPP,LUN C-Modesize=200G features='3 queue_if_no_path pg_init_retries 50' hwhandler='1 alua' wp=rw`-+- policy='service-time 0' prio=50 status=active`- 2:0:0:0 sda 8:0 active ready running
+sudo rescan-scsi-bus.sh
+sudo iscsiadm -m discovery -t sendtargets -p <iscsi-lif-ip>
+sudo iscsiadm -m node -L all
+sudo sanlun lun show
+
+Output:
+controller(7mode/E-Series)/         device    host             lun
+vserver(cDOT/FlashRay) lun-pathname filename  adapter protocol size   product
+----------------------------------------------------------------------------- 
+svm_singlecvoaws                    /dev/sda  host2   iSCSI    200g    cDOT
+                    /vol/kamini_clone/iscsi_lun1
+sudo multipath -ll
+
+Output:
+3600a09806631755a452b543041313053 dm-0 NETAPP,LUN C-Mode
+size=200G features='3 queue_if_no_path pg_init_retries 50' hwhandler='1 alua' wp=rw
+`-+- policy='service-time 0' prio=50 status=active
+`- 2:0:0:0 sda 8:0 active ready running
 ....
 
 .. Activate the volume group.
 +
 ....
-sudo vgchange -ay datavgOutput: 1 logical volume(s) in volume group "datavg" now active
+sudo vgchange -ay datavg
+Output:
+1 logical volume(s) in volume group "datavg" now active
 ....
 
 .. Mount the file system and display the summary of filesystem information.
 +
 ....
-sudo mount -t xfs /dev/datavg/datalv /file1cd /file1/df -k . Output: Filesystem                 1K-blocks  Used     Available  Use%  Mounted on/dev/mapper/datavg-datalv  209608708 183987096  25621612  88%    /file1
+sudo mount -t xfs /dev/datavg/datalv /file1
+
+cd /file1
+df -k . 
+Output:
+Filesystem                 1K-blocks  Used     Available  Use%  Mounted on
+/dev/mapper/datavg-datalv  209608708 183987096  25621612  88%    /file1
 ....
 +
 This validates that you can use the DR environment for application dev/test. Performing application dev/test on your DR storage allows you to get more use out of resources that might otherwise sit idle much of the time.
@@ -122,7 +155,7 @@ image:fhc-cvoe-image21.png["This screenshot shows the stop option in the Storage
 +
 Make sure that SnapMirror replication is already set up between the on-premises ONTAP in FlexPod instance and Cloud Volumes ONTAP in AWS, so that you can create frequent application snapshots.  
 +
-After the SVM has been stopped, the `hc_iscsi_vol` volume is be visible in BlueXP.
+After the SVM has been stopped, the `hc_iscsi_vol` volume is not visible in BlueXP.
 +
 image:fhc-cvoe-image22.png["The volume is now visible in the volume summary screen."]
 
@@ -134,33 +167,63 @@ image:fhc-cvoe-image23.png["The break relationship option screen is displayed."]
 After the SnapMirror relationship is broken, the destination volume type changes from data protection (DP) to read/write (RW).
 +
 ....
-singlecvoaws::> volume show -volume hc_iscsi_vol_copy -fields typevserver          volume            type---------------- ----------------- ---- svm_singlecvoaws hc_iscsi_vol_copy RW
+singlecvoaws::> volume show -volume hc_iscsi_vol_copy -fields typev
+server          volume            type
+---------------- ----------------- ---- 
+svm_singlecvoaws hc_iscsi_vol_copy RW
 ....
 
 .. Activate the destination volume in Cloud Volumes ONTAP to bring up the EHR instance on an EC2 instance in the cloud.
 +
 ....
-singlecvoaws::> lun mapping create –vserver svm_singlecvoaws –path /vol/hc_iscsi_vol_copy/iscsi_lun1 -igroup ehr-igroup –lun-id 0singlecvoaws::> lun mapping showVserver     Path                                Igroup   LUN ID  Protocol---------- ----------------------------------  --------  ------ --------- svm_singlecvoaws             /vol/hc_iscsi_vol_copy/iscsi_lun1  ehr-igroup  0    iscsi
+singlecvoaws::> lun mapping create –vserver svm_singlecvoaws –path /vol/hc_iscsi_vol_copy/iscsi_lun1 -igroup ehr-igroup –lun-id 0
+
+singlecvoaws::> lun mapping show
+Vserver     Path                                Igroup   LUN ID  Protocol
+---------- ----------------------------------  --------  ------ --------- 
+svm_singlecvoaws 
+            /vol/hc_iscsi_vol_copy/iscsi_lun1  ehr-igroup  0    iscsi
 ....
 
 .. To access the data and filesystem on the EHR instance in the cloud, first discover the ONTAP storage and verify multipathing status.
 +
 ....
-sudo rescan-scsi-bus.shsudo iscsiadm -m discovery -t sendtargets -p <iscsi-lif-ip>sudo iscsiadm -m node -L all
-sudo sanlun lun showOutput: controller(7mode/E-Series)/         device    host             lunvserver(cDOT/FlashRay) lun-pathname filename  adapter protocol size   product----------------------------------------------------------------------------- svm_singlecvoaws                    /dev/sda  host2   iSCSI    200g    cDOT                  /vol/hc_iscsi_vol_copy/iscsi_lun1
-sudo multipath -llOutput: 3600a09806631755a452b543041313051 dm-0 NETAPP,LUN C-Modesize=200G features='3 queue_if_no_path pg_init_retries 50' hwhandler='1 alua' wp=rw`-+- policy='service-time 0' prio=50 status=active`- 2:0:0:0 sda 8:0 active ready running
+sudo rescan-scsi-bus.sh
+sudo iscsiadm -m discovery -t sendtargets -p <iscsi-lif-ip>
+sudo iscsiadm -m node -L all
+sudo sanlun lun show
+Output: 
+controller(7mode/E-Series)/         device    host             lun
+vserver(cDOT/FlashRay) lun-pathname filename  adapter protocol size   product
+----------------------------------------------------------------------------- 
+svm_singlecvoaws                    /dev/sda  host2   iSCSI    200g    cDOT
+                  /vol/hc_iscsi_vol_copy/iscsi_lun1
+sudo multipath -ll
+Output: 
+3600a09806631755a452b543041313051 dm-0 NETAPP,LUN C-Mode
+size=200G features='3 queue_if_no_path pg_init_retries 50' hwhandler='1 alua' wp=rw
+`-+- policy='service-time 0' prio=50 status=active
+`- 2:0:0:0 sda 8:0 active ready running
 ....
 
 .. Then activate the volume group.
 +
 ....
-sudo vgchange -ay datavgOutput: 1 logical volume(s) in volume group "datavg" now active
+sudo vgchange -ay datavg
+Output: 
+1 logical volume(s) in volume group "datavg" now active
 ....
 
 .. Finally, mount the file system and display the filesystem information.
 +
 ....
-sudo mount -t xfs /dev/datavg/datalv /file1cd /file1/df -k . Output: Filesystem                 1K-blocks  Used      Available  Use%  Mounted on/dev/mapper/datavg-datalv  209608708  183987096  25621612  88%   /file1
+sudo mount -t xfs /dev/datavg/datalv /file1
+
+cd /file1
+df -k .
+Output:
+Filesystem                 1K-blocks  Used      Available  Use%  Mounted on
+/dev/mapper/datavg-datalv  209608708  183987096  25621612  88%   /file1
 ....
 +
 This output shows that users can access replicated data across the network until the recovery of the production site from disaster.
@@ -180,7 +243,8 @@ Any data written to the original source volume between the last data replication
 .. To verify write access to the CVO volume, create a new file on the EHR instance in the cloud.
 +
 ....
-cd /file1/sudo touch newfile
+cd /file1/
+sudo touch newfile
 ....
 
 When the production site is down, clients can still access the data and also perform writes to the Cloud Volumes ONTAP volume, which is now the source volume.
@@ -208,7 +272,10 @@ image:fhc-cvoe-image27.png["This screenshot shows how to break a relationship."]
 After the SnapMirror relationship is broken, the on-premises volume type changes from data protection (DP) to read/write (RW).
 +
 ....
-A400-G0312::> volume show -volume hc_iscsi_vol -fields typevserver        volume       type-------------- ------------ ---- Healthcare_SVM hc_iscsi_vol RW
+A400-G0312::> volume show -volume hc_iscsi_vol -fields type
+vserver        volume       type
+-------------- ------------ ---- 
+Healthcare_SVM hc_iscsi_vol RW
 ....
 
 . Reverse the SnapMirror relationship. Now, the on-premises ONTAP volume (`hc_iscsi_vol`) becomes the source volume as it was earlier, and the Cloud Volumes ONTAP volume (`hc_iscsi_vol_copy`) becomes the destination volume.

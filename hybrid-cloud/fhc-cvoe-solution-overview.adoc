@@ -18,6 +18,9 @@ summary: NetApp offers a single data management solution for enterprise applicat
 // 2023-03-13 17:00:22.060667
 //
 
+In partnership with:
+image:cisco logo.png[cisco logo]
+
 Kamini Singh, NetApp
 
 [.lead]
@@ -33,7 +36,7 @@ NetApp offers a single data management solution for enterprise applications, inc
 
 By leveraging cost-effective and secure public cloud resources, Cloud Volumes ONTAP enhances cloud-based disaster recovery (DR) with highly efficient data replication, built-in storage efficiencies, and simple DR testing. These systems are managed with unified control and drag-and-drop simplicity, which provides cost-effective and bullet-proof protection against any kind of error, failure, or disaster. Cloud Volumes ONTAP provides NetApp SnapMirror technology as a solution for block-level data replication that keeps the destination up to date through incremental updates.
 
-image:fhc-cvoe-image1.jpeg[Error: Missing Graphic Image]
+image:fhc-cvoe-image1.jpeg["Cloud Volumes ONTAP provides NetApp SnapMirror technology as a solution for block-level data replication that keeps the destination up to date through incremental updates."]
 
 == Audience
 
