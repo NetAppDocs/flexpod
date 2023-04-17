@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: flexpod-dc/fpd-mcc-vsphere-design.html
+keywords: flexpod, cisco, data, center, aci, mcc, ip, vmware, vsphere, aci
+summary: "This document describes the integration of the Cisco ACI Multi-Pod and NetApp MetroCluster IP solution into the FlexPod Datacenter to provide a highly available multi-data center solution."
+---
+
+= FlexPod Datacenter with Cisco ACI Multi-Pod, NetApp MetroCluster IP, and VMware vSphere 6.7 - Design
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Haseeb Niazi, Cisco 
+Arvind Ramakrishnan, NetApp
+
+This document describes the integration of the Cisco ACI Multi-Pod and NetApp MetroCluster IP solution into the FlexPod Datacenter to provide a highly available multi-data center solution. The multi-data center architecture offers the ability to balance workloads between two data centers utilizing non-disruptive workload mobility, thereby enabling the migration of services between sites without the need for sustaining an outage.
+
+The FlexPod with ACI Multi-Pod and NetApp MetroCluster IP solution provides the following benefits:
+
+* Seamless workload mobility across data centers
+
+* Consistent policies across the sites
+
+* Layer-2 extension across geographically dispersed data centers
+
+* Enhanced downtime avoidance during maintenance
+
+* Disaster avoidance and recovery
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_esxi67_n9k_aci_metrocluster_design.html[FlexPod Datacenter with Cisco ACI Multi-Pod, NetApp MetroCluster IP, and VMware vSphere 6.7 - Design^]

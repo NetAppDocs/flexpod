@@ -1,0 +1,21 @@
+---
+sidebar: sidebar
+permalink: modern-apps/fpd-ai-dl-deploy.html
+keywords: flexpod, cisco, ai, ml, ucs, deep, learning, deploy, data, center
+summary: "This document provides deployment details and guidance around the integration of the Cisco UCS C480 ML M5 platform into the FlexPod data center solution to deliver a unified approach for providing AI and ML capabilities within the converged infrastructure."
+---
+
+= FlexPod Datacenter for combined AI and ML with Cisco UCS 480 ML for deep learning - Deployment
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Haseeb Niazi, Cisco 
+Arvind Ramakrishnan, NetApp
+
+This document provides deployment details and guidance around the integration of the Cisco UCS C480 ML M5 platform into the FlexPod data center solution to deliver a unified approach for providing AI and ML capabilities within the converged infrastructure. This document also explains the NVIDIA GPUs configuration on Cisco UCS C220 and C240 platforms. For a detailed design discussion about the platforms and technologies used in this solution, refer to the link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html[FlexPod Datacenter for combined AI and ML with Cisco UCS 480 ML for deep learning design^].
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_480ml_aiml_deployment.html[FlexPod Datacenter for combined AI and ML with Cisco UCS 480 ML for deep learning - Deployment^]
