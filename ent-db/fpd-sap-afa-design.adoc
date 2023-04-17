@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: ent-db/fpd-sap-afa-design.html
+keywords: flexpod, cisco, sap, hana, ucs, aff, a-series, tdi
+summary: "This document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments."
+---
+
+= FlexPod Datacenter for SAP Solution with Cisco UCS Manager 4.0 and NetApp AFF A–Series - Design
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Pramod Ramamurthy, Cisco
+Marco Schoen, NetApp
+
+This document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying SAP HANA Tailored Data Center Integration (TDI) environments. This validated design provides guidelines and a framework for implementing SAP HANA with best practices from Cisco and NetApp.
+
+FlexPod is a leading integrated infrastructure that supports a broad range of enterprise workloads and use cases. This solution allows you to quickly and reliably deploy SAP HANA with a model of a tailored data center integration mode.
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_sap_netappaffa_design.html[FlexPod Datacenter for SAP Solution with Cisco UCS Manager 4.0 and NetApp AFF A–Series - Design^]

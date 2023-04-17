@@ -1,0 +1,22 @@
+---
+sidebar: sidebar
+permalink: vdi/fpd-citrix-vir.html
+keywords: flexpod, cisco, data, center, citrix, virtual, apps, vmware, vsphere 
+summary: "This document provides the architecture and design of a virtual desktop infrastructure for up to 6000 end-user computing users."
+---
+
+= FlexPod Datacenter with Citrix Virtual Apps & Desktops 1912 LTSR and VMware vSphere 7 for up to 6000 seats
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Jeff Nichols, Cisco 
+Suresh Thoppay, NetApp
+Dre Jackson, NetApp
+
+This document provides the architecture and design of a virtual desktop infrastructure for up to 6000 end-user computing users. The solution is virtualized on fifth-generation Cisco UCS B200 M5 blade servers, booting VMware vSphere 7.01 Update 1 through FC SAN from the AFF A400 storage array. The virtual desktops are powered using Citrix Provisioning Server 1912 LTSR and Citrix RDS/Citrix Virtual Apps & Desktops 1912 LTSR, with a mix of RDS-hosted shared desktops (6000), pooled and/or non-persistent-hosted virtual Windows 10 desktops (5000), and persistent-hosted virtual Windows 10 desktops provisioned with Citrix Machine Creation Services (5000) to support the user population. Where applicable, the document provides best-practice recommendations and sizing guidelines for customer deployments of this solution.
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/cisco_ucs_ctx1912esxi7u1_flexpodV2.html[FlexPod Datacenter with Citrix Virtual Apps & Desktops 1912 LTSR and VMware vSphere 7 for up to 6000 seats^]

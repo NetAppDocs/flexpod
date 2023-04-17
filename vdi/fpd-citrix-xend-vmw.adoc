@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: vdi/fpd-citrix-xend-vmw.html
+keywords: cisco, flexpod, all, flash, aff, citrix, vmware, vsphere, stroage, esxi, hypervisor
+summary: "This document provides a Reference Architecture for a virtual desktop and application design using Citrix XenApp/XenDesktop 7.15 built on Cisco UCS with a NetApp All Flash FAS (AFF) A300 storage and the VMware vSphere ESXi 6.5 hypervisor platform."
+---
+
+= FlexPod Datacenter with Citrix XenDesktop/XenApp 7.15 and VMware vSphere 6.5 Update 1 for 6000 seats
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Vadim Lebedev, Cisco 
+Chris Rodriguez, NetApp
+
+This document provides a Reference Architecture for a virtual desktop and application design using Citrix XenApp/XenDesktop 7.15 built on Cisco UCS with a NetApp All Flash FAS (AFF) A300 storage and the VMware vSphere ESXi 6.5 hypervisor platform.
+
+The landscape of desktop and application virtualization is changing constantly. The new M5 high-performance Cisco UCS Blade Servers and Cisco UCS Unified Fabric combined as part of the FlexPod proven Infrastructure, with the latest generation NetApp AFF storage result in a more compact, more powerful, more reliable and more efficient platform. 
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/cisco_ucs_xd715esxi65u1_flexpod.html[FlexPod Datacenter with Citrix XenDesktop/XenApp 7.15 and VMware vSphere 6.5 Update 1 for 6000 seats^]

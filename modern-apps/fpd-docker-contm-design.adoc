@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: modern-apps/fpd-docker-contm-design.html
+keywords: flexpod, docket, cisco, container, management, data
+summary: "Docker is the world leading software container platform for developers and IT operations to build, ship, and run distributed applications anywhere."
+---
+
+= FlexPod Datacenter with Docker Enterprise Edition for Container Management 
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+Muhammad Afzal, Cisco 
+John George, Cisco 
+Amit Borulkar, NetApp
+Uday Shetty, Docker
+
+Docker is the world’s leading software container platform for developers and IT operations to build, ship, and run distributed applications anywhere. With microservices architecture shaping the next generation of IT, enterprises with large investments in monolithic applications are finding ways to adopt Docker as a strategy for modernizing their application architectures and keeping the organization competitive and cost effective. Containerization provides the agility, control, and portability that developers and IT operations require to build and deploy applications across any infrastructure. The Docker platform allows distributed applications to be easily composed into a lightweight application container that can change dynamically yet non-disruptively. This capability makes the applications portable across development, test, and production environments running on physical or virtual machines locally, in data centres, and across the networks of different cloud service providers.
+
+link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_docker_deploy_design.html[FlexPod Datacenter with Docker Enterprise Edition for Container Management^]
