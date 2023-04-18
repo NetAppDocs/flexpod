@@ -392,8 +392,8 @@ image:gcp-ncvo-image55.png[Screenshot]
 image:gcp-ncvo-image56.png[Screenshot]
 
 . Provide the following GitHub repository details:
-.. In *Repository Name*, enter the name of the repository detailed in the section link:p-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites”]. 
-.. Provide the OAuth Token ID as detailed in the section link:p-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites”].
+.. In *Repository Name*, enter the name of the repository detailed in the section link:gcp-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites”]. 
+.. Provide the OAuth Token ID as detailed in the section link:gcp-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites”].
 .. Select the *Automatic Run Triggering* option.
 +
 image:gcp-ncvo-image57.png[Screenshot]
@@ -543,7 +543,7 @@ image:gcp-ncvo-image66.png[Screenshot]
 ** *Description.* Refresh token.
 +
 [NOTE]
-For more information about obtaining a refresh token for the NetApp Cloud Manager API operations, see the section link:p-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites.”]
+For more information about obtaining a refresh token for the NetApp Cloud Manager API operations, see the section link:gcp-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html#google-cloud#set-up-environment-prerequisites[“Set up environment prerequisites.”]
 +
 image:gcp-ncvo-image67.png[Screenshot]
 

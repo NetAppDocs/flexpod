@@ -47,7 +47,7 @@ The following table lists the Nexus cluster interconnect switches that are avail
 https://mysupport.netapp.com/documentation/docweb/index.html?productID=62377&language=en-US[NetApp Documentation: Cisco Nexus 3132Q-V switches]
 |Cisco Nexus 9336C-FX2
 |
-https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336/9336-overview.html[NetApp Documentation: Cisco Nexus 9336C-FX2 switches]
+https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/[NetApp Documentation: Cisco Nexus 9336C-FX2 switches]
 |===
 
 == NetApp disk shelf and drive options

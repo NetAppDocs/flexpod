@@ -421,4 +421,4 @@ To scale the solution by adding additional Cisco UCS servers, run the previous c
 
 Depending on the available network infrastructure, several methods and features can be used to uplink the FlexPod environment. If an existing Cisco Nexus environment is present, NetApp recommends using vPCs to uplink the Cisco Nexus 31108 switches included in the FlexPod environment into the infrastructure. The uplinks can be 10GbE uplinks for a 10GbE infrastructure solution or 1GbE for a 1GbE infrastructure solution if required. The previously described procedures can be used to create an uplink vPC to the existing environment. Make sure to run copy start to save the configuration on each switch after the configuration is completed.
 
-link:express-c-series-c190-design_netapp_storage_deployment_procedure_@part_1@.html[Next: NetApp storage deployment procedure (part 1)]
+link:express-c-series-c190-deploy_netapp_storage_deployment_procedure_@part_1@.html[Next: NetApp storage deployment procedure (part 1).]
