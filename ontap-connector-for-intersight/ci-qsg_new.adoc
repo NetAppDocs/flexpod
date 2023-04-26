@@ -14,14 +14,6 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
-== April 2023
-* Added Protection Policies (SnapMirror) and Snapshot Policies tabs under the Policies page within the Inventory section of the user interface.
-* Added NFS Clients page under the Inventory section of the user interface.  
-* Added Protected column in the Storage VMs page under the Inventory section of the user interface.
-* Modified how Data Reduction information is reported and displayed.
-* Added Local Tier and Cloud Tier tabs under the Tiers page within the Inventory section of the user interface.
-* Node column now displays after the Name column under the Ports page within the Inventory section of the user interface.
- 
 == January 2023 
 NOTE: An upgrade to NetApp Active IQ Unified Manager 9.12 GA is required to ensure compatibility and full functionality with the latest release. For a list of known issues related to this release, see <<Known Issues>>.
 
@@ -101,4 +93,4 @@ NOTE: The above performance metrics are only available for storage arrays monito
 * If you are using AIQUM 9.11 or earlier, any checks performed by the "Interoperability" tab under the "Integrated Systems" page will fail to distinguish IMM and UCSM Cisco components accurately. To resolve this issue, upgrade to AIQUM 9.12 to ensure all components are properly identified.
 * To ensure Intersight storage inventory data is unaffected during the data collection process, any unsupported ONTAP clusters (i.e., versions below ONTAP 9.7P1) must be removed from the Active IQ Unified Manager (AIQUM).
 * All claimed targets require a minimum AIQUM version of 9.11 for FlexPod Integrated System Interoperability queries to complete successfully.
-* The Storage Inventory Checks page will not populate if the ONTAP cluster is added to AIQUM using an FQDN. Users must add ONTAP clusters to AIQUM using an IP address.  
+* The Storage Inventory Checks page will not populate if the ONTAP cluster is added to AIQ-UM using an FQDN. Users must add ONTAP clusters to AIQ-UM using an IP address.  
