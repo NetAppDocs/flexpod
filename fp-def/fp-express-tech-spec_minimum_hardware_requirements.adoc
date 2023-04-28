@@ -18,6 +18,7 @@ summary: This section describes the minimum hardware requirements for the differ
 // 2021-05-20 13:19:48.580769
 //
 
+[.lead]
 This section describes the minimum hardware requirements for the different versions of FlexPod Express.
 
 == FlexPod Express with NetApp FAS

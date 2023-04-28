@@ -18,6 +18,7 @@ summary: This section details a reference for validation cabling and cabling inf
 // 2021-04-19 12:01:33.747891
 //
 
+[.lead]
 The following figure shows the reference validation cabling.
 
 image:express-c-series-aff220-deploy_image5.png[Error: Missing Graphic Image]

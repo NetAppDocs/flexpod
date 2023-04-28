@@ -19,6 +19,7 @@ summary: In keeping with the fundamental principles of the FlexPod program, the 
 // 2021-04-22 15:25:30.218436
 //
 
+[.lead]
 Cisco and NetApp designed and built FlexPod Express to serve as a premier infrastructure platform for their customers. Because it was designed by using industry-leading components, customers can trust FlexPod Express as their infrastructure foundation. In keeping with the fundamental principles of the FlexPod program, the FlexPod Express architecture was thoroughly tested by Cisco and NetApp data center architects and engineers. From redundancy and availability to each individual feature, the entire FlexPod Express architecture is validated to instill confidence in our customers and to build trust in the design process.
 
 The VMware vSphere 6.7U1 hypervisor was verified on FlexPod Express infrastructure components. This validation included iSCSI Direct Connect SAN Boot connection and NFS Direct Connect datastores using the 10GbE connectivity option.

@@ -24,6 +24,7 @@ Mike Brennan and Jon Ebmeier, Cisco
 In partnership with:
 image:cisco logo.png[Error: Missing Graphic Image]
 
+[.lead]
 == Overall solution benefits
 
 By running a MEDITECH environment on the FlexPod architectural foundation, your healthcare organization can expect an improvement in staff productivity and a decrease in capital and operational expenditures. FlexPod Datacenter for MEDITECH delivers several benefits that are specific to the healthcare industry, including:

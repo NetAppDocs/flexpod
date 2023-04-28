@@ -18,7 +18,7 @@ summary: The following section details the Cisco Nexus 3172P switch configuratio
 // 2021-04-19 12:01:33.784718
 //
 
-
+[.lead]
 The following section details the Cisco Nexus 3172P switch configuration used in a FlexPod Express environment.
 
 == Initial setup of Cisco Nexus 3172P switch

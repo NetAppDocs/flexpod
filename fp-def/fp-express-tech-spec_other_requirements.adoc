@@ -18,6 +18,7 @@ summary: Additional requirements for Flexpod Express are listed below.
 // 2021-05-20 13:19:48.594959
 //
 
+[.lead]
 Additional requirements for FlexPod Express include the following:
 
 * Valid support contracts are required for all equipment, including:

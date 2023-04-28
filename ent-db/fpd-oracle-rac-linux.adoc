@@ -17,6 +17,7 @@ Tushar Patel,  Cisco
 Niranjan Mohapatra, Cisco 
 John Elliott, NetApp
 
+[.lead]
 The Cisco Unified Computing System (Cisco UCS) is a next-generation data center platform that unites computing, network, storage access, and virtualization into a single cohesive system. Cisco UCS is an ideal platform for the architecture of mission-critical database workloads. The combination of Cisco UCS platform, NetApp storage, and Oracle Real Application Cluster (RAC) architecture can accelerate your IT transformation by enabling faster deployments, greater flexibility of choice, efficiency, and lower risk. This Cisco Validated Design (CVD) highlights a flexible, multitenant, high performance and resilient FlexPod reference architecture featuring the Oracle 12c RAC Database. 
 
 The FlexPod platform, developed by NetApp and Cisco, is a flexible, integrated infrastructure solution that delivers pre-validated storage, networking, and server technologies. It’s designed to increase IT responsiveness to business demands while reducing the overall cost of computing. Think maximum uptime, minimal risk. FlexPod components are integrated and standardized to help you achieve timely, repeatable, consistent deployments. You can plan with accuracy the power, floor space, usable capacity, performance, and cost of each FlexPod deployment.

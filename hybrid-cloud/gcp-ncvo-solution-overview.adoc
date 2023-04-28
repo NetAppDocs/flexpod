@@ -20,6 +20,7 @@ summary: This technical report brings together the FlexPod converged infrastruct
 
 Ruchika Lahoti, NetApp
 
+[.lead]
 == Introduction
 
 Protecting data with disaster recovery (DR) is a critical goal for businesses continuity. DR allows organizations to failover their business operations to a secondary location and later recover and failback to the primary site efficiently and reliably. Multiple concerns like natural disaster, network failures, software vulnerabilities, and human error make developing a DR strategy a top IT priority.

@@ -20,6 +20,7 @@ summary: This page provides an introduction to the FlexPod Datacenter solution u
 
 Jyh-shing Chen, NetApp
 
+[.lead]
 = Introduction
 
 == FlexPod solution

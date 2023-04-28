@@ -20,6 +20,7 @@ summary: This section describes how to install and configure Cloud Volumes ONTAP
 
 link:fhc-cvoe-solution-components.html[Previous: Solution components.]
 
+[.lead]
 == NetApp Cloud Volumes ONTAP deployment
 
 Complete the following steps to configure your Cloud Volumes ONTAP instance:

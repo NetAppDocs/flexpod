@@ -18,6 +18,7 @@ summary: A FlexPod design has minimum requirements for power and cabling.
 // 2021-06-03 13:02:39.868050
 //
 
+[.lead]
 A FlexPod design has minimum requirements for power and cabling.
 
 == Power requirements

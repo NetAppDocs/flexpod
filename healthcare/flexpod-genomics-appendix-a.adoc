@@ -20,6 +20,7 @@ summary: This section provides the jar file output from GATK.
 
 link:flexpod-genomics-genomics---gatk-setup-and-execution.html[Previous: Genomics - GATK setup and execution.]
 
+[.lead]
 Execution of GATK using the jar file produced the following sample output.
 
 ....

@@ -16,6 +16,7 @@ summary: "This document provides a reference architecture, design guide, and dep
 Ramesh Guduru, Cisco 
 David Arnette, NetApp 
 
+[.lead]
 This document provides a reference architecture, design guide, and deployment for up to a 5000-seat, mixed workload end-user computing environment on FlexPod Datacenter with Cisco UCS and NetApp All Flash FAS (AFF) A300 storage. The solution includes VMware Horizon server-based Remote Desktop Server Hosted sessions, VMware Horizon persistent Microsoft Windows 10 virtual desktops, and VMware Horizon non-persistent, Microsoft Windows 10 instant clone virtual desktops on VMware vSphere 6.5.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vmware_horizon_n9k_aff_ucsm32.html[FlexPod Datacenter with VMware Horizon View 7.3 and VMware vSphere 6.5 Update 1 with Cisco UCS Manager 3.2 for 5000 seats^]

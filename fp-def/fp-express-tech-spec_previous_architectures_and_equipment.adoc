@@ -18,6 +18,7 @@ summary: This section lists the previous FlexPod Express architectures and hardw
 // 2021-05-20 13:19:48.631473
 //
 
+[.lead]
 FlexPod is a flexible solution allowing customers to use both existing and new equipment currently for sale by Cisco and NetApp. Occasionally, certain models of equipment from both Cisco and NetApp are designated end of life.
 
 Even though these models of equipment are no longer available, customers who bought one of these models before the end-of-sale date can use that equipment in a FlexPod configuration.

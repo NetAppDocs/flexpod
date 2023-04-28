@@ -14,6 +14,7 @@ summary: The compute configuration for the FlexPod SM-BC solution follows typica
 
 link:sm-bcs-solution-validation_overview.html[Preivous: Solution validation - Overview.]
 
+[.lead]
 The compute configuration for the FlexPod SM-BC solution follows typical FlexPod solution best practices. The following sections highlight some of the connectivity and configurations used for the validation. Some of the SM-BC-related considerations are also highlighted to provide implementation references and guidance.
 
 == Connectivity

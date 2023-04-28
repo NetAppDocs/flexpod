@@ -18,4 +18,5 @@ summary: The journey to the cloud varies between organizations, between business
 // 2021-06-03 12:42:35.315347
 //
 
+[.lead]
 The journey to the cloud varies between organizations, between business units, and even between business units within organizations. Some choose a fast adoption, while others take a more conservative approach. FabricPool fits into the cloud strategy of organizations no matter their size and regardless of their cloud adoption speed, further demonstrating the efficiency and scalability benefits of a FlexPod infrastructure.

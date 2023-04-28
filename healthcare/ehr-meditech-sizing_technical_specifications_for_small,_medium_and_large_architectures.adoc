@@ -18,6 +18,7 @@ summary: This section discusses a sample Bill of Materials for different size st
 // 2021-05-20 13:29:17.665014
 //
 
+[.lead]
 This section discusses a sample Bill of Materials for different size storage architectures.
 
 == Bill of material for small, medium, and large architectures.

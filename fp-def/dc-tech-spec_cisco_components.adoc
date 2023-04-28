@@ -18,6 +18,7 @@ summary: Cisco has contributed substantially to the FlexPod design and architect
 // 2021-06-03 13:02:39.850558
 //
 
+[.lead]
 Cisco has contributed substantially to the FlexPod design and architecture, covering both the compute and networking layers of the solution. This section describes the Cisco UCS and Cisco Nexus options that are available for FlexPod. FlexPod supports both Cisco UCS B-Series and C-Series servers.
 
 == Cisco UCS fabric interconnect options

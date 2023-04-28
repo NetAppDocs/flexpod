@@ -18,6 +18,7 @@ summary: Technical specifications provide details about the hardware components 
 // 2021-06-03 13:02:39.871990
 //
 
+[.lead]
 Technical specifications provide details about the hardware components in a FlexPod solution, such as chassis, FEXs, servers, switches, and storage controllers.
 
 == Cisco UCS B-Series blade server chassis

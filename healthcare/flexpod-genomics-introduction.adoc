@@ -20,6 +20,7 @@ summary: The FlexPod converged infrastructure platform enables a healthcare orga
 
 JayaKishore Esanakula, NetApp
 
+[.lead]
 There are few fields of medicine that are more important than genomics for healthcare and the life sciences, and genomics are fast becoming a key clinical tool for doctors and nurses.  Genomics, when combined with medical imaging and digital pathology, help us understand how a patient’s genes might be affected by treatment protocols. The success of genomics in healthcare increasingly depends on data interoperability at scale. The end goal is to make sense of the enormous volumes of genetic data and identify clinically relevant correlations and variants that improve diagnosis and make precision medicine a reality. Genomics help us understand the origin of disease outbreaks, how diseases evolve, and which treatments and strategies might be effective. Clearly, genomics has many benefits that span prevention, diagnosis, and treatment. Healthcare organizations are grappling with several challenges, including the following:
 
 * Improved care quality

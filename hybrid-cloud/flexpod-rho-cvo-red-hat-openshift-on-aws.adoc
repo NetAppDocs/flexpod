@@ -20,6 +20,7 @@ summary: A separate self-managed OpenShift Container Platform 4 cluster is deplo
 
 link:flexpod-rho-cvo-flexpod-for-openshift-container-platform-4-bare-metal-installation.html[Previous: FlexPod for OpenShift Container Platform 4 bare-metal installation.]
 
+[.lead]
 A separate self-managed OpenShift Container Platform 4 cluster is deployed on AWS as a DR site. The master and worker nodes span across three availability zones for high availability.
 
 image:flexpod-rho-cvo-image10.png[Error: Missing Graphic Image]

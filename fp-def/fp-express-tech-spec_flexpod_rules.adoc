@@ -18,6 +18,7 @@ summary: The FlexPod design allows a flexible infrastructure that encompasses ma
 // 2021-05-20 13:19:48.566004
 //
 
+[.lead]
 The FlexPod design allows a flexible infrastructure that encompasses many different components and software versions.
 
 Use the rule sets as a guide for building or assembling a valid FlexPod configuration. The numbers and rules listed in this document are the minimum requirements for FlexPod; they can be expanded in the included product families as required for different environments and use cases.

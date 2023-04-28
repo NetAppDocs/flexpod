@@ -18,6 +18,7 @@ summary: The authors recommend not paying a ransom in the event of an attack bec
 // 2021-05-20 14:17:51.441456
 //
 
+[.lead]
 Ransomware is a product of organized crime, and the attackers do not operate with ethics. They can refrain from providing the key for decryption even after receiving the ransom. The victim not only loses their data but also a substantial amount of money and will face consequences associated with the loss of production data.
 
 According to a https://www.forbes.com/sites/leemathews/2018/03/09/why-you-should-never-pay-a-ransomware-ransom/[Forbes article^], only 19% of ransomware victims get their data back after paying the ransom. Therefore, the authors recommend not paying a ransom in the event of an attack because doing so reinforces the attacker’s faith in their business model.

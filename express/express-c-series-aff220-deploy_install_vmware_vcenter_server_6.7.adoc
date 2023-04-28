@@ -18,6 +18,7 @@ summary: This section provides detailed procedures for installing VMware vCenter
 // 2021-04-19 12:01:34.356158
 //
 
+[.lead]
 This section provides detailed procedures for installing VMware vCenter Server 6.7 in a FlexPod Express configuration.
 
 [NOTE]

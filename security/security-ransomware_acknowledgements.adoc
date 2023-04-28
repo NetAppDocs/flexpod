@@ -18,6 +18,7 @@ summary: The author would like to thank the following people for their contribut
 // 2021-05-20 14:17:51.444625
 //
 
+[.lead]
 The author would like to thank the following people for their support in the creation of this document:
 
 * Jorge Gomez Navarrete, NetApp

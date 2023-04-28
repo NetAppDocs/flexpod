@@ -20,6 +20,7 @@ summary: This section describes the solution infrastructure and software compone
 
 link:flexpod-genomics-benefits-of-deploying-genomic-workloads-on-flexpod.html[Previous: Benefits of deploying genomic workloads on FlexPod.]
 
+[.lead]
 The following figure depicts the FlexPod system used for GATK setup and validation. We used https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_vmware_vsphere_7_0_ontap_9_7.html[FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7 Cisco Validated Design (CVD)^] during the setup process.
 
 image:flexpod-genomics-image6.png[Error: Missing Graphic Image]

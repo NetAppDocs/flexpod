@@ -18,6 +18,7 @@ summary: The FlexPod architecture is defined by the set of rules that are descri
 // 2021-06-03 13:02:39.803373
 //
 
+[.lead]
 The FlexPod architecture is defined by the set of rules that are described in this document. The hardware components and software configurations must be supported by the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^] and the http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool (IMT)^].
 
 Each Cisco Validated Design (CVD) or NetApp Verified Architecture (NVA) is a possible FlexPod configuration. Cisco and NetApp document these configuration combinations and validate them with extensive end-to-end testing. The FlexPod deployments that deviate from these configurations are fully supported if they follow the guidelines in this document and if all the components are listed as compatible in the Cisco UCS Hardware and Software Compatibility List and the NetApp http://mysupport.netapp.com/matrix[IMT^].

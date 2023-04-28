@@ -20,6 +20,7 @@ summary: With FlexPod, Cisco and NetApp have created a platform that is both fle
 
 link:nvme-vsphere-test-results.html[Previous: Test results.]
 
+[.lead]
 The observed throughput for this solution was 14GBps and 220k IOPS for a sequential read workload under 1ms latency. For random read workloads, we reached a throughput of 9.5GBps and 1.25M IOPS. The ability of FlexPod to provide this performance with FC-NVMe can address the needs of any mission-critical applications.
 
 FlexPod Datacenter with VMware vSphere 7.0 U2 is the optimal shared infrastructure foundation to deploy FC-NVMe for a variety of IT workloads thereby providing high-performance storage access to applications that require it. As FC-NVMe evolves to include high availability, multipathing, and additional operating system support, FlexPod is well suited as the platform of choice, providing the scalability and reliability needed to support these capabilities.

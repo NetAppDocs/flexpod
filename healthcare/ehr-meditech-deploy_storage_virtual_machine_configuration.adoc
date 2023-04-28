@@ -18,6 +18,7 @@ summary: This section pertains to deployment on ONTAP 8.3 and later versions.
 // 2021-05-07 11:13:53.286233
 //
 
+[.lead]
 This section pertains to deployment on ONTAP 8.3 and later versions.
 
 [NOTE]

@@ -20,6 +20,7 @@ summary: This section shows the output after executing GATK using the Cromwell e
 
 link:flexpod-genomics-appendix-b.html[Previous: Output for execution of GATK using the `./gatk` script.]
 
+[.lead]
 The execution of GATK using the Cromwell engine produced the following sample output.
 
 ....

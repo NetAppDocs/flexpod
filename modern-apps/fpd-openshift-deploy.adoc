@@ -16,6 +16,7 @@ summary: "Red Hat OpenShift is an enterprise-ready Kubernetes container platform
 Haseeb Niazi, Cisco 
 Alan Cowles, NetApp
 
+[.lead]
 Red Hat OpenShift is an enterprise-ready Kubernetes container platform to manage hybrid cloud and multi-cloud deployments. Red Hat OpenShift Container Platform includes everything needed for hybrid cloud, enterprise container, and Kubernetes development and deployments. It includes an enterprise-grade Linux operating system, container runtime, networking, monitoring, container registry, authentication, and authorization solutions.
 
 Combining Red Hat OpenShift with the FlexPod Datacenter solution can simplify the deployment and the management of the container infrastructure. Customers can benefit from improved efficiency, better data protection, lower risk, and the flexibility to scale this highly available enterprise-grade infrastructure stack to accommodate new business requirements. The pre-validated converged solution approach helps organizations achieve the speed, flexibility, and scale required for all of their application modernization and digital transformation initiatives.

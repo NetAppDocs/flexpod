@@ -18,6 +18,7 @@ summary: The following table illustrates validated hardware and software version
 // 2021-06-03 12:42:35.266859
 //
 
+[.lead]
 The following table illustrates validated hardware and software versions.
 
 |===

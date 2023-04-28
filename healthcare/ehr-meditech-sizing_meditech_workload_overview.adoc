@@ -18,6 +18,7 @@ summary: This section describes the types of compute and storage workloads that 
 // 2021-05-20 13:29:17.657482
 //
 
+[.lead]
 This section describes the types of compute and storage workloads that you might find in MEDITECH environments.
 
 == MEDITECH and backup workloads

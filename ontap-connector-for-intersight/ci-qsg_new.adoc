@@ -12,6 +12,7 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 :linkattrs:
 :imagesdir: ./../media/
 
+[.lead]
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
 == April 2023

@@ -20,6 +20,7 @@ summary: This page lists 11 procedures needed to implement a disaster recovery w
 
 link:gcp-ncvo-automated-deployment-of-hybrid-cloud-netapp-storage.html[Previous: Automated deployment of Hybrid Cloud NetApp Storage.]
 
+[.lead]
 The sequence of steps are as follows:
 
 . Define the workflow.

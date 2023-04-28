@@ -20,6 +20,7 @@ summary: In this section, we revisit the solution with various validated use cas
 
 link:flexpod-rho-cvo-astra-control-center-installation-on-openshift-container-platform.html[Previous: Astra Control Center installation on OpenShift Container Platform.]
 
+[.lead]
 In this section, we revisit the solution with some use cases:
 
 * Restoring a stateful application from a remote backup to another OpenShift cluster running in the cloud.

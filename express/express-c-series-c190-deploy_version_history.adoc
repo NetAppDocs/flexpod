@@ -17,7 +17,7 @@ summary: Below is the version history of this document.
 //
 // 2021-06-03 12:10:22.051846
 //
-
+[.lead]
 |===
 |Version |Date |Document version history
 
