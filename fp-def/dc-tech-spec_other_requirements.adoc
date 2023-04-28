@@ -18,6 +18,7 @@ summary: A FlexPod architecture has the following additional interoperability an
 // 2021-06-03 13:02:39.835326
 //
 
+[.lead]
 A FlexPod architecture has the following additional interoperability and support-related requirements:
 
 * All hardware and software components must be listed and supported on the NetApp http://mysupport.netapp.com/matrix[IMT^], the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^], and the Cisco UCS Hardware and Software Interoperability Matrix Tool.

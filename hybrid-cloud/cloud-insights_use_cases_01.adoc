@@ -18,6 +18,7 @@ summary: With Cloud Insights set up and configured to monitor your FlexPod Datac
 // 2021-05-20 15:58:38.827428
 //
 
+[.lead]
 With Cloud Insights set up and configured to monitor your FlexPod Datacenter solution, we can explore some of the tasks that you can perform on the dashboard to assess and monitor your environment. In this section, we highlight five primary use cases for Cloud Insights:
 
 * Active IQ integration

@@ -18,6 +18,7 @@ summary: MEDITECH volumes that are dedicated for MEDITECH hosts can be either th
 // 2021-05-07 11:13:53.298871
 //
 
+[.lead]
 == Volume provisioning
 
 MEDITECH volumes that are dedicated for MEDITECH hosts can be either thick or thin provisioned.

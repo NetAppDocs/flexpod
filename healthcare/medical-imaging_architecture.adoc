@@ -18,6 +18,7 @@ summary: The FlexPod architecture is designed to provide high availability if a 
 // 2021-06-03 12:18:30.205806
 //
 
+[.lead]
 The FlexPod architecture is designed to provide high availability if a component or a link fails in your entire compute, network, and storage stack. Multiple network paths for client access and storage access provide load balancing and optimal resource utilization.
 
 The following figure illustrates the 16Gb FC/40Gb Ethernet (40GbE) topology for the medical imaging system solution deployment.

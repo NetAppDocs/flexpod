@@ -19,6 +19,7 @@ summary: FlexPod reference architectures are delivered as Cisco Validated Design
 // 2021-04-22 15:25:30.132328
 //
 
+[.lead]
 This FlexPod Express solution is part of the FlexPod converged infrastructure program.
 
 == FlexPod Converged Infrastructure Program

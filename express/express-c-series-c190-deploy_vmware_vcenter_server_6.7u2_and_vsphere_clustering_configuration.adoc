@@ -18,6 +18,7 @@ summary: To configure VMware vCenter Server 6.7 and vSphere clustering, complete
 // 2021-06-03 12:10:22.025999
 //
 
+[.lead]
 To configure VMware vCenter Server 6.7 and vSphere clustering, complete the following steps:
 
 . Navigate to `\https://\<<FQDN or IP of vCenter>>/vsphere-client/`.

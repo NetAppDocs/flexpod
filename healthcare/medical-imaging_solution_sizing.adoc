@@ -18,6 +18,7 @@ summary: This section describes the number of studies and the corresponding infr
 // 2021-06-03 12:18:30.234008
 //
 
+[.lead]
 == Storage sizing
 
 This section describes the number of studies and the corresponding infrastructure requirements.

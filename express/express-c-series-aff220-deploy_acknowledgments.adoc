@@ -18,6 +18,7 @@ summary: The authors would like to acknowledge certain individuals for their sup
 // 2021-04-19 12:01:34.423143
 //
 
+[.lead]
 The authors would like to acknowledge the following people for their support and contribution to this design:
 
 * Paul Onofrietti Onotracy

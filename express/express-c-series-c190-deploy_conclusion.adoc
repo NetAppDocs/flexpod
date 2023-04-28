@@ -18,4 +18,5 @@ summary: FlexPod Express provides a simple and effective solution by providing a
 // 2021-06-03 12:10:22.043485
 //
 
+[.lead]
 FlexPod Express provides a simple and effective solution by providing a validated design that uses industry-leading components. By scaling through the addition of components, FlexPod Express can be tailored for specific business needs. FlexPod Express was designed for small to midsize businesses, ROBOs, and other businesses that require dedicated solutions.

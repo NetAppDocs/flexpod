@@ -18,6 +18,7 @@ summary: To learn more about the information that is described in this document,
 // 2021-05-20 10:50:17.741604
 //
 
+[.lead]
 To learn more about the information that is described in this document, review the following documents and/or websites:
 
 * NVA- 1130-DESIGN: FlexPod Express with VMware vSphere 6.7U1 and NetApp AFF A220 with Direct- Attached IP=Based Storage NVA Design

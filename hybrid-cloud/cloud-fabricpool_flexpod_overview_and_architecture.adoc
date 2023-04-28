@@ -18,6 +18,7 @@ summary: FlexPod is a defined set of hardware and software that forms an integra
 // 2021-06-03 12:42:35.243953
 //
 
+[.lead]
 == FlexPod overview
 
 FlexPod is a defined set of hardware and software that forms an integrated foundation for both virtualized and nonvirtualized solutions. FlexPod includes NetApp AFF storage, Cisco Nexus networking, Cisco MDS storage networking, the Cisco Unified Computing System (Cisco UCS), and VMware vSphere software in a single package. The design is flexible enough that the networking, computing, and storage can fit into one data center rack, or it can be deployed according to a customer's data center design. Port density allows the networking components to accommodate multiple configurations.

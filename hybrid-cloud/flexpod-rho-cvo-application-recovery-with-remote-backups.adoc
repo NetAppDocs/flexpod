@@ -20,6 +20,7 @@ summary: With Astra, you can take a full application-consistent backup that can 
 
 link:flexpod-rho-cvo-solution-validation_overview.html[Previous: Solution validation overview.]
 
+[.lead]
 With Astra, you can take a full application-consistent backup that can be used to restore your application with its data to a different Kubernetes cluster running in an on-premises data center or in a public cloud.
 
 To validate a successful application recovery, simulate an on-premises failure of an application running on the FlexPod system and restore the application to a K8s cluster running in the cloud by using a remote backup.

@@ -18,6 +18,7 @@ summary: This section details storage guidance for FlexPod deployment in environ
 // 2021-05-07 11:13:53.125662
 //
 
+[.lead]
 The NetApp storage guidance for FlexPod deployment that is provided in this document covers:
 
 * Environments that use ONTAP

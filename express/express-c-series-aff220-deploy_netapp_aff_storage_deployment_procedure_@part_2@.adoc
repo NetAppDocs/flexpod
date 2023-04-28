@@ -18,6 +18,7 @@ summary: To create igroups, you need the iSCSI initiator IQNs and must complete 
 // 2021-04-19 12:01:34.220296
 //
 
+[.lead]
 == ONTAP SAN boot storage setup
 
 === Create iSCSI igroups

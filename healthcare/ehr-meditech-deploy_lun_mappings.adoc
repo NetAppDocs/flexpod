@@ -18,4 +18,5 @@ summary: LUN mappings for the MEDITECH hosts are established when the LUNs are c
 // 2021-05-07 11:13:53.356819
 //
 
+[.lead]
 LUN mappings for the MEDITECH hosts are established when the LUNs are created.

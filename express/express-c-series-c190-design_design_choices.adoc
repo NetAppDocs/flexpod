@@ -19,7 +19,7 @@ summary: The technologies listed in this section were chosen during the architec
 // 2021-04-22 15:31:57.991099
 //
 
-
+[.lead]
 The technologies listed in this section were chosen during the architectural design phase. Each technology serves a specific purpose in the FlexPod Express infrastructure solution.
 
 == NetApp AFF C190 Series with ONTAP 9.6

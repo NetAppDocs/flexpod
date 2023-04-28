@@ -18,6 +18,7 @@ summary: Buckets are object store containers that hold data. You must provide th
 // 2021-06-03 12:42:35.278083
 //
 
+[.lead]
 Buckets are object store containers that hold data. You must provide the name and location of the bucket in which data is stored before it can be added to an aggregate as a cloud tier.
 
 [NOTE]

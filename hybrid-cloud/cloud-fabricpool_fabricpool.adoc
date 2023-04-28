@@ -18,6 +18,7 @@ summary: FabricPool is a hybrid storage solution in ONTAP that uses an all- flas
 // 2021-06-03 12:42:35.248251
 //
 
+[.lead]
 == FabricPool overview
 
 FabricPool is a hybrid storage solution in ONTAP that uses an all-flash (SSD) aggregate as a performance tier and an object store in a public cloud service as a cloud tier. This configuration enables policy-based data movement, depending on whether or not data is frequently accessed. FabricPool is supported in ONTAP for both AFF and all-SSD aggregates on FAS platforms. Data processing is performed at the block level, with frequently accessed data blocks in the all-flash performance tier tagged as hot and infrequently accessed blocks tagged as cold.

@@ -16,6 +16,7 @@ summary: "This document describes the deployment methodology of Cisco and NetApp
 Pramod Ramamurthy, Cisco 
 Marco Schoen, NetApp
 
+[.lead]
 This document describes the deployment methodology of Cisco and NetApp FlexPod Datacenter for SAP HANA based on second-generation Intel Xeon Scalable Processors supported Cisco UCS Computing System (Cisco UCS).
 
 Cisco UCS Manager (UCSM) 4.0(4) provides consolidated support of all current Cisco UCS Fabric Interconnect models (6200, 6300, 6324 and 6454), 2200/2300 series IOM, Cisco UCS B-Series Blade, and Cisco UCS C-Series Rack Formfactor servers. FlexPod Datacenter with Cisco UCS unified software release 4.0(4d) and NetApp ONTAP 9.6, is a pre-designed, best-practice data center architecture built on the Cisco UCS, the Cisco Nexus 9000 family of switches, and NetApp AFF A-Series storage arrays.

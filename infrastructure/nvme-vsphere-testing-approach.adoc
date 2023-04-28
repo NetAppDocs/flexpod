@@ -20,6 +20,7 @@ summary: This section provides a high-level summary of the FC-NVMe on FlexPod va
 
 link:nvme-vsphere-introduction.html[Previous: Introduction.]
 
+[.lead]
 This section provides a high-level summary of the FC-NVMe on FlexPod validation testing. It includes both the test environment/configuration and the test plan adopted to perform the workload testing with respect to FC-NVMe for FlexPod with VMware vSphere 7.
 
 == Test environment

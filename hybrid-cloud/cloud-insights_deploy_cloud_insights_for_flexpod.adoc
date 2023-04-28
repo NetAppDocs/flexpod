@@ -18,6 +18,7 @@ summary: The following tasks must be completed to deploy Cloud Insights for Flex
 // 2021-05-20 15:58:38.813641
 //
 
+[.lead]
 To deploy the solution, you must complete the following tasks:
 
 . Sign up for the Cloud Insights service

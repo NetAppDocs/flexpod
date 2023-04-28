@@ -18,6 +18,7 @@ summary: The number of MEDITECH hosts in your environment determines the number 
 // 2021-05-07 11:13:53.318035
 //
 
+[.lead]
 The number of MEDITECH hosts in your environment determines the number of LUNs that are created within the NetApp FAS or AFF system. The Hardware Configuration Proposal specifies the size of each LUN.
 
 == LUN provisioning

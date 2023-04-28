@@ -18,6 +18,7 @@ summary: To learn more about the information that is described in this document,
 // 2021-06-03 12:18:30.266640
 //
 
+[.lead]
 To learn more about the information that is described in this document, review the following documents and websites:
 
 * FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning Design Guide

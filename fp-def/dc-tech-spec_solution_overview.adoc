@@ -20,6 +20,7 @@ summary: The FlexPod platform is a predesigned, best practice data center archit
 
 Arvind Ramakrishnan, and Jyh-shing Chen, NetApp
 
+[.lead]
 The FlexPod platform is a predesigned, best practice data center architecture that is built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus family of switches, and NetApp storage controllers (AFF, ASA, or FAS systems).
 
 FlexPod is a suitable platform for running a variety of virtualization hypervisors as well as bare-metal operating systems and enterprise workloads. FlexPod delivers not only a baseline configuration, but also the flexibility to be sized and optimized to accommodate many different use cases and requirements.

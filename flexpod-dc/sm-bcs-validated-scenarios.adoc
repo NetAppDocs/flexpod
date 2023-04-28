@@ -20,6 +20,7 @@ summary: The FlexPod Datacenter SM-BC solution protects data services for a vari
 
 link:sm-bcs-virtualization.html[Previous: Solution validation - Virtualization.]
 
+[.lead]
 The FlexPod Datacenter SM-BC solution protects data services for a variety of single-point-of-failure scenarios as well as for a site disaster. The redundant design implemented at each site provides high availability, and the SM-BC implementation with synchronous data replication across sites protects data services from a sitewide disaster of one site. The deployed solution is validated for its desired solution functions and various failure scenarios for which the solution is designed to protect.
 
 == Solution functions validation

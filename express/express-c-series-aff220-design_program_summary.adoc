@@ -18,6 +18,7 @@ summary: FlexPod reference architectures are delivered as Cisco Validated Design
 // 2021-04-22 14:35:14.867435
 //
 
+[.lead]
 == FlexPod converged infrastructure portfolio
 
 FlexPod reference architectures are delivered as Cisco Validated Designs (CVDs) or as NetApp Verified Architectures (NVAs). Deviations that are based on customer requirements from a given CVD or NVA are permitted if variations do not result in the deployment of unsupported configurations.

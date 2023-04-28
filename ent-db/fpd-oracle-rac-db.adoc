@@ -16,6 +16,7 @@ summary: "Cisco Validated Designs include systems and solutions that are designe
 Tushar Patel,  Cisco
 Hardikkumar Vyas, Cisco 
 
+[.lead]
 Cisco Validated Designs include systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. These designs incorporate a wide range of technologies and products into a portfolio of solutions that have been developed to address the business needs of customers. Cisco and NetApp have partnered to deliver FlexPod, which serves as the foundation for a variety of workloads and enables efficient architectural designs that are based on customer requirements. A FlexPod solution is a validated approach for deploying Cisco and NetApp technologies as a shared cloud infrastructure.
 
 The FlexPod Datacenter with NetApp All Flash AFF system is a converged infrastructure platform that combines best-of-breed technologies from Cisco and NetApp into a powerful converged platform for enterprise applications. Cisco and NetApp work closely with Oracle to support the most demanding transactional and response-time-sensitive databases required by today’s businesses.

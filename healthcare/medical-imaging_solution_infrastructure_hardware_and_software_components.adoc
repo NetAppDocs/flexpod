@@ -18,6 +18,7 @@ summary: The following tables list the hardware and software components, respect
 // 2021-06-03 12:18:30.228944
 //
 
+[.lead]
 The following tables list the hardware and software components, respectively, of the FlexPod infrastructure for the medical imaging system.
 
 |===

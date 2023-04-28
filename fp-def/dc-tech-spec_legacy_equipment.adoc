@@ -18,6 +18,7 @@ summary: FlexPod is a flexible solution that enables you to use your existing eq
 // 2021-06-03 13:02:39.884058
 //
 
+[.lead]
 FlexPod is a flexible solution that enables you to use your existing equipment and new equipment that is currently for sale by Cisco and NetApp. Occasionally, certain models of equipment from both Cisco and NetApp are designated as end of life (EOL).
 
 Even though these equipment models are no longer available, if you purchased one of these models before the end-of-availability (EOA) date, you can use that equipment in a FlexPod configuration. A complete list of the legacy equipment models that are supported in FlexPod that are no longer for sale can be referenced on the https://mysupport.netapp.com/info/eoa/index.html[NetApp Service and Support Product Programs End of Availability Index^].

@@ -18,6 +18,7 @@ summary: NetApp storage that is deployed for MEDITECH software environments uses
 // 2021-05-07 11:13:53.243302
 //
 
+[.lead]
 NetApp storage that is deployed for MEDITECH software environments uses storage controllers in a high-availability-pair configuration. Storage must be presented from both controllers to MEDITECH database servers over the FC Protocol. The configuration presents storage from both controllers to evenly balance the application load during normal operation.
 
 == ONTAP configuration

@@ -21,6 +21,7 @@ summary:  At a high level, a FlexPod SM-BC solution consists of two FlexPod syst
 
 link:sm-bcs-introduction.html[Previous: Introduction.]
 
+[.lead]
 == Solution overview
 
 At a high level, a FlexPod SM-BC solution consists of two FlexPod systems, located at two sites separated by some distance, connected, and paired together to provide a highly available, highly flexible, and highly reliable data center solution that can provide business continuity despite a site failure.

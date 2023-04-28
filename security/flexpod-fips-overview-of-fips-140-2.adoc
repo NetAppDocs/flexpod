@@ -20,6 +20,7 @@ summary: FIPS 140-2 specifies the security requirements for a cryptographic modu
 
 link:flexpod-fips-cybersecurity-threats-in-healthcare.html[Previous: Cybersecurity threats in healthcare.]
 
+[.lead]
 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf[FIPS 140-2^] specifies the security requirements for a cryptographic module used within a security system that protects sensitive information in computer and telecommunication systems. A cryptographic module should be a set of hardware, software, firmware, or a combination. FIPS applies to the cryptographic algorithms, key generation and key managers contained within a cryptographic boundary. It is important to understand that FIPS 140-2 applies specifically to the cryptographic module, not the product, architecture, data, or ecosystem. The cryptographic module, which is defined in the key terms later in this document, is the specific component (whether it’s hardware, software, and/or firmware) that implements approved security functions. In addition, FIPS 140-2 specifies four levels. Approved cryptographic algorithms are common to all levels. Key elements and requirements of each security level include:
 
 * *Security level 1*

@@ -20,6 +20,7 @@ summary: This section describes the execution of the ./gatk output.
 
 link:flexpod-genomics-appendix-a.html[Previous: Output for execution of GATK using the jar file.]
 
+[.lead]
 The execution of GATK using the `./gatk` script produced the following sample output.
 
 ....

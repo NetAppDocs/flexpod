@@ -16,6 +16,7 @@ summary: "Cisco Validated Designs (CVDs) deliver systems and solutions that are 
 Haseeb Niazi, Cisco 
 David Arnette, NetApp
 
+[.lead]
 Cisco Validated Designs (CVDs) deliver systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. These designs incorporate a wide range of technologies and products into a portfolio of solutions that have been developed to address the business needs of the customers and to guide them from design to deployment.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_hybridcloud_design.html[FlexPod Datacenter for Hybrid Cloud with Cisco CloudCenter and NetApp private storage - Design^]

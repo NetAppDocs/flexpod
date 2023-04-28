@@ -18,6 +18,7 @@ summary: This section describes additional important technical specifications fo
 // 2021-05-20 13:19:48.623827
 //
 
+[.lead]
 This section describes additional important technical specifications for each of the FlexPod Express components.
 
 == Cisco UCS B-Series blade servers

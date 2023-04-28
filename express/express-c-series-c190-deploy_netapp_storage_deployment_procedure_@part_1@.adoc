@@ -18,6 +18,7 @@ summary: This section describes the NetApp AFF storage deployment procedure.
 // 2021-06-03 12:10:21.936686
 //
 
+[.lead]
 This section describes the NetApp AFF storage deployment procedure.
 
 == NetApp storage controller AFF C190 Series installation

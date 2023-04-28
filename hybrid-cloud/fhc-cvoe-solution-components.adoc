@@ -20,6 +20,7 @@ summary: This section provides an overview of the various components necessary f
 
 link:fhc-cvoe-solution-overview.html[Previous: Solution Overview.]
 
+[.lead]
 == FlexPod
 
 FlexPod is a defined set of hardware and software that forms an integrated foundation for both virtualized and non-virtualized solutions. FlexPod includes NetApp ONTAP storage, Cisco Nexus networking, Cisco MDS storage networking, and the Cisco Unified Computing System (Cisco UCS).

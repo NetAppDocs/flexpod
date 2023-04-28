@@ -20,6 +20,7 @@ summary: FlexPod Express is a predesigned, best practice architecture that is bu
 
 Karthick Radhakrishnan, Arvind Ramakrishnan, Lindsey Street, Savita Kumari, NetApp
 
+[.lead]
 FlexPod Express is a predesigned, best practice architecture that is built on the Cisco Unified Computing System (Cisco UCS) and the Cisco Nexus family of switches, and the storage layer is built by using the NetApp FAS or the NetApp E-Series storage. FlexPod Express is a suitable platform for running various virtualization hypervisors and bare metal operating systems (OSs) and enterprise workloads.
 
 FlexPod Express delivers not only a baseline configuration, but also the flexibility to be sized and optimized to accommodate many different use cases and requirements. This document categorizes the FlexPod Express configurations based on the storage system used, FlexPod Express with NetApp FAS and FlexPod Express with E-Series.

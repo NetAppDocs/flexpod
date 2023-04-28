@@ -13,6 +13,7 @@ summary: "FlexPod is a pre-validated and engineered data center solution designe
 :linkattrs:
 :imagesdir: ./../media/
 
+[.lead]
 FlexPod is a pre-validated and engineered data center solution designed to address the rapidly changing needs of IT departments. Cisco and NetApp have partnered to deliver FlexPod, which uses best-in-class computing, networking, and storage components as the foundation for a variety of enterprise workloads, including databases, enterprise resource planning (ERP), customer relationship management (CRM), and web applications. The consolidation of IT applications, particularly databases, has generated considerable interest in recent years. The most widely adopted and deployed database platform over the past several years is Microsoft SQL Server. SQL Server databases frequently have become subject to database sprawl, leading to IT challenges such as underutilized servers, incorrect licensing, security concerns, management concerns, and huge operational costs. Therefore, SQL Server databases are good candidates for consolidation on a more robust, flexible, and resilient platform. This document discusses a FlexPod reference architecture for deploying and consolidating SQL Server databases.
 
 link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/sap-appservers-flexpod-with-sql.pdf[Deploy SAP application servers on FlexPod with SQL^]

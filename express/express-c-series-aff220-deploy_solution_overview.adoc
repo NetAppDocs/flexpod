@@ -18,6 +18,7 @@ summary: This FlexPod Express solution is part of the FlexPod Converged Infrastr
 // 2021-04-19 12:01:33.713467
 //
 
+[.lead]
 This FlexPod Express solution is part of the FlexPod Converged Infrastructure Program.
 
 == FlexPod Converged Infrastructure Program

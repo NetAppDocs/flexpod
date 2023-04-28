@@ -16,6 +16,7 @@ summary: "The current industry trend in data center design is towards shared inf
 John George, Cisco
 Scott Kovacs, NetApp
 
+[.lead]
 The current industry trend in data center design is towards shared infrastructures. By using virtualization along with pre-validated IT platforms, enterprise customers have embarked on the journey to the cloud by moving away from application silos and toward shared infrastructure that can be quickly deployed, thereby increasing agility and reducing costs. Cisco and NetApp have partnered to deliver FlexPod, which uses best of breed storage, server, and network components to serve as the foundation for a variety of workloads, enabling efficient architectural designs that can be quickly and confidently deployed.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_dc_ontap_97_ucs_4_vmw_vs_67_U3.html[FlexPod Datacenter with Cisco Intersight and NetApp ONTAP 9.7 - Deployment^]
