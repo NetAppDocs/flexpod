@@ -18,6 +18,7 @@ summary: This document provides details for configuring a fully redundant, highl
 // 2021-06-03 12:10:21.897325
 //
 
+[.lead]
 This document provides details for configuring a fully redundant, highly available FlexPod Express system. To reflect this redundancy, the components being configured in each step are referred to as either component A or component B. For example, controller A and controller B identify the two NetApp storage controllers that are provisioned in this document. Switch A and switch B identify a pair of Cisco Nexus switches.
 
 In addition, this document describes steps for provisioning multiple Cisco UCS hosts, which are identified sequentially as server A, server B, and so on.

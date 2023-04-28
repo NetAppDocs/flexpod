@@ -18,6 +18,7 @@ summary: This section describes the connectivity requirements for the different 
 // 2021-05-20 13:19:48.590847
 //
 
+[.lead]
 This section describes the connectivity requirements for the different versions of FlexPod Express.
 
 == Connectivity requirements for FlexPod Express with NetApp FAS

@@ -20,6 +20,7 @@ summary: This section provides a brief list of benefits for running a genomics w
 
 link:flexpod-genomics-introduction.html[Previous: Introduction.]
 
+[.lead]
 This section provides a brief list of benefits for running a genomics workload on a FlexPod converged infrastructure platform. Let’s quickly describe the capabilities of a hospital. The following business architecture view shows a hospital’s capabilities deployed on a hybrid-cloud-ready FlexPod converged infrastructure platform.
 
 * *Avoid siloes in healthcare.* Silos in healthcare are a very real concern. Departments are often siloed into their own set of hardware and software not by choice but organically by evolution. For example, radiology, cardiology, EHR, genomics, analytics, revenue cycle, and other departments end up with their individual set of dedicated software and hardware. Healthcare organizations maintain a limited set of IT professionals to manage their hardware and software assets. The inflection point comes when this set of individuals are expected to manage a very diversified set of hardware and software. Heterogeneity is made worse by an incongruent set of processes brought to the healthcare organization by vendors.

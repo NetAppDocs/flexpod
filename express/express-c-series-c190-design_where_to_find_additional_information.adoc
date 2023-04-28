@@ -19,6 +19,7 @@ summary: To learn more about the information described in this document, see the
 // 2021-04-22 15:31:58.053591
 //
 
+[.lead]
 To learn more about the information described in this document, see the following documents and websites:
 
 * AFF and FAS System Documentation Center

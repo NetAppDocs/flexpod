@@ -18,6 +18,7 @@ summary: The target audience and cases to which this solution applies are listed
 // 2021-05-20 15:58:38.802103
 //
 
+[.lead]
 This solution applies to the following use cases:
 
 * Organizations that want to monitor various resources and utilization in their ONTAP storage system deployed as part of a FlexPod solution.

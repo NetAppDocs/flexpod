@@ -20,6 +20,7 @@ summary: In the multi-site FlexPod SM-BC solution, a single VMware vCenter manag
 
 link:sm-bcs-storage.html[Previous: Solution validation - Storage.]
 
+[.lead]
 In the multi-site FlexPod SM-BC solution, a single VMware vCenter manages the virtual infrastructure resources for the entire solution. The hosts in both data centers participate in the single VMware HA cluster which spans both data centers. The hosts have access to the NetApp SM-BC solution where storage with defined SM-BC relationships can be accessed from both sites.
 
 Th SM-BC solution storage conforms to the uniform access model in the VMware vSphere Metro Storage Cluster (vMSC) feature to avoid disaster and downtime. For optimal virtual-machine performance, the virtual-machine disks should be hosted on the local NetApp AFF A250 systems to minimize latency and traffic across the WAN links under normal operation.

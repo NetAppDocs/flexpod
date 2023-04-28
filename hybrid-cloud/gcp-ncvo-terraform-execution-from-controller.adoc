@@ -20,6 +20,7 @@ summary: We can execute the Terraform plan using a controller. You can skip this
 
 link:gcp-ncvo-dr-workflow.html[Previous: DR workflow.]
 
+[.lead]
 We can execute the Terraform plan using a controller. You can skip this section if you have already executed your Terraform plan using an ICO workflow.
 
 == Prerequisites

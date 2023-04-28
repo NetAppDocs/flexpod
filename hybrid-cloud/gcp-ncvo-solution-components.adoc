@@ -20,6 +20,7 @@ summary: This section describes all of the solution components needed to impleme
 
 link:gcp-ncvo-solution-overview.html[Previous: Solution overview.]
 
+[.lead]
 == FlexPod
 
 FlexPod is a defined set of hardware and software that forms an integrated foundation for both virtualized and non-virtualized solutions. FlexPod includes NetApp ONTAP storage, Cisco Nexus networking, Cisco MDS storage networking, and Cisco Unified Computing System (Cisco UCS). The design is flexible enough that the networking, computing, and storage can fit into one data center rack, or it can be deployed according to a customer’s data center design. Port density allows the networking components to accommodate multiple configurations.

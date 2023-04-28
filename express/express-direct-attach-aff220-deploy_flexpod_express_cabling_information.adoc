@@ -18,6 +18,7 @@ summary: The reference validation cabling is documented in the following tables.
 // 2021-05-20 10:50:15.445875
 //
 
+[.lead]
 The reference validation cabling is documented in the following tables.
 
 The following table lists cabling information for Cisco Nexus switch 31108PCV A.

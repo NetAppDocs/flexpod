@@ -18,6 +18,7 @@ summary: The storage operating systems listed in this section are supported in t
 // 2021-05-20 13:19:48.578185
 //
 
+[.lead]
 FlexPod Express supports storage systems that run NetApp ONTAP or SANtricity operating systems.
 
 == NetApp ONTAP

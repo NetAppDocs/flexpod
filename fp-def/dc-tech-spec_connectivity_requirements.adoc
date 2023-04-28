@@ -18,6 +18,7 @@ summary: Listed below are the connectivity requirements for FlexPod configuratio
 // 2021-06-03 13:02:39.826839
 //
 
+[.lead]
 A FlexPod configuration has the following connectivity requirements:
 
 * A separate 100Mbps Ethernet/1Gb Ethernet out-of-band management network is required for all components.

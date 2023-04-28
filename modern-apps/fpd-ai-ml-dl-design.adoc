@@ -16,6 +16,7 @@ summary: "This document provides design details around the integration of the Ci
 Haseeb Niazi, Cisco 
 Arvind Ramakrishnan, NetApp
 
+[.lead]
 This document provides design details around the integration of the Cisco UCS C480 ML M5 platform into the FlexPod Datacenter solution to deliver a unified approach for providing AI and ML capabilities within the converged infrastructure. By providing customers the ability to manage the servers with combined AI and ML capabilities with the familiar tools they use to administer traditional FlexPod systems, the administrative overhead as well as the cost of deploying deep learning platform is greatly reduced. The design presented in this CVD also includes other Cisco UCS platforms such as the C220 M5 server with two NVIDIA T4 GPUs and the C240 M5 server equipped with two NVIDIA V100 32GB PCIe cards as additional options for handling concurrent AI and ML workloads.
 
 link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html[FlexPod Datacenter for combined AI and ML with Cisco UCS 480 ML for Deep Learning - Design^]

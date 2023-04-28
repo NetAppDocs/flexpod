@@ -18,4 +18,5 @@ summary: The FabricPool Economic Calculator is available through the independent
 // 2021-06-03 12:42:35.312235
 //
 
+[.lead]
 The https://www.evaluatorgroup.com/FabricPool/[FabricPool Economic Calculator^] is available through the independent IT analyst firm Evaluator Group to help project the cost savings between on premises and the cloud for cold data storage. The calculator provides a simple interface to determine the cost of storing infrequently accessed data on a performance tier versus sending it to a cloud tier for the remainder of the data lifecycle. Based on a 5-year calculation, the four key factors—source capacity, data growth, snapshot capacity, and the percentage of cold data—are used to determine storage costs over the time period.

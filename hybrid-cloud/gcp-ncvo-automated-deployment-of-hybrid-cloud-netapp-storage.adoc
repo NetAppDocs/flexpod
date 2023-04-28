@@ -20,6 +20,7 @@ summary: This section describes the automated deployment of Hybrid Cloud NetApp 
 
 link:gcp-ncvo-configure-public-cloud-service-provider.html[Previous: Configure Public Cloud Service provider.]
 
+[.lead]
 == Google Cloud
 
 You must first enable APIs and create a service account that provides Cloud Manager with permissions to deploy and manage Cloud Volumes ONTAP systems that are in the same project as the Connector or in different projects.

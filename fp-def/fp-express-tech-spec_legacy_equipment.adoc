@@ -18,6 +18,7 @@ summary: This section lists the NetApp legacy disk shelf, FAS controller, and st
 // 2021-05-20 13:19:48.639761
 //
 
+[.lead]
 The following table lists the NetApp legacy storage controller options.
 
 |===

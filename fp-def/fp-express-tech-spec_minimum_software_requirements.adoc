@@ -18,6 +18,7 @@ summary: This section describes the minimum software requirements for the differ
 // 2021-05-20 13:19:48.587494
 //
 
+[.lead]
 This section describes the minimum software requirements for the different versions of FlexPod Express.
 
 == Software requirements for FlexPod Express with NetApp AFF or FAS

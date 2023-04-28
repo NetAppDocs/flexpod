@@ -20,6 +20,7 @@ summary: By running your healthcare application on a FlexPod platform, your heal
 
 link:flexpod-fips-additional-flexpod-security-consideration.html[Previous: Additional FlexPod security considerations.]
 
+[.lead]
 By running your healthcare application on a FlexPod platform, your healthcare organization is better protected by a FIPS 140-2-enabled platform. FlexPod offers multilayered protection at every single component: compute, network and storage. FlexPod data protection capabilities protect data at rest or in flight, and keep backups safe and ready when needed.
 
 Avoid human errors by leveraging the FlexPod prevalidated designs that are rigorously tested converged infrastructures from the strategic partnership of Cisco and NetApp. A FlexPod system engineered and designed to deliver predictable, low-latency system performance and high availability with little impact, even when FIPS 140-2 is enabled in the compute, networking, and storage layers. This approach results in a superior user experience and optimal response time for users of your HIT system.

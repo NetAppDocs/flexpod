@@ -18,7 +18,7 @@ summary: Before an object store can be attached to an aggregate, it must be adde
 // 2021-06-03 12:42:35.281455
 //
 
-
+[.lead]
 Before an object store can be attached to an aggregate, it must be added to and identified by ONTAP. This task can be completed with either OnCommand System Manager or the ONTAP CLI.
 
 FabricPool supports Amazon S3, IBM Object Cloud Storage, and Microsoft Azure Blob Storage object stores as cloud tiers.

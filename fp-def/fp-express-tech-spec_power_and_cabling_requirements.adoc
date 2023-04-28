@@ -18,7 +18,7 @@ summary: This section describes the power and minimum cabling requirements for a
 // 2021-05-20 13:19:48.619895
 //
 
-
+[.lead]
 This section describes the power and minimum cabling requirements for a FlexPod Express design.
 
 == Power requirements

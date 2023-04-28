@@ -16,6 +16,7 @@ summary: "Cisco Validated Designs (CVDs) consist of systems and solutions that a
 Tushar Patel, Cisco 
 Hardikkumar Vyas, Cisco 
 
+[.lead]
 Cisco Validated Designs (CVDs) consist of systems and solutions that are designed, tested, and documented to facilitate and improve customer deployments. This CVD document describes the Cisco and NetApp FlexPod solution, which is a validated approach for deploying a highly available Oracle RAC Database environment. Cisco and NetApp have validated the reference architecture with various database workloads, like OLTP (Online Transactional Processing) and Data Warehouse in Cisco’s UCS Datacenter lab. This document shows the hardware and software configuration of the components involved and the results of various tests. Additionally, the document offers a framework for implementing Oracle RAC Databases on NVMe/FC using Cisco UCS and NetApp Storage System.
 
 

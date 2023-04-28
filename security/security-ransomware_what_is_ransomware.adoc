@@ -23,6 +23,7 @@ Arvind Ramakrishnan, NetApp
 In partnership with:
 image:cisco logo.png[Error: Missing Graphic Image]
 
+[.lead]
 To understand ransomware, it is necessary to first understand a few key points about cryptography. Cryptographical methods enable the encryption of data with a shared secret key (symmetric key encryption) or a pair of keys (asymmetric key encryption). One of these keys is a widely available public key and the other is an undisclosed private key.
 
 Ransomware is a type of malware that is based on cryptovirology, which is the use of cryptography to build malicious software. This malware can make use of both symmetric and asymmetric key encryption to lock a victim’s data and demand a ransom to provide the key to decrypt the victim’s data.

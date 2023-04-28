@@ -18,6 +18,7 @@ summary: After an object store has been added to and identified by ONTAP, it mus
 // 2021-06-03 12:42:35.287235
 //
 
+[.lead]
 After an object store has been added to and identified by ONTAP, it must be attached to an aggregate to create a FabricPool. This task can be completed by using either OnCommand System Manager or the ONTAP CLI.
 
 More than one type of object store can be connected to a cluster, but only one type of object store can be attached to each aggregate. For example, one aggregate can use Google Cloud, and another aggregate can use Amazon S3, but one aggregate cannot be attached to both.

@@ -20,6 +20,7 @@ summary: When implementing a FIPS 140-2 strategy, it is important to understand 
 
 link:flexpod-fips-overview-of-fips-140-2.html[Previous: Overview of FIPS 140-2.]
 
+[.lead]
 When implementing a FIPS 140-2 strategy, it is important to understand what is being protected. This can easily be broken down into two areas: control plane and data plane. A control plane refers to the aspects that affect the control and operation of the components within the FlexPod system: for example, administrative access to the NetApp storage controllers, Cisco Nexus switches, and Cisco UCS servers. Protection at this layer is provided by limiting the protocols and cryptographic cyphers that administrators can use to connect to devices and make changes. A data plane refers to the actual information, such as the PHI, within the FlexPod system. This is protected by encrypting data at rest and again for FIPS, ensuring that the cryptographic modules in use meet the standards.
 
 link:flexpod-fips-flexpod-cisco-ucs-compute-and-fips-140-2.html[Next: FlexPod Cisco UCS compute and FIPS 140-2.]

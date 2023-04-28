@@ -18,6 +18,7 @@ summary: The following people contributed to the writing and creation of this gu
 // 2021-05-20 13:29:17.673001
 //
 
+[.lead]
 The following people contributed to the writing and creation of this guide.
 
 * Brandon Agee, Technical Marketing Engineer, NetApp

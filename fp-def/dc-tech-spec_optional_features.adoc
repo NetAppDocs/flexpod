@@ -18,6 +18,7 @@ summary: NetApp supports several optional components to further enhance FlexPod 
 // 2021-06-03 13:02:39.840183
 //
 
+[.lead]
 NetApp supports several optional components to further enhance FlexPod Datacenter architectures. Optional components are outlined in the following subsections.
 
 == MetroCluster

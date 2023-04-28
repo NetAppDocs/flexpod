@@ -18,6 +18,7 @@ summary: This section provides detailed procedures for installing VMware ESXi 6.
 // 2021-04-19 12:01:34.237682
 //
 
+[.lead]
 This section provides detailed procedures for installing VMware ESXi 6.7 in a FlexPod Express configuration. The deployment procedures that follow are customized to include the environment variables described in previous sections.
 
 Multiple methods exist for installing VMware ESXi in such an environment. This procedure uses the virtual KVM console and virtual media features of the CIMC interface for Cisco UCS C-Series servers to map remote installation media to each individual server.

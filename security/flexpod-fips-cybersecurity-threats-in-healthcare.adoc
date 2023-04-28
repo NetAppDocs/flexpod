@@ -20,6 +20,7 @@ summary: Threats to healthcare are multidimensional in nature and in impact. Gov
 
 link:flexpod-fips-introduction.html[Previous: Introduction.]
 
+[.lead]
 Every problem presents a new opportunity—an example of one such opportunity is presented by the COVID pandemic. According to a https://www.hhs.gov/sites/default/files/2020-hph-cybersecurty-retrospective-tlpwhite.pdf[report^] by the Department of Health and Human Services (HHS) Cybersecurity Program, the COVID response has resulted in an increased number of ransomware attacks. There were 6,000 new internet domains registered just in the third week of March 2020. More than 50% of the domains hosted malware. Ransomware attacks were responsible for almost 50% of all healthcare data breaches in 2020 affecting more than 630 healthcare organizations and approximately 29 million healthcare records. Nineteen leakers/sites doubled the extortion. At 24.5%, the healthcare industry saw the highest number of data breaches in 2020.
 
 Malicious agents attempted to breach security and privacy of Protected Health Information (PHI) by selling the information or by threatening to destroy or expose it. Targeted and mass-broadcast attempts are frequently made to gain unauthorized access to ePHI. Approximately 75% of the exposed patient records in the second half of 2020 were due to compromised business associates.

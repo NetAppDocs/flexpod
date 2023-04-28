@@ -18,6 +18,7 @@ summary:
 // 2021-06-03 12:42:35.296631
 //
 
+[.lead]
 By default, volumes use the None volume tiering policy. After volume creation, the volume tiering policy can be changed by using OnCommand System Manager or the ONTAP CLI.
 
 When used with FlexPod, FabricPool provides three volume tiering policies, Auto, Snapshot-Only, and None.

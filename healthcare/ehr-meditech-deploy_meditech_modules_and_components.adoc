@@ -18,6 +18,7 @@ summary: The MEDITECH application covers several modules and components.
 // 2021-05-07 11:13:53.368103
 //
 
+[.lead]
 The MEDITECH application covers several modules and components. The following table lists the functions that are covered by these modules. For additional information about setting up and deploying these modules, see the MEDITECH documentation.
 
 |===

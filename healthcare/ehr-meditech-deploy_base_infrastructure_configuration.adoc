@@ -18,6 +18,7 @@ summary: The following network connections, storage connections, and software mu
 // 2021-05-07 11:13:53.147162
 //
 
+[.lead]
 == Network connectivity
 
 The following network connections must be in place before you configure the infrastructure:

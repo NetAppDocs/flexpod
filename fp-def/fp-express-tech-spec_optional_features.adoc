@@ -18,6 +18,7 @@ summary: This section describes the optional features for FlexPod Express.
 // 2021-05-20 13:19:48.598656
 //
 
+[.lead]
 This section describes the optional features for FlexPod Express.
 
 == iSCSI boot option

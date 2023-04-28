@@ -18,4 +18,5 @@ summary:
 // 2021-12-02 11:36:19.871250
 //
 
+[.lead]
 This technical report provides a high-level overview of NVMe over Fibre Channel (FC-NVMe) performance with VMware vSphere 7 on FlexPod. FlexPod is the optimal shared infrastructure foundation for deploying FC-NVMe to provide high-performance storage access to applications.

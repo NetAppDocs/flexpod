@@ -18,6 +18,7 @@ summary: This section describes how an end user’s data can be recovered in the
 // 2021-05-20 14:17:51.426666
 //
 
+[.lead]
 This section describes how an end user’s data can be recovered in the event of an attack and how attacks can be prevented by using a FlexPod system.
 
 == Testbed overview

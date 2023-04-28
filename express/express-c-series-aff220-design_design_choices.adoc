@@ -19,6 +19,7 @@ summary: The technologies listed on this page were chosen during the process of 
 // 2021-04-22 14:35:14.913460
 //
 
+[.lead]
 The following technologies were chosen during the process of architecting this design. Each technology serves a specific purpose in the FlexPod Express infrastructure solution.
 
 == NetApp AFF A220 Series with ONTAP 9.4

@@ -18,6 +18,7 @@ summary: NetApp storage controllers provide the storage foundation in the FlexPo
 // 2021-06-03 13:02:39.858851
 //
 
+[.lead]
 NetApp storage controllers provide the storage foundation in the FlexPod architecture for both boot and application data storage. NetApp components include storage controllers, cluster interconnect switches, drives and disk shelves, and licensing options.
 
 == NetApp storage controller options

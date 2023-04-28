@@ -18,6 +18,7 @@ summary: When you use FC as the data network protocol, create two initiator grou
 // 2021-05-07 11:13:53.343253
 //
 
+[.lead]
 When you use FC as the data network protocol, create two initiator groups (igroups) on each storage controller. The first igroup contains the WWPNs of the FC host interface cards on the VMware ESXi servers that host the MEDITECH host VMs (igroup for MEDITECH).
 
 You must set the MEDITECH igroup operating system type according to the environment setup. For example:

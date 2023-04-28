@@ -20,6 +20,7 @@ summary: The FlexPod infrastructure is a modular, converged, optionally virtuali
 
 link:flexpod-fips-solution-benefits-of-flexpod-converged-infrastructure.html[Previous: Solution benefits of FlexPod converged infrastructure.]
 
+[.lead]
 The FlexPod infrastructure is a modular, converged, optionally virtualized, scalable (scale out and scale up), and cost-effective platform. With the FlexPod platform, you can independently scale out compute, network, and storage to accelerate your application deployment. And the modular architecture enables nondisruptive operations even during your system scale-out and upgrade activities.
 
 Different components of an HIT system require data to be stored in SMB/CIFS, NFS, Ext4, and NTFS file systems. This requirement means that the infrastructure must provide data access over the NFS, CIFS, and SAN protocols. A single NetApp storage system can support all these protocols, eliminating the need for the legacy practice of protocol-specific storage systems. Additionally, a single NetApp storage system can support multiple HIT workloads such as EHRs, PACS or VNA, genomics, VDI, and more, with guaranteed and configurable performance levels.

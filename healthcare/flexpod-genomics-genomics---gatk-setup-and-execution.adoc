@@ -20,6 +20,7 @@ summary: This section describes the setup of FlexPod and GATK and the execution 
 
 link:flexpod-genomics-solution-infrastructure-hardware-and-software-components.html[Previous: Solution infrastructure hardware and software components.]
 
+[.lead]
 According to the National Human Genome Research Institute ( https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics[NHGRI^]), “Genomics is the study of all of a person’s genes (the genome), including interactions of these genes with each other and with a person’s environment. ”
 
 According to the https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics[NHGRI^], “Deoxyribonucleic acid (DNA) is the chemical compound that contains the instructions needed to develop and direct the activities of nearly all living organisms. DNA molecules are made of two twisting, paired strands, often referred to as a double helix.” “An organism’s complete set of DNA is called its genome.”

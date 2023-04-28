@@ -18,6 +18,7 @@ summary: A FlexPod Express system requires a combination of hardware and softwar
 // 2021-05-20 10:50:15.420695
 //
 
+[.lead]
 A FlexPod Express system requires a combination of hardware and software components. FlexPod Express also describes the hardware components that are required to add hypervisor nodes to the system in units of two.
 
 == Hardware requirements

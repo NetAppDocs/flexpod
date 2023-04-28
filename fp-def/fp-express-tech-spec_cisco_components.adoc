@@ -18,6 +18,7 @@ summary: Cisco is a substantial contributor to the FlexPod Express design and ar
 // 2021-05-20 13:19:48.607313
 //
 
+[.lead]
 Cisco is a substantial contributor to the FlexPod Express design and architecture; it contributes the compute and networking layers of the solution. This section describes the Cisco UCS and Cisco Nexus components that are available for FlexPod Express.
 
 == Cisco UCS B-Series blade server options

@@ -18,6 +18,7 @@ summary: When considering sizing, the following things should be evaluated.
 // 2021-06-03 12:42:35.307969
 //
 
+[.lead]
 == Size the performance tier
 
 When considering sizing, keep in mind that the performance tier should be capable of the following tasks:

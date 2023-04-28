@@ -18,6 +18,7 @@ summary: This section provides a detailed procedure for configuring a Cisco UCS 
 // 2021-06-03 12:10:21.974444
 //
 
+[.lead]
 This section provides a detailed procedure for configuring a Cisco UCS C-Series standalone rack server for use in the FlexPod Express configuration.
 
 == Perform the initial Cisco UCS C-Series standalone server setup for CIMC

@@ -20,6 +20,7 @@ summary: Cisco MDS 9000 series platform with software 8.4.x is FIPS 140-2 compli
 
 link:flexpod-fips-flexpod-cisco-ucs-compute-and-fips-140-2.html[Previous: FlexPod Cisco UCS compute and FIPS 140-2.]
 
+[.lead]
 == Cisco MDS
 
 Cisco MDS 9000 series platform with software 8.4.x is https://www.cisco.com/c/en/us/solutions/industries/government/global-government-certifications/fips-140.html?flt0_general-table0=mds[FIPS 140-2 compliant^]. Cisco MDS implements cryptographic modules and the following services for SNMPv3 and SSH.

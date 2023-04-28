@@ -18,6 +18,7 @@ summary: You can follow the steps below to complete the NetApp AFF storage deplo
 // 2021-04-19 12:01:33.926600
 //
 
+[.lead]
 This section describes the NetApp AFF storage deployment procedure.
 
 == NetApp storage controller AFF2xx series installation

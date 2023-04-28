@@ -18,6 +18,7 @@ summary: You can refer to the NetApp's website and the FlexPod Express with VMwa
 // 2021-04-19 12:01:34.434559
 //
 
+[.lead]
 To learn more about the information described in this document, refer to the following documents and/or websites:
 
 * NetApp product documentation
