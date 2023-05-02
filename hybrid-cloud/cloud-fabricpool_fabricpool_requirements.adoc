@@ -119,4 +119,4 @@ A free 10TB capacity, term-based FabricPool license comes with the purchase of a
 A FabricPool license can only be deleted from a cluster that contains no FabricPool aggregates.
 
 [NOTE]
-FabricPool licenses are clusterwide. You should have the UUID available when purchasing a license (`cluster identify show`). For additional licensing information, refer to the https://kb.netapp.com/support/s/article/ka21A0000008qb3QAA/ONTAP-FabricPool-FP-Licensing-Overview[NetApp Knowledgebase^].
+FabricPool licenses are cluster-wide. You should have the UUID available when purchasing a license (`cluster identify show`). For additional licensing information, refer to the https://kb.netapp.com/onprem/ontap/dm/FabricPool/ONTAP_FabricPool_(FP)_Licensing_Overview[NetApp Knowledgebase^].

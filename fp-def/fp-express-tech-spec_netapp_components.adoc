@@ -237,7 +237,7 @@ The following table lists the NetApp support licensing options for NetApp FAS.
 |SupportEdge Premium4 hours onsite; months: 36
 |CS-O2-4HR
 |
-link:www.netapp.com/us/support/supportedge.html[http://www.netapp.com/us/support/supportedge.html]
+link:https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf[https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf]
 |===
 
 === E-Series storage
@@ -250,7 +250,7 @@ The following table lists the NetApp support licensing options for E-Series stor
 |Hardware support Premium 4 hours onsite; months: 36
 |SVC-O2-4HR-E
 .3+|
-link:www.netapp.com/us/support/supportedge.html[http://www.netapp.com/us/support/supportedge.html]
+link:https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf[https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf]
 |Software support
 |SW-SSP-O2-4HR-E
 |Initial installation
