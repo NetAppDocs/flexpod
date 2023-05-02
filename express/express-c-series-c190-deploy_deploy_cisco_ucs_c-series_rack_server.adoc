@@ -318,5 +318,5 @@ image:express-c-series-c190-deploy_image16.png[Error: Missing Graphic Image]
 +
 [NOTE]
 This procedure must be repeated for each initial Cisco UCS server node and each additional Cisco UCS server node added to the environment.
-
-link:express-c-series-c190-design_netapp_aff_storage_deployment_procedure_@part_2@.html[Next: NetApp AFF storage deployment procedure (part 2)]
+ 
+link:express-c-series-c190-deploy_netapp_aff_storage_deployment_procedure_@part_2@.html[Next: NetApp AFF storage deployment procedure (part 2).]

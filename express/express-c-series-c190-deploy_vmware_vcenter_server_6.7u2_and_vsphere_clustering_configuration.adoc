@@ -90,4 +90,4 @@ This process must be completed for any additional hosts added to FlexPod Express
 [NOTE]
 `ip_address_of_core_dump_collector` in this validation is the vCenter IP.
 
-link:express-c-series-c190-design_netapp_virtual_storage_console_9.6_deployment_procedures.html[Next: NetApp Virtual Storage Console 9.6 deployment procedures]
+link:express-c-series-c190-deploy_netapp_virtual_storage_console_9.6_deployment_procedures.html[Next: NetApp Virtual Storage Console 9.6 deployment procedures.]

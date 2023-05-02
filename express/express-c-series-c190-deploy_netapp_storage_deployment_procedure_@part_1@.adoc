@@ -922,4 +922,4 @@ Enter it again: <<var_password>>
 security login unlock –username vsadmin –vserver Infra-SVM
 ....
 
-link:express-c-series-c190-design_deploy_cisco_ucs_c-series_rack_server.html[Next: Deploy Cisco UCS C-Series rack server]
+link:express-c-series-c190-deploy_deploy_cisco_ucs_c-series_rack_server.html[Next: Deploy Cisco UCS C-Series rack server.]

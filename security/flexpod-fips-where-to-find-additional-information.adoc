@@ -17,63 +17,59 @@ link:flexpod-fips-conclusion.html[Previous: Conclusion.]
 [.lead]
 To learn more about the information that is described in this document, review the following documents and websites:
 
-*	Cisco MDS 9000 Family NX-OS Security Configuration Guide
+* Cisco MDS 9000 Family NX-OS Security Configuration Guide
 +
 https://www.cisco.com/c/en/us/td/docs/switches/datacenter/mds9000/sw/8_x/config/security/cisco_mds9000_security_config_guide_8x/configuring_fips.html#task_1188151
 
-*	Cisco Nexus 9000 Series NX-OS Security Configuration Guide, Release 9.3(x)
+* Cisco Nexus 9000 Series NX-OS Security Configuration Guide, Release 9.3(x)
 +
 https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/93x/security/configuration/guide/b-cisco-nexus-9000-nx-os-security-configuration-guide-93x/m-configuring-fips.html
 
-*	NetApp and Federal Information Processing Standard (FIPS) Publication 140-2
+* NetApp and Federal Information Processing Standard (FIPS) Publication 140-2
 +
 https://www.netapp.com/company/trust-center/compliance/fips-140-2/
 
-*	FIPS 140-2
+* FIPS 140-2
 +
 https://fieldportal.netapp.com/content/902303
 
-*	NetApp ONTAP 9 Hardening Guide
+* NetApp ONTAP 9 Hardening Guide
 +
 https://www.netapp.com/us/media/tr-4569.pdf
 
-*	NetApp Encryption Power Guide
+* NetApp Encryption Power Guide
 +
 https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.pow-nve%2Fhome.html
 
-*	NVE and NAE Datasheet
+* NVE and NAE Datasheet
 +
 https://www.netapp.com/us/media/ds-3899.pdf
 
-*	NSE Datasheet
+* NSE Datasheet
 +
 https://www.netapp.com/us/media/ds-3213-en.pdf
 
-*	ONTAP 9 Documentation Center
+* ONTAP 9 Documentation Center
 +
 http://docs.netapp.com
 
-*	NetApp and Federal Information Processing Standard (FIPS) Publication 140-2
+* NetApp and Federal Information Processing Standard (FIPS) Publication 140-2
 +
 https://www.netapp.com/company/trust-center/compliance/fips-140-2/
 
-*	Cisco and FIPS 140-2 Compliance
+* Cisco and FIPS 140-2 Compliance
 +
 https://www.cisco.com/c/en/us/solutions/industries/government/global-government-certifications/fips-140.html
 
-*	NetApp Cryptographic Security Module
+* NetApp Cryptographic Security Module
 +
 https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2648.pdf
 
-*	Health industry cybersecurity practices: managing threats and protecting patients
-+
-https://www.phe.gov/Preparedness/planning/405d/Pages/hic-practices.aspx
-
-*	Cybersecurity practices for medium and large healthcare organizations
+* Cybersecurity practices for medium and large healthcare organizations
 +
 https://www.phe.gov/Preparedness/planning/405d/Documents/tech-vol2-508.pdf
 
-*	Cisco and Cryptographic Module Validation Program (CMVP)
+* Cisco and Cryptographic Module Validation Program (CMVP)
 +
 https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search?SearchMode=Basic&Vendor=cisco&CertificateStatus=Active&ValidationYear=0
 
@@ -81,64 +77,64 @@ https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated
 +
 https://www.netapp.com/pdf.html?item=/media/17073-ds-3898.pdf
 
-*	NetApp Volume Encryption and NetApp Aggregate Encryption
+* NetApp Volume Encryption and NetApp Aggregate Encryption
 +
 https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf
 
-*	NetApp Storage Encryption
+* NetApp Storage Encryption
 +
 https://www.netapp.com/pdf.html?item=/media/7563-ds-3213-en.pdf
 
-*	FlexPod for Electronic Health Record Systems
+* FlexPod for Electronic Health Record Systems
 +
 https://www.netapp.com/pdf.html?item=/media/22199-tr-4881.pdf
 
-*	Data Now: Improving Performance in Epic EHR Environments with Cloud-Connected Flash Technology
+* Data Now: Improving Performance in Epic EHR Environments with Cloud-Connected Flash Technology
 +
 https://www.netapp.com/media/10809-cloud-connected-flash-wp.pdf
 
-*	FlexPod Datacenter for Epic EHR Infrastructure
+* FlexPod Datacenter for Epic EHR Infrastructure
 +
 https://www.netapp.com/pdf.html?item=/media/17061-ds-3683.pdf
 
-*	FlexPod Datacenter for Epic EHR Deployment Guide
+* FlexPod Datacenter for Epic EHR Deployment Guide
 +
 https://www.netapp.com/media/10658-tr-4693.pdf
 
-*	FlexPod Datacenter Infrastructure for MEDITECH Software
+* FlexPod Datacenter Infrastructure for MEDITECH Software
 +
 https://www.netapp.com/media/8552-flexpod-for-meditech-software.pdf
 
-*	The FlexPod Standard Extends to MEDITECH Software
+* The FlexPod Standard Extends to MEDITECH Software
 +
 https://blog.netapp.com/the-flexpod-standard-extends-to-meditech-software/
 
-*	FlexPod for MEDITECH Directional Sizing Guide
+* FlexPod for MEDITECH Directional Sizing Guide
 +
 https://www.netapp.com/pdf.html?item=/media/12429-tr4774.pdf
 
-*	FlexPod for medical imaging
+* FlexPod for medical imaging
 +
 https://www.netapp.com/media/19793-tr-4865.pdf
 
-*	AI in Healthcare
+* AI in Healthcare
 +
 https://www.netapp.com/us/media/na-369.pdf
 
-*	FlexPod for healthcare Ease Your Transformation
+* FlexPod for healthcare Ease Your Transformation
 +
 https://flexpod.com/solutions/verticals/healthcare/
 
-*	FlexPod from Cisco and NetApp
+* FlexPod from Cisco and NetApp
 +
 https://flexpod.com/
 
 == Acknowledgements
-*	Abhinav Singh, Technical Marketing Engineer, NetApp
-*	Brian O’Mahony, Solution Architect Healthcare (Epic), NetApp
-*	Brian Pruitt, Pursuit Business Development Manager, NetApp
-*	Arvind Ramakrishnan, Senior Solutions Architect, NetApp
-*	Michael Hommer, FlexPod Global Field CTO, NetApp
+* Abhinav Singh, Technical Marketing Engineer, NetApp
+* Brian O’Mahony, Solution Architect Healthcare (Epic), NetApp
+* Brian Pruitt, Pursuit Business Development Manager, NetApp
+* Arvind Ramakrishnan, Senior Solutions Architect, NetApp
+* Michael Hommer, FlexPod Global Field CTO, NetApp
 
 == Version History
 
