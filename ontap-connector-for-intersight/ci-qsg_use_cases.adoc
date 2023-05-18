@@ -78,7 +78,7 @@ Here are the NetApp storage tasks that are available from Cisco Intersight:
 ** Find NetApp LUN by ID
 ** Find NetApp Volume by ID
 ** New NetApp Export Policy
-** New NetApp FC Data Interface[?]
+** New NetApp FC Data Interface
 ** New NetApp Initiator Group
 ** New NetApp iSCSI Data Interface
 ** New NetApp LUN
