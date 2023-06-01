@@ -15,10 +15,10 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 [.lead]
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
-== May 2023
+== June 2023
 NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13RC1 is required to ensure compatibility and full functionality with the latest release.  
 
-* Updated names for NetApp Storage tasks. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form^] for the complete list of renamed tasks.
+* Updated names for NetApp storage tasks. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form^] for the complete list of renamed tasks.
 
 == April 2023
 * Added Protection Policies (SnapMirror) and Snapshot Policies tabs under the Policies page within the Inventory section of the user interface.
