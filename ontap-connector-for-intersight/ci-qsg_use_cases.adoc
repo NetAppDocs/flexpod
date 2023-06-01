@@ -105,6 +105,7 @@ Here are the NetApp storage tasks that are available from Cisco Intersight:
 ** Remove NetApp Volume Snapshot
 ** Remove Rule from NetApp Export Policy
 ** Remove Schedule from NetApp Snapshot Policy
+** Rename NetApp Volume Snapshot
 ** Update NetApp Volume Capacity
 +
 To learn more about customizing workflows with NetApp storage and virtualization tasks, watch the video https://tv.netapp.com/detail/video/6228095945001[NetApp ONTAP Storage Orchestration in Cisco Intersight^].
