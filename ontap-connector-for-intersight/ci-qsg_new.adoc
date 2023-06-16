@@ -15,6 +15,11 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 [.lead]
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== June 2023
+NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13RC1 is required to ensure compatibility and full functionality with the latest release.  
+
+* Updated names for NetApp storage tasks. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form^] for the complete list of renamed tasks.
+
 == April 2023
 * Added Protection Policies (SnapMirror) and Snapshot Policies tabs under the Policies page within the Inventory section of the user interface.
 * Added NFS Clients page under the Inventory section of the user interface.  
@@ -67,7 +72,7 @@ NOTE: To ensure compatibility and complete functionality with future releases, i
 * Added AutoSupport to Cluster Inventory
 * Added `cdpd.enable` option to node
 * Added an object for CDP neighbor
-* Added NetApp workflow storage tasks within Cisco Intersight. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form] for a complete list of NetApp storage tasks.
+* Added NetApp workflow storage tasks within Cisco Intersight. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form^] for a complete list of NetApp storage tasks.
 
 == January 2022
 * Added event-based Intersight alarms for NetApp Active IQ Unified Manager 9.10 or above.
@@ -85,7 +90,7 @@ NOTE: To ensure compatibility and complete functionality with future releases, i
 
 == October 2021
 
-* Updated list of NetApp storage tasks available within Cisco Intersight. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form] for a complete list of NetApp storage tasks.
+* Updated list of NetApp storage tasks available within Cisco Intersight. See link:ci-qsg_use_cases.html[Use case 3 Custom workflows using designer-free form^] for a complete list of NetApp storage tasks.
 * Added Health column under the Cluster list page.
 * Expanded details now available under the General page for a selected cluster.
 * NTP Server table now accessible through the navigation pane.
