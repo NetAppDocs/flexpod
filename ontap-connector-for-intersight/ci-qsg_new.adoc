@@ -16,7 +16,7 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
 == July 2023
-NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13 GA is required to ensure compatibility and full functionality with the latest release.
+NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13RC1 is required to ensure compatibility and full functionality with the latest release.
 
 * Updated names for NetApp storage tasks. See Use case 3 Custom workflows using designer-free form for the complete list of renamed tasks.
 * NFS Interface IP address was added as an output of the New NetApp NAS Smart Volume task. 
