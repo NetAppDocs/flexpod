@@ -25,7 +25,7 @@ These are the minimum hardware and software components required to implement the
 |NetApp ONTAP
 |ONTAP 9.7P1 and later
 |NetApp Active IQ Unified Manager
-|Latest version of NetApp Active IQ Unified Manager is required (currently 9.13RC1)
+|Latest version of NetApp Active IQ Unified Manager is required (currently 9.13 GA)
 |NetApp Storage Array
 |All ONTAP ASA, AFF, and FAS storage array supported for ONTAP 9.7P1 and later
 |Virtualization Hypervisor
