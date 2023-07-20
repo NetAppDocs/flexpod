@@ -26,6 +26,12 @@ NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13RC1 is required to ensu
 * Accurate value for CIFS shares without or without a home directory now display on the Shares page.
 * Sorting and filtering now enabled for the Mapped column on the LUNS page. 
 * Sorting and filtering now enabled the Authentication Enabled column on the NTP Servers page. 
+* Added new checks and the following corresponding categories to the Checks tab. 
+** Security 
+** Anti-Ransomware
+** Availability
+** Other
+* Under the Inventory detail view, report now used instead of physical used capacity. 
 
 == June 2023
 NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13RC1 is required to ensure compatibility and full functionality with the latest release.  
