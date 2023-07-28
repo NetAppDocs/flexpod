@@ -65,15 +65,27 @@ When the NetApp Storage and vCenter environments are available in Cisco Intersig
 +
 Here are the NetApp storage tasks that are available from Cisco Intersight:
 
+** Add ACL to NetApp CIFS Share
+** Add Client Match to NetApp Export Policy Rule
 ** Add Export Policy to NetApp Volume
 ** Add Initiators to NetApp Initiator Group
 ** Add Rule to NetApp Export Policy
 ** Add Schedule to NetApp Snapshot Policy
+** Confirm NetApp License Status
+** Confirm NetApp Storage Virtual Machine FCP Protocol Status
 ** Edit NetApp Aggregates for Storage Virtual Machine
+** Edit NetApp Asynchronous SnapMirror Policy
+** Edit NetApp CIFS Share ACL Permission
 ** Edit NetApp Export Policy Rule
 ** Edit NetApp Snapshot Policy
 ** Edit NetApp Snapshot Policy Schedule
+** Edit NetApp Volume Security Style
+** Edit NetApp Volume Snapshot Policy
+** Enable NetApp CIFS Services
 ** Expand NetApp LUN
+** New NetApp Asynchronous SnapMirror Policy
+** New NetApp CIFS Server
+** New NetApp CIFS Share
 ** Find NetApp Initiator Group LUN Map
 ** Find NetApp LUN by ID
 ** Find NetApp Volume by ID
@@ -81,24 +93,35 @@ Here are the NetApp storage tasks that are available from Cisco Intersight:
 ** New NetApp FC Data Interface
 ** New NetApp Initiator Group
 ** New NetApp iSCSI Data Interface
+** New NetApp Load-Sharing Mirrors for SVM Root Volume
 ** New NetApp LUN
 ** New NetApp LUN Map
 ** New NetApp NAS Data Interface
 ** New NetApp NAS Smart Volume
 ** New NetApp Smart LUN
+** New NetApp SnapMirror Relationship for Volume
 ** New NetApp Snapshot Policy
 ** New NetApp Storage Virtual Machine
 ** New NetApp Volume
 ** New NetApp Volume Snapshot
+** Register DNS for NetApp Storage Virtual Machine
+** Remove ACL from NetApp CIFS Share
+** Remove Client Match from NetApp Export Policy Rule
 ** Remove Export Policy from NetApp Volume
+** Remove Initiator from NetApp Initiator Group
+** Remove NetApp CIFS Server
+** Remove NetApp CIFS Share
 ** Remove NetApp Export Policy
 ** Remove NetApp FC Data Interface
 ** Remove NetApp Initiator Group
 ** Remove NetApp IP Interface
+** Remove NetApp Load-Sharing Mirrors for SVM Root Volume
 ** Remove NetApp LUN
 ** Remove NetApp LUN Map
 ** Remove NetApp NAS Smart Volume
 ** Remove NetApp Smart LUN
+** Remove NetApp Snapmirror Relationship for Volume
+** Remove NetApp Snapmirror Policy
 ** Remove NetApp Snapshot Policy
 ** Remove NetApp Storage Virtual Machine 
 ** Remove NetApp Volume
@@ -106,6 +129,7 @@ Here are the NetApp storage tasks that are available from Cisco Intersight:
 ** Remove Rule from NetApp Export Policy
 ** Remove Schedule from NetApp Snapshot Policy
 ** Rename NetApp Volume Snapshot
+** Update NetApp Load-Sharing Mirrors for SVM Root Volume
 ** Update NetApp Volume Capacity
 +
 To learn more about customizing workflows with NetApp storage and virtualization tasks, watch the video https://tv.netapp.com/detail/video/6228095945001[NetApp ONTAP Storage Orchestration in Cisco Intersight^].
