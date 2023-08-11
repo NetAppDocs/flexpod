@@ -1,0 +1,4 @@
+---
+permalink: express/express-direct-attach-design_overview.html
+redirect: flexpod/express/express-nva-1154-deploy.html
+---
