@@ -15,6 +15,13 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 [.lead]
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== August 2023
+NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13GA is required to ensure compatibility and full functionality with the latest release.
+
+* Improved the New NetApp Smart LUN task to clearly indicate the availability of selection options for either creating a new initiator group or selecting an existing initiator group. When users now select the box to create a new initiator group, the parameter for choosing an existing initiator group is no longer available. If users deselect the box to create a new initiator group, the existing initiator group parameter then becomes available. 
+* Enhanced the New NetApp LUN Map and Remove NetApp LUN Map tasks. The new relationship between the LUN and initiator group is now updated. The UI inventory is immediately updated for both the LUN and the initiator group upon task execution. 
+* The Checks page now loads properly the first time users log in and no longer requires a refresh.      
+
 == July 2023
 NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13GA is required to ensure compatibility and full functionality with the latest release.
 
