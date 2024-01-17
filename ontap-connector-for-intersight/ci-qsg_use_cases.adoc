@@ -28,29 +28,41 @@ Here is a https://tv.netapp.com/detail/video/6228096841001[link^] to the video s
 
 == Use case 2: NetApp storage orchestration using Reference Workflows
 
-When NetApp storage and vCenter environments are available in Cisco Intersight, you can execute end-to-end Reference Workflows available out of box that include storage and virtualization tasks.
+When NetApp storage and vCenter environments are available in Cisco Intersight, you can use end-to-end reference workflows available under GitHub through the https://github.com/ucs-compute-solutions/FlexPod-Intersight-Workflow[FlexPod Intersight Workflow repository^].
 
-. Deploy Intersight Assist OVA (OnPrem task in vCenter Environment).
-. Add NetApp AIQ UM devices in Intersight Assist.
-. Add the vCenter target to Intersight via Intersight Assist.
-. Execute Reference Workflows available out of box.
-+
-Here is a list of Reference Workflows:
+The reference workflows include storage and virtualization tasks. The README file for the repository provides the prerequisites needed for executing workflows, links to helpful resources (including documentation on how to import a workflow), and documentation links for each reference workflow. 
+ 
+Each workflow has a folder in the repository containing two files: 
 
-** New NAS Datastore
-** New Storage Export Policy
-** New Storage Host
-** New Storage Interface
-** New Storage Virtual Machine
-** New Virtual Machine
-** New VMFS Datastore
-** Remove NAS Datastore
-** Remove Storage Export Policy
-** Remove Storage Host
-** Remove VMFS Datastore
-** Update NAS Datastore
-** Update Storage Host
-** Update VMFS Datastore
+* The JSON file to download and import into Intersight, 
+* A documentation file that provides a view of the tasks in the workflow, workflow inputs, and an example execution of the workflow.
+
+Perform the following to import and use a reference workflow:
+
+. Deploy Intersight Assist OVA (OnPrem task in vCenter Environment). 
+. Add NetApp AIQ UM devices in Intersight Assist. 
+. Add the vCenter target to Intersight via Intersight Assist. 
+. Download the JSON file for a reference workflow from the FlexPod-Intersight-Workflow repository.
+. Import the workflow into Intersight, then execute the workflow.
+
+Here is a list of workflows available in the GitHub FlexPod-Intersight-Workflow repository:
+
+** Add Initiators to NetApp Initiator Group 
+** New Export Policy for NetApp Volume 
+** New NAS Datastore Using NetApp Smart Volume
+** New NetApp FC Data Interface
+** New NetApp Initiator Group
+** New NetApp iSCSI Data Interface
+** New NetApp NAS Data Interface
+** New NetApp Storage Virtual Machine
+** New VMFS Datastore Using NetApp Smart LUN
+** Remove Initiators from NetApp Initiator Group
+** Remove NAS Datastore Using NetApp Smart Volume
+** Remove NetApp Export Policy
+** Remove NetApp Initiator Group
+** Remove VMFS Datastore Using NetApp Smart LUN
+** Update NAS Datastore Using NetApp Smart Volume
+** Update VMFS Datastore Using NetApp Smart LUN
 
 == Use case 3: Custom workflows using designer-free form
 
