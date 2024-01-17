@@ -16,7 +16,7 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
 == January 2024
-* NetApp storage orchestration using reference workflows now available for download through the https://github.com/ucs-compute-solutions/FlexPod-Intersight-Workflow[FlexPod Intersight Workflow repository^]. For more information on the new reference workflows under GitHub, see link:ci-qsg_use_cases.html[Use case 2: NetApp storage orchestration using Reference Workflows^].
+* NetApp storage orchestration using reference workflows now available for download in GitHub through the https://github.com/ucs-compute-solutions/FlexPod-Intersight-Workflow[FlexPod Intersight Workflow repository^]. For more information on the new reference workflows in GitHub, see link:ci-qsg_use_cases.html[Use case 2: NetApp storage orchestration using Reference Workflows^].
  
 == August 2023
 NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13GA is required to ensure compatibility and full functionality with the latest release.

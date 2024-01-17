@@ -26,9 +26,9 @@ When the NetApp storage environment is available in Cisco Intersight, you can mo
 +
 Here is a https://tv.netapp.com/detail/video/6228096841001[link^] to the video showing NetApp ONTAP Storage Monitoring Features from Cisco Intersight.
 
-== Use case 2: NetApp storage orchestration using Reference Workflows
+== Use case 2: NetApp storage orchestration using reference workflows
 
-When NetApp storage and vCenter environments are available in Cisco Intersight, you can use end-to-end reference workflows available under GitHub through the https://github.com/ucs-compute-solutions/FlexPod-Intersight-Workflow[FlexPod Intersight Workflow repository^].
+When NetApp storage and vCenter environments are available in Cisco Intersight, you can use end-to-end reference workflows available in GitHub through the https://github.com/ucs-compute-solutions/FlexPod-Intersight-Workflow[FlexPod Intersight Workflow repository^].
 
 The reference workflows include storage and virtualization tasks. The README file for the repository provides the prerequisites needed for executing workflows, links to helpful resources (including documentation on how to import a workflow), and documentation links for each reference workflow. 
  
