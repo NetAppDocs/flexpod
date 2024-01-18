@@ -15,6 +15,11 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 [.lead]
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== November 2023
+NOTE: An upgrade to NetApp Active IQ Unified Manager 9.14RC1 is required to ensure compatibility and full functionality with the latest release.
+
+* Added NVMe Namespaces page under the Inventory section of the user interface.
+
 == August 2023
 NOTE: An upgrade to NetApp Active IQ Unified Manager 9.13GA is required to ensure compatibility and full functionality with the latest release.
 
