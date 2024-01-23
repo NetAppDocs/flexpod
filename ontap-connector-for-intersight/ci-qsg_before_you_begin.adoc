@@ -42,10 +42,9 @@ image::ci-qsg_image2.png[screenshot of Deploy OVF Template step 5 configuration]
 .. On the *Customize Template* page, customize the deployment properties of the OVF template. The administrator password is used for the local users: admin(`webUI/cli/ssh`).
 +
 
-image::ci-qsg_image3.png[Error: Missing Graphic Image]
+image::ci-qsg_image3.png[screenshot of Deploy OVF Template screen]
 +
-
-image::ci-qsg_image4.png[Error: Missing Graphic Image]
+image::ci-qsg_image4.png[screenshot of Deploy OVF Template screen]
 
 .. Click *Next*.
 
