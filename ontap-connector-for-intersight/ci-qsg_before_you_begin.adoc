@@ -17,7 +17,7 @@ To monitor and orchestrate NetApp storage from Cisco Intersight, you need NetApp
 
 == Install or Upgrade NetApp Active IQ Unified Manager
 
-Install or upgrade to Active IQ Unified Manager (latest version is required, currently 9.13GA) if you have not done so. For instructions, go to the link:https://docs.netapp.com/us-en/active-iq-unified-manager/[NetApp Active IQ Unified Manager Documentation].
+Install or upgrade to Active IQ Unified Manager (latest version is required, currently 9.14RC1) if you have not done so. For instructions, go to the link:https://docs.netapp.com/us-en/active-iq-unified-manager/[NetApp Active IQ Unified Manager Documentation].
 
 == Install Cisco Intersight Assist Virtual Appliance
 
@@ -42,10 +42,9 @@ image::ci-qsg_image2.png[screenshot of Deploy OVF Template step 5 configuration]
 .. On the *Customize Template* page, customize the deployment properties of the OVF template. The administrator password is used for the local users: admin(`webUI/cli/ssh`).
 +
 
-image::ci-qsg_image3.png[Error: Missing Graphic Image]
+image::ci-qsg_image3.png[screenshot of Deploy OVF Template screen]
 +
-
-image::ci-qsg_image4.png[Error: Missing Graphic Image]
+image::ci-qsg_image4.png[screenshot of Deploy OVF Template screen]
 
 .. Click *Next*.
 
