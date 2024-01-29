@@ -15,8 +15,11 @@ summary: Cisco Intersight introduces new releases to bring you new features, enh
 [.lead]
 This section lists new features and functionality available for Cisco Intersight with NetApp ONTAP storage.
 
+== January 2024
+* NetApp storage orchestration using reference workflows now available for download in GitHub through the https://github.com/ucs-compute-solutions/FlexPod-Intersight-Workflow[FlexPod Intersight Workflow repository^]. For more information on the new reference workflows in GitHub, see link:ci-qsg_use_cases.html[Use case 2: NetApp storage orchestration using Reference Workflows^].
+
 == November 2023
-NOTE: An upgrade to NetApp Active IQ Unified Manager 9.14RC1 is required to ensure compatibility and full functionality with the latest release.
+//NOTE: An upgrade to NetApp Active IQ Unified Manager 9.14RC1 is required to ensure compatibility and full functionality with the latest release.
 
 * Added NVMe Namespaces page under the Inventory section of the user interface.
 
@@ -138,3 +141,5 @@ NOTE: The above performance metrics are only available for storage arrays monito
 * To ensure Intersight storage inventory data is unaffected during the data collection process, any unsupported ONTAP clusters (i.e., versions below ONTAP 9.7P1) must be removed from the Active IQ Unified Manager (AIQUM).
 * All claimed targets require a minimum AIQUM version of 9.11 for FlexPod Integrated System Interoperability queries to complete successfully.
 * The Storage Inventory Checks page will not populate if the ONTAP cluster is added to AIQUM using an FQDN. Users must add ONTAP clusters to AIQUM using an IP address.  
+
+//26-JAN-2024 commented out the recommendation to upgrade to AIQ UM 9.14.1
