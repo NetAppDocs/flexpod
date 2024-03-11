@@ -17,7 +17,7 @@ To learn more, see the following documents and websites:
 
 https://www.netapp.com/pdf.html?item=/media/25001-tr-4883.pdf[TR 4883: FlexPod Datacenter with ONTAP 9.8, ONTAP Storage Connector for Cisco Intersight, and Cisco Intersight Managed Mode^]
 
-https://www.cisco.com/c/en/us/solutions/collateral/data-center-virtualization/flexpod/cisco-imm-for-flexpod.html[Cisco Intersight Managed Mode for FlexPod^]
+https://intersight.com/help/saas[Cisco Intersight help center^]
 
 https://intersight.com/help/saas/getting_started/overview[Cisco Intersight Getting Started Overview^]
 

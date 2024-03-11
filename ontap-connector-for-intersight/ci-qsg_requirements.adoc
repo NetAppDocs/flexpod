@@ -29,20 +29,24 @@ These are the minimum hardware and software components required to implement the
 |NetApp Storage Array
 |All ONTAP ASA, AFF, and FAS storage array supported for ONTAP 9.7P1 and later
 |Virtualization Hypervisor
-|vSphere 6.7 and later
+|vSphere 7.0 and later
 |===
 
 [NOTE]
-Refer to https://www.cisco.com/c/en/us/solutions/collateral/data-center-virtualization/flexpod/cisco-imm-for-flexpod.html[Cisco Intersight Managed Mode for FlexPod^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
+Refer to https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/flexpod/index.html[Cisco Intersight supported systems^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
 
 == Cisco Intersight licensing requirements
 
-Cisco Intersight is licensed on a subscription basis with multiple license editions from which to choose. Capabilities increase with the different license types. You can purchase a subscription duration of one, three, or five years and choose the required Cisco UCS Server volume tier for the selected subscription duration. Each Cisco endpoint automatically includes a Cisco Intersight Base at no additional cost when you access the Cisco Intersight portal and claim a device.
+Cisco Intersight offers services such as Infrastructure Service and Cloud Orchestrator service to manage, automate, and optimize physical storage (NetApp storage). You can use these services to manage Cisco UCS server and Cisco HyperFlex system.  The Infrastructure Service and Cloud Orchestrator service use a subscription-based licensing model with multiple tiers. You can choose the required Cisco UCS Server volume tier for the selected subscription term.
 
-You can purchase any of the following higher-tier Intersight licenses using the Cisco ordering tool:
+.Licensing Model
 
-* *Cisco Intersight Essentials.* Essentials includes all functionality of the Base tier with the additional features including Cisco UCS Central and Cisco IMC Supervisor entitlement, policy-based configuration with Service Profiles, firmware management, and evaluation of compatibility with the Hardware Compatibility List (HCL).
-* *Cisco Intersight Advantage.* Advantage offers all features and functionality of the Base and Essentials tiers. It includes storage widgets, storage inventory, storage capacity, and storage utilization, and cross-domain inventory correlation across physical compute, physical storage, and virtual environments (VMware ESXi).
-* *Cisco Intersight Premier.* In addition to the capabilities provided in the Advantage tier, Cisco Intersight Premier offers Private Cloud Infrastructure-as-a-Service (IaaS) orchestration across Cisco UCS, and third-party systems, including virtual machines (VMs) (VMware vCenter) and physical storage (NetApp storage).
+The Cisco Intersight Infrastructure Services licensing model has been simplified and now offers the following two tiers:
 
-For more information about the features covered by various licensing tiers, go to https://intersight.com/help/getting_started#intersight_licensing[Cisco Licensing].
+* *Cisco Intersight Infrastructure Services Essentials* - The Essentials license tier offers server management with global health monitoring, inventory, proactive support through Cisco TAC integration, multi-factor authentication, along with providing SDK and API access.
+
+* *Cisco Intersight Infrastructure Services Advantage* - The Advantage license tier offers advanced server management with extended visibility, ecosystem integration, and automation of Cisco and third-party hardware and software, along with providing multi-domain solutions.
+
+
+
+For more information about the features covered by various licensing tiers, go to https://intersight.com/help/saas/getting_started/licensing_requirements/lic_infra#licensing_model[Infrastructure Services License^].
