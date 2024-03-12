@@ -33,20 +33,19 @@ These are the minimum hardware and software components required to implement the
 |===
 
 [NOTE]
-Refer to https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/flexpod/index.html[Cisco Intersight supported systems^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
+Refer to https://intersight.com/help/saas/supported_systems[Cisco Intersight supported systems^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
 
 == Cisco Intersight licensing requirements
 
-Cisco Intersight offers services such as Infrastructure Service and Cloud Orchestrator service to manage, automate, and optimize physical storage (NetApp storage). You can use these services to manage Cisco UCS server and Cisco HyperFlex system.  The Infrastructure Service and Cloud Orchestrator service use a subscription-based licensing model with multiple tiers. You can choose the required Cisco UCS Server volume tier for the selected subscription term.
+Cisco Intersight offers services such as Infrastructure Service and Cloud Orchestrator service to manage, automate, and optimize physical storage (NetApp storage). You can use these services to manage Cisco UCS server and Cisco HyperFlex system. The Infrastructure Service and Cloud Orchestrator service use a subscription-based licensing model with multiple tiers. You can choose the required Cisco UCS Server volume tier for the selected subscription term.
 
 .Licensing Model
 
 The Cisco Intersight Infrastructure Services licensing model has been simplified and now offers the following two tiers:
 
-* *Cisco Intersight Infrastructure Services Essentials* - The Essentials license tier offers server management with global health monitoring, inventory, proactive support through Cisco TAC integration, multi-factor authentication, along with providing SDK and API access.
+* *Cisco Intersight Infrastructure Services Essentials* - The Essentials license tier offers server management including global health monitoring functionality, inventory, proactive support through Cisco TAC integration, multi-factor authentication, along with providing SDK and API access.
 
-* *Cisco Intersight Infrastructure Services Advantage* - The Advantage license tier offers advanced server management with extended visibility, ecosystem integration, and automation of Cisco and third-party hardware and software, along with providing multi-domain solutions.
+* *Cisco Intersight Infrastructure Services Advantage* - The Advantage license tier offers advanced server management with extended visibility, ecosystem integration, automation of Cisco and third-party hardware and software, along with providing multi-domain solutions.
 
 
-
-For more information about the features covered by various licensing tiers, go to https://intersight.com/help/saas/getting_started/licensing_requirements/lic_infra#licensing_model[Infrastructure Services License^].
+For more information about the features covered by various licensing tiers, go to https://intersight.com/help/saas/getting_started/licensing_requirements/lic_infra#licensing_model[Infrastructure Services license^].
