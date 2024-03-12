@@ -13,7 +13,7 @@ summary: Check that you meet the hardware, software, and licensing requirements 
 :imagesdir: ./../media/
 
 [.lead]
-Check that you meet the hardware, software, and licensing requirements for NetApp ONTAP storage integration with Cisco Intersight.
+Verify that you meet the hardware, software, and licensing requirements for NetApp ONTAP storage integration with Cisco Intersight.
 
 == Hardware and software requirements
 
@@ -27,7 +27,7 @@ These are the minimum hardware and software components required to implement the
 |NetApp Active IQ Unified Manager
 |Latest version of NetApp Active IQ Unified Manager is required (currently 9.14RC1)
 |NetApp Storage Array
-|All ONTAP ASA, AFF, and FAS storage array supported for ONTAP 9.7P1 and later
+|All ONTAP ASA, AFF, and FAS storage arrays supported for ONTAP 9.7P1 and later
 |Virtualization Hypervisor
 |vSphere 7.0 and later
 |===
