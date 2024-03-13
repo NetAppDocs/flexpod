@@ -18,5 +18,4 @@ entries:
     url: /ontap-connector-for-intersight/ci-qsg_monitor_netapp_storage_from_cisco_intersight.html
   - title: Use cases
     url: /ontap-connector-for-intersight/ci-qsg_use_cases.html
-  - title: References
-    url: /ontap-connector-for-intersight/ci-qsg_references.html
+  
