@@ -62,11 +62,11 @@ image:fp-express-tech-spec_image6.png[Error: Missing Graphic Image]
 
 Previous FlexPod Express verified architectures are still supported. The architecture and deployment documents include:
 
-* link:http://www.netapp.com/us/media/nva-0016-flexpod-express.pdf[FlexPod Express with Cisco UCS C-Series and NetApp FAS2500 Series]
-* link:http://www.netapp.com/us/media/nva-0020-deploy.pdf[FlexPod Express with VMware vSphere 6.0: Small and Medium Configurations]
-* link:http://www.netapp.com/us/media/nva-0017-flexpod-express.pdf[FlexPod Express with VMware vSphere 6.0: Large Configuration]
-* link:http://www.netapp.com/us/media/nva-0021-deploy.pdf[FlexPod Express with Microsoft Windows Server 2012 R2 Hyper-V: Small and Medium Configurations]
-* link:http://www.netapp.com/us/media/tr-4350.pdf[FlexPod Express with Microsoft Windows Server 2012 R2 Hyper-V: Large Configuration]
+* link:https://www.netapp.com/pdf.html?item=/media/12441-nva-0016-flexpod-express.pdf[FlexPod Express with Cisco UCS C-Series and NetApp FAS2500 Series^]
+* link:https://www.netapp.com/pdf.html?item=/media/12442-nva-0020-deploy.pdf[FlexPod Express with VMware vSphere 6.0: Small and Medium Configurations^]
+* link:https://www.netapp.com/pdf.html?item=/media/12443-nva-0017-flexpod-express.pdf[FlexPod Express with VMware vSphere 6.0: Large Configuration^]
+* link:https://www.netapp.com/pdf.html?item=/media/12444-nva-0021-deploypdf.pdf[FlexPod Express with Microsoft Windows Server 2012 R2 Hyper-V: Small and Medium Configurations^]
+* link:https://www.netapp.com/pdf.html?item=/media/12445-tr-4350.pdf[FlexPod Express with Microsoft Windows Server 2012 R2 Hyper-V: Large Configuration^]
 
 === Previous hardware
 

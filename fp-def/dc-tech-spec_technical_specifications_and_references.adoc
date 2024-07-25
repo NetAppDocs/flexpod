@@ -331,19 +331,19 @@ All available models of FAS storage controllers are supported for use in a FlexP
 
 |FAS9000 Series
 |
-https://www.netapp.com/us/media/ds-3810.pdf[FAS9000 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/8939-ds-3810.pdf[FAS9000 Series Datasheet^]
 |FAS8700 Series
 |
-https://www.netapp.com/us/media/ds-4020.pdf[FAS8700 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS8700 Series Datasheet^]
 |FAS8300 Series
 |
-https://www.netapp.com/us/media/ds-4020.pdf[FAS8300 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS8300 Series Datasheet^]
 |FAS500f Series
 |
 https://docs.netapp.com/us-en/ontap-systems/fas500f/index.html[FAS500f Series Datasheet]
 |FAS2700 Series
 |
-https://www.netapp.com/us/media/ds-3929.pdf[FAS2700 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/8937-ds-3929.pdf[FAS2700 Series Datasheet^]
 |===
 
 === AFF A-Series

@@ -35,7 +35,7 @@ https://fieldportal.netapp.com/content/902303
 
 * NetApp ONTAP 9 Hardening Guide
 +
-https://www.netapp.com/us/media/tr-4569.pdf
+https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf
 
 * NetApp Encryption Power Guide
 +
@@ -43,11 +43,11 @@ https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.pow-nve%2Fhome
 
 * NVE and NAE Datasheet
 +
-https://www.netapp.com/us/media/ds-3899.pdf
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf
 
 * NSE Datasheet
 +
-https://www.netapp.com/us/media/ds-3213-en.pdf
+https://www.netapp.com/pdf.html?item=/media/7563-ds-3213-en.pdf
 
 * ONTAP 9 Documentation Center
 +
@@ -119,7 +119,7 @@ https://www.netapp.com/media/19793-tr-4865.pdf
 
 * AI in Healthcare
 +
-https://www.netapp.com/us/media/na-369.pdf
+https://www.netapp.com/pdf.html?item=/media/7393-na-369pdf.pdf
 
 * FlexPod for healthcare Ease Your Transformation
 +

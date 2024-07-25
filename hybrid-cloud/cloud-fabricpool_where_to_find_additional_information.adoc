@@ -23,7 +23,7 @@ To learn more about the information that is described in this document, review t
 
 * FabricPool Best Practices
 +
-http://www.netapp.com/us/media/tr-4598.pdf[www.netapp.com/us/media/tr-4598.pdf^]
+https://www.netapp.com/pdf.html?item=/media/17239-tr-4598.pdf[www.netapp.com/us/media/tr-4598.pdf^]
 
 * NetApp Product Documentation
 +

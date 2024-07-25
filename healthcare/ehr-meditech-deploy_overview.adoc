@@ -189,7 +189,7 @@ The I/O characteristic of each MEDITECH host and the system as a whole depends o
 
 The MEDITECH Expanse platform generates the most demanding workload because it has the highest percentage of write operations and overall IOPS per host, followed by 6.x, C/S 5.x, and the MAGIC platforms.
 
-For more details about the MEDITECH workload descriptions, see https://www.netapp.com/us/media/tr-4190.pdf[TR-4190: NetApp Sizing Guidelines for MEDITECH Environments^].
+For more details about the MEDITECH workload descriptions, see https://www.netapp.com/pdf.html?item=/media/19872-tr-4190.pdf[TR-4190: NetApp Sizing Guidelines for MEDITECH Environments^].
 
 === Storage network
 
