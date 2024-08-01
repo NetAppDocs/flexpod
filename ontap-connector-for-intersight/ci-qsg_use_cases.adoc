@@ -24,8 +24,6 @@ When the NetApp storage environment is available in Cisco Intersight, you can mo
 . Go to *Storage* and navigate through NetApp storage inventory.
 . Add *Widgets* for NetApp storage to your *Monitor Dashboard*.
 +
-Here is a https://tv.netapp.com/detail/video/6228096841001[link^] to the video showing NetApp ONTAP Storage Monitoring Features from Cisco Intersight.
-
 == Use case 2: NetApp storage orchestration using reference workflows
 
 When NetApp storage and vCenter environments are available in Cisco Intersight, you can use end-to-end reference workflows available in GitHub through the https://github.com/ucs-compute-solutions/FlexPod-Intersight-Workflow[FlexPod Intersight Workflow repository^].
@@ -144,4 +142,3 @@ Here are the NetApp storage tasks that are available from Cisco Intersight:
 ** Update NetApp Load-Sharing Mirrors for SVM Root Volume
 ** Update NetApp Volume Capacity
 +
-To learn more about customizing workflows with NetApp storage and virtualization tasks, watch the video https://tv.netapp.com/detail/video/6228095945001[NetApp ONTAP Storage Orchestration in Cisco Intersight^].
