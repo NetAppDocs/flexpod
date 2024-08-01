@@ -24,8 +24,6 @@ indexpage:
 
     - title: FlexPod Business Applications and Enterprise Databases
       links:
-        - title: "Videos and Demos"
-          url: 
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Flexpod/
 
@@ -42,8 +40,6 @@ indexpage:
       links:
         - title: "What's New"
           url: https://www.flexpod.com/solutions/use-cases/virtual-desktop-infrastructure/
-        - title: "Videos and Demos"
-          url: 
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Flexpod/
 
@@ -51,8 +47,6 @@ indexpage:
       links:
         - title: "What's New"
           url: https://flexpod.com/solutions/verticals/healthcare/
-        - title: "Videos and Demos"
-          url: 
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Healthcare/
           
