@@ -31,4 +31,4 @@ https://docs.netapp.com[https://docs.netapp.com^]
 
 * TR-4036: FlexPod Datacenter Technical Specification
 +
-https://www.netapp.com/us/media/tr-4036.pdf[https://www.netapp.com/us/media/tr-4036.pdf^]
+https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_solution_overview.html[https://www.netapp.com/us/media/tr-4036.pdf^]
