@@ -385,7 +385,7 @@ The following table lists the datasheets for the current E-Series storage contro
 
 |E2800
 |
-http://www.netapp.com/us/media/ds-3805.pdf
+https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
 |===
 
 == E-Series adapters

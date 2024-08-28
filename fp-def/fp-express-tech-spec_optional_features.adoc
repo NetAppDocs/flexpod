@@ -47,4 +47,4 @@ The following figure illustrates the FlexPod Express with Cisco UCS- managed con
 
 image:fp-express-tech-spec_image3.png[Error: Missing Graphic Image]
 
-For more information about this configuration, see https://www.netapp.com/us/media/nva-1131-deploy.pdf[FlexPod Express with VMware vSphere 6.7U1 and NetApp AFF A220 with Direct - Attached IP - Based Storage^].
+For more information about this configuration, see https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_program_summary.html[FlexPod Express with VMware vSphere 6.7U1 and NetApp AFF A220 with Direct - Attached IP - Based Storage^].

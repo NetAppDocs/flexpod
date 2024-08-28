@@ -168,5 +168,5 @@ See the following best practices and some requirements from a typical medical im
 * Make sure that the VM OS VMDKs are hosted in fast tier 1 storage.
 * Work with the medical imaging system vendor to identify the best approach to prepare VM templates for quick deployment and maintenance.
 * Management, storage, and production networks require LAN segregation for the database, with isolated VLANs for VMware vMotion.
-* Use the NetApp storage-array-based replication technology called https://www.netapp.com/us/media/tr-4015.pdf[SnapMirror^] instead of vSphere-based replication.
+* Use the NetApp storage-array-based replication technology called https://www.netapp.com/pdf.html?item=/media/17229-tr4015pdf.pdf[SnapMirror^] instead of vSphere-based replication.
 * Use backup technologies that leverage VMware APIs; backup windows should be outside the normal production hours.
