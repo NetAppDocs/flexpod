@@ -9,7 +9,7 @@ indexpage:
         - title: "What's New"
           url: https://fieldportal.netapp.com/content/1668183
         - title: "Videos and Demos"
-          url: https://tv.netapp.com/search?q=FlexPod
+          url: https://media.netapp.com/search?q=FlexPod
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Flexpod/
 
@@ -18,14 +18,12 @@ indexpage:
         - title: "What's New"
           url: https://www.flexpod.com/solutions/use-cases/machine-learning/
         - title: "Videos and Demos"
-          url: https://tv.netapp.com/search?q=FlexPod%20AI
+          url: https://media.netapp.com/search?q=FlexPod%20AI
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Flexpod/
 
     - title: FlexPod Business Applications and Enterprise Databases
       links:
-        - title: "Videos and Demos"
-          url: https://tv.netapp.com/search?q=FlexPod%20SAP
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Flexpod/
 
@@ -34,7 +32,7 @@ indexpage:
         - title: "What's New"
           url: https://flexpod.com/solutions/use-cases/hybrid-cloud/
         - title: "Videos and Demos"
-          url: https://tv.netapp.com/search?q=FlexPod%20Hybrid%20Cloud
+          url: https://media.netapp.com/search?q=FlexPod%20Hybrid%20Cloud
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Flexpod/
 
@@ -42,8 +40,6 @@ indexpage:
       links:
         - title: "What's New"
           url: https://www.flexpod.com/solutions/use-cases/virtual-desktop-infrastructure/
-        - title: "Videos and Demos"
-          url: https://tv.netapp.com/search?q=FlexPod%20VDI
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Flexpod/
 
@@ -51,8 +47,6 @@ indexpage:
       links:
         - title: "What's New"
           url: https://flexpod.com/solutions/verticals/healthcare/
-        - title: "Videos and Demos"
-          url: https://tv.netapp.com/search?q=FlexPod%20Healthcare
         - title: "Blogs"
           url: https://blog.netapp.com/tag/Healthcare/
           
