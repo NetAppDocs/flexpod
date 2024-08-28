@@ -37,7 +37,7 @@ By running a MEDITECH environment on the FlexPod architectural foundation, your 
 * *Secure multitenancy.* Support the increased needs of virtualized server and storage shared infrastructure, enabling secure multitenancy of facility-specific information, particularly if your system hosts multiple instances of databases and software.
 * *Pooled resource optimization.* Help reduce physical server and storage controller counts, load- balance workload demands, and boost utilization while improving performance.
 * *Quality of service (QoS).* FlexPod offers QoS on the entire stack. Industry-leading QoS network, compute, and storage policies enable differentiated service levels in a shared environment. These policies enable optimal performance for workloads and help in isolating and controlling runaway applications.
-* *Storage efficiency.* Reduce storage costs with the http://www.netapp.com/us/media/netapp-aff-efficiency-guarantee.pdf[NetApp 7:1 storage efficiency guarantee^].
+* *Storage efficiency.* Reduce storage costs with the https://www.netapp.com/media/79014-ng-937-Efficiency-Guarantee-Customer-Flyer.pdf[NetApp 7:1 storage efficiency guarantee^].
 * *Agility.* With the industry-leading workflow automation, orchestration, and management tools that FlexPod systems provide, your IT team can be far more responsive to business requests. These business requests can range from MEDITECH backup and provisioning of more test and training environments to analytics database replications for population health management initiatives.
 * *Increased productivity.* Quickly deploy and scale this solution for optimal clinician end- user experiences.
 * *NetApp Data Fabric.* The NetApp Data Fabric architecture weaves data together across sites, beyond physical boundaries, and across applications. The NetApp Data Fabric is built for data-driven enterprises in a data-centric world. Data is created and is used in multiple locations, and often you need to leverage and to share it with other locations, applications, and infrastructures. You need a way to manage your data that is consistent and integrated. The Data Fabric provides a way to manage data that puts IT in control and that simplifies ever-increasing IT complexity.
@@ -189,7 +189,7 @@ The I/O characteristic of each MEDITECH host and the system as a whole depends o
 
 The MEDITECH Expanse platform generates the most demanding workload because it has the highest percentage of write operations and overall IOPS per host, followed by 6.x, C/S 5.x, and the MAGIC platforms.
 
-For more details about the MEDITECH workload descriptions, see https://www.netapp.com/us/media/tr-4190.pdf[TR-4190: NetApp Sizing Guidelines for MEDITECH Environments^].
+For more details about the MEDITECH workload descriptions, see https://www.netapp.com/pdf.html?item=/media/19872-tr-4190.pdf[TR-4190: NetApp Sizing Guidelines for MEDITECH Environments^].
 
 === Storage network
 

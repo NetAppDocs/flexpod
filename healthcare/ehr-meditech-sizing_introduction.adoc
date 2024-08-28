@@ -73,8 +73,8 @@ This document is intended for NetApp and partner systems engineers and NetApp Pr
 
 The following technical reports and other documents are relevant to this Technical Report, and make up a complete set of documents required for sizing, designing, and deploying MEDITECH on FlexPod infrastructure.
 
-* https://www.netapp.com/us/media/tr-4753.pdf[TR-4753: FlexPod Datacenter for MEDITECH Deployment Guide^]
-* https://www.netapp.com/us/media/tr-4190.pdf[TR-4190: NetApp Sizing Guidelines for MEDITECH Environments^]
+* https://docs.netapp.com/us-en/flexpod/healthcare/ehr-meditech-deploy_overview.html[TR-4753: FlexPod Datacenter for MEDITECH Deployment Guide^]
+* https://www.netapp.com/pdf.html?item=/media/19872-tr-4190.pdf[TR-4190: NetApp Sizing Guidelines for MEDITECH Environments^]
 * https://fieldportal.netapp.com/content/248456[TR-4319: NetApp Deployment Guidelines for MEDITECH Environments^]
 
 [NOTE]

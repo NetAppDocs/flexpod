@@ -29,4 +29,4 @@ FlexPod Express with Guide
 
 NVA-1139-DESIGN: FlexPod Express with Cisco UCS C-Series and NetApp AFF C190 Series
 
-https://www.netapp.com/us/media/nva-1139-design.pdf[https://www.netapp.com/us/media/nva-1139-design.pdf^]
+https://docs.netapp.com/us-en/flexpod/express/express-c-series-c190-design_executive_summary.html[https://www.netapp.com/us/media/nva-1139-design.pdf^]

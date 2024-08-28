@@ -45,7 +45,7 @@ https://www.flexpod.com/idc-white-paper/[https://www.flexpod.com/idc-white-paper
 
 * AI in healthcare
 +
-https://www.netapp.com/us/media/na-369.pdf[https://www.netapp.com/us/media/na-369.pdf^]
+https://www.netapp.com/pdf.html?item=/media/7393-na-369pdf.pdf[https://www.netapp.com/us/media/na-369.pdf^]
 
 * FlexPod for healthcare Ease Your Transformation
 +

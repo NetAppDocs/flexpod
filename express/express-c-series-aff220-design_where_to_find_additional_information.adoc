@@ -28,4 +28,4 @@ https://docs.netapp.com[https://docs.netapp.com^]
 
 * FlexPod Express with VMware vSphere 6.7 and NetApp AFF A220 Deployment Guide
 +
-https://www.netapp.com/us/media/nva-1123-deploy.pdf[https://www.netapp.com/us/media/nva-1123-deploy.pdf^]
+https://docs.netapp.com/us-en/flexpod/express/express-c-series-aff220-deploy_program_summary.html[https://www.netapp.com/us/media/nva-1123-deploy.pdf^]

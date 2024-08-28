@@ -48,7 +48,7 @@ NetApp SnapMirror provides industry leading data replication capabilities that h
 * Preserve storage-efficiency benefits on the primary storage during transport—including deduplication, compression, and compaction.
 * Deliver additional inline efficiencies with network compression.
 
-More information can be found https://www.netapp.com/us/media/ds-3820.pdf[here^].
+More information can be found https://www.netapp.com/pdf.html?item=/media/8327-ds-3820.pdf[here^].
 
 The table below lists each tier that a typical medical imaging system requires for specific latency and the throughput performance characteristics.
 
@@ -202,7 +202,7 @@ A typical medical imaging system uses an N- tiered architecture. The core compon
 
 A typical medical imaging system provides access to images for two distinct set of users: diagnostic user/radiologist, or the clinician or physician that ordered the imaging.
 
-Radiologists typically use high- end, graphics- enabled diagnostic viewers that are running on high- end compute and graphics workstations that are either physical or part of a virtual desktop infrastructure. If you are about to start your virtual desktop infrastructure journey, more information can be found https://www.netapp.com/us/media/na-flexpod-vdi.pdf[here^].
+Radiologists typically use high- end, graphics- enabled diagnostic viewers that are running on high- end compute and graphics workstations that are either physical or part of a virtual desktop infrastructure. If you are about to start your virtual desktop infrastructure journey, more information can be found https://www.netapp.com/pdf.html?item=/media/19872-tr-4190.pdf[here^].
 
 When hurricane Katrina destroyed two of Louisiana’s major teaching hospitals, leaders came together and built a resilient electronic health record system that included over 3000 virtual desktops in record time. More information on use cases reference architecture and FlexPod reference bundles can be found https://blog.netapp.com/virtual-desktop-infrastructure-bundles[here^].
 
@@ -215,7 +215,7 @@ The medical imaging system can provide image access to a community of physicians
 
 Medical imaging systems can also support academic medical centers that need PACS or imaging systems for use in a classroom. To support academic activities, a typical medical imaging system can have the capabilities of a PACS system in a smaller footprint or a teaching- only imaging environment. Typical vendor- neutral archiving systems and some enterprise- class medical imaging systems offer DICOM image tag morphing capabilities to anonymize the images that are used for teaching purposes. Tag morphing enables healthcare organization to exchange DICOM images between different vendor medical imaging systems in a vendor- neutral fashion. Also, tag morphing enables medical imaging systems to implement an enterprise- wide, vendor- neutral archival capability for medical images.
 
-Medical imaging systems are starting to use https://www.netapp.com/us/media/sb-flexpod-datacenter-ai.pdf[GPU-based compute capabilities^] to enhance human workflows by preprocessing the images and thus improving efficiencies. Typical enterprise medical imaging systems take advantage of industry- leading NetApp storage efficiency capabilities. Enterprise medical imaging systems typically use RMAN for backup, recovery, and restore activities. For better performance and to reduce the time that it takes to create backups, Snapshot technology is available for backup operations and SnapMirror technology is available for replication.
+Medical imaging systems are starting to use https://www.netapp.com/pdf.html?item=/media/7398-sb-flexpod-datacenter-aipdf.pdf[GPU-based compute capabilities^] to enhance human workflows by preprocessing the images and thus improving efficiencies. Typical enterprise medical imaging systems take advantage of industry- leading NetApp storage efficiency capabilities. Enterprise medical imaging systems typically use RMAN for backup, recovery, and restore activities. For better performance and to reduce the time that it takes to create backups, Snapshot technology is available for backup operations and SnapMirror technology is available for replication.
 
 The figure below shows the logical application components in a layered architectural view.
 

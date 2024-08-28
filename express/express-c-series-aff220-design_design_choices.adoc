@@ -42,7 +42,7 @@ Also, root-data partitioning can be leveraged on the AFF A220 system. This parti
 
 image:express-c-series-aff220-design_image6.png[Error: Missing Graphic Image]
 
-These are just a few key features that complement the FlexPod Express solution. For details about the additional features and functionality of ONTAP 9.4, see the https://www.netapp.com/us/media/ds-3231.pdf[ONTAP 9 Data Management Software datasheet^]. Also, see the NetApp http://docs.netapp.com/ontap-9/index.jsp[ONTAP 9 Documentation Center^], which has been updated to include ONTAP 9.4.
+These are just a few key features that complement the FlexPod Express solution. For details about the additional features and functionality of ONTAP 9.4, see the https://www.netapp.com/pdf.html?item=/media/7413-ds-3231.pdf[ONTAP 9 Data Management Software datasheet^]. Also, see the NetApp http://docs.netapp.com/ontap-9/index.jsp[ONTAP 9 Documentation Center^], which has been updated to include ONTAP 9.4.
 
 == Cisco Nexus 3000 Series
 

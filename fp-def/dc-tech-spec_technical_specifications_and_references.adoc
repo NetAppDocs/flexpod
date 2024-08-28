@@ -331,24 +331,24 @@ All available models of FAS storage controllers are supported for use in a FlexP
 
 |FAS9000 Series
 |
-https://www.netapp.com/us/media/ds-3810.pdf[FAS9000 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/8939-ds-3810.pdf[FAS9000 Series Datasheet^]
 |FAS8700 Series
 |
-https://www.netapp.com/us/media/ds-4020.pdf[FAS8700 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS8700 Series Datasheet^]
 |FAS8300 Series
 |
-https://www.netapp.com/us/media/ds-4020.pdf[FAS8300 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS8300 Series Datasheet^]
 |FAS500f Series
 |
 https://docs.netapp.com/us-en/ontap-systems/fas500f/index.html[FAS500f Series Datasheet]
 |FAS2700 Series
 |
-https://www.netapp.com/us/media/ds-3929.pdf[FAS2700 Series Datasheet]
+https://www.netapp.com/pdf.html?item=/media/8937-ds-3929.pdf[FAS2700 Series Datasheet^]
 |===
 
 === AFF A-Series
 
-All current models of NetApp AFF A-Series storage controllers are supported for use in FlexPod. Additional information can be found in the https://www.netapp.com/us/media/ds-3582.pdf[AFF Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific AFF Model.
+All current models of NetApp AFF A-Series storage controllers are supported for use in FlexPod. Additional information can be found in the https://www.netapp.com/media/7828-DS-3582-AFF-A-Series.pdf[AFF Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific AFF Model.
 
 |===
 |Component |AFF A-Series controller platform documentation
