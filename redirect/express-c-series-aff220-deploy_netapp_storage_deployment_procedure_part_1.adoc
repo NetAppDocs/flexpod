@@ -1,4 +1,4 @@
 ---
 permalink: express/express-c-series-aff220-deploy_netapp_storage_deployment_procedure_@part_1@.html
-redirect: express/express-c-series-aff220-deploy_netapp_storage_deployment_procedure_part_1.html
+redirect: flexpod/express/express-c-series-aff220-deploy_netapp_storage_deployment_procedure_part_1.html
 ---
