@@ -4,7 +4,6 @@ permalink: hybrid-cloud/fhc-cvoe-solution-validation.html
 keywords: application, development, testing, disaster recovery, dr, verification
 summary: This section describes the validation of the solution using several use cases.
 ---
-
 = Solution validation
 :hardbreaks:
 :nofooter:
@@ -71,7 +70,7 @@ singlecvoaws::> snapmirror update -destination-path svm_singlecvoaws:hc_iscsi_vo
 Operation is queued: snapmirror update of destination “svm_singlecvoaws:hc_iscsi_vol_copy”.
 ....
 +
-A SnapMirror update can also be performed through the BlueXP GUI under the *Replication* tab.
+A SnapMirror update can also be performed through the NetApp Console GUI under the *Replication* tab.
 
 . Create a FlexClone instance based on the application snapshot that was taken earlier.
 +
@@ -86,7 +85,7 @@ For the previous task, a new snapshot can also be created, but you must follow t
 . Activate a FlexClone volume to bring up the EHR instance in the cloud.
 +
 ....
-singlecvoaws::> lun mapping create –vserver svm_singlecvoaws –path /vol/kamini_clone/iscsi_lun1 -igroup ehr-igroup –lun-id 0
+singlecvoaws::> lun mapping create -vserver svm_singlecvoaws -path /vol/kamini_clone/iscsi_lun1 -igroup ehr-igroup -lun-id 0
 
 singlecvoaws::> lun mapping show
 Vserver     Path                                  Igroup    LUN ID  Protocol
@@ -155,7 +154,7 @@ image:fhc-cvoe-image21.png["This screenshot shows the stop option in the Storage
 +
 Make sure that SnapMirror replication is already set up between the on-premises ONTAP in FlexPod instance and Cloud Volumes ONTAP in AWS, so that you can create frequent application snapshots.  
 +
-After the SVM has been stopped, the `hc_iscsi_vol` volume is not visible in BlueXP.
+After the SVM has been stopped, the `hc_iscsi_vol` volume is not visible in the Console.
 +
 image:fhc-cvoe-image22.png["The volume is now visible in the volume summary screen."]
 
@@ -236,7 +235,7 @@ When this operation is performed, the contents from the original source volume a
 +
 Now the CVO volume (`hc_iscsi_vol_copy`) becomes the source volume, and the on-premises volume (`hc_iscsi_vol`) becomes the destination volume.
 +
-image:fhc-cvoe-image25.png["This screenshot shows the Volume Replication relationship created in BlueXP."]
+image:fhc-cvoe-image25.png["This screenshot shows the Volume Replication relationship created in the Console."]
 +
 Any data written to the original source volume between the last data replication and the time that the source volume was disabled is not preserved.
 
@@ -291,3 +290,5 @@ image:fhc-cvoe-image29.png["This screenshot shows how to find the newfile on the
 We can infer that the data replication from the source to the destination has been completed successfully and that data integrity has been maintained. This completes the verification of data on the production site.
 
 link:fhc-cvoe-conclusion.html[Next: Conclusion.]
+
+// Internal GH issue 129, 2025-OCT-08

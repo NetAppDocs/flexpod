@@ -1,10 +1,9 @@
 ---
 sidebar: sidebar
 permalink: hybrid-cloud/fhc-cvoe-solution-components.html
-keywords: flexpod, epic, bluexp, connector, cvo, active iq, unified manager, cisco, intersight, vsphere, vcenter
+keywords: flexpod, epic, netapp console, connector, cvo, active iq, unified manager, cisco, intersight, vsphere, vcenter
 summary: This section provides an overview of the various components necessary for this solution.
 ---
-
 = Solution components
 :hardbreaks:
 :nofooter:
@@ -47,24 +46,24 @@ Healthcare provider organizations remain under pressure to maximize the benefits
 * Manageability, stability, and ease of support
 * Robust data protection, backup, recovery, and business continuance
 
-FlexPod is EHR certified and supports a platform containing Cisco Cisco UCS with Intel Xeon processors, Red Hat Enterprise Linux (RHEL), and virtualization with VMware ESXi. This platform, coupled with EHR’s High Comfort Level ranking for NetApp storage running ONTAP, gives customers the confidence to run their healthcare applications in a fully managed private cloud through FlexPod that can also be connected to any of the public cloud providers.
+FlexPod is EHR certified and supports a platform containing Cisco Cisco UCS with Intel Xeon processors, Red Hat Enterprise Linux (RHEL), and virtualization with VMware ESXi. This platform, coupled with EHR's High Comfort Level ranking for NetApp storage running ONTAP, gives customers the confidence to run their healthcare applications in a fully managed private cloud through FlexPod that can also be connected to any of the public cloud providers.
 
-== NetApp BlueXP
+== NetApp Console
 
-BlueXP (formerly NetApp Cloud Manager) is an enterprise-class, SaaS-based management platform that enables IT experts and cloud architects to centrally manage their hybrid multi-cloud infrastructure using NetApp cloud solutions. It provides a centralized system for viewing and managing your on-premises and cloud storage, supporting hybrid, multiple cloud providers and accounts. For more information, see https://docs.netapp.com/us-en/cloud-manager-family/index.html[BlueXP^].
+The Console (formerly NetApp Cloud Manager) is an enterprise-class, SaaS-based management platform that enables IT experts and cloud architects to centrally manage their hybrid multi-cloud infrastructure using NetApp cloud solutions. It provides a centralized system for viewing and managing your on-premises and cloud storage, supporting hybrid, multiple cloud providers and accounts. For more information, see link:https://docs.netapp.com/us-en/console-family/index.html[NetApp Console documentation^].
 
-== Connector
+== Console agent
 
-A Connector instance enables BlueXP to manage resources and processes within a public cloud environment. Connector is required for many of the features provided by BlueXP, and it can be deployed in the cloud or in the on-premises network.
+A Console agent instance enables the Console to manage resources and processes within a public cloud environment. A Console agent is required for many of the features provided by the Console, and it can be deployed in the cloud or in the on-premises network.
 
-Connector is supported in the following locations:
+A Console agent is supported in the following locations:
 
 * Amazon Web Services
 * Microsoft Azure
 * Google Cloud
 * On premises
 
-To learn more about Connector, see the https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[Connector page^].
+To learn more about Console agents, see the link:https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html [Console agents page^].
 
 == NetApp Cloud Volumes ONTAP
 
@@ -159,13 +158,13 @@ The following table shows the on-premises FlexPod hardware and software revision
 |1.0.9-342
 |===
 
-The following table shows the NetApp BlueXP and Cloud Volumes ONTAP versions.
+The following table shows the Console and Cloud Volumes ONTAP versions.
 
 |===
 |Vendor |Product |Version
 
 |NetApp
-|BlueXP
+|Console
 |3.9.24
 |
 |Cloud Volumes ONTAP
@@ -173,3 +172,5 @@ The following table shows the NetApp BlueXP and Cloud Volumes ONTAP versions.
 |===
 
 link:fhc-cvoe-installation-and-configuration.html[Next: Installation and configuration.]
+
+// Internal GH issue 129, 2025-OCT-08

@@ -4,7 +4,6 @@ permalink: hybrid-cloud/fhc-cvoe-where-to-find-additional-information.html
 keywords:
 summary:
 ---
-
 = Where to find additional information
 :hardbreaks:
 :nofooter:
@@ -31,9 +30,9 @@ https://www.flexpod.com[https://www.flexpod.com^]
 +
 https://www.cisco.com/c/en/us/solutions/design-zone/data-center-design-guides/flexpod-design-guides.html[https://www.cisco.com/c/en/us/solutions/design-zone/data-center-design-guides/flexpod-design-guides.html^]
 
-* NetApp BlueXP
+* NetApp Console
 +
-https://bluexp.netapp.com/[https://bluexp.netapp.com/^]
+https://console.netapp.com/[https://console.netapp.com/^]
 
 * NetApp Cloud Volumes ONTAP
 +
@@ -71,7 +70,7 @@ http://www.cisco.com/web/techdoc/ucs/interoperability/matrix/matrix.html[http://
 +
 http://www.vmware.com/resources/compatibility/search.php[http://www.vmware.com/resources/compatibility/search.php^]
 
-=== Version history
+== Version history
 
 |===
 |Version |Date |Document version history
