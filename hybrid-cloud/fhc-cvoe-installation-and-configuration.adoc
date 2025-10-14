@@ -46,9 +46,7 @@ You can launch Cloud Volumes ONTAP in a single-system configuration or as an HA 
 +
 For detailed information about these steps, see the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html[Quick start guide for Cloud Volumes ONTAP in AWS^].
 +
-In this solution, we have deployed a single-node Cloud Volumes ONTAP system in AWS. The following figure depicts the NetApp Console Dashboard with single-node CVO instance.
-
-image:fhc-cvoe-image4.jpeg["This screenshot shows the NetApp Console Canvas screen with My Working Environments displayed."]
+In this solution, we have deployed a single-node Cloud Volumes ONTAP system in AWS.
 
 == On-premises FlexPod Deployment
 
@@ -136,18 +134,10 @@ Complete the following steps to add your FlexPod storage to the system using the
 . From the navigation menu, select *Storage* > *Systems*.
 . On the Systems page, click *Add System* and select *On-Premises*.
 . Select *On-Premises ONTAP*. Click *Next*.
-+
-image:fhc-cvoe-image5.jpeg["This screenshot shows the Console Add Working Group page with On-Premises ONTAP selected."]
-
 . On the ONTAP Cluster Details page, enter the cluster management IP address and the password for the admin user account. Then click *Add*.
-+
-image:fhc-cvoe-image6.png["This screenshot shows the Console Discover ONTAP Cluster page with the ONTAP Cluster Details entries."]
-
 . On the Details and Credentials page, enter a name and description for the working environment, and then click *Go*.
 +
 The Console discovers the ONTAP cluster and adds it as a system on the Systems page.
-+
-image:fhc-cvoe-image7.jpeg["This screenshot shows the Console Systems page with the recently added systems on the right."]
 
 For detailed information, see the page https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html[Discover on-premises ONTAP clusters^].
 

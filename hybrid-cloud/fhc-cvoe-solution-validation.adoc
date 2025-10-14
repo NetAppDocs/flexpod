@@ -155,13 +155,9 @@ image:fhc-cvoe-image21.png["This screenshot shows the stop option in the Storage
 Make sure that SnapMirror replication is already set up between the on-premises ONTAP in FlexPod instance and Cloud Volumes ONTAP in AWS, so that you can create frequent application snapshots.  
 +
 After the SVM has been stopped, the `hc_iscsi_vol` volume is not visible in the Console.
-+
-image:fhc-cvoe-image22.png["The volume is now visible in the volume summary screen."]
 
 . Activate DR in CVO.
 .. Break the SnapMirror replication relationship between on-prem ONTAP and Cloud Volumes ONTAP and promote the CVO destination volume (`hc_iscsi_vol_copy`) to production.
-+
-image:fhc-cvoe-image23.png["The break relationship option screen is displayed."]
 +
 After the SnapMirror relationship is broken, the destination volume type changes from data protection (DP) to read/write (RW).
 +
@@ -175,7 +171,7 @@ svm_singlecvoaws hc_iscsi_vol_copy RW
 .. Activate the destination volume in Cloud Volumes ONTAP to bring up the EHR instance on an EC2 instance in the cloud.
 +
 ....
-singlecvoaws::> lun mapping create –vserver svm_singlecvoaws –path /vol/hc_iscsi_vol_copy/iscsi_lun1 -igroup ehr-igroup –lun-id 0
+singlecvoaws::> lun mapping create -vserver svm_singlecvoaws -path /vol/hc_iscsi_vol_copy/iscsi_lun1 -igroup ehr-igroup -lun-id 0
 
 singlecvoaws::> lun mapping show
 Vserver     Path                                Igroup   LUN ID  Protocol
@@ -229,13 +225,9 @@ This output shows that users can access replicated data across the network until
 
 .. Reverse the SnapMirror relationship. This operation reverses the roles of the source and destination volumes.
 +
-image:fhc-cvoe-image24.png["This screenshot shows the Reverse Relationship option box."]
-+
 When this operation is performed, the contents from the original source volume are overwritten by the contents of the destination volume. This is helpful when you want to reactivate a source volume that went offline.
 +
 Now the CVO volume (`hc_iscsi_vol_copy`) becomes the source volume, and the on-premises volume (`hc_iscsi_vol`) becomes the destination volume.
-+
-image:fhc-cvoe-image25.png["This screenshot shows the Volume Replication relationship created in the Console."]
 +
 Any data written to the original source volume between the last data replication and the time that the source volume was disabled is not preserved.
 
@@ -266,8 +258,6 @@ image:fhc-cvoe-image26.png["This screenshot show how to start a particular VM us
 
 . Break the SnapMirror replication relationship between Cloud Volumes ONTAP and on-premises ONTAP and promote the on-premises volume (`hc_iscsi_vol`) back to production.
 +
-image:fhc-cvoe-image27.png["This screenshot shows how to break a relationship."]
-+
 After the SnapMirror relationship is broken, the on-premises volume type changes from data protection (DP) to read/write (RW).
 +
 ....
@@ -278,8 +268,6 @@ Healthcare_SVM hc_iscsi_vol RW
 ....
 
 . Reverse the SnapMirror relationship. Now, the on-premises ONTAP volume (`hc_iscsi_vol`) becomes the source volume as it was earlier, and the Cloud Volumes ONTAP volume (`hc_iscsi_vol_copy`) becomes the destination volume.
-+
-image:fhc-cvoe-image28.png["This screenshot shows how to reverse a relationship."]
 +
 By following these steps, we have successfully restored the original configuration.
 
