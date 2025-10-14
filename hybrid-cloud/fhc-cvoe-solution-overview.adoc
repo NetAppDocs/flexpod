@@ -58,7 +58,7 @@ FlexPod Datacenter integrated with NetApp Cloud Volumes ONTAP offers the followi
 
 This section describes the logical topology of the solution. The following figure represents the solution topology composed of the FlexPod on-premises environment, NetApp Cloud Volumes ONTAP (CVO) running on Amazon Web Services (AWS), and the NetApp Console SaaS platform.
 
-image:fhc-cvoe-image2.jpeg[This image depicts SnapMirror replication between a FlexPod instance running ONTAP and NetApp Cloud Volumes ONTAP running in hte public cloud.]
+image:fhc-cvoe-image2.png[This image depicts SnapMirror replication between a FlexPod instance running ONTAP and NetApp Cloud Volumes ONTAP running in the public cloud.]
 
 The control planes and data planes are clearly indicated between the endpoints. The data plane runs between the ONTAP instance running on all-flash FAS in FlexPod and the NetApp CVO instance in AWS by leveraging a secure site-to-site VPN connection. The replication of healthcare workload data from the on-premises FlexPod Datacenter to NetApp Cloud Volumes ONTAP is handled by NetApp SnapMirror replication. An optional backup and tiering of the cold data residing in the NetApp CVO instance to AWS S3 is also supported with this solution.
 
