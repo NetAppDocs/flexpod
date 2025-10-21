@@ -217,7 +217,7 @@ For detailed information about these tasks, see the page link:https://access.red
 
 == Data generation
 
-`Dgen.pl` is a perl script data generator for EHR's I/O simulator (GenerateIO). Data inside the LUNs are generated with the EHR `Dgen.pl` script. The script is designed to create data similar to what would be found inside an EHR database.
+`Dgen.pl` is a perl script data generator for EHR's I/O simulator (GenerateIO). Data inside the LUNs are generated with the EHR `Dgen.pl` script. The script is designed to create data similar to the data in an EHR database.
 
 ....
 [root@hc-cloud-secure-1 ~]# cd GenerateIO-1.17.3/
@@ -264,7 +264,7 @@ The remaining steps explain how to create a synchronous relationship between Clo
 
 For detailed information about these configuration steps, see https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html[here^].
 
-The Console starts the data replication process. Now, you can see the *Replication* service that was established between your on-premises ONTAP system and Cloud Volumes ONTAP.
+The Console starts the data replication process. At this stage, you can see the *Replication* service that was established between your on-premises ONTAP system and Cloud Volumes ONTAP.
 
 In the Cloud Volumes ONTAP cluster, you can see the newly created volume.
 

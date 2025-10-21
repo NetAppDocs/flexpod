@@ -32,7 +32,7 @@ You must capture the environment details of your public cloud service provider f
 +
 A VPC endpoint gateway is required to enable the connection between the VPC and the AWS S3 service. This is used to enable the backup on CVO, an endpoint with the Gateway type.
 
-. Access NetApp Console.
+. Access the NetApp Console.
 +
 To access the Console and other cloud services, you need to sign up on https://cloudmanager.netapp.com/[NetApp Console^]. For setting up workspaces and users in the Console account, click https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-setting-up-netapp-accounts.html[here^]. You need an account that has permission to deploy the Console agent in your cloud provider directly from the Console. You can download the Console policy from https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html[here^].
 
@@ -127,7 +127,7 @@ Igroups are used to allow server access to LUNs. For Linux host, the server IQN 
 1. lun mapping create -vserver Healthcare_SVM -path /vol/hc_iscsi_vol/iscsi_lun1 -igroup ehr -lun-id 0
 ....
 
-== Add on-premises FlexPod storage to NetApp Console
+== Add on-premises FlexPod storage to the NetApp Console
 
 Complete the following steps to add your FlexPod storage to the system using the Console.
 

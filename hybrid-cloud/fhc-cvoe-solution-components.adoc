@@ -63,7 +63,7 @@ A Console agent is supported in the following locations:
 * Google Cloud
 * On premises
 
-To learn more about Console agents, see the link:https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html[Console agents page^].
+link:https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html[Learn more about Console agents^].
 
 == NetApp Cloud Volumes ONTAP
 
