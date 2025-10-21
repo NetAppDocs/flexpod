@@ -46,7 +46,7 @@ Healthcare provider organizations remain under pressure to maximize the benefits
 * Manageability, stability, and ease of support
 * Robust data protection, backup, recovery, and business continuance
 
-FlexPod is EHR certified and supports a platform containing Cisco Cisco UCS with Intel Xeon processors, Red Hat Enterprise Linux (RHEL), and virtualization with VMware ESXi. This platform, coupled with EHR's High Comfort Level ranking for NetApp storage running ONTAP, gives customers the confidence to run their healthcare applications in a fully managed private cloud through FlexPod that can also be connected to any of the public cloud providers.
+FlexPod is EHR certified and supports a platform containing Cisco Cisco UCS with Intel Xeon processors, Red Hat Enterprise Linux (RHEL), and virtualization with VMware ESXi. This platform, coupled with EHR's High Comfort Level ranking for NetApp storage running ONTAP, enables you to run your healthcare applications in a fully managed private cloud through FlexPod that can also be connected to any of the public cloud providers.
 
 == NetApp Console
 
