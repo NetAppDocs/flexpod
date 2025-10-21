@@ -34,7 +34,7 @@ A VPC endpoint gateway is required to enable the connection between the VPC and 
 
 . Access NetApp Console.
 +
-To access the Console and other cloud services, you need to sign up on https://cloudmanager.netapp.com/[NetApp Console^]. For setting up workspaces and users in the Console account, click https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-setting-up-netapp-accounts.html[here^]. You need an account that has permission to deploy the Console agent in your cloud provider directly from the Console. You can download the Console policy from https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html[here^].
+To access the Console and other cloud services, you need to sign up on https://cloudmanager.netapp.com/[NetApp Console^]. For setting up workspaces and users in the Console account, see https://docs.netapp.com/us-en/console-setup-admin/index.html[NetApp Console setup and administration^]. You need an account that has permission to deploy the Console agent in your cloud provider directly from the Console. To obtain the permissions you need, refer to https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html[Permissions summary for NetApp Console^].
 
 . Deploy Console agent.
 +
