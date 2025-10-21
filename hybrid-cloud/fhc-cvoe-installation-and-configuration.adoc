@@ -38,7 +38,7 @@ To access the Console and other cloud services, you need to sign up on https://c
 
 . Deploy Console agent.
 +
-Before adding a Cloud Volume ONTAP system, you must deploy a Console agent. The Console prompts you if you try to create your first Cloud Volumes ONTAP system without a Console agent in place. To deploy a Console agent in AWS from the Console, see this https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html[link^].
+Before adding a Cloud Volume ONTAP system, you must deploy a Console agent. The Console prompts you if you try to create your first Cloud Volumes ONTAP system without a Console agent in place. To deploy a Console agent in AWS from the Console, see the https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html[Console agent installation options in AWS^].
 
 . Launch Cloud Volumes ONTAP in AWS.
 +
