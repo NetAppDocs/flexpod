@@ -1,0 +1,6 @@
+---
+permalink: fp-def/dc-tech-spec_supported_versus_validated_flexpod_configurations.html
+redirect: flexpod/fp-def/dc-tech-spec_other_requirements.html
+---
+
+// GH-127 OTHERDOC-164 29-OCT-2025 
