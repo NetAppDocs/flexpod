@@ -12,11 +12,6 @@ summary: A FlexPod architecture has the following additional interoperability an
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-06-03 13:02:39.835326
-//
 
 [.lead]
 A FlexPod architecture has the following additional interoperability and support-related requirements:
@@ -25,5 +20,12 @@ A FlexPod architecture has the following additional interoperability and support
 * Valid support contracts are required for all equipment, including:
 ** Smart Net Total Care (SmartNet) support for Cisco equipment
 ** SupportEdge Advisor or SupportEdge Premium support for NetApp equipment
+* Relevant sales attributes on the sales order to support:
+** FlexPod entitlements
+** FlexPod solution support entitlements
 
 For more information, see the NetApp http://mysupport.netapp.com/matrix[IMT^].
+
+// GH-127 OTHERDOC-164 29-OCT-2025
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+// 2021-06-03 13:02:39.835326
