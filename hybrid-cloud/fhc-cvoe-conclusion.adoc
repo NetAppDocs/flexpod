@@ -4,7 +4,6 @@ permalink: hybrid-cloud/fhc-cvoe-conclusion.html
 keywords: conclusion
 summary: "Building a hybrid cloud is a goal for most healthcare organizations to provide data availability at any time. In this solution, we implemented a FlexPod hybrid cloud solution with Cloud Volumes ONTAP, utilizing NetApp SnapMirror replication technology to validate some use cases to back up and recover healthcare applications and workloads."
 ---
-
 = Conclusion
 :hardbreaks:
 :nofooter:

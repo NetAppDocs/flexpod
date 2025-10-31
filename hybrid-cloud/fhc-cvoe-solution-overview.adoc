@@ -4,7 +4,6 @@ permalink: hybrid-cloud/fhc-cvoe-solution-overview.html
 keywords: tr4960, 4960, introduction, cvo, healthcare, public cloud
 summary: NetApp offers a single data management solution for enterprise applications, including healthcare, and we are able to guide hospitals through their journey toward digital transformation. NetApp Cloud Volumes ONTAP delivers a solution for healthcare data management in which data can be efficiently replicated from a FlexPod Datacenter to Cloud Volumes ONTAP deployed on a public cloud like AWS.
 ---
-
 = TR-4960: FlexPod Hybrid Cloud with Cloud Volumes ONTAP for Epic
 :hardbreaks:
 :nofooter:
@@ -53,14 +52,16 @@ FlexPod Datacenter integrated with NetApp Cloud Volumes ONTAP offers the followi
 * *Customized protection.* Cloud Volumes ONTAP provides block-level data replication from ONTAP to the cloud that keeps the destination up to date through incremental updates. Users can specify a synchronization schedule to determine when changes at the source are transferred over. This provides customized protection for all sorts of healthcare data.
 * *Failover and Failback.* When a disaster occurs, storage administrators can quickly set failover to the cloud volumes. When the primary site is recovered, the new data created in the DR environment is synchronized back to the source volumes enabling the secondary data replication to be re-established. In this way, healthcare data can be easily recovered without disruption.
 * *Efficiency.* The storage space and costs for the secondary cloud copy are optimized using data compression, thin provisioning, and deduplication. Healthcare data is transferred at the block-level in a compressed and deduplicated form, improving the speed of the transfers. Data is also automatically tiered to low-cost object storage and only brought back to high-performance storage when accessed, such as in a DR scenario. This significantly reduces ongoing storage costs.
-* *Ransomware Protection.* NetApp BlueXP ransomware protection scans data sources across on-premises and cloud environments, detects security vulnerabilities, and provides their current security status and risk scoring. It then provides actionable recommendations that you can further investigate and follow to remediate. In this way, you can protect your critical healthcare data from ransomware attacks.
+* *Ransomware Protection.* NetApp Console ransomware protection scans data sources across on-premises and cloud environments, detects security vulnerabilities, and provides their current security status and risk scoring. It then provides actionable recommendations that you can further investigate and follow to remediate. This enables you to protect your critical healthcare data from ransomware attacks.
 
 == Solution topology
 
-This section describes the logical topology of the solution. The following figure represents the solution topology composed of the FlexPod on-premises environment, NetApp Cloud Volumes ONTAP (CVO) running on Amazon Web Services (AWS), and the NetApp BlueXP SaaS platform.
+This section describes the logical topology of the solution. The following figure represents the solution topology composed of the FlexPod on-premises environment, NetApp Cloud Volumes ONTAP (CVO) running on Amazon Web Services (AWS), and the NetApp Console SaaS platform.
 
-image:fhc-cvoe-image2.jpeg[This image depicts SnapMirror replication between a FlexPod instance running ONTAP and NetApp Cloud Volumes ONTAP running in hte public cloud.]
+image:fhc-cvoe-image2.png[This image depicts SnapMirror replication between a FlexPod instance running ONTAP and NetApp Cloud Volumes ONTAP running in the public cloud.]
 
 The control planes and data planes are clearly indicated between the endpoints. The data plane runs between the ONTAP instance running on all-flash FAS in FlexPod and the NetApp CVO instance in AWS by leveraging a secure site-to-site VPN connection. The replication of healthcare workload data from the on-premises FlexPod Datacenter to NetApp Cloud Volumes ONTAP is handled by NetApp SnapMirror replication. An optional backup and tiering of the cold data residing in the NetApp CVO instance to AWS S3 is also supported with this solution.
 
 link:fhc-cvoe-solution-components.html[Next: Solution components.]
+
+// Internal GH issue 129, 2025-OCT-08

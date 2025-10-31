@@ -4,7 +4,6 @@ permalink: hybrid-cloud/cloud-fabricpool_cost_of_ownership.html
 keywords: cost, ownership, evaluator, group, savings, fabricpool, cloud
 summary: The FabricPool Economic Calculator is available through the independent IT analyst firm Evaluator Group to help project the cost savings between on premises and the cloud for cold data storage.
 ---
-
 = Cost of ownership
 :hardbreaks:
 :nofooter:

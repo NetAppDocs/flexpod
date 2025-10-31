@@ -4,7 +4,6 @@ permalink: hybrid-cloud/cloud-fabricpool_conclusion.html
 keywords: cloud, fabricpool, flexpod, conclusion
 summary: The journey to the cloud varies between organizations, between business units, and even between business units within organizations.
 ---
-
 = Conclusion
 :hardbreaks:
 :nofooter:

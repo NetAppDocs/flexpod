@@ -4,7 +4,6 @@ permalink: hybrid-cloud/cloud-fabricpool_attach_a_cloud_tier_to_an_ontap_aggrega
 keywords: attach, cloud, tier, ontap, aggregate, fabricpool, flexpod, ontap, cli, oncommand, system, manager
 summary: After an object store has been added to and identified by ONTAP, it must be attached to an aggregate to create a FabricPool. This task can be completed by using either OnCommand System Manager or the ONTAP CLI.
 ---
-
 = Attach a cloud tier to an ONTAP aggregate
 :hardbreaks:
 :nofooter:
