@@ -39,8 +39,6 @@ FabricPool is supported on the following platforms:
 ** FAS2750, FAS2720
 ** FAS2650, FAS2620
 
-[NOTE]
-Only SSD aggregates on FAS platforms can use FabricPool.
 
 * Cloud tiers
 ** Alibaba Cloud Object Storage Service (Standard, Infrequent Access)
