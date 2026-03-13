@@ -5,7 +5,7 @@ keywords: metrocluster, fc, nvme, fc, san, boot, cisco, mds, fcoe, iscsi
 summary: NetApp supports several optional components to further enhance FlexPod Datacenter architectures. Optional components are outlined in the following subsections.
 ---
 
-== Optional features
+= Optional features
 :hardbreaks:
 :nofooter:
 :icons: font

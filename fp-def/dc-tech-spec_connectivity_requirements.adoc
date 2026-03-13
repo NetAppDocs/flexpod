@@ -5,7 +5,7 @@ keywords: connectivity, requirements, cisco, ucs, fabric, interconnect, uplink, 
 summary: Listed below are the connectivity requirements for FlexPod configuration.
 ---
 
-== Connectivity requirements
+= Connectivity requirements
 :hardbreaks:
 :nofooter:
 :icons: font
