@@ -34,11 +34,11 @@ FabricPool is supported on the following platforms:
   ** FAS2554, FAS2552, FAS2520
 
 [NOTE]
-Please refer to the https://hwu.netapp.com/DetailViews/Home.aspx [NetApp Hardware Universe^] for the latest information on supported platforms with FabricPool.
+Please refer to the https://hwu.netapp.com/DetailViews/Home.aspx[NetApp Hardware Universe^] for the latest information on supported platforms with FabricPool.
 
 * NetApp ONTAP Select
-  [NOTE]
-  NetApp recommends using all-SSD FabricPool local tiers.
+[NOTE]
+NetApp recommends using all-SSD FabricPool local tiers.
 
 * Cloud tiers
 ** Alibaba Cloud Object Storage Service (Standard, Infrequent Access)
