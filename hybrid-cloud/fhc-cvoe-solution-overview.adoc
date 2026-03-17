@@ -17,10 +17,11 @@ summary: NetApp offers a single data management solution for enterprise applicat
 // 2023-03-13 17:00:22.060667
 //
 
+Kamini Singh, NetApp
+
 In partnership with:
 image:cisco logo.png[cisco logo]
 
-Kamini Singh, NetApp
 
 [.lead]
 The key to making a digital transformation is simply doing more with data. Hospitals generate and require large amounts of data to run their organization and serve their patients effectively. Information is collected and processed when treating patients and managing staff schedules and medical resources.
