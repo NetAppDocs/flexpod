@@ -23,13 +23,13 @@ Cisco is a substantial contributor to the FlexPod Express design and architectur
 
 == Cisco UCS X-Series Direct 
 
-Cisco UCS X-Series Direct is a new architecture that integrates a pair of Cisco UCS Fabric Interconnect 9108 100G with Cisco UCS X9508 Chassis and pairing them with Cisco UCS X-Series Compute nodes to deliver the UCS X-Series Direct solution. 
+Cisco UCS X-Series Direct is a new architecture that integrates a pair of Cisco UCS Fabric Interconnect 9108 100G with Cisco UCS X9508 Chassis and Cisco UCS X-Series Compute nodes to deliver the UCS X-Series Direct solution. 
  
 Cisco UCS X-Series Direct is made up of the following components:
 * Cisco UCS 9108 100G Fabric Interconnect
 * Cisco UCS X9508 Chassis
 * Cisco UCS X-Series Compute Nodes
-* Optional components : PCIe Nodes and X-Fabric Module
+* Optional components: PCIe Nodes and X-Fabric Module
 
 
 Refer to the tables below for the technical specifications for each of these components.
@@ -145,14 +145,12 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 Redundant Cisco Nexus  Switches are required in the FlexPod architecture.
 
 |===
-|Cisco Nexus switch - Fixed  |Part number |Technical specifications
+|Cisco Nexus switch |Technical specifications
 
 |Cisco Nexus 9200 series switch
-|N9K-C9200-24Q
 |
 https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-735989.html[Cisco Nexus 9200 Series Switches]
 |Cisco Nexus 9300 series switch
-|N9K-C9300-24Q
 |
 https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-736967.html[Cisco Nexus 9300 Series Switches]
 |===
