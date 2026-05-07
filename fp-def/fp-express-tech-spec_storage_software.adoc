@@ -19,7 +19,7 @@ summary: The storage operating systems listed in this section are supported in t
 //
 
 [.lead]
-FlexPod Express supports storage systems that run NetApp ONTAP operating systems.
+FlexPod Express supports storage systems that run NetApp ONTAP operating system.
 == NetApp ONTAP
 
 The NetApp ONTAP software is the operating system that runs on AFF, ASA, and FAS storage systems. ONTAP provides a highly scalable storage architecture that enables non-disruptive operations, non-disruptive upgrades, and an agile data infrastructure.
