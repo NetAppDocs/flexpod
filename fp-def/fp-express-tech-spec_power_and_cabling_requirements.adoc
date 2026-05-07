@@ -32,68 +32,58 @@ The following table lists the power ports required per device.
 |===
 |Cisco Nexus switches |Power cables required
 
-|Cisco Nexus 3048
-|2x C13/C14 power cables for each Cisco Nexus 3000 series switch
-|Cisco Nexus 3524
-|2x C13/C14 power cables for each Cisco Nexus 3000 series switch
-|Cisco Nexus 9396
-|2x C13/C14 power cables for each Cisco Nexus 9000 series switch
+|Cisco Nexus 9200 Series
+|2x C13/C14 power cables for each Cisco Nexus 9200 series switch
+|Cisco Nexus 9300 Series
+|2x C13/C14 power cables for each Cisco Nexus 9300 series switch
 |===
 
 |===
 |Cisco UCS chassis |Power cables required
 
-|Cisco UCS 5108
+|Cisco UCS X9508 Chassis
 |2 CAB-US515P-C19-US/CAB-US520-C19-US for each Cisco UCS chassis
 |===
 
 |===
-|Cisco UCS B-Series servers |Power cables required
+|Cisco UCS X-Series Direct Compute Nodes|Power ports required
 
-|Cisco UCS B200 M4
-|N/A; blade server is powered by chassis
-|Cisco UCS B420 M4
-|N/A; blade server is powered by chassis
-|Cisco UCS B200 M5
-|N/A; blade server is powered by chassis
-|Cisco UCS B480 M5
-|N/A; blade server is powered by chassis
+|Cisco UCS X210c M7
+.5+|2 x C13/C14 power cables for each Cisco UCS server
+|Cisco UCS X210c M8
+|Cisco UCS X215c M8
+|Cisco UCS X410c M7
+|Cisco UCS X410c M8
 |===
 
 |===
 |Cisco UCS C-Series servers |Power ports required
 
-|Cisco UCS C220 M4
-.3+|2 x C13/C14 power cables for each Cisco UCS server
-|Cisco UCS C240 M4
-|Cisco UCS C460 M4
-Cisco UCS C220 M5
-Cisco UCS C240 M5
-Cisco UCS C480 M5
+|Cisco UCS C220 M7
+.8+|2 x C13/C14 power cables for each Cisco UCS server
+|Cisco UCS C220 M8
+|Cisco UCS C225 M6
+|Cisco UCS C225 M8
+|Cisco UCS C240 M7
+|Cisco UCS C240 M8
+|Cisco UCS C245 M6
+|Cisco UCS C245 M8
 |===
 
 |===
-|NetApp FAS controllers |Power ports required (per HA pair)
+|NetApp Storage controllers |Power ports required (per HA pair)
 
-|FAS2554
+|AFF : A250,A20, A30 , C30
 |2 x C13/C14
-|FAS2552
+|ASA : A20, A30 , C30
 |2 x C13/C14
-|FAS2520
-|2 x C13/C14
-|FAS8020
+|FAS : 2750 , 2820
 |2 x C13/C14
 |===
 
-|===
-|E-Series controllers |Power ports required (per HA pair)
-
-|E2824
-|2 x C14/C20
-|===
 
 |===
-|NetApp FAS disk shelves |Power ports required
+|NetApp Disk shelves |Power ports required
 
 |DS212C
 |2 x C13/C14
@@ -101,22 +91,12 @@ Cisco UCS C480 M5
 |2 x C13/C14
 |DS460C
 |2 x C19/C20 or 2 x C14/C19
-|DS2246
+|NS224
 |2 x C13/C14
-|DS4246
+|NS224 w/NSM100B
 |4 x C13/C14
 |===
 
-|===
-|E-Series disk shelves |Power ports required
-
-|DE460C
-|2 x C19/C20 or 2 x C14/C19
-|DE224C
-|2 x C14/C20
-|DE212C
-|2 x C14/C20
-|===
 
 == Minimum cable requirements
 
@@ -125,29 +105,15 @@ This section describes the minimum cable requirements for a FlexPod Express desi
 The following table lists the minimum number of cables required for each device.
 
 |===
-|Cisco Nexus 3000 Series switches |Cables required
+|Cisco Nexus Series switches |Cables required
 
-|Cisco Nexus 31108
-.5+|At least two 10GbE fiber or Twinax cables per switch
-|Cisco Nexus 3172PQ
-|Cisco Nexus 3048
-|Cisco Nexus 3524
-|Cisco Nexus 9396
+|Cisco Nexus 9200 Series
+.2+|At least two 10GbE fiber or Twinax cables per switch
+|Cisco Nexus 9300 Series
 |DS212C
-|
-|DS2246
-.4+|Number of SAS cables depends on specific configuration of disk shelves
-|DS460C
+.5+|Number of SAS cables depends on specific configuration of disk shelves
 |DS224C
-|DS4246
-
-|E2800
-a|* At least one Gigabit Ethernet (1GbE) cable for management per controller
-* At least two 10GbE cables per controller (for iSCSI) or two FC cables matching speed requirements
-|DE460C
-|2 x mini-SAS HD cables per disk shelf
-|DE224C
-|2 x mini-SAS HD cables per disk shelf
-|DE212C
-|2 x mini-SAS HD cables per disk shelf
+|DS460C
+|NS224
+|NS224 w/NSM100B
 |===
