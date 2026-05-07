@@ -23,14 +23,17 @@ NetApp storage controllers provide the storage foundation in the FlexPod Express
 
 == NetApp storage controller options
 
-Redundant AFF , ASA or FAS series controllers are required in the FlexPod Express architecture. The controllers run ONTAP software. When ordering the storage controllers, the preferred software version can be preloaded on the controllers. For ONTAP, the cluster can be deployed either with a pair of cluster interconnect switches or in a switchless cluster configuration.
+Redundant AFF, ASA or FAS series controllers are required in the FlexPod Express architecture. The controllers run ONTAP software. When ordering the storage controllers, the preferred software version can be preloaded on the controllers. For ONTAP, the cluster can be deployed either with a pair of cluster interconnect switches or in a switchless cluster configuration.
+
+[NOTE]
+Switchless cluster configuration is supported only for a two node configuration. Cluster interconnect switches are required for configurations with more than 4 nodes, and optional for a two node configurations. 
 
 Different options and configurations are available based on the storage platform selected. Consult your sales representative for details about these additional components.
 
 The controller families that are listed in the table below are appropriate for use in a FlexPod solution because their connection to the Cisco Nexus switches is seamless. See the NetApp Hardware Universe for specific compatibility details on each controller model.
 
 |===
-|NetApp Entry level storage Family for FlexPod Express| Model | Technical specifications
+|NetApp entry-level storage Family for FlexPod Express| Model | Technical specifications
 
 .3+|AFF A-Series
 |A250 
@@ -51,7 +54,7 @@ https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA A-Series D
 .2+|FAS
 |FAS 2750
 .2+|
-https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS  Documentation]
+https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]
 |FAS 2820
 |===
 
@@ -99,7 +102,7 @@ The following table lists the NetApp software licensing options.
 
 SupportEdge Premium licenses are required, and the part numbers for those licenses vary based on the options selected in the FlexPod Express design.
 
-The following table lists the NetApp support licensing options for NetApp FAS.
+The following table lists the NetApp support licensing options for NetApp AFF, ASA, and FAS Storage systems.
 
 |===
 |NetApp Support licensing |Part number |Technical specifications
