@@ -21,22 +21,22 @@ summary: To learn more about the information that is described in this document,
 [.lead]
 To learn more about the information that is described in this document, see the following documents and websites:
 
-* AFF and FAS System Documentation Center
+* NetApp Product Documentation
 +
-https://docs.netapp.com/platstor/index.jsp[https://docs.netapp.com/platstor/index.jsp^]
+https://docs.netapp.com/[https://docs.netapp.com/^]
 
-* AFF Documentation Resources page
+* NetApp Support Communications
 +
-https://www.netapp.com/us/documentation/all-flash-fas.aspx[https://www.netapp.com/us/documentation/all-flash-fas.aspx^]
+https://mysupport.netapp.com/info/communications/index.html[https://mysupport.netapp.com/info/communications/index.html^]
 
-* FAS Storage Systems Documentation Resources page
+* NetApp Interoperability Matrix Tool (IMT)
 +
-https://www.netapp.com/us/documentation/fas-storage-systems.aspx[https://www.netapp.com/us/documentation/fas-storage-systems.aspx^]
+https://mysupport.netapp.com/matrix/[https://mysupport.netapp.com/matrix/#welcome^]
 
-* FlexPod
+* NetApp Hardware Universe
 +
-https://flexpod.com/[https://flexpod.com/^]
+https://hwu.netapp.com/[https://hwu.netapp.com/^]
 
-* NetApp documentation
+* NetApp Support
 +
-https://docs.netapp.com[https://docs.netapp.com^]
+https://mysupport.netapp.com/[https://mysupport.netapp.com/^]

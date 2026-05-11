@@ -21,329 +21,229 @@ summary: This section describes additional important technical specifications fo
 [.lead]
 This section describes additional important technical specifications for each of the FlexPod Express components.
 
-== Cisco UCS B-Series blade servers
+== Cisco UCS X-Series Direct chassis
 
-The  following table lists the Cisco UCS B-Series blade server options.
+The technical specifications for Cisco UCS X-Series Direct chassis, as shown in the table below, include the following components:
+
+* Number of rack units
+* Maximum number of nodes
+* Unified Fabric capability
+* Number of I/O bays for IFMs
 
 |===
-|Component |Cisco UCS B200 M4 |Cisco UCS B420 M4 |Cisco UCS B200 M5
+|Component |Cisco UCS X9508 chassis
 
-| Processor support
-|Intel Xeon E5-2600
-|Intel Xeon E5-4600
-|Intel Xeon
-Scalable processors
-|Maximum memory capacity
-|24 DIMMs for a maximum of 768GB
-|48 DIMMs for a maximum of 3TB
-|24 DIMMs for a maximum of 3072GB
-|Memory size and speed
-|32GB DDR4; 2133MHz
-|64GB DDR4; 2400MHz
-|16GB, 32GB, 64GB, and 128GB DDR4; 2666MHz
-|SAN boot support
+|Rack units
+|7
+|Maximum number of nodes
+|8
+|Capable of Unified Fabric
 |Yes
-|Yes
-|Yes
-|Mezzanine I/O adapter slots
-|2
-|3
-|2, front and rear, including GPU support
-|I/O maximum throughput
-|80Gbps
-|160Gbps
-|80Gbps
-|===
-
-== Cisco UCS C-Series rack servers
-
-The following table lists Cisco UCS C-Series rack server options.
+|I/O bays for IFMs
+|Two bays for Cisco UCS 9108 Intelligent Fabric Modules (IFMs)
 
 |===
-|Component |Cisco UCS C220 M4 |Cisco UCS C240 M4 |Cisco UCS C460 M4 |Cisco UCS C220 M5
 
-|Processor support
-|1 or 2 Intel E5-2600 series
-|1 or 2 Intel Xeon E5-2600 series
-|2 or 4 Intel Xeon E7-4800/8800 series
-|Intel Xeon Scalable processors (1 or 2)
+For more information, see the link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/datasheet-c78-2472574.html[Cisco UCS X9508 X-Series Chassis Datasheet^].
 
-|Maximum memory capacity
-|1.5GB
-|1.5TB
-|6TB
-|3072GB
+== Cisco UCS X-Series Direct compute node
 
-|PCIe slots
-|2
-|6
-|10
-|2
-|Form factor
-|1RU
-|2RU
-|4RU
-|1 RU
+The technical specifications for Cisco UCS X-Series compute node, as shown in the following table below, include the following components:
+
+*	Number of processor sockets
+*	Processor support
+*	Memory capacity
+*	Size and speed
+*	SAN boot support
+*	Number of mezzanine adapter slots
+*	I/O maximum throughput
+*	Form factor
+* Maximum number of compute nodes per chassis
+
+|===
+|Component | Cisco UCS datasheet
+|Cisco UCS X210c M7
+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x210c-m7-compute-node-ds.html[Cisco UCS X210c M7 Compute Node]
+|Cisco UCS X210c M8
+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x210c-m8-compute-node-ds.html[Cisco UCS X210c M8 Compute Node]
+|Cisco UCS X215c M8
+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x215c-m8-compute-node-ds.html[Cisco UCS X215c M8 Compute Node]
+|Cisco UCS X410c M7
+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x410c-m7-compute-node-ds.html[Cisco UCS X410c M7 Compute Node]
+|Cisco UCS X410c M8
+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x410c-m8-compute-node-ds.html[Cisco UCS X410c M8 Compute Node]
 |===
 
-The following table lists the datasheets for the Cisco UCS C-Series rack server options.
+== Cisco UCS X-Series Direct fabric interconnects
+
+The technical specifications for Cisco UCS X-Series fabric interconnects include form factor size, the total number of ports and expansion slots, and throughput capacity. The following table illustrates the Cisco UCS X-Series fabric interconnect datasheets.
 
 |===
 |Component |Cisco UCS datasheet
 
-|Cisco UCS C220 M4
+|Cisco UCS 9108 100G Fabric Interconnect
 |
-http://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m4-sff-spec-sheet.pdf
-|Cisco UCS C240 M4
-|
-http://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c240-m4-rack-server/datasheet-c78-732455.html
-|Cisco UCS C460 M4
-|
-http://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c460-m4-rack-server/datasheet-c78-730907.html
-|Cisco UCS C220 M5
-|
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m5-sff-specsheet.pdf
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-fabric-interconnect-9108-100g.pdf[Cisco UCS 9108 100G Fabric Interconnect]
 |===
 
-== Cisco Nexus 3000 Series switches
+== Cisco UCS C-Series rack servers
 
-The following table lists the Cisco Nexus 3000 series switch options.
-
-|===
-|Component |Cisco Nexus 3048 |Cisco Nexus 3524 |Cisco Nexus 31108 |Cisco Nexus 3172PQ
-
-|Form factor
-|1RU
-|1RU
-|1RU
-|1 RU
-|Maximum 1Gbps ports
-|48
-|24
-|48 (10/40/100Gbps)
-
-|72 1/10GbE ports, or 48 1/10GbE plus six 40GbE ports
-|Forwarding rate
-|132Mbps
-|360Mbps
-|1.2Bpps
-
-|1Bpps
-
-|Jumbo frame support
-|Yes
-|Yes
-|Yes
-|Yes
-|===
-
-The following table lists the datasheets for the Cisco Nexus 3000 series switch options.
+The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and the size of the form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The following tables illustrate the C-Series Rack Server datasheets and Cisco UCS C-Series chassis option, respectively.
 
 |===
-|Component |Cisco Nexus Datasheet
+|Component |Cisco UCS datasheet
 
-|Cisco Nexus 31108
+|Cisco UCS C220 M7
 |
-http://www.cisco.com/c/en/us/products/switches/nexus-31108pc-v-switch/index.html
-|Cisco Nexus 3172PQ
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-ds.html[Cisco UCS C220 M7 Rack Server]
+|Cisco UCS C220 M8
 |
-https://www.cisco.com/c/en/us/products/switches/nexus-3172pq-switch/index.html
-|Cisco Nexus 3048
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m8-rack-server-ds.html[Cisco UCS C220 M8 Rack Server]
+|Cisco UCS C225 M6
 |
-https://www.cisco.com/c/en/us/products/switches/nexus-3048-switch/index.html
-|Cisco Nexus 3172PQ-XL
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c225-m6-sff-rack-server-ds.html[Cisco UCS C225 M6 Rack Server]
+|Cisco UCS C240 M7
 |
-https://www.cisco.com/c/en/us/products/switches/nexus-3172pq-switch/index.html
-|Cisco Nexus 3548 XL
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m7-rack-server-ds.html[Cisco UCS C240 M7 Rack Server]
+|Cisco UCS C240 M8
 |
-https://www.cisco.com/c/en/us/products/switches/nexus-3548-x-switch/index.html
-|Cisco Nexus 3524 XL
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-rack-server-ds.html[Cisco UCS C240 M8 Rack Server]
+|Cisco UCS C245 M6
 |
-https://www.cisco.com/c/en/us/products/switches/nexus-3524-x-switch/index.html
-|Cisco Nexus 3548
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m6-sff-rack-server-ds.html[Cisco UCS C245 M6 Rack Server]
+|Cisco UCS C245 M8
 |
-https://www.cisco.com/c/en/us/products/switches/nexus-3548-x-switch/index.html
-|Cisco Nexus 3524
-|
-https://www.cisco.com/c/en/us/products/switches/nexus-3524-x-switch/index.html
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-ds.html[Cisco UCS C245 M8 Rack Server]
 |===
 
-The following table lists the Cisco Nexus 9000 series switch options.
+== Cisco Nexus switches
 
-|===
-|Component |Cisco Nexus 9396 |Cisco Nexus 9372
+The following table lists the Cisco Nexus switch options.
 
-|Form factor
-|2RU
-|1RU
-|Maximum ports
-|60
-|54
-|10Gbps SFP+ uplink ports
-|48
-|48
-|===
-
-The following table lists the Cisco Nexus 9000 series switch options datasheets.
+|he technical specifications for Cisco Nexus Switches are contained in the datasheet for each model. Specifications include the form factor size; the number of supervisors, fabric module, and line card slots; and the maximum number of ports. These datasheets can be found in the following table.
 
 |===
 |Component |Cisco Nexus datasheet
 
-|Cisco Nexus 9396
+|Cisco Nexus 9200 Series
 |
-http://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-736967.html
-|Cisco Nexus 9372
+https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-735989.html[Cisco Nexus 9200 Series Switches]
+|Cisco Nexus 9300 Series
 |
-http://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-736967.html
-|Nexus 9396X
+https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-736967.html[Cisco Nexus 9300 Series Switches]
+|===
+
+== NetApp storage controllers
+
+The technical specifications for NetApp storage controllers include the following components:
+
+* Chassis configuration
+* Number of rack units
+* Amount of memory
+* NetApp FlashCache caching
+* Aggregate size
+* Volume size
+* Number of LUNs
+* Supported network storage
+* Maximum number of NetApp FlexVol volumes
+* Maximum number of supported SAN hosts
+* Maximum number of Snapshot copies
+
+=== NetApp AFF A-Series 
+
+Entry-level NetApp AFF A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF A-seriesTechnical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific AFF Model.
+
+|===
+|Component |AFF A-Series controller platform documentation
+
+|NetApp AFF A20
 |
-https://www.cisco.com/c/en/us/products/switches/nexus-9396px-switch/index.html?dtid=osscdc000283
-|===
-
-== NetApp FAS storage controllers
-
-The following table lists the current NetApp FAS storage controller options.
-
-|===
-|Current component |FAS2620 |FAS2650
-
-|Configuration
-|2 controllers in a 2U chassis
-|2 controllers in a 4U chassis
-|Maximum raw capacity
-|1440TB
-|1243TB
-|Internal drives
-|12
-|24
-|Maximum number of drives (internal plus external)
-|144
-|144
-|Maximum volume size
-2+|100TB
-|Maximum aggregate size
-2+|4TB
-|Maximum number of LUNs
-2+|2,048 per controller
-|Storage networking supported
-2+|iSCSI, FC, FCoE, NFS, and CIFS
-|Maximum number of NetApp FlexVol volumes
-2+|1,000 per controller.
-|Maximum number of NetApp Snapshot copies
-2+|255,000 per controller
-|Maximum NetApp Flash Pool intelligent data caching
-2+|24TB
-|===
-
-[NOTE]
-For details about the FAS storage controller option, see the https://hwu.netapp.com/Controller/Index?platformTypeId=2032[FAS models^] section of the Hardware Universe. For AFF, see https://hwu.netapp.com/Controller/Index?platformTypeId=5265148[AFF models^] section.
-
-The following table lists the characteristics of a FAS8020 controller system.
-
-|===
-|Component |FAS8020
-
-|Configuration
-|2 controllers in a 3U chassis
-|Maximum raw capacity
-|2880TB
-|Maximum number of drives
-|480
-|Maximum volume size
-|70TB
-|Maximum aggregate size
-|324TB
-|Maximum number of LUNs
-|8,192 per controller
-|Storage networking supported
-|iSCSI, FC, NFS, and CIFS
-|Maximum number of FlexVol volumes
-|1,000 per controller
-|Maximum number of Snapshot copies
-|255,000 per controller
-|Maximum NetApp Flash Cache intelligent data caching
-|3TB
-|Maximum Flash Pool data caching
-|24TB
-|===
-
-The following table lists the datasheets for NetApp storage controllers.
-
-|===
-|Component |Storage controller datasheet
-
-|FAS2600 series
+https://docs.netapp.com/us-en/ontap-systems/a20-30-50/a20-key-specifications.html#aff-a20-specifications-at-a-glance[AFF A20 Key Specifications]
+|NetApp AFF A30
 |
-http://www.netapp.com/us/products/storage-systems/fas2600/fas2600-tech-specs.aspx
-|FAS2500 series
+https://docs.netapp.com/us-en/ontap-systems/a20-30-50/a30-key-specifications.html#aff-a30-specifications-at-a-glance[AFF A30 Key Specifications]
+|===
+
+=== NetApp AFF C-Series 
+
+Entry-level NetApp AFF C-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific AFF Model.
+
+|===
+|Component |AFF A-Series controller platform documentation
+
+|NetApp AFF C30
 |
-http://www.netapp.com/us/products/storage-systems/fas2500/fas2500-tech-specs.aspx
-|FAS8000 series
+https://docs.netapp.com/us-en/ontap-systems/c30-60/c30-key-specifications.html[AFF C30 Key Specifications]
+|===
+=== AFF ASA A-Series
+
+Entry-level models of NetApp ASA A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[AFF ASA A-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
+
+|===
+| Component | AFF A-Series controller platform documentation
+
+| NetApp ASA A20 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a20-key-specifications.html[ASA A20 Key Specifications]
+|NetApp ASA A30 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a30-key-specifications.html[ASA A30 Key Specifications]
+|===
+
+=== AFF ASA C-Series
+
+Entry-level models of NetApp ASA C-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[AFF ASA C-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
+
+|===
+| Component | AFF C-Series controller platform documentation
+
+| NetApp ASA C30 | https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C30 Key Specifications]
+|===
+
+=== FAS Series
+
+Entry-level of FAS storage controllers are supported for use in a FlexPod Express. Detailed specifications for all FAS series storage controllers are available in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific FAS model.
+
+|===
+|Component |FAS Series controller platform documentation
+
+|FAS2750 Series
 |
-http://www.netapp.com/us/products/storage-systems/fas8000/fas8000-tech-specs.aspx
+https://docs.netapp.com/us-en/ontap-systems/fas2700/overview.html[FAS2750 Series Key Specifications^]
+|FAS2820 Series
+|
+https://docs.netapp.com/us-en/ontap-systems/fas2800/overview.html[FAS2820 Series Key Specifications^]
 |===
 
-== NetApp FAS Ethernet adapters
+=== NetApp disk shelves
 
-The following table lists NetApp FAS 10GbE adapters.
-
-|===
-|Component |X1117A-R6
-
-|Port count
-|2
-|Adapter type
-|SFP+ with fibre
-|===
-
-The X1117A-R6 SFP+ adapter is supported on FAS8000 series controllers.
-
-The FAS2600 and FAS2500 series storage systems have onboard 10GbE ports. For more information, see the https://hwu.netapp.com/Resources/generatedPDFs/AdapterCards-9.1_ONTAP-FAS.pdf?tag=8020[NetApp 10GbE adapter datasheet^].
-
-[NOTE]
-For more adapter details based on the AFF or FAS model, see the https://hwu.netapp.com/Adapter/Index[Adapter section^] in the Hardware Universe.
-
-== NetApp FAS disk shelves
-
-The following table lists the current NetApp FAS disk shelf options.
+The technical specifications for NetApp disk shelves include the form factor size, the number of drives per enclosure, and the shelf I/O modules; this documentation can be found in the following table. For more information, see the http://www.netapp.com/us/products/storage-systems/disk-shelves-and-storage-media/disk-shelves-tech-specs.aspx[NetApp Disk Shelves and Storage Media Technical Specifications^] and the https://hwu.netapp.com/[NetApp Hardware Universe^].
 
 |===
-|Component |DS460C |DS224C |DS212C |DS2246 |DS4246
+|Component |NetApp FAS/AFF disk shelf documentation
 
-|Form factor
-|4RU
-|2RU
-|2RU
-|2RU
-|4RU
-|Drives per enclosure
-|60
-|24
-|12
-|24
-|24
-|Drive form factor
-|3.5" large form factor
-|2.5" small form factor
-|3.5" large form factor
-|2.5" small form factor
-|3.5" large form factor
-|Shelf I/O modules
-|Dual IOM12 modules
-|Dual IOM12 modules
-|Dual IOM12 modules
-|Dual IOM6 modules
-|Dual IOM6 modules
+|NetApp DS212C Disk Shelf
+|
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[DS212C Disk Shelf Documentation]
+|NetApp DS224C Disk Shelf
+|
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[DS224C Disk Shelf Documentation]
+|NetApp DS460C Disk Shelf
+|
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[DS460C Disk Shelf Documentation]
+|NetApp NS224 Disk Shelf
+|
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[NS224 Disk Shelf Documentation]
+|NS224 w/NSM 100B Disk Shelf
+|
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[NS224 w/NSM 100B Disk Shelf Documentation]
 |===
 
-For more information, see the NetApp disk shelves datasheet.
+=== NetApp drives
 
-[NOTE]
-For more information about the disk shelves, see the NetApp Hardware Universe https://hwu.netapp.com/Shelves/Index?osTypeId=2032[Disk Shelves section^].
+The technical specifications for NetApp drives include the form factor size, disk capacity, disk RPM, supporting controllers, and ONTAP version requirements. These specifications can be found in the Drives section of the http://hwu.netapp.com/Drives/Index?queryId=1581392[NetApp Hardware Universe^].
 
-== NetApp FAS disk drives
-
-The technical specifications for the NetApp disks include form factor size, disk capacity, disk RPM, supporting controllers, and Data ONTAP version requirements and are located in the Drives section on http://hwu.netapp.com/Drives/Index?queryId=1581392[NetApp Hardware Universe^].
 
 == E-Series storage controllers
 
