@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec__cisco_components.html
-keywords: cisco, components, server, options, rack, ucs, nexus, switches, x-series-direct , c-series
+keywords: cisco, components, server, options, rack, ucs, nexus, switches, x-series-direct, c-series
 summary: Cisco is a substantial contributor to the FlexPod Express design and architecture; it contributes the compute and networking layers of the solution.
 ---
 
