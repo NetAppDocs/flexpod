@@ -21,11 +21,14 @@ summary: This section describes the minimum software requirements for the differ
 [.lead]
 This section describes the minimum software requirements for the different versions of FlexPod Express.
 
-== Software requirements for FlexPod Express with NetApp AFF/ASA/FAS
+== Software requirements for FlexPod Express with NetApp AFF/ ASA/ FAS
 
-The software requirements for the FlexPod Express with NetApp AFF/ASA/FAS include:
+The software requirements for the FlexPod Express with NetApp AFF/ ASA/ FAS include:
 
 * ONTAP 9.16 or later
 * Cisco NX-OS version 10.4(6)M or later
+
+[NOTE]
+All of the software versions listed in this section are the minimum requirements for the hardware components (NetAPP Components and the Cisco components) listed in the subsequent sections of the document. 
 
 All software must be listed and supported in the http://support.netapp.com/matrix/[NetApp IMT^]. Certain software features might require more recent versions of code than the minimums listed in previous architectures.

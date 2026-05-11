@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec__cisco_components.html
-keywords: cisco, components, server, options, rack, ucs, nexus, switches, X-Series Direct
+keywords: cisco, components, server, options, rack, ucs, nexus, switches, x-series-direct , c-series
 summary: Cisco is a substantial contributor to the FlexPod Express design and architecture; it contributes the compute and networking layers of the solution.
 ---
 
@@ -25,22 +25,24 @@ Cisco is a substantial contributor to the FlexPod Express design and architectur
 
 Cisco UCS X-Series Direct is a new architecture that integrates a pair of Cisco UCS Fabric Interconnect 9108 100G with Cisco UCS X9508 Chassis and Cisco UCS X-Series Compute nodes to deliver the UCS X-Series Direct solution. 
  
-Cisco UCS X-Series Direct is made up of the following components:
+Cisco UCS X-Series Direct consists of the following components:
+
 * Cisco UCS 9108 100G Fabric Interconnect
 * Cisco UCS X9508 Chassis
 * Cisco UCS X-Series Compute Nodes
 * Optional components: PCIe Nodes and X-Fabric Module
 
+[NOTE]
+Refer to this link for the complete technical specification for UCS X-Direct: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS X-Series Direct Datasheet].
 
-Refer to the tables below for the technical specifications for each of these components.
+Refer to the tables below for the technical specifications for the X-Series Direct components.
 
 |===
 |Cisco UCS fabric interconnect |Part number |Technical specifications
-
 |UCS 9108 100G Fabric Interconnect
 |UCSX-S9108-100G
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS 9108 Fabric Interconnect]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-fabric-interconnect-9108-100g.pdf[Cisco UCS 9108 Fabric Interconnect]
 |===
 
 
@@ -98,7 +100,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 == Cisco UCS C-Series rack server options
 
-Cisco UCS C-Series Rack Servers are available in one and two rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the second table below are for the base server. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
+Cisco UCS C-Series Rack Servers are available in one and two rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the following table are for the base servers. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
 
 The following table lists the Cisco UCS C-Series Rack Server options.
 
@@ -140,9 +142,9 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |===
 
 
-== Cisco UCS Nexus Switches
+== Cisco Nexus Switches
 
-Redundant Cisco Nexus  Switches are required in the FlexPod architecture.
+Redundant Cisco Nexus Switches are required in the FlexPod architecture.
 
 |===
 |Cisco Nexus switch |Technical specifications
@@ -161,7 +163,7 @@ https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-swi
 Valid SMARTnet support contracts are required on all Cisco equipment in the FlexPod Express architecture.
 
 [NOTE]
-The licenses required and the part numbers for those licenses should be verified by your sales representative because they can differ for different products.
+The required licenses and corresponding part numbers can vary by product and configuration. It is recommended to confirm licensing requirements with your Cisco or NetApp sales representative prior to ordering.
 
 The following table lists the Cisco support licensing options.
 
