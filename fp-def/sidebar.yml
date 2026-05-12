@@ -32,10 +32,8 @@ entries:
         url: /fp-def/fp-express-tech-spec__power_and_cabling_requirements.html
       - title: Technical Specifications and References
         url: /fp-def/fp-express-tech-spec__technical_specifications_and_references.html
-      - title: Previous Architectures and Equipment
-        url: /fp-def/fp-express-tech-spec__previous_architectures_and_equipment.html
-      - title: Legacy Equipment
-        url: /fp-def/fp-express-tech-spec_legacy_equipment.html
+      - title: Equipment Support Status
+        url: /fp-def/fp-express-tech-spec_equipment_support_status.html
       - title: Additional Information
         url: /fp-def/fp-express-tech-spec_additional_information.html
   - title: FlexPod Datacenter Technical Specifications

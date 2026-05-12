@@ -1,0 +1,54 @@
+---
+sidebar: sidebar
+permalink: fp-def/fp-express-tech-spec_equipment_support_status.html
+keywords: equipment, support status, end of life, end of support, verification
+summary: This section explains how to verify equipment support status for Cisco and NetApp components.
+---
+
+= Equipment support status
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2021-05-20 13:19:48.639761
+//
+
+[.lead]
+FlexPod is a flexible solution allowing customers to use both existing and new equipment currently for sale by Cisco and NetApp. Occasionally, certain models of equipment from both Cisco and NetApp are designated end of life.
+
+Even though these models of equipment are no longer available, customers who bought one of these models before the end-of-sale date can use that equipment in a FlexPod configuration.
+
+Additionally, FlexPod Express architectures are periodically refreshed to introduce the latest hardware and software from Cisco and NetApp to the FlexPod Express solution.
+
+Before deploying or maintaining FlexPod Express equipment, verify that all components remain supported by the vendor. This section explains how to check End-of-Support (EOS) and End-of-Life (EOL) information for Cisco and NetApp components.
+
+== Checking NetApp Equipment Support
+
+NetApp provides support information through the Hardware Universe (HWU).
+
+. Navigate to link:https://hwu.netapp.com[NetApp Hardware Universe]
+. Search by controller model (example: AFF A220)
+. Review the support dates and any deprecation notices
+. Check drive compatibility and shelf support
+
+=== Example: AFF A220 Series
+
+* Access: HWU → AFF A220 → Support Information
+* Verify OS compatibility, drive types, and shelf support
+
+== Checking Cisco Equipment Support
+
+Cisco provides End-of-Sale (EOS) and End-of-Support dates on the Cisco Lifecycle Pages.
+
+. Navigate to link:https://www.cisco.com/site/us/en/products/index.html[Cisco Product directory] and search for your equipment model (example: UCS C220 M3)
+. Look for any mention of end-of-support dates
+
+=== Example: Cisco UCS C-Series Servers
+
+* Search for product (example: UCS C220 M3)
+* Check dates against your deployment timeline
