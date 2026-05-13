@@ -170,7 +170,7 @@ The following table lists the Cisco support licensing options.
 |===
 |Cisco Support licensing |License guide
 
-|SMARTnet 24x7x4
+|TSANet
 |
-http://www.cisco.com/web/services/portfolio/product-technical-support/smartnet/index.html
+https://www.tsanet.org/cisco-tsanet-case-study/
 |===
