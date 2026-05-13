@@ -23,11 +23,50 @@ This section describes the optional features for FlexPod Express.
 
 == iSCSI boot option
 
-The FlexPod Express architecture uses iSCSI boot. The minimum requirements for the iSCSI boot option include:
+The minimum requirements for the iSCSI boot option include:
 
 * An iSCSI license/feature activated on the NetApp storage controller
 * A two-port 10Gbps Ethernet adapter on each node in the NetApp storage controller HA pair
 * An adapter in the Cisco UCS server that is capable of iSCSI boot
+
+
+== Cisco UCS direct connect with NetApp storage
+
+NetApp storage controllers can be directly connected to the Cisco UCS fabric interconnects without any upstream SAN switch.
+
+Four Cisco UCS port types can be used to directly connect to NetApp storage:
+
+* *Storage FC port.* Directly connect this port to an FC port on NetApp storage.
+* *Storage FCoE port.* Directly connect this port to an FCoE port on NetApp storage.
+* *Appliance port.* Directly connect this port to a 10GbE port on NetApp storage.
+* *Unified storage port.* Directly connect this port to a NetApp UTA.
+
+The licensing and hardware requirements are as follows:
+
+* A protocol license on the NetApp storage controller is required.
+* A Cisco UCS adapter (initiator) is required on the server. For a list of supported Cisco UCS adapters, see the NetApp http://mysupport.netapp.com/matrix[IMT^].
+* A target adapter on the NetApp storage controller is required.
+
+The following figure shows an FC direct-connect configuration.
+
+image:dc-tech-spec_image9.png[Error: Missing Graphic Image]
+
+*Notes:*
+
+* Cisco UCS is configured in FC switching mode.
+* FCoE ports from the target to fabric interconnects are configured as FCoE storage ports.
+* FC ports from the target to fabric interconnects are configured as FC storage ports.
+
+The following figure shows an iSCSI/Unified IP direct-connect configuration.
+
+image:dc-tech-spec_image10.png[Error: Missing Graphic Image]
+
+*Notes:*
+
+* Cisco UCS is configured in Ethernet switching mode.
+* iSCSI ports from the target to fabric interconnects are configured as Ethernet storage ports for iSCSI data.
+* Ethernet ports from the target to fabric interconnects are configured as Ethernet storage ports for CIFS/NFS data.
+
 
 == Configuration options
 

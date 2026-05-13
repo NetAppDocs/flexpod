@@ -34,6 +34,8 @@ entries:
         url: /fp-def/fp-express-tech-spec__technical_specifications_and_references.html
       - title: Equipment Support Status
         url: /fp-def/fp-express-tech-spec_equipment_support_status.html
+      - title: Automated Deployment
+        url: /fp-def/fp-express-tech-spec_automation.html
       - title: Additional Information
         url: /fp-def/fp-express-tech-spec_additional_information.html
   - title: FlexPod Datacenter Technical Specifications
