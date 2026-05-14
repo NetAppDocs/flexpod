@@ -23,80 +23,13 @@ This section describes the power and minimum cabling requirements for a FlexPod 
 
 == Power requirements
 
-The power requirements are based on U.S. specifications and assume the use of AC power. Other countries might have different power requirements. Direct current (DC) power options are also available for most components. For additional data about the maximum power required as well as other detailed power information, consult the detailed technical specifications for each hardware component.
+Power requirements for FlexPod Express differ based on the location where the FlexPod Express configuration is installed.
 
-For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS Power Calculator^].
+For more data about the maximum power that is required and for other detailed power information, consult the technical specifications for each hardware component listed in the section subsequent sections.
 
-The following table lists the power ports required per device.
+For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS power calculator^].
 
-|===
-|Cisco Nexus switches |Power cables required
-
-|Cisco Nexus 9200 Series
-|2x C13/C14 power cables for each Cisco Nexus 9200 series switch
-|Cisco Nexus 9300 Series
-|2x C13/C14 power cables for each Cisco Nexus 9300 series switch
-|===
-
-|===
-|Cisco UCS chassis |Power cables required
-
-|Cisco UCS X9508 Chassis
-|2 CAB-US515P-C19-US/CAB-US520-C19-US for each Cisco UCS chassis
-|===
-
-|===
-|Cisco UCS X-Series Direct Compute Nodes|Power ports required
-
-|Cisco UCS X210c M7
-.5+|2 x C13/C14 power cables for each Cisco UCS server
-|Cisco UCS X210c M8
-|Cisco UCS X215c M8
-|Cisco UCS X410c M7
-|Cisco UCS X410c M8
-|===
-
-|===
-|Cisco UCS C-Series servers |Power ports required
-
-|Cisco UCS C220 M7
-.8+|2 x C13/C14 power cables for each Cisco UCS server
-|Cisco UCS C220 M8
-|Cisco UCS C225 M6
-|Cisco UCS C225 M8
-|Cisco UCS C240 M7
-|Cisco UCS C240 M8
-|Cisco UCS C245 M6
-|Cisco UCS C245 M8
-|===
-
-|===
-|NetApp Storage controllers |Power ports required (per HA pair)
-
-|AFF : A250,A20, A30 , C30
-|2 x C13/C14
-|ASA : A20, A30 , C30
-|2 x C13/C14
-|FAS : 2750 , 2820
-|2 x C13/C14
-|===
-
-
-|===
-|NetApp Disk shelves |Power ports required
-
-|DS212C
-|2 x C13/C14
-|DS224C
-|2 x C13/C14
-|DS460C
-|2 x C19/C20 or 2 x C14/C19
-|NS224
-|2 x C13/C14
-|NS224 w/NSM100B
-|4 x C13/C14
-|===
-
+For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under Platforms, select the storage platform that you want to use in the configuration (eg. AFF A20). Select the ONTAP version and storage controller, and then click the Show Results button.
 
 == Minimum cable requirements
 
@@ -108,7 +41,7 @@ The following table lists the minimum number of cables required for each device.
 |Cisco Nexus Series switches |Cables required
 
 |Cisco Nexus 9200 Series
-.2+|At least two 10GbE fiber or Twinax cables per switch
+.2+|At least two 10GbE cables per switch
 |Cisco Nexus 9300 Series
 |DS212C
 .5+|Number of SAS cables depends on specific configuration of disk shelves
