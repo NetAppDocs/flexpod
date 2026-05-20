@@ -125,7 +125,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 The following table lists the Cisco Nexus switch options.
 
-|he technical specifications for Cisco Nexus Switches are contained in the datasheet for each model. Specifications include the form factor size; the number of supervisors, fabric module, and line card slots; and the maximum number of ports. These datasheets can be found in the following table.
+The technical specifications for Cisco Nexus Switches are contained in the datasheet for each model. Specifications include the form factor size; the number of supervisors, fabric module, and line card slots; and the maximum number of ports. These datasheets can be found in the following table.
 
 |===
 |Component |Cisco Nexus datasheet
@@ -180,28 +180,28 @@ Entry-level NetApp AFF C-Series storage controllers are supported for use in Fle
 |
 https://docs.netapp.com/us-en/ontap-systems/c30-60/c30-key-specifications.html[AFF C30 Key Specifications]
 |===
-=== AFF ASA A-Series
+=== NetApp ASA A-Series
 
-Entry-level models of NetApp ASA A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[AFF ASA A-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
+Entry-level models of NetApp ASA A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA A-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
 
 |===
-| Component | AFF A-Series controller platform documentation
+| Component | NetApp ASA A-Series controller platform documentation
 
 | NetApp ASA A20 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a20-key-specifications.html[ASA A20 Key Specifications]
 |NetApp ASA A30 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a30-key-specifications.html[ASA A30 Key Specifications]
 |===
 
-=== AFF ASA C-Series
+=== NetApp ASA C-Series
 
-Entry-level models of NetApp ASA C-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[AFF ASA C-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
+Entry-level models of NetApp ASA C-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA C-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
 
 |===
-| Component | AFF C-Series controller platform documentation
+| Component | NetApp ASA C-Series controller platform documentation
 
 | NetApp ASA C30 | https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C30 Key Specifications]
 |===
 
-=== FAS Series
+=== NetApp FAS Series
 
 Entry-level of FAS storage controllers are supported for use in a FlexPod Express. Detailed specifications for all FAS series storage controllers are available in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific FAS model.
 
@@ -210,15 +210,15 @@ Entry-level of FAS storage controllers are supported for use in a FlexPod Expres
 
 |FAS2750 Series
 |
-https://docs.netapp.com/us-en/ontap-systems/fas2700/overview.html[FAS2750 Series Key Specifications^]
+https://docs.netapp.com/us-en/ontap-systems/fas2700/overview.html[FAS2750 Key Specifications^]
 |FAS2820 Series
 |
-https://docs.netapp.com/us-en/ontap-systems/fas2800/overview.html[FAS2820 Series Key Specifications^]
+https://docs.netapp.com/us-en/ontap-systems/fas2800/overview.html[FAS2820 Key Specifications^]
 |===
 
 === NetApp disk shelves
 
-The technical specifications for NetApp disk shelves include the form factor size, the number of drives per enclosure, and the shelf I/O modules; this documentation can be found in the following table. For more information, see the http://www.netapp.com/us/products/storage-systems/disk-shelves-and-storage-media/disk-shelves-tech-specs.aspx[NetApp Disk Shelves and Storage Media Technical Specifications^] and the https://hwu.netapp.com/[NetApp Hardware Universe^].
+The technical specifications for NetApp disk shelves include the form factor size, the number of drives per enclosure, and the shelf I/O modules; this documentation can be found in the following table. For more information, refer to the https://hwu.netapp.com/[NetApp Hardware Universe^].
 
 |===
 |Component |NetApp FAS/AFF disk shelf documentation
@@ -243,99 +243,3 @@ https://www.netapp.com/data-storage/disk-shelves-storage-media/[NS224 w/NSM 100B
 === NetApp drives
 
 The technical specifications for NetApp drives include the form factor size, disk capacity, disk RPM, supporting controllers, and ONTAP version requirements. These specifications can be found in the Drives section of the http://hwu.netapp.com/Drives/Index?queryId=1581392[NetApp Hardware Universe^].
-
-
-== E-Series storage controllers
-
-The following table lists the current E-Series storage controller options.
-
-|===
-|Current Component |E2812 |E2824 |E2860
-
-|Configuration
-|2 controllers in a 2U chassis
-|2 controllers in a 2U chassis
-|2 controllers in a 4U chassis
-|Maximum raw capacity
-|1800TB
-|1756.8TB
-|1800TB
-|Internal drives
-|12
-|24
-|60
-|Maximum number of drives (internal plus external)
-3+|180
-|Maximum SSD
-3+|120
-|Maximum volume size for disk pool volume
-3+|1024TB
-|Maximum disk pools
-3+|20
-|Storage networking supported
-3+|iSCSI and FC
-|Maximum number of volumes
-3+|512
-|===
-
-The following table lists the datasheets for the current E-Series storage controller.
-
-|===
-|Component |Storage controller datasheet
-
-|E2800
-|
-https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf
-|===
-
-== E-Series adapters
-
-The following table lists the E-Series adapters.
-
-|===
-|Component |X-56023-00-0E-C |X-56025-00-0E-C |X-56027-00-0E-C |X-56024-00-0E-C |X-56026-00-0E-C
-
-|Port count
-|2
-|4
-|4
-|2
-|2
-|Adapter type
-|10Gb Base-T
-|16G FC and 10GbE iSCSI
-|SAS
-|16G FC and 10GbE iSCSI
-|SAS
-|===
-
-== E-Series disk shelves
-
-The following table lists the E-Series disk shelf options.
-
-|===
-|Component |DE212C |DE224C |DE460C
-
-|Form factor
-|2RU
-|2RU
-|4RU
-|Drives per enclosure
-|12
-|24
-|60
-|Drive form factor
-|2.5" small form factor
-3.5"
-|2.5"
-|2.5" small form factor
-3.5"
-|Shelf I/O modules
-|IOM12
-|IOM12
-|IOM12
-|===
-
-== E-Series disk drives
-
-The technical specifications for the NetApp disk drives include form factor size, disk capacity, disk RPM, supporting controllers, and SANtricity version requirements and are located in the Drives section on http://hwu.netapp.com/Drives/Index?queryId=1844075[NetApp Hardware Universe^].

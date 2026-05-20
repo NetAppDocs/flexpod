@@ -25,7 +25,7 @@ This section describes the power and minimum cabling requirements for a FlexPod 
 
 Power requirements for FlexPod Express differ based on the location where the FlexPod Express configuration is installed.
 
-For more data about the maximum power that is required and for other detailed power information, consult the technical specifications for each hardware component listed in the section subsequent sections.
+For more data about the maximum power that is required and for other detailed power information, consult the technical specifications for each hardware component.
 
 For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS power calculator^].
 

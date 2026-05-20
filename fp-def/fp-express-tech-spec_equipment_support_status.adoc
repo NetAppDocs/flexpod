@@ -25,14 +25,14 @@ Even though these models of equipment are no longer available, customers who bou
 
 Additionally, FlexPod Express architectures are periodically refreshed to introduce the latest hardware and software from Cisco and NetApp to the FlexPod Express solution.
 
-Before deploying or maintaining FlexPod Express equipment, verify that all components remain supported by the vendor. This section explains how to check End-of-Support (EOS) and End-of-Life (EOL) information for Cisco and NetApp components.
+Before deploying or maintaining FlexPod Express equipment, verify that all components remain supported by the vendor. This section explains how to check  and End-of-Availability (EOA) and End-of-Support (EOS)information for Cisco and NetApp components.
 
 == Checking NetApp Equipment Support
 
 NetApp provides support information through the Hardware Universe (HWU).
 
 . Navigate to link:https://hwu.netapp.com[NetApp Hardware Universe]
-. Search by controller model (example: AFF A220)
+. Search by controller model (example: AFF A220) and select an ONTAP version
 . Review the support dates and any deprecation notices
 . Check drive compatibility and shelf support
 
