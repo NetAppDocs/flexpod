@@ -160,7 +160,7 @@ https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-swi
 
 == Cisco Support licensing options
 
-Valid SMARTnet support contracts are required on all Cisco equipment in the FlexPod Express architecture.
+Valid TSANet support contracts are required on all Cisco equipment in the FlexPod Express architecture.
 
 [NOTE]
 The required licenses and corresponding part numbers can vary by product and configuration. It is recommended to confirm licensing requirements with your Cisco or NetApp sales representative prior to ordering.

@@ -29,6 +29,6 @@ The software requirements for the FlexPod Express with NetApp AFF/ ASA/ FAS incl
 * Cisco NX-OS version 10.4(6)M or later
 
 [NOTE]
-All of the software versions listed in this section are the minimum requirements for the hardware components (NetAPP Components and the Cisco components) listed in the subsequent sections of the document. 
+All of the software versions listed in this section are the minimum requirements for the hardware components (NetApp  and  Cisco components) listed in the subsequent sections of the document. 
 
 All software must be listed and supported in the http://support.netapp.com/matrix/[NetApp IMT^]. Certain software features might require more recent versions of code than the minimums listed in previous architectures.

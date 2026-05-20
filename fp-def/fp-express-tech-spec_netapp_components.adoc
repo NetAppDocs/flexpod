@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec__netapp_components.html
 keywords: storage, controller, options, fas, aff, asa, disk, shelves, licensing, software
-summary: NetApp storage controllers provide the storage foundation in the FlexPod Express architecture for both boot and application data storage. This section lists the different NetApp options in the FlexPod Express architecture.
+summary: NetApp storage controllers provide the storage foundation in the FlexPod Express architecture for both boot and application data storage. This section lists the different NetApp storage options in the FlexPod Express architecture.
 ---
 
 = NetApp components
@@ -30,7 +30,7 @@ A switchless cluster configuration is supported only for a two node configuratio
 
 Different options and configurations are available based on the storage platform selected. Consult your sales representative for details about these additional components.
 
-The controller families that are listed in the table below are appropriate for use in a FlexPod solution because their connection to the Cisco Nexus switches is seamless. See the NetApp Hardware Universe for specific compatibility details on each controller model.
+The controller families that are listed in the table below are appropriate for use in a FlexPod solution because their connection to the Cisco Nexus switches is seamless. See the http://hwu.netapp.com/[NetApp Hardware Universe^] for specific compatibility details on each controller model.
 
 |===
 |NetApp entry-level storage Family for FlexPod Express| Model | Technical specifications
@@ -44,16 +44,14 @@ The controller families that are listed in the table below are appropriate for u
 |https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Documentation]
 .2+|ASA A-Series
 |A20
-.2+|
-https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA A-Series Documentation]
+.2+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA A-Series Documentation]
 |A30
 |ASA C-Series
 |C30
 |https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C-Series Documentation]
 .2+|FAS
 |FAS 2750
-.2+|
-https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]
+.2+|https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]
 |FAS 2820
 |===
 
@@ -61,7 +59,7 @@ https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]
 == NetApp disk shelves and disks
 
 
-A minimum of one NetApp disk shelf is required for all storage controllers.
+A minimum of one NetApp disk shelf is required for the storage controllers.
 
 The selected NetApp shelf type determines which drive types are available within that shelf.
 
@@ -91,7 +89,7 @@ The following table lists the NetApp software licensing options.
 |===
 |NetApp Software Licensing |Technical Specifications
 
-|ONTAP base for AFF and FAS 
+|ONTAP One or ONTAP base for AFF and FAS 
 .2+|Consult your NetApp sales team for more licensing information.
 |ONTAP One for SAN for ASA
 |===
