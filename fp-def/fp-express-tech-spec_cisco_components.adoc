@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: fp-def/fp-express-tech-spec__cisco_components.html
+permalink: fp-def/fp-express-tech-spec_cisco_components.html
 keywords: cisco, components, server, options, rack, ucs, nexus, switches, x-series-direct, c-series
 summary: Cisco is a substantial contributor to the FlexPod Express design and architecture; it contributes the compute and networking layers of the solution.
 ---
@@ -33,12 +33,13 @@ Cisco UCS X-Series Direct consists of the following components:
 * Optional components: PCIe Nodes and X-Fabric Module
 
 [NOTE]
-Refer to this link for the complete technical specification for UCS X-Direct: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS X-Series Direct Datasheet].
+Refer to this link for the complete technical specification for UCS X-Series Direct: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS X-Series Direct Datasheet].
 
 Refer to the tables below for the technical specifications for the X-Series Direct components.
 
 |===
 |Cisco UCS fabric interconnect |Part number |Technical specifications
+
 |UCS 9108 100G Fabric Interconnect
 |UCSX-S9108-100G
 |

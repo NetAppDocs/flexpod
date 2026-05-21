@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: fp-def/fp-express-tech-spec__power_and_cabling_requirements.html
+permalink: fp-def/fp-express-tech-spec_power_and_cabling_requirements.html
 keywords: power, cabling, requirements, flexpod, express, cisco, ucs, minimum, cabling
 summary: This section describes the power and minimum cabling requirements for a FlexPod Express design.
 ---
@@ -29,7 +29,7 @@ For more data about the maximum power that is required and for other detailed po
 
 For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS power calculator^].
 
-For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under Platforms, select the storage platform that you want to use in the configuration (eg. AFF A20). Select the ONTAP version and storage controller, and then click the Show Results button.
+For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A20), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section.
 
 == Minimum cable requirements
 

@@ -23,15 +23,15 @@ entries:
       - title: Other Requirements
         url: /fp-def/fp-express-tech-spec_other_requirements.html
       - title: Optional Features
-        url: /fp-def/fp-express-tech-spec__optional_features.html
+        url: /fp-def/fp-express-tech-spec_optional_features.html
       - title: Cisco Components
-        url: /fp-def/fp-express-tech-spec__cisco_components.html
+        url: /fp-def/fp-express-tech-spec_cisco_components.html
       - title: NetApp Components
-        url: /fp-def/fp-express-tech-spec__netapp_components.html
+        url: /fp-def/fp-express-tech-spec_netapp_components.html
       - title: Power and Cabling Requirements
-        url: /fp-def/fp-express-tech-spec__power_and_cabling_requirements.html
+        url: /fp-def/fp-express-tech-spec_power_and_cabling_requirements.html
       - title: Technical Specifications and References
-        url: /fp-def/fp-express-tech-spec__technical_specifications_and_references.html
+        url: /fp-def/fp-express-tech-spec_technical_specifications_and_references.html
       - title: Equipment Support Status
         url: /fp-def/fp-express-tech-spec_equipment_support_status.html
       - title: Automated Deployment
