@@ -38,11 +38,12 @@ This section describes the minimum cable requirements for a FlexPod Express desi
 The following table lists the minimum number of cables required for each device.
 
 |===
-|Cisco Nexus Series switches |Cables required
-
+|Hardware|Model Number |Cables required
+.2+|Cisco Nexus Switches
 |Cisco Nexus 9200 Series
 .2+|At least two 10GbE cables per switch
 |Cisco Nexus 9300 Series
+.5+|NetApp Disk Shelves
 |DS212C
 .5+|Number of SAS cables depends on specific configuration of disk shelves
 |DS224C

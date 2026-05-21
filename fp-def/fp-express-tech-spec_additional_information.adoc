@@ -31,7 +31,7 @@ https://mysupport.netapp.com/info/communications/index.html[https://mysupport.ne
 
 * NetApp Interoperability Matrix Tool (IMT)
 +
-https://mysupport.netapp.com/matrix/[https://mysupport.netapp.com/matrix/#welcome^]
+https://mysupport.netapp.com/matrix/[https://mysupport.netapp.com/matrix^]
 
 * NetApp Hardware Universe
 +

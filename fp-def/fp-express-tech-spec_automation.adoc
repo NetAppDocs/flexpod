@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec_automation.html
-keywords: flexpod express, automation, IaC , GitHub Repo, Ansible
-summary: The FlexPod design allows a flexible infrastructure that encompasses many different components and software versions.
+keywords: flexpod express, automation, IaC, GitHub repository, Ansible
+summary: Automated deployment for FlexPod Express is available through a GitHub repository that includes Ansible playbooks and related infrastructure as code assets.
 ---
 
 = FlexPod Express Automated Deployment

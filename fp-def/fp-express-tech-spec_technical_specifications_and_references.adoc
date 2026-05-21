@@ -48,17 +48,19 @@ For more information, see the link:https://www.cisco.com/c/en/us/products/collat
 
 == Cisco UCS X-Series Direct compute node
 
-The technical specifications for Cisco UCS X-Series compute node, as shown in the following table below, include the following components:
+The technical specifications for Cisco UCS X-Series compute node include the following components:
 
-*	Number of processor sockets
-*	Processor support
-*	Memory capacity
-*	Size and speed
-*	SAN boot support
-*	Number of mezzanine adapter slots
-*	I/O maximum throughput
-*	Form factor
+* Number of processor sockets
+* Processor support
+* Memory capacity
+* Size and speed
+* SAN boot support
+* Number of mezzanine adapter slots
+* I/O maximum throughput
+* Form factor
 * Maximum number of compute nodes per chassis
+
+Refer to the table below for the technical specifications for Cisco UCS X-Series compute nodes.
 
 |===
 |Component | Cisco UCS datasheet
@@ -93,7 +95,7 @@ https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/
 
 == Cisco UCS C-Series rack servers
 
-The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and the size of the form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The following tables illustrate the C-Series Rack Server datasheets and Cisco UCS C-Series chassis option, respectively.
+The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and the size of the form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The following table illustrate the C-Series Rack Server datasheets.
 
 |===
 |Component |Cisco UCS datasheet
@@ -122,8 +124,6 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |===
 
 == Cisco Nexus switches
-
-The following table lists the Cisco Nexus switch options.
 
 The technical specifications for Cisco Nexus Switches are contained in the datasheet for each model. Specifications include the form factor size; the number of supervisors, fabric module, and line card slots; and the maximum number of ports. These datasheets can be found in the following table.
 
@@ -156,7 +156,7 @@ The technical specifications for NetApp storage controllers include the followin
 
 === NetApp AFF A-Series 
 
-Entry-level NetApp AFF A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF A-seriesTechnical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific AFF Model.
+Entry-level NetApp AFF A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF A-series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific AFF Model.
 
 |===
 |Component |AFF A-Series controller platform documentation
@@ -174,7 +174,7 @@ https://docs.netapp.com/us-en/ontap-systems/a20-30-50/a30-key-specifications.htm
 Entry-level NetApp AFF C-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific AFF Model.
 
 |===
-|Component |AFF A-Series controller platform documentation
+|Component |AFF C-Series controller platform documentation
 
 |NetApp AFF C30
 |
@@ -203,7 +203,7 @@ Entry-level models of NetApp ASA C-Series storage controllers are supported for 
 
 === NetApp FAS Series
 
-Entry-level of FAS storage controllers are supported for use in a FlexPod Express. Detailed specifications for all FAS series storage controllers are available in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific FAS model.
+Entry-level FAS storage controllers are supported for use in a FlexPod Express. Detailed specifications for all FAS series storage controllers are available in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific FAS model.
 
 |===
 |Component |FAS Series controller platform documentation
