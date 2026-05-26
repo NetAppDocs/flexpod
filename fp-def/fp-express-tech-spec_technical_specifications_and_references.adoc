@@ -60,7 +60,7 @@ The technical specifications for Cisco UCS X-Series compute node include the fol
 * Form factor
 * Maximum number of compute nodes per chassis
 
-Refer to the table below for the technical specifications for Cisco UCS X-Series compute nodes.
+Refer to the table below for the technical specifications for Cisco UCS X-Series Direct compute nodes.
 
 |===
 |Component | Cisco UCS datasheet

@@ -89,7 +89,7 @@ The following table lists the NetApp software licensing options.
 |===
 |NetApp Software Licensing |Technical Specifications
 
-|ONTAP One or ONTAP base for AFF and FAS 
+|ONTAP One for AFF and FAS 
 .2+|Consult your NetApp sales team for more licensing information.
 |ONTAP One for SAN for ASA
 |===
