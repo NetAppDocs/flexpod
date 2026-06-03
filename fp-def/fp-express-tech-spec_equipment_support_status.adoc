@@ -29,7 +29,7 @@ NetApp provides support information through the Hardware Universe (HWU).
 
 Go to the link:https://hwu.netapp.com[NetApp Hardware Universe^].
 
-* Select *Products > Platforms*, then choose your platform (for example, *AFF A-Series*) and model (for example, *AFF A220*).
+* Select *Products > Platforms*, then choose your platform (example: *AFF A-Series*) and model (example: *AFF A220*).
 
 [NOTE]
 To view all platforms, change the *Platform Lifecycle* filter to *Show All*. By default, *Hide EOA* is selected.
@@ -45,10 +45,10 @@ Cisco provides End-of-Sale  and End-of-Support dates on the Cisco product suppor
 === Cisco UCS Servers End-of-Sale and End-of-Support Information
 
 * Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page]
-* Under *Product Categories* select *Servers - UCS and HCI* section and click on your server type (example: UCS C-Series Rack Servers). Locate your specific model (example: UCS C220 M5) and look for the End-of-Sale and End-of-Support dates.
+* Under *Product Categories* select *Servers - UCS and HCI* and click on your server type (example: *UCS C-Series Rack Servers*). Locate your specific model (example: *UCS C220 M5*) and look for the End-of-Sale and End-of-Support dates.
 
 
 === Cisco Nexus Switches End-of-Sale and End-of-Support Information
 
 * Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page]
-* Under *Product Categories* select *Switches* section and click on your switch type (example: Nexus 9000). Locate your specific model (example: 9236C) and look for the End-of-Sale and End-of-Support dates.
+* Under *Product Categories* select *Switches* and click on your switch type (example: *Nexus 9000*). Locate your specific model (example: *9236C*) and look for the End-of-Sale and End-of-Support dates.
