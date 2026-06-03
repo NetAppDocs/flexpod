@@ -12,11 +12,6 @@ summary: The FlexPod design allows a flexible infrastructure that encompasses ma
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.566004
-//
 
 [.lead]
 The FlexPod design allows a flexible infrastructure that encompasses many different components and software versions.

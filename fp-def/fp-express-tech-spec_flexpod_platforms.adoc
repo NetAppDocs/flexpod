@@ -12,11 +12,7 @@ summary: This document provides the technical specifications for the FlexPod Exp
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.562908
-//
+
 
 [.lead]
 There are two FlexPod platforms:

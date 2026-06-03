@@ -12,11 +12,6 @@ summary: This section describes the minimum hardware requirements for the differ
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.580769
-//
 
 [.lead]
 This section describes the minimum hardware requirements for the different versions of FlexPod Express.

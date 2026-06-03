@@ -12,11 +12,6 @@ summary: NetApp storage controllers provide the storage foundation in the FlexPo
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.611190
-//
 
 [.lead]
 NetApp storage controllers provide the storage foundation in the FlexPod Express architecture for both boot and application data storage. This section lists the different NetApp options in the FlexPod Express architecture.

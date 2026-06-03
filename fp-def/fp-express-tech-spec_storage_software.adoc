@@ -12,11 +12,6 @@ summary: The storage operating systems listed in this section are supported in t
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.578185
-//
 
 [.lead]
 FlexPod Express supports storage systems that run NetApp ONTAP operating system.
