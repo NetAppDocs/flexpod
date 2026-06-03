@@ -15,8 +15,8 @@ summary: Automated deployment for FlexPod Express is available through a GitHub 
 
 
 [.lead]
-Automated deployment of FlexPod Express is available through the FlexPod Express GitHub repository. The repository contains Ansible playbooks and related files to facilitate the deployment of FlexPod Express infrastructure as code (IaC).  
+Automated deployment of FlexPod Express is available through the FlexPod Express GitHub repository. This repository contains Ansible playbooks and related files to facilitate the deployment of FlexPod Express infrastructure as code (IaC).  
 
-The FlexPod Express GitHub repository provides a structured approach to deploying FlexPod Express configurations, allowing users to automate the setup and management of their infrastructure. The repository includes playbooks for various components of the FlexPod Express design, ensuring that users can efficiently deploy and maintain their environments with consistency and reliability.
+The GitHub repository provides a structured approach to deploying FlexPod Express configurations, allowing users to automate the setup and management of their infrastructure. It includes playbooks for various components of the FlexPod Express design, ensuring that users can efficiently deploy and maintain their environments with consistency and reliability.
 
 For implementation assets and workflow details, refer to the link:https://github.com/ucs-compute-solutions/FlexPod-Express-Intersight[FlexPod Express GitHub repository]. For an architecture and design overview of infrastructure as code (IaC), refer to link:https://www.netapp.com/media/91691-flex-pod-express-nva-ia-c.pdf[FlexPod Express IaC NVA].

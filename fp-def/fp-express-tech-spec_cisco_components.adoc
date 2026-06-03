@@ -12,11 +12,6 @@ summary: Cisco is a substantial contributor to the FlexPod Express design and ar
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.607313
-//
 
 [.lead]
 Cisco is a substantial contributor to the FlexPod Express design and architecture; it contributes the compute and networking layers of the solution. This section describes the Cisco UCS and Cisco Nexus components that are available for FlexPod Express.
@@ -24,16 +19,22 @@ Cisco is a substantial contributor to the FlexPod Express design and architectur
 == Cisco UCS X-Series Direct 
 
 Cisco UCS X-Series Direct is a new architecture that integrates a pair of Cisco UCS Fabric Interconnect 9108 100G with Cisco UCS X9508 Chassis and Cisco UCS X-Series Compute nodes to deliver the UCS X-Series Direct solution. 
+
+For a quick overview of Cisco UCS X-Series capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-aag.html[Cisco UCS X-Series Direct At-a-Glance^].
  
 Cisco UCS X-Series Direct consists of the following components:
 
 * Cisco UCS 9108 100G Fabric Interconnect
 * Cisco UCS X9508 Chassis
 * Cisco UCS X-Series Compute Nodes
-* Optional components: PCIe Nodes and X-Fabric Module
+* Optional components: 
+    ** PCIe Nodes and X-Fabric Module
+    ** Second Cisco UCS X9508 Chassis with X-Series Compute Nodes and Cisco UCS 9108-100G Intelligent Fabric Modules and up to four C-Series Rack Servers
 
 [NOTE]
 Refer to this link for the complete technical specification for UCS X-Series Direct: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS X-Series Direct Datasheet].
+
+
 
 Refer to the tables below for the technical specifications for the X-Series Direct components.
 
@@ -89,14 +90,13 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |UCSX-I-9108-100G
 |
 https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/cisco-ucs-9108-100g-intelligent-fabric-module-spec-sheet.pdf[Cisco UCS 9108 Intelligent Fabric Module]
-|Cisco UCS X9516 X-Fabric Module
-|UCSX-FS-9516
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-9516-x-fabric-module-ds.html[Cisco UCS X9516 X-Fabric Module]
 |Cisco UCS X9416 X-Fabric Module
 |UCSX-FS-9416
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/solution-overview-c22-2432175.html?ccid=cc002456&oid=sowcsm025665[Cisco UCS X9416 X-Fabric Module]
+|Cisco UCS X440p PCIe Node
+|UCSX-440P
+|https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x440p-pcle-node-ds.html[Cisco UCS X440p PCIe Node]
 |===
 
 == Cisco UCS C-Series rack server options

@@ -16,8 +16,8 @@ entries:
         url: /fp-def/fp-express-tech-spec_storage_software.html
       - title: Minimum Hardware Requirements
         url: /fp-def/fp-express-tech-spec_minimum_hardware_requirements.html
-      - title: Minimum Software Requirements
-        url: /fp-def/fp-express-tech-spec_minimum_software_requirements.html
+      - title: Software Version Recommendations
+        url: /fp-def/fp-express-tech-spec_software_recommendation.html
       - title: Connectivity Requirements
         url: /fp-def/fp-express-tech-spec_connectivity_requirements.html
       - title: Other Requirements

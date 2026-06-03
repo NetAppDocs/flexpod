@@ -5,18 +5,14 @@ keywords: equipment, support status, end of life, end of support, verification
 summary: This section explains how to verify equipment support status for Cisco and NetApp components.
 ---
 
-= Equipment support status
+= Equipment Support Status
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.639761
-//
+
 
 [.lead]
 FlexPod is a flexible solution allowing customers to use both existing and new equipment currently for sale by Cisco and NetApp. Occasionally, certain models of equipment from both Cisco and NetApp are designated end of life.
@@ -25,30 +21,34 @@ Even though these models of equipment are no longer available, customers who bou
 
 Additionally, FlexPod Express architectures are periodically refreshed to introduce the latest hardware and software from Cisco and NetApp to the FlexPod Express solution.
 
-Before deploying or maintaining FlexPod Express equipment, verify that all components remain supported by the vendor. This section explains how to check End-of-Availability (EOA) and End-of-Support (EOS) information for Cisco and NetApp components.
+Before deploying or maintaining FlexPod Express equipment, verify that all components remain supported by the vendor. This section explains how to check End-of-Sale and End-of-Support information for Cisco and NetApp components.
 
 == Checking NetApp Equipment Support
 
 NetApp provides support information through the Hardware Universe (HWU).
 
-. Navigate to link:https://hwu.netapp.com[NetApp Hardware Universe]
-. Search by controller model (example: AFF A220) and select an ONTAP version
-. Review the support dates and any deprecation notices
-. Check drive compatibility and shelf support
+Go to the link:https://hwu.netapp.com[NetApp Hardware Universe^].
 
-=== Example: AFF A220 Series
+* Select *Products > Platforms*, then choose your platform (for example, *AFF A-Series*) and model (for example, *AFF A220*).
 
-* Access: HWU → AFF A220 → Support Information
-* Verify OS compatibility, drive types, and shelf support
+[NOTE]
+To view all platforms, change the *Platform Lifecycle* filter to *Show All*. By default, *Hide EOA* is selected.
+
+* Select the *ONTAP* version and click *Show Results*.
+* Review the results for the end-of-support dates for your equipment under the *System Availability and Support* section.
+
 
 == Checking Cisco Equipment Support
 
-Cisco provides End-of-Sale (EOS) and End-of-Support dates on the Cisco Lifecycle Pages.
+Cisco provides End-of-Sale  and End-of-Support dates on the Cisco product support pages.
 
-. Navigate to link:https://www.cisco.com/site/us/en/products/index.html[Cisco Product directory] and search for your equipment model (example: UCS C220 M3)
-. Look for any mention of end-of-support dates
+=== Cisco UCS Servers End-of-Sale and End-of-Support Information
 
-=== Example: Cisco UCS C-Series Servers
+* Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page]
+* Under *Product Categories* select *Servers - UCS and HCI* section and click on your server type (example: UCS C-Series Rack Servers). Locate your specific model (example: UCS C220 M5) and look for the End-of-Sale and End-of-Support dates.
 
-* Search for product (example: UCS C220 M3)
-* Check dates against your deployment timeline
+
+=== Cisco Nexus Switches End-of-Sale and End-of-Support Information
+
+* Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page]
+* Under *Product Categories* select *Switches* section and click on your switch type (example: Nexus 9000). Locate your specific model (example: 9236C) and look for the End-of-Sale and End-of-Support dates.

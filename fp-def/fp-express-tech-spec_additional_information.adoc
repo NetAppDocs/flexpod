@@ -25,9 +25,19 @@ To learn more about the information that is described in this document, see the 
 +
 https://docs.netapp.com/[https://docs.netapp.com/^]
 
-* NetApp Support Communications
+* ONTAP Product Documentation
 +
-https://mysupport.netapp.com/info/communications/index.html[https://mysupport.netapp.com/info/communications/index.html^]
+https://docs.netapp.com/us-en/ontap-family/index.html[https://docs.netapp.com/us-en/ontap-family/index.html^]
+
+* ONTAP Hardware systems Documentation
++
+https://docs.netapp.com/us-en/ontap-systems-family/index.html[https://docs.netapp.com/us-en/ontap-systems-family/index.html^]
+
+* FlexPod Documentation
++
+https://www.netapp.com/flexpod/[https://www.netapp.com/flexpod/^]
+
+
 
 * NetApp Interoperability Matrix Tool (IMT)
 +
@@ -37,6 +47,14 @@ https://mysupport.netapp.com/matrix/[https://mysupport.netapp.com/matrix^]
 +
 https://hwu.netapp.com/[https://hwu.netapp.com/^]
 
+* Cisco HCL
++ 
+https://ucshcltool.cloudapps.cisco.com/public/hcl[https://ucshcltool.cloudapps.cisco.com/public/hcl^]
+
 * NetApp Support
 +
 https://mysupport.netapp.com/[https://mysupport.netapp.com/^]
+
+* NetApp Support Communications
++
+https://mysupport.netapp.com/info/communications/index.html[https://mysupport.netapp.com/info/communications/index.html^]

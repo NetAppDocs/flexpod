@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec_technical_specifications_and_references.html
-keywords: technical, specifications, references, blade, servers, ucs, b, series, rack, disk, shelves, fas, adapters, controllers
+keywords: technical, specifications, references, servers, ucs, rack, disk, shelves, aff, asa, fas, x-series-direct, c-series, adapters, controllers
 summary: This section describes additional important technical specifications for each of the FlexPod Express components.
 ---
 
@@ -12,11 +12,6 @@ summary: This section describes additional important technical specifications fo
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.623827
-//
 
 [.lead]
 This section describes additional important technical specifications for each of the FlexPod Express components.
@@ -83,7 +78,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 == Cisco UCS X-Series Direct fabric interconnects
 
-The technical specifications for Cisco UCS X-Series fabric interconnects include form factor size, the total number of ports and expansion slots, and throughput capacity. The following table illustrates the Cisco UCS X-Series fabric interconnect datasheets.
+The technical specifications for Cisco UCS X-Series fabric interconnects include form factor, the total number of ports and expansion slots, and throughput capacity. The following table illustrates the Cisco UCS X-Series fabric interconnect datasheet.
 
 |===
 |Component |Cisco UCS datasheet
@@ -95,7 +90,7 @@ https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/
 
 == Cisco UCS C-Series rack servers
 
-The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and the size of the form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The following table illustrate the C-Series Rack Server datasheets.
+The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The following table illustrate the C-Series Rack Server datasheets.
 
 |===
 |Component |Cisco UCS datasheet
@@ -140,19 +135,7 @@ https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-swi
 
 == NetApp storage controllers
 
-The technical specifications for NetApp storage controllers include the following components:
-
-* Chassis configuration
-* Number of rack units
-* Amount of memory
-* NetApp FlashCache caching
-* Aggregate size
-* Volume size
-* Number of LUNs
-* Supported network storage
-* Maximum number of NetApp FlexVol volumes
-* Maximum number of supported SAN hosts
-* Maximum number of Snapshot copies
+The technical specifications for NetApp storage controllers include the platform configuration, max raw capacity, memory, form factor, ONTAP version requirements, disk shelves, etc.
 
 === NetApp AFF A-Series 
 

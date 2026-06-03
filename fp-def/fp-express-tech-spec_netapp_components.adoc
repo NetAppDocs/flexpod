@@ -66,16 +66,17 @@ The selected NetApp shelf type determines which drive types are available within
 [NOTE]
 For all disk shelves and disk part numbers, consult your sales representative.
 
-For more information about the supported drives, click the NetApp Hardware Universe link in the following table and then select Supported Drives.
 
-The following table lists the NetApp disk shelf options, along with the drives supported for each shelf type, which can be found on NetApp Hardware Universe. Follow the Hardware Universe link, select the version of ONTAP you are using, then select the shelf type. Under the shelf image, click Supported Drives to see the drives supported for specific versions of ONTAP and the disk shelves.
+The following table lists the NetApp disk shelf options for FlexPod Express along with links to its technical specifications. 
+
+To get the list of supported drives for your disk shelf, go to link:https://hwu.netapp.com/DetailViews/Home.aspx[NetApp Hardware Universe^], under *Products>Storage>Shelves* select *ONTAP (AFF,ASA,FAS)* , select the version of ONTAP you are using, then select the shelf type (example: DS212C) and click on *Show Results*. Click on *Supported Drives* to see the drives supported for specific versions of ONTAP and the disk shelves.
 
 |===
 |Disk shelf |Technical specifications
 
 |DS212C
 .5+|
-https://hwu.netapp.com/DetailViews/Home.aspx[Disk Shelves and Storage Media Supported Drives on NetApp Hardware Universe]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[Disk Shelves and Storage Media Supported Drives on NetApp Hardware Universe]
 |DS224C
 |DS460C
 |NS224
@@ -94,6 +95,7 @@ The following table lists the NetApp software licensing options.
 |ONTAP One for SAN for ASA
 |===
 
+Refer to this link for more information about NetApp software licensing: https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one[NetApp Software Licensing^].
 
 == NetApp Support licensing options
 
@@ -102,10 +104,9 @@ SupportEdge Premium licenses are required, and the part numbers for those licens
 The following table lists the NetApp support licensing options for NetApp AFF, ASA, and FAS Storage systems.
 
 |===
-|NetApp Support licensing |Part number |Technical specifications
+|NetApp Support licensing |Technical specifications
 
-|SupportEdge Premium4 hours onsite; months: 36
-|CS-O2-4HR
+|NetApp SupportEdge
 |
-link:https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf[https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf]
+https://www.netapp.com/netapp-services/
 |===

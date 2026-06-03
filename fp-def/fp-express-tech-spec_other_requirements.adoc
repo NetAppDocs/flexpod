@@ -12,19 +12,15 @@ summary: Additional requirements for Flexpod Express are listed below.
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.594959
-//
+
 
 [.lead]
 Additional requirements for FlexPod Express include the following:
 
 * Valid support contracts are required for all equipment, including:
 
-** TSANet support for Cisco equipment
-** SupportEdge Advisor or SupportEdge Premium support for NetApp equipment
+** link:https://www.tsanet.org/cisco-tsanet-case-study/[TSANet^] support for Cisco equipment 
+** link:https://www.netapp.com/netapp-services/[SupportEdge^] support for NetApp equipment
 
 * All software components must be listed and supported in the http://support.netapp.com/matrix/[NetApp IMT^].
 
