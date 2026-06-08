@@ -26,3 +26,5 @@ The connectivity requirements for FlexPod Express with NetApp AFF/ ASA/ FAS gene
 * No additional equipment can be placed inline between the core FlexPod components.
 * Virtual port channels (vPCs) are required to connect the Cisco Nexus 9000 series switches to the NetApp storage controllers.
 * Although it is not required, enabling jumbo frame support is recommended throughout the environment.
+
+Refer to the link:https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_flexpod_express_topologies.html[FlexPod Express topologies^] section for connectivity requirements specific to each topology.

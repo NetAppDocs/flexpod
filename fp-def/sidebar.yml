@@ -20,6 +20,8 @@ entries:
         url: /fp-def/fp-express-tech-spec_software_recommendation.html
       - title: Connectivity Requirements
         url: /fp-def/fp-express-tech-spec_connectivity_requirements.html
+      - title: FlexPod Express Topologies
+        url: /fp-def/fp-express-tech-spec_flexpod_express_topologies.html
       - title: Other Requirements
         url: /fp-def/fp-express-tech-spec_other_requirements.html
       - title: Optional Features

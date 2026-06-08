@@ -14,7 +14,7 @@ summary: This section describes the power requirements and disk shelves cabling 
 
 
 [.lead]
-This section describes the power requirements and disk shelves cabling guidelines for a FlexPod Express design.
+This section describes the power requirements and  cabling guidelines for a FlexPod Express design.
 
 == Power requirements
 
@@ -26,9 +26,15 @@ For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_conte
 
 For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A20), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section.
 
-== Disk shelves cabling guidelines
+== Cabling guidelines
 
-This section provides general guidelines for the cabling of disk shelves.
+This section provides general cabling guidelines for a FlexPod Express design.
+
+* Ensure redundant connectivity for the compute and storage connections. 
+* The speed of the connections needs to be compatible with the connected components.
+* Refer to the link:https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_flexpod_express_topologies.html[FlexPod Express topologies^] section for additional cabling guidelines for specific topologies.
+
+The following table provides cabling guidelines for NetApp disk shelves that can be used in a FlexPod Express design.
 
 |===
 |Disk shelf |Cabling guidelines
