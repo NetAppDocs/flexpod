@@ -15,8 +15,10 @@ summary: Automated deployment for FlexPod Express is available through a GitHub 
 
 
 [.lead]
-Automated deployment of FlexPod Express is available through the FlexPod Express GitHub repository. This repository contains Ansible playbooks and related files to facilitate the deployment of FlexPod Express infrastructure as code (IaC).  
+Automated deployment of FlexPod Express is available through the FlexPod Express GitHub repositories. These repositories contain Ansible playbooks and related files to facilitate the deployment of FlexPod Express infrastructure as code (IaC).  
 
-The GitHub repository provides a structured approach to deploying FlexPod Express configurations, allowing users to automate the setup and management of their infrastructure. It includes playbooks for various components of the FlexPod Express design, ensuring that users can efficiently deploy and maintain their environments with consistency and reliability.
+The GitHub repositories provide a structured approach to deploying FlexPod Express configurations, allowing users to automate the setup and management of their infrastructure. They include playbooks for various components of the FlexPod Express design, ensuring that users can efficiently deploy and maintain their environments with consistency and reliability.
 
-For implementation assets and workflow details, refer to the link:https://github.com/ucs-compute-solutions/FlexPod-Express-Intersight[FlexPod Express GitHub repository]. For an architecture and design overview of infrastructure as code (IaC), refer to link:https://www.netapp.com/media/91691-flex-pod-express-nva-ia-c.pdf[FlexPod Express IaC NVA].
+For automated deployment of FlexPod Express with Cisco UCS C-series servers, Cisco Nexus switches and ONTAP, refer to link:https://github.com/ucs-compute-solutions/FlexPod-Express-Intersight[this GitHub repository^] and the corresponding link:https://www.netapp.com/media/91691-flex-pod-express-nva-ia-c.pdf[NVA^]. You could also use the VMware roles in the repo to deploy a VMware based environment.
+
+For automated deployment of FlexPod Express with Cisco UCS X-Series Direct servers, Cisco Nexus switches and NetApp ONTAP, refer to link:https://github.com/ucs-compute-solutions/FlexPod-IMM-OpenShift[this GitHub repository^]. You could use the playbooks in this repo to bring the FlexPod Express Infrastructure up and then deploy OpenShift on top of it using this link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_rh_openshift_bm_iac_deploy.html.[CVD^]

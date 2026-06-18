@@ -17,7 +17,7 @@ summary: This section describes the example topologies for FlexPod Express.
 This section describes the example topologies for FlexPod Express.
 
 
-== UCS X-Series Direct with embedded Fabric Interconnect, FI direct-attached SAN storage supporting both FC based and IP-based SAN storage protocols
+== UCS X-Series Direct with direct attached FC and IP-based SAN
 
 The following figure shows an UCS X-Series Direct and direct-attached ASA sample topology for IP-based and FC-based SAN.
 
@@ -33,6 +33,9 @@ Connectivity requirements for this topology include:
 
 The cisco UCS X-Series Direct can also utilize a switch attached storage  similar to the regular X-Series but using the embedded fabric interconnects instead of the external fabric interconnects.
 
+[NOTE]
+The above sample topology refers to a direct attached storage solution using NetApp ASA. However, the same topology can be used for NetApp AFF and FAS as well.
+
 If the support for IP-based direct-attached NAS storage is required, the uplink Nexus switches will need to be properly configured to support certain failure scenarios. Refer to the below link for additional configuration information.
 
 https://www.netapp.com/pdf.html?item=/media/22621-nva-1154-DESIGN.pdf
@@ -43,7 +46,7 @@ https://www.netapp.com/pdf.html?item=/media/21938-nva-1154-DEPLOY.pdf
 For more information about this configuration, see https://www.netapp.com/pdf.html?item=/media/135828-flexpod-san-ucs-xdirect-asa-nva-deploy-guide.pdf[FlexPod SAN Solution with Cisco UCS X-Series Direct and NetApp ASA^].
 
 
-== UCS C-Series servers , switch-attached IP-based storage  and local CIMC managed / Cisco Intersight managed standalone 
+== UCS C-Series servers switch-attached IP-based storage
 
 The following figure shows an Cisco UCS C-Series standalone and NetApp AFF.
  
@@ -56,7 +59,10 @@ Connectivity requirements for this topology include:
 * Virtual port channels (vPCs) are required to connect the Cisco Nexus switches to the NetApp storage controllers.
 * The solution can be scaled upto 5 USC C-series  standalone servers requiring two switch ports on each switch per server.
 
-The cisco UCS C-Series can be managed via CIMC or Cisco intersight standalone management.
+The cisco UCS C-Series can be managed via CIMC or Cisco intersight standalone management. 
+
+[NOTE]
+The above sample topology refers to a direct attached storage solution using NetApp AFF. However, the same topology can be used for NetApp ASA and FAS as well.
 
 For more information about this configuration, see https://www.netapp.com/pdf.html?item=/media/88340-NVA-FlexpodExpress_C220_A250_NexusFinal.pdf[FlexPod express for VMware vSphere 8.0 with Cisco UCS C-Series Standalone and NetApp AFF^].
 

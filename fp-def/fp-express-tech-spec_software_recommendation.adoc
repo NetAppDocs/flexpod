@@ -17,8 +17,8 @@ summary: This section describes the recommended software requirements for the di
 [.lead]
 This section describes the software version recommendations for FlexPod Express.
 
-* ONTAP version : 9.16
- Refer to link:https://hwu.netapp.com/Home/Index[NetApp Hardware Universe^] for the supported ONTAP versions for your specific storage platform.
+* ONTAP version : Latest ONTAP version is recommended for all FlexPod Express configurations. Refer to link:https://docs.netapp.com/us-en/ontap/release-notes/index.html[ONTAP Release Notes^] for the latest ONTAP version.
+
 * Cisco NX-OS version : For the general recommendation of Cisco NX-OS version for the cisco 9000 series switches, refer to link:https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/recommended_release/b_Minimum_and_Recommended_Cisco_NX-OS_Releases_for_Cisco_Nexus_9000_Series_Switches.html[Recommended Cisco NX-OS Releases for Cisco Nexus 9000 Series Switches^] 
 
 [NOTE]

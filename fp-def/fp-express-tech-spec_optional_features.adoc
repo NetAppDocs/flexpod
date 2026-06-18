@@ -28,7 +28,7 @@ The minimum requirements for the iSCSI boot option include:
 * An adapter in the Cisco UCS server that is capable of iSCSI boot
 
 
-== Cisco UCS X-Series Direct and direct-attached ASA option
+== Cisco UCS X-Series Direct and direct-attached AFF/ ASA/ FAS option
 
 NetApp storage controllers can be directly connected to the Cisco UCS fabric interconnects without any upstream SAN switch. FlexPod Express supports both FC and iSCSI boot with the UCS X-Series Direct.
 
@@ -58,3 +58,6 @@ image:fp-express-tech-spec_image11.png[UCS X-Series Direct and direct-attached A
 * FC ports from the target to fabric interconnects are configured as FC storage ports.
 
 For more information about this configuration, see https://www.netapp.com/pdf.html?item=/media/135828-flexpod-san-ucs-xdirect-asa-nva-deploy-guide.pdf[FlexPod SAN Solution with Cisco UCS X-Series Direct and NetApp ASA^].
+
+[NOTE]
+The above examples use the NetApp ASA storage controller, but the same configuration is supported with the NetApp AFF and FAS storage controllers.

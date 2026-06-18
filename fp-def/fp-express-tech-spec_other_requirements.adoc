@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec_other_requirements.html
-keywords: requirements, flexpod, express, software, hardware, cisco, imt, hcl
+keywords: requirements, flexpod, express, vmware, broadcom
 summary: Additional requirements for Flexpod Express are listed below.
 ---
 
@@ -17,13 +17,9 @@ summary: Additional requirements for Flexpod Express are listed below.
 [.lead]
 Additional requirements for FlexPod Express include the following:
 
-* Valid support contracts are required for all equipment, including:
+* If you plan to use VMware ESXi as the hypervisor, refer to the link:https://compatibilityguide.broadcom.com/[Broadcom Compatibility Guide] to verify that your hardware and software components are supported.
 
-** link:https://www.tsanet.org/cisco-tsanet-case-study/[TSANet^] support for Cisco equipment 
-** link:https://www.netapp.com/netapp-services/[SupportEdge^] support for NetApp equipment
+* For a OpenShift based deployment, ensure that you have the necessary hardware and software components that are compatible with OpenShift. Refer to the link:https://catalog.redhat.com/en/search[OpenShift Catalog] for more information.
 
-* All software components must be listed and supported in the http://support.netapp.com/matrix/[NetApp IMT^].
 
-* All NetApp hardware components must be listed and supported on https://hwu.netapp.com/Home/Index[NetApp Hardware Universe^].
 
-* All Cisco hardware components must be listed and supported on https://ucshcltool.cloudapps.cisco.com/public/[Cisco HCL^].
