@@ -31,7 +31,7 @@ https://www.netapp.com/company/trust-center/compliance/fips-140-2/
 
 * FIPS 140-2
 +
-https://fieldportal.netapp.com/content/902303
+https://fieldportal.netapp.com/s/article/tr4781-fips-1402-1694000809616
 
 * NetApp ONTAP 9 Hardening Guide
 +
