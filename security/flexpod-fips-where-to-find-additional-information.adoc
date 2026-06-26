@@ -69,8 +69,7 @@ https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-progra
 +
 https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf
 
-* Cryptographic Module Validation Program (CMVP)
-* NIST CMVP database for validated cryptographic modules, including Cisco offerings.
+* Cryptographic Module Validation Program (CMVP). NIST CMVP database for validated cryptographic modules, including Cisco offerings.
 +
 https://csrc.nist.gov/projects/cryptographic-module-validation-program
 
