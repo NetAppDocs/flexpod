@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: fp-def/fp-express-tech-spec__technical_specifications_and_references.html
+permalink: fp-def/fp-express-tech-spec_technical_specifications_and_references.html
 keywords: technical, specifications, references, blade, servers, ucs, b, series, rack, disk, shelves, fas, adapters, controllers
 summary: This section describes additional important technical specifications for each of the FlexPod Express components.
 ---

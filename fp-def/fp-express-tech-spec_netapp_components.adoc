@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: fp-def/fp-express-tech-spec__netapp_components.html
+permalink: fp-def/fp-express-tech-spec_netapp_components.html
 keywords: storage, controller, options, fas, aff, asa, disk, shelves, licensing, software
 summary: NetApp storage controllers provide the storage foundation in the FlexPod Express architecture for both boot and application data storage. This section lists the different NetApp storage options in the FlexPod Express architecture.
 ---
