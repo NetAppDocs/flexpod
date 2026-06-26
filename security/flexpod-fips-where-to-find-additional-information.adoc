@@ -69,9 +69,10 @@ https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-progra
 +
 https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf
 
-* Cisco and Cryptographic Module Validation Program (CMVP)
+* Cryptographic Module Validation Program (CMVP)
+* NIST CMVP database for validated cryptographic modules, including Cisco offerings.
 +
-https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search?SearchMode=Basic&Vendor=cisco&CertificateStatus=Active&ValidationYear=0
+https://csrc.nist.gov/projects/cryptographic-module-validation-program
 
 * NetApp Storage Encryption, NVMe Self-Encrypting Drives, NetApp Volume Encryption, and NetApp Aggregate Encryption
 +
