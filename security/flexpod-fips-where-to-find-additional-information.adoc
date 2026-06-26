@@ -101,18 +101,6 @@ https://www.netapp.com/pdf.html?item=/media/17061-ds-3683.pdf
 +
 https://www.netapp.com/media/10658-tr-4693.pdf
 
-* FlexPod Datacenter Infrastructure for MEDITECH Software
-+
-https://www.netapp.com/media/8552-flexpod-for-meditech-software.pdf
-
-* The FlexPod Standard Extends to MEDITECH Software
-+
-https://blog.netapp.com/the-flexpod-standard-extends-to-meditech-software/
-
-* FlexPod for MEDITECH Directional Sizing Guide
-+
-https://www.netapp.com/pdf.html?item=/media/12429-tr4774.pdf
-
 * FlexPod for medical imaging
 +
 https://www.netapp.com/media/19793-tr-4865.pdf
