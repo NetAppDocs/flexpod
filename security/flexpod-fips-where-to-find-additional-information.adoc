@@ -67,7 +67,7 @@ https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-progra
 
 * Cybersecurity practices for medium and large healthcare organizations
 +
-https://www.phe.gov/Preparedness/planning/405d/Documents/tech-vol2-508.pdf
+https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf
 
 * Cisco and Cryptographic Module Validation Program (CMVP)
 +
