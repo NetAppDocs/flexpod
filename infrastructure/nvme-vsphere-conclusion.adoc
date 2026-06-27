@@ -105,9 +105,9 @@ http://mysupport.netapp.com/matrix[http://mysupport.netapp.com/matrix^]
 +
 https://ucshcltool.cloudapps.cisco.com/public/[https://ucshcltool.cloudapps.cisco.com/public/^]
 
-* VMware Compatibility Guide
+* VMware by Broadcom Compatibility Guide
 +
-http://www.vmware.com/resources/compatibility[http://www.vmware.com/resources/compatibility^]
+https://compatibilityguide.broadcom.com/[https://compatibilityguide.broadcom.com/^]
 
 == Acknowledgements
 
