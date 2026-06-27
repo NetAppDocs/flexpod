@@ -100,9 +100,9 @@ http://www.vmware.com/resources/compatibility/search.php[http://www.vmware.com/r
 
 === NetApp Cloud Volumes ONTAP reference documents
 
-* NetApp Cloud Manager
+* NetApp Console Documentation:
 +
-https://docs.netapp.com/us-en/occm/concept_overview.html[https://docs.netapp.com/us-en/occm/concept_overview.html^]
+https://docs.netapp.com/us-en/console-family/index.html[https://docs.netapp.com/us-en/console-family/index.html^]
 
 * Cloud Volumes ONTAP
 +
@@ -116,9 +116,9 @@ https://www.netapp.com/google-cloud/google-cloud-calculator/
 +
 https://www.netapp.com/ontap-cloud/pricing/[https://www.netapp.com/ontap-cloud/pricing/^]
 
-* Cloud Assessment Tool
+* Cloud Assessment and Infrastructure Analysis:
 +
-https://cloud.netapp.com/assessments
+https://docs.netapp.com/us-en/data-infrastructure-insights/
 
 * NetApp Hybrid Cloud
 +
