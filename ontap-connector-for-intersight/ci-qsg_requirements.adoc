@@ -33,7 +33,7 @@ These are the minimum hardware and software components required to implement the
 |===
 
 [NOTE]
-Refer to https://intersight.com/help/saas/supported_systems[Cisco Intersight supported systems^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
+Refer to https://intersight.com/help/saas/supported_systems/overview[Cisco Intersight supported systems^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
 
 == Cisco Intersight licensing requirements
 
