@@ -45,7 +45,7 @@ http://www.cisco.com/en/US/products/ps10279/index.html[http://www.cisco.com/en/U
 
 * Cisco UCS B-Series Blade Servers
 +
-http://www.cisco.com/en/US/partner/products/ps10280/index.html[http://www.cisco.com/en/US/partner/products/ps10280/index.html^]
+https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/ucs-b-series-blade-servers/index.html[https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/ucs-b-series-blade-servers/index.html^]
 
 * Cisco UCS C-Series Rack Servers
 +
