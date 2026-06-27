@@ -37,7 +37,7 @@ To learn more about the information that is described in this document, review t
 
 * All Terraform Configurations used
 +
-https://github.com/NetApp-Automation/FlexPod-hybrid-cloud-for-GCP-with-Intersight-and-CVO[https://github.com/NetApp-Automation/FlexPod-hybrid-cloud-for-GCP-with-Intersight-and-CVO^] 
+https://github.com/ucs-compute-solutions/cvo_snapmirror[https://github.com/ucs-compute-solutions/cvo_snapmirror^] 
 
 * JSON files for importing workflows
 +

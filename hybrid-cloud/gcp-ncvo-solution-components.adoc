@@ -69,7 +69,7 @@ Cisco Intersight Assist helps you add endpoint devices to Cisco Intersight. A da
 
 Cisco Intersight Assist is available within the Cisco Intersight Virtual Appliance, which is distributed as a deployable virtual machine contained within an Open Virtual Appliance (OVA) file format. You can install the appliance on an ESXi server. For more information, see the https://www.cisco.com/c/en/us/support/servers-unified-computing/intersight/products-installation-guides-list.html[Cisco Intersight Virtual Appliance Getting Started Guide^].
 
-After claiming Intersight Assist into Intersight, you can claim endpoint devices using the Claim Through Intersight Assist option. For more information, see https://intersight.com/help/getting_started[Getting Started^].
+After claiming Intersight Assist into Intersight, you can claim endpoint devices using the Claim Through Intersight Assist option. For more information, see https://intersight.com/help/saas/getting_started/overview[Getting Started^].
 
 == NetApp Cloud Volumes ONTAP
 

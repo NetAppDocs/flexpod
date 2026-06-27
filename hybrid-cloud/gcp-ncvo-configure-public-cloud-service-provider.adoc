@@ -21,9 +21,9 @@ summary: This page describes how to access NetApp Cloud Manager, and how to depl
 link:gcp-ncvo-terraform-cloud-integration-with-ico-prerequisite.html[Previous: Terraform Cloud Integration with ICO prerequisite.]
 
 [.lead]
-== Procedure 1: Access NetApp Cloud Manager
+== Procedure 1: Access NetApp Console
 
-To access NetApp Cloud Manager and other cloud services,  you need to sign up on https://cloud.netapp.com/[NetApp Cloud Central^].
+To access NetApp cloud services, sign up and log in using the https://console.netapp.com[NetApp Console^].
 
 [NOTE]
 For setting up workspaces and users in the Cloud Central account, click https://docs.netapp.com/us-en/occm/task_setting_up_cloud_central_accounts.html[here^].
