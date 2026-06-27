@@ -115,7 +115,7 @@ For detailed information, see link:https://www.vmware.com/products/vcenter.html[
 
 == Hardware and software revisions
 
-This hybrid cloud solution can be extended to any FlexPod environment that is running supported versions of software, firmware, and hardware as defined in the link:http://support.netapp.com/matrix/[NetApp Interoperability Matrix Tool^], link:https://ucshcltool.cloudapps.cisco.com/public/[UCS Hardware and Software Compatibility^], and link:https://www.vmware.com/resources/compatibility/search.php[VMware Compatibility Guide^].
+This hybrid cloud solution can be extended to any FlexPod environment that is running supported versions of software, firmware, and hardware as defined in the link:http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^], link:https://ucshcltool.cloudapps.cisco.com/public/[UCS Hardware and Software Compatibility^], and link:https://www.vmware.com/resources/compatibility/search.php[VMware Compatibility Guide^].
 
 The following table shows the on-premises FlexPod hardware and software revisions.
 
