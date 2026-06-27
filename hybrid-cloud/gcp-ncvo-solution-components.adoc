@@ -54,7 +54,7 @@ Cisco Intersight license tiers are as follows:
 ** Intersight Cloud Orchestrator (ICO) for Cisco and third-party compute, network, storage, integrated systems, virtualization, container, and public-cloud platforms
 ** Full subscription entitlement for Cisco UCS Director at no additional cost.
 
-More information about Intersight Licensing and features supported in each licensing can be found https://intersight.com/help/saas/getting_started/licensing_requirements[here^].
+More information about Intersight Licensing and features supported in each licensing can be found https://intersight.com/help/saas/getting_started/licensing_requirements/lic_infra[here^].
 
 [NOTE]
 In this solution, we use Intersight Cloud Orchestrator and Intersight Service for HashiCorp Terraform. These features are available for users with the Intersight Premier license, so this licensing tier must be enabled.
