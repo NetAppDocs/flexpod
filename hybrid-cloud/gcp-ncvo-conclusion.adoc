@@ -51,7 +51,7 @@ https://intersight.com/help/saas/home[https://intersight.com/help/saas/home^]
 
 * Cisco Intersight Cloud Orchestrator Documentation:
 +
-https://intersight.com/help/saas/features/orchestration/configure[https://intersight.com/help/saas/features/orchestration/configure#intersight_cloud_orchestrator^]
+https://intersight.com/help/appliance/orchestration/configure[https://intersight.com/help/appliance/orchestration/configure^]
 
 * Cisco Intersight Service for HashiCorp Terraform Documentation
 +
