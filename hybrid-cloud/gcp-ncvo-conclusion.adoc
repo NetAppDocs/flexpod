@@ -120,9 +120,9 @@ https://www.netapp.com/ontap-cloud/pricing/[https://www.netapp.com/ontap-cloud/p
 +
 https://docs.netapp.com/us-en/data-infrastructure-insights/
 
-* NetApp Hybrid Cloud
+* NetApp Hybrid Cloud Solutions:
 +
-https://cloud.netapp.com/hybrid-cloud
+https://www.netapp.com/hybrid-cloud/
 
 * Cloud Manager API documentation
 +
