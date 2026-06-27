@@ -33,7 +33,7 @@ To learn more about the information that is described in this document, review t
 
 * Cisco Unified Computing System (UCS)
 +
-http://www.cisco.com/en/US/products/ps10265/index.html[http://www.cisco.com/en/US/products/ps10265/index.html^]
+https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html[https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html^]
 
 * Cisco UCS 6400 Series Fabric Interconnects Data Sheet
 +
