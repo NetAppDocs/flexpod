@@ -108,9 +108,9 @@ https://docs.netapp.com/us-en/occm/concept_overview.html[https://docs.netapp.com
 +
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html
 
-* Cloud Volumes ONTAP TCO Calculator
+* Google Cloud TCO Calculator with NetApp Cloud Volumes ONTAP
 +
-https://cloud.netapp.com/google-cloud-calculator
+https://www.netapp.com/google-cloud/google-cloud-calculator/
 
 * Cloud Volumes ONTAP Sizer
 +
