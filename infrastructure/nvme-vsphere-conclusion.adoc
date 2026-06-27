@@ -81,11 +81,11 @@ http://www.netapp.com/us/products/storage-systems/all-flash-array/aff-a-series.a
 
 * VMware vSphere
 +
-https://www.vmware.com/products/vsphere[https://www.vmware.com/products/vsphere^]
+https://www.vmware.com/products/cloud-infrastructure/vsphere.html[https://www.vmware.com/products/cloud-infrastructure/vsphere.html^]
 
 * VMware vCenter Server
 +
-http://www.vmware.com/products/vcenter-server/overview.html[http://www.vmware.com/products/vcenter-server/overview.html^]
+https://www.vmware.com/products/cloud-infrastructure/vcenter/future-overview.html[https://www.vmware.com/products/cloud-infrastructure/vcenter/future-overview.html^]
 
 * Best Practices for modern SAN
 +
