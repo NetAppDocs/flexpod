@@ -112,9 +112,9 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-sta
 +
 https://www.netapp.com/google-cloud/google-cloud-calculator/
 
-* Cloud Volumes ONTAP Sizer
+* Cloud Volumes ONTAP Sizing and Cost Estimation:
 +
-https://cloud.netapp.com/cvo-sizer[https://cloud.netapp.com/cvo-sizer^]
+https://www.netapp.com/ontap-cloud/pricing/[https://www.netapp.com/ontap-cloud/pricing/^]
 
 * Cloud Assessment Tool
 +
