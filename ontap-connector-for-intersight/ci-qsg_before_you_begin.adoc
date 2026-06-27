@@ -27,7 +27,7 @@ Ensure that you meet the https://www.cisco.com/c/en/us/td/docs/unified_computing
 
 . Create a Cisco Intersight Account.
 Visit https://intersight.com/[https://intersight.com/^] to create your Intersight account. You must have a valid Cisco ID to create a Cisco Intersight account.
-. Download the Intersight Virtual Appliance at https://software.cisco.com/download/home/286319499/type/286323047/release/1.0.9-148[software.cisco.com^]. For more information, go to the https://www.cisco.com/c/en/us/td/docs/unified_computing/Intersight/b_Cisco_Intersight_Appliance_Getting_Started_Guide/b_Cisco_Intersight_Appliance_Install_and_Upgrade_Guide_chapter_00.html[Intersight Appliance Install and Upgrade Guide^].
+. Download the Cisco Intersight Virtual Appliance at https://software.cisco.com/download/home/286319499/type/286323047/release/1.1.7-0.a[software.cisco.com^]. For more information, go to the https://www.cisco.com/c/en/us/td/docs/unified_computing/Intersight/b_Cisco_Intersight_Appliance_Getting_Started_Guide/b_Cisco_Intersight_Appliance_Install_and_Upgrade_Guide_chapter_00.html[Intersight Appliance Install and Upgrade Guide^].
 . Deploy the OVA. DNS and NTP are required to deploy the OVA.
 .. Configure DNS with A/PTR and CNAME Alias records prior to deploying the OVA. See the example below.
 +
