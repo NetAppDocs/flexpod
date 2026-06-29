@@ -150,7 +150,7 @@ https://registry.terraform.io/providers/NetApp/netapp-cloudmanager/lates[https:/
 
 * ONTAP High Availability for GCP
 +
-https://cloud.netapp.com/blog/gcp-cvo-blg-what-makes-cloud-volumes-ontap-high-availability-for-gcp-tick[https://cloud.netapp.com/blog/gcp-cvo-blg-what-makes-cloud-volumes-ontap-high-availability-for-gcp-tick^]
+https://bluexp.netapp.com/blog/gcp-cvo-blg-what-makes-cloud-volumes-ontap-high-availability-for-gcp-tick[https://bluexp.netapp.com/blog/gcp-cvo-blg-what-makes-cloud-volumes-ontap-high-availability-for-gcp-tick^]
 
 * GCP perquisite
 +
