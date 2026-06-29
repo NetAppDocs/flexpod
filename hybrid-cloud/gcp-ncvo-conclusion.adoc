@@ -55,7 +55,7 @@ https://intersight.com/help/appliance/orchestration/configure[https://intersight
 
 * Cisco Intersight Service for HashiCorp Terraform Documentation
 +
-https://intersight.com/help/saas/features/terraform_cloud/admin[https://intersight.com/help/saas/features/terraform_cloud/admin^]
+https://community.cisco.com/t5/data-center-and-cloud-knowledge-base/intersight-service-for-terraform/ta-p/4301093[https://community.cisco.com/t5/data-center-and-cloud-knowledge-base/intersight-service-for-terraform/ta-p/4301093^]
 
 * Cisco Intersight Data Sheet
 +
