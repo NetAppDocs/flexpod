@@ -358,16 +358,16 @@ All current models of NetApp AFF A-Series storage controllers are supported for 
 https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF A800 Platform Documentation]
 |NetApp AFF A700
 |
-https://docs.netapp.com/us-en/ontap-systems/fas9000/index.html[AFF A700 Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a700/install-setup.html[AFF A700 Platform Documentation]
 |NetApp AFF A700s
 |
-https://docs.netapp.com/us-en/ontap-systems/a700s/index.html[AFF A700s Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a700s/install-setup.html[AFF A700s Platform Documentation]
 |NetApp AFF A400
 |
-https://docs.netapp.com/us-en/ontap-systems/a400/index.html[AFF A400 Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a400/install-setup.html[AFF A400 Platform Documentation]
 |NetApp AFF A250
 |
-https://docs.netapp.com/us-en/ontap-systems/a250/index.html[AFF A250 Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a250/install-setup.html[AFF A250 Platform Documentation]
 |===
 
 === AFF ASA A-Series
