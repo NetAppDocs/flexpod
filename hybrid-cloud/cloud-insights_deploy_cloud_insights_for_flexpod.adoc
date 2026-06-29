@@ -31,7 +31,7 @@ To deploy the solution, you must complete the following tasks:
 
 To sign up for the NetApp Cloud Insights Service, complete the following steps:
 
-. Go to https://cloud.netapp.com/cloud-insights[https://cloud.netapp.com/cloud-insights^]
+. Go to https://www.netapp.com/data-infrastructure-insights/[https://www.netapp.com/data-infrastructure-insights/^]
 . Click the button in the center of the screen to start the 14-day free trial, or the link in the upper right corner to sign up or log in with an existing NetApp Cloud Central account.
 
 == Create a VMware virtual machine to configure as an acquisition unit
