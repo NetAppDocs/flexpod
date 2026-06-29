@@ -19,7 +19,7 @@ summary: You can see a video demonstration of using NetApp Cloud Insights.
 //
 
 [.lead]
-You can see a video demonstration of using NetApp Cloud Insights to assess the resources in an on-premises environment https://www.netapp.com/video/fxujqwwhoqg/complete-observability-with-cloud-insights/ [here^].
+You can see a video demonstration of using NetApp Cloud Insights to assess the resources in an on-premises environment https://www.netapp.com/video/fxujqwwhoqg/complete-observability-with-cloud-insights/[here^].
 
 You can see a video demonstration of using NetApp Cloud Insights to monitor infrastructure and set alert thresholds for infrastructure https://www.youtube.com/watch?v=TdMpXR_-U0M[here^].
 
