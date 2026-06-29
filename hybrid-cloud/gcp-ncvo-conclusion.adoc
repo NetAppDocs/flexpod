@@ -130,7 +130,7 @@ https://docs.netapp.com/us-en/occm/reference_infrastructure_as_code.html[https:/
 
 === Troubleshooting issues
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Volumes_ONTAP_(CVO)[https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Volumes_ONTAP_(CVO)^]
+https://kb.netapp.com/Cloud/ncds/nds/cvo/cvo_kbs[https://kb.netapp.com/Cloud/ncds/nds/cvo/cvo_kbs ^]
 
 === Terraform
 
