@@ -49,9 +49,9 @@ https://flexpod.com/solutions/use-cases/microsoft-sql-server/[https://flexpod.co
 +
 https://flexpod.com/[https://flexpod.com/^]
 
-* https://fieldportal.netapp.com/content/734702[NetApp Solutions for MongoDB^] Solution Brief (NetApp login required)
+* NetApp Solutions for MongoDB Solution Brief (NetApp login required)
 +
-https://fieldportal.netapp.com/content/734702[https://fieldportal.netapp.com/content/734702^]
+https://fieldportal.netapp.com/s/article/solution-brief-netapp-solutions-for-mongodb-1690217002398[https://fieldportal.netapp.com/s/article/solution-brief-netapp-solutions-for-mongodb-1690217002398^]
 
 * TR-4700: SnapCenter Plug-In for Oracle Database
 +
