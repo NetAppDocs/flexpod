@@ -355,7 +355,7 @@ All current models of NetApp AFF A-Series storage controllers are supported for 
 
 |NetApp AFF A800
 |
-https://docs.netapp.com/us-en/ontap-systems/a800/index.html[AFF A800 Platform Documentation]
+https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF A800 Platform Documentation]
 |NetApp AFF A700
 |
 https://docs.netapp.com/us-en/ontap-systems/fas9000/index.html[AFF A700 Platform Documentation]
