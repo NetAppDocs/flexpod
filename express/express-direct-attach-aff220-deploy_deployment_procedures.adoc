@@ -2195,7 +2195,7 @@ The DNS server IPs were not entered into the KVM IP earlier, therefore, it is ne
 
 . Enter `VMware-VMvisor-Installer-6.7.0.update01-10302608.x86_64.iso` as the Remote File name.
 +
-This VMware ESXi 6.7U1 ISO can be downloaded from https://support.broadcom.com/group/ecx/downloads[Broadcom support portal^]
+This VMware ESXi 6.7U1 ISO can be downloaded from https://support.broadcom.com/group/ecx/downloads[Broadcom support portal^].
 
 . Enter the web server path to the ISO file in the Remote Path field.
 . Click OK to create the vMedia Mount.
@@ -2463,7 +2463,7 @@ Several methods exist for installing ESXi in a VMware environment. These procedu
 
 If the VMware ESXi custom image has not been downloaded, complete the following steps to complete the download:
 
-. Login to Broadcom support portal download site, https://support.broadcom.com/group/ecx/downloads[https://support.broadcom.com/group/ecx/downloads^]
+. Log in to Broadcom support portal download site: https://support.broadcom.com/group/ecx/downloads[https://support.broadcom.com/group/ecx/downloads^].
 . You will need a Broadcom user ID and password. Look for VMware vSphere Hypervisor (ESXi) Custom ISOs.
 . Download the Cisco Custom Image for ESXi 6.7U1 Install CD.
 

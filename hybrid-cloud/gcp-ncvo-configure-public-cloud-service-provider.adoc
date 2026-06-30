@@ -26,7 +26,7 @@ link:gcp-ncvo-terraform-cloud-integration-with-ico-prerequisite.html[Previous: T
 To access NetApp cloud services, sign up and log in using the https://console.netapp.com[NetApp Console^].
 
 [NOTE]
-For setting up workspaces and users in the Cloud Central account, click https://docs.netapp.com/us-en/occm/task_setting_up_cloud_central_accounts.html[here^].
+For setting up workspaces and users in the NetApp Console account, click https://docs.netapp.com/us-en/occm/task_setting_up_cloud_central_accounts.html[here^].
 
 == Procedure 2: Deploy Connector
 

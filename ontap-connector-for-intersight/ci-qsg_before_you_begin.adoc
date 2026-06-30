@@ -50,7 +50,7 @@ image::ci-qsg_image4.png[screenshot of Deploy OVF Template screen]
 
 . Post-deploy the Intersight Assist Appliance.
 
-.. Navigate to \https://<FQDN-of-your-appliance> to complete the post-install set-up of your appliance.
+.. Navigate to `https://<FQDN-of-your-appliance>` to complete the post-install setup of your appliance.
 +
 The installation process automatically begins. Installation can take up to one hour depending on bandwidth to Intersight.com. It can also take several seconds for the secure site to be operational after the VM powers on.
 
