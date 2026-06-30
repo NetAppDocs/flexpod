@@ -65,7 +65,7 @@ This process must be completed for any additional hosts added to the FlexPod Exp
 
 To configure coredump on the ESXi hosts, complete the following steps:
 
-. Log into https:// https://172.21.181.105:5480/ui/services[vCenter^] IP:5480/, enter root for the user name, and enter the root password.
+. Log into \https://<vCenter IP>:5480, enter root for the user name, and enter the root password.
 . Click on services and select VMware vSphere ESXI Dump collector.
 . Start the VMware vSphere ESXI Dump collector service.
 +
