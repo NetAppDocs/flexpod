@@ -2195,7 +2195,7 @@ The DNS server IPs were not entered into the KVM IP earlier, therefore, it is ne
 
 . Enter `VMware-VMvisor-Installer-6.7.0.update01-10302608.x86_64.iso` as the Remote File name.
 +
-This VMware ESXi 6.7U1 ISO can be downloaded from https://my.vmware.com/group/vmware/details?downloadGroup=ESXI650A&productId=614[VMware Downloads^].
+This VMware ESXi 6.7U1 ISO can be downloaded from https://support.broadcom.com/group/ecx/downloads[Broadcom support portal^]
 
 . Enter the web server path to the ISO file in the Remote Path field.
 . Click OK to create the vMedia Mount.
