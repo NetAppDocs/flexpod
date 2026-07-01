@@ -24,7 +24,7 @@ For more data about the maximum power that is required and for other detailed po
 
 For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS power calculator^].
 
-For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A20), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section.
+For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A20), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section and For details on size, weight ,wattage etc. refer to the *Size, Weight, Acoustic, Power* section. 
 
 == Cabling guidelines
 

@@ -17,7 +17,7 @@ summary: This section describes the optional features for FlexPod Express.
 This section describes the optional features for FlexPod Express.
 
 [NOTE]
-SAN boot is optional but strongly recommended, as it allows server/service profile moves during hardware upgrades or replacements.
+SAN boot is optional but strongly recommended, as it allows server profile moves during hardware upgrades or replacements.
 
 == iSCSI boot option
 

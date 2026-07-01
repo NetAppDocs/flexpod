@@ -71,7 +71,7 @@ To get the list of supported drives for your disk shelf, go to link:https://hwu.
 
 |DS212C
 .5+|
-https://www.netapp.com/data-storage/disk-shelves-storage-media/[Disk Shelves and Storage Media Supported Drives on NetApp Hardware Universe]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[Disk Shelves and Storage Media]
 |DS224C
 |DS460C
 |NS224
