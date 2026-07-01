@@ -36,7 +36,7 @@ image:sm-bcs-image16.png[Error: Missing Graphic Image]
 
 The following table lists the hardware and software used for the solution validation. It is important to note that Cisco, NetApp, and VMware have interoperability matrixes used to determine support for any specific implementation of FlexPod:
 
-* http://support.netapp.com/matrix/[http://support.netapp.com/matrix/^]
+* http://mysupport.netapp.com/matrix[http://mysupport.netapp.com/matrix^]
 * http://www.cisco.com/web/techdoc/ucs/interoperability/matrix/matrix.html[Cisco UCS Hardware and Software Interoperability Tool^]
 * http://www.vmware.com/resources/compatibility/search.php[http://www.vmware.com/resources/compatibility/search.php^]
 

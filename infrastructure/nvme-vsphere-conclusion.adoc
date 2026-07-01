@@ -33,7 +33,7 @@ To learn more about the information that is described in this document, review t
 
 * Cisco Unified Computing System (UCS)
 +
-http://www.cisco.com/en/US/products/ps10265/index.html[http://www.cisco.com/en/US/products/ps10265/index.html^]
+https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html[https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html^]
 
 * Cisco UCS 6400 Series Fabric Interconnects Data Sheet
 +
@@ -45,7 +45,7 @@ http://www.cisco.com/en/US/products/ps10279/index.html[http://www.cisco.com/en/U
 
 * Cisco UCS B-Series Blade Servers
 +
-http://www.cisco.com/en/US/partner/products/ps10280/index.html[http://www.cisco.com/en/US/partner/products/ps10280/index.html^]
+https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/ucs-b-series-blade-servers/index.html[https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/ucs-b-series-blade-servers/index.html^]
 
 * Cisco UCS C-Series Rack Servers
 +
@@ -81,11 +81,11 @@ http://www.netapp.com/us/products/storage-systems/all-flash-array/aff-a-series.a
 
 * VMware vSphere
 +
-https://www.vmware.com/products/vsphere[https://www.vmware.com/products/vsphere^]
+https://www.vmware.com/products/cloud-infrastructure/vsphere[https://www.vmware.com/products/cloud-infrastructure/vsphere^]
 
 * VMware vCenter Server
 +
-http://www.vmware.com/products/vcenter-server/overview.html[http://www.vmware.com/products/vcenter-server/overview.html^]
+https://www.vmware.com/products/cloud-infrastructure/vcenter/future-overview[https://www.vmware.com/products/cloud-infrastructure/vcenter/future-overview^]
 
 * Best Practices for modern SAN
 +
@@ -99,15 +99,15 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 * NetApp Interoperability Matrix Tool
 +
-http://support.netapp.com/matrix/[http://support.netapp.com/matrix/^]
+http://mysupport.netapp.com/matrix[http://mysupport.netapp.com/matrix^]
 
 * Cisco UCS Hardware Compatibility Matrix
 +
 https://ucshcltool.cloudapps.cisco.com/public/[https://ucshcltool.cloudapps.cisco.com/public/^]
 
-* VMware Compatibility Guide
+* VMware by Broadcom Compatibility Guide
 +
-http://www.vmware.com/resources/compatibility[http://www.vmware.com/resources/compatibility^]
+https://compatibilityguide.broadcom.com/[https://compatibilityguide.broadcom.com/^]
 
 == Acknowledgements
 

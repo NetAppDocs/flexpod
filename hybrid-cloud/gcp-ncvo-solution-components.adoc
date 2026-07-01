@@ -54,7 +54,7 @@ Cisco Intersight license tiers are as follows:
 ** Intersight Cloud Orchestrator (ICO) for Cisco and third-party compute, network, storage, integrated systems, virtualization, container, and public-cloud platforms
 ** Full subscription entitlement for Cisco UCS Director at no additional cost.
 
-More information about Intersight Licensing and features supported in each licensing can be found https://intersight.com/help/saas/getting_started/licensing_requirements[here^].
+More information about Intersight Licensing and features supported in each licensing can be found https://intersight.com/help/saas/getting_started/licensing_requirements/lic_infra[here^].
 
 [NOTE]
 In this solution, we use Intersight Cloud Orchestrator and Intersight Service for HashiCorp Terraform. These features are available for users with the Intersight Premier license, so this licensing tier must be enabled.
@@ -69,7 +69,7 @@ Cisco Intersight Assist helps you add endpoint devices to Cisco Intersight. A da
 
 Cisco Intersight Assist is available within the Cisco Intersight Virtual Appliance, which is distributed as a deployable virtual machine contained within an Open Virtual Appliance (OVA) file format. You can install the appliance on an ESXi server. For more information, see the https://www.cisco.com/c/en/us/support/servers-unified-computing/intersight/products-installation-guides-list.html[Cisco Intersight Virtual Appliance Getting Started Guide^].
 
-After claiming Intersight Assist into Intersight, you can claim endpoint devices using the Claim Through Intersight Assist option. For more information, see https://intersight.com/help/getting_started[Getting Started^].
+After claiming Intersight Assist into Intersight, you can claim endpoint devices using the Claim Through Intersight Assist option. For more information, see https://intersight.com/help/saas/getting_started/overview[Getting Started^].
 
 == NetApp Cloud Volumes ONTAP
 
@@ -124,7 +124,7 @@ The FlexPod solution that is used as a baseline platform in our on-premises envi
 The network within this environment is ACI- based. For more information, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_esxi65u1_n9k_aci.html[here^].
 
 * See the following links for more information:
-* http://support.netapp.com/matrix/[NetApp Interoperability Matrix Tool^]
+* http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]
 * http://www.vmware.com/resources/compatibility/search.php[VMware Compatibility Guide^]
 * https://www.cisco.com/web/techdoc/ucs/interoperability/matrix/matrix.html[Cisco UCS Hardware and Software Interoperability Tool^]
 

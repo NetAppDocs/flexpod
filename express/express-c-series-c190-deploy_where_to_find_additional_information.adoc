@@ -23,7 +23,7 @@ To learn more about the information described in this document, refer to the fol
 
 NetApp Product Documentation
 
-http://docs. http://docs.netapp.com/[netapp^].com
+https://docs.netapp.com[https://docs.netapp.com^]
 
 FlexPod Express with Guide
 

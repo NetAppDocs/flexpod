@@ -27,6 +27,6 @@ image:security-ransomware_image2.png[Error: Missing Graphic Image]
 
 A major advantage for a FlexPod system is that it is predesigned, integrated, and validated for several workloads. Detailed design and deployment guides are published for every solution validation. These documents include the best practices that you must employ for workloads to run seamlessly on FlexPod. These solutions are built with the best- in-class compute, network, and storage products and a host of features that focus on security and hardening of the entire infrastructure.
 
-https://newsroom.ibm.com/2018-04-04-IBM-X-Force-Report-Fewer-Records-Breached-In-2017-As-Cybercriminals-Focused-On-Ransomware-And-Destructive-Attacks[IBM’s X-Force Threat Intelligence Index^] states, “Human error responsible for two-thirds of compromised records including historic 424% jump in misconfigured cloud infrastructure.”
+According to the https://www.ibm.com/think/x-force/threat-intelligence-index-2026-securing-identities-ai-detection-risk-management[2026 IBM X‑Force Threat Intelligence Index^], vulnerability exploitation has become the leading cause of cyber incidents, with AI enabling attackers to rapidly discover and exploit security gaps.
 
 With a FlexPod system, you can avoid misconfiguring your infrastructure by using automation through Ansible playbooks that perform an end-to-end setup of the infrastructure according to the best practices described in Cisco Validated Designs (CVDs) and NetApp Verified Architectures (NVAs).

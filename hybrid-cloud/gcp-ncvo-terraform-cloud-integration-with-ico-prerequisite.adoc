@@ -20,7 +20,7 @@ link:gcp-ncvo-cisco-intersight-configuration.html[Previous: Cisco Intersight con
 . Claim or create a Terraform cloud target by providing the relevant Terraform Cloud account details.
 . Create a Terraform Cloud Agent target for private clouds so that customers can install the agent in the data center and enable communication with Terraform Cloud.
 +
-For more information, follow https://intersight.com/help/saas/features/terraform_cloud/admin[this link^].
+For more information, follow https://community.cisco.com/t5/data-center-and-cloud-knowledge-base/intersight-service-for-terraform/ta-p/4301093[this link^].
 
 == Procedure 2: Generate user token
 
