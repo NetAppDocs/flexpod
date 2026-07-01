@@ -31,7 +31,7 @@ https://www.netapp.com/company/trust-center/compliance/fips-140-2/
 
 * FIPS 140-2
 +
-https://fieldportal.netapp.com/content/902303
+https://fieldportal.netapp.com/s/article/tr4781-fips-1402-1694000809616
 
 * NetApp ONTAP 9 Hardening Guide
 +
@@ -67,11 +67,11 @@ https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-progra
 
 * Cybersecurity practices for medium and large healthcare organizations
 +
-https://www.phe.gov/Preparedness/planning/405d/Documents/tech-vol2-508.pdf
+https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf
 
-* Cisco and Cryptographic Module Validation Program (CMVP)
+* Cryptographic Module Validation Program (CMVP). NIST CMVP database for validated cryptographic modules, including Cisco offerings.
 +
-https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search?SearchMode=Basic&Vendor=cisco&CertificateStatus=Active&ValidationYear=0
+https://csrc.nist.gov/projects/cryptographic-module-validation-program
 
 * NetApp Storage Encryption, NVMe Self-Encrypting Drives, NetApp Volume Encryption, and NetApp Aggregate Encryption
 +
@@ -100,18 +100,6 @@ https://www.netapp.com/pdf.html?item=/media/17061-ds-3683.pdf
 * FlexPod Datacenter for Epic EHR Deployment Guide
 +
 https://www.netapp.com/media/10658-tr-4693.pdf
-
-* FlexPod Datacenter Infrastructure for MEDITECH Software
-+
-https://www.netapp.com/media/8552-flexpod-for-meditech-software.pdf
-
-* The FlexPod Standard Extends to MEDITECH Software
-+
-https://blog.netapp.com/the-flexpod-standard-extends-to-meditech-software/
-
-* FlexPod for MEDITECH Directional Sizing Guide
-+
-https://www.netapp.com/pdf.html?item=/media/12429-tr4774.pdf
 
 * FlexPod for medical imaging
 +

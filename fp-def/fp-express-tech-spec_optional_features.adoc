@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: fp-def/fp-express-tech-spec__optional_features.html
+permalink: fp-def/fp-express-tech-spec_optional_features.html
 keywords: optional, features, iscsi, boot, option, flexpod, express configuration, cisco, mini, aff, fas
 summary: This section describes the optional features for FlexPod Express.
 ---

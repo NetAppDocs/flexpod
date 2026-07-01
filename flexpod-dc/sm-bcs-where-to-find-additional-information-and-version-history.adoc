@@ -119,7 +119,7 @@ https://core.vmware.com/resource/vmware-vsphere-metro-storage-cluster-vmsc[https
 
 * VMware vSphere Metro Storage Cluster Recommended Practices
 +
-https://core.vmware.com/resource/vmware-vsphere-metro-storage-cluster-recommended-practices[https://core.vmware.com/resource/vmware-vsphere-metro-storage-cluster-recommended-practices^]
+https://www.vmware.com/docs/vmw-vmware-vsphere-metro-storage-cluster-recommended-practices[https://www.vmware.com/docs/vmw-vmware-vsphere-metro-storage-cluster-recommended-practices^]
 
 * NetApp ONTAP with NetApp SnapMirror Business Continuity (SM-BC) with VMware vSphere Metro Storage Cluster (vMSC). (83370)
 +

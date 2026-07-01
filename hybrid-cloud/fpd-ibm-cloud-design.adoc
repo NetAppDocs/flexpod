@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: hybrid-cloud/fpd-ibn-cloud-design.html
+permalink: hybrid-cloud/fpd-ibm-cloud-design.html
 keywords: cisco, flexpod, ibm, data, center, cloud, private, storage
 summary: "IBM Cloud Private (ICP) is an on-premises platform for developing and managing containerized applications for cloud-native and application-modernization use cases"
 ---

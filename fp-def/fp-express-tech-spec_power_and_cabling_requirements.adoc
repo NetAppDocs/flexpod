@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: fp-def/fp-express-tech-spec__power_and_cabling_requirements.html
+permalink: fp-def/fp-express-tech-spec_power_and_cabling_requirements.html
 keywords: power, cabling, requirements, flexpod, express, cisco, ucs, minimum, cabling
 summary: This section describes the power and minimum cabling requirements for a FlexPod Express design.
 ---

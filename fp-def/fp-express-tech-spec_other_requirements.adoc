@@ -26,7 +26,7 @@ Additional requirements for FlexPod Express include the following:
 ** SMARTnet support for Cisco equipment
 ** SupportEdge Advisor or SupportEdge Premium support for NetApp equipment
 
-* All software components must be listed and supported in the http://support.netapp.com/matrix/[NetApp IMT^].
+* All software components must be listed and supported in the http://mysupport.netapp.com/matrix[NetApp IMT^].
 
 * All NetApp hardware components must be listed and supported on https://hwu.netapp.com/Home/Index[NetApp Hardware Universe^].
 
