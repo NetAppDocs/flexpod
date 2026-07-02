@@ -33,7 +33,7 @@ These are the minimum hardware and software components required to implement the
 |===
 
 [NOTE]
-Refer to https://intersight.com/help/saas/supported_systems[Cisco Intersight supported systems^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
+Refer to https://intersight.com/help/saas/supported_systems/overview[Cisco Intersight supported systems^] for the minimum requirements of Cisco UCS Compute Components and UCSM version.
 
 == Cisco Intersight licensing requirements
 
@@ -48,4 +48,4 @@ The Cisco Intersight Infrastructure Services licensing model has been simplified
 * *Cisco Intersight Infrastructure Services Advantage* - The Advantage license tier offers advanced server management with extended visibility, ecosystem integration, automation of Cisco and third-party hardware and software, along with providing multi-domain solutions.
 
 
-For more information about the features covered by various licensing tiers, go to https://intersight.com/help/saas/getting_started/licensing_requirements/lic_infra#licensing_model[Infrastructure Services license^].
+For more information about the features covered by various licensing tiers, go to https://intersight.com/help/saas/getting_started/licensing_requirements/lic_infra[Infrastructure Services license^].
