@@ -32,18 +32,16 @@ The controller families that are listed in the table below are appropriate for u
 
 .2+|AFF A-Series
 |A20
-.2+|https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF A-Series Documentation]
+.3+|https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF Documentation]
 |A30
 |AFF C-Series
 |C30
-|https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Documentation]
 .2+|ASA A-Series
 |A20
-.2+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA A-Series Documentation]
+.3+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA Documentation]
 |A30
 |ASA C-Series
 |C30
-|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C-Series Documentation]
 .2+|FAS
 |FAS 2750
 .2+|https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]

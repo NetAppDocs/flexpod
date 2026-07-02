@@ -19,7 +19,7 @@ Additional requirements for FlexPod Express include the following:
 
 * If you plan to use VMware ESXi as the hypervisor, refer to the link:https://compatibilityguide.broadcom.com/[Broadcom Compatibility Guide] to verify that your hardware and software components are supported.
 
-* For a OpenShift based deployment, ensure that you have the necessary hardware and software components that are compatible with OpenShift. Refer to the link:https://catalog.redhat.com/en/search[OpenShift Catalog] for more information.
+* For an OpenShift based deployment, ensure that you have the necessary hardware and software components that are compatible with OpenShift. Refer to the link:https://catalog.redhat.com/en/search[OpenShift Catalog] for more information.
 
 
 

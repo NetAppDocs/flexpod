@@ -28,7 +28,7 @@ https://docs.netapp.com/us-en/ontap-family/index.html[https://docs.netapp.com/us
 +
 https://docs.netapp.com/us-en/ontap-systems-family/index.html[https://docs.netapp.com/us-en/ontap-systems-family/index.html^]
 
-* FlexPod Documentation
+* FlexPod Home Page
 +
 https://www.netapp.com/flexpod/[https://www.netapp.com/flexpod/^]
 
