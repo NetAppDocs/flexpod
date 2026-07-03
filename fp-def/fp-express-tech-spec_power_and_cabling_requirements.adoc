@@ -1,153 +1,48 @@
 ---
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec_power_and_cabling_requirements.html
-keywords: power, cabling, requirements, flexpod, express, cisco, ucs, minimum, cabling
-summary: This section describes the power and minimum cabling requirements for a FlexPod Express design.
+keywords: power, cabling, requirements, flexpod, express, cisco, ucs, cabling
+summary: This section describes the power requirements and disk shelves cabling guidelines for a FlexPod Express design.
 ---
 
-= Power and cabling requirements
+= Power and cabling guidelines
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.619895
-//
 
 [.lead]
-This section describes the power and minimum cabling requirements for a FlexPod Express design.
+This section describes the power requirements and  cabling guidelines for a FlexPod Express design.
 
 == Power requirements
 
-The power requirements are based on U.S. specifications and assume the use of AC power. Other countries might have different power requirements. Direct current (DC) power options are also available for most components. For additional data about the maximum power required as well as other detailed power information, consult the detailed technical specifications for each hardware component.
+Power requirements for FlexPod Express differ based on the location where the FlexPod Express configuration is installed.
 
-For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS Power Calculator^].
+For more data about the maximum power that is required and for other detailed power information, consult the link:https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_technical_specifications_and_references.html[technical specifications^] for each hardware component.
 
-The following table lists the power ports required per device.
+For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS power calculator^].
 
-|===
-|Cisco Nexus switches |Power cables required
+For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A20), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section and For details on size, weight ,wattage etc. refer to the *Size, Weight, Acoustic, Power* section. 
 
-|Cisco Nexus 3048
-|2x C13/C14 power cables for each Cisco Nexus 3000 series switch
-|Cisco Nexus 3524
-|2x C13/C14 power cables for each Cisco Nexus 3000 series switch
-|Cisco Nexus 9396
-|2x C13/C14 power cables for each Cisco Nexus 9000 series switch
-|===
+== Cabling guidelines
 
-|===
-|Cisco UCS chassis |Power cables required
+This section provides general cabling guidelines for a FlexPod Express design.
 
-|Cisco UCS 5108
-|2 CAB-US515P-C19-US/CAB-US520-C19-US for each Cisco UCS chassis
-|===
+* Ensure redundant connectivity for the compute and storage connections. 
+* The speed of the connections needs to be compatible with the connected components.
+* Refer to the link:https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_flexpod_express_topologies.html[FlexPod Express topologies^] section for additional cabling guidelines for specific topologies.
+
+The following table provides cabling guidelines for NetApp disk shelves that can be used in a FlexPod Express design.
 
 |===
-|Cisco UCS B-Series servers |Power cables required
-
-|Cisco UCS B200 M4
-|N/A; blade server is powered by chassis
-|Cisco UCS B420 M4
-|N/A; blade server is powered by chassis
-|Cisco UCS B200 M5
-|N/A; blade server is powered by chassis
-|Cisco UCS B480 M5
-|N/A; blade server is powered by chassis
-|===
-
-|===
-|Cisco UCS C-Series servers |Power ports required
-
-|Cisco UCS C220 M4
-.3+|2 x C13/C14 power cables for each Cisco UCS server
-|Cisco UCS C240 M4
-|Cisco UCS C460 M4
-Cisco UCS C220 M5
-Cisco UCS C240 M5
-Cisco UCS C480 M5
-|===
-
-|===
-|NetApp FAS controllers |Power ports required (per HA pair)
-
-|FAS2554
-|2 x C13/C14
-|FAS2552
-|2 x C13/C14
-|FAS2520
-|2 x C13/C14
-|FAS8020
-|2 x C13/C14
-|===
-
-|===
-|E-Series controllers |Power ports required (per HA pair)
-
-|E2824
-|2 x C14/C20
-|===
-
-|===
-|NetApp FAS disk shelves |Power ports required
-
+|Disk shelf |Cabling guidelines
 |DS212C
-|2 x C13/C14
+.3+|link:https://docs.netapp.com/us-en/ontap-systems/sas3/install-cabling-rules.html#configuration-rules[SAS cabling rules^]
 |DS224C
-|2 x C13/C14
 |DS460C
-|2 x C19/C20 or 2 x C14/C19
-|DS2246
-|2 x C13/C14
-|DS4246
-|4 x C13/C14
-|===
-
-|===
-|E-Series disk shelves |Power ports required
-
-|DE460C
-|2 x C19/C20 or 2 x C14/C19
-|DE224C
-|2 x C14/C20
-|DE212C
-|2 x C14/C20
-|===
-
-== Minimum cable requirements
-
-This section describes the minimum cable requirements for a FlexPod Express design. Most FlexPod implementations require additional cables, but the number varies based on the deployment size and scope.
-
-The following table lists the minimum number of cables required for each device.
-
-|===
-|Cisco Nexus 3000 Series switches |Cables required
-
-|Cisco Nexus 31108
-.5+|At least two 10GbE fiber or Twinax cables per switch
-|Cisco Nexus 3172PQ
-|Cisco Nexus 3048
-|Cisco Nexus 3524
-|Cisco Nexus 9396
-|DS212C
-|
-|DS2246
-.4+|Number of SAS cables depends on specific configuration of disk shelves
-|DS460C
-|DS224C
-|DS4246
-
-|E2800
-a|* At least one Gigabit Ethernet (1GbE) cable for management per controller
-* At least two 10GbE cables per controller (for iSCSI) or two FC cables matching speed requirements
-|DE460C
-|2 x mini-SAS HD cables per disk shelf
-|DE224C
-|2 x mini-SAS HD cables per disk shelf
-|DE212C
-|2 x mini-SAS HD cables per disk shelf
+|NS224
+.2+|link:https://docs.netapp.com/us-en/ontap-systems/drive-shelves/index.html[NS224 shelf requirements and  best practices^]
+|NS224 w/NSM100B
 |===

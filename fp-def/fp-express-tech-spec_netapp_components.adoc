@@ -12,11 +12,6 @@ summary: NetApp storage controllers provide the storage foundation in the FlexPo
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.611190
-//
 
 [.lead]
 NetApp storage controllers provide the storage foundation in the FlexPod Express architecture for both boot and application data storage. This section lists the different NetApp options in the FlexPod Express architecture.
@@ -37,18 +32,16 @@ The controller families that are listed in the table below are appropriate for u
 
 .2+|AFF A-Series
 |A20
-.2+|https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF A-Series Documentation]
+.3+|https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF Documentation]
 |A30
 |AFF C-Series
 |C30
-|https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Documentation]
 .2+|ASA A-Series
 |A20
-.2+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA A-Series Documentation]
+.3+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA Documentation]
 |A30
 |ASA C-Series
 |C30
-|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C-Series Documentation]
 .2+|FAS
 |FAS 2750
 .2+|https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]
@@ -66,16 +59,17 @@ The selected NetApp shelf type determines which drive types are available within
 [NOTE]
 For all disk shelves and disk part numbers, consult your sales representative.
 
-For more information about the supported drives, click the NetApp Hardware Universe link in the following table and then select Supported Drives.
 
-The following table lists the NetApp disk shelf options, along with the drives supported for each shelf type, which can be found on NetApp Hardware Universe. Follow the Hardware Universe link, select the version of ONTAP you are using, then select the shelf type. Under the shelf image, click Supported Drives to see the drives supported for specific versions of ONTAP and the disk shelves.
+The following table lists the NetApp disk shelf options for FlexPod Express along with links to its technical specifications. 
+
+To get the list of supported drives for your disk shelf, go to link:https://hwu.netapp.com/DetailViews/Home.aspx[NetApp Hardware Universe^], under *Products > Storage > Shelves* select *ONTAP (AFF, ASA, FAS)* , select the version of ONTAP you are using, then select the shelf type (example: *DS212C*) and click on *Show Results*. Click on *Supported Drives* to see the drives supported for specific versions of ONTAP and the disk shelves.
 
 |===
 |Disk shelf |Technical specifications
 
 |DS212C
 .5+|
-https://hwu.netapp.com/DetailViews/Home.aspx[Disk Shelves and Storage Media Supported Drives on NetApp Hardware Universe]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[Disk Shelves and Storage Media]
 |DS224C
 |DS460C
 |NS224
@@ -89,11 +83,12 @@ The following table lists the NetApp software licensing options.
 |===
 |NetApp Software Licensing |Technical Specifications
 
-|ONTAP One or ONTAP base for AFF and FAS 
+|ONTAP One for AFF and FAS 
 .2+|Consult your NetApp sales team for more licensing information.
 |ONTAP One for SAN for ASA
 |===
 
+Refer to this link for more information about NetApp software licensing: https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one[NetApp Software Licensing^].
 
 == NetApp Support licensing options
 
@@ -102,10 +97,9 @@ SupportEdge Premium licenses are required, and the part numbers for those licens
 The following table lists the NetApp support licensing options for NetApp AFF, ASA, and FAS Storage systems.
 
 |===
-|NetApp Support licensing |Part number |Technical specifications
+|NetApp Support licensing |Technical specifications
 
-|SupportEdge Premium4 hours onsite; months: 36
-|CS-O2-4HR
+|NetApp SupportEdge
 |
-link:https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf[https://www.netapp.com/pdf.html?item=/media/19784-ds-3873.pdf]
+https://www.netapp.com/netapp-services/
 |===

@@ -12,31 +12,44 @@ summary: To learn more about the information that is described in this document,
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.642538
-//
 
 [.lead]
 To learn more about the information that is described in this document, see the following documents and websites:
 
-* AFF and FAS System Documentation Center
+* NetApp Product Documentation
 +
-https://docs.netapp.com/platstor/index.jsp[https://docs.netapp.com/platstor/index.jsp^]
+https://docs.netapp.com/[https://docs.netapp.com/^]
 
-* AFF Documentation Resources page
+* ONTAP Product Documentation
 +
-https://www.netapp.com/us/documentation/all-flash-fas.aspx[https://www.netapp.com/us/documentation/all-flash-fas.aspx^]
+https://docs.netapp.com/us-en/ontap-family/index.html[https://docs.netapp.com/us-en/ontap-family/index.html^]
 
-* FAS Storage Systems Documentation Resources page
+* ONTAP Hardware systems Documentation
 +
-https://www.netapp.com/us/documentation/fas-storage-systems.aspx[https://www.netapp.com/us/documentation/fas-storage-systems.aspx^]
+https://docs.netapp.com/us-en/ontap-systems-family/index.html[https://docs.netapp.com/us-en/ontap-systems-family/index.html^]
 
-* FlexPod
+* FlexPod Home Page
 +
-https://flexpod.com/[https://flexpod.com/^]
+https://www.netapp.com/flexpod/[https://www.netapp.com/flexpod/^]
 
-* NetApp documentation
+
+
+* NetApp Interoperability Matrix Tool (IMT)
 +
-https://docs.netapp.com[https://docs.netapp.com^]
+https://mysupport.netapp.com/matrix/[https://mysupport.netapp.com/matrix^]
+
+* NetApp Hardware Universe
++
+https://hwu.netapp.com/[https://hwu.netapp.com/^]
+
+* Cisco HCL
++ 
+https://ucshcltool.cloudapps.cisco.com/public/hcl[https://ucshcltool.cloudapps.cisco.com/public/hcl^]
+
+* NetApp Support
++
+https://mysupport.netapp.com/[https://mysupport.netapp.com/^]
+
+* NetApp Support Communications
++
+https://mysupport.netapp.com/info/communications/index.html[https://mysupport.netapp.com/info/communications/index.html^]

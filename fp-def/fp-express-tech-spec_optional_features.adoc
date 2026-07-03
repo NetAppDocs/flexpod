@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: fp-def/fp-express-tech-spec_optional_features.html
-keywords: optional, features, iscsi, boot, option, flexpod, express configuration, cisco, mini, aff, fas
+keywords: optional, features, iscsi, boot, option, flexpod, express configuration, cisco, mini, aff, fas, asa, x-series-direct, direct-attached, topology, ip-based, fc-based, san
 summary: This section describes the optional features for FlexPod Express.
 ---
 
@@ -12,39 +12,52 @@ summary: This section describes the optional features for FlexPod Express.
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-05-20 13:19:48.598656
-//
 
 [.lead]
 This section describes the optional features for FlexPod Express.
 
+[NOTE]
+SAN boot is optional but strongly recommended, as it allows server profile moves during hardware upgrades or replacements.
+
 == iSCSI boot option
 
-The FlexPod Express architecture uses iSCSI boot. The minimum requirements for the iSCSI boot option include:
+The minimum requirements for the iSCSI boot option include:
 
 * An iSCSI license/feature activated on the NetApp storage controller
 * A two-port 10Gbps Ethernet adapter on each node in the NetApp storage controller HA pair
 * An adapter in the Cisco UCS server that is capable of iSCSI boot
 
-== Configuration options
 
-This section provides more information about the configuration required and validated in the FlexPod Express architecture.
+== Cisco UCS X-Series Direct and direct-attached AFF/ ASA/ FAS option
 
-=== FlexPod Express with Cisco UCS C-Series and AFF C190 Series
+NetApp storage controllers can be directly connected to the Cisco UCS fabric interconnects without any upstream SAN switch. FlexPod Express supports both FC and iSCSI boot with the UCS X-Series Direct.
 
-The following figure illustrates the FlexPod Express with Cisco UCS C-Series and AFF C190 series solution. This solution supports both 10GbE uplinks.
+The licensing and hardware requirements are as follows:
 
-image:fp-express-tech-spec_image2.png[Error: Missing Graphic Image]
+* A protocol license on the NetApp storage controller is required.
+* A Cisco UCS adapter (initiator) is required on the server. For a list of supported Cisco UCS adapters, see the NetApp http://mysupport.netapp.com/matrix[IMT^].
+* A target adapter on the NetApp storage controller is required.
 
-For more information about this configuration, see the FlexPod Express with VMware vSphere 6.7 and NetApp AFF C190 NVA Deployment Guide (in progress).
 
-=== FlexPod Express with Cisco UCS Mini and AFF A220 and FAS 2750/2720
+The following figure shows an UCS X-Series Direct and direct-attached ASA topology for IP-based SAN.
 
-The following figure illustrates the FlexPod Express with Cisco UCS- managed configuration.
+image:fp-express-tech-spec_image10.png[UCS X-Series Direct and direct-attached ASA topology for IP-based SAN]
 
-image:fp-express-tech-spec_image3.png[Error: Missing Graphic Image]
+*Notes:*
 
-For more information about this configuration, see https://docs.netapp.com/us-en/flexpod/express/express-direct-attach-aff220-deploy_program_summary.html[FlexPod Express with VMware vSphere 6.7U1 and NetApp AFF A220 with Direct - Attached IP - Based Storage^].
+* Cisco UCS is configured in Ethernet switching mode.
+* iSCSI ports from the target to fabric interconnects are configured as Ethernet storage ports for iSCSI data.
+
+The following figure shows an UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN.
+
+image:fp-express-tech-spec_image11.png[UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN]
+
+*Notes:*
+
+* Cisco UCS is configured in FC switching mode.
+* FC ports from the target to fabric interconnects are configured as FC storage ports.
+
+For more information about this configuration, see https://www.netapp.com/pdf.html?item=/media/135828-flexpod-san-ucs-xdirect-asa-nva-deploy-guide.pdf[FlexPod SAN Solution with Cisco UCS X-Series Direct and NetApp ASA^].
+
+[NOTE]
+The above examples use the NetApp ASA storage controller, but the same configuration is supported with the NetApp AFF and FAS storage controllers.
