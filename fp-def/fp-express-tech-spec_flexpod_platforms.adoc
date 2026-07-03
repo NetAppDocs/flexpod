@@ -5,7 +5,7 @@ keywords: flexpod, platforms, datacenter, express, select, technical, specificat
 summary: This document provides the technical specifications for the FlexPod Express platform.
 ---
 
-= FlexPod platforms
+= FlexPod Platforms
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -17,7 +17,7 @@ summary: This document provides the technical specifications for the FlexPod Exp
 [.lead]
 There are two FlexPod platforms:
 
-* *FlexPod Datacenter.* This platform is a massively scalable virtual data center infrastructure suited for workload enterprise applications, virtualization, VDI, and public and private cloud. FlexPod Datacenter has its own specifications, which are documented in https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_solution_overview.html[FlexPod Datacenter Technical Specifications^].
+* *FlexPod Datacenter.* This platform is a highly scalable data center infrastructure suited for enterprise workloads and applications, virtualization, VDI, and public and private cloud. FlexPod Datacenter has its own specifications, which are documented in https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_solution_overview.html[FlexPod Datacenter Technical Specifications^].
 * *FlexPod Express.* This platform is a compact converged infrastructure that is targeted for remote office and edge use cases.
 
 This document provides the technical specifications for the FlexPod Express platform.

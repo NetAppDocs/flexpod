@@ -62,15 +62,13 @@ Connectivity requirements for this topology include:
 * AFF cluster connectivity: For a 2-node AFF cluster, the controllers can be directly connected together with cables without using cluster switches.
 * Storage Ethernet connectivity: NetApp storage controllers must be directly connected to the Cisco Nexus switches.
 * Virtual port channels (vPCs) are required to connect the Cisco Nexus switches to the NetApp storage controllers.
-* The solution can be scaled upto 5 USC C-series  standalone servers requiring two switch ports on each switch per server.
+* The solution can be scaled upto 5 UCS C-series  standalone servers requiring two switch ports on each switch per server.
 
-The cisco UCS C-Series can be managed via CIMC or Cisco intersight standalone management. 
+The Cisco UCS C-Series can be managed via CIMC or Cisco intersight standalone management. 
 
 [NOTE]
 The above sample topology refers to a direct attached storage solution using NetApp AFF. However, the same topology can be used for NetApp ASA and FAS as well.
 
 For more information about this configuration, see https://www.netapp.com/pdf.html?item=/media/88340-NVA-FlexpodExpress_C220_A250_NexusFinal.pdf[FlexPod express for VMware vSphere 8.0 with Cisco UCS C-Series Standalone and NetApp AFF^].
-
-
 
 
