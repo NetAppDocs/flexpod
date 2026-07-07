@@ -99,6 +99,48 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x440p-pcle-node-ds.html[Cisco UCS X440p PCIe Node]
 |===
 
+== Cisco Unified Edge 
+
+Cisco Unified Edge is an AI-ready system that redefines computing at the edge by converging compute, networking, storage, and security. The modular design is future-ready, energy-efficient, and easy-to-service and can be tailored to support today’s workloads and use cases while remaining adaptable to the rapidly evolving AI landscape.
+
+For a quick overview of Cisco UCS X-Series capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/unified-edge/unified-edge-at-a-glance.html[Cisco Unified Edge At-a-Glance.^]
+
+Cisco Unified Edge consists of the following components:
+
+    * Cisco UCS XE9305 Chassis
+    * Compute Nodes - Choice of
+        ** Cisco UCS XE130c M8 Compute Node
+        ** Cisco UCS XE150c M8 Compute Node
+        ** Cisco 8255 G2 Secure Router Node
+
+The tables below lists the cisco unified edge chassis and compute nodes options.
+|===
+|Cisco unified edge chassis |Part number |Technical specifications
+
+|Cisco UCS XE9305 Chassis
+|UCSXE-9305-U
+|
+https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/cisco-ucs-xe9305-chassis-ds.html[Cisco UCS XE9305 Chassis]
+|===    
+
+|===
+|Cisco unified edge compute nodes |Part number |Technical specifications
+
+|Cisco UCS XE130c M8 Compute Node
+|UCSXE-130C-M8
+|
+https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/ucs-xe130c-m8-compute-node-ds.html[Cisco UCS XE130c M8 Compute Node]
+|Cisco UCS XE150c M8 Compute Node
+|UCSXE-150C-M8
+|
+https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/ucs-xe150c-m8-compute-node-ds.html[Cisco UCS XE150c M8 Compute Node]
+|Cisco 8255 G2 Secure Router Node
+|C8255-G2
+|
+https://www.cisco.com/site/us/en/products/collateral/networking/sdwan-routers/8000-secure-routers/8200-series-secure-routers-ds.html[Cisco 8255 G2 Secure Router Node]
+|===
+
+
 == Cisco UCS C-Series rack server options
 
 Cisco UCS C-Series Rack Servers are available in one and two rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the following table are for the base servers. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
