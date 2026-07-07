@@ -78,7 +78,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 == Cisco UCS X-Series Direct fabric interconnect
 
-The technical specifications for Cisco UCS X-Series Direct fabric interconnects include form factor, the total number of ports and expansion slots, and throughput capacity. Refer to the table below for Cisco UCS X-Series Direct fabric interconnect datasheet.
+The technical specifications for Cisco UCS X-Series Direct fabric interconnect include form factor, the total number of ports and expansion slots, and throughput capacity. Refer to the table below for Cisco UCS X-Series Direct fabric interconnect datasheet.
 
 |===
 |Component |Cisco UCS datasheet
@@ -88,12 +88,12 @@ The technical specifications for Cisco UCS X-Series Direct fabric interconnects 
 https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-fabric-interconnect-9108-100g.pdf[Cisco UCS 9108 100G Fabric Interconnect]
 |===
 
-== Cisco UCS XE9508 Chassis (Cisco Unified Edge)
+== Cisco UCS XE9305 Chassis (Cisco Unified Edge)
 
-The technical specifications for Cisco UCS XE9508 Chassis, as shown in the table below, include the following components:
+The technical specifications for Cisco UCS XE9305 Chassis, as shown in the table below, include the following components:
 
 |===
-|Component |Cisco UCS X9508 chassis
+|Component |Cisco UCS XE9305 chassis
 
 |Rack units
 |3
@@ -102,12 +102,12 @@ The technical specifications for Cisco UCS XE9508 Chassis, as shown in the table
 
 |===
 
-For more information, see the link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/ucs-xe9305-chassis/csm-4758-cisco-ucs-xe9305-chassis.pdf[Cisco UCS XE9508 Chassis datasheet^].
+For more information, see the link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/ucs-xe9305-chassis/csm-4758-cisco-ucs-xe9305-chassis.pdf[Cisco UCS XE9305 Chassis datasheet^].
 
 
 == Cisco UCS Unified Edge Compute Nodes
 
-The technical specifications for Cisco UCS Unified Edge compute node include the following components:
+The technical specifications for Cisco UCS Unified Edge compute nodes include the following components:
 
 * Number of processor sockets
 * Processor support
@@ -123,16 +123,16 @@ Refer to the table below for the technical specifications for Cisco UCS Unified 
 |Component | Cisco UCS datasheet
 |Cisco UCS XE130c M8 Compute Node
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdf[Cisco UCS E130c M8 Compute Node]
-|Cisco UCS E150c M8 Compute Node
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdf[Cisco UCS XE130c M8 Compute Node]
+||Cisco UCS XE150c M8 Compute Node
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/cisco-ucs-xe150c-m8-compute-node.pdf[Cisco UCS E150c M8 Compute Node]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/cisco-ucs-xe150c-m8-compute-node.pdf[Cisco UCS XE150c M8 Compute Node]
 |Cisco 8255 G2 Secure Router Node
 |
 https://www.cisco.com/c/dam/en/us/products/collateral/routers/secure-routers/8200-series-secure-routers-ds.pdf[Cisco 8255 G2 Secure Router Node]
 |===
 
-Refer to  link:https://www.cisco.com/c/en/us/products/servers-unified-computing/unified-edge/datasheet-listing.html[Cisco Unified edge datasheet listing^] for additional details.
+Refer to link:https://www.cisco.com/c/en/us/products/servers-unified-computing/unified-edge/datasheet-listing.html[Cisco Unified Edge datasheet listing^] for additional details.
 
 == Cisco UCS C-Series rack servers
 
