@@ -124,7 +124,7 @@ Refer to the table below for the technical specifications for Cisco UCS Unified 
 |Cisco UCS XE130c M8 Compute Node
 |
 https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdf[Cisco UCS XE130c M8 Compute Node]
-||Cisco UCS XE150c M8 Compute Node
+|Cisco UCS XE150c M8 Compute Node
 |
 https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/cisco-ucs-xe150c-m8-compute-node.pdf[Cisco UCS XE150c M8 Compute Node]
 |Cisco 8255 G2 Secure Router Node
