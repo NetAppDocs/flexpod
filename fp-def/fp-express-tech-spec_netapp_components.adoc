@@ -42,19 +42,18 @@ The controller families that are listed in the table below are appropriate for u
 |A30
 |ASA C-Series
 |C30
-.2+|FAS
+.3+|FAS
 |FAS 2750
-.2+|https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]
+.3+|https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Documentation]
 |FAS 2820
+|FAS 50
 |===
 
 
 == NetApp disk shelves and disks
 
 
-A minimum of one NetApp disk shelf is required for the storage controllers.
-
-The selected NetApp shelf type determines which drive types are available within that shelf.
+A minimum of one NetApp disk shelf is required for the storage controllers that do not have a built-in disk shelf. The selected NetApp shelf type determines which drive types are available within that shelf.
 
 [NOTE]
 For all disk shelves and disk part numbers, consult your sales representative.

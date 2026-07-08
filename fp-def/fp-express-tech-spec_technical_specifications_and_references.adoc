@@ -245,6 +245,9 @@ https://docs.netapp.com/us-en/ontap-systems/fas2700/overview.html[FAS2750 Key Sp
 |FAS2820 Series
 |
 https://docs.netapp.com/us-en/ontap-systems/fas2800/overview.html[FAS2820 Key Specifications^]
+|FAS50 Series
+|
+https://docs.netapp.com/us-en/ontap-systems/fas50/overview.html[FAS50 Key Specifications^]
 |===
 
 === NetApp disk shelves
