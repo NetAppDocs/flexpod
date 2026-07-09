@@ -120,7 +120,7 @@ The tables below list the Cisco Unified Edge chassis and compute nodes options.
 |Cisco UCS XE9305 Chassis
 |UCSXE-9305-U
 |
-https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/cisco-ucs-xe9305-chassis-ds.html[Cisco UCS XE9305 Chassis]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe9305-m8-chassis-spec-sheet.pdf[Cisco UCS XE9305 Chassis]
 |===    
 
 |===
@@ -129,7 +129,7 @@ https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/cisc
 |Cisco UCS XE130c M8 Compute Node
 |UCSXE-130C-M8
 |
-https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/ucs-xe130c-m8-compute-node-ds.html[Cisco UCS XE130c M8 Compute Node]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdfl[Cisco UCS XE130c M8 Compute Node]
 |Cisco UCS XE150c M8 Compute Node
 |UCSXE-150C-M8
 |

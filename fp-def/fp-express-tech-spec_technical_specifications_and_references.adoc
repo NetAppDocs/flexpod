@@ -102,12 +102,12 @@ The technical specifications for Cisco UCS XE9305 Chassis, as shown in the table
 
 |===
 
-For more information, see the link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/ucs-xe9305-chassis/csm-4758-cisco-ucs-xe9305-chassis.pdf[Cisco UCS XE9305 Chassis datasheet^].
+For more information, see the link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe9305-m8-chassis-spec-sheet.pdf[Cisco UCS XE9305 Chassis datasheet^].
 
 
-== Cisco UCS Unified Edge Compute Nodes
+== Cisco UCS Compute Nodes for Cisco Unified Edge
 
-The technical specifications for Cisco UCS Unified Edge compute nodes include the following components:
+The technical specifications for Cisco UCS compute nodes for Cisco Unified Edge include the following components:
 
 * Number of processor sockets
 * Processor support

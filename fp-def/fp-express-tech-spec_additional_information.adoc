@@ -16,7 +16,7 @@ summary: To learn more about the information that is described in this document,
 [.lead]
 To learn more about the information that is described in this document, see the following documents and websites:
 
-* FlexPod Home Page
+* NetApp FlexPod Home Page
 +
 https://www.netapp.com/flexpod/[https://www.netapp.com/flexpod/^]
 
