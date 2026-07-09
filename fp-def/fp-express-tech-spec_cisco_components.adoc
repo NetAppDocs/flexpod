@@ -108,6 +108,7 @@ For a quick overview of Cisco Unified Edge capabilities and features, see link:h
 Cisco Unified Edge consists of the following components:
 
     * Cisco UCS XE9305 Chassis
+    * Two Cisco Unified Edge Management Controllers with embedded 25G switches
     * Compute Nodes - Choice of
         ** Cisco UCS XE130c M8 Compute Node
         ** Cisco UCS XE150c M8 Compute Node
