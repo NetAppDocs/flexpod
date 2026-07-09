@@ -127,9 +127,6 @@ https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/
 |Cisco UCS XE150c M8 Compute Node
 |
 https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/cisco-ucs-xe150c-m8-compute-node.pdf[Cisco UCS XE150c M8 Compute Node]
-|Cisco 8255 G2 Secure Router Node
-|
-https://www.cisco.com/c/dam/en/us/products/collateral/routers/secure-routers/8200-series-secure-routers-ds.pdf[Cisco 8255 G2 Secure Router Node]
 |===
 
 Refer to link:https://www.cisco.com/c/en/us/products/servers-unified-computing/unified-edge/datasheet-listing.html[Cisco Unified Edge datasheet listing^] for additional details.

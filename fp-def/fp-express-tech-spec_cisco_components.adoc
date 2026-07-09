@@ -111,7 +111,6 @@ Cisco Unified Edge consists of the following components:
     * Compute Nodes - Choice of
         ** Cisco UCS XE130c M8 Compute Node
         ** Cisco UCS XE150c M8 Compute Node
-        ** Cisco 8255 G2 Secure Router Node
 
 The tables below list the Cisco Unified Edge chassis and compute nodes options.
 |===
@@ -134,10 +133,6 @@ https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/
 |UCSXE-150C-M8
 |
 https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/ucs-xe150c-m8-compute-node-ds.html[Cisco UCS XE150c M8 Compute Node]
-|Cisco 8255 G2 Secure Router Node
-|C8255-G2
-|
-https://www.cisco.com/site/us/en/products/collateral/networking/sdwan-routers/8000-secure-routers/8200-series-secure-routers-ds.html[Cisco 8255 G2 Secure Router Node]
 |===
 
 
