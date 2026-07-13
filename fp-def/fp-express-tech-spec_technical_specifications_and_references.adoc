@@ -98,7 +98,7 @@ The technical specifications for Cisco UCS XE9305 Chassis, as shown in the table
 |Rack units
 |3
 |Maximum number of nodes
-|5
+|5 Cisco UCS XE130c M8 Compute Nodes or 2 Cisco UCS XE150c M8 Compute Nodes
 
 |===
 
@@ -111,13 +111,14 @@ The technical specifications for Cisco UCS compute nodes for Cisco Unified Edge 
 
 * Number of processor sockets
 * Processor support
+* GPU Support
 * Memory capacity
 * Size and speed
 * I/O maximum throughput
 * Form factor
 
 
-Refer to the table below for the technical specifications for Cisco UCS Unified Edge compute nodes.
+The compute nodes also support GPU, XE130c M8 supports NVIDIA L4 GPU and the XE150c M8 supports NVIDIA RTX PRO 4500 / 6000 Blackwell Server Edition GPUs. Refer to the table below for the technical specifications for Cisco UCS Unified Edge compute nodes.
 
 |===
 |Component | Cisco UCS datasheet
