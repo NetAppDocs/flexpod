@@ -39,7 +39,7 @@ Refer to this link for the complete technical specification for UCS X-Series Dir
 Refer to the tables below for the technical specifications for the X-Series Direct components.
 
 |===
-|Cisco UCS fabric interconnect |Part number |Technical specifications
+|Cisco UCS X-Series Direct fabric interconnect |Part number |Technical specifications
 
 |UCS 9108 100G Fabric Interconnect
 |UCSX-S9108-100G
@@ -49,7 +49,7 @@ https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/
 
 
 |===
-|Cisco UCS X-Series Chassis|Part number |Technical specifications
+|Cisco UCS X-Series Direct Chassis|Part number |Technical specifications
 
 |Cisco UCS X9508 Chassis
 |UCSX-9508
@@ -59,7 +59,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 
 |===
-|Cisco UCS X-Series compute nodes |Part number |Technical specifications
+|Cisco UCS X-Series Direct compute nodes |Part number |Technical specifications
 
 |Cisco UCS X210c M7
 |UCSX-210C-M7
@@ -84,7 +84,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |===
 
 |===
-|Cisco UCS X-Series Modules |Part number |Technical specifications
+|Cisco UCS X-Series Direct Modules |Part number |Technical specifications
 
 |Cisco UCS 9108 Intelligent Fabric Module
 |UCSX-I-9108-100G
@@ -98,6 +98,44 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |UCSX-440P
 |https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x440p-pcle-node-ds.html[Cisco UCS X440p PCIe Node]
 |===
+
+== Cisco Unified Edge
+
+Cisco Unified Edge is an AI-ready system that redefines computing at the edge by converging compute, networking, storage, and security. The modular design is future-ready, energy-efficient, and easy-to-service and can be tailored to support today’s workloads and use cases while remaining adaptable to the rapidly evolving AI landscape.
+
+For a quick overview of Cisco Unified Edge capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/unified-edge/unified-edge-at-a-glance.html[Cisco Unified Edge At-a-Glance.^]
+
+Cisco Unified Edge consists of the following components:
+
+    * Cisco UCS XE9305 Chassis
+    * Two Cisco Unified Edge Management Controllers with embedded 25G switches
+    * Compute Nodes - Choice of
+        ** Cisco UCS XE130c M8 Compute Node
+        ** Cisco UCS XE150c M8 Compute Node
+
+The tables below list the Cisco Unified Edge chassis and compute nodes options.
+|===
+|Cisco Unified Edge chassis |Part number |Technical specifications
+
+|Cisco UCS XE9305 Chassis
+|UCSXE-9305-U
+|
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe9305-m8-chassis-spec-sheet.pdf[Cisco UCS XE9305 Chassis]
+|===    
+
+|===
+|Cisco Unified Edge compute nodes |Part number |Technical specifications
+
+|Cisco UCS XE130c M8 Compute Node
+|UCSXE-130C-M8
+|
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdfl[Cisco UCS XE130c M8 Compute Node]
+|Cisco UCS XE150c M8 Compute Node
+|UCSXE-150C-M8
+|
+https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/ucs-xe150c-m8-compute-node-ds.html[Cisco UCS XE150c M8 Compute Node]
+|===
+
 
 == Cisco UCS C-Series rack server options
 

@@ -76,9 +76,9 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x410c-m8-compute-node-ds.html[Cisco UCS X410c M8 Compute Node]
 |===
 
-== Cisco UCS X-Series Direct fabric interconnects
+== Cisco UCS X-Series Direct fabric interconnect
 
-The technical specifications for Cisco UCS X-Series fabric interconnects include form factor, the total number of ports and expansion slots, and throughput capacity. The following table illustrates the Cisco UCS X-Series fabric interconnect datasheet.
+The technical specifications for Cisco UCS X-Series Direct fabric interconnect include form factor, the total number of ports and expansion slots, and throughput capacity. Refer to the table below for Cisco UCS X-Series Direct fabric interconnect datasheet.
 
 |===
 |Component |Cisco UCS datasheet
@@ -88,9 +88,55 @@ The technical specifications for Cisco UCS X-Series fabric interconnects include
 https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-fabric-interconnect-9108-100g.pdf[Cisco UCS 9108 100G Fabric Interconnect]
 |===
 
+== Cisco UCS XE9305 Chassis (Cisco Unified Edge)
+
+The technical specifications for Cisco UCS XE9305 Chassis, as shown in the table below, include the following components:
+
+|===
+|Component |Cisco UCS XE9305 chassis
+
+|Rack units
+|3
+|Maximum number of nodes
+|5 Cisco UCS XE130c M8 Compute Nodes or 2 Cisco UCS XE150c M8 Compute Nodes
+
+|===
+
+For more information, see the link:https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe9305-m8-chassis-spec-sheet.pdf[Cisco UCS XE9305 Chassis datasheet^].
+
+
+== Cisco UCS Compute Nodes for Cisco Unified Edge
+
+The technical specifications for Cisco UCS compute nodes for Cisco Unified Edge include the following components:
+
+* Number of processor sockets
+* Processor support
+* GPU Support
+* Memory capacity
+* Size and speed
+* I/O maximum throughput
+* Form factor
+
+
+The compute nodes also support GPU, XE130c M8 supports NVIDIA L4 GPU and the XE150c M8 supports NVIDIA RTX PRO 4500 / 6000 Blackwell Server Edition GPUs. Refer to the table below for the technical specifications for Cisco UCS Unified Edge compute nodes.
+
+|===
+|Component | Cisco UCS datasheet
+|Cisco UCS XE130c M8 Compute Node
+|
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdf[Cisco UCS XE130c M8 Compute Node]
+|Cisco UCS XE150c M8 Compute Node
+|
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/unified-edge/cisco-ucs-xe150c-m8-compute-node.pdf[Cisco UCS XE150c M8 Compute Node]
+|===
+
+Refer to link:https://www.cisco.com/c/en/us/products/servers-unified-computing/unified-edge/datasheet-listing.html[Cisco Unified Edge datasheet listing^] for additional details.
+
 == Cisco UCS C-Series rack servers
 
-The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. The following table illustrate the C-Series Rack Server datasheets.
+The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. 
+
+Refer to the table below for the technical specifications for Cisco UCS C-Series rack servers.
 
 |===
 |Component |Cisco UCS datasheet
@@ -197,6 +243,9 @@ https://docs.netapp.com/us-en/ontap-systems/fas2700/overview.html[FAS2750 Key Sp
 |FAS2820 Series
 |
 https://docs.netapp.com/us-en/ontap-systems/fas2800/overview.html[FAS2820 Key Specifications^]
+|FAS50 Series
+|
+https://docs.netapp.com/us-en/ontap-systems/fas50/overview.html[FAS50 Key Specifications^]
 |===
 
 === NetApp disk shelves
