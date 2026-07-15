@@ -46,7 +46,7 @@ NVE is a software-based, data-at-rest encryption solution available starting wit
 
 Here’s how the process works: When data is encrypted, it is sent to the cryptographic module which is FIPS 140-2 level 1 validated. The cryptographic module encrypts the data and sends it back to the RAID layer. The encrypted data is then sent to the disk. Therefore, with the combination of NVE and NAE, the data is already encrypted on the way to the disk. Reads follow the reverse path. In other words, the data leaves the disk encrypted, is sent to RAID, is decrypted by the cryptographic module, and is then sent up the rest of the stack, as shown in the following figure.
 
-image:flexpod-fips-image3.png[Error: Missing Graphic Image]
+image:flexpod-fips-image3.png[]
 
 [NOTE]
 NVE uses a software cryptographic module which is FIPS 140-2 level 1 validated.
@@ -107,7 +107,7 @@ NSE uses SEDs to perform the data encryption through a hardware-accelerated mech
 
 NSE is configured to use FIPS 140-2 level 2 self-encrypting drives to facilitate compliance and spares return by enabling the protection of data at rest through AES 256-bit transparent disk encryption. The drives perform all of the data encryption operations internally, as depicted in the following figure, including encryption key generation. To prevent unauthorized access to the data, the storage system must authenticate itself with the drive using an authentication key that is established the first time the drive is used.
 
-image:flexpod-fips-image4.png[Error: Missing Graphic Image]
+image:flexpod-fips-image4.png[]
 
 [NOTE]
 NSE uses hardware encryption on each drive,  which is FIPS 140-2 level 2 validated.
@@ -118,7 +118,7 @@ For more information about NSE, see the https://www.netapp.com/pdf.html?item=/me
 
 The FIPS 140-2 standard applies to the cryptographic module as defined by the boundary, as shown in the following figure.
 
-image:flexpod-fips-image5.png[Error: Missing Graphic Image]
+image:flexpod-fips-image5.png[]
 
 Key manager keeps track of all the encryption keys used by ONTAP. NSE SEDs use the key manager to set the authentication keys for NSE SEDs. When using the key manager, the combined NVE and NAE solution is composed of a software cryptographic module, encryption keys, and a key manager. For each volume, NVE uses a unique XTS-AES 256 data encryption key, which the key manager stores. The key used for a data volume is unique to the data volume in that cluster and is generated when the encrypted volume is created. Similarly, an NAE volume uses unique XTS-AES 256 data encryption keys per aggregate, which the key manager also stores. NAE keys are generated when the encrypted aggregate is created. ONTAP does not pregenerate keys, reuse them, or display them in plain text—they are stored and protected by the key manager.
 

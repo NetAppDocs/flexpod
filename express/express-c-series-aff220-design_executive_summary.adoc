@@ -21,7 +21,7 @@ summary:
 
 Savita Kumari, NetApp
 In partnership with:
-image:cisco logo.png[Error: Missing Graphic Image]
+image:cisco logo.png[]
 
 [.lead]
 Industry trends indicate a vast data center transformation toward shared infrastructure and cloud computing. In addition, organizations seek a simple and effective solution for remote and branch offices, leveraging the technology that they are familiar with in their data center.

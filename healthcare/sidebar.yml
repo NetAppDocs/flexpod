@@ -2,7 +2,6 @@ section: healthcare
 title: Healthcare
 entries:
   - title: FlexPod for Genomics
-    type: solutions
     entries:
       - title: Introduction
         url: /healthcare/flexpod-genomics-introduction.html
@@ -23,7 +22,6 @@ entries:
       - title: Conclusion
         url: /healthcare/flexpod-genomics-conclusion.html
   - title: FlexPod for Medical Imaging
-    type: solutions
     entries:
       - title: Overview
         url: /healthcare/medical-imaging_introduction.html

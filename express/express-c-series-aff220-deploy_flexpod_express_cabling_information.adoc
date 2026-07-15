@@ -21,7 +21,7 @@ summary: This section details a reference for validation cabling and cabling inf
 [.lead]
 The following figure shows the reference validation cabling.
 
-image:express-c-series-aff220-deploy_image5.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image5.png[]
 
 The following table shows cabling information for the Cisco Nexus switch 3172P A.
 

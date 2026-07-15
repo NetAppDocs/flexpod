@@ -76,7 +76,7 @@ FabricPool read latency is a function of connectivity to the cloud tier. Intercl
 [NOTE]
 When using FabricPool in low-performance environments, minimum performance requirements for client applications must continue to be met, and recovery time objectives should be adjusted accordingly.
 
-image:cloud-fabricpool_image6.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image6.png[]
 
 === Object store profiler
 
@@ -99,7 +99,7 @@ storage aggregate object-store profiler show
 
 Cloud tiers do not provide performance similar to that found on the performance tier (typically GB per second). Although FabricPool aggregates can easily provide SATA-like performance, they can also tolerate latencies as high as 10 seconds and low throughput for tiering solutions that do not require SATA-like performance.
 
-image:cloud-fabricpool_image7.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image7.png[]
 
 == Volumes
 
@@ -122,7 +122,7 @@ FabricPool licenses are available in perpetual or term-based (1-year or 3-year) 
 
 Tiering to the cloud tier stops when the amount of data (used capacity) stored on the cloud tier reaches the licensed capacity. Additional data, including SnapMirror copies to volumes using the All tiering policy, cannot be tiered until the license capacity is increased. Although tiering stops, data is still accessible from the cloud tier. Additional cold data remains on SSDs until the licensed capacity is increased.
 
-A free 10TB capacity, term-based FabricPool license comes with the purchase of any new ONTAP 9.5 or later cluster, although additional support costs might apply. FabricPool licenses (including additional capacity for existing licenses) can be purchased in 1TB increments.
+FabricPool licenses (including additional capacity for existing licenses) can be purchased in 1TB increments.
 
 A FabricPool license can only be deleted from a cluster that contains no FabricPool aggregates.
 
