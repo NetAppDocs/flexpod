@@ -33,15 +33,15 @@ This section provides shows the state of the files prior to an attack on the VM 
 
 The Documents folder of the VM had a set of PDF files that have not yet been encrypted by the WannaCry malware.
 
-image:security-ransomware_image3.png[Error: Missing Graphic Image]
+image:security-ransomware_image3.png[]
 
 The following screenshot shows the CIFS share that was mapped to the VM.
 
-image:security-ransomware_image4.png[Error: Missing Graphic Image]
+image:security-ransomware_image4.png[]
 
 The following screenshot shows the files on the CIFS share `fpolicy_share` that have not yet been encrypted by the WannaCry malware.
 
-image:security-ransomware_image5.png[Error: Missing Graphic Image]
+image:security-ransomware_image5.png[]
 
 == Deduplication and Snapshot information before an attack
 
@@ -49,19 +49,19 @@ The storage efficiency details and size of the Snapshot copy prior to an attack 
 
 Storage savings of 19% were achieved with deduplication on the volume hosting the VM.
 
-image:security-ransomware_image6.png[Error: Missing Graphic Image]
+image:security-ransomware_image6.png[]
 
 Storage savings of 45% were achieved with deduplication on the CIFS share `fpolicy_share`.
 
-image:security-ransomware_image7.png[Error: Missing Graphic Image]
+image:security-ransomware_image7.png[]
 
 A Snapshot copy size of 456KB was observed for the volume hosting the VM.
 
-image:security-ransomware_image8.png[Error: Missing Graphic Image]
+image:security-ransomware_image8.png[]
 
 A Snapshot copy size of 160KB was observed for the CIFS share `fpolicy_share`.
 
-image:security-ransomware_image9.png[Error: Missing Graphic Image]
+image:security-ransomware_image9.png[]
 
 == WannaCry infection on VM and CIFS share
 
@@ -71,11 +71,11 @@ The following steps demonstrate how the WannaCry malware binary was introduced i
 
 . The secured malware was extracted.
 +
-image:security-ransomware_image10.png[Error: Missing Graphic Image]
+image:security-ransomware_image10.png[]
 
 . The binary was executed.
 +
-image:security-ransomware_image11.png[Error: Missing Graphic Image]
+image:security-ransomware_image11.png[]
 
 === Case 1: WannaCry encrypts the file system within the VM and mapped CIFS share
 
@@ -83,11 +83,11 @@ The local file system and the mapped CIFS share were encrypted by the WannaCry m
 
 Malware starts to encrypt files with WNCRY extensions.
 
-image:security-ransomware_image12.png[Error: Missing Graphic Image]
+image:security-ransomware_image12.png[]
 
 The malware encrypts all the files in the local VM and the mapped share.
 
-image:security-ransomware_image13.png[Error: Missing Graphic Image]
+image:security-ransomware_image13.png[]
 
 ==== Detection
 
@@ -95,15 +95,15 @@ From the moment the malware started to encrypt the files, it triggered an expone
 
 We detected a dramatic increase in the Snapshot size to 820.98MB for the volume hosting the CIFS share during the attack.
 
-image:security-ransomware_image14.png[Error: Missing Graphic Image]
+image:security-ransomware_image14.png[]
 
 We detected an increase in the Snapshot copy size to 404.3MB for the volume hosting the VM.
 
-image:security-ransomware_image15.png[Error: Missing Graphic Image]
+image:security-ransomware_image15.png[]
 
 The storage efficiency for the volume hosting the CIFS share decreased to 34%.
 
-image:security-ransomware_image16.png[Error: Missing Graphic Image]
+image:security-ransomware_image16.png[]
 
 ==== Remediation
 
@@ -115,23 +115,23 @@ To restore the VM, complete the following steps:
 
 . Use the Snapshot copy you created with SnapCenter to restore the VM.
 +
-image:security-ransomware_image17.png[Error: Missing Graphic Image]
+image:security-ransomware_image17.png[]
 
 . Select the desired VMware- consistent Snapshot copy for restore.
 +
-image:security-ransomware_image18.png[Error: Missing Graphic Image]
+image:security-ransomware_image18.png[]
 
 . The entire VM is restored and restarted.
 +
-image:security-ransomware_image19.png[Error: Missing Graphic Image]
+image:security-ransomware_image19.png[]
 
 . Click Finish to start the restore process.
 +
-image:security-ransomware_image20.png[Error: Missing Graphic Image]
+image:security-ransomware_image20.png[]
 
 . The VM and its files are restored.
 +
-image:security-ransomware_image21.png[Error: Missing Graphic Image]
+image:security-ransomware_image21.png[]
 
 *Restore CIFS Share*
 
@@ -139,15 +139,15 @@ To restore the CIFS share, complete the following steps:
 
 . Use the Snapshot copy of the volume taken prior to the attack to restore the share.
 +
-image:security-ransomware_image22.png[Error: Missing Graphic Image]
+image:security-ransomware_image22.png[]
 
 . Click OK to initiate the restore operation.
 +
-image:security-ransomware_image23.png[Error: Missing Graphic Image]
+image:security-ransomware_image23.png[]
 
 . View the CIFS share after the restore.
 +
-image:security-ransomware_image24.png[Error: Missing Graphic Image]
+image:security-ransomware_image24.png[]
 
 === Case 2: WannaCry encrypts file system within the VM and tries to encrypt the mapped CIFS share that is protected through FPolicy
 
@@ -168,8 +168,8 @@ With this policy, files with extensions WNCRY, Locky, and ad4c are not allowed t
 
 View the status of files prior to attack—they are unencrypted and in a clean system.
 
-image:security-ransomware_image25.png[Error: Missing Graphic Image]
+image:security-ransomware_image25.png[]
 
 The files on the VM are encrypted. The WannaCry malware tries to encrypt the files in the CIFS share, but FPolicy prevents it from affecting the files.
 
-image:security-ransomware_image26.png[Error: Missing Graphic Image]
+image:security-ransomware_image26.png[]

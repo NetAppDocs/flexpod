@@ -13,7 +13,7 @@ summary: NetApp and Cisco have partnered to provide Cisco Intersight, a single-p
 :imagesdir: ./../media/
 
 In partnership with:
-image:cisco logo.png[Error: Missing Graphic Image]
+image:cisco logo.png[]
 
 == Introduction
 

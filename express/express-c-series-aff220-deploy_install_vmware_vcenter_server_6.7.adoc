@@ -28,7 +28,7 @@ FlexPod Express uses the VMware vCenter Server Appliance (VCSA).
 
 . Download the VCSA. Access the download link by clicking the Get vCenter Server icon when managing the ESXi host.
 +
-image:express-c-series-aff220-deploy_image41.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image41.png[]
 
 . Download the VCSA from the VMware site.
 +
@@ -42,26 +42,26 @@ Although the Microsoft Windows vCenter Server installable is supported, VMware r
 . Accept the end- user license agreement.
 . Select Embedded Platform Services Controller as the deployment type.
 +
-image:express-c-series-aff220-deploy_image42.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image42.png[]
 +
 [NOTE]
 If required, the External Platform Services Controller deployment is also supported as part of the FlexPod Express solution.
 
 . In the Appliance Deployment Target, enter the IP address of an ESXi host you have deployed, and the root user name and root password.
 +
-image:express-c-series-aff220-deploy_image43.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image43.png[]
 
 . Set the appliance VM by entering `VCSA` as the VM name and the root password you would like to use for the VCSA.
 +
-image:express-c-series-aff220-deploy_image44.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image44.png[]
 
 . Select the deployment size that best fits your environment. Click Next.
 +
-image:express-c-series-aff220-deploy_image45.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image45.png[]
 
 . Select the infra_datastore_1 datastore. Click Next.
 +
-image:express-c-series-aff220-deploy_image46.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image46.png[]
 
 . Enter the following information in the Configure network settings page and click Next.
 
@@ -74,14 +74,14 @@ image:express-c-series-aff220-deploy_image46.png[Error: Missing Graphic Image]
 
 . On the Ready to Complete Stage 1 page, verify that the settings you have entered are correct. Click Finish.
 +
-image:express-c-series-aff220-deploy_image47.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image47.png[]
 +
 The VCSA installs now. This process takes several minutes.
 
 . After stage 1 completes, a message appears stating that it has completed. Click Continue to begin stage 2 configuration.
 . On the Stage 2 Introduction page, click Next.
 +
-image:express-c-series-aff220-deploy_image48.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image48.png[]
 
 . Enter `\<<var_ntp_id>>` for the NTP server address. You can enter multiple NTP IP addresses.
 +

@@ -28,7 +28,7 @@ After you acquire a NetApp license file, you can install it with OnCommand Syste
 . Click Choose Files to browse and select a file.
 . Click Add.
 
-image:cloud-fabricpool_image8.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image8.png[]
 
 == License capacity
 
@@ -44,7 +44,7 @@ In OnCommand System Manager, complete the following steps:
 . Click Licenses.
 . Click the Details tab.
 
-image:cloud-fabricpool_image9.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image9.png[]
 
 Maximum capacity and current capacity are listed on the FabricPool License row.
 

@@ -60,7 +60,7 @@ For Cloud Insights to collect data, an organization must deploy an Acquisition U
 
 The following figure shows the solution architecture.
 
-image:cloud-insights_image2.png[Error: Missing Graphic Image]
+image:cloud-insights_image2.png[]
 
 == Hardware requirements
 
@@ -108,6 +108,6 @@ The following table lists the software components that are required to implement
 
 This solution applies to the following use cases:
 
-* Analyzing the environment with data provided to NetApp Active IQ digital advisor for assessment of storage system risks and recommendations for storage optimization.
+* Analyzing the environment with data provided to NetApp Digital Advisor for assessment of storage system risks and recommendations for storage optimization.
 * Troubleshooting problems in the ONTAP storage system deployed in a FlexPod Datacenter solution by examining system statistics in real-time.
 * Generating customized dashboards to easily monitor specific points of interest for ONTAP storage systems deployed in a FlexPod Datacenter converged infrastructure.

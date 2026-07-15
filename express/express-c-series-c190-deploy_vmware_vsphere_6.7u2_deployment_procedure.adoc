@@ -40,7 +40,7 @@ The following steps detail the method for logging in to the CIMC interface for C
 . In the main menu, select the Server tab.
 . Click Launch KVM Console.
 +
-image:express-c-series-c190-deploy_image17.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image17.png[]
 
 . From the virtual KVM console, select the Virtual Media tab.
 . Select Map CD/DVD.
@@ -66,7 +66,7 @@ The following steps describe how to install VMware ESXi on each host.
 . After reading the end-user license agreement, accept it and continue with the installation by pressing F11.
 . Select the NetApp LUN that was previously set up as the installation disk for ESXi, and press Enter to continue with the installation.
 +
-image:express-c-series-c190-deploy_image18.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image18.png[]
 
 . Select the appropriate keyboard layout and press Enter.
 . Enter and confirm the root password and press Enter.
@@ -85,7 +85,7 @@ The following steps describe how to add the management network for each VMware E
 . Select the desired ports for vSwitch0. Press Enter.
 . Select the ports that correspond to eth0 and eth1 in CIMC.
 +
-image:express-c-series-c190-deploy_image19.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image19.png[]
 
 . Select VLAN (optional) and press Enter.
 . Enter the VLAN ID `\<<mgmt_vlan_id>>`. Press Enter.
@@ -175,7 +175,7 @@ To configure iSCSI boot, complete the following steps:
 . Select Networking on the left.
 . On the right, select the Virtual Switches tab.
 +
-image:express-c-series-c190-deploy_image20.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image20.png[]
 
 . Click iScsiBootvSwitch.
 . Select Edit settings.
@@ -204,7 +204,7 @@ Set the MTU to 9000 on iScsiBootPG-A.
 .. Click Edit Settings on iSCSIBootPG-A > Tiering and Failover > Failover Order > Vmnic3. Vmnic3 should be active and vmnic5 should be unused.
 .. Click Edit Settings on iSCSIBootPG-B > Teaming and Failover > Failover order > Vmnic5. Vmnic5 should be active and vmnic3 should be unused.
 +
-image:express-c-series-c190-deploy_image21.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image21.png[]
 
 === Configure iSCSI multipathing
 
@@ -213,17 +213,17 @@ To set up iSCSI multipathing on the ESXi hosts, complete the following steps:
 . Select Storage in the left navigation pane. Click Adapters.
 . Select the iSCSI software adapter and click Configure iSCSI.
 +
-image:express-c-series-c190-deploy_image22.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image22.png[]
 
 . Under Dynamic Targets, click Add Dynamic Target.
 +
-image:express-c-series-c190-deploy_image23.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image23.png[]
 
 . Enter the IP address `iscsi_lif01a`.
 .. Repeat with the IP addresses `iscsi_lif01b`, `iscsi_lif02a`, and `iscsi_lif02b`.
 .. Click Save Configuration.
 +
-image:express-c-series-c190-deploy_image24.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image24.png[]
 +
 [NOTE]
 You can find the iSCSI LIF IP addresses by running the network interface show command on the NetApp cluster or by looking at the Network Interfaces tab in System Manager.
@@ -235,7 +235,7 @@ To configure ESXi boot, complete the following steps:
 . In the left navigation pane, select Networking.
 . Select vSwitch0.
 +
-image:express-c-series-c190-deploy_image25.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image25.png[]
 
 . Select Edit Settings.
 . Change the MTU to 9000.
@@ -251,7 +251,7 @@ To configure the port groups and VMkernel NICs, complete the following steps:
 . In the left navigation pane, select Networking.
 . Right-click the Port Groups tab.
 +
-image:express-c-series-c190-deploy_image26.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image26.png[]
 
 . Right-click VM Network and select Edit. Change the VLAN ID to `\<<var_vm_traffic_vlan>>`.
 . Click Add Port Group.
@@ -261,7 +261,7 @@ image:express-c-series-c190-deploy_image26.png[Error: Missing Graphic Image]
 .. Click save.
 . Click the VMkernel NICs tab.
 +
-image:express-c-series-c190-deploy_image27.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image27.png[]
 
 . Select Add VMkernel NIC.
 .. Select New Port Group.
@@ -285,7 +285,7 @@ image:express-c-series-c190-deploy_image27.png[Error: Missing Graphic Image]
 .. Enter `\<<var_hosta_vmotion_mask>>` for Subnet Mask.
 .. Make sure that the vMotion checkbox is selected after IPv4 Settings.
 +
-image:express-c-series-c190-deploy_image28.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image28.png[]
 +
 [NOTE]
 There are many ways to configure ESXi networking, including by using the VMware vSphere distributed switch if your licensing allows it. Alternative network configurations are supported in FlexPod Express if they are required to meet business requirements.
@@ -296,11 +296,11 @@ The first datastores to be mounted are the `infra_datastore` datastore for VMs a
 
 . Click Storage in the left navigation pane, and then click New Datastore.
 +
-image:express-c-series-c190-deploy_image29.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image29.png[]
 
 . Select Mount NFS Datastore.
 +
-image:express-c-series-c190-deploy_image30.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image30.png[]
 
 . Enter the following information in the Provide NFS Mount Details page:
 
@@ -327,7 +327,7 @@ To configure NTP for an ESXi host, complete the following steps:
 . Enter `\<<var_ntp>>` as the NTP server. You can set multiple NTP servers.
 . Click Save.
 +
-image:express-c-series-c190-deploy_image31.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image31.png[]
 
 === Move the VM swap file location
 
@@ -335,11 +335,11 @@ These steps provide details for moving the VM swap file location.
 
 . Click Manage in the left navigation pane. Select system in the right pane, then click Swap.
 +
-image:express-c-series-c190-deploy_image32.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image32.png[]
 
 . Click Edit Settings. Select `infra_swap` from the Datastore options.
 +
-image:express-c-series-c190-deploy_image33.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image33.png[]
 
 . Click Save.
 
