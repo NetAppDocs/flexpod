@@ -3,7 +3,6 @@ title: Hybrid Cloud
 entries:
 
   - title: FlexPod Hybrid Cloud with Cloud Volumes ONTAP for Epic
-    type: solutions
     entries:
       - title: Solution Overview
         url: /hybrid-cloud/fhc-cvoe-solution-overview.html
@@ -21,7 +20,6 @@ entries:
         url: /hybrid-cloud/fhc-cvoe-where-to-find-additional-information.html
 
   - title: FlexPod Hybrid Cloud for Google Cloud Platform with NetApp Cloud Volumes ONTAP and Cisco Intersight
-    type: solutions
     entries:
       - title: Solution overview
         url: /hybrid-cloud/gcp-ncvo-solution-overview.html
@@ -49,7 +47,6 @@ entries:
         url: /hybrid-cloud/gcp-ncvo-conclusion.html
 
   - title: NetApp Cloud Insights for FlexPod
-    type: solutions
     entries:
       - title: Overview
         url: /hybrid-cloud/cloud-insights_netapp_cloud_insights_for_flexpod.html
@@ -69,7 +66,6 @@ entries:
         url: /hybrid-cloud/cloud-insights_additional_information.html
 
   - title: FlexPod with FabricPool - Inactive Data Tiering to Amazon AWS S3
-    type: solutions
     entries:
       - title: Overview
         url: /hybrid-cloud/cloud-fabricpool_introduction.html
