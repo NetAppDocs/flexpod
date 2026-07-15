@@ -36,26 +36,26 @@ To download the VMware vCenter Server Appliance (VCSA), complete the following s
 . Click Install.
 . Click Next on the Introduction page.
 +
-image:express-c-series-c190-deploy_image34.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image34.png[]
 
 . Select Embedded Platform Services Controller as the deployment type.
 +
-image:express-c-series-c190-deploy_image35.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image35.png[]
 +
 [NOTE]
 If required, the External Platform Services Controller deployment is also supported as part of the FlexPod Express solution.
 
 . In the Appliance Deployment Target, enter the IP address of an ESXi host that you have deployed, the root user name, and the root password.
 +
-image:express-c-series-c190-deploy_image36.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image36.png[]
 
 . Set the appliance VM by entering VCSA as the VM name and the root password that you would like to use for the VCSA.
 +
-image:express-c-series-c190-deploy_image37.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image37.png[]
 
 . Select the deployment size that best fits your environment. Click Next.
 +
-image:express-c-series-c190-deploy_image38.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image38.png[]
 
 . Select the `infra_datastore` datastore. Click Next.
 . Enter the following information in the Configure network settings page and click Next.
@@ -67,36 +67,36 @@ image:express-c-series-c190-deploy_image38.png[Error: Missing Graphic Image]
 .. Enter the DNS server.
 . On the Ready to Complete Stage 1 page, verify that the settings you have entered are correct. Click Finish.
 +
-image:express-c-series-c190-deploy_image39.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image39.png[]
 
 . Review your settings on stage 1 before starting the appliance deployment.
 +
-image:express-c-series-c190-deploy_image40.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image40.png[]
 +
 The VCSA installs now. This process takes several minutes.
 
 . After stage 1 completes, a message appears stating that it has completed. Click Continue to begin stage 2 configuration.
 . On the Stage 2 Introduction page, click Next.
 +
-image:express-c-series-c190-deploy_image41.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image41.png[]
 
 . Enter `\<<var_ntp_id>>` for the NTP server address. You can enter multiple NTP IP addresses.
 . If you plan to use vCenter Server high availability (HA), make sure that SSH access is enabled.
 . Configure the SSO domain name, password, and site name. Click Next.
 +
-image:express-c-series-c190-deploy_image42.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image42.png[]
 +
 [NOTE]
 Record these values for your reference, especially if you deviate from the `vsphere.local` domain name.
 
 . Join the VMware Customer Experience Program if desired. Click Next.
 +
-image:express-c-series-c190-deploy_image43.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image43.png[]
 
 . View the summary of your settings. Click Finish or use the back button to edit settings.
 . A message appears stating that you will not be able to pause or stop the installation from completing after it has started. Click OK to continue.
 +
-image:express-c-series-c190-deploy_image44.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image44.png[]
 +
 The appliance setup continues. This takes several minutes.
 +

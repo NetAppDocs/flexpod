@@ -60,7 +60,7 @@ For Cloud Insights to collect data, an organization must deploy an Acquisition U
 
 The following figure shows the solution architecture.
 
-image:cloud-insights_image2.png[Error: Missing Graphic Image]
+image:cloud-insights_image2.png[]
 
 == Hardware requirements
 

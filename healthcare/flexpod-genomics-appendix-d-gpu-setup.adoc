@@ -31,9 +31,9 @@ Here is a set of key takeaways during this setup:
 
 . We used a PCIe NVIDIA Tesla P6 GPU in a mezzanine slot in the UCS B200 M5 servers.
 +
-image:flexpod-genomics-image18.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image18.png[]
 +
-image:flexpod-genomics-image19.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image19.png[]
 
 . For this setup, we registered on the NVIDIA partner portal and obtained an evaluation license (also known as an entitlement) to be able to use the GPUs in compute mode.
 . We downloaded the NVIDIA vGPU software required from the NVIDIA partner website.
@@ -80,27 +80,27 @@ Wed Aug 18 21:37:19 2021
 
 . Using vCenter, https://blogs.vmware.com/apps/2018/09/using-gpus-with-virtual-machines-on-vsphere-part-2-vmdirectpath-i-o.html[configure^] the graphics device settings to “Shared Direct.”
 +
-image:flexpod-genomics-image20.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image20.png[]
 +
-image:flexpod-genomics-image21.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image21.png[]
 
 . Make sure that secure boot is disabled for the RedHat VM.
 . Make sure that the VM Boot Options firmware is set to EFI ( https://docs.vmware.com/en/VMware-vSphere-Bitfusion/3.0/Install-Guide/GUID-2005A8C6-4FDC-46DF-BB6B-989F6E91F3E2.html[ref^]).
 +
-image:flexpod-genomics-image22.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image22.png[]
 
 . Make sure that the following PARAMS are added to the VM Options advanced Edit Configuration. The value of the `pciPassthru.64bitMMIOSizeGB` parameter depends on the GPU memory and number of GPUs assigned to the VM. For example:
 .. If a VM is assigned 4 x 32GB V100 GPUs, then this value should be 128.
 .. If a VM is assigned 4 x 16GB P6 GPUs, then this value should be 64.
 +
-image:flexpod-genomics-image23.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image23.png[]
 +
-image:flexpod-genomics-image24.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image24.png[]
 
 . When adding vGPUs as a new PCI Device to the virtual machine in vCenter, make sure to select NVIDIA GRID vGPU as the PCI Device type.
 . Choose the correct GPU profile that suites the GPU being used, the GPU memory, and the usage purpose: for example, graphics versus compute.
 +
-image:flexpod-genomics-image25.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image25.png[]
 
 . On the RedHat Linux VM, NVIDIA drivers can be installed by running the following command:
 +
@@ -161,7 +161,7 @@ Wed Aug 18 20:30:56 2021
 
 . After restarting the VM,  you should see an entry under Licensed Clients in the license server as shown below.
 +
-image:flexpod-genomics-image26.png[Error: Missing Graphic Image]
+image:flexpod-genomics-image26.png[]
 
 . Refer to the Solutions Setup section for more information on downloading the GATK and Cromwell software.
 . After GATK can use GPUs on premises,  the workflow description language `*. wdl` has the runtime attributes as shown below.

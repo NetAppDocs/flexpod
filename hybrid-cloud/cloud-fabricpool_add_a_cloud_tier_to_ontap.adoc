@@ -44,7 +44,7 @@ In the Container Name field, enter the object store's bucket or container name.
 
 . Click Save and Attach Aggregates.
 
-image:cloud-fabricpool_image13.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image13.png[]
 
 == ONTAP CLI
 

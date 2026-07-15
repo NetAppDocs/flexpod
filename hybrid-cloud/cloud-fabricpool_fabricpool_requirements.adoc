@@ -76,7 +76,7 @@ FabricPool read latency is a function of connectivity to the cloud tier. Intercl
 [NOTE]
 When using FabricPool in low-performance environments, minimum performance requirements for client applications must continue to be met, and recovery time objectives should be adjusted accordingly.
 
-image:cloud-fabricpool_image6.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image6.png[]
 
 === Object store profiler
 
@@ -99,7 +99,7 @@ storage aggregate object-store profiler show
 
 Cloud tiers do not provide performance similar to that found on the performance tier (typically GB per second). Although FabricPool aggregates can easily provide SATA-like performance, they can also tolerate latencies as high as 10 seconds and low throughput for tiering solutions that do not require SATA-like performance.
 
-image:cloud-fabricpool_image7.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image7.png[]
 
 == Volumes
 

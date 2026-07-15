@@ -64,7 +64,7 @@ As previously discussed, the primary use case for FabricPool is to facilitate th
 
 The Snapshot-Only tiering policy, illustrated in the following figure, moves cold volume snapshot data and SnapCenter for vSphere backups of VMs that are occupying space but are not sharing blocks with the active file system into a cloud object store. The Snapshot-Only tiering policy moves cold data blocks to the cloud tier. If a restore is required, cold blocks in the cloud are made hot and moved back to the performance flash tier on the premises.
 
-image:cloud-fabricpool_image4.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image4.png[]
 
 === Auto tiering policy
 
@@ -75,7 +75,7 @@ When using the Auto tiering policy, infrequently accessed blocks that are made h
 [NOTE]
 The object store profiler should be used to test latency and throughput to the object store before attaching it to a FabricPool aggregate.
 
-image:cloud-fabricpool_image5.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image5.png[]
 
 === All tiering policy
 
