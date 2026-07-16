@@ -21,7 +21,7 @@ NetApp storage controllers provide the storage foundation in the FlexPod archite
 Redundant NetApp FAS, AFF, ASA or AFX controllers are required in the FlexPod architecture. The controllers run ONTAP software. When the storage controllers are ordered, the preferred software version can be preloaded on the controllers. For ONTAP, a complete cluster is ordered. A complete cluster includes a pair of storage controllers and a cluster interconnect (switch or switchless).
 
 [NOTE]
-A switchless cluster configuration is supported only for a two node configuration. Cluster interconnect switches are required for configurations with more than 4 nodes, and is optional for a two node configuration. 
+A switchless cluster configuration is supported only for a two node configuration. Cluster interconnect switches are required for configurations with 4 or 4 nodes, and are optional for a two node configuration. 
 
 Different options and configurations are available, depending on the selected storage platform. Consult your sales representative for details about these additional components.
 
@@ -79,7 +79,7 @@ A minimum of one NetApp disk shelf is required for the storage controllers that 
 For all disk shelves and disk part numbers, consult your sales representative.
 
 
-The following table lists the NetApp disk shelf options for FlexPod Express along with links to its technical specifications. 
+The following table lists the NetApp disk shelf options for FlexPod Datacenter along with links to its technical specifications. 
 
 To get the list of supported drives for your disk shelf, go to link:https://hwu.netapp.com/DetailViews/Home.aspx[NetApp Hardware Universe^], under *Products > Storage > Shelves* select *ONTAP (AFF, ASA, FAS) or ONTAP (AFX)* , select the version of ONTAP you are using, then select the shelf type (example: *DS212C*) and click on *Show Results*. Click on *Supported Drives* to see the drives supported for specific versions of ONTAP and the disk shelves.
 
@@ -112,7 +112,7 @@ Refer to this link for more information about NetApp software licensing: https:/
 
 == NetApp Support licensing options
 
-SupportEdge Premium licenses are required, and the part numbers for those licenses vary based on the options selected in the FlexPod Express design.
+SupportEdge Premium licenses are required, and the part numbers for those licenses vary based on the options selected in the FlexPod Datacenter design.
 
 The following table lists the NetApp support licensing options for NetApp AFF, ASA, FAS and AFX Storage systems.
 

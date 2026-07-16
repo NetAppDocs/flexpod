@@ -97,7 +97,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x410c-m8-compute-node-ds.html[Cisco UCS X410c M8 Compute Node]
 |===
 
-The below table list the PCI Express Nodes available for the Cisco UCS X-Series chassis.
+The below table lists the PCI Express Nodes available for the Cisco UCS X-Series chassis.
 
 |===
 |Cisco UCS X-Series PCIe nodes |Part number |Technical specifications
@@ -243,7 +243,6 @@ https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-swi
 |Cisco Nexus 9800 series switch
 |
 https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus9800-series-switches-ds.html?ccid=cc002962&oid=dstdnc029386[Cisco Nexus 9800 Series Switches]
-|
 |===
 
 == Cisco APIC options

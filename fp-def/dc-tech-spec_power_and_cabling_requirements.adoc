@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: fp-def/dc-tech-spec_power_and_cabling_requirements.html
 keywords: power, cabling, requirements, flexpod, datacenter, netapp, cisco, ucs, disk shelves
-summary: This section describes the power requirements and disk shelves cabling guidelines for a FlexPod Datacenter design.
+summary: This section describes the power requirements and disk shelf cabling guidelines for a FlexPod Datacenter design.
 ---
 
 = Power and cabling guidelines
@@ -14,7 +14,7 @@ summary: This section describes the power requirements and disk shelves cabling 
 
 
 [.lead]
-This section describes the power requirements and  cabling guidelines for a FlexPod Datacenter design.
+This section describes the power requirements and cabling guidelines for a FlexPod Datacenter design.
 
 == Power requirements
 
@@ -43,7 +43,7 @@ The following table provides cabling guidelines for NetApp disk shelves that can
 |DS224C
 |DS460C
 |NS224
-.3+|link:https://docs.netapp.com/us-en/ontap-systems/drive-shelves/index.html[NS224 and NX224 shelf requirements and  best practices^]
+.3+|link:https://docs.netapp.com/us-en/ontap-systems/drive-shelves/index.html[NS224 and NX224 shelf requirements and best practices^]
 |NS224 w/NSM100B
 |NX224
 |===
