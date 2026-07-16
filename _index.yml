@@ -12,3 +12,10 @@ indexpage:
           url: https://www.netapp.com/video/search/#q=flexpod&t=Videos&sort=%40videopublisheddate_mktg%20descending&layout=card
         - title: "Blogs"
           url: https://www.netapp.com/blog/#q=flexpod&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card
+
+    - title: FlexPod Design Guides
+      links:
+        - title: "FlexPod Validated Design Guides"
+          url: https://www.netapp.com/flexpod/validated-designs/
+        - title: "FlexPod Design Guides"
+          url: https://www.cisco.com/c/en/us/solutions/design-zone/data-center-design-guides/flexpod-design-guides.html
