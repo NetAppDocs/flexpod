@@ -7,46 +7,22 @@ indexpage:
     - title: FlexPod - Start Here
       links:
         - title: "What's New"
-          url: https://fieldportal.netapp.com/s/informationpage?flexpod
+          url: https://www.netapp.com/flexpod/
         - title: "Videos and Demos"
-          url: https://media.netapp.com/search?q=FlexPod
+          url: https://www.netapp.com/video/search/#q=flexpod&t=Videos&sort=%40videopublisheddate_mktg%20descending&layout=card
         - title: "Blogs"
-          url: https://blog.netapp.com/tag/Flexpod/
+          url: https://www.netapp.com/blog/#q=flexpod&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card
 
-    - title: AI and Modern Data Analytics with FlexPod
+    - title: FlexPod Design Guides
       links:
-        - title: "What's New"
-          url: https://www.flexpod.com/solutions/use-cases/machine-learning/
-        - title: "Videos and Demos"
-          url: https://media.netapp.com/search?q=FlexPod%20AI
-        - title: "Blogs"
-          url: https://blog.netapp.com/tag/Flexpod/
+        - title: "FlexPod Validated Design Guides"
+          url: https://www.netapp.com/flexpod/validated-designs/
+        - title: "FlexPod Design Guides"
+          url: https://www.cisco.com/c/en/us/solutions/design-zone/data-center-design-guides/flexpod-design-guides.html
 
-    - title: FlexPod Business Applications and Enterprise Databases
+    - title: FlexPod Technical Specifications
       links:
-        - title: "Blogs"
-          url: https://blog.netapp.com/tag/Flexpod/
-
-    - title: Hybrid Cloud with FlexPod
-      links:
-        - title: "What's New"
-          url: https://flexpod.com/solutions/use-cases/hybrid-cloud/
-        - title: "Videos and Demos"
-          url: https://media.netapp.com/search?q=FlexPod%20Hybrid%20Cloud
-        - title: "Blogs"
-          url: https://blog.netapp.com/tag/Flexpod/
-
-    - title: FlexPod for VDI
-      links:
-        - title: "What's New"
-          url: https://www.flexpod.com/solutions/use-cases/virtual-desktop-infrastructure/
-        - title: "Blogs"
-          url: https://blog.netapp.com/tag/Flexpod/
-
-    - title: Healthcare with FlexPod
-      links:
-        - title: "What's New"
-          url: https://flexpod.com/solutions/verticals/healthcare/
-        - title: "Blogs"
-          url: https://blog.netapp.com/tag/Healthcare/
-          
+        - title: "FlexPod Express Technical Specifications"
+          url: /fp-def/fp-express-tech-spec_overview.html
+        - title: "FlexPod Datacenter Technical Specifications"
+          url: /fp-def/dc-tech-spec_solution_overview.html
