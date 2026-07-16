@@ -14,7 +14,7 @@ summary: A FlexPod architecture has the following additional interoperability an
 
 
 [.lead]
-Additional requirements for FlexPod Express include the following:
+Additional requirements for FlexPod Datacenter include the following:
 
 * If you plan to use VMware ESXi as the hypervisor, refer to the link:https://compatibilityguide.broadcom.com/[Broadcom Compatibility Guide] to verify that your hardware and software components are supported.
 
