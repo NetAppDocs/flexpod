@@ -2,7 +2,6 @@ section: infrastructure
 title: Infrastructure
 entries:
   - title: End-to-End NVMe for FlexPod with Cisco UCSM, VMware vSphere 7.0, and NetApp ONTAP 9
-    type: solutions
     entries:
       - title: Introduction
         url: /infrastructure/nvme-vsphere-introduction.html

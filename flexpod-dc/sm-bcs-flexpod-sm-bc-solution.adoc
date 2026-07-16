@@ -34,7 +34,7 @@ The two FlexPod sites require network connectivity which meets the solution band
 
 The NetApp ONTAP SM-BC solution provides synchronous replication between the two NetApp storage clusters for high availability and disaster recovery in a campus or metropolitan area. The ONTAP Mediator deployed at a third site monitors the solution and enables automated failover in case of a site disaster. The following figure provides a high-level view of the solution components.
 
-image:sm-bcs-image4.png[Error: Missing Graphic Image]
+image:sm-bcs-image4.png[]
 
 With the FlexPod SM-BC solution, you can deploy a VMware vSphere-based private cloud on a distributed and yet integrated infrastructure. The integrated solution enables multiple sites to be coordinated as a single solution infrastructure to protect data services from a variety of single-point-of-failure scenarios and a complete site failure.
 
@@ -61,7 +61,7 @@ The Cisco UCS is an integrated computing infrastructure to provide unified compu
 
 The following figure shows some examples of the UCS server components, including UCS C- Series rack servers, UCS 5108 chassis with B-Series blade servers, and the new UCS X9508 chassis with X-Series compute nodes. The Cisco UCS C-Series rack servers are available in one and two rack-unit (RU) form factor, Intel and AMD CPU based models, and with various CPU speeds and cores, memory, and I/O options. The Cisco UCS B-Series blade servers and the new X-Series compute nodes are also available with various CPU, memory, and I/O options, and they are all supported in the FlexPod architecture to meet the diverse business requirements.
 
-image:sm-bcs-image5.png[Error: Missing Graphic Image]
+image:sm-bcs-image5.png[]
 
 In addition to the latest generation C220/C225/C240/C245 M6 rack servers, B200 M6 blade servers, and X210c compute nodes shown in this figure, prior generations of rack and blade servers can also be used if they are still supported.
 
@@ -75,7 +75,7 @@ The UCSX 9108 25G IFM has eight 25-G unified Ethernet ports for connecting the b
 
 The following figure depicts the UCS 2408 and earlier IOM generations for the UCS 5108 chassis and the 9108 IFM for the X9508 chassis.
 
-image:sm-bcs-image6.png[Error: Missing Graphic Image]
+image:sm-bcs-image6.png[]
 
 ==== UCS Fabric Interconnects
 
@@ -83,7 +83,7 @@ The Cisco UCS Fabric Interconnects (FIs) provide connectivity and management for
 
 There are two variants for the fourth-generation Cisco UCS FIs:  UCS FI 6454 and 64108. They include support for 10/25 Gbps Ethernet ports, 1/10/25-Gbps Ethernet ports, 40/100-Gbps Ethernet up-link ports, and unified ports that can support 10/25 Gigabit Ethernet or 8/16/32-Gbps Fibre Channel. The following figure shows the fourth-generation Cisco UCS FIs along with the third-generation models that are also supported.
 
-image:sm-bcs-image7.png[Error: Missing Graphic Image]
+image:sm-bcs-image7.png[]
 
 [NOTE]
 To support the Cisco UCS X-Series chassis, fourth-generation fabric interconnects configured in Intersight Managed Mode (IMM) are required. However, the Cisco UCS 5108 B-series chassis can be supported both in IMM mode and in UCSM managed mode.
@@ -95,7 +95,7 @@ The UCS FI 6324 uses the IOM form factor and is embedded in a UCS Mini chassis f
 
 Cisco UCS Virtual Interface Cards (VICs) unify system management and LAN and SAN connectivity for rack and blade servers. It supports up to 256 virtual devices, either as virtual Network Interface Cards (vNICs) or as virtual Host Bus Adapters (vHBAs) using the Cisco SingleConnect technology. As a result of virtualization, the VIC cards greatly simplify the network connectivity and reduce the number of network adapters, cables, and switch ports needed for solution deployment. The following figure shows some of the Cisco UCS VICs available for the B-Series and C-Series servers and the X-Series compute nodes.
 
-image:sm-bcs-image8.png[Error: Missing Graphic Image]
+image:sm-bcs-image8.png[]
 
 The different adapter models support different blade and rack servers with different port counts, port speeds, and form factors of modular LAN on Motherboard (mLOM), mezzanine cards, and PCIe interfaces. The adapters can support some combinations of 10/25/40/100-G Ethernet and Fibre Channel over Ethernet (FCoE). They incorporate Cisco’s Converged Network Adapter (CNA) technology, support a comprehensive feature set, and simplify adapter management and application deployment. For example, the VIC supports Cisco’s Data Center Virtual Machine Fabric Extender (VM-FEX) technology, which extends the Cisco UCS fabric interconnect ports to virtual machines, thus simplifying server virtualization deployment.
 
@@ -113,7 +113,7 @@ When selecting a switch model for FlexPod deployment, there are many factors to 
 
 The validation for many recent FlexPod CVDs uses Cisco Nexus 9000 series switches such as the Nexus 9336C-FX2 and the Nexus 93180YC-FX3, which deliver high performance 40/100G and 10//25G ports, low latency, and exceptional power efficiency in a compact 1U form factor. Additional speeds are supported via uplink ports and breakout cables. The following figure shows a few Cisco Nexus 9k and 3k switches, including the Nexus 9336C-FX2 and the Nexus 3232C used for this validation.
 
-image:sm-bcs-image9.png[Error: Missing Graphic Image]
+image:sm-bcs-image9.png[]
 
 See https://www.cisco.com/c/en/us/products/switches/data-center-switches/index.html[Cisco Data Center Switches^] for more information on the available Nexus switches and their specifications and documentations.
 
@@ -121,7 +121,7 @@ See https://www.cisco.com/c/en/us/products/switches/data-center-switches/index.h
 
 The Cisco MDS 9100/9200/9300 Series Fabric switches are an optional component in the FlexPod architecture. These switches are highly reliable, highly flexible, secure, and can provide visibility into the traffic flow in the fabric. The following figure shows some example MDS switches that can be used to build redundant FC SAN fabrics for a FlexPod solution to meet application and business requirements.
 
-image:sm-bcs-image10.png[Error: Missing Graphic Image]
+image:sm-bcs-image10.png[]
 
 Cisco MDS 9132T/9148T/9396T high performance 32G Multilayer Fabric Switches are cost effective and are highly reliable, flexible, and scalable. The advanced storage networking features and functions come with ease of management and are compatible with the entire Cisco MDS 9000 family portfolio for a reliable SAN implementation.
 
@@ -141,7 +141,7 @@ NetApp AFF and ASA storage controllers also provide a hybrid-cloud foundation fo
 
 As shown in the following figure, NetApp offers a variety of storage controllers and disk shelves to meet your performance and capacity requirements. See the following table for links to product pages for information about the NetApp AFF and ASA controller capabilities and specifications.
 
-image:sm-bcs-image11.png[Error: Missing Graphic Image]
+image:sm-bcs-image11.png[]
 
 |===
 |Product family |Technical specifications
@@ -158,23 +158,23 @@ Consult the https://www.netapp.com/data-storage/disk-shelves-storage-media/[NetA
 
 FlexPod solutions are flexible in topology and can be scaled up or scaled out to meet different solution requirements. A solution that requires business continuity protection and only minimum compute and storage resources can use a simple solution topology, as illustrated in the following figure. This simple topology uses the UCS C-Series rack servers and AFF/ASA controllers with SSDs in the controller without additional disk shelves.
 
-image:sm-bcs-image12.png[Error: Missing Graphic Image]
+image:sm-bcs-image12.png[]
 
 The redundant compute, network, and storage components are interconnected with redundant connectivity between the components. This highly available design provides solution resiliency and enables it to withstand single-point-of-failure scenarios. The multi-site design and ONTAP SM-BC synchronous data replication relationships provide business-critical data services despite the potential for single-site storage failure.
 
 An asymmetric deployment topology that could be used by companies between a data center and a branch office in a metropolitan area might look like the following figure. For this asymmetric design, the data center requires a higher performance FlexPod with more compute and storage resources. However, the branch office requirement is less and can be met by a much smaller FlexPod.
 
-image:sm-bcs-image13.png[Error: Missing Graphic Image]
+image:sm-bcs-image13.png[]
 
 For companies with greater compute and storage resource requirements and multiple sites, a VXLAN-based multi-site fabric allows the multiple sites to have a seamless network fabric to facilitate application mobility so an application can be served from any site.
 
 There might be an existing FlexPod solution using the Cisco UCS 5108 chassis and B-Series blade servers that must be protected by a new FlexPod instance. The new FlexPod instance can use the latest UCS X9508 chassis with X210c compute nodes managed by Cisco Intersight, as shown in the following figure. In this case, the FlexPod systems at each site are connected to a larger data center fabric, and the sites are connected through an interconnect network to form a VXLAN multi-site fabric.
 
-image:sm-bcs-image14.png[Error: Missing Graphic Image]
+image:sm-bcs-image14.png[]
 
 For companies that have a datacenter and several branch offices in a metro area that all need to be protected to provide business continuity, the FlexPod SM-BC deployment topology shown in the following figure can be implemented to protect critical application and data services to achieve zero RPO and near zero RTO objectives for all branch sites.
 
-image:sm-bcs-image15.png[Error: Missing Graphic Image]
+image:sm-bcs-image15.png[]
 
 For this deployment model, each branch office establishes the SM-BC relationships and consistency groups it requires with the datacenter. You must take into account the supported SM-BC object limits, so the overall consistency group relationships and endpoint counts do not exceed the supported maximums at the datacenter.
 

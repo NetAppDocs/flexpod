@@ -45,7 +45,7 @@ To change a volume’s tiering policy by using OnCommand System Manager, complet
 . Select the tiering policy to apply to the volume.
 . Click Save.
 +
-image:cloud-fabricpool_image16.png[Error: Missing Graphic Image]
+image:cloud-fabricpool_image16.png[]
 
 == ONTAP CLI
 

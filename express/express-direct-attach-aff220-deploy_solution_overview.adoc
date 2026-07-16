@@ -33,7 +33,7 @@ As depicted in the figure below, the FlexPod program includes three solutions: F
 
 The following figure shows the technical components of the solution.
 
-image:express-direct-attach-aff220-deploy_image2.png[Error: Missing Graphic Image]
+image:express-direct-attach-aff220-deploy_image2.png[]
 
 == NetApp Verified Architecture Program
 
@@ -67,7 +67,7 @@ This solution leverages the latest technologies from NetApp, Cisco, and VMware. 
 
 The following figure illustrates FlexPod Express with VMware vSphere 6.7U1 IP-Based Direct Connect architecture.
 
-image:express-direct-attach-aff220-deploy_image3.png[Error: Missing Graphic Image]
+image:express-direct-attach-aff220-deploy_image3.png[]
 
 == Use case summary
 
