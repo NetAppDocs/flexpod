@@ -1,25 +1,20 @@
 ---
 sidebar: sidebar
 permalink: fp-def/dc-tech-spec_power_and_cabling_requirements.html
-keywords: power, cabling, requirements, minimum, techincal, datacenter, specifications
-summary: A FlexPod design has minimum requirements for power and cabling.
+keywords: power, cabling, requirements, flexpod, datacenter, netapp, cisco, ucs, disk shelves
+summary: This section describes the power requirements and disk shelves cabling guidelines for a FlexPod Datacenter design.
 ---
 
-= Power and cabling requirements
+= Power and cabling guidelines
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-06-03 13:02:39.868050
-//
 
 [.lead]
-A FlexPod design has minimum requirements for power and cabling.
+This section describes the power requirements and  cabling guidelines for a FlexPod Datacenter design.
 
 == Power requirements
 
@@ -29,60 +24,26 @@ For more data about the maximum power that is required and for other detailed po
 
 For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS power calculator^].
 
-For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under Platforms, select the storage platform that you want to use in the configuration (FAS/V-Series or AFF). Select the ONTAP version and storage controller, and then click the Show Results button.
+For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A20), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section and For details on size, weight ,wattage etc. refer to the *Size, Weight, Acoustic, Power* section. 
 
-== Minimum cable requirements
+== Cabling guidelines
 
-The number and type of cables and adapters that are required vary per FlexPod Datacenter deployment. The cable type, transceiver type, and number are determined during the design process based on your requirements. The table below lists the minimum number of cables required.
+This section provides general cabling guidelines for a FlexPod Datacenter design.
+
+* Ensure redundant connectivity for the compute and storage connections. 
+* The speed of the connections needs to be compatible with the connected components.
+* Refer to the link:https://docs.netapp.com/us-en/flexpod/fp-def/dc-tech-spec_topologies.html[FlexPod Datacenter topologies^] section for additional cabling guidelines for specific topologies.
+
+The following table provides cabling guidelines for NetApp disk shelves that can be used in a FlexPod Datacenter design.
 
 |===
-|Hardware |Model number |Cables required
-
-|Cisco UCS chassis
-|Cisco UCS 5108
-|At least two twinaxial cables per Cisco UCS 2104XP, 2204XP, or 2208XP module
-.6+|Cisco UCS Fabric Interconnects
-|Cisco UCS 6248UP
-.4+a|
-* Two Cat5e cables for management ports
-* Two Cat5e cables for the L1, L2 interconnects, per pair of fabric interconnects
-* At least four twinaxial cables per fabric interconnect
-* At least four FC cables per fabric interconnect
-|Cisco UCS 6296UP
-|Cisco UCS 6332-16UP
-|Cisco UCS 6454
-|Cisco UCS 6332
-a|
-* Two Cat5e cables for management ports
-* Two Cat5e cables for the L1, L2 interconnects, per pair of fabric interconnects
-* At least four twinaxial cables per fabric interconnect
-|Cisco UCS 6324
-a|
-* Two 10/100/1000Mbps management ports
-* At least two twinaxial cables per fabric interconnect
-.2+|Cisco Nexus 5000 and 7000 Series Switches
-|Cisco Nexus 5000 Series
-.2+a|
-* At least two 10GbE fiber or twinaxial cables per switch
-* At least two FC cables per switch (if FC/FCoE connectivity is required)
-|Cisco Nexus 7000 Series
-|Cisco Nexus 9000 Series Switches
-|Cisco Nexus 9000 Series
-|At least two 10GbE cables per switch
-.2+|NetApp FAS controllers
-|AFF A-Series
-.2+a|
-* A pair of SAS or SATA cables per storage controller
-* At least two FC cables per controller, if using legacy FC
-* At least two 10GbE cables per controller
-* At least one GbE cable for management per controller
-* For ONTAP, eight short twinaxial cables are required per pair of cluster interconnect switches
-|FAS Series
-.4+|NetApp disk shelves
+|Disk shelf |Cabling guidelines
 |DS212C
-.3+|Two SAS, SATA, or FC cables per disk shelf
+.3+|link:https://docs.netapp.com/us-en/ontap-systems/sas3/install-cabling-rules.html#configuration-rules[SAS cabling rules^]
 |DS224C
 |DS460C
 |NS224
-|Two 100Gbps copper cables per disk shelf
+.3+|link:https://docs.netapp.com/us-en/ontap-systems/drive-shelves/index.html[NS224 and NX224 shelf requirements and  best practices^]
+|NS224 w/NSM100B
+|NX224
 |===
