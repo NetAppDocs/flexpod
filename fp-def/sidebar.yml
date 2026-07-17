@@ -49,7 +49,7 @@ entries:
         url: /fp-def/dc-tech-spec_flexpod_platforms.html
       - title: FlexPod rules
         url: /fp-def/dc-tech-spec_flexpod_rules.html
-      - title: Supported Versus Validated FlexPod Configurations
+      - title: Supported versus validated FlexPod configurations
         url: /fp-def/dc-tech-spec_supported_versus_validated_flexpod_configurations.html
       - title: NetApp ONTAP
         url: /fp-def/dc-tech-spec_netapp_ontap.html
@@ -73,7 +73,7 @@ entries:
         url: /fp-def/dc-tech-spec_power_and_cabling_requirements.html
       - title: Technical specifications and references
         url: /fp-def/dc-tech-spec_technical_specifications_and_references.html
-      - title: Equipment Support Status
+      - title: Equipment support status
         url: /fp-def/dc-tech-spec_equipment_support_status.html
       - title: Where to find additional Information
         url: /fp-def/dc-tech-spec_where_to_find_additional_information.html

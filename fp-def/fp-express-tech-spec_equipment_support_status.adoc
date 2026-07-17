@@ -5,7 +5,7 @@ keywords: equipment, support status, end of life, end of support, verification
 summary: This section explains how to verify equipment support status for Cisco and NetApp components.
 ---
 
-= Equipment Support Status
+= Equipment support status
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -23,7 +23,7 @@ Additionally, FlexPod Express architectures are periodically refreshed to introd
 
 Before deploying or maintaining FlexPod Express equipment, verify that all components remain supported by the vendor. This section explains how to check End-of-Sale and End-of-Support information for Cisco and NetApp components.
 
-== Checking NetApp Equipment Support
+== Checking NetApp equipment support
 
 NetApp provides support information through the Hardware Universe (HWU).
 
@@ -38,17 +38,17 @@ To view all platforms, change the *Platform Lifecycle* filter to *Show All*. By 
 * Review the results for the end-of-support dates for your equipment under the *System Availability and Support* section.
 
 
-== Checking Cisco Equipment Support
+== Checking Cisco equipment support
 
 Cisco provides End-of-Sale  and End-of-Support dates on the Cisco product support pages.
 
-==== Cisco UCS Severs End-of-Sale and End-of-Support Information
+==== Cisco UCS servers end-of-sale and end-of-support information
 
 * Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page].
 * Under *Product Categories* select *Servers - UCS and HCI* and click on your server type (example: *UCS C-Series Rack Servers*). Locate your specific model (example: *UCS C220 M5*) and look for the End-of-Sale and End-of-Support dates.
 
 
-==== Cisco Nexus Switches End-of-Sale and End-of-Support Information
+==== Cisco Nexus switches end-of-sale and end-of-support information
 
 * Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page].
 * Under *Product Categories* select *Switches* and click on your switch type (example: *Nexus 9000*). Locate your specific model (example: *9236C*) and look for the End-of-Sale and End-of-Support dates.
