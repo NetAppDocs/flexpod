@@ -21,7 +21,7 @@ NetApp storage controllers provide the storage foundation in the FlexPod archite
 Redundant NetApp FAS, AFF, ASA or AFX controllers are required in the FlexPod architecture. The controllers run ONTAP software. When the storage controllers are ordered, the preferred software version can be preloaded on the controllers. For ONTAP, a complete cluster is ordered. A complete cluster includes a pair of storage controllers and a cluster interconnect (switch or switchless).
 
 [NOTE]
-A switchless cluster configuration is supported only for a two node configuration. Cluster interconnect switches are required for configurations with 4 or 4 nodes, and are optional for a two node configuration. 
+A switchless cluster configuration is supported only for a two node configuration. Cluster interconnect switches are required for configurations with 4 or more nodes, and are optional for a two node configuration. 
 
 Different options and configurations are available, depending on the selected storage platform. Consult your sales representative for details about these additional components.
 
