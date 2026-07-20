@@ -19,7 +19,7 @@ The FlexPod platform is a predesigned, best practice data center architecture th
 FlexPod is a suitable platform for running a variety of virtualization hypervisors as well as bare-metal operating systems and enterprise workloads. FlexPod delivers not only a baseline configuration, but also the flexibility to be sized and optimized to accommodate many different use cases and requirements.
 
 [NOTE]
-Before you order a complete FlexPod configuration, see the http://www.netapp.com/us/technology/flexpod[FlexPod Converged Infrastructure^] page on netapp.com for the latest version of these technical specifications.
+Before you order a complete FlexPod configuration, see the http://www.netapp.com/us/technology/flexpod[NetApap FlexPod Home Page^] page for the latest version of these technical specifications.
 
 
 link:dc-tech-spec_flexpod_platforms.html[Next: FlexPod platforms.]

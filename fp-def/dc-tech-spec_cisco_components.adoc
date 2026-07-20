@@ -16,6 +16,7 @@ summary: Cisco has contributed substantially to the FlexPod design and architect
 [.lead]
 Cisco has contributed substantially to the FlexPod design and architecture, covering both the compute and networking layers of the solution. This section describes the Cisco UCS and Cisco Nexus options that are available for FlexPod.
 
+
 == Cisco UCS fabric interconnect options
 
 Redundant fabric interconnects are required in the FlexPod architecture. When you add multiple Cisco UCS chassis to a pair of fabric interconnects, remember that the maximum number of chassis in an environment is determined by both an architectural and a port limit.
@@ -46,10 +47,10 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/data
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/datasheet-c78-741116.html[Cisco UCS 6454 Fabric Interconnect]
 
-|UCS 9108 100G Fabric Interconnect ( Exclusive for Cisco UCS X-Series Direct)
+|UCS 9108 100G Fabric Interconnect (Cisco UCS X-Series Direct)
 |UCSX-S9108-100G
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS 9108 Fabric Interconnect]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-fabric-interconnect-9108-100g.pdf[Cisco UCS 9108 Fabric Interconnect]
 |===
 
 
@@ -130,6 +131,24 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/solution-overview-c22-2432175.html?ccid=cc002456&oid=sowcsm025665[Cisco UCS X9416 X-Fabric Module]
 |===
+
+
+== Cisco UCS X-Series Modular System
+
+The Cisco UCS X-Series Modular System begins with the Cisco UCS X9508 Server Chassis engineered to be adaptable and future-ready. The chassis has a unified Ethernet fabric with Cisco UCS Intelligent Fabric Modules and Cisco UCS X-Fabric Technology for other technologies. At the top rear of the chassis are two intelligent fabric modules that connect the chassis to upstream Cisco UCS 6400, 6500, and UCS 6600 Series Fabric Interconnects. 
+
+For a quick overview of Cisco UCS X-Series capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-aag.html[Cisco UCS X-Series Direct At-a-Glance^].
+
+The Cisco UCS X215c M8, Cisco UCS X210c Compute Nodes, and Cisco UCS X410c Compute Nodes provide the functionalities of both blade and rack servers by offering compute density, storage capacity, and expandability in a single form factor.
+
+The Cisco UCS X440p PCIe Node supports adding GPUs with PCIe Gen 4.0 with the Cisco UCS X9416 X-Fabric Module. The Cisco UCS X580p PCIe Node supports adding GPUs with PCIe Gen 5.0 with the Cisco UCS X9516 X-Fabric Module
+
+
+Refer to the technical specifications for each of these components in the sections above for more information about the Cisco UCS X-Series Modular System solution components.
+
+[NOTE]
+Refer to this link for the complete technical specification for UCS X-Series Modular System link:https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-x-series-modular-system/datasheet-listing.html[Cisco UCS X-Series Modular Sysytem^]
+
 
 == Cisco UCS X-Series Direct options
 
@@ -255,7 +274,7 @@ For more information about APIC product specifications refer to Table 1 through 
 Cisco MDS switches are an optional component in the FlexPod architecture. Redundant SAN switch fabrics are required when you implement the Cisco MDS switch for FC SAN. The table below lists the supported Cisco MDS switches. See the https://mysupport.netapp.com/matrix/[NetApp IMT^] and https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware and Software Compatibility List^] for a complete list of supported SAN switches.
 
 |===
-|Cisco MDS Fabric switch |Description
+|Cisco MDS Switch |Description
 
 |Cisco MDS 9100 Series Switches
 |
@@ -263,15 +282,10 @@ http://www.cisco.com/c/en/us/products/storage-networking/mds-9100-series-multila
 |Cisco MDS 9200 Series Switches
 |
 https://www.cisco.com/c/en/us/products/storage-networking/mds-9200-series-multiservice-switches/datasheet-listing.html[Cisco MDS 9200 Series Switches]
-|===
-
-|===
-|Cisco MDS Multilayer Directors |Description
-
-|Cisco MDS 9500 Series Switches
+|Cisco MDS 9300 Series Switches
 |
-http://www.cisco.com/c/en/us/products/storage-networking/mds-9500-series-multilayer-directors/datasheet-listing.html[Cisco MDS 9500 Series Switches]
-|Cisco MDS 9700 Series Switches
+https://www.cisco.com/c/en/us/products/storage-networking/mds-9300-series-multilayer-fabric-switches/datasheet-listing.html[Cisco MDS 9300 Series Switches]
+|Cisco MDS 9700 Series directors
 |
 http://www.cisco.com/c/en/us/products/storage-networking/mds-9700-series-multilayer-directors/datasheet-listing.html[Cisco MDS 9700 Series Switches]
 |===
