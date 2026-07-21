@@ -39,7 +39,7 @@ https://docs.netapp.com/us-en/ontap-systems-family/index.html[https://docs.netap
 
 * NetApp Interoperability Matrix Tool (IMT)
 +
-https://imt.netapp.com/imt/#welcome[https://imt.netapp.com/imt/#welcome^]
+https://mysupport.netapp.com/matrix/[https://mysupport.netapp.com/matrix^]
 
 * NetApp Hardware Universe
 +

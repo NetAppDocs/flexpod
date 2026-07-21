@@ -28,25 +28,20 @@ The part numbers that are shown in the following table are for the base fabric i
 
 |Cisco UCS 6664
 |UCS-FI-6664-U
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-6600-series-fabric-interconnect-ds.html[Cisco UCS 6664 Fabric Interconnect]
+.2+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-6600-series-fabric-interconnect-ds.html[Cisco UCS 6600 Series Fabric Interconnect]
 |Cisco UCS 6652
 |UCS-FI-6652-U
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-6600-series-fabric-interconnect-ds.html[Cisco UCS 6652 Fabric Interconnect]
 |Cisco UCS 6536
 |UCSX-FI-6536-U
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs6536-fabric-interconnect-ds.html[Cisco UCS 6536 Fabric Interconnect]
 |Cisco UCS 6454
 |UCS-FI-6454-U
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/datasheet-c78-741116.html[Cisco UCS 6454 Fabric Interconnect]
+.2+|
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/datasheet-c78-741116.html[Cisco UCS 6400 Series Fabric Interconnect]
 |Cisco UCS 64108
 |UCS-FI-64108-U
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/datasheet-c78-741116.html[Cisco UCS 6454 Fabric Interconnect]
-
 |UCS 9108 100G Fabric Interconnect (Cisco UCS X-Series Direct)
 |UCSX-S9108-100G
 |
@@ -137,7 +132,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 The Cisco UCS X-Series Modular System begins with the Cisco UCS X9508 Server Chassis engineered to be adaptable and future-ready. The chassis has a unified Ethernet fabric with Cisco UCS Intelligent Fabric Modules and Cisco UCS X-Fabric Technology for other technologies. At the top rear of the chassis are two intelligent fabric modules that connect the chassis to upstream Cisco UCS 6400, 6500, and UCS 6600 Series Fabric Interconnects. 
 
-For a quick overview of Cisco UCS X-Series capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-aag.html[Cisco UCS X-Series Direct At-a-Glance^].
+For a quick overview of Cisco UCS X-Series capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-modular-system-aag.html[Cisco UCS X-Series Modular At-a-Glance^].
 
 The Cisco UCS X215c M8, Cisco UCS X210c Compute Nodes, and Cisco UCS X410c Compute Nodes provide the functionalities of both blade and rack servers by offering compute density, storage capacity, and expandability in a single form factor.
 
@@ -172,7 +167,7 @@ Refer to this link for the complete technical specification for UCS X-Series Dir
 
 == Cisco UCS C-Series rack server options
 
-Cisco UCS C-Series Rack Servers are available in one and two rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the second table below are for the base server. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards, or the Cisco Fabric Extender. Multiple configuration options are available and are supported in the FlexPod architecture.
+Cisco UCS C-Series Rack Servers are available in one, two and four rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the second table below are for the base server. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
 
 The following table lists the Cisco UCS C-Series Rack Server options.
 
@@ -233,7 +228,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html[Cisco UCS C885A M8 Rack Server]
 |===
 
-Previous generations of Cisco UCS C-Series servers can be used in the FlexPod architecture, if they are supported on the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^]. The Cisco UCS C-Series servers must also have a valid TSANet support contract.
+Previous generations of Cisco UCS C-Series servers can be used in the FlexPod architecture, if they are supported on the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^]. 
 
 == Cisco Nexus 9000 series switch options
 
