@@ -139,7 +139,7 @@ https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/ucs-
 
 == Cisco UCS C-Series rack server options
 
-Cisco UCS C-Series Rack Servers are available in one and two rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the following table are for the base servers. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
+Cisco UCS C-Series Rack Servers are available in one, two  and four rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the following table are for the base servers. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
 
 The following table lists the Cisco UCS C-Series Rack Server options.
 
