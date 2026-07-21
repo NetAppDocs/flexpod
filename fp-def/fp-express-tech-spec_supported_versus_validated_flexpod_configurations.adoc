@@ -5,7 +5,7 @@ keywords: supported, versus, validated, flexpod, express, configurations, imt
 summary: The FlexPod architecture is defined by the set of rules described in this document. The hardware components and software configurations must be supported by the Cisco Hardware Compatibility List (HCL) and the NetApp IMT.
 ---
 
-= Supported versus validated FlexPod configurations
+= Supported Versus Validated FlexPod Configurations
 :hardbreaks:
 :nofooter:
 :icons: font
