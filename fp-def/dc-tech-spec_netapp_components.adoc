@@ -40,9 +40,9 @@ The controller families that are listed in the table below are appropriate for u
 |C60
 .2+|https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Documentation]
 |C80
-.4+|ASA A-Series
+.4+|ASA
 |A50
-.4+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA A-Series Documentation]
+.4+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA Documentation]
 |A70
 |A90
 |A1K
