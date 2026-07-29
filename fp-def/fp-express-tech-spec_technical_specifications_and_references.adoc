@@ -209,25 +209,16 @@ Entry-level NetApp AFF C-Series storage controllers are supported for use in Fle
 |
 https://docs.netapp.com/us-en/ontap-systems/c30-60/c30-key-specifications.html[AFF C30 Key Specifications]
 |===
-=== NetApp ASA A-Series
+=== NetApp ASA
 
-Entry-level models of NetApp ASA A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA A-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
+Entry-level models of NetApp ASA storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
 
 |===
-| Component | NetApp ASA A-Series controller platform documentation
+| Component | NetApp ASA controller platform documentation
 
-| NetApp ASA A20 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a20-key-specifications.html[ASA A20 Key Specifications]
+|NetApp ASA A20 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a20-key-specifications.html[ASA A20 Key Specifications]
 |NetApp ASA A30 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a30-key-specifications.html[ASA A30 Key Specifications]
-|===
-
-=== NetApp ASA C-Series
-
-Entry-level models of NetApp ASA C-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA C-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
-
-|===
-| Component | NetApp ASA C-Series controller platform documentation
-
-| NetApp ASA C30 | https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C30 Key Specifications]
+|NetApp ASA C30 | https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C30 Key Specifications]
 |===
 
 === NetApp FAS Series
