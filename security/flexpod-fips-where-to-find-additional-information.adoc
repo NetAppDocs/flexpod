@@ -107,7 +107,7 @@ https://www.netapp.com/media/19793-tr-4865.pdf
 
 * AI in Healthcare
 +
-https://www.netapp.com/pdf.html?item=/media/7393-na-369pdf.pdf
+https://www.netapp.com/pdf.html?item=/media/7393-na-369.pdf
 
 * FlexPod for healthcare Ease Your Transformation
 +

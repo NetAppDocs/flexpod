@@ -487,9 +487,9 @@ This system is set up in a two-node switchless cluster configuration.
 |\<<var_dns_server_ip>>
 
 |NTP server A IP
-|<< switch-a-ntp-ip >>
+|\<< switch-a-ntp-ip >>
 |NTP server B IP
-|<< switch-b-ntp-ip >>
+|\<< switch-b-ntp-ip >>
 |===
 
 ==== Configure node A

@@ -23,7 +23,7 @@ To learn more about the information that is described in this document, review t
 
 * NetApp Snapshot software
 +
-https://www.netapp.com/us/products/platform-os/snapshot.aspx[https://www.netapp.com/us/products/platform-os/snapshot.aspx^]
+https://docs.netapp.com/us-en/ontap/concepts/snapshot-copies-concept.html^[https://docs.netapp.com/us-en/ontap/concepts/snapshot-copies-concept.html^]
 
 * SnapCenter Backup Management
 +
@@ -31,7 +31,7 @@ https://www.netapp.com/us/products/backup-recovery/snapcenter-backup-management.
 
 * SnapLock Data Compliance
 +
-https://www.netapp.com/us/products/backup-recovery/snaplock-compliance.aspx[https://www.netapp.com/us/products/backup-recovery/snaplock-compliance.aspx^]
+https://www.netapp.com/ontap-data-management-software/snaplock/[https://www.netapp.com/ontap-data-management-software/snaplock/^]
 
 * NetApp Product Documentation
 +

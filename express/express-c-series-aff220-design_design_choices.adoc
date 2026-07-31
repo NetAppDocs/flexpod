@@ -28,7 +28,7 @@ This solution leverages two of the newest NetApp products: NetApp AFF A220 and O
 
 === AFF A220 system
 
-For more information about the AFF A220 hardware system, see the https://www.netapp.com/us/products/storage-systems/all-flash-array/aff-a-series.aspx[AFF A-Series homepage^].
+For more information about the AFF A220 hardware system, see the https://www.netapp.com/aff-a-series/[AFF A-Series homepage^].
 
 === ONTAP 9.4 software
 
