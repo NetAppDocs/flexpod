@@ -1,0 +1,104 @@
+---
+sidebar: sidebar
+permalink: fp-def/dc-tech-spec_flexpod_datacenter_topologies.html
+keywords: topologies, iSCSI boot, x-series-direct,x-series-modular, ucs-c-series,ip-based san, fc-based san
+summary: This section describes the example topologies for FlexPod Datacenter.
+---
+
+= FlexPod Datacenter Topologies
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+
+[.lead]
+This section describes the example topologies for FlexPod Datacenter.
+
+
+== UCS X-Series Direct with direct attached FC and IP-based SAN
+
+The following figure shows an UCS X-Series Direct and direct-attached ASA sample topology for FlexPod Datacenter IP-based and FC-based SAN.
+
+image:dc-tech-spec_image15.png[UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN]
+
+Connectivity requirements for this topology include:
+
+* ASA cluster connectivity: For a 2-node ASA cluster, the controllers can be directly connected together with cables without using cluster switches.
+* Storage Ethernet connectivity: The NetApp storage controllers can be connected directly to the embedded Fabric Interconnects. The two storage controllers in ASA have connectivity to two independent IP SAN fabric provided by FI A and FI B.
+* FI network uplink connectivity: For IP-based SAN connectivity, the uplink Nexus switches are not involved in the SAN data paths. SAN IO goes directly from the UCS Compute nodes to ASA storage using their connections to FI Aor FI B. As as result, existing  top-of-rack switches that supports VLAN and vPC can be utilized to provide external network access to the FlexPod SAN solution environment.
+* For FC-based SAN connectivity, the UCS FI (FC )ports need to be configured as breakout ports. 
+* Cisco UCS should be configured in FC switching mode when used for a FC-based SAN solution.
+
+The Cisco UCS X-Series Direct can also utilize a switch attached storage  similar to the regular X-Series but using the embedded fabric interconnects instead of the external fabric interconnects.
+
+For more information about this configuration, see https://www.netapp.com/pdf.html?item=/media/135828-flexpod-san-ucs-xdirect-asa-nva-deploy-guide.pdf[FlexPod SAN Solution with Cisco UCS X-Series Direct and NetApp ASA^].
+
+
+[NOTE]
+====
+The above sample topology refers to a direct attached storage solution using NetApp ASA. However, the same topology can be used for NetApp AFF and FAS as well.
+
+
+For an IP-based direct-attached NAS storage configuration using NetApp AFF or FAS storage, the uplink Nexus switches will need to be properly configured to support certain failure scenarios. Refer to the below link for additional configuration information.
+
+https://www.netapp.com/pdf.html?item=/media/22621-nva-1154-DESIGN.pdf
+
+https://www.netapp.com/pdf.html?item=/media/21938-nva-1154-DEPLOY.pdf
+
+====
+
+== UCS X-Series Modular System with with FC and IP-based SAN and MDS connectivity
+
+The following figures show an example of FlexPod Datacenter with X-Series Modular System for FC with MDS connectivity.
+
+image:dc-tech-spec_image16.png[FlexPod Datacenter for FC with MDS connectivity]
+
+The above solution infrastructure design includes both Nexus Ethernet switches as well as MDS Fibre Channel switches to support multiple storage protocols, including FC, iSCSI, Non-volatile Memory Express (NVMe) over FC (NVMe/FC), and NVMe over TCP (NVMe/TCP).
+
+Connectivity requirements for this topology include:
+
+* ASA cluster connectivity: For a 2-node ASA cluster, the controllers can be directly connected together with cables without using cluster switches.
+
+* Storage Ethernet connectivity: NetApp storage controllers must be directly connected to the Cisco Nexus switches.
+
+* Cisco UCS X9508 Chassis connects to fabric interconnects using Cisco UCS UCSX-I-9108-100G IFMs. 
+
+* Virtual port channels (vPCs) are required to connect the Cisco Nexus switches to the NetApp storage controllers and from the Cisco UCS Fabric Interconnects to the Cisco Nexus switches.
+
+* The NetApp storage controllers must be connected to the Cisco MDS switches for FC connectivity. Two FC ports from each FI are connected to the MDS switches. 
+
+You can choose to implement IP-based SAN only, FC-based SAN only, or implement both to adopt different protocols for workload latency and throughput requirements. The NVMe over fabric protocols offers lower latency and improved input/output operations per second (IOPs) due to more efficient device connections, command sets, and reduced CPU utilization.
+
+Furthermore, you can enable AI and accelerate VDI workload running on the FlexPod solution infrastructure by incorporating Cisco UCS X-Fabric Technology with the UCS 9416 X-Fabric Module and adding GPU nodes. By integrating the X440p PCIe GPU Nodes with your X215c, X210c, or X410c compute nodes through the UCS X9416 X-Fabric Module, you can enhance VDI workload performance and begin utilizing AI capabilities within your FlexPod infrastructure.
+
+[NOTE]
+The above sample topology refers to a X-Series Modular solution configuration using NetApp ASA. However, the same topology can be used for NetApp AFF and FAS as well.
+
+For more information on this configuration, see link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_manual_deploy.html[FlexPod Datacenter Base Manual Configuration with Cisco IMM and NetApp ONTAP Deployment Guide^].
+
+== Cisco UCS C-Series servers with FI Connectivity
+
+The following figure shows a Cisco UCS C-Series server configuration with FI connectivity and NetApp AFF.
+ 
+image:dc-tech-spec_image13.png[Cisco UCS C-Series standalone servers and NetApp AFF]
+
+Connectivity requirements for this topology include:
+
+
+* AFF cluster connectivity: For a 2-node AFF cluster, the controllers can be directly connected together with cables without using cluster switches.
+
+* Storage Ethernet connectivity: NetApp storage controllers must be directly connected to the Cisco Nexus switches.
+
+* Cisco UCS C-Series servers connect to fabric interconnects.
+
+* Virtual port channels (vPCs) are required to connect the Cisco Nexus switches to the NetApp storage controllers and from the Cisco UCS Fabric Interconnects to the Cisco Nexus switches.
+
+* The NetApp storage controllers must be connected to the Cisco MDS switches for FC connectivity. Two FC ports from each FI are connected to the MDS switches. 
+
+
+[NOTE]
+The above sample topology refers to a C Series storage configuration using NetApp AFF. However, the same topology can be used for NetApp ASA and FAS as well.
+
+For more information on this configuration, see link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_manual_deploy.html[FlexPod Datacenter Base Manual Configuration with Cisco IMM and NetApp ONTAP Deployment Guide^].

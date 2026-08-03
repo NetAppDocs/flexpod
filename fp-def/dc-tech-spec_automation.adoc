@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: fp-def/dc-tech-spec_automation.html
+keywords: flexpod datacenter, automation, IaC, GitHub repository, Ansible
+summary: Automated deployment for FlexPod Datacenter is available through a GitHub repository that includes Ansible playbooks and related infrastructure as code assets.
+---
+
+= FlexPod Datacenter automated deployment
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+[.lead]
+Automated deployment of FlexPod Datacenter is available through the FlexPod Datacenter GitHub repositories. These repositories contain Ansible playbooks and related files to facilitate the deployment of FlexPod Datacenter infrastructure as code (IaC).  
+
+The GitHub repositories provide a structured approach to deploying FlexPod Datacenter configurations, allowing users to automate the setup and management of their infrastructure. These include playbooks for various components of the FlexPod Datacenter design, ensuring that users can efficiently deploy and maintain their environments with consistency and reliability.
+
+For automated deployment of a Base FlexPod Datacenter configuration with Cisco Nexus Switches, Cisco UCS C Series Servers Or Cisco UCS X-Series Direct with IMM and NetApp ONTAP, refer to the link:https://github.com/ucs-compute-solutions/FlexPod-Base-IMM[FlexPod Datacenter Base Configuration with Cisco IMM and NetApp ONTAP GitHub repository^] and the corresponding link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_m7_iac.html[CVD^]. This repository includes Ansible playbooks and related files to facilitate the deployment of a base FlexPod Datacenter configuration. Tenants for various hypervisors, bare metal OS, and applications can then be configured on top of FlexPod Base. This repository also has options for configuring FC Boot with FC-NVMe and  iSCSI or local boot with NVMe-TCP and NFS, as well as for MDS Switch configuration for FC.
+
+For automated deployment of a FlexPod Datacenter configuration with Cisco Nexus Switches, Cisco UCS C-Series Servers or the Cisco UCS X-Series Direct with IMM and NetApp ONTAP with VMware vSphere, refer to the link:https://github.com/ucs-compute-solutions/FlexPod-IMM-VMware[FlexPod Datacenter with VMware vSphere and Cisco IMM git repo^] and the corresponding link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_imm_m7_iac.html[CVD^]. This repository also has options for configuring FC Boot with FC-NVMe and  iSCSI or local boot with NVMe-TCP and NFS, as well as for MDS Switch configuration for FC. VMware roles defined in the Ansible playbooks can be used to deploy VMware vSphere on top of FlexPod.
+
+For  automated deployment of a FlexPod Datacenter configuration with Cisco Nexus Switches, Cisco UCS X-Series Direct with IMM and NetApp ONTAP with Red Hat OpenShift, refer to the link:https://github.com/ucs-compute-solutions/FlexPod-IMM-OpenShift[FlexPod Datacenter with Red Hat OpenShift and Cisco IMM git repo^]. This repository can be used for setting up Cisco devices and NetApp ONTAP Storage in preparation for Installing Red Hat OpenShift as covered in the link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_rh_openshift_bm_iac_deploy.html[CVD^]. This repository has options for Configuring local boot with NFS, iSCSI and NVMe-TCP storage protocols.
+
