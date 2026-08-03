@@ -22,12 +22,12 @@ A FlexPod configuration has the following minimum hardware requirements:
 
 [NOTE]
     If you are deploying an ACI architecture, you must observe the following additional requirements:
-    * Deploy the Cisco Nexus 9000 Series Switches in a leaf-spine topology.
-    * Use three Cisco Application Policy Infrastructure Controllers (APICs).
+        * Deploy the Cisco Nexus 9000 Series Switches in a leaf-spine topology.
+        * Use three Cisco Application Policy Infrastructure Controllers (APICs).
 
 * Two Cisco UCS 6400, 6500, or 6600 Series Fabric Interconnects in a redundant configuration, if using the UCS C-Series Rack Servers or the X-Series Modular systems.
 
-* Two Cisco UCS C-Series standalone rack servers with Intersight-managed configuration(IMM), or the Cisco UCS X-Series Direct with Cisco IMM, or the Cisco UCS X-Series Modular with Cisco Intersight-managed configuration(IMM). 
+* Two Cisco UCS C-Series standalone rack servers with Intersight-managed configuration (IMM), or the Cisco UCS X-Series Direct with Cisco IMM, or the Cisco UCS X-Series Modular with Cisco Intersight-managed configuration(IMM). 
 
 * Two NetApp AFF, NetApp ASA, NetApp FAS, or NetApp AFX controllers in a high-availability (HA) pair configuration deployed as a two-node cluster.
 

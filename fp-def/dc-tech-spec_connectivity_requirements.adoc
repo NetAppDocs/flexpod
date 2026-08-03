@@ -29,7 +29,7 @@ Uplink connections:
 
 Direct connections:
 
-* NetApp storage controller ports that are directly connected to the fabric interconnects(as in the case of X-Series Direct) can be grouped to enable a port channel. vPC is not supported for this configuration.
+* NetApp storage controller ports that are directly connected to the fabric interconnects (as in the case of X-Series Direct) can be grouped to enable a port channel. vPC is not supported for this configuration.
 * FCoE port channels are recommended for end-to-end FCoE designs.
 
 SAN boot:

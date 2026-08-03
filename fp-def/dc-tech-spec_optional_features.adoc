@@ -92,27 +92,27 @@ FlexPod supports both variants of the NetApp MetroCluster software for continuou
 
 The following figure depicts FlexPod Datacenter with NetApp MetroCluster architecture.
 
-image:dc-tech-spec_image1.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image1.png[FlexPod Datacenter with NetApp MetroCluster architecture]
 
 The following figure depicts the FlexPod Datacenter with NetApp MetroCluster IP architecture.
 
-image:dc-tech-spec_image2.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image2.png[FlexPod Datacenter with NetApp MetroCluster IP architecture]
 
 Starting with ONTAP 9.8, ONTAP Mediator can be deployed at a third site to monitor the MetroCluster IP solution and to facilitate automated unplanned switchover when a site disaster occurs.
 
 For a FlexPod MetroCluster IP solution deployment with extended layer-2 site-to-site connectivity, you can achieve cost savings by sharing ISL and using FlexPod switches as compliant MetroCluster IP switches if the network bandwidth and switches meet the requirements as illustrated in the following figure, which depicts the FlexPod MetroCluster IP solution with ISL sharing and compliant switches.
 
-image:dc-tech-spec_image10.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image10.png[FlexPod MetroCluster IP solution with ISL sharing and compliant switches]
 
 The following two figures depict the VXLAN Multi-Site fabric and the MetroCluster IP storage fabric for a FlexPod MetroCluster IP solution with VXLAN Multi-Site fabric deployment.
 
 * VXLAN Multi-Site fabric for FlexPod MetroCluster IP solution
 
-image:dc-tech-spec_image11.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image11.png[VXLAN Multi-Site fabric for FlexPod MetroCluster IP solution]
 
 * MetroCluster IP storage fabric for FlexPod MetroCluster IP solution
 
-image:dc-tech-spec_image12.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image12.png[MetroCluster IP storage fabric for FlexPod MetroCluster IP solution]
 
 
 

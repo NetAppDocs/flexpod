@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: fp-def/dc-tech-spec_technical_specifications_and_references.html
-keywords: cisco, ucs, c-series, x-series, x-series-direct, vic, disk shelves, nexus, aff,asa, fas, afx
+keywords: cisco, ucs, c-series, x-series, x-series-direct, vic, disk shelves, nexus, aff, asa, fas, afx
 summary: Technical specifications provide details about the hardware components in a FlexPod solution, such as chassis, servers, switches, and storage controllers.
 ---
 
@@ -307,7 +307,7 @@ FAS storage controllers are supported for use in FlexPod Datacenter. Detailed sp
 
 === NetApp AFX
 
-NetApp AFX storage controllers are supported for use in FlexPod Datacenter. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp AFX Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific AFX Model.
+NetApp AFX storage controllers are supported for use in FlexPod Datacenter. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/142853-ds-3466-netapp-afx-datasheet.pdf[NetApp AFX Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific AFX Model.
 
 |===
 | Component | NetApp AFX controller platform documentation

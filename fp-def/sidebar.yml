@@ -58,7 +58,7 @@ entries:
       - title: Connectivity requirements
         url: /fp-def/dc-tech-spec_connectivity_requirements.html
       - title: FlexPod Datacenter Topologies
-        url: /fp-def/dc-tech-spec_flexpod_datacenter_topologies.html
+        url: /fp-def/dc-tech-spec_topologies.html
       - title: Other requirements
         url: /fp-def/dc-tech-spec_other_requirements.html
       - title: Optional features
