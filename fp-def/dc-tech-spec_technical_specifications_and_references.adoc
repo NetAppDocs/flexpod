@@ -387,7 +387,7 @@ All current models of NetApp AFF ASA A-Series storage controllers are supported 
 
 === NetApp disk shelves
 
-The technical specifications for NetApp disk shelves include the form factor size, the number of drives per enclosure, and the shelf I/O modules; this documentation can be found in the following table. For more information, see the http://www.netapp.com/us/products/storage-systems/disk-shelves-and-storage-media/disk-shelves-tech-specs.aspx[NetApp Disk Shelves and Storage Media Technical Specifications^] and the https://hwu.netapp.com/[NetApp Hardware Universe^].
+The technical specifications for NetApp disk shelves include the form factor size, the number of drives per enclosure, and the shelf I/O modules; this documentation can be found in the following table. For more information, see the https://www.netapp.com/data-storage/disk-shelves-storage-media/[NetApp Disk Shelves and Storage Media Technical Specifications^] and the https://hwu.netapp.com/[NetApp Hardware Universe^].
 
 |===
 |Component |NetApp FAS/AFF disk shelf documentation
