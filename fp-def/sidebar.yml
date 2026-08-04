@@ -57,7 +57,7 @@ entries:
         url: /fp-def/dc-tech-spec_software_version_recommendations.html
       - title: Connectivity requirements
         url: /fp-def/dc-tech-spec_connectivity_requirements.html
-      - title: FlexPod Datacenter Topologies
+      - title: FlexPod Datacenter topologies
         url: /fp-def/dc-tech-spec_topologies.html
       - title: Other requirements
         url: /fp-def/dc-tech-spec_other_requirements.html
@@ -73,7 +73,7 @@ entries:
         url: /fp-def/dc-tech-spec_technical_specifications_and_references.html
       - title: Legacy equipment
         url: /fp-def/dc-tech-spec_legacy_equipment.html
-      - title: FlexPod Datacenter automated deployment
+      - title: Automated deployment
         url: /fp-def/dc-tech-spec_automation.html
       - title: Where to find additional Information
         url: /fp-def/dc-tech-spec_where_to_find_additional_information.html

@@ -296,7 +296,7 @@ NetApp ASA storage controllers are supported for use in FlexPod Datacenter. Addi
 
 === NetApp FAS Series
 
-FAS storage controllers are supported for use in FlexPod Datacenter. Detailed specifications for all FAS series storage controllers are available in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific FAS model.
+FAS storage controllers are supported for use in FlexPod Datacenter. Additional information can be found in link:https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[NetApp FAS Technical Specifications^] and the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform-specific documentation listed in the following table for detailed information about a specific FAS model.
 
 |===
 |Component |FAS Series controller platform documentation

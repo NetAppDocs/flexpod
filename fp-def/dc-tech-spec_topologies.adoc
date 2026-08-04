@@ -5,7 +5,7 @@ keywords: topologies, iSCSI boot, x-series-direct,x-series-modular, ucs-c-series
 summary: This section describes the example topologies for FlexPod Datacenter.
 ---
 
-= FlexPod Datacenter Topologies
+= FlexPod Datacenter topologies
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -63,7 +63,7 @@ Connectivity requirements for this topology include:
 
 * Storage Ethernet connectivity: NetApp storage controllers must be directly connected to the Cisco Nexus switches.
 
-* Cisco UCS X9508 Chassis connects to fabric interconnects using Cisco UCS UCSX-I-9108-100G IFMs. 
+* Cisco UCS X9508 Chassis connects to fabric interconnects using Cisco UCSX-I-9108-100G IFMs. 
 
 * Virtual port channels (vPCs) are required to connect the Cisco Nexus switches to the NetApp storage controllers and from the Cisco UCS Fabric Interconnects to the Cisco Nexus switches.
 
