@@ -132,9 +132,9 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 
 The Cisco UCS X-Series Modular System begins with the Cisco UCS X9508 Server Chassis engineered to be adaptable and future-ready. The chassis has a unified Ethernet fabric with Cisco UCS Intelligent Fabric Modules and Cisco UCS X-Fabric Technology for other technologies. At the top rear of the chassis are two intelligent fabric modules that connect the chassis to upstream Cisco UCS 6400, 6500, and UCS 6600 Series Fabric Interconnects. 
 
-For a quick overview of Cisco UCS X-Series capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-modular-system-aag.html[Cisco UCS X-Series Modular At-a-Glance^].
+For a quick overview of Cisco UCS X-Series capabilities and features, see link:https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-modular-system-aag.html[Cisco UCS X-Series Modular System At-a-Glance^].
 
-The Cisco UCS X215c M8, Cisco UCS X210c Compute Nodes, and Cisco UCS X410c Compute Nodes provide the functionalities of both blade and rack servers by offering compute density, storage capacity, and expandability in a single form factor.
+The Cisco UCS X215c M8, Cisco UCS X210c, and Cisco UCS X410c Compute Nodes provide the functionalities of both blade and rack servers by offering compute density, storage capacity, and expandability in a single form factor.
 
 The Cisco UCS X440p PCIe Node supports adding GPUs with PCIe Gen 4.0 with the Cisco UCS X9416 X-Fabric Module. The Cisco UCS X580p PCIe Node supports adding GPUs with PCIe Gen 5.0 with the Cisco UCS X9516 X-Fabric Module
 
@@ -142,7 +142,7 @@ The Cisco UCS X440p PCIe Node supports adding GPUs with PCIe Gen 4.0 with the Ci
 Refer to the technical specifications for each of these components in the sections above for more information about the Cisco UCS X-Series Modular System solution components.
 
 [NOTE]
-Refer to this link for the complete technical specification for UCS X-Series Modular System link:https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-x-series-modular-system/datasheet-listing.html[Cisco UCS X-Series Modular Sysytem^]
+Refer to the following link for the complete technical specifications of the Cisco UCS X-Series Modular System: link:https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-x-series-modular-system/datasheet-listing.html[Cisco UCS X-Series Modular System^]
 
 
 == Cisco UCS X-Series Direct options
@@ -163,16 +163,16 @@ Cisco UCS X-Series Direct consists of the following components:
 Refer to the technical specifications for each of these components in the sections above for more information about the Cisco UCS X-Series Direct solution components.
 
 [NOTE]
-Refer to this link for the complete technical specification for UCS X-Series Direct: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS X-Series Direct Datasheet].
+Refer to the following link for complete technical specifications of Cisco UCS X-Series Direct: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html[Cisco UCS X-Series Direct Datasheet].
 
-== Cisco UCS C-Series rack server options
+== Cisco UCS C-Series Rack server options
 
 Cisco UCS C-Series Rack Servers are available in one, two and four rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the second table below are for the base server. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
 
 The following table lists the Cisco UCS C-Series Rack Server options.
 
 |===
-|Cisco UCS C-Series rack server |Part number |Technical specifications
+|Cisco UCS C-Series Rack server |Part number |Technical specifications
 
 |Cisco UCS C220 M7
 |UCSC-C220-M7
@@ -209,7 +209,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |===
 
 
-The following table lists the Cisco UCS C-Series rack servers optimized for AI usecases:
+The following table lists the Cisco UCS C-Series rack servers optimized for AI use cases:
 
 |===
 |Cisco UCS C-Series rack server |Part number |Technical specifications
@@ -228,7 +228,7 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html[Cisco UCS C885A M8 Rack Server]
 |===
 
-Previous generations of Cisco UCS C-Series servers can be used in the FlexPod architecture, if they are supported on the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^]. 
+Previous generations of Cisco UCS C-Series servers can be used in the FlexPod architecture if they are supported on the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^]. 
 
 == Cisco Nexus 9000 series switch options
 
@@ -260,9 +260,10 @@ https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-swi
 |===
 
 == Cisco APIC options
+
 Cisco APIC is the main architectural component of Cisco ACI. It is the unified point of automation and management for the Cisco ACI fabric.
 
-For more information about APIC product specifications refer to Table 1 through Table 3 on the https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/application-policy-infrastructure-controller-apic/datasheet-c78-739715.html[Cisco Application Policy Infrastructure Controller Datasheet^].
+For more information about APIC product specifications, refer to Table 1 through Table 3 on the https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/application-policy-infrastructure-controller-apic/datasheet-c78-739715.html[Cisco Application Policy Infrastructure Controller Datasheet^].
 
 == Cisco MDS options
 
