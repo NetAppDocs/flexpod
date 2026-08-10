@@ -129,7 +129,7 @@ https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/
 |Cisco UCS XE130c M8 Compute Node
 |UCSXE-130C-M8
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdfl[Cisco UCS XE130c M8 Compute Node]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdf[Cisco UCS XE130c M8 Compute Node]
 |Cisco UCS XE150c M8 Compute Node
 |UCSXE-150C-M8
 |
