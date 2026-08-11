@@ -21,26 +21,14 @@ summary: To learn more about the information that is described in this document,
 
 To learn more about the information that is described in this document, review the following documents and/or websites:
 
-* NetApp Snapshot software
-+
-https://www.netapp.com/us/products/platform-os/snapshot.aspx[https://www.netapp.com/us/products/platform-os/snapshot.aspx^]
+* https://docs.netapp.com/us-en/ontap/concepts/snapshot-copies-concept.html[NetApp Snapshot software^]
 
-* SnapCenter Backup Management
-+
-https://www.netapp.com/us/products/backup-recovery/snapcenter-backup-management.aspx[https://www.netapp.com/us/products/backup-recovery/snapcenter-backup-management.aspx^]
+* https://www.netapp.com/snapcenter/[SnapCenter Backup Management^]
 
-* SnapLock Data Compliance
-+
-https://www.netapp.com/us/products/backup-recovery/snaplock-compliance.aspx[https://www.netapp.com/us/products/backup-recovery/snaplock-compliance.aspx^]
+* https://www.netapp.com/ontap-data-management-software/snaplock/[SnapLock Data Compliance^]
 
-* NetApp Product Documentation
-+
-https://www.netapp.com/us/documentation/index.aspx[https://www.netapp.com/us/documentation/index.aspx^]
+* https://docs.netapp.com/[NetApp Product Documentation^]
 
-* Cisco Advanced Malware Protection (AMP)
-+
-https://www.cisco.com/c/en/us/products/security/advanced-malware-protection/index.html[https://www.cisco.com/c/en/us/products/security/advanced-malware-protection/index.html^]
+* https://www.cisco.com/c/en/us/products/security/advanced-malware-protection/index.html[Cisco Advanced Malware Protection (AMP)^]
 
-* Cisco Stealthwatch
-+
-https://www.cisco.com/c/en_in/products/security/stealthwatch/index.html[https://www.cisco.com/c/en_in/products/security/stealthwatch/index.html^]
+* https://www.cisco.com/c/en_in/products/security/stealthwatch/index.html[Cisco Stealthwatch^]
