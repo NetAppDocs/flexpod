@@ -29,7 +29,7 @@ NetApp provides support information through the Hardware Universe (HWU).
 
 Go to the link:https://hwu.netapp.com[NetApp Hardware Universe^].
 
-* Select *Products > Platforms*, then choose your platform (example: *AFF A-Series*) and model (example: *AFF A220*).
+* Select *Products > Platforms*, then choose your platform (example: *AFF A-Series*) and model (example: *AFF A800*).
 
 [NOTE]
 To view all platforms, change the *Platform Lifecycle* filter to *Show All*. By default, *Hide EOA* is selected.

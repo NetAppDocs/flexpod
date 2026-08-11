@@ -29,17 +29,17 @@ The part numbers that are shown in the following table are for the base fabric i
 |Cisco UCS 6664
 |UCS-FI-6664-U
 .2+|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-6600-series-fabric-interconnect-ds.html[Cisco UCS 6600 Series Fabric Interconnect]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-6600-series-fabric-interconnect-specsheet.pdf[Cisco UCS 6600 Series Fabric Interconnect]
 |Cisco UCS 6652
 |UCS-FI-6652-U
 |Cisco UCS 6536
 |UCSX-FI-6536-U
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs6536-fabric-interconnect-ds.html[Cisco UCS 6536 Fabric Interconnect]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/cisco-ucs-6536-fabric-interconnect-spec-sheet.pdf[Cisco UCS 6536 Fabric Interconnect]
 |Cisco UCS 6454
 |UCS-FI-6454-U
 .2+|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/datasheet-c78-741116.html[Cisco UCS 6400 Series Fabric Interconnect]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/6400-specsheet.pdf[Cisco UCS 6400 Series Fabric Interconnect]
 |Cisco UCS 64108
 |UCS-FI-64108-U
 |UCS 9108 100G Fabric Interconnect (Cisco UCS X-Series Direct)
@@ -182,10 +182,6 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |UCSC-C220-M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m8-rack-server-ds.html[Cisco UCS C220 M8 Rack Server]
-|Cisco UCS C225 M6
-|UCSC-C225-M6
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c225-m6-sff-rack-server-ds.html[Cisco UCS C225 M6 Rack Server]
 |Cisco UCS C225 M8
 |UCSC-C225-M8
 |
@@ -198,10 +194,6 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |UCSC-C240-M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-rack-server-ds.html[Cisco UCS C240 M8 Rack Server]
-|Cisco UCS C245 M6
-|UCSC-C245-M6
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m6-sff-rack-server-ds.html[Cisco UCS C245 M6 Rack Server]
 |Cisco UCS C245 M8
 |UCSC-C245-M8
 |
@@ -222,10 +214,6 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |UCSC-C880A-M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html[Cisco UCS C880A M8 Rack Server]
-|Cisco UCS C885A M8
-|UCSC-C885A-M8
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html[Cisco UCS C885A M8 Rack Server]
 |===
 
 Previous generations of Cisco UCS C-Series servers can be used in the FlexPod architecture if they are supported on the https://ucshcltool.cloudapps.cisco.com/public/[Cisco UCS Hardware and Software Compatibility List^]. 
@@ -272,16 +260,16 @@ Cisco MDS switches are an optional component in the FlexPod architecture. Redund
 |===
 |Cisco MDS Switch |Description
 
-|Cisco MDS 9100 Series Switches
+|Cisco MDS 9100 Multilayer Fabric Switches
 |
 http://www.cisco.com/c/en/us/products/storage-networking/mds-9100-series-multilayer-fabric-switches/datasheet-listing.html[Cisco MDS 9100 Series Switches]
-|Cisco MDS 9200 Series Switches
+|Cisco MDS 9200 Multiservice Switches
 |
 https://www.cisco.com/c/en/us/products/storage-networking/mds-9200-series-multiservice-switches/datasheet-listing.html[Cisco MDS 9200 Series Switches]
-|Cisco MDS 9300 Series Switches
+|Cisco MDS 9300 Multilayer Fabric Switches
 |
 https://www.cisco.com/c/en/us/products/storage-networking/mds-9300-series-multilayer-fabric-switches/datasheet-listing.html[Cisco MDS 9300 Series Switches]
-|Cisco MDS 9700 Series directors
+|Cisco MDS 9700 Multilayer Directors
 |
 http://www.cisco.com/c/en/us/products/storage-networking/mds-9700-series-multilayer-directors/datasheet-listing.html[Cisco MDS 9700 Series Switches]
 |===

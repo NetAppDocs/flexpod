@@ -22,9 +22,9 @@ Power requirements for FlexPod Datacenter differ based on the location where the
 
 For more data about the maximum power that is required and for other detailed power information, consult the technical specifications for each hardware component listed in the section link:dc-tech-spec_technical_specifications_and_references.html[Technical Specifications and References: Hardware Components].
 
-For detailed Cisco UCS power data, see the http://www.cisco.com/assets/cdc_content_elements/flash/dataCenter/cisco_ucs_power_calculator/[Cisco UCS power calculator^].
+For detailed Cisco UCS power data, see the https://ucspowercalculator.cisco.com/[Cisco UCS power calculator^].
 
-For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A20), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section. For details on size, weight, wattage etc., refer to the *Size, Weight, Acoustic, Power* section. 
+For NetApp storage controller power data, see the http://hwu.netapp.com/Controller/Index?platformTypeId=6780858[NetApp Hardware Universe^]. Under *Platforms*, select the storage platform you want to use (for example, AFF A90), select the ONTAP version, and then click *Show Results*. Power cord data is listed in the *Supported Power Cords* section. For details on size, weight, wattage etc., refer to the *Size, Weight, Acoustic, Power* section. 
 
 == Cabling guidelines
 
