@@ -21,46 +21,24 @@ summary: To learn more about the information that is described in this document,
 [.lead]
 To learn more about the information that is described in this document, review the following documents and websites:
 
-* FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning Design Guide
-+
-https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html^]
+* https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_c480m5l_aiml_design.html[ FlexPod Datacenter for AI/ML with Cisco UCS 480 ML for Deep Learning Design Guide^]
 
-* FlexPod Datacenter Infrastructure with VMware vSphere 6.7 U1, Cisco UCS 4th Generation, and NetApp AFF A-Series
-+
-https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_vmware_netappaffa.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_vmware_netappaffa.html^]
+* https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_datacenter_vmware_netappaffa.html[FlexPod Datacenter Infrastructure with VMware vSphere 6.7 U1, Cisco UCS 4th Generation, and NetApp AFF A-Series^]
 
-* FlexPod Datacenter Oracle Database Backup with SnapCenter Solution Brief
-+
-https://www.netapp.com/pdf.html?item=/media/16973-sb-3999pdf.pdf[https://www.netapp.com/us/media/sb-3999.pdf^]
+* https://www.netapp.com/pdf.html?item=/media/16973-sb-3999.pdf[FlexPod Datacenter Oracle Database Backup with SnapCenter Solution Brief^]
 
-* FlexPod Datacenter with Oracle RAC Databases on Cisco UCS and NetApp AFF A-Series
-+
-https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orc12cr2_affaseries.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orc12cr2_affaseries.html^]
+* https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orc12cr2_affaseries.html[FlexPod Datacenter with Oracle RAC Databases on Cisco UCS and NetApp AFF A-Series^]
 
-* FlexPod Datacenter with Oracle RAC on Oracle Linux
-+
-https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orcrac_12c_bm.html[https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orcrac_12c_bm.html^]
+* https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_orcrac_12c_bm.html[FlexPod Datacenter with Oracle RAC on Oracle Linux^]
 
-* FlexPod for Microsoft SQL Server
-+
-https://flexpod.com/solutions/use-cases/microsoft-sql-server/[https://flexpod.com/solutions/use-cases/microsoft-sql-server/^]
+* https://flexpod.com/solutions/use-cases/microsoft-sql-server/[FlexPod for Microsoft SQL Server^]
 
-* FlexPod from Cisco and NetApp
-+
-https://flexpod.com/[https://flexpod.com/^]
+* https://flexpod.com/[FlexPod from Cisco and NetApp^]
 
-* NetApp Solutions for MongoDB Solution Brief (NetApp login required)
-+
-https://fieldportal.netapp.com/s/article/solution-brief-netapp-solutions-for-mongodb-1690217002398[https://fieldportal.netapp.com/s/article/solution-brief-netapp-solutions-for-mongodb-1690217002398^]
+* https://fieldportal.netapp.com/s/article/solution-brief-netapp-solutions-for-mongodb-1690217002398[NetApp Solutions for MongoDB Solution Brief (NetApp login required)^]
 
-* TR-4700: SnapCenter Plug-In for Oracle Database
-+
-https://www.netapp.com/pdf.html?item=/media/12403-tr4700pdf.pdf[https://www.netapp.com/us/media/tr-4700.pdf^]
+* https://www.netapp.com/pdf.html?item=/media/12403-tr4700.pdf[TR-4700: SnapCenter Plug-In for Oracle Database^]
 
-* NetApp Product Documentation
-+
-https://www.netapp.com/us/documentation/index.aspx[https://www.netapp.com/us/documentation/index.aspx^]
+* https://docs.netapp.com/[NetApp Product Documentation^]
 
-* FlexPod for Virtual Desktop Infrastructure (VDI) Solutions
-+
-https://flexpod.com/solutions/use-cases/virtual-desktop-infrastructure/[https://flexpod.com/solutions/use-cases/virtual-desktop-infrastructure/^]
+* https://flexpod.com/solutions/use-cases/virtual-desktop-infrastructure/[FlexPod for Virtual Desktop Infrastructure (VDI) Solutions^]
