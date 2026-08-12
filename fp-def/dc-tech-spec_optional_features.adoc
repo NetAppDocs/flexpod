@@ -58,13 +58,13 @@ Storage add-on license is needed to use the Cisco Nexus switches for FC SAN conn
 
 image:dc-tech-spec_image17.png[FlexPod Datacenter for FC-based SAN connectivity with Cisco Nexus]
 
-Refer to link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_manual_deploy.html#FlexPod_Cisco_Nexus_SAN_Switch_Part1[this^] link for more information on this configuration.
+For more information on this configuration, see link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_m7_imm_vmware_design.html#PhysicalTopology[FlexPod Datacenter with Cisco UCS M7 IMM, VMware vSphere 8.0, and NetApp ONTAP 9.12 Design Guide^].
 
 == End-to-end FC-NVMe
 
 An end-to-end FC-NVMe seamlessly extends a customer’s existing SAN infrastructure for real-time applications while simultaneously delivering improved IOPS and throughput with reduced latency. An existing 32G FC SAN transport can be used to simultaneously transport both NVMe and SCSI workloads.
 
-Refer to link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_manual_deploy.html#FlexPod_Cisco_Nexus_SAN_Switch_Part1[this^] link for more information on this configuration.
+For more information on this configuration, see link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_m7_imm_vmware_design.html#PhysicalTopology[FlexPod Datacenter with Cisco UCS M7 IMM, VMware vSphere 8.0, and NetApp ONTAP 9.12 Design Guide^].
 
 == Cisco UCS X-Series Direct and direct-attached AFF/ ASA/ FAS for FC and IP based SAN
 
@@ -79,7 +79,7 @@ The licensing and hardware requirements are as follows:
 
 The following figure shows an UCS X-Series Direct and direct-attached ASA topology for IP-based SAN.
 
-image:dc-tech-spec_image14.png[UCS X-Series Direct and direct-attached ASA topology for IP-based SAN]
+image:dc-tech-spec_image13.png[UCS X-Series Direct and direct-attached ASA topology for IP-based SAN]
 
 *Notes:*
 
@@ -88,7 +88,7 @@ image:dc-tech-spec_image14.png[UCS X-Series Direct and direct-attached ASA topol
 
 The following figure shows an UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN.
 
-image:dc-tech-spec_image15.png[UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN]
+image:dc-tech-spec_image14.png[UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN]
 
 *Notes:*
 
@@ -100,11 +100,9 @@ For more information about this configuration, see https://www.netapp.com/pdf.ht
 [NOTE]
 The above examples use the NetApp ASA storage controller, but the same configuration is supported with the NetApp AFF and FAS storage controllers.
 
-
-
 == MetroCluster
 
-FlexPod supports both variants of the NetApp MetroCluster software for continuous availability, in either two- or four-node cluster configurations. MetroCluster provides synchronous replication for critical workloads. It requires a dual-site configuration that is connected with Cisco switching. The maximum supported distance between the sites is approximately 186 miles (300km) for MetroCluster FC and increases to approximately 435 miles (700km) for MetroCluster IP. The following figures illustrate a FlexPod Datacenter with NetApp MetroCluster architecture and FlexPod Datacenter with NetApp MetroCluster IP architecture, respectively.
+FlexPod supports both variants of the NetApp MetroCluster software for continuous availability, in either two- or four-node cluster configurations. MetroCluster provides synchronous replication for critical workloads. It requires a dual-site configuration that is connected with Cisco switching. The maximum supported distance between the sites is approximately 435 miles (700km) for MetroCluster IP. FlexPod Datacenter with NetApp MetroCluster IP architecture.
 
 The following figure depicts FlexPod Datacenter with NetApp MetroCluster architecture.
 

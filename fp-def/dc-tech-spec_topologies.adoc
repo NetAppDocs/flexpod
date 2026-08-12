@@ -57,7 +57,7 @@ For more information on this configuration, see link:https://www.cisco.com/c/en/
 
 The following figure shows a UCS X-Series Direct and direct-attached ASA sample topology for FlexPod Datacenter IP-based and FC-based SAN.
 
-image:dc-tech-spec_image15.png[UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN]
+image:dc-tech-spec_image14.png[UCS X-Series Direct and direct-attached ASA topology for IP-based and FC-based SAN]
 
 Connectivity requirements for this topology include:
 
