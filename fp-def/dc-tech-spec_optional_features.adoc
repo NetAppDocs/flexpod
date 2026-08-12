@@ -27,6 +27,44 @@ The minimum requirements for the iSCSI boot option include:
 * A two-port 10Gbps Ethernet adapter on each node in the NetApp storage controller HA pair
 * An adapter in the Cisco UCS server that is capable of iSCSI boot
 
+The following figures show an example of FlexPod Datacenter with X-Series Modular System and C-Series rack servers for the IP-based iSCSI configuration.
+
+image:dc-tech-spec_image15.png[FlexPod Datacenter for IP-based iSCSI connectivity]
+
+For more information on this configuration, see link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_m7_imm_vmware_design.html#PhysicalTopology[FlexPod Datacenter with Cisco UCS M7 IMM, VMware vSphere 8.0, and NetApp ONTAP 9.12 Design Guide^].
+
+== FC Boot with Cisco MDS
+
+To provide increased scalability by using a dedicated SAN network, FlexPod supports FC through Cisco MDS switches. The FC SAN boot option through Cisco MDS has the following licensing and hardware requirements:
+
+* A minimum of two FC ports per NetApp storage controller; one port for each SAN fabric
+* An FC license on each NetApp storage controller.
+* An adapter in the Cisco UCS server that is capable of FC boot.
+
+The following figure shows an example of FlexPod Datacenter with X-Series Modular System and C-Series rack servers for FC-based SAN configuration with MDS switches.
+
+image:dc-tech-spec_image16.png[FlexPod Datacenter for FC-based SAN connectivity]
+
+For more information on this configuration, see link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_m7_imm_vmware_design.html#PhysicalTopology[FlexPod Datacenter with Cisco UCS M7 IMM, VMware vSphere 8.0, and NetApp ONTAP 9.12 Design Guide^].
+
+== FC SAN boot with Cisco Nexus
+
+Cisco Nexus 93180YC-FX, 93360YC-FX2, or 9336C-FX2-E Switches can be used to provide the switching fabric for both LAN and SAN.
+
+The following figure shows an example of FlexPod Datacenter with X-Series Modular System and C-Series rack servers for FC-based SAN configuration with Cisco Nexus SAN switching.
+
+[NOTE]
+Storage add-on license is needed to use the Cisco Nexus switches for FC SAN connectivity.
+
+image:dc-tech-spec_image17.png[FlexPod Datacenter for FC-based SAN connectivity with Cisco Nexus]
+
+Refer to link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_manual_deploy.html#FlexPod_Cisco_Nexus_SAN_Switch_Part1[this^] link for more information on this configuration.
+
+== End-to-end FC-NVMe
+
+An end-to-end FC-NVMe seamlessly extends a customer’s existing SAN infrastructure for real-time applications while simultaneously delivering improved IOPS and throughput with reduced latency. An existing 32G FC SAN transport can be used to simultaneously transport both NVMe and SCSI workloads.
+
+Refer to link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_manual_deploy.html#FlexPod_Cisco_Nexus_SAN_Switch_Part1[this^] link for more information on this configuration.
 
 == Cisco UCS X-Series Direct and direct-attached AFF/ ASA/ FAS for FC and IP based SAN
 
@@ -62,29 +100,7 @@ For more information about this configuration, see https://www.netapp.com/pdf.ht
 [NOTE]
 The above examples use the NetApp ASA storage controller, but the same configuration is supported with the NetApp AFF and FAS storage controllers.
 
-== FlexPod SAN Infrastructure with Cisco MDS
 
-To provide increased scalability by using a dedicated SAN network, FlexPod supports FC through Cisco MDS switches. The FC SAN boot option through Cisco MDS has the following licensing and hardware requirements:
-
-* A minimum of two FC ports per NetApp storage controller; one port for each SAN fabric
-* An FC license on each NetApp storage controller
-* Cisco MDS switches and firmware versions that are supported on the NetApp http://mysupport.netapp.com/matrix[IMT^]
-
-The following figures show an example of FlexPod Datacenter with X-Series Modular System and a C series rack Server for FC with MDS connectivity.
-
-image:dc-tech-spec_image13.png[FlexPod Datacenter for FC with MDS connectivity]
-
-For more information on this configuration, see link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_rh_ocp_bm_fc_boot_intel.html[FlexPod Datacenter with Red Hat OpenShift with Intel CPUs FC-Boot Manual Config Deployment Guide^].
-
-== FC SAN boot with Cisco Nexus
-
-Cisco Nexus 93180YC-FX, 93360YC-FX2, or 9336C-FX2-E Switches can be used to provide the switching fabric for both LAN and SAN. Refer to link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_base_imm_manual_deploy.html#FlexPod_Cisco_Nexus_SAN_Switch_Part1[this^] link for more information on this configuration.
-
-== End-to-end FC-NVMe
-
-An end-to-end FC-NVMe seamlessly extends a customer’s existing SAN infrastructure for real-time applications while simultaneously delivering improved IOPS and throughput with reduced latency. An existing 32G FC SAN transport can be used to simultaneously transport both NVMe and SCSI workloads.
-
-For more information on FC-NVMe, see the link:https://docs.netapp.com/us-en/flexpod/infrastructure/nvme-vsphere-introduction.html[TR-4684: Implementing and Configuring Modern SANs with NVMe^].
 
 == MetroCluster
 

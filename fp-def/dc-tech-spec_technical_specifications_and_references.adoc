@@ -311,9 +311,9 @@ NetApp AFX storage controllers are supported for use in FlexPod Datacenter. Addi
 
 |===
 | Component | NetApp AFX controller platform documentation
-|NetApp AFX A1K 
+|NetApp AFX 1K 
 .2+| https://docs.netapp.com/us-en/ontap-systems/afx/index.html[AFX Documentation]
-|NetApp AFX A2K 
+|NetApp AFX 2K 
 |===
 
 === NetApp disk shelves
