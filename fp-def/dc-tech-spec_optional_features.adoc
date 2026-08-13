@@ -102,21 +102,9 @@ The above examples use the NetApp ASA storage controller, but the same configura
 
 == MetroCluster
 
-FlexPod supports both variants of the NetApp MetroCluster software for continuous availability, in either two- or four-node cluster configurations. MetroCluster provides synchronous replication for critical workloads. It requires a dual-site configuration that is connected with Cisco switching. The maximum supported distance between the sites is approximately 435 miles (700km) for MetroCluster IP. FlexPod Datacenter with NetApp MetroCluster IP architecture.
+FlexPod MetroCluster IP with VXLAN Multi-Site fabric solution consists of two FlexPods, located at two sites separated by some distance, but connected and paired together to provide a highly available, highly flexible, and highly reliable data center solution that can provide business continuity despite a site failure. The maximum supported distance between the sites is approximately 435 miles (700km).
 
-The following figure depicts FlexPod Datacenter with NetApp MetroCluster architecture.
-
-image:dc-tech-spec_image1.png[FlexPod Datacenter with NetApp MetroCluster architecture]
-
-The following figure depicts the FlexPod Datacenter with NetApp MetroCluster IP architecture.
-
-image:dc-tech-spec_image2.png[FlexPod Datacenter with NetApp MetroCluster IP architecture]
-
-Starting with ONTAP 9.8, ONTAP Mediator can be deployed at a third site to monitor the MetroCluster IP solution and to facilitate automated unplanned switchover when a site disaster occurs.
-
-For a FlexPod MetroCluster IP solution deployment with extended layer-2 site-to-site connectivity, you can achieve cost savings by sharing ISL and using FlexPod switches as compliant MetroCluster IP switches if the network bandwidth and switches meet the requirements as illustrated in the following figure, which depicts the FlexPod MetroCluster IP solution with ISL sharing and compliant switches.
-
-image:dc-tech-spec_image10.png[FlexPod MetroCluster IP solution with ISL sharing and compliant switches]
+In the FlexPod MetroCluster IP solution, the Cisco VXLAN Multi-Site solution allows you to interconnect and centrally manage VXLAN fabrics deployed in separate,geographically dispersed data centers. NetApp MetroCluster IP provides a synchronous replication solution between two NetApp storage clusters providing storage high availability and disaster recovery in a campus or metropolitan area. The solution enables you to design a VMware vSphere-based private cloud on a distributed integrated infrastructure and deliver a unified solution that enables multiple sites to behave in much the same way as a single site while protecting data services from a variety of single-point-of-failure scenarios, including a complete site failure. 
 
 The following two figures depict the VXLAN Multi-Site fabric and the MetroCluster IP storage fabric for a FlexPod MetroCluster IP solution with VXLAN Multi-Site fabric deployment.
 
@@ -128,6 +116,25 @@ image:dc-tech-spec_image11.png[VXLAN Multi-Site fabric for FlexPod MetroCluster 
 
 image:dc-tech-spec_image12.png[MetroCluster IP storage fabric for FlexPod MetroCluster IP solution]
 
+For more information about this configuration, see https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/flexpod-metrocluster-ip-vxlan-multi-site-wp.pdf[FlexPod MetroCluster IP with VXLAN Multi-Site FrontendFabric^].
+
+=== SnapMirror active sync solution for FlexPod MetroCluster IP solution
+
+Using the NetApp Snapshot technology in NetApp ONTAP software, mission-critical SAN data services can be rapidly restored with data from Snapshot-based backups. 
+
+    *  The two ONTAP clusters deployed at two different sites are peered and configured with SnapMirror active sync for synchronous data replication and disaster recovery. 
+    *   The ONTAP Mediator is deployed in a third failure domain as shown in figure below.Along with the clusters, the ONTAP mediator completes the quorum for the SnapMirror active sync solution. 
+    * The ONTAP mediator receives health information from the peered ONTAP clusters and nodes and orchestrates between them to determine their status. The health data helps clusters distinguish between various types of failures and decide whether to perform an automated failover.
+
+image:dc-tech-spec_image18.png[SnapMirror active sync solution components for FlexPod MetroCluster IP solution]
+
+=== Symmetric active-active multi-path support for FlexPod MetroCluster IP solution
+
+To allow hosts / clients to use the replicated LUNs, create igroups in the remote cluster, assign the replicated LUNs to the corresponding igroups, and set up the hosts / clients so they can find the iSCSI target and LUNs available from the remote cluster as additional paths. 
+
+As illustrated in figure below, enterprise applications can be deployed on a storage client using iSCSI-based LUNs hosted by two ONTAP ASA clusters configured for synchronous data replication between sites. A consistency group, shown in the diagram, includes three application-specific LUNs where data is synchronously replicated to the peered cluster by SnapMirror active sync.
+
+image:dc-tech-spec_image19.png[SnapMirror active sync symmetric active-active SAN Multipathing]
 
 
-
+For more information, see https://community.netapp.com/community/discussion/465452/level-up-flexpod-san-solution-storage-resiliency-with-snapmirror-active-sync[ Level up FlexPod SAN solution storage resiliency with SnapMirror active sync^].

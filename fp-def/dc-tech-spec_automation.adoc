@@ -38,5 +38,5 @@ The GitHub repositories provide a structured approach to deploying FlexPod Datac
     ** This repository can be used for setting up Cisco devices and NetApp ONTAP Storage in preparation for Installing Red Hat OpenShift as covered in the link:https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_rh_openshift_bm_iac_deploy.html[CVD^]. 
 
 [NOTE]
-    This repository has options for Configuring local boot with NFS, iSCSI, NVMe-TCP and ONTAP S3 storage protocols.
+    This repository has options for configuring local boot with NFS, iSCSI, NVMe-TCP and ONTAP S3 storage protocols.
 
