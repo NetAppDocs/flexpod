@@ -237,6 +237,8 @@ For information about the SFP modules, review the following resources:
 * For information about the Cisco 25Gb SFP, see https://www.cisco.com/c/en/us/products/interfaces-modules/25-gigabit-modules/index.html[Cisco 25 Gigabit Modules^].
 * For information about the Cisco QSFP module, see the https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/data_sheet_c78-660083.html[Cisco 40GBASE QSFP Modules datasheet^].
 * For information about the Cisco 100Gb SFP, see https://www.cisco.com/c/en/us/products/interfaces-modules/100-gigabit-modules/index.html[Cisco 100 Gigabit Modules^].
+* For information about the Cisco 200GB QSFP, see https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/nb-06-200g-qsfp56-cables-trans-mod-ds-cte-en.html[Cisco 200G QSFP56 Modules datasheet^].
+* For information about the Cisco 400GB QSFP, see https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/datasheet-c78-743172.html[Cisco 400G QSFP56 Modules datasheet^].
 * For information about the Cisco FC SFP module, see the https://www.cisco.com/c/en/us/products/collateral/storage-networking/mds-9000-series-multilayer-switches/product_data_sheet09186a00801bc698.html?dtid=osscdc000283[Cisco MDS 9000 Family Pluggable Transceivers datasheet^].
 * For information about all supported Cisco SFP and transceiver modules, see http://www.cisco.com/en/US/docs/interfaces_modules/transceiver_modules/installation/note/78_15160.html[Cisco SFP and SFP+ Transceiver Module Installation Notes^] and http://www.cisco.com/en/US/products/hw/modules/ps5455/prod_module_series_home.html[Cisco Transceiver Modules^].
 
