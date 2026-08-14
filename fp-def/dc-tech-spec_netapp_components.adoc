@@ -67,7 +67,7 @@ For more information about the supported drives, click the NetApp Hardware Unive
 
 |DS224C
 .4+|
-http://www.netapp.com/us/products/storage-systems/disk-shelves-and-storage-media/disk-shelves-tech-specs.aspx[Disk Shelves and Storage Media Supported Drives on NetApp Hardware Universe]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[Disk Shelves and Storage Media Technical Specifications]
 |DS212C
 |DS460C
 |NS224
