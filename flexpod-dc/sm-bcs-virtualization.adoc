@@ -87,6 +87,6 @@ For the heartbeat datastore, specify the four shared datastores from the cluster
 
 image:sm-bcs-image46.png[]
 
-For additional best practices and configurations for VMware HA Cluster and VMware vSphere Metro storage cluster, see https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.avail.doc/GUID-5432CA24-14F1-44E3-87FB-61D937831CF6.html[Creating and Using vSphere HA Clusters^], https://core.vmware.com/resource/vmware-vsphere-metro-storage-cluster-vmsc[VMware vSphere Metro Storage Cluster (vMSC)^] and the VMWare KB for https://kb.vmware.com/s/article/83370[NetApp ONTAP with NetApp SnapMirror Business Continuity (SM-BC) and VMware vSphere Metro Storage Cluster (vMSC)^].
+For additional best practices and configurations for VMware HA Cluster and VMware vSphere Metro storage cluster, see https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.avail.doc/GUID-5432CA24-14F1-44E3-87FB-61D937831CF6.html[Creating and Using vSphere HA Clusters^], https://core.vmware.com/resource/vmware-vsphere-metro-storage-cluster-vmsc[VMware vSphere Metro Storage Cluster (vMSC)^] and https://docs.netapp.com/us-en/netapp-solutions-virtualization/vmware/vmw-vmsc-with-smas.html[NetApp ONTAP with SnapMirror active sync (formerly SM-BC) and VMware vSphere Metro Storage Cluster (vMSC)^].
 
 link:sm-bcs-validated-scenarios.html[Next: Solution validation - Validated scenarios.]
