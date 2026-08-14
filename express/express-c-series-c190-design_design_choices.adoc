@@ -44,11 +44,11 @@ The following figures show the two options for host connectivity.
 
 The following figure illustrates UTA 2 ports where SFP+ module can be inserted.
 
-image:express-c-series-c190-design_image4.png[Error: Missing Graphic Image]
+image:express-c-series-c190-design_image4.png[]
 
 The following figure illustrates 10GBASE-T ports for connection through conventional RJ-45 Ethernet cables.
 
-image:express-c-series-c190-design_image5.png[Error: Missing Graphic Image]
+image:express-c-series-c190-design_image5.png[]
 
 [NOTE]
 For the 10GBASE-T port option, you must have a 10GBASE-T based uplink switch.
@@ -68,7 +68,7 @@ NetApp AFF C190 systems use the new ONTAP 9.6 data management software. ONTAP 9.
 
 ONTAP 9.6 has several features that are well suited for the FlexPod Express solution. Foremost is NetApp’s commitment to storage efficiencies, which can be one of the most important features for small deployments. The hallmark NetApp storage efficiency features such as deduplication, compression, compaction, and thin provisioning are available in ONTAP 9.6. The NetApp WAFL system always writes 4KB blocks; therefore, compaction combines multiple blocks into a 4KB block when the blocks are not using their allocated space of 4KB. The following figure illustrates this process.
 
-image:express-c-series-c190-design_image6.png[Error: Missing Graphic Image]
+image:express-c-series-c190-design_image6.png[]
 
 ONTAP 9.6 now supports an optional 512- byte block size for NVMe volumes. This capability works well with the VMware Virtual Machine File System (VMFS), which natively uses a 512-byte block. You can stay with the default 4K size or optionally set the 512-byte block size.
 
@@ -90,7 +90,7 @@ The Cisco Nexus 31108PC-V specification includes the following components:
 
 The following figure illustrates the Cisco Nexus 31108PC-V switch.
 
-image:express-c-series-c190-design_image7.png[Error: Missing Graphic Image]
+image:express-c-series-c190-design_image7.png[]
 
 For more information about Cisco Nexus 31108PC-V switches, see https://www.cisco.com/c/en/us/products/collateral/switches/nexus-3000-series-switches/data_sheet_c78-729483.html[Cisco Nexus 3172PQ, 3172TQ, 3172TQ-32T, 3172PQ-XL, and 3172TQ-XL Switches Data Sheet^].
 
@@ -107,7 +107,7 @@ Cisco UCS C-Series rack servers offer the following benefits:
 * Extension of unified computing innovations and benefits to rack servers
 * Increased customer choice with unique benefits in a familiar rack package
 
-image:express-c-series-c190-design_image8.png[Error: Missing Graphic Image]
+image:express-c-series-c190-design_image8.png[]
 
 The Cisco UCS C220 M5 rack server, shown in the above figure, is among the most versatile general-purpose enterprise infrastructure and application servers in the industry. It is a high-density two-socket rack server that delivers industry-leading performance and efficiency for a wide range of workloads, including virtualization, collaboration, and bare-metal applications. Cisco UCS C-Series rack servers can be deployed as standalone servers or as part of Cisco UCS to take advantage of Cisco’s standards-based unified computing innovations that help reduce customers’ TCO and increase their business agility.
 
@@ -117,7 +117,7 @@ For more information about C220 M5 servers, see https://www.cisco.com/c/en/us/pr
 
 The Cisco UCS VIC 1457 adapter shown in the following figure is a quad-port small form-factor pluggable (SFP28) modular LAN on motherboard (mLOM) card designed for the M5 generation of Cisco UCS C-Series Servers. The card supports 10/25Gbps Ethernet or FCoE. The card can present PCIe standards-compliant interfaces to the host, and these can be dynamically configured as either NICs or HBAs.
 
-image:express-c-series-c190-design_image9.png[Error: Missing Graphic Image]
+image:express-c-series-c190-design_image9.png[]
 
 For full information about the Cisco UCS VIC 1457 adapter, see https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/unified-computing-system-adapters/datasheet-c78-741130.html[Cisco UCS Virtual Interface Card 1400 Series Data Sheet^].
 
@@ -162,6 +162,6 @@ Cisco UCS VIC 1457 has four physical ports. This solution validation includes th
 
 In an iSCSI boot implementation, iSCSI boot requires separate virtual network interface cards (vNICs) for iSCSI boot. These vNICs use the appropriate fabric’s iSCSI VLAN as the native VLAN and are attached to the iSCSI boot vSwitches, as shown in the following figure.
 
-image:express-c-series-c190-design_image10.png[Error: Missing Graphic Image]
+image:express-c-series-c190-design_image10.png[]
 
 link:express-c-series-c190-design_conclusion.html[Next: Conclusion.]

@@ -41,7 +41,7 @@ To create a VMware VM to configure as an acquisition unit, complete the followin
 . Launch a web browser and log in to VMware vSphere and select the cluster you want to host a VM.
 . Right-click that cluster and select Create A Virtual Machine from the menu.
 +
-image:cloud-insights_image3.png[Error: Missing Graphic Image]
+image:cloud-insights_image3.png[]
 
 . In the New Virtual Machine wizard, click Next.
 . Specify the name of the VM and select the data center that you want to install it to, then click Next.
@@ -50,7 +50,7 @@ image:cloud-insights_image3.png[Error: Missing Graphic Image]
 . Confirm the compatibility mode for the VM is set to `ESXi 6.7 or later` and click Next.
 . Select Guest OS Family Linux, Guest OS Version: Red Hat Enterprise Linux 7 (64-bit).
 +
-image:cloud-insights_image4.png[Error: Missing Graphic Image]
+image:cloud-insights_image4.png[]
 
 . The next page allows for the customization of hardware resources on the VM. The Cloud Insights Acquisition Unit requires the following resources. After the resources are selected, click Next:
 .. Two CPUs
@@ -59,7 +59,7 @@ image:cloud-insights_image4.png[Error: Missing Graphic Image]
 .. A network that can reach resources in the FlexPod Datacenter and the Cloud Insights server through an SSL connection on port 443.
 .. An ISO image of the chosen Linux distribution (Red Hat Enterprise Linux) to boot from.
 +
-image:cloud-insights_image5.png[Error: Missing Graphic Image]
+image:cloud-insights_image5.png[]
 
 . To create the VM, on the Ready to Complete page, review the settings and click Finish.
 
@@ -69,7 +69,7 @@ To install Red Hat Enterprise Linux, complete the following steps:
 
 . Power on the VM, click the window to launch the virtual console, and then select the option to Install Red Hat Enterprise Linux 7.6.
 +
-image:cloud-insights_image6.png[Error: Missing Graphic Image]
+image:cloud-insights_image6.png[]
 
 . Select the preferred language and click Continue.
 +
@@ -79,34 +79,34 @@ The next page is Installation Summary. The default settings should be acceptable
 .. To customize the partitioning for the server, click Installation Destination.
 .. Confirm that the VMware Virtual Disk of 100GiB is selected with a black check mark and select the I Will Configure Partitioning radio button.
 +
-image:cloud-insights_image7.png[Error: Missing Graphic Image]
+image:cloud-insights_image7.png[]
 
 .. Click Done.
 +
 A new menu displays enabling you to customize the partition table. Dedicate 25 GB each to `/opt/netapp` and `/var/log/netapp`. You can automatically allocate the rest of the storage to the system.
 +
-image:cloud-insights_image8.png[Error: Missing Graphic Image]
+image:cloud-insights_image8.png[]
 
 .. To return to Installation Summary, click Done.
 . Click Network and Host Name.
 .. Enter a host name for the server.
 .. Turn on the network adapter by clicking the slider button. If Dynamic Host Configuration Protocol (DHCP) is configured on your network, you will receive an IP address. If it is not, click Configure, and manually assign an address.
 +
-image:cloud-insights_image9.png[Error: Missing Graphic Image]
+image:cloud-insights_image9.png[]
 
 .. . Click Done to return to Installation Summary.
 . On the Installation Summary page, click Begin Installation.
 . On the Installation Progress page, you can set the root password or create a local user account. When the installation finishes, click Reboot to restart the server.
 +
-image:cloud-insights_image10.png[Error: Missing Graphic Image]
+image:cloud-insights_image10.png[]
 
 . After the system has rebooted, log in to your server and register it with Red Hat Subscription Manager.
 +
-image:cloud-insights_image11.png[Error: Missing Graphic Image]
+image:cloud-insights_image11.png[]
 
 . Attach an available subscription for Red Hat Enterprise Linux.
 +
-image:cloud-insights_image12.png[Error: Missing Graphic Image]
+image:cloud-insights_image12.png[]
 
 == Create an acquisition unit instance in the Cloud Insights portal and install the software
 
@@ -114,29 +114,29 @@ To create an acquisition unit instance in the Cloud Insights portal and install 
 
 . From the home page of Cloud Insights, hover over the Admin entry in the main menu to the left and select Data Collectors from the menu.
 +
-image:cloud-insights_image13.png[Error: Missing Graphic Image]
+image:cloud-insights_image13.png[]
 
 . In the top center of the Data Collectors page, click the link for Acquisition Units.
 +
-image:cloud-insights_image14.png[Error: Missing Graphic Image]
+image:cloud-insights_image14.png[]
 
 . To create a new Acquisition Unit, click the button on the right.
 +
-image:cloud-insights_image15.png[Error: Missing Graphic Image]
+image:cloud-insights_image15.png[]
 
 . Select the operating system that you want to use to host your Acquisition Unit and follow the steps to copy the installation script from the web page.
 +
 In this example, it is a Linux server, which provides a snippet and a token to paste into the CLI on our host. The web page waits for the Acquisition Unit to connect.
 +
-image:cloud-insights_image16.png[Error: Missing Graphic Image]
+image:cloud-insights_image16.png[]
 
 . Paste the snippet into the CLI of the Red Hat Enterprise Linux machine that was provisioned and click Enter.
 +
-image:cloud-insights_image17.png[Error: Missing Graphic Image]
+image:cloud-insights_image17.png[]
 +
 The installation program downloads a compressed package and begins the installation. When the installation is complete, you receive a message stating that the Acquisition Unit has been registered with NetApp Cloud Insights.
 +
-image:cloud-insights_image18.png[Error: Missing Graphic Image]
+image:cloud-insights_image18.png[]
 
 == Add the monitored storage system from the FlexPod Datacenter to Cloud Insights
 
@@ -144,20 +144,20 @@ To add the ONTAP storage system from a FlexPod deployment, complete the followin
 
 . Return to the Acquisition Units page on Cloud Insights portal and find the listed newly registered unit. To display a summary of the unit, click the unit.
 +
-image:cloud-insights_image19.png[Error: Missing Graphic Image]
+image:cloud-insights_image19.png[]
 
 . To start a wizard to add the storage system, on the Summary page, click the button for creating a data collector. The first page displays all the systems from which data can be collected. Use the search bar to search for ONTAP.
 +
-image:cloud-insights_image20.png[Error: Missing Graphic Image]
+image:cloud-insights_image20.png[]
 
 . Select ONTAP Data Management Software.
 +
 A page displays that enables you to name your deployment and select the Acquisition Unit that you want to use. You can provide the connectivity information and credentials for the ONTAP system and test the connection to confirm.
 +
-image:cloud-insights_image21.png[Error: Missing Graphic Image]
+image:cloud-insights_image21.png[]
 
 . Click Complete Setup.
 +
 The portal returns to the Data Collectors page and the Data Collector begins its first poll to collect data from the ONTAP storage system in the FlexPod Datacenter.
 +
-image:cloud-insights_image22.png[Error: Missing Graphic Image]
+image:cloud-insights_image22.png[]

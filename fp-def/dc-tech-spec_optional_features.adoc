@@ -27,27 +27,27 @@ FlexPod supports both variants of the NetApp MetroCluster software for continuou
 
 The following figure depicts FlexPod Datacenter with NetApp MetroCluster architecture.
 
-image:dc-tech-spec_image1.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image1.png[]
 
 The following figure depicts the FlexPod Datacenter with NetApp MetroCluster IP architecture.
 
-image:dc-tech-spec_image2.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image2.png[]
 
 Starting with ONTAP 9.8, ONTAP Mediator can be deployed at a third site to monitor the MetroCluster IP solution and to facilitate automated unplanned switchover when a site disaster occurs.
 
 For a FlexPod MetroCluster IP solution deployment with extended layer-2 site-to-site connectivity, you can achieve cost savings by sharing ISL and using FlexPod switches as compliant MetroCluster IP switches if the network bandwidth and switches meet the requirements as illustrated in the following figure, which depicts the FlexPod MetroCluster IP solution with ISL sharing and compliant switches.
 
-image:dc-tech-spec_image10.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image10.png[]
 
 The following two figures depict the VXLAN Multi-Site fabric and the MetroCluster IP storage fabric for a FlexPod MetroCluster IP solution with VXLAN Multi-Site fabric deployment.
 
 * VXLAN Multi-Site fabric for FlexPod MetroCluster IP solution
 
-image:dc-tech-spec_image11.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image11.png[]
 
 * MetroCluster IP storage fabric for FlexPod MetroCluster IP solution
 
-image:dc-tech-spec_image12.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image12.png[]
 
 == End-to-end FC-NVMe
 
@@ -59,9 +59,9 @@ The following figure illustrates the FlexPod Datacenter for FC with Cisco MDS.
 
 More details about the FlexPod configurations and performance benefits, see https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/whitepaper-c11-741907.html[Introducing End-to-End NVMe for FlexPod White Paper.^]
 
-For more information about ONTAP implementation, see https://www.netapp.com/pdf.html?item=/media/10681-tr4684pdf.pdf[TR-4684: Implementing and Configuring Modern SANs with NVMe^].
+For more information about ONTAP implementation, see https://www.netapp.com/pdf.html?item=/media/10681-tr4684.pdf[TR-4684: Implementing and Configuring Modern SANs with NVMe^].
 
-image:dc-tech-spec_image3.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image3.png[]
 
 == FC SAN boot through Cisco MDS
 
@@ -75,9 +75,9 @@ For more guidance on an MDS-based design, see the CVD https://www.cisco.com/c/en
 
 The following figures show an example of FlexPod Datacenter for FC with MDS connectivity and FlexPod Datacenter for FC with Cisco Nexus 93180YC-FX, respectively.
 
-image:dc-tech-spec_image4.jpg[Error: Missing Graphic Image]
+image:dc-tech-spec_image4.jpg[]
 
-image:dc-tech-spec_image5.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image5.png[]
 
 == FC SAN boot with Cisco Nexus
 
@@ -95,7 +95,7 @@ The use of the Cisco Nexus 7000 or 9000 family of switches precludes the use of 
 
 The following figure shows an FC connectivity configuration.
 
-image:dc-tech-spec_image6.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image6.png[]
 
 == FCoE SAN boot option
 
@@ -112,7 +112,7 @@ The use of the Cisco Nexus 9000 Series Switches precludes the use of FCoE unless
 
 The following figure shows an FCoE boot scenario.
 
-image:dc-tech-spec_image7.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image7.png[]
 
 == iSCSI boot option
 
@@ -124,7 +124,7 @@ The iSCSI boot option has the following licensing and hardware requirements:
 
 The following figure shows an Ethernet-only configuration that is booted by using iSCSI.
 
-image:dc-tech-spec_image8.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image8.png[]
 
 == Cisco UCS direct connect with NetApp storage
 
@@ -145,7 +145,7 @@ The licensing and hardware requirements are as follows:
 
 The following figure shows an FC direct-connect configuration.
 
-image:dc-tech-spec_image9.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image9.png[]
 
 *Notes:*
 
@@ -155,7 +155,7 @@ image:dc-tech-spec_image9.png[Error: Missing Graphic Image]
 
 The following figure shows an iSCSI/Unified IP direct-connect configuration.
 
-image:dc-tech-spec_image10.png[Error: Missing Graphic Image]
+image:dc-tech-spec_image10.png[]
 
 *Notes:*
 

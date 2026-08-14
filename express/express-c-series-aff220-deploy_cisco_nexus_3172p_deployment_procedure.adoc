@@ -234,7 +234,7 @@ A vPC provides the following benefits:
 * Providing link-level resiliency
 * Helping provide high availability
 
-The vPC feature requires some initial setup between the two Cisco Nexus switches to function properly. If you use the back-to-back mgmt0 configuration, use the addresses defined on the interfaces and verify that they can communicate by using the ping `<<switch_A/B_mgmt0_ip_addr>>vrf` management command.
+The vPC feature requires some initial setup between the two Cisco Nexus switches to function properly. If you use the back-to-back mgmt0 configuration, use the addresses defined on the interfaces and verify that they can communicate by using the ping `\<<switch_A/B_mgmt0_ip_addr>>vrf` management command.
 
 From configuration mode (`config t`), run the following commands to configure the vPC global configuration for both switches:
 

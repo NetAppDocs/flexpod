@@ -69,7 +69,7 @@ The table below lists the Cisco switches that can be used as a cluster interconn
 
 |Cisco Nexus 9336C-FX2
 |
-https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html[NetApp Documentation: Cisco Nexus 9336C-FX2 switches]
+https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html[NetApp Documentation: Cisco Nexus 9336C-FX2 switches^]
 |===
 
 == NetApp disk shelf and drive options

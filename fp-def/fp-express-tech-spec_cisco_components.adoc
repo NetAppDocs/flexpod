@@ -129,7 +129,7 @@ https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/
 |Cisco UCS XE130c M8 Compute Node
 |UCSXE-130C-M8
 |
-https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdfl[Cisco UCS XE130c M8 Compute Node]
+https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-xe130c-m8-compute-node-spec-sheet.pdf[Cisco UCS XE130c M8 Compute Node]
 |Cisco UCS XE150c M8 Compute Node
 |UCSXE-150C-M8
 |
@@ -139,7 +139,7 @@ https://www.cisco.com/site/us/en/products/collateral/computing/unified-edge/ucs-
 
 == Cisco UCS C-Series rack server options
 
-Cisco UCS C-Series Rack Servers are available in one and two rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the following table are for the base servers. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
+Cisco UCS C-Series Rack Servers are available in one, two  and four rack-unit (RU) varieties, with various CPU, memory, and I/O options. The part numbers that are listed in the following table are for the base servers. They do not include CPUs, memory, drives, Peripheral Component Interconnect Express (PCIe) cards. Multiple configuration options are available and are supported in the FlexPod architecture.
 
 The following table lists the Cisco UCS C-Series Rack Server options.
 
@@ -154,10 +154,6 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |UCSC-C220-M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m8-rack-server-ds.html[Cisco UCS C220 M8 Rack Server]
-|Cisco UCS C225 M6
-|UCSC-C225-M6
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c225-m6-sff-rack-server-ds.html[Cisco UCS C225 M6 Rack Server]
 |Cisco UCS C225 M8
 |UCSC-C225-M8
 |
@@ -170,10 +166,6 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |UCSC-C240-M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-rack-server-ds.html[Cisco UCS C240 M8 Rack Server]
-|Cisco UCS C245 M6
-|UCSC-C245-M6
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m6-sff-rack-server-ds.html[Cisco UCS C245 M6 Rack Server]
 |Cisco UCS C245 M8
 |UCSC-C245-M8
 |

@@ -36,13 +36,13 @@ Complete the following steps to create a vSphere cluster:
 . Enable DR and vSphere HA by selecting the checkboxes.
 . Click OK.
 +
-image:express-c-series-aff220-deploy_image49.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image49.png[]
 
 == Add ESXi hosts to cluster
 
 . Right-click the cluster and select Add Host.
 +
-image:express-c-series-aff220-deploy_image50.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image50.png[]
 
 . To add an ESXi host to the cluster, complete the following steps:
 .. Enter the IP or FQDN of the host. Click Next.

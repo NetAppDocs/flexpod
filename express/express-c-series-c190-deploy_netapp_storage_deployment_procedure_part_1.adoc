@@ -275,7 +275,7 @@ You can also enter an alternate NTP server. The IP address `10.63.172.162` from 
 [NOTE]
 You must, at a minimum, set up the event notification method before you can proceed. You can select any of the methods.
 +
-image:express-c-series-c190-deploy_image4.png[Error: Missing Graphic Image]
+image:express-c-series-c190-deploy_image4.png[]
 +
 When the system indicates that the cluster configuration has completed, click Manage Your Cluster to configure the storage.
 

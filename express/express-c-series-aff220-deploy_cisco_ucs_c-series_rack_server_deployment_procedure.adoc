@@ -46,7 +46,7 @@ The CIMC version used in this validation is CIMC 3.1.3(g).
 . Attach the Cisco keyboard, video, and mouse (KVM) dongle (provided with the server) to the KVM port on the front of the server. Plug a VGA monitor and USB keyboard into the appropriate KVM dongle ports.
 . Power on the server and press F8 when prompted to enter the CIMC configuration.
 +
-image:express-c-series-aff220-deploy_image8.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image8.png[]
 
 . In the CIMC configuration utility, set the following options:
 
@@ -62,7 +62,7 @@ image:express-c-series-aff220-deploy_image8.png[Error: Missing Graphic Image]
 *** NIC redundancy
 *** None: [X]
 +
-image:express-c-series-aff220-deploy_image9.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image9.png[]
 
 . Press F1 to see additional settings.
 
@@ -76,7 +76,7 @@ image:express-c-series-aff220-deploy_image9.png[Error: Missing Graphic Image]
 *** Port properties: Use default values.
 *** Port profiles: Leave cleared.
 +
-image:express-c-series-aff220-deploy_image10.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image10.png[]
 
 . Press F10 to save the CIMC interface configuration.
 . After the configuration is saved, press Esc to exit.
@@ -128,7 +128,7 @@ To set the boot order configuration, complete the following steps:
 . From the CIMC interface browser window, click the Server tab and select BIOS.
 . Click Configure Boot Order and then click OK.
 +
-image:express-c-series-aff220-deploy_image11.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image11.png[]
 
 . Configure the following devices by clicking the device under Add Boot Device, and going to the Advanced tab.
 
@@ -153,7 +153,7 @@ image:express-c-series-aff220-deploy_image11.png[Error: Missing Graphic Image]
 . Click Add Device.
 . Click Save Changes and then click Close.
 +
-image:express-c-series-aff220-deploy_image12.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image12.png[]
 
 . Reboot the server to boot with your new boot order.
 
@@ -166,7 +166,7 @@ Complete the following steps if your C-Series server contains a RAID controller.
 . Scroll down to PCIe Slot:HBA Option ROM.
 . If the value is not already disabled, set it to disabled.
 +
-image:express-c-series-aff220-deploy_image13.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image13.png[]
 
 == Configure Cisco VIC1387 for iSCSI boot
 
@@ -183,7 +183,7 @@ The following configuration steps are for the Cisco VIC 1387 for iSCSI boot.
 ** VLAN Mode: TRUNK
 ** Enable PXE boot: Check
 +
-image:express-c-series-aff220-deploy_image14.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image14.png[]
 
 . Click Add vNIC and then click OK.
 . Repeat the process to add a second vNIC.
@@ -192,7 +192,7 @@ image:express-c-series-aff220-deploy_image14.png[Error: Missing Graphic Image]
 .. Set the uplink port to `1`.
 . Select the vNIC `iSCSI-vNIC-A` on the left.
 +
-image:express-c-series-aff220-deploy_image15.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image15.png[]
 
 . Under iSCSI Boot Properties, enter the initiator details:
 
@@ -201,7 +201,7 @@ image:express-c-series-aff220-deploy_image15.png[Error: Missing Graphic Image]
 ** Subnet mask: \<<var_esxi_hostA_iscsiA_mask>>
 ** Gateway: \<<var_esxi_hostA_iscsiA_gateway>>
 +
-image:express-c-series-aff220-deploy_image16.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image16.png[]
 
 . Enter the primary target details.
 
@@ -220,7 +220,7 @@ You can obtain the storage IQN number by running the `vserver iscsi show` comman
 [NOTE]
 Be sure to record the IQN names for each vNIC. You need them for a later step.
 +
-image:express-c-series-aff220-deploy_image17.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image17.png[]
 
 . Click Configure iSCSI.
 . Select the vNIC `iSCSI-vNIC- B` and click the iSCSI Boot button located on the top of the Host Ethernet Interfaces section.
@@ -257,16 +257,16 @@ Be sure to record the IQN names for each vNIC. You need them for a later step.
 . From the CIMC interface browser window, click Inventory and then click Cisco VIC adapters on the right pane.
 . Under Adapter Cards, select Cisco UCS VIC 1387 and then select the vNICs underneath.
 +
-image:express-c-series-aff220-deploy_image18.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image18.png[]
 
 . Select eth0 and click Properties.
 . Set the MTU to 9000. Click Save Changes.
 +
-image:express-c-series-aff220-deploy_image19.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image19.png[]
 
 . Repeat steps 3 and 4 for eth1, verifying that the uplink port is set to `1` for eth1.
 +
-image:express-c-series-aff220-deploy_image20.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-deploy_image20.png[]
 +
 [NOTE]
 This procedure must be repeated for each initial Cisco UCS Server node and each additional Cisco UCS Server node added to the environment.

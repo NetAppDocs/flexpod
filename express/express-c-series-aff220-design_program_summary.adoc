@@ -29,7 +29,7 @@ As depicted in the following figure, the FlexPod portfolio includes three soluti
 * *FlexPod Datacenter.* Delivers an optimal multipurpose foundation for various workloads and applications.
 * *FlexPod Select.* Incorporates the best aspects of FlexPod Datacenter and tailors the infrastructure to a given application.
 
-image:express-c-series-aff220-design_image2.png[Error: Missing Graphic Image]
+image:express-c-series-aff220-design_image2.png[]
 
 == NetApp Verified Architecture program
 
