@@ -60,7 +60,7 @@ The selected NetApp shelf type determines which drive types are available within
 [NOTE]
 For all disk shelves and disk part numbers, consult your sales representative.
 
-For more information about the supported drives, click the NetApp Hardware Universe link in the following table and then select Supported Drives.
+For more information about the disk shelves and storage media, see the Disk Shelves and Storage Media Technical Specifications link in the following table.
 
 |===
 |Disk shelf |Technical specifications
