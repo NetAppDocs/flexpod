@@ -55,9 +55,7 @@ https://flexpod.com/solutions/verticals/healthcare/[https://flexpod.com/solution
 +
 https://flexpod.com/[https://flexpod.com/^]
 
-* AI and Analytics for healthcare (NetApp)
-+
-https://www.netapp.com/us/artificial-intelligence/healthcare-ai-analytics/index.aspx[https://www.netapp.com/us/artificial-intelligence/healthcare-ai-analytics/index.aspx^]
+* https://www.netapp.com/artificial-intelligence/ai-in-medicine/[AI in healthcare and medicine (NetApp)^]
 
 * AI in healthcare Smart infrastructure Choices Increase Success
 +
