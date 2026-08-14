@@ -60,7 +60,7 @@ The AFF C190 system is offered exclusively with 960GB SSDs. There are four stage
 * 18x 960GB
 * 24x 960GB
 
-For full information about the AFF C190 hardware system, see the https://docs.netapp.com/us-en/ontap-systems/c190/[NetApp AFF C190 documentation^].
+For full information about the AFF C190 hardware system, see the https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html[NetApp AFF C190 documentation^].
 
 === ONTAP 9.6 software
 
