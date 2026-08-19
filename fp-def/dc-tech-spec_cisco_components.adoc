@@ -14,7 +14,7 @@ summary: Cisco has contributed substantially to the FlexPod design and architect
 
 
 [.lead]
-Cisco has contributed substantially to the FlexPod design and architecture, covering both the compute and networking layers of the solution. This section describes the Cisco UCS and Cisco Nexus options that are available for FlexPod.
+Cisco has contributed substantially to the FlexPod design and architecture, covering both the compute and networking layers of the solution. This section describes the Cisco UCS, Nexus and MDS options that are available for FlexPod.
 
 
 == Cisco UCS fabric interconnect options
