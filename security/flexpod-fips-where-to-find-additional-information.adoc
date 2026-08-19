@@ -45,7 +45,7 @@ To learn more about the information that is described in this document, review t
 
 * https://csrc.nist.gov/projects/cryptographic-module-validation-program[Cryptographic Module Validation Program (CMVP). NIST CMVP database for validated cryptographic modules, including Cisco offerings.^]
 
-* https://www.netapp.com/pdf.html?item=/media/17073-ds-3898.pdf[NetApp Storage Encryption, NVMe Self-Encrypting Drives, NetApp Volume Encryption, and NetApp Aggregate Encryption^]
+* https://docs.netapp.com/us-en/ontap-technical-reports/ontap-security-hardening/storage-encryption.html[NetApp Storage Encryption, NetApp Volume Encryption, and NetApp Aggregate Encryption^]
 
 * https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf[NetApp Volume Encryption and NetApp Aggregate Encryption^]
 
