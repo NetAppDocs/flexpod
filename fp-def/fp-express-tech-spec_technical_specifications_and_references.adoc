@@ -134,7 +134,7 @@ Refer to link:https://www.cisco.com/c/en/us/products/servers-unified-computing/u
 
 == Cisco UCS C-Series rack servers
 
-The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. 
+The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public[Cisco Hardware Compatibility^] list. 
 
 Refer to the table below for the technical specifications for Cisco UCS C-Series rack servers.
 
@@ -262,4 +262,4 @@ https://www.netapp.com/data-storage/disk-shelves-storage-media/[NS224 w/NSM 100B
 
 === NetApp drives
 
-The technical specifications for NetApp drives include the form factor size, disk capacity, disk RPM, supporting controllers, and ONTAP version requirements. These specifications can be found in the Drives section of the http://hwu.netapp.com/Drives/Index?queryId=1581392[NetApp Hardware Universe^].
+The technical specifications for NetApp drives include the form factor size, disk capacity, disk RPM, supporting controllers, and ONTAP version requirements. These specifications can be found in the Drives section of the http://hwu.netapp.com[NetApp Hardware Universe^].
