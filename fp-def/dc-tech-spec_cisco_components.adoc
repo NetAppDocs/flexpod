@@ -255,7 +255,7 @@ For more information about APIC product specifications, refer to Table 1 through
 
 == Cisco MDS options
 
-Cisco MDS switches are an optional component in the FlexPod architecture. Redundant SAN switch fabrics are required when you implement the Cisco MDS switch for FC SAN. The table below lists the supported Cisco MDS switches. See the https://mysupport.netapp.com/matrix/[NetApp IMT^] and https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware and Software Compatibility List^] for a complete list of supported SAN switches.
+While Cisco MDS switches are an optional element of the FlexPod architecture, deployments that utilize Fibre Channel SAN connectivity for higher-performance storage access must implement redundant Cisco MDS switch fabrics to deliver a highly available SAN infrastructure. The table below lists the supported Cisco MDS switches. See the https://mysupport.netapp.com/matrix/[NetApp IMT^] and https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware and Software Compatibility List^] for a complete list of supported SAN switches.
 
 |===
 |Cisco MDS Switch |Description
