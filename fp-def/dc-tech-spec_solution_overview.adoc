@@ -1,32 +1,25 @@
 ---
 sidebar: sidebar
 permalink: fp-def/dc-tech-spec_solution_overview.html
-keywords: flexpod, datacenter, technucal, specifications, platform, architecture
-summary: The FlexPod platform is a predesigned, best practice data center architecture that is built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus family of switches, and NetApp storage controllers (NetApp AFF or FAS systems).
+keywords: flexpod, datacenter, technical specifications, platform, architecture
+summary: The FlexPod platform is a predesigned, best practice data center architecture that is built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus family of switches, and NetApp storage controllers (NetApp AFF, ASA, FAS, or AFX systems).
 ---
 
-= TR-4036: FlexPod Datacenter Technical Specifications
+= FlexPod Datacenter Technical Specifications
 :hardbreaks:
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-06-03 13:02:39.789338
-//
-
-Arvind Ramakrishnan, and Jyh-shing Chen, NetApp
 
 [.lead]
-The FlexPod platform is a predesigned, best practice data center architecture that is built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus family of switches, and NetApp storage controllers (AFF, ASA, or FAS systems).
+The FlexPod platform is a predesigned, best practice data center architecture that is built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus family of switches, and NetApp storage controllers (AFF, ASA, FAS, or AFX systems).
 
 FlexPod is a suitable platform for running a variety of virtualization hypervisors as well as bare-metal operating systems and enterprise workloads. FlexPod delivers not only a baseline configuration, but also the flexibility to be sized and optimized to accommodate many different use cases and requirements.
 
 [NOTE]
-Before you order a complete FlexPod configuration, see the http://www.netapp.com/us/technology/flexpod[FlexPod Converged Infrastructure^] page on netapp.com for the latest version of these technical specifications.
+Before you order a complete FlexPod configuration, see the http://www.netapp.com/us/technology/flexpod[NetApp FlexPod Home Page^] page for the latest version of these technical specifications.
 
 
 link:dc-tech-spec_flexpod_platforms.html[Next: FlexPod platforms.]

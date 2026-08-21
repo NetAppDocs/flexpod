@@ -1,0 +1,54 @@
+---
+sidebar: sidebar
+permalink: fp-def/dc-tech-spec_equipment_support_status.html
+keywords: equipment, support status, end of life, end of support, verification
+summary: This section explains how to verify equipment support status for Cisco and NetApp components.
+---
+
+= Equipment support status
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+
+
+[.lead]
+FlexPod is a flexible solution allowing customers to use both existing and new equipment currently for sale by Cisco and NetApp. Occasionally, certain models of equipment from both Cisco and NetApp are designated end of life.
+
+Even though these models of equipment are no longer available, customers who bought one of these models before the end-of-sale date can use that equipment in a FlexPod configuration.
+
+Additionally, FlexPod Datacenter architectures are periodically refreshed to introduce the latest hardware and software from Cisco and NetApp to the FlexPod Datacenter solution.
+
+Before deploying or maintaining FlexPod Datacenter equipment, verify that all components remain supported by the vendor. This section explains how to check End-of-Sale and End-of-Support information for Cisco and NetApp components.
+
+== Checking NetApp equipment support
+
+NetApp provides support information through the Hardware Universe (HWU).
+
+Go to the link:https://hwu.netapp.com[NetApp Hardware Universe^].
+
+* Select *Products > Platforms*, then choose your platform (example: *AFF A-Series*) and model (example: *AFF A800*).
+
+[NOTE]
+To view all platforms, change the *Platform Lifecycle* filter to *Show All*. By default, *Hide EOA* is selected.
+
+* Select the *ONTAP* version and click *Show Results*.
+* Review the end-of-support dates for your equipment under the *System Availability and Support* section.
+
+
+== Checking Cisco equipment support
+
+Cisco provides End-of-Sale  and End-of-Support dates on the Cisco product support pages.
+
+==== End-of-Sale and End-of-Support information for Cisco UCS Servers
+
+* Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page].
+* Under *Product Categories*, select *Servers - UCS and HCI* and click on your server type (example: *UCS C-Series Rack Servers*). Locate your specific model (example: *UCS C220 M5*) and look for the End-of-Sale and End-of-Support dates.
+
+
+==== End-of-Sale and End-of-Support information for Cisco Nexus Switches
+
+* Navigate to link:https://www.cisco.com/c/en/us/support/eol/index.html[Cisco Product Support Page].
+* Under *Product Categories*, select *Switches* and click on your switch type (example: *Nexus 9000*). Locate your specific model (example: *9236C*) and look for the End-of-Sale and End-of-Support dates.

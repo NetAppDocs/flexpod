@@ -47,6 +47,8 @@ entries:
         url: /fp-def/dc-tech-spec_flexpod_platforms.html
       - title: FlexPod rules
         url: /fp-def/dc-tech-spec_flexpod_rules.html
+      - title: Supported versus Validated FlexPod configurations
+        url: /fp-def/dc-tech-spec_supported_versus_validated_flexpod_configurations.html
       - title: NetApp ONTAP
         url: /fp-def/dc-tech-spec_netapp_ontap.html
       - title: Cisco Nexus switching modes of operation
@@ -71,8 +73,8 @@ entries:
         url: /fp-def/dc-tech-spec_power_and_cabling_requirements.html
       - title: Technical specifications and references
         url: /fp-def/dc-tech-spec_technical_specifications_and_references.html
-      - title: Legacy equipment
-        url: /fp-def/dc-tech-spec_legacy_equipment.html
+      - title: Equipment support status
+        url: /fp-def/dc-tech-spec_equipment_support_status.html
       - title: Automated deployment
         url: /fp-def/dc-tech-spec_automation.html
       - title: Where to find additional Information
