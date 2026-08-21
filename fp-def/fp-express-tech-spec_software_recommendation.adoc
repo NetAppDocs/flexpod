@@ -26,4 +26,4 @@ This section describes the software version recommendations for FlexPod Express.
     ** Refer to this link for the latest versions for link:https://intersight.com/help/saas/supported_systems/Intersight_Standalone_Mode[Cisco Intersight Standalone Mode and CIMC Firmware^]
 
 [NOTE]
-All software components must be listed and supported in the https://imt.netapp.com/imt/#welcome[NetApp IMT^], all NetApp hardware components and ONTAP versions must be listed and supported on https://hwu.netapp.com/Home/Index[NetApp Hardware Universe^] and all Cisco hardware components must be listed and supported on https://ucshcltool.cloudapps.cisco.com/public/[Cisco HCL^].
+All software components must be listed and supported in the https://imt.netapp.com[NetApp IMT^], all NetApp hardware components and ONTAP versions must be listed and supported on https://hwu.netapp.com[NetApp Hardware Universe^] and all Cisco hardware components must be listed and supported on https://ucshcltool.cloudapps.cisco.com/public[Cisco HCL^].
