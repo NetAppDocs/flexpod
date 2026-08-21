@@ -54,7 +54,7 @@ Cisco Nexus 93180YC-FX, 93360YC-FX2, or 9336C-FX2-E Switches can be used to prov
 The following figure shows an example of FlexPod Datacenter with X-Series Modular System and C-Series rack servers for FC-based SAN configuration with Cisco Nexus SAN switching.
 
 [NOTE]
-Storage add-on license is needed to use the Cisco Nexus switches for FC SAN connectivity.
+To use the Cisco Nexus switches for FC SAN connectivity, storage add-on license is required on the Cisco Nexus switches.
 
 image:dc-tech-spec_image17.png[FlexPod Datacenter for FC-based SAN connectivity with Cisco Nexus]
 

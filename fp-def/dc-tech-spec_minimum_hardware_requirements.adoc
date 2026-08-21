@@ -32,6 +32,6 @@ A FlexPod configuration has the following minimum hardware requirements:
 [NOTE]
     If you are using the UCS rack servers without FI connectivity, you could use CIMC or the Intersight standalone mode for management.
 
-* Two NetApp AFF, NetApp ASA,or NetApp FAS controllers in a high-availability (HA) pair configuration deployed as a two-node cluster. If using NetApp AFX, a minimum of four NetApp AFX controllers are required and is to be deployed as a four-node HA cluster along with a pair of cluster interconnect switches.
+* Two NetApp AFF, NetApp ASA, or NetApp FAS controllers in a high-availability (HA) pair configuration deployed as a two-node cluster. If using NetApp AFX, a minimum of four NetApp AFX controllers are required and is to be deployed as a four-node HA cluster along with a pair of cluster interconnect switches.
 
 * A minimum of one NetApp disk shelf is required for the storage controllers that do not have a built-in disk shelf.
