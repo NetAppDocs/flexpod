@@ -48,7 +48,7 @@ The following table lists the Nexus cluster interconnect switches that are avail
 https://mysupport.netapp.com/documentation/docweb/index.html?productID=62377&language=en-US[NetApp Documentation: Cisco Nexus 3132Q-V switches]
 |Cisco Nexus 9336C-FX2
 |
-https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/[NetApp Documentation: Cisco Nexus 9336C-FX2 switches]
+https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html[NetApp Documentation: Cisco Nexus 9336C-FX2 switches^]
 |===
 
 == NetApp disk shelf and drive options
@@ -60,14 +60,14 @@ The selected NetApp shelf type determines which drive types are available within
 [NOTE]
 For all disk shelves and disk part numbers, consult your sales representative.
 
-For more information about the supported drives, click the NetApp Hardware Universe link in the following table and then select Supported Drives.
+For more information about the disk shelves and storage media, see the Disk Shelves and Storage Media Technical Specifications link in the following table.
 
 |===
 |Disk shelf |Technical specifications
 
 |DS224C
 .4+|
-http://www.netapp.com/us/products/storage-systems/disk-shelves-and-storage-media/disk-shelves-tech-specs.aspx[Disk Shelves and Storage Media Supported Drives on NetApp Hardware Universe]
+https://www.netapp.com/data-storage/disk-shelves-storage-media/[Disk Shelves and Storage Media Technical Specifications]
 |DS212C
 |DS460C
 |NS224

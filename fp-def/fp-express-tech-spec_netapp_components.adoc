@@ -37,11 +37,10 @@ The controller families that are listed in the table below are appropriate for u
 |AFF C-Series
 |C30
 |https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Documentation]
-.2+|ASA A-Series
+.3+|ASA
 |A20
 .3+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA Documentation]
 |A30
-|ASA C-Series
 |C30
 .3+|FAS
 |FAS 2750
@@ -62,7 +61,7 @@ For all disk shelves and disk part numbers, consult your sales representative.
 
 The following table lists the NetApp disk shelf options for FlexPod Express along with links to its technical specifications. 
 
-To get the list of supported drives for your disk shelf, go to link:https://hwu.netapp.com/DetailViews/Home.aspx[NetApp Hardware Universe^], under *Products > Storage > Shelves* select *ONTAP (AFF, ASA, FAS)* , select the version of ONTAP you are using, then select the shelf type (example: *DS212C*) and click on *Show Results*. Click on *Supported Drives* to see the drives supported for specific versions of ONTAP and the disk shelves.
+To get the list of supported drives for your disk shelf, go to link:https://hwu.netapp.com[NetApp Hardware Universe^], under *Products > Storage > Shelves* select *ONTAP (AFF, ASA, FAS)* , select the version of ONTAP you are using, then select the shelf type (example: *DS212C*) and click on *Show Results*. Click on *Supported Drives* to see the drives supported for specific versions of ONTAP and the disk shelves.
 
 |===
 |Disk shelf |Technical specifications

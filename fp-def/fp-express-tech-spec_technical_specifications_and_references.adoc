@@ -134,7 +134,7 @@ Refer to link:https://www.cisco.com/c/en/us/products/servers-unified-computing/u
 
 == Cisco UCS C-Series rack servers
 
-The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public/[Cisco Hardware Compatibility^] list. 
+The technical specifications for the Cisco UCS C-Series rack servers include processor support, maximum memory capacity, the number of PCIe slots, and form factor. For additional details on compatible UCS server models, see the https://ucshcltool.cloudapps.cisco.com/public[Cisco Hardware Compatibility^] list. 
 
 Refer to the table below for the technical specifications for Cisco UCS C-Series rack servers.
 
@@ -147,18 +147,15 @@ https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-
 |Cisco UCS C220 M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m8-rack-server-ds.html[Cisco UCS C220 M8 Rack Server]
-|Cisco UCS C225 M6
+|Cisco UCS C225 M8
 |
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c225-m6-sff-rack-server-ds.html[Cisco UCS C225 M6 Rack Server]
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c225-m8-rack-server-ds.html[Cisco UCS C225 M8 Rack Server]
 |Cisco UCS C240 M7
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m7-rack-server-ds.html[Cisco UCS C240 M7 Rack Server]
 |Cisco UCS C240 M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-rack-server-ds.html[Cisco UCS C240 M8 Rack Server]
-|Cisco UCS C245 M6
-|
-https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m6-sff-rack-server-ds.html[Cisco UCS C245 M6 Rack Server]
 |Cisco UCS C245 M8
 |
 https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-ds.html[Cisco UCS C245 M8 Rack Server]
@@ -209,25 +206,16 @@ Entry-level NetApp AFF C-Series storage controllers are supported for use in Fle
 |
 https://docs.netapp.com/us-en/ontap-systems/c30-60/c30-key-specifications.html[AFF C30 Key Specifications]
 |===
-=== NetApp ASA A-Series
+=== NetApp ASA
 
-Entry-level models of NetApp ASA A-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA A-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
+Entry-level models of NetApp ASA storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
 
 |===
-| Component | NetApp ASA A-Series controller platform documentation
+| Component | NetApp ASA controller platform documentation
 
-| NetApp ASA A20 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a20-key-specifications.html[ASA A20 Key Specifications]
+|NetApp ASA A20 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a20-key-specifications.html[ASA A20 Key Specifications]
 |NetApp ASA A30 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a30-key-specifications.html[ASA A30 Key Specifications]
-|===
-
-=== NetApp ASA C-Series
-
-Entry-level models of NetApp ASA C-Series storage controllers are supported for use in FlexPod Express. Additional information can be found in the https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[NetApp ASA C-Series Technical Specifications^] datasheet and in the https://hwu.netapp.com/[NetApp Hardware Universe^]. See the platform- specific documentation listed in the following table for detailed information about a specific ASA Model.
-
-|===
-| Component | NetApp ASA C-Series controller platform documentation
-
-| NetApp ASA C30 | https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C30 Key Specifications]
+|NetApp ASA C30 | https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C30 Key Specifications]
 |===
 
 === NetApp FAS Series
@@ -274,4 +262,4 @@ https://www.netapp.com/data-storage/disk-shelves-storage-media/[NS224 w/NSM 100B
 
 === NetApp drives
 
-The technical specifications for NetApp drives include the form factor size, disk capacity, disk RPM, supporting controllers, and ONTAP version requirements. These specifications can be found in the Drives section of the http://hwu.netapp.com/Drives/Index?queryId=1581392[NetApp Hardware Universe^].
+The technical specifications for NetApp drives include the form factor size, disk capacity, disk RPM, supporting controllers, and ONTAP version requirements. These specifications can be found in the Drives section of the http://hwu.netapp.com[NetApp Hardware Universe^].

@@ -21,4 +21,4 @@ summary: NetApp ONTAP software is installed on every NetApp FAS or AFF system. F
 [.lead]
 NetApp ONTAP software is installed on all NetApp FAS, AFF, and ASA systems. FlexPod is validated with ONTAP software, providing a highly scalable storage architecture that enables non-disruptive operations, non-disruptive upgrades, and an agile data infrastructure.
 
-For more information about ONTAP, see the http://www.netapp.com/us/products/data-management-software/ontap.aspx[ONTAP Data Management Software^] product page.
+For more information about ONTAP, see the https://www.netapp.com/ontap-data-management-software/[ONTAP Data Management Software^] product page.
