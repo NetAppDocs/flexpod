@@ -13,7 +13,7 @@ summary: Automated deployment for FlexPod Datacenter is available through a GitH
 :imagesdir: ./../media/
 
 [.lead]
-Automated deployment of FlexPod Datacenter is available through the FlexPod Datacenter GitHub repositories. These repositories contain Ansible playbooks and related files to facilitate the deployment of FlexPod Datacenter infrastructure as code (IaC).  
+Automated deployment of FlexPod Datacenter is available through the FlexPod Datacenter link:https://github.com/ucs-compute-solutions[GitHub repositories^]. These repositories contain Ansible playbooks and related files to facilitate the deployment of FlexPod Datacenter infrastructure as code (IaC).  
 
 The GitHub repositories provide a structured approach to deploying FlexPod Datacenter configurations, allowing users to automate the setup and management of their infrastructure. These include playbooks for various components of the FlexPod Datacenter design, ensuring that users can efficiently deploy and maintain their environments with consistency and reliability.
 

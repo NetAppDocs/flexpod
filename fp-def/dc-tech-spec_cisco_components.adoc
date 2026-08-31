@@ -276,17 +276,12 @@ http://www.cisco.com/c/en/us/products/storage-networking/mds-9700-series-multila
 
 == Cisco support licensing options
 
-Valid TSANet support contracts are required on all Cisco equipment in the FlexPod Datacenter architecture.
-
 [NOTE]
-The required licenses and corresponding part numbers can vary by product and configuration. It is recommended to confirm licensing requirements with your Cisco or NetApp sales representative prior to ordering.
+ It is recommended to confirm licensing requirements with your Cisco or NetApp sales representative prior to ordering.
 
-The following table lists the Cisco support licensing options.
+link:https://www.cisco.com/c/dam/en_us/about/doing_business/legal/service_descriptions/docs/solution-support-smart-total-care.pdf[Cisco Solution Support^] is a Technical Support Service offer that applies to Cisco solutions that include both Hardware and Software from Cisco only or from Cisco and Solution Support Alliance Partners and are comprised of solely Cisco Products and products provided by third party vendors (Solution Support Alliance Partner(s)).
 
-|===
-|Cisco Support licensing |License guide
+Cisco supports complex customer environments through its link:https://www.cisco.com/c/en/us/support/web/tac/technical-services-resource-guide.html[Technical Assistance Center]. Cisco Solution Support entitles customer access to a team of TAC engineers, who provide a primary point of contact for issues found within the solution, as well as Product support for the Hardware and Software that comprise the solution. 
 
-|TSANet
-|
-https://www.tsanet.org/cisco-tsanet-case-study/
-|===
+Cisco leverages the link:https://www.tsanet.org/cisco-tsanet-case-study/[TSANet Partner Program^] framework to onboard Solution Support Partners into a private group on the TSANet Connect system. TSANet Connect provides a consistent method for Support Engineers to collaborate with Partners’ technical teams, ensuring efficient communication and accelerated problem resolution without the friction caused by informal efforts to work with partners
+
