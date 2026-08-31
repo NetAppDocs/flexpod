@@ -10,7 +10,7 @@ summary: This document provides the technical specifications for the FlexPod Exp
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 

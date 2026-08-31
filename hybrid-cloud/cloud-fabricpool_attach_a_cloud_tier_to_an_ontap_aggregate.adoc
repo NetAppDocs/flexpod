@@ -9,7 +9,7 @@ summary: After an object store has been added to and identified by ONTAP, it mus
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

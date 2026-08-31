@@ -9,7 +9,7 @@ summary: The journey to the cloud varies between organizations, between business
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

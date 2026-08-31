@@ -10,7 +10,7 @@ summary: Before you begin, install or upgrade AIQ UM, create a Cisco Intersight 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 [.lead]
 To monitor and orchestrate NetApp storage from Cisco Intersight, you need NetApp Active IQ Unified Manager and Cisco Intersight Assist Virtual Appliance installed in the vCenter environment.

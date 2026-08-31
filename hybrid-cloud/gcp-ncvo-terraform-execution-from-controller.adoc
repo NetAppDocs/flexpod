@@ -10,7 +10,7 @@ summary: We can execute the Terraform plan using a controller. You can skip this
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

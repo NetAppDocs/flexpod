@@ -11,7 +11,7 @@ summary: "This document provides a reference architecture and design guide for a
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Vadim Lebedev, Cisco
 Suresh Thoppay, NetApp

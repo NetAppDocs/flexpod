@@ -10,7 +10,7 @@ summary: NetApp supports several optional components to further enhance FlexPod 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

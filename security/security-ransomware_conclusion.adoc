@@ -10,7 +10,7 @@ summary: The authors recommend not paying a ransom in the event of an attack bec
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

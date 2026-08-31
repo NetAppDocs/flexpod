@@ -11,7 +11,7 @@ summary: "This document describes the Cisco and NetApp FlexPod Datacenter with N
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 John George, Cisco 
 Sree Lakshmi Lanka, NetApp

@@ -11,7 +11,7 @@ summary: FlexPod Express is a predesigned, best practice data center architectur
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)
