@@ -55,10 +55,12 @@ entries:
         url: /fp-def/dc-tech-spec_cisco_nexus_switching_modes_of_operation.html
       - title: Minimum hardware requirements
         url: /fp-def/dc-tech-spec_minimum_hardware_requirements.html
-      - title: Minimum software requirements
-        url: /fp-def/dc-tech-spec_minimum_software_requirements.html
+      - title: Software version recommendations
+        url: /fp-def/dc-tech-spec_software_version_recommendations.html
       - title: Connectivity requirements
         url: /fp-def/dc-tech-spec_connectivity_requirements.html
+      - title: FlexPod Datacenter topologies
+        url: /fp-def/dc-tech-spec_topologies.html
       - title: Other requirements
         url: /fp-def/dc-tech-spec_other_requirements.html
       - title: Optional features
@@ -73,5 +75,7 @@ entries:
         url: /fp-def/dc-tech-spec_technical_specifications_and_references.html
       - title: Equipment support status
         url: /fp-def/dc-tech-spec_equipment_support_status.html
+      - title: Automated deployment
+        url: /fp-def/dc-tech-spec_automation.html
       - title: Where to find additional Information
         url: /fp-def/dc-tech-spec_where_to_find_additional_information.html

@@ -30,25 +30,34 @@ The controller families that are listed in the table below are appropriate for u
 |===
 |NetApp storage Family for FlexPod Datacenter| Model | Technical specifications
 
-.4+|AFF A-Series
+.6+|AFF A-Series
+|AFF A20
+.6+|https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF A-Series Datasheet]
+|AFF A30
 |AFF A50
-.4+|https://www.netapp.com/pdf.html?item=/media/7828-ds-3582-aff-a-series-ai-era.pdf[AFF A-Series Datasheet]
 |AFF A70
 |AFF A90
 |AFF A1K
-.2+|AFF C-Series
+.3+|AFF C-Series
+|AFF C30
+.3+|https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Datasheet]
 |AFF C60
-.2+|https://www.netapp.com/pdf.html?item=/media/81583-ds-4240-aff-c-series.pdf[AFF C-Series Datasheet]
 |AFF C80
-.4+|ASA
+.7+|ASA
+|ASA A20
+.7+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA Datasheet]
+|ASA A30
+|ASA C30
 |ASA A50
-.4+|https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA Datasheet]
 |ASA A70
 |ASA A90
 |ASA A1K
-.2+|FAS
+.5+|FAS
+|FAS2750
+.5+|https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Datasheet]
+|FAS2820
+|FAS50
 |FAS70
-.2+|https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS Datasheet]
 |FAS90
 .2+|AFX
 |AFX 1K
