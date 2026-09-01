@@ -25,7 +25,7 @@ FlexPod is a defined set of hardware and software that forms an integrated found
 
 One benefit of the FlexPod architecture is the ability to customize, or flex, the environment to suit a customer's requirements. A FlexPod unit can easily be scaled as requirements and demand change. A unit can be scaled both up (adding resources to a FlexPod unit) and out (adding more FlexPod units). The FlexPod reference architecture highlights the resiliency, cost benefit, and ease of deployment of a Fibre Channel and IP-based storage solution. A storage system that is capable of serving multiple protocols across a single interface gives customers a choice and protects their investment because it is truly a wire-once architecture. The following figure shows many of the hardware components of FlexPod.
 
-image:cloud-fabricpool_image2.png[]
+image:cloud-fabricpool_image2.png["A diagram that shows FlexPod storage, Cisco Nexus and MDS switches, and Cisco UCS families with connectivity guidance"]
 
 == FlexPod architecture
 
@@ -37,4 +37,4 @@ The following figure shows the components of a VMware vSphere and FlexPod soluti
 
 These infrastructure options expanded with the introduction of Cisco MDS switches sitting between the Cisco UCS fabric interconnect and the NetApp AFF A300. This configuration provides FC-booted hosts with 16Gb FC block-level access to shared storage. The reference architecture reinforces the wire-once strategy, because, as additional storage is added to the architecture, no recabling is required from the hosts to the Cisco UCS fabric interconnect.
 
-image:cloud-fabricpool_image3.png[]
+image:cloud-fabricpool_image3.png["A diagram that shows Cisco UCS, Nexus 93180YC-EX, AFF A300, and MDS 9148S connections"]

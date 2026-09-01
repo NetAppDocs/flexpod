@@ -76,7 +76,7 @@ FabricPool read latency is a function of connectivity to the cloud tier. Intercl
 [NOTE]
 When using FabricPool in low-performance environments, minimum performance requirements for client applications must continue to be met, and recovery time objectives should be adjusted accordingly.
 
-image:cloud-fabricpool_image6.png[]
+image:cloud-fabricpool_image6.png["A diagram that shows two NetApp AFF A300 controllers connecting intercluster LIFs to AWS S3"]
 
 === Object store profiler
 
@@ -99,7 +99,7 @@ storage aggregate object-store profiler show
 
 Cloud tiers do not provide performance similar to that found on the performance tier (typically GB per second). Although FabricPool aggregates can easily provide SATA-like performance, they can also tolerate latencies as high as 10 seconds and low throughput for tiering solutions that do not require SATA-like performance.
 
-image:cloud-fabricpool_image7.png[]
+image:cloud-fabricpool_image7.png["A screenshot of ONTAP CLI object store profiler results showing PUT and GET latency and throughput"]
 
 == Volumes
 

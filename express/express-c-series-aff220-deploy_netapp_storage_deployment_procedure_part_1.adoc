@@ -240,7 +240,7 @@ Cluster setup can also be performed by using the CLI. This document describes cl
 . Click Guided Setup to configure the cluster.
 . Enter `\<<var_clustername>>` for the cluster name and `\<<var_nodeA>>` and `\<<var_nodeB>>` for each of the nodes that you are configuring. Enter the password that you would like to use for the storage system. Select Switchless Cluster for the cluster type. Enter the cluster base license.
 +
-image:express-c-series-aff220-deploy_image6.png[]
+image:express-c-series-aff220-deploy_image6.png["A screenshot of System Manager Guided Setup cluster configuration fields for two HA pair nodes and licenses"]
 
 . You can also enter feature licenses for Cluster, NFS, and iSCSI.
 . You see a status message stating the cluster is being created. This status message cycles through several statuses. This process takes several minutes.
@@ -262,7 +262,7 @@ You can also enter an alternate NTP server.
 +
 You must, at a minimum, set up the event notification method before you can proceed. You can select any of the methods.
 +
-image:express-c-series-aff220-deploy_image7.png[]
+image:express-c-series-aff220-deploy_image7.png["A screenshot of OnCommand System Manager Support setup with AutoSupport and event notification fields"]
 
 . When indicated that the cluster configuration has completed, click Manage Your Cluster to configure the storage.
 
