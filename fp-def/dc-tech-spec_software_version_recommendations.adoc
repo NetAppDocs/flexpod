@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: fp-def/dc-tech-spec_software_version_recommendations.html
+keywords: software, recommendations, flexpod, datacenter, technical specifications, cisco, ontap, ucs, intersight, intersight-standalone, nx-os
+summary: The following information describes the software version recommendations for a FlexPod configuration.
+---
+
+= Software version recommendations
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./../media/
+
+[.lead]
+A FlexPod configuration has the following software version recommendations:
+
+* ONTAP version: Latest ONTAP version is recommended for all FlexPod Datacenter configurations. Refer to link:https://docs.netapp.com/us-en/ontap/release-notes/index.html[ONTAP Release Notes^] for the latest ONTAP version.
+
+* Cisco NX-OS version: For the general recommendation of Cisco NX-OS version for the Cisco 9000 series switches, refer to link:https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/recommended_release/b_Minimum_and_Recommended_Cisco_NX-OS_Releases_for_Cisco_Nexus_9000_Series_Switches.html[Recommended Cisco NX-OS Releases for Cisco Nexus 9000 Series Switches^].
+
+* Cisco UCS Firmware Version: 
+    ** Refer to this link for the latest versions for link:https://www.cisco.com/c/en/us/support/servers-unified-computing/intersight/products-release-notes-list.html[Cisco Intersight Managed Mode Infrastructure and Server Firmware, Chassis Firmware and PCIe Node Firmware^].
+    ** Refer to this link for the latest versions for link:https://intersight.com/help/saas/supported_systems/Intersight_Standalone_Mode[Cisco Intersight Standalone Mode and CIMC Firmware^].
+
+[NOTE]
+All software components must be listed and supported in the https://imt.netapp.com[NetApp IMT^], all NetApp hardware components and ONTAP versions must be listed and supported on https://hwu.netapp.com/Home/Index[NetApp Hardware Universe^] and all Cisco hardware components must be listed and supported on https://ucshcltool.cloudapps.cisco.com/public/[Cisco HCL^].

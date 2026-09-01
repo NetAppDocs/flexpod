@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: fp-def/dc-tech-spec_cisco_nexus_switching_modes_of_operation.html
-keywords: cisco, nexus, switching, modes, operation, datacenter, techincal, specifications
-summary: A variety of Cisco Nexus products can be used as the switching component of a given FlexPod deployment. Most of these options leverage the traditional Cisco Nexus OS or NX-OS software. The Cisco Nexus family of switches offers varying capabilities within its product lines. These capabilities are detailed later in this document.
+keywords: cisco, nexus, nx-os, aci, switching, modes, operation, datacenter, technical, specifications
+summary: A variety of Cisco Nexus products can be used as the switching component of a given FlexPod deployment. Most of these options leverage the Cisco NX-OS software. The Cisco Nexus family of switches offers varying capabilities within its product lines. These capabilities are detailed later in this document.
 ---
 
 = Cisco Nexus switching modes of operation
@@ -12,20 +12,15 @@ summary: A variety of Cisco Nexus products can be used as the switching componen
 :linkattrs:
 :imagesdir: ../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-06-03 13:02:39.810171
-//
 
 [.lead]
-A variety of Cisco Nexus products can be used as the switching component of a given FlexPod deployment. Most of these options leverage the traditional Cisco Nexus OS or NX-OS software. The Cisco Nexus family of switches offers varying capabilities within its product lines. These capabilities are detailed later in this document.
+A variety of Cisco Nexus products can be used as the switching component of a given FlexPod deployment. Most of these options leverage the Cisco NX-OS software. The Cisco Nexus family of switches offers varying capabilities within its product lines. These capabilities are detailed later in this document.
 
-Cisco’s offering in the software-defined networking space is called Application Centric Infrastructure (ACI). The Cisco Nexus product line that supports the ACI mode, also called fabric mode, is the Cisco Nexus 9300 series. These switches can also be deployed in NX-OS or standalone mode.
+Cisco’s offering in the software-defined networking space is called Application Centric Infrastructure (ACI). The Cisco Nexus product line that supports the ACI mode (fabric mode) can also be deployed in NX-OS mode.
 
 Cisco ACI is targeted at data center deployments that focus on the requirements of a specific application. Applications are instantiated through a series of profiles and contracts that allow connectivity from the host or virtual machine (VM) all the way through the network to the storage.
 
-FlexPod is validated with both modes of operation of the Cisco Nexus switches. For more information about the ACI and the NX-OS modes, see the following Cisco pages:
+FlexPod Datacenter is validated with both modes of operation of the Cisco Nexus switches. For more information about the ACI and NX-OS modes, see the following Cisco pages:
 
 * http://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/index.html[Cisco Application Centric Infrastructure^]
-* http://www.cisco.com/c/en/us/products/ios-nx-os-software/nx-os-software/index.html[Cisco NX-OS Software^]
+* https://www.cisco.com/site/us/en/products/networking/cloud-networking/nx-os/index.html[Cisco NX-OS Software^]

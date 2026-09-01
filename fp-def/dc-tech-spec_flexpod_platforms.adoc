@@ -12,16 +12,11 @@ summary:
 :linkattrs:
 :imagesdir: ../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-06-03 13:02:39.792325
-//
 
 [.lead]
 There are two FlexPod platforms:
 
-* *FlexPod Datacenter.* This platform is a massively scalable virtual data center infrastructure that is suited for workload enterprise applications; virtualization; virtual desktop infrastructure (VDI); and public, private, and hybrid cloud workloads.
-* *FlexPod Express.* This platform is a compact converged infrastructure that is targeted to remote office and edge use cases. FlexPod Express has its own specifications that are documented in the https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_overview.html[FlexPod Express Technical Specifications.^]
+* *FlexPod Datacenter.* This platform is a highly scalable data center infrastructure  suited for enterprise workloads and applications, virtualization, AI/ML, databases, SAP HANA, virtual desktop infrastructure (VDI), and public, private, and hybrid cloud workloads.
+* *FlexPod Express.* This platform is a compact converged infrastructure that is targeted to remote office and edge use cases. FlexPod Express has its own specifications that are documented in the https://docs.netapp.com/us-en/flexpod/fp-def/fp-express-tech-spec_overview.html[FlexPod Express Technical Specifications^].
 
 This document provides the technical specifications for the FlexPod Datacenter platform.
