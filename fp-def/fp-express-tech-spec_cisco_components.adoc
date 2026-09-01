@@ -10,7 +10,7 @@ summary: Cisco is a substantial contributor to the FlexPod Express design and ar
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

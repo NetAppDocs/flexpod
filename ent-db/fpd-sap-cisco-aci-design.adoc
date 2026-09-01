@@ -11,7 +11,7 @@ summary: "This document describes Cisco ACI integrated FlexPod solution as a val
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Pramod Ramamurthy, Cisco 
 Marco Schoen, NetApp

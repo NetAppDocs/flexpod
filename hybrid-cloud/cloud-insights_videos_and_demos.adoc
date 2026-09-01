@@ -10,7 +10,7 @@ summary: You can see a video demonstration of using NetApp Cloud Insights.
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

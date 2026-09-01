@@ -11,7 +11,7 @@ summary: "The Cisco Unified Computing System (Cisco UCS) is a next-generation da
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Tushar Patel,  Cisco 
 Niranjan Mohapatra, Cisco 

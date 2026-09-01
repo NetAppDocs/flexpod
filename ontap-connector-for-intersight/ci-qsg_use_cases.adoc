@@ -10,7 +10,7 @@ summary: These are a few use case examples for monitoring and orchestration of N
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 [.lead]
 These are a few use case examples for monitoring and orchestration of NetApp storage from Cisco Intersight.

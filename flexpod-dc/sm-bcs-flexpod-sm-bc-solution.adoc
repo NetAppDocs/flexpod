@@ -10,7 +10,7 @@ summary:  At a high level, a FlexPod SM-BC solution consists of two FlexPod syst
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

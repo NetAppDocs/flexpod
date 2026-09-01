@@ -11,7 +11,7 @@ summary: "The reference architecture detailed in this document highlights the re
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Shailendra Mruthunjaya, Cisco
 Ralf Klahr, Cisco

@@ -10,7 +10,7 @@ summary: FlexPod is a flexible solution that enables you to use your existing eq
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

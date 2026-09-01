@@ -11,7 +11,7 @@ summary: "The FlexPod Express for VMware vSphere 7.0 with Cisco UCS Mini and Net
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Jyh-shing Chen, NetApp
 
