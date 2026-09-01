@@ -11,7 +11,7 @@ summary: "This document provides a Reference Architecture for a virtual desktop 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Vadim Lebedev, Cisco 
 Chris Rodriguez, NetApp

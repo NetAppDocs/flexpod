@@ -10,7 +10,7 @@ summary: This page provides an introduction to the FlexPod Datacenter solution u
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

@@ -10,7 +10,7 @@ summary: This section describes the power requirements and disk shelf cabling gu
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

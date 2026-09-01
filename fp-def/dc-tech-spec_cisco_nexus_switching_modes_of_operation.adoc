@@ -10,7 +10,7 @@ summary: A variety of Cisco Nexus products can be used as the switching componen
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

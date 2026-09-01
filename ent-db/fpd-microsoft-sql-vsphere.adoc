@@ -11,7 +11,7 @@ summary: "This document describes a FlexPod reference architecture using the lat
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Gopu Narasimha Reddy, Cisco 
 Sanjeev Naldurgkar, Cisco 

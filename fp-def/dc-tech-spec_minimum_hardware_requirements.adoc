@@ -10,7 +10,7 @@ summary: A FlexPod Datacenter configuration has minimum hardware requirements, i
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

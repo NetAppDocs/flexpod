@@ -10,7 +10,7 @@ summary: Cisco has contributed substantially to the FlexPod design and architect
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

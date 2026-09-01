@@ -10,7 +10,7 @@ summary: NetApp ONTAP software is installed on every NetApp AFF, ASA, FAS, and A
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

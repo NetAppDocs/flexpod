@@ -11,7 +11,7 @@ summary: "The current industry trend in data center design is towards shared inf
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 John George, Cisco
 Scott Kovacs, NetApp

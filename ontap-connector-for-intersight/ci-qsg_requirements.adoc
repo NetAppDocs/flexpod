@@ -10,7 +10,7 @@ summary: Check that you meet the hardware, software, and licensing requirements 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 [.lead]
 Verify that you meet the hardware, software, and licensing requirements for NetApp ONTAP storage integration with Cisco Intersight.

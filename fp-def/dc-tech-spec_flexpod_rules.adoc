@@ -10,7 +10,7 @@ summary: The FlexPod design enables a flexible infrastructure that encompasses m
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

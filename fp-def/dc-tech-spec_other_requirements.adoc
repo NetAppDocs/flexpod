@@ -10,7 +10,7 @@ summary: A FlexPod architecture has the following additional interoperability an
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

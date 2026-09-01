@@ -10,7 +10,7 @@ summary: Technical specifications provide details about the hardware components 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

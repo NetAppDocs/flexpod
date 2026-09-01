@@ -11,7 +11,7 @@ summary: "This document provides a reference architecture, design guide, and dep
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Ramesh Guduru, Cisco 
 David Arnette, NetApp 

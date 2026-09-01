@@ -10,7 +10,7 @@ summary: With Cloud Insights set up and configured to monitor your FlexPod Datac
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

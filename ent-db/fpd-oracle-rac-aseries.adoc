@@ -11,7 +11,7 @@ summary: "The FlexPod Datacenter with NetApp All Flash AFF system is a converged
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Tushar Patel,  Cisco 
 Hardikkumar Vyas, Cisco 
