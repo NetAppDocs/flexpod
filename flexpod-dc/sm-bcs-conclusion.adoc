@@ -11,7 +11,7 @@ summary: The FlexPod Datacenter with SM-BC uses an active-active data center des
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

@@ -11,7 +11,7 @@ summary: "Cisco Validated Designs include systems and solutions that are designe
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Tushar Patel,  Cisco
 Hardikkumar Vyas, Cisco 

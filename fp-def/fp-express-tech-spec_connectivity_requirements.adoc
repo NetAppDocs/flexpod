@@ -10,7 +10,7 @@ summary: This section describes the connectivity requirements for the different 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 

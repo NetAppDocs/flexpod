@@ -10,7 +10,7 @@ summary: After targets are claimed, NetApp storage widgets, storage inventory, a
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 [.lead]
 After targets are claimed, NetApp storage widgets, storage inventory, and virtualization tabs become available if you have an Advantage tier license. Orchestration tabs are available if you have a Premier tier license.

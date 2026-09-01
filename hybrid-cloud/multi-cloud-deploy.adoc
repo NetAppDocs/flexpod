@@ -11,7 +11,7 @@ summary: "This document provides in-depth configuration and implementation guide
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Haseeb Niazi, Cisco 
 David Arnette, NetApp

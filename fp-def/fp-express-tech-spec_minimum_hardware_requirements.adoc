@@ -10,7 +10,7 @@ summary: This section describes the minimum hardware requirements for the differ
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]

@@ -10,7 +10,7 @@ summary: To create igroups, you need the iSCSI initiator IQNs and must complete 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)
