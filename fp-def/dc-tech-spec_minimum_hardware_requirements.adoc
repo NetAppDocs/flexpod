@@ -12,39 +12,26 @@ summary: A FlexPod Datacenter configuration has minimum hardware requirements, i
 :linkattrs:
 :imagesdir: ../media/
 
-//
-// This file was created with NDAC Version 2.0 (August 17, 2020)
-//
-// 2021-06-03 13:02:39.816175
-//
 
 [.lead]
 A FlexPod Datacenter configuration has minimum hardware requirements, including, but not limited to, switches, fabric interconnects, servers, and NetApp storage controllers.
 
-You must use Cisco UCS Servers. Both C-Series and B-Series Servers have been used in the validated designs. Cisco Nexus Fabric Extenders (FEXs) are optional with C-Series Servers.
-
 A FlexPod configuration has the following minimum hardware requirements:
 
-* Two Cisco Nexus switches in a redundant configuration. This configuration can consist of two redundant switches from the Cisco Nexus 5000, 7000, or 9000 Series. The two switches should be of the same model and should be configured in the same mode of operation.
-+
-If you are deploying an ACI architecture, you must observe the following additional requirements:
+* Two Cisco Nexus switches in a redundant configuration. This configuration can consist of two redundant switches from the Cisco Nexus 9000 Series mentioned earlier. The two switches should be of the same model and should be configured in the same mode of operation.
 
-** Deploy the Cisco Nexus 9000 Series Switches in a leaf-spine topology.
-** Use three Cisco Application Policy Infrastructure Controllers (APICs).
-* Two Cisco UCS 6200, 6300, or 6400 Series Fabric Interconnects in a redundant configuration.
-* Cisco UCS Servers:
-** If the solution uses B-Series Servers, one Cisco UCS 5108 B-Series Blade Server Chassis plus two Cisco UCS B-Series Blade Servers plus two 2104, 2204/8, 2408, or 2304 I/O modules (IOMs).
-** If the solution uses C-Series Servers, two Cisco UCS C-Series Rack Servers.
-+
-For larger deployments of Cisco UCS C-Series Rack Servers, you can choose a pair of 2232PP FEX modules. However, the 2232PP is not a hardware requirement.
+[NOTE]
+    If you are deploying an ACI architecture, you must observe the following additional requirements:
+        * Deploy the Cisco Nexus 9000 Series Switches in a leaf-spine topology.
+        * Use three Cisco Application Policy Infrastructure Controllers (APICs).
 
-* Two NetApp storage controllers in a high-availability (HA) pair configuration:
-+
-This configuration can consist of any supported NetApp FAS, AFF, or ASA-series storage controllers. See the https://hwu.netapp.com/[NetApp Hardware Universe^] application for a current list of supported FAS, AFF, and ASA controller models.
+* Two Cisco UCS 6400, 6500, or 6600 Series Fabric Interconnects in a redundant configuration, if using the UCS C-Series Rack Servers or the X-Series Modular systems.
 
-** The HA configuration requires two redundant interfaces per controller for data access; the interfaces can be FCoE, FC, or 10/25/100Gb Ethernet (GbE).
-** If the solution uses NetApp ONTAP, a cluster interconnect topology that is approved by NetApp is required. For more information, see the https://hwu.netapp.com/Switch/Index[Switches^] tab of the NetApp Hardware Universe.
-** If the solution uses ONTAP, at least two additional 10/25/100GbE ports per controller are required for data access.
-** For ONTAP clusters with two nodes, you can configure a two-node switchless cluster.
-** For ONTAP clusters with more than two nodes, a pair of cluster interconnect switches are required.
-* One NetApp disk shelf with any supported disk type. See the Shelves tab of the link:https://hwu.netapp.com/Shelves/Index?osTypeId=2032[NetApp Hardware Universe^] for a current list of supported disk shelf models.
+* Two Cisco UCS C-Series rack servers with FI connectivity with Intersight-managed configuration (IMM), or the Cisco UCS X-Series Direct with Cisco IMM, or the Cisco UCS X-Series Modular with Cisco Intersight-managed configuration(IMM). 
+
+[NOTE]
+    If you are using the UCS rack servers without FI connectivity, you could use CIMC or the Intersight standalone mode for management.
+
+* Two NetApp AFF, NetApp ASA, or NetApp FAS controllers in a high-availability (HA) pair configuration deployed as a two-node cluster. If using NetApp AFX, a minimum of four NetApp AFX controllers are required and is to be deployed as a four-node HA cluster along with a pair of cluster interconnect switches.
+
+* A minimum of one NetApp disk shelf is required for the storage controllers that do not have a built-in disk shelf.
