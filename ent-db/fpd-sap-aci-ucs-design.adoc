@@ -11,7 +11,7 @@ summary: "This document describes the architecture and deployment procedures for
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Pramod Ramamurthy, Cisco
 Marco Schoen, NetApp

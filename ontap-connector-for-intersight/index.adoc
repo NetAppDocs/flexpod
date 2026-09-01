@@ -10,7 +10,7 @@ summary: NetApp and Cisco have partnered to provide Cisco Intersight, a single-p
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 In partnership with:
 image:cisco logo.png[]

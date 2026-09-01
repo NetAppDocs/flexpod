@@ -10,7 +10,7 @@ summary: After Cisco Intersight Assist is installed, you can claim your NetApp s
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 [.lead]
 After Cisco Intersight Assist is installed, you can claim your NetApp storage and virtualization devices. Return to the *Intersight Targets* page and add your vCenter and NetApp Active IQ Unified Manager targets. 

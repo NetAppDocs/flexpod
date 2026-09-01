@@ -11,7 +11,7 @@ summary: "This document provides deployment details and guidance around the inte
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Haseeb Niazi, Cisco 
 Arvind Ramakrishnan, NetApp

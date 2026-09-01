@@ -11,7 +11,7 @@ summary: "Cisco Validated Designs (CVDs) consist of systems and solutions that a
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 Tushar Patel, Cisco 
 Hardikkumar Vyas, Cisco 

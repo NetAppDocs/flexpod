@@ -11,7 +11,7 @@ summary: "Cisco Validated Designs (CVDs) include systems and solutions that are 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 John George, Cisco 
 Sree Lakshmi Lanka, NetApp

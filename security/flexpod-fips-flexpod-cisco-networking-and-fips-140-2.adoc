@@ -10,7 +10,7 @@ summary: Cisco MDS 9000 series platform with software 8.4.x is FIPS 140-2 compli
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 //
 // This file was created with NDAC Version 2.0 (August 17, 2020)

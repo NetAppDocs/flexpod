@@ -10,7 +10,7 @@ summary: Automated deployment for FlexPod Express is available through a GitHub 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 

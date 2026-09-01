@@ -10,7 +10,7 @@ summary: This section describes the recommended software requirements for the di
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 
