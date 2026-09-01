@@ -254,6 +254,12 @@ NetApp AFF A-Series storage controllers are supported for use in FlexPod Datacen
 |===
 |Component |AFF A-Series controller platform documentation
 
+|NetApp AFF A20
+|
+https://docs.netapp.com/us-en/ontap-systems/a20-30-50/a20-key-specifications.html[AFF A20 Key Specifications]
+|NetApp AFF A30
+|
+https://docs.netapp.com/us-en/ontap-systems/a20-30-50/a30-key-specifications.html[AFF A30 Key Specifications]
 |NetApp AFF A50
 |
 https://docs.netapp.com/us-en/ontap-systems/a20-30-50/a50-key-specifications.html[AFF A50 Key Specifications]
@@ -275,6 +281,8 @@ NetApp AFF C-Series storage controllers are supported for use in FlexPod Datacen
 |===
 |Component |AFF C-Series controller platform documentation
 
+|NetApp AFF C30
+|https://docs.netapp.com/us-en/ontap-systems/c30-60/c30-key-specifications.html[AFF C30 Key Specifications]
 |NetApp AFF C60
 |
 https://docs.netapp.com/us-en/ontap-systems/c30-60/c60-key-specifications.html[AFF C60 Key Specifications]
@@ -290,6 +298,9 @@ NetApp ASA storage controllers are supported for use in FlexPod Datacenter. Addi
 |===
 | Component | NetApp ASA controller platform documentation
 
+|NetApp ASA A20 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a20-key-specifications.html[ASA A20 Key Specifications]
+|NetApp ASA A30 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a30-key-specifications.html[ASA A30 Key Specifications]
+|NetApp ASA C30 | https://www.netapp.com/pdf.html?item=/media/85736-ds-4254-asa.pdf[ASA C30 Key Specifications]
 |NetApp ASA A50 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a50-key-specifications.html[ASA A50 Key Specifications]
 |NetApp ASA A70 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a70-key-specifications.html[ASA A70 Key Specifications]
 |NetApp ASA A90 | https://docs.netapp.com/us-en/ontap-systems/asa-r2-key-specifications/asa-a90-key-specifications.html[ASA A90 Key Specifications]
@@ -303,6 +314,9 @@ FAS storage controllers are supported for use in FlexPod Datacenter. Additional 
 |===
 |Component |FAS Series controller platform documentation
 
+|NetApp FAS2750|https://docs.netapp.com/us-en/ontap-systems/fas2700/overview.html[FAS2750 Key Specifications^]
+|NetApp FAS2820|https://docs.netapp.com/us-en/ontap-systems/fas2800/overview.html[FAS2820 Key Specifications^]
+|NetApp FAS50|https://docs.netapp.com/us-en/ontap-systems/fas50/overview.html[FAS50 Key Specifications^]
 |NetApp FAS70|https://docs.netapp.com/us-en/ontap-systems/fas-70-90/fas70-key-specifications.html[FAS70 Key Specifications^]
 |NetApp FAS90|https://docs.netapp.com/us-en/ontap-systems/fas-70-90/fas90-key-specifications.html[FAS90 Key Specifications^]
 |===
