@@ -23,7 +23,7 @@ The FlexPod architecture is designed to provide high availability if a component
 
 The following figure illustrates the 16Gb FC/40Gb Ethernet (40GbE) topology for the medical imaging system solution deployment.
 
-image:medical-imaging_image3.png[]
+image:medical-imaging_image3.png["A diagram that shows FlexPod medical imaging infrastructure with UCS, Nexus, AFF, and MDS switches"]
 
 == Storage architecture
 
@@ -126,7 +126,7 @@ The following table summarizes the primary differences between Oracle RMAN and N
 
 The following figure presents the SnapCenter architecture.
 
-image:medical-imaging_image4.png[]
+image:medical-imaging_image4.png["A diagram that shows SnapCenter servers, VMware integration, replicated metadata repositories, and application plug-ins"]
 
 NetApp MetroCluster configurations are used by thousands of enterprises worldwide for high availability (HA), zero data loss, and nondisruptive operations both within and beyond the data center. MetroCluster is a free feature of ONTAP software that synchronously mirrors data and configuration between two ONTAP clusters in separate locations or failure domains. MetroCluster provides continuously available storage for applications by automatically handling two objectives: Zero recovery point objective (RPO) by synchronously mirroring data written to the cluster. Near zero recovery time objective (RTO) by mirroring configuration and automating access to data at the second site MetroCluster provides simplicity with automatic mirroring of data and configuration between the two independent clusters located in the two sites. As storage is provisioned within one cluster, it is automatically mirrored to the second cluster at the second site. NetApp SyncMirror technology provides a complete copy of all data with a zero RPO. , Therefore, workloads from one site can switch over at any time to the opposite site and continue serving data without data loss. More information can be found https://fieldportal.netapp.com/s/article/tr4705-netapp-metrocluster-solution-architecture-and-design-1693982882873[here^].
 
@@ -181,7 +181,7 @@ The following diagram shows the various systems involved in a typical large hosp
 
 The figure below shows the medical imaging system in the context of a patient, a community clinic, and a large hospital.
 
-image:medical-imaging_image5.png[]
+image:medical-imaging_image5.png["A diagram that shows a community clinic connected to hospital systems through an enterprise service bus"]
 
 . The patient visits the community clinic with symptoms. During the consultation, the community physician places an imaging order that is sent to the larger hospital in the form of a HL7 order message.
 . The community physician’s EHR system sends the HL7 order/ORD message to the large hospital.
@@ -219,11 +219,11 @@ Medical imaging systems are starting to use https://www.netapp.com/pdf.html?item
 
 The figure below shows the logical application components in a layered architectural view.
 
-image:medical-imaging_image6.png[]
+image:medical-imaging_image6.png["A diagram that shows layered medical imaging components on FlexPod with replicated disaster recovery"]
 
 The figure below shows the physical application components.
 
-image:medical-imaging_image7.png[]
+image:medical-imaging_image7.png["A diagram that shows active and standby FlexPod data centers with NetApp ONTAP storage and medical imaging servers"]
 
 The logical application components require that the infrastructure support a diverse set of protocols and file systems. NetApp ONTAP software supports an industry- leading set of protocols and file systems.
 

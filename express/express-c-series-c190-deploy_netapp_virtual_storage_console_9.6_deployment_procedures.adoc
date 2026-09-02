@@ -28,40 +28,40 @@ To install the VSC 9.6 software by using an Open Virtualization Format (OVF) dep
 . Go to vSphere Web Client > Host Cluster > Deploy OVF Template.
 . Browse to the VSC OVF file downloaded from the NetApp Support site.
 +
-image:express-c-series-c190-deploy_image49.png[]
+image:express-c-series-c190-deploy_image49.png["A screenshot of vSphere Client Deploy OVF Template with a VSC OVF file selected in the Open dialog"]
 
 . Enter the VM name and select a datacenter or folder in which to deploy. Click Next.
 +
-image:express-c-series-c190-deploy_image50.png[]
+image:express-c-series-c190-deploy_image50.png["A screenshot of the Deploy OVF Template wizard with VM name FlexPod-VSC and FlexPod-Datacenter selected"]
 
 . Select the FlexPod-Cluster ESXi cluster and click Next.
 . Review the details and click Next.
 +
-image:express-c-series-c190-deploy_image51.png[]
+image:express-c-series-c190-deploy_image51.png["A screenshot that shows the Review details step for deploying the NetApp VSC virtual appliance OVF template"]
 
 . Click Accept to accept the license and click Next.
 . Select the Thin Provision virtual disk format and one of the NFS datastores. Click Next.
 +
-image:express-c-series-c190-deploy_image52.png[]
+image:express-c-series-c190-deploy_image52.png["A screenshot of the Deploy OVF Template Select storage page with Thin Provision and NFS datastores"]
 
 . From Select Networks, choose a destination network and click Next.
 +
-image:express-c-series-c190-deploy_image53.png[]
+image:express-c-series-c190-deploy_image53.png["A screenshot of the Deploy OVF Template Select networks step mapping nat to MGMT-Network"]
 
 . From Customize Template, enter the VSC administrator password, vCenter name or IP address, and other configuration details and click Next.
 +
-image:express-c-series-c190-deploy_image54.png[]
+image:express-c-series-c190-deploy_image54.png["A screenshot of the Deploy OVF Template Customize template page with vCenter registration fields and Network Properties"]
 
 . Review the configuration details entered and click Finish to complete the deployment of NetApp-VSC VM.
 . Power on the NetApp-VSC VM and open the VM console.
 . During the NetApp-VSC VM boot process, you see a prompt to install VMware Tools. From vCenter, select NetApp-VSC VM > Guest OS > Install VMware Tools.
 +
-image:express-c-series-c190-deploy_image55.png[]
+image:express-c-series-c190-deploy_image55.png["A VM console showing instructions to install VMware Tools before continuing VSC, VASA Provider, and SRA installation"]
 
 . Networking configuration and vCenter registration information was provided during OVF template customization. Therefore, after the NetApp-VSC VM is running, VSC, vSphere API for Storage Awareness (VASA), and VMware Storage Replication Adapter (SRA) are registered with vCenter.
 . Log out of the vCenter Client and log in again. From the Home menu, confirm that the NetApp VSC is installed.
 +
-image:express-c-series-c190-deploy_image56.png[]
+image:express-c-series-c190-deploy_image56.png["A screenshot of the vSphere Client Menu with Virtual Storage Console highlighted"]
 
 == Download and install the NetApp NFS VAAI Plug-In
 
@@ -74,12 +74,12 @@ To download and install the NetApp NFS VAAI Plug-In, complete the following step
 .. From the Home screen in the vSphere web client, select Virtual Storage Console.
 .. Under Virtual Storage Console > Settings > NFS VAAI Tools, upload the NFS Plug-in by choosing Select File and browsing to the location where the downloaded plug-in is stored.
 +
-image:express-c-series-c190-deploy_image57.png[]
+image:express-c-series-c190-deploy_image57.png["A screenshot of VSC NFS VAAI Tools with a NetAppNasPlugin.vib file selected for upload"]
 
 . Click Upload to transfer the plug-in to vCenter.
 . Select the host and then select NetApp VSC > Install NFS Plug-in for VMware VAAI.
 +
-image:express-c-series-c190-deploy_image58.png[]
+image:express-c-series-c190-deploy_image58.png["A screenshot that shows the NetApp VSC menu with Install NFS Plug-in for VMware VAAI selected"]
 
 == Use the optimal storage settings for the ESXi hosts
 
@@ -87,12 +87,12 @@ VSC enables the automated configuration of storage-related settings for all ESXi
 
 . From the Home screen, select vCenter > Hosts and Clusters. For each ESXi host, right-click and select NetApp VSC > Set Recommended Values.
 +
-image:express-c-series-c190-deploy_image59.png[]
+image:express-c-series-c190-deploy_image59.png["A screenshot of the vSphere Client host Actions menu with NetApp VSC Set Recommended Values selected"]
 
 . Check the settings that you would like to apply to the selected vSphere hosts. Click OK to apply the settings.
 +
-image:express-c-series-c190-deploy_image60.png[]
+image:express-c-series-c190-deploy_image60.png["A Set Recommended Values dialog with selected HBA/CNA Adapter, MPIO, and NFS settings"]
 +
-image:express-c-series-c190-deploy_image61.png[]
+image:express-c-series-c190-deploy_image61.png["A Success dialog stating modified ESXi host settings appear after successful storage system discovery"]
 
 . Reboot the ESXI host after these settings are applied.

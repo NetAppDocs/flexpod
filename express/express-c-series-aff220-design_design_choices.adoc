@@ -36,11 +36,11 @@ NetApp AFF A220 systems use the new ONTAP 9.4 software. ONTAP 9.4 is the industr
 
 ONTAP 9.4 has several features that are well suited for the FlexPod Express solution. Foremost is NetApp’s commitment to storage efficiencies, which can be one of the most important features for small deployments. The hallmark NetApp storage efficiency features such as deduplication, compression, and thin provisioning are available in ONTAP 9.4 with a new addition, compaction.  Because the NetApp WAFL system always writes 4KB blocks, compaction combines multiple blocks into a 4KB block when the blocks are not using their allocated space of 4KB. The following figure illustrates this process.
 
-image:express-c-series-aff220-design_image5.png[]
+image:express-c-series-aff220-design_image5.png["A diagram that shows multiple 4KB logical blocks compacted into one 4KB physical block"]
 
 Also, root-data partitioning can be leveraged on the AFF A220 system. This partitioning allows the root aggregate and two data aggregates to be striped across the disks in the system. Therefore, both controllers in a two-node AFF A220 cluster can leverage the performance of all the disks in the aggregate. See the following figure.
 
-image:express-c-series-aff220-design_image6.png[]
+image:express-c-series-aff220-design_image6.png["A diagram that shows disks partitioned into root, Controller 1, and Controller 2 partitions"]
 
 These are just a few key features that complement the FlexPod Express solution. For details about the additional features and functionality of ONTAP 9.4, see the https://www.netapp.com/pdf.html?item=/media/7413-ds-3231-ontap-unified-data-storage-management.pdf[ONTAP 9 Data Management Software datasheet^]. Also, see the NetApp http://docs.netapp.com/ontap-9/index.jsp[ONTAP 9 Documentation Center^], which has been updated to include ONTAP 9.4.
 
@@ -55,7 +55,7 @@ Performance specifications include:
 * Line-rate traffic throughput (both layers 2 and 3) on all ports
 * Configurable maximum transmission units (MTUs) of up to 9216 bytes (jumbo frames)
 
-image:express-c-series-aff220-design_image7.png[]
+image:express-c-series-aff220-design_image7.png["A screenshot that shows the front view of a Cisco Nexus 3172 switch with network ports"]
 
 For more information about Cisco Nexus 3172 switches, see the https://www.cisco.com/c/en/us/products/collateral/switches/nexus-3000-series-switches/data_sheet_c78-729483.html[Cisco Nexus 3172PQ, 3172TQ, 3172TQ-32T, 3172PQ-XL, and 3172TQ-XL switches data sheet^].
 
@@ -72,7 +72,7 @@ Cisco UCS C-Series rack servers provide the following benefits:
 * Extension of unified computing innovations and benefits to rack servers
 * Increased customer choice with unique benefits in a familiar rack package
 
-image:express-c-series-aff220-design_image8.png[]
+image:express-c-series-aff220-design_image8.png["A front view of a Cisco UCS C220 M5 rack server with dual drive bays and Cisco branding"]
 
 The Cisco UCS C220 M5 rack server (in the previous figure) is among the most versatile general-purpose enterprise infrastructure and application servers in the industry. It is a high-density two-socket rack server that delivers industry-leading performance and efficiency for a wide range of workloads, including virtualization, collaboration, and bare-metal applications. Cisco UCS C-Series Rack Servers can be deployed as standalone servers or as part of Cisco UCS to take advantage of Cisco’s standards-based unified computing innovations that help reduce customers’ TCO and increase their business agility.
 
@@ -86,7 +86,7 @@ The connectivity options for the C220 M5 rack servers are as follows:
 +
 The Cisco UCS VIC 1387 (in the following figure) offers dual-port enhanced QSFP+ 40GbE and FC over Ethernet (FCoE) in a modular-LAN-on-motherboard (mLOM) form factor. The mLOM slot can be used to install a Cisco VIC without consuming a Peripheral Component Interconnect Express (PCIe) slot,  providing greater I/O expandability.
 
-image:express-c-series-aff220-design_image9.png[]
+image:express-c-series-aff220-design_image9.png["A Cisco UCS VIC 1387 adapter card with dual QSFP+ ports and a cooling fan"]
 
 For more information about the Cisco UCS VIC 1387 adapter, see the https://www.cisco.com/c/en/us/products/interfaces-modules/ucs-virtual-interface-card-1387/index.html[Cisco UCS Virtual Interface Card 1387^] data sheet.
 
@@ -94,7 +94,7 @@ For more information about the Cisco UCS VIC 1387 adapter, see the https://www.c
 +
 The Cisco QSA Module converts a QSFP port into an SFP or SFP+ port. With this adapter, customers have the flexibility to use any SFP+ or SFP module or cable to connect to a lower-speed port on the other end of the network. This flexibility enables a cost-effective transition to 40GbE by maximizing the use of high-density 40GbE QSFP platforms. This adapter supports all SFP+ optics and cable reaches,  and it supports several 1GbE SFP modules. Because this project has been validated by using 10GbE connectivity and because the VIC 1387 used is 40GbE, the CVR-QSFP-SFP10G adapter (in the following figure) is used for conversion.
 
-image:express-c-series-aff220-design_image10.png[]
+image:express-c-series-aff220-design_image10.png["A photograph of a Cisco CVR-QSFP-SFP10G QSFP-to-SFP adapter module"]
 
 == VMware vSphere 6.7
 

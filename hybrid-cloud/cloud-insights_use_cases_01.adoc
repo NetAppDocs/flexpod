@@ -37,15 +37,15 @@ To access the Digital Advisor information through the Cloud Insights dashboard, 
 
 . Click the Data Collector option under the Admin menu on the left.
 +
-image:cloud-insights_image13.png[]
+image:cloud-insights_image13.png["A screenshot that shows the Admin menu with Data Collectors selected in Cloud Insights"]
 
 . Filter for the specific Data Collector in your environment. In this example, we filter by the term FlexPod.
 +
-image:cloud-insights_image23.png[]
+image:cloud-insights_image23.png["A screenshot that shows the Data Collectors page filtered for FlexPod Datacenter"]
 
 . Click the Data Collector to get a summary of the environment and devices that are being monitored by that collector.
 +
-image:cloud-insights_image24.png[]
+image:cloud-insights_image24.png["A screenshot of the FlexPod Datacenter data collector summary with event timeline and reported storage device"]
 +
 Under the device list near the bottom, click on the name of the ONTAP storage system being monitored. This displays a dashboard of information collected about the system, including the following details:
 
@@ -57,15 +57,15 @@ Under the device list near the bottom, click on the name of the ONTAP storage sy
 ** Average Latency
 ** Average Throughput
 +
-image:cloud-insights_image25.png[]
+image:cloud-insights_image25.png["A screenshot of the aa14-a800 storage dashboard with summary, risks, user data, and latency chart"]
 +
 Also, on this page under the Performance Policies section, you can find a link to NetApp Digital Advisor.
 +
-image:cloud-insights_image26.png[]
+image:cloud-insights_image26.png["A screenshot that shows Performance Policies with 35 risks detected by Active IQ and an external link icon"]
 
 . To open a new browser tab and take you to the risk mitigation page, which shows which nodes are affected, how critical the risks are, and what the appropriate action is that needs to be taken to correct the identified issues, click the link for Digital Advisor.
 +
-image:cloud-insights_image27.png[]
+image:cloud-insights_image27.png["A screenshot of Active IQ Digital Advisor listing health risks and corrective actions for a storage system"]
 
 === Explore real-time dashboards
 
@@ -75,15 +75,15 @@ Cloud Insights can display real-time dashboards of the information that has been
 
 From the storage system dashboard, you can see the last time that the Data Collector updated the information. An example of this is shown in the figure below.
 
-image:cloud-insights_image28.png[]
+image:cloud-insights_image28.png["A screenshot of Cloud Insights Data Collector details showing successful acquisition 3 minutes ago at 1:21 PM"]
 
 By default, the storage system dashboard displays several interactive graphs that show system-wide metrics from the storage system being polled, or from each individual node, including: Latency, IOPS, and Throughput, in the Expert View section. Examples of these default graphs are shown in the figure below.
 
-image:cloud-insights_image29.png[]
+image:cloud-insights_image29.png["A screenshot of Cloud Insights Expert View with latency, IOPS, and throughput graphs and resource details"]
 
 By default, the graphs show information from the last three hours, but you can set this to a number of differing values or a custom value from the dropdown list near the top right of the storage system dashboard. This is shown in the figure below.
 
-image:cloud-insights_image30.png[]
+image:cloud-insights_image30.png["A screenshot of the storage dashboard with the time range dropdown showing Last 15 Minutes through Custom"]
 
 === Create custom dashboards
 
@@ -95,19 +95,19 @@ To create a customized dashboard to assess storage resources, complete the follo
 
 . To create a customized dashboard, hover over Dashboards on the Cloud Insights main menu and click + New Dashboard in the dropdown list.
 +
-image:cloud-insights_image31.png[]
+image:cloud-insights_image31.png["A screenshot of the Cloud Insights Dashboards menu with + New Dashboard highlighted"]
 +
 The New Dashboard window opens.
 
 . Name the dashboard and select the type of widget used to display the data. You can select from a number of graph types or even notes or table types to present the collected data.
 +
-image:cloud-insights_image32.png[]
+image:cloud-insights_image32.png["A screenshot of the New Dashboard widget type selection tiles, including charts, gauges, notes, and tables"]
 
 . Choose customized variables from the Add Variable menu.
 +
 This enables the data presented to be focused to display more specific or specialized factors.
 +
-image:cloud-insights_image33.png[]
+image:cloud-insights_image33.png["A screenshot that shows the Add Variable menu with a search field and variable list on a new dashboard"]
 
 . To create a custom dashboard, select the widget type you would like to use, for example, a pie chart to display storage utilization by volume:
 .. Select the Pie Chart widget from the Add Widget dropdown list.
@@ -117,11 +117,11 @@ image:cloud-insights_image33.png[]
 .. Customize the information to be displayed. By default, this selection shows ONTAP data volumes and lists the top 10.
 .. To save the customized dashboard, click the Save.
 +
-image:cloud-insights_image34.png[]
+image:cloud-insights_image34.png["A screenshot that shows a Capacity Used pie chart widget configured for storage volume capacity used"]
 +
 After saving the custom widget, the browser returns to the New Dashboard page where it displays the newly created widget and allows for interactive action to be taken, such as modifying the data polling period.
 +
-image:cloud-insights_image35.png[]
+image:cloud-insights_image35.png["A screenshot that shows a Cloud Insights dashboard with a Capacity Used pie chart widget"]
 
 === Advanced troubleshooting
 

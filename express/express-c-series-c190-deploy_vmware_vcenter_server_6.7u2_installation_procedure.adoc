@@ -36,26 +36,26 @@ To download the VMware vCenter Server Appliance (VCSA), complete the following s
 . Click Install.
 . Click Next on the Introduction page.
 +
-image:express-c-series-c190-deploy_image34.png[]
+image:express-c-series-c190-deploy_image34.png["A screenshot of the vCenter Server Appliance Installer End User License Agreement page with acceptance selected"]
 
 . Select Embedded Platform Services Controller as the deployment type.
 +
-image:express-c-series-c190-deploy_image35.png[]
+image:express-c-series-c190-deploy_image35.png["A screenshot of the vCenter Server Appliance Installer deployment type page with Embedded Platform Services Controller selected"]
 +
 [NOTE]
 If required, the External Platform Services Controller deployment is also supported as part of the FlexPod Express solution.
 
 . In the Appliance Deployment Target, enter the IP address of an ESXi host that you have deployed, the root user name, and the root password.
 +
-image:express-c-series-c190-deploy_image36.png[]
+image:express-c-series-c190-deploy_image36.png["A screenshot of the vCenter Server Appliance Installer Appliance deployment target form with ESXi host credentials"]
 
 . Set the appliance VM by entering VCSA as the VM name and the root password that you would like to use for the VCSA.
 +
-image:express-c-series-c190-deploy_image37.png[]
+image:express-c-series-c190-deploy_image37.png["A screenshot of the vCenter Server Appliance Installer Set up appliance VM page with VM name and root password fields"]
 
 . Select the deployment size that best fits your environment. Click Next.
 +
-image:express-c-series-c190-deploy_image38.png[]
+image:express-c-series-c190-deploy_image38.png["A screenshot of the vCenter Server Appliance Installer Select deployment size page with Tiny selected"]
 
 . Select the `infra_datastore` datastore. Click Next.
 . Enter the following information in the Configure network settings page and click Next.
@@ -67,36 +67,36 @@ image:express-c-series-c190-deploy_image38.png[]
 .. Enter the DNS server.
 . On the Ready to Complete Stage 1 page, verify that the settings you have entered are correct. Click Finish.
 +
-image:express-c-series-c190-deploy_image39.png[]
+image:express-c-series-c190-deploy_image39.png["A screenshot of the vCenter Server Appliance Installer Configure network settings page with MGMT-Network selected"]
 
 . Review your settings on stage 1 before starting the appliance deployment.
 +
-image:express-c-series-c190-deploy_image40.png[]
+image:express-c-series-c190-deploy_image40.png["A screenshot of the vCenter Server Appliance Installer Ready to complete stage 1 settings review page"]
 +
 The VCSA installs now. This process takes several minutes.
 
 . After stage 1 completes, a message appears stating that it has completed. Click Continue to begin stage 2 configuration.
 . On the Stage 2 Introduction page, click Next.
 +
-image:express-c-series-c190-deploy_image41.png[]
+image:express-c-series-c190-deploy_image41.png["A screenshot of the vCenter Server Appliance Installer Stage 2 Introduction page with a Next button"]
 
 . Enter `\<<var_ntp_id>>` for the NTP server address. You can enter multiple NTP IP addresses.
 . If you plan to use vCenter Server high availability (HA), make sure that SSH access is enabled.
 . Configure the SSO domain name, password, and site name. Click Next.
 +
-image:express-c-series-c190-deploy_image42.png[]
+image:express-c-series-c190-deploy_image42.png["A screenshot of vCenter Server Appliance Installer Stage 2 SSO configuration with a new SSO domain selected"]
 +
 [NOTE]
 Record these values for your reference, especially if you deviate from the `vsphere.local` domain name.
 
 . Join the VMware Customer Experience Program if desired. Click Next.
 +
-image:express-c-series-c190-deploy_image43.png[]
+image:express-c-series-c190-deploy_image43.png["A screenshot of the vCenter Server Appliance Installer Configure CEIP page with the CEIP option selected"]
 
 . View the summary of your settings. Click Finish or use the back button to edit settings.
 . A message appears stating that you will not be able to pause or stop the installation from completing after it has started. Click OK to continue.
 +
-image:express-c-series-c190-deploy_image44.png[]
+image:express-c-series-c190-deploy_image44.png["A screenshot of a vCenter Server Appliance Installer warning that installation cannot be paused or stopped, with Cancel and OK buttons"]
 +
 The appliance setup continues. This takes several minutes.
 +

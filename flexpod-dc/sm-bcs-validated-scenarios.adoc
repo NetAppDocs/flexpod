@@ -43,11 +43,11 @@ After the SM-BC consistency group relationship is configured and the mirrored LU
 
 The following figure illustrates the paths an ESXi host can take to access a LUN, for example, LUN 0. As the LUN is attached to the site A controller 01, only the two paths directly accessing the LUN via that controller are active/optimized and all the remaining six paths are active/nonoptimized.
 
-image:sm-bcs-image47.png[]
+image:sm-bcs-image47.png["A diagram that shows ESXi iSCSI paths through two fabrics to primary and destination consistency group LUNs"]
 
 The following screenshot of the storage-device-path information shows how the ESXi host sees the two types of device paths. The two active/optimized paths are shown as having `active (I/O)` path status, whereas the six active/non-optimized paths are shown only as `active`. Also note that the Target column shows the two iSCSI targets and the respective iSCSI LIF IP addresses to get to the targets.
 
-image:sm-bcs-image48.png[]
+image:sm-bcs-image48.png["A screenshot of ESXi Storage Adapters Paths tab showing two Active (I/O) and six Active iSCSI paths"]
 
 When one of the storage controllers goes down for maintenance or upgrade, the two paths that reach the down controller are no longer available and show up with a path status of `dead` instead.
 
@@ -63,11 +63,11 @@ For applications running on the virtual infrastructure that do not require the S
 
 The following screenshot shows that hosts are configured to mount iSCSI datastores from both sites.
 
-image:sm-bcs-image49.png[]
+image:sm-bcs-image49.png["A screenshot of the vSphere Client showing six iSCSI datastores mounted on host esxi-a-01.nva.local"]
 
 You have the option of migrating virtual-machine disks between available iSCSI datastores from both sites, as shown in the following figure. For performance considerations, it is optimal to have virtual machines using storage from their local storage cluster to reduce disk I/O latencies. This is especially true when the two sites are located at some distances apart due to the physical round-trip distance latency of roughly 1ms per 100Km distance.
 
-image:sm-bcs-image50.png[]
+image:sm-bcs-image50.png["A screenshot of vSphere migration storage selection for iometer-a-01 with iSCSI datastores from sites A and B"]
 
 Tests of vMotion of virtual machines to a different host at the same site as well as across sites were performed and were successful. After manually migrating a virtual machine across sites, the VM/Host affinity rule activates and migrates the virtual machine back to the group where it belongs under the normal condition.
 
@@ -80,29 +80,29 @@ To initiate a manual failover of site A storage data services to site B, you can
 . Navigate to the Protection > Relationships screen to confirm that the consistency group relationship state is `In Sync`. If it is still in the `Synchronizing` state, wait for the state to become `In Sync` before performing a failover.
 . Expand the dots next to the Source name and click Failover.
 +
-image:sm-bcs-image51.png[]
+image:sm-bcs-image51.png["A screenshot of ONTAP System Manager Relationships with the source options menu showing Failover"]
 
 . Confirm failover for the action to start.
 +
-image:sm-bcs-image52.png[]
+image:sm-bcs-image52.png["A screenshot of ONTAP System Manager Planned Failover confirmation for cg_esxi_a from Infra-SVM.1 to Infra-SVM-b"]
 
 Shortly after initiating the failover of the two consistency groups, `cg_esxi_a` and `cg_infra_datastore_a`, on the site B System Manager GUI, the site A I/O serving those two consistency groups moved over to site B. As a result, the I/O at site A reduced significantly as shown in the site A System Manager performance pane.
 
-image:sm-bcs-image53.png[]
+image:sm-bcs-image53.png["A screenshot of ONTAP System Manager showing site A performance graphs with reduced IOPS and throughput"]
 
 On the other hand, the Performance pane of the site B System Manager dashboard shows a significant increase in IOPs, due to serving additional I/O moved over from site A, to about 130K IOPs, and reached a throughput of approximately 1GB/s while maintaining an I/O latency of less than 1 millisecond.
 
-image:sm-bcs-image54.png[]
+image:sm-bcs-image54.png["A screenshot of the ONTAP System Manager dashboard showing performance at 132.99K IOPS and 1,038.58 MB/s throughput"]
 
 With the I/O transparently migrated from site A to site B, the site A storage controllers can now be brought down for scheduled maintenance. After the maintenance work or testing is completed and site A storage cluster is brought back up and operational, check and wait for the consistency group protection state to change back to `In sync` before performing a failover to return the failover I/O from site B back to site A. Please note that the longer a site is taken down for maintenance or testing, the longer it takes before data are synchronized and the consistency group is returned to the `In sync` state.
 
-image:sm-bcs-image55.png[]
+image:sm-bcs-image55.png["A screenshot of ONTAP System Manager Relationships showing healthy, in-sync consistency groups and a Failover menu option"]
 
 == Unplanned storage failover
 
 An unplanned storage failover can occur when a real disaster happens or during a disaster simulation. For example, see the following figure in which the storage system at site A experiences a power outage, an unplanned storage failover is triggered, and the data services for site A LUNs, which are protected by the SM-BC relationships,  continue from site B.
 
-image:sm-bcs-image56.png[]
+image:sm-bcs-image56.png["A diagram that shows Site A storage unavailable and SM-BC data services continuing at Site B via ONTAP Mediator"]
 
 To simulate a storage disaster at site A, both storage controllers at site A can be powered off by physically turning off the power switch to discontinue the supply of power to the controllers, or by using the storage controller service processors’ system power management command to power off the controllers.
 
@@ -112,21 +112,21 @@ From the application perspective, the data services pause briefly while the oper
 
 During the validation testing, the IOMeter tool on the VMs at both sites generates I/O to their local datastores. After the site A cluster was powered off, I/O paused briefly and then resumed afterwards. See the following two figures for the dashboards of the storage cluster at site A and site B respectively before the disaster which show roughly 80k IOPS and 600 MB/s throughput at each site.
 
-image:sm-bcs-image57.png[]
+image:sm-bcs-image57.png["A screenshot of the ONTAP System Manager dashboard showing 80.32k IOPS and 626.98 MB/s throughput"]
 
-image:sm-bcs-image58.png[]
+image:sm-bcs-image58.png["A screenshot of ONTAP System Manager dashboard for aff-a250-b showing 81.37k IOPS and 635.41 MB/s throughput"]
 
 After powering off the storage controllers at site A, we can visually validate that site B storage controller I/O increased sharply to provide additional data services on behalf of site A (see the following figure). In addition, the GUI of the IOMeter VMs also showed that I/O continued despite site A storage cluster outage. Please note that if there are additional datastores backed by LUNs not protected by SM-BC relationships, those datastores will no longer be accessible when the storage disaster occurs. Therefore, it is important to evaluate the business needs of the various application data and properly place them in datastores protected by SM-BC relationships to provide business continuity.
 
-image:sm-bcs-image59.png[]
+image:sm-bcs-image59.png["A screenshot of ONTAP System Manager showing sharply increased IOPS and throughput performance on cluster aff-a250-b"]
 
 While the site A cluster is down, the relationships of the consistent groups show `Out of sync` status as shown in the following figure. After the power is turned back on for the storage controllers at site A, the storage cluster boots up and the data synchronization between site A and site B happens automatically.
 
-image:sm-bcs-image60.png[]
+image:sm-bcs-image60.png["A screenshot of ONTAP System Manager relationships showing two healthy relationships out of sync"]
 
 Before returning data services from site B back to site A, you must check site A System Manager and make sure that the SM-BC relationships catches up and the status are back in sync. After confirming that the consistency groups are in sync, a manual failover operation can be initiated to return data services in the consistency group relationships back to site A.
 
-image:sm-bcs-image61.png[]
+image:sm-bcs-image61.png["A screenshot that shows ONTAP System Manager relationships with healthy status and in-sync state"]
 
 == Complete site maintenance or site failure
 
@@ -139,7 +139,7 @@ To get a site ready for planned site maintenance, a combination of migrating aff
 
 Before performing the planned migration, update the VM/Host affinity rule so the VMs that are currently running on the site are automatically migrated off the site that is undergoing maintenance. The following screenshot shows an example of modifying the site A VM/Host affinity rule for the VMs to migrate from site A to site B automatically.  Instead of specifying that the VMs now need to run on site B, you can also choose to disable the affinity rule temporarily so the VMs can be migrated manually.
 
-image:sm-bcs-image62.png[]
+image:sm-bcs-image62.png["A screenshot of the Edit VM/Host Rule dialog assigning Site A VMs to the Site B hosts group"]
 
 After virtual machines and storage services have been migrated, you can power off servers, storage controllers,  disk shelves, and switches and perform the needed site maintenance activities. When site maintenance is completed and the FlexPod instance is brought back up, you can change the host group affinity for the VMs to return to their original site. Afterwards, you should change the “Must run on hosts in group” VM/Host site affinity rule back to “Should run on hosts in group” so virtual machines are allowed to run on hosts at the other site should a disaster happens. For the validation testing, all virtual machines were successfully migrated to the other site and the data services continued without problems after performing a failover for the SM-BC relationships.
 
@@ -147,13 +147,13 @@ For the unplanned site disaster simulation, the servers and storage controllers 
 
 The following screenshot shows that the storge controllers’ service processor CLI were used to power off the site A cluster abruptly to simulate site A storage disaster.
 
-image:sm-bcs-image63.png[]
+image:sm-bcs-image63.png["A screenshot of two BMC CLI windows showing system power off commands for aff-a250-a-01 and aff-a250-a-02"]
 
 The storage clusters’ storage virtual machine dashboards as captured by the NetApp Harvest data collection tool and displayed in Grafana dashboard in the NAbox monitoring tool are shown in the following two screenshots. As can be seen on the right-hand side of the IOPS and Throughputs graphs, the site B cluster picks up the cluster A storage workload right away after site A cluster goes down.
 
-image:sm-bcs-image64.png[]
+image:sm-bcs-image64.png["A screenshot of a Grafana dashboard showing SVM latency, throughput, and IOPS metrics for Infra-SVM on cluster aff-a250-a"]
 
-image:sm-bcs-image65.png[]
+image:sm-bcs-image65.png["A screenshot of the Grafana SVM dashboard showing latency, throughput, and IOPS graphs for Infra-SVM-b"]
 
 == Microsoft SQL Server
 
@@ -163,25 +163,25 @@ As part of the business-critical workload validation for the FlexPod SM-BC solut
 
 The HammerDB database testing tool was configured for testing with the Microsoft SQL Server TPROC-C workload. For the schema build configurations, the options were updated to use 100 warehouses with 10 virtual users as shown in the following screenshot.
 
-image:sm-bcs-image66.png[]
+image:sm-bcs-image66.png["A screenshot of Microsoft SQL Server TPROC-C Build Options with 100 warehouses and 10 virtual users"]
 
 After the schema build options were updated, the schema build process was started. A few minutes later, an unplanned simulated site B storage cluster failure was introduced by powering off both nodes of the two node AFF A250 storage cluster at about the same time using system processor CLI commands.
 
 After a brief pause of database transactions, the automated failover for the disaster remediation kicked in and the transactions resumed. The following screenshot shows the HammerDB Transaction Counter screenshot around that time. As the database for the Microsoft SQL Server normally resides on the site B storage cluster, the transaction paused briefly when storage at site B went down and then resumed after the automated failover happened.
 
-image:sm-bcs-image67.png[]
+image:sm-bcs-image67.png["A screenshot of HammerDB Transaction Counter showing a brief transaction drop and recovery during TPROC-C creation"]
 
 The storge cluster metrics were captured by using the NAbox tool with the NetApp Harvest monitoring tool installed. The results are displayed in the predefined Grafana dashboards for the storage virtual machine and other storage objects. The dashboard provides metrices for latency, throughput, IOPS, and additional details with read and write statistics separated for both site B and site A.
 
 This screenshot shows the NAbox Grafana performance dashboard for site B storage cluster.
 
-image:sm-bcs-image68.png[]
+image:sm-bcs-image68.png["A screenshot of the NAbox Grafana dashboard showing site B storage cluster latency, throughput, and IOPS metrics dropping to zero"]
 
 The IOPS for the site B storage cluster was around 100K IOPS before the disaster was introduced. Then, the performance metrics showed a sharp drop down to zero at the right-hand side of the graphs due to the disaster. Since the site B storage cluster was down, nothing could be gathered from the site B cluster after the disaster was introduced.
 
 On the other hand, the IOPS for the site A storage cluster picked up the additional workloads from site B after the automated failover. The additional workload can be easily seen on the right-hand side of the IOPS and Throughput graphs in the following screenshot, which shows the NAbox Grafana performance dashboard for site A storage cluster.
 
-image:sm-bcs-image69.png[]
+image:sm-bcs-image69.png["A screenshot of the NAbox Grafana dashboard showing site A SVM latency, throughput, and IOPS metrics"]
 
 The storage disaster test scenario above confirmed that the Microsoft SQL Server workload can survive a complete storage cluster outage at site B where the database resides. The application transparently used the data services provided by the site A storage cluster after the disaster was detected and the failover happened.
 

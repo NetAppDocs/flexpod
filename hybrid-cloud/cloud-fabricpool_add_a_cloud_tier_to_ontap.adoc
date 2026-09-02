@@ -44,7 +44,7 @@ In the Container Name field, enter the object store's bucket or container name.
 
 . Click Save and Attach Aggregates.
 
-image:cloud-fabricpool_image13.png[]
+image:cloud-fabricpool_image13.png["A screenshot of the Add Cloud Tier form configured for an Amazon S3 cloud tier provider"]
 
 == ONTAP CLI
 

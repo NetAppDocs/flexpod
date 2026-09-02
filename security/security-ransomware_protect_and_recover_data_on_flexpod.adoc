@@ -33,15 +33,15 @@ This section provides shows the state of the files prior to an attack on the VM 
 
 The Documents folder of the VM had a set of PDF files that have not yet been encrypted by the WannaCry malware.
 
-image:security-ransomware_image3.png[]
+image:security-ransomware_image3.png["A screenshot of a Windows Documents folder listing unencrypted WorkDoc PDF files"]
 
 The following screenshot shows the CIFS share that was mapped to the VM.
 
-image:security-ransomware_image4.png[]
+image:security-ransomware_image4.png["A screenshot that shows the fpolicy_share CIFS network drive mapped as drive Z: in Windows File Explorer"]
 
 The following screenshot shows the files on the CIFS share `fpolicy_share` that have not yet been encrypted by the WannaCry malware.
 
-image:security-ransomware_image5.png[]
+image:security-ransomware_image5.png["A screenshot of File Explorer showing unencrypted files on the fpolicy_share CIFS share mapped as drive Z"]
 
 == Deduplication and Snapshot information before an attack
 
@@ -49,19 +49,19 @@ The storage efficiency details and size of the Snapshot copy prior to an attack 
 
 Storage savings of 19% were achieved with deduplication on the volume hosting the VM.
 
-image:security-ransomware_image6.png[]
+image:security-ransomware_image6.png["A screenshot of infra_datastore1 storage efficiency showing 5.84 GB (19%) deduplication savings"]
 
 Storage savings of 45% were achieved with deduplication on the CIFS share `fpolicy_share`.
 
-image:security-ransomware_image7.png[]
+image:security-ransomware_image7.png["A screenshot of cifS_volume storage efficiency showing 5.05 GB (45%) deduplication savings"]
 
 A Snapshot copy size of 456KB was observed for the volume hosting the VM.
 
-image:security-ransomware_image8.png[]
+image:security-ransomware_image8.png["A screenshot of infra_datastore1 Snapshot Copies showing before_attack with a total size of 456 KB"]
 
 A Snapshot copy size of 160KB was observed for the CIFS share `fpolicy_share`.
 
-image:security-ransomware_image9.png[]
+image:security-ransomware_image9.png["A screenshot of the cifS_volume Snapshot Copies tab showing the before_attack_cifs snapshot with a total size of 160 KB"]
 
 == WannaCry infection on VM and CIFS share
 
@@ -71,11 +71,11 @@ The following steps demonstrate how the WannaCry malware binary was introduced i
 
 . The secured malware was extracted.
 +
-image:security-ransomware_image10.png[]
+image:security-ransomware_image10.png["An icon for a compressed folder named Ransomware.WannaCry"]
 
 . The binary was executed.
 +
-image:security-ransomware_image11.png[]
+image:security-ransomware_image11.png["A screenshot of Windows File Explorer showing a selected WannaCry executable with Run as administrator menu option"]
 
 === Case 1: WannaCry encrypts the file system within the VM and mapped CIFS share
 
@@ -83,11 +83,11 @@ The local file system and the mapped CIFS share were encrypted by the WannaCry m
 
 Malware starts to encrypt files with WNCRY extensions.
 
-image:security-ransomware_image12.png[]
+image:security-ransomware_image12.png["A screenshot of Windows File Explorer showing PDF files and encrypted WNCRY files in Documents"]
 
 The malware encrypts all the files in the local VM and the mapped share.
 
-image:security-ransomware_image13.png[]
+image:security-ransomware_image13.png["A screenshot showing local and mapped CIFS share files encrypted with WNCRY extensions"]
 
 ==== Detection
 
@@ -95,15 +95,15 @@ From the moment the malware started to encrypt the files, it triggered an expone
 
 We detected a dramatic increase in the Snapshot size to 820.98MB for the volume hosting the CIFS share during the attack.
 
-image:security-ransomware_image14.png[]
+image:security-ransomware_image14.png["A screenshot that shows the cifs_volume Snapshot Copies tab with a Snapshot size of 820.98 MB"]
 
 We detected an increase in the Snapshot copy size to 404.3MB for the volume hosting the VM.
 
-image:security-ransomware_image15.png[]
+image:security-ransomware_image15.png["A screenshot of the infra_datastore1 Snapshot Copies tab showing a 404.3 MB before_attack Snapshot copy"]
 
 The storage efficiency for the volume hosting the CIFS share decreased to 34%.
 
-image:security-ransomware_image16.png[]
+image:security-ransomware_image16.png["A screenshot of cifsv_volume storage efficiency showing 5 GB total savings at 34%"]
 
 ==== Remediation
 
@@ -115,23 +115,23 @@ To restore the VM, complete the following steps:
 
 . Use the Snapshot copy you created with SnapCenter to restore the VM.
 +
-image:security-ransomware_image17.png[]
+image:security-ransomware_image17.png["A screenshot of the vSphere Actions menu for WannaCry-2016-1 with NetApp SnapCenter Restore selected"]
 
 . Select the desired VMware- consistent Snapshot copy for restore.
 +
-image:security-ransomware_image18.png[]
+image:security-ransomware_image18.png["A screenshot of the Restore wizard listing available VMware Snapshot backups with one selected"]
 
 . The entire VM is restored and restarted.
 +
-image:security-ransomware_image19.png[]
+image:security-ransomware_image19.png["A Restore wizard selecting the entire WannaCry-2016-1 virtual machine and restarting it on an ESXi host"]
 
 . Click Finish to start the restore process.
 +
-image:security-ransomware_image20.png[]
+image:security-ransomware_image20.png["A Restore wizard summary for virtual machine WannaCry-2016-1 with a Finish button and power-down warning"]
 
 . The VM and its files are restored.
 +
-image:security-ransomware_image21.png[]
+image:security-ransomware_image21.png["A screenshot of Windows File Explorer showing restored PDF files in the Documents folder"]
 
 *Restore CIFS Share*
 
@@ -139,15 +139,15 @@ To restore the CIFS share, complete the following steps:
 
 . Use the Snapshot copy of the volume taken prior to the attack to restore the share.
 +
-image:security-ransomware_image22.png[]
+image:security-ransomware_image22.png["A screenshot that shows the Snapshot Copies tab for cifs_volume with the Restore action selected"]
 
 . Click OK to initiate the restore operation.
 +
-image:security-ransomware_image23.png[]
+image:security-ransomware_image23.png["A Restore Volume confirmation dialog with OK and Cancel buttons for restoring cif_volume from a Snapshot copy"]
 
 . View the CIFS share after the restore.
 +
-image:security-ransomware_image24.png[]
+image:security-ransomware_image24.png["A screenshot of Windows File Explorer showing the fpolicy_share mapped CIFS drive with folders, disk images, and PDF files"]
 
 === Case 2: WannaCry encrypts file system within the VM and tries to encrypt the mapped CIFS share that is protected through FPolicy
 
@@ -168,8 +168,8 @@ With this policy, files with extensions WNCRY, Locky, and ad4c are not allowed t
 
 View the status of files prior to attack—they are unencrypted and in a clean system.
 
-image:security-ransomware_image25.png[]
+image:security-ransomware_image25.png["A screenshot that shows unencrypted WorkDoc PDF files in Documents and the fpolicy_share drive"]
 
 The files on the VM are encrypted. The WannaCry malware tries to encrypt the files in the CIFS share, but FPolicy prevents it from affecting the files.
 
-image:security-ransomware_image26.png[]
+image:security-ransomware_image26.png["A screenshot of encrypted VM files beside unaffected PDF files in an FPolicy CIFS share"]

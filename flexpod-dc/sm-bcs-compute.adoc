@@ -21,11 +21,11 @@ The compute configuration for the FlexPod SM-BC solution follows typical FlexPod
 
 The connectivity between the UCS B200 blade servers and the IOMs are provided by the UCS VIC card through the UCS 5108 chassis backplane connections. The UCS 2204XP Fabric Extenders used for the validation has sixteen 10G ports each to connect to the eight half-width blade servers, for example, two for each server. To increase server connectivity bandwidth, an additional mezzanine-based VIC can be added to connect the server to the alternative UCS 2408 IOM which provides four 10G connections to each server.
 
-image:sm-bcs-image17.png[]
+image:sm-bcs-image17.png["A diagram that shows UCS 2204XP A and B connected to a B200 M5 VIC over 10GBASE-KR"]
 
 The connectivity between the UCS 5108 chassis and the UCS 6454 FIs used for the validation are provided by the IOM 2204XP which use four 10G connections. The FI ports 1 through 4 are configured as server ports for these connections. The FI ports 25 through 28 are configured as network uplink ports to the Nexus switch A and B at the local site. The following figure and table provide the connectivity diagram and port connection details for the UCS 6454 FIs to connect to the UCS 5108 chassis and the Nexus switches.
 
-image:sm-bcs-image18.png[]
+image:sm-bcs-image18.png["A diagram that shows UCS 5108 IOMs connected to FI 6454 switches and Nexus A and B switches"]
 
 |===
 |Local device |Local port |Remote device |Remote port
@@ -144,7 +144,7 @@ For iSCSI SAN boot configuration, the iSCSI boot parameters are set to allow iSC
 
 The iSCSI static target can be configured in the boot policy of service profile templates under the Set iSCSI Boot Parameter dialog as shown in the following figure. The recommended iSCSI boot parameter setting configuration is shown in the following table,  which implements the boot strategy discussed above to achieve high availability.
 
-image:sm-bcs-image19.png[]
+image:sm-bcs-image19.png["A screenshot that shows the Cisco UCS Manager Set iSCSI Boot Parameters dialog with two static targets configured"]
 
 |===
 |iSCSI fabric |Priority |iSCSI target |iSCSI LIF

@@ -100,7 +100,7 @@ FlexPod delivers several benefits that are specific to the medical imaging indus
 +
 FlexPod Cooperative Support is especially valuable if your healthcare organization runs business-critical applications. The illustration below shows an overview of the FlexPod Cooperative Support model.
 
-image:medical-imaging_image2.png[]
+image:medical-imaging_image2.png["A diagram that shows the FlexPod Cooperative Support model between customers, Cisco, and NetApp"]
 
 == Scope
 

@@ -23,7 +23,7 @@ FlexPod is a predesigned, integrated, and validated architecture that combines C
 
 The figure below illustrates the FlexPod architecture and clearly highlights the high availability across all the layers of the stack. The infrastructure components of storage, network, and compute are configured in such a way that the operations can instantaneously fail over to the surviving partner in case one of the components fail.
 
-image:security-ransomware_image2.png[]
+image:security-ransomware_image2.png["A diagram that shows a highly available FlexPod architecture with Cisco UCS, Nexus, MDS, and NetApp storage controllers"]
 
 A major advantage for a FlexPod system is that it is predesigned, integrated, and validated for several workloads. Detailed design and deployment guides are published for every solution validation. These documents include the best practices that you must employ for workloads to run seamlessly on FlexPod. These solutions are built with the best- in-class compute, network, and storage products and a host of features that focus on security and hardening of the entire infrastructure.
 

@@ -28,19 +28,19 @@ FabricPool supports the attachment of one bucket per aggregate, as illustrated i
 
 When planning a storage architecture, consider how the bucket-to-aggregate relationship might affect performance. Many object store providers set a maximum number of supported IOPS at the bucket or container level. Environments that require maximum performance should use multiple buckets to reduce the possibility that object-store IOPS limitations might affect performance across multiple FabricPool aggregates. Attaching a single bucket or container to all FabricPool aggregates in a cluster might be more beneficial to environments that value manageability over cloud-tier performance.
 
-image:cloud-fabricpool_image10.png[]
+image:cloud-fabricpool_image10.png["A diagram that shows valid and invalid FabricPool aggregate-to-bucket attachment configurations"]
 
 == Create an S3 bucket
 
 . In the AWS management console from the home page, enter S3 in the search bar.
 . Select S3 Scalable Storage in the Cloud.
 +
-image:cloud-fabricpool_image11.png[]
+image:cloud-fabricpool_image11.png["A screenshot of the AWS console search showing the S3 Scalable Storage in the Cloud result highlighted"]
 
 . On the S3 home page, select Create Bucket.
 . Enter a DNS-compliant name and choose the region to create the bucket.
 +
-image:cloud-fabricpool_image12.png[]
+image:cloud-fabricpool_image12.png["A screenshot of the AWS Create bucket dialog with bucket name, region, and Create button"]
 
 . Click Create to create the object store bucket.
 
