@@ -27,7 +27,7 @@ The storage configuration for FlexPod SM-BC solution follows typical FlexPod sol
 
 The storage connectivity to the local UCS FIs and blade servers is provided by the Nexus switches at the local site. Through the Nexus switch connectivity between sites, the storage can also be accessed by the remote UCS blade servers. The following figure and table show the storage connectivity diagram and a list of connections for the storage controllers at each site.
 
-image:sm-bcs-image22.png[]
+image:sm-bcs-image22.png["A diagram that shows an AFF A250 connected to Nexus A and Nexus B switches at two sites"]
 
 |===
 |Local device |Local port |Remote device |Remote port
@@ -88,7 +88,7 @@ Two physical ports on each storage controller are connected to each Nexus switch
 
 The in-band management, inter-cluster, and NFS/iSCSI data storage protocols use VLANs. VLAN ports are created on the interface group to segregate the different types of traffic. Logical interfaces (LIFs) for the respective functions are created on top of the corresponding VLAN ports. The following figure shows the relationship between the physical connections, interface groups, VLAN ports, and logical interfaces.
 
-image:sm-bcs-image23.png[]
+image:sm-bcs-image23.png["A diagram that shows Nexus-connected AFF A250 controller ports, interface groups, VLAN ports, and LIFs"]
 
 == SAN boot
 
@@ -98,27 +98,27 @@ The following figure depicts the connectivity for iSCSI SAN boot of Cisco UCS se
 
 Each iSCSI boot LUN is mapped to the server that boots from it through the iSCSI LIFs by associating the boot LUN with the server’s iSCSI Qualified Names (IQNs) in its boot igroup. The server’s boot igroup contains two IQNs,  one for each vNIC / SAN fabric. This feature enables only the authorized server to have access to the boot LUN created specifically for that server.
 
-image:sm-bcs-image24.png[]
+image:sm-bcs-image24.png["A diagram that shows redundant iSCSI SAN boot connectivity from B200 M5 servers to AFF A250 controllers"]
 
 == Cluster peering
 
 ONTAP cluster peers communicate via the intercluster LIFs. Using ONTAP System Manager for the two clusters, you can create the needed intercluster LIFs under the Protection > Overview pane.
 
-image:sm-bcs-image25.png[]
+image:sm-bcs-image25.png["A screenshot of ONTAP System Manager Add Intercluster Interfaces dialog with two IP address fields"]
 
 To peer the two clusters together, complete the following steps:
 
 . Generate cluster peering passphrase in the first cluster.
 +
-image:sm-bcs-image26.png[]
+image:sm-bcs-image26.png["A screenshot of the Generate Passphrase dialog with cluster peer permissions, validity, and a copied passphrase"]
 
 . Invoke the Peer Cluster option in the second cluster and provide the passphrase and intercluster LIF information.
 +
-image:sm-bcs-image27.png[]
+image:sm-bcs-image27.png["A screenshot that shows the ONTAP System Manager Peer Cluster dialog with passphrase and intercluster LIF addresses"]
 
 . The System Manager Protection > Overview pane shows cluster peer information.
 +
-image:sm-bcs-image28.png[]
+image:sm-bcs-image28.png["A screenshot of ONTAP System Manager Protection Overview showing cluster peer and mediator status"]
 
 == ONTAP Mediator installation and configuration
 
@@ -128,11 +128,11 @@ Before installing the ONTAP Mediator, check out the https://docs.netapp.com/us-e
 
 After the ONTAP Mediator is installed, you can add the security certificate of the ONTAP Mediator to the ONTAP clusters and then configuring the ONTAP Mediator in the System Manager Protection > Overview pane. The following screenshot shows of the ONTAP Mediator configuration GUI.
 
-image:sm-bcs-image29.png[]
+image:sm-bcs-image29.png["A screenshot of the ONTAP System Manager Configure Mediator dialog with mediator connection fields"]
 
 After you provide the necessary information, the configured ONTAP Mediator then appears in the System Manager Protection > Overview pane.
 
-image:sm-bcs-image30.png[]
+image:sm-bcs-image30.png["A screenshot of the ONTAP System Manager Protection Overview pane showing configured Mediator status"]
 
 == SM-BC consistency group
 
@@ -146,7 +146,7 @@ For additional details, see the ONTAP SM-BC documentation on the https://docs.ne
 
 For the validation configuration, ONTAP System Manager was used to create the consistency groups to protect both the ESXi boot LUNs and the shared datastore LUNs for both sites. The consistency group creation dialog is accessible by going to Protection > Overview > Protect for Business Continuity > Protect Consistency Group. To create a consistency group, provide the needed source volumes, destination cluster, and destination storage virtual machine information for the creation.
 
-image:sm-bcs-image31.png[]
+image:sm-bcs-image31.png["A screenshot of the Protect Consistency Group dialog with source volume esxi_a and destination cluster aff-a250-b"]
 
 The following table lists the four consistency groups that are created and the volumes that are included in each consistency group for the validation testing.
 
@@ -173,15 +173,15 @@ After the consistency groups are created, they show up under the respective prot
 
 This screenshot shows the consistency group relationships at site A.
 
-image:sm-bcs-image32.png[]
+image:sm-bcs-image32.png["A screenshot of ONTAP System Manager relationships showing two healthy, in-sync consistency groups at site A"]
 
 This screenshot shows the consistency group relationships at site B.
 
-image:sm-bcs-image33.png[]
+image:sm-bcs-image33.png["A screenshot of ONTAP System Manager relationships at site B showing two healthy, in-sync consistency groups"]
 
 This screenshot shows the consistency group relationship details for the cg_infra_datastore_b group.
 
-image:sm-bcs-image34.png[]
+image:sm-bcs-image34.png["A screenshot of ONTAP System Manager showing cg_infra_datastore_b consistency group relationship details"]
 
 == Volumes, LUNs, and host mappings
 
@@ -189,20 +189,20 @@ After the consistency groups are created, SnapMirror synchronizes the source and
 
 This screenshot shows the volume information for site A.
 
-image:sm-bcs-image35.png[]
+image:sm-bcs-image35.png["A screenshot of ONTAP volume information for Infra-SVM-a, including RW, DP, and LS volumes"]
 
 This screenshot shows the volume information for site B.
 
-image:sm-bcs-image36.png[]
+image:sm-bcs-image36.png["A screenshot of the ONTAP volume show output for Infra-SVM-b listing nine volumes, including destination DP volumes"]
 
 To facilitate transparent application failover, the mirrored SM-BC LUNs also need to be mapped to the hosts from the destination cluster. This allows the hosts to properly see paths to the LUNs from both the source and destination clusters. The `igroup show` and `lun show` outputs for both site A and site B are captured in the following two screenshots. With the created mappings, each ESXi host in the cluster sees its own SAN boot LUN as ID 0 and all the four shared iSCSI datastore LUNs.
 
 This screenshot shows the host igroups and LUN mapping for site A cluster.
 
-image:sm-bcs-image37.png[]
+image:sm-bcs-image37.png["A screenshot that shows site A iSCSI igroups and LUN mappings in ONTAP CLI output"]
 
 This screenshot shows the host igroups and LUN mapping for site B cluster.
 
-image:sm-bcs-image38.png[]
+image:sm-bcs-image38.png["A screenshot of site B igroup and LUN mapping command output for iSCSI VMware hosts"]
 
 link:sm-bcs-virtualization.html[Next: Solution validation - Virtualization.]

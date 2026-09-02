@@ -27,7 +27,7 @@ During the FIPS setup and workload validation, we exercised workload characteris
 
 The following figure depicts the FlexPod system used for FIPS setup and validation. We leveraged the https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/fp_vmware_vsphere_7_0_ontap_9_7.html[FlexPod Datacenter with VMware vSphere 7.0 and NetApp ONTAP 9.7 Cisco Validated Design (CVD)^] during the setup process.
 
-image:flexpod-fips-image6.png[]
+image:flexpod-fips-image6.png["A diagram that shows FIPS 140-2 compliant FlexPod for Healthcare compute, networking, and storage connections"]
 
 == Solution infrastructure hardware and software components
 

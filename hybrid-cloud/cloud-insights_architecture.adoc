@@ -60,7 +60,7 @@ For Cloud Insights to collect data, an organization must deploy an Acquisition U
 
 The following figure shows the solution architecture.
 
-image:cloud-insights_image2.png[]
+image:cloud-insights_image2.png["A diagram that shows Cisco UCS, Nexus switches, NetApp AFF A800 controllers, and MDS switches interconnected by network links"]
 
 == Hardware requirements
 

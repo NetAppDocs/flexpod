@@ -36,7 +36,7 @@ To create a vSphere cluster, complete the following steps:
 . Enable DR and vSphere HA by selecting the checkboxes.
 . Click OK.
 +
-image:express-c-series-c190-deploy_image45.png[]
+image:express-c-series-c190-deploy_image45.png["A screenshot of the New Cluster dialog with DRS and vSphere HA enabled and vSAN disabled"]
 
 == Add the ESXi hosts to the cluster
 
@@ -44,7 +44,7 @@ To add the ESXi hosts to the cluster, complete the following steps:
 
 . Right-click the cluster and select Add Host.
 +
-image:express-c-series-c190-deploy_image46.png[]
+image:express-c-series-c190-deploy_image46.png["A screenshot of the vSphere Client Add hosts wizard with a host FQDN entry field and Next button"]
 
 . To add an ESXi host to the cluster, complete the following steps:
 .. Enter the IP or FQDN of the host. Click Next.
@@ -69,7 +69,7 @@ To configure coredump on the ESXi hosts, complete the following steps:
 . Click on services and select VMware vSphere ESXI Dump collector.
 . Start the VMware vSphere ESXI Dump collector service.
 +
-image:express-c-series-c190-deploy_image47.png[]
+image:express-c-series-c190-deploy_image47.png["A screenshot of Appliance Management Services with VMware vSphere ESXi Dump Collector selected and Start available"]
 
 . Using SSH, connect to the management IP ESXi host, enter root for the user name, and enter the root password.
 . Run the following commands:
@@ -82,7 +82,7 @@ esxcli system coredump network check
 
 . The message `Verified the configured netdump server is running` appears after you enter the final command.
 +
-image:express-c-series-c190-deploy_image48.png[]
+image:express-c-series-c190-deploy_image48.png["A terminal showing ESXi coredump configuration commands and netdump server verification"]
 +
 [NOTE]
 This process must be completed for any additional hosts added to FlexPod Express.

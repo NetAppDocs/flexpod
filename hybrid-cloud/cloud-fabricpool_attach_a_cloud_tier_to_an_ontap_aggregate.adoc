@@ -32,13 +32,13 @@ To attach a cloud tier to an aggregate by using OnCommand System Manager, comple
 . Launch OnCommand System Manager.
 . Click Applications & Tiers.
 +
-image:cloud-fabricpool_image14.png[]
+image:cloud-fabricpool_image14.png["A screenshot that shows the OnCommand System Manager navigation menu with Applications & Tiers selected"]
 
 . Click Storage Tiers.
 . Click an aggregate.
 . Click Actions and select Attach Cloud Tier.
 +
-image:cloud-fabricpool_image15.png[]
+image:cloud-fabricpool_image15.png["A screenshot that shows the More Actions menu with Attach Cloud Tier selected"]
 
 . Select a cloud tier.
 . View and update the tiering policies for the volumes on the aggregate (optional). By default, the volume tiering policy is set as Snapshot-Only.

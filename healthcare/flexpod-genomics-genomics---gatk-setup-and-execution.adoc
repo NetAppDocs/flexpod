@@ -44,7 +44,7 @@ At a high level, genomics can be classified into the following steps. This is no
 
 The following figure shows the process from sampling to variant identification, annotation, and prediction.
 
-image:flexpod-genomics-image8.png[]
+image:flexpod-genomics-image8.png["A diagram that shows a genomics workflow from sample collection through sequencing, variant analysis, EHR integration, and predictive models"]
 
 The Human Genome project was completed in April 2003, and the project made a very high-quality simulation of the human genome sequence available in the public domain. This reference genome initiated an explosion in research and development of genomics capabilities. Virtually every human ailment has a signature in that human’s genes. Up until recently,  physicians were leveraging genes to predict and determine birth defects like sickle cell anemia, which is caused by a certain inheritance pattern caused by a change in a single gene. The treasure trove of data being made available by the human genome project led to the advent of the current state of genomics capabilities.
 
@@ -85,39 +85,39 @@ To perform FlexPod lab setup, complete the following steps:
 
 . FlexPod lab setup and validation uses the following IP4 reservations and VLANs.
 +
-image:flexpod-genomics-image10.png[]
+image:flexpod-genomics-image10.png["A table of VLAN IP reservations showing ranges, subnet masks, and management, VM, NFS, and iSCSI purposes"]
 
 . Configure iSCSI-based boot LUNs on the ONTAP SVM.
 +
-image:flexpod-genomics-image9.png[]
+image:flexpod-genomics-image9.png["A screenshot of ONTAP System Manager showing six ESXi boot LUNs in the Healthcare_SVM storage VM"]
 
 . Map LUNs to iSCSI initiator groups.
 +
-image:flexpod-genomics-image11.png[]
+image:flexpod-genomics-image11.png["A screenshot that shows ESXi_Boot_Lun_1 mapped to the GenomicsESXi_1 iSCSI initiator group"]
 +
-image:flexpod-genomics-image12.png[]
+image:flexpod-genomics-image12.png["A screenshot of ONTAP System Manager showing ESXi boot LUN details mapped to the GenomicsESXi_2 initiator group"]
 
 . Install vSphere 7.0 with iSCSI boot.
 . Register ESXi hosts with the vCenter.
 +
-image:flexpod-genomics-image13.png[]
+image:flexpod-genomics-image13.png["A screenshot of vSphere Client inventory showing the Genomics folder with ESXi hosts and virtual machines"]
 
 . Provision an NFS datastore `infra_datastore_nfs` on the ONTAP storage.
 +
-image:flexpod-genomics-image14.png[]
+image:flexpod-genomics-image14.png["A screenshot of ONTAP System Manager showing the selected Healthcare_Workload_NFS_Vol NFS volume online"]
 
 . Add the datastore to the vCenter.
 +
-image:flexpod-genomics-image16.png[]
+image:flexpod-genomics-image16.png["A screenshot of the vSphere Client showing the infra_datastore_nfs NFS 3 datastore summary"]
 
 . Using vCenter, add an NFS datastore to the ESXi hosts.
 +
-image:flexpod-genomics-image15.png[]
+image:flexpod-genomics-image15.png["A screenshot of vSphere Client showing infra_datastore_nfs hosts connected with normal status"]
 
 . Using the vCenter, create a Red Hat Enterprise Linux (RHEL) 8.3 VM to run GATK.
 . An NFS datastore is presented to the VM and mounted at `/mnt/genomics`, which is used to store GATK executables, scripts, Binary Alignment Map (BAM) files, reference files, index files, dictionary files, and out files for variant calling.
 +
-image:flexpod-genomics-image17.png[]
+image:flexpod-genomics-image17.png["A screenshot of a Linux terminal showing /dev/sdb mounted at /mnt/genomics with 2% usage"]
 
 == GATK setup and execution
 

@@ -23,7 +23,7 @@ This reference validation is cabled as shown in the following figures and tables
 
 This figure shows the reference validation cabling.
 
-image:express-c-series-c190-deploy_image3.png[]
+image:express-c-series-c190-deploy_image3.png["A diagram that shows rear views of two Nexus switches, two Cisco UCS servers, and AFF C190 controllers"]
 
 The following table lists the cabling information for Cisco Nexus switch 31108PC-V-A.
 
