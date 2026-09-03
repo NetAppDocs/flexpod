@@ -47,7 +47,7 @@ The CIMC version used in this validation is CIMC 4.0.(4).
 +
 Power on the server and press F8 when prompted to enter the CIMC configuration.
 +
-image:express-c-series-c190-deploy_image5.png[]
+image:express-c-series-c190-deploy_image5.png["A screenshot that shows a Cisco server boot screen prompting users to press F8 for CIMC Setup"]
 
 . In the CIMC configuration utility, set the following options:
 .. Network interface card (NIC) mode:
@@ -72,7 +72,7 @@ NIC redundancy
 +
 None: `[X]`
 +
-image:express-c-series-c190-deploy_image6.png[]
+image:express-c-series-c190-deploy_image6.png["A screenshot of Cisco IMC Configuration Utility NIC Properties with dedicated NIC and no redundancy selected"]
 
 . Press F1 to see the additional settings:
 .. Common properties:
@@ -143,7 +143,7 @@ To set the boot order configuration, complete the following steps:
 . From the CIMC interface browser window, click the Compute tab and select BIOS.
 . Click Configure Boot Order and then click OK.
 +
-image:express-c-series-c190-deploy_image7.png[]
+image:express-c-series-c190-deploy_image7.png["A screenshot of the Cisco Integrated Management Controller BIOS Configure Boot Order page"]
 
 . Configure the following devices by clicking the device under Add Boot Device and going to the Advanced tab:
 .. Add Virtual Media:
@@ -183,7 +183,7 @@ Port: 3
 . Click Add Device.
 . Click Save Changes and then click Close.
 +
-image:express-c-series-c190-deploy_image8.png[]
+image:express-c-series-c190-deploy_image8.png["A screenshot of Advanced Boot Order Configuration with KVM-MAPPED-DVD, iSCSI-A, and iSCSI-B enabled"]
 
 . Reboot the server to boot with your new boot order.
 
@@ -196,7 +196,7 @@ Complete the following steps if your C-Series server contains a RAID controller.
 . Scroll down to PCIe Slot:HBA Option ROM.
 . If the value is not already disabled, set it to disabled.
 +
-image:express-c-series-c190-deploy_image9.png[]
+image:express-c-series-c190-deploy_image9.png["A screenshot that shows CIMC BIOS settings with PCIe Slot 1 and Slot 2 Option ROM disabled"]
 
 == Configure Cisco VIC1457 for iSCSI boot
 
@@ -209,7 +209,7 @@ The default port-channeling between ports 0, 1, 2, and 3 must be turned off befo
 . Under the General tab, uncheck the port channel.
 . Save the changes and reboot the CIMC.
 +
-image:express-c-series-c190-deploy_image10.png[]
+image:express-c-series-c190-deploy_image10.png["A screenshot of Cisco Integrated Management Controller Adapter Card MLOM General tab with Port Channel unchecked"]
 
 === Create iSCSI vNICs
 
@@ -234,11 +234,11 @@ To create iSCSI vNICS, complete the following steps:
 ** Enter `\<<var_iscsi_vlan_b>>` as the VLAN.
 ** Set the uplink port to 3.
 +
-image:express-c-series-c190-deploy_image11.png[]
+image:express-c-series-c190-deploy_image11.png["A screenshot that shows General settings for iSCSI vNIC eth1 with VLAN 3439 and uplink port 1"]
 
 . Select the vNIC eth1 on the left.
 +
-image:express-c-series-c190-deploy_image12.png[]
+image:express-c-series-c190-deploy_image12.png["A screenshot that shows iSCSI Boot Properties initiator settings for vNIC eth1"]
 
 . Under iSCSI Boot Properties, enter the initiator details:
 
@@ -247,7 +247,7 @@ image:express-c-series-c190-deploy_image12.png[]
 ** Subnet mask: `\<<var_esxi_hostA_iscsiA_mask>>`
 ** Gateway: `\<<var_esxi_hostA_iscsiA_gateway>>`
 +
-image:express-c-series-c190-deploy_image13.png[]
+image:express-c-series-c190-deploy_image13.png["A screenshot of iSCSI boot properties with initiator, primary target, and secondary target details"]
 
 . Enter the primary target details:
 
@@ -277,7 +277,7 @@ Be sure to record the IQN names for each vNIC. You need them for a later step. I
 ** Subnet mask: `\<<var_esxi_hostb_iscsib_mask>>`
 ** Gateway: `\<<var_esxi_hostb_iscsib_gateway>>`
 +
-image:express-c-series-c190-deploy_image14.png[]
+image:express-c-series-c190-deploy_image14.png["A screenshot that shows iSCSI boot properties for vNIC eth3 with initiator and target settings"]
 
 . Enter the primary target details:
 
@@ -310,11 +310,11 @@ To configure vNICS for ESXi, complete the following steps:
 . Set the MTU to 9000. Click Save Changes.
 . Set the VLAN to native VLAN 2.
 +
-image:express-c-series-c190-deploy_image15.png[]
+image:express-c-series-c190-deploy_image15.png["A screenshot of Cisco Integrated Management Controller vNIC eth0 properties with MTU 9000 and default VLAN 2"]
 
 . Repeat steps 3 and 4 for eth1, verifying that the uplink port is set to 1 for eth1.
 +
-image:express-c-series-c190-deploy_image16.png[]
+image:express-c-series-c190-deploy_image16.png["A screenshot of Cisco Integrated Management Controller vNICs listing eth0 through eth3 with MTU, uplink port, and VLAN settings"]
 +
 [NOTE]
 This procedure must be repeated for each initial Cisco UCS server node and each additional Cisco UCS server node added to the environment.

@@ -35,7 +35,7 @@ The following list of healthcare organizations were targeted by the malicious ag
 
 The diversity of applications that constitute a healthcare organization is undeniable and increasingly growing in complexity. Information security offices are challenged to provide governance for the vast array of IT systems and assets. The following figure depicts the clinical capabilities of a typical hospital system.
 
-image:flexpod-fips-image2.png[]
+image:flexpod-fips-image2.png["A diagram that shows enterprise application integration connecting clinical and administrative hospital systems"]
 
 Patient data is at the heart of this image. The loss of patient data and the stigma associated with sensitive medical conditions is very real. Other sensitive issues include the risk of social exclusion, blackmail, profiling, vulnerability to targeted marketing, exploitation, and potential financial liability toward payers about medical information beyond the payer’s privileges.
 

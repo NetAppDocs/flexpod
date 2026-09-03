@@ -33,7 +33,7 @@ FlexPod is a best-practice data center architecture that includes the Cisco Unif
 
 The following figure presents the FlexPod component families.
 
-image:nvme-vsphere-image1.png[]
+image:nvme-vsphere-image1.png["A diagram that shows FlexPod storage, switch, and Cisco UCS component families with supported product series"]
 
 FlexPod is the ideal platform for introducing FC-NVMe. It can be supported with the addition of the Cisco UCS VIC 1400 Series and Port Expander in existing Cisco UCS B200 M5 or M6 servers or Cisco UCS C-Series M5 or M6 Rack Servers and simple, nondisruptive software upgrades to the Cisco UCS system, the Cisco MDS 32Gbps switches, and the NetApp AFF storage arrays. After the supported hardware and software are in place, the configuration of FC-NVMe is similar to the FCP configuration.
 

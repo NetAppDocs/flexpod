@@ -25,31 +25,31 @@ Testing consisted of running the FIO workloads to measure the FC-NVMe performanc
 
 The following graph illustrates our findings when running a 100% random read workload using 8KB block sizes.
 
-image:nvme-vsphere-image3.png[]
+image:nvme-vsphere-image3.png["A graph of FlexPod AFF A800 8KB random read IOPS versus latency, reaching 1.25M IOPS at 0.76 ms"]
 
 In our testing, we found that the system achieved over 1.2M IOPS while maintaining just under 0.35ms of server-side latency.
 
 The following graph illustrates our findings when running a 100% random write workload using 8KB block sizes.
 
-image:nvme-vsphere-image4.png[]
+image:nvme-vsphere-image4.png["A graph that shows FlexPod AFF A800 8KB random write latency rising with IOPS"]
 
 In our testing, we found that the system achieved close to 300k IOPS while maintaining just under 1ms of server-side latency.
 
 For 8KB block size with 80% random reads and 20% writes, we observed the following results:
 
-image:nvme-vsphere-image5.png[]
+image:nvme-vsphere-image5.png["A chart of FlexPod AFF A800 8KB 80:20 latency rising to 0.95 ms at 1M IOPS"]
 
 In our testing, we found that the system achieved over 1M IOPS while maintaining just under 1ms of server-side latency.
 
 For 64KB block size and 100% sequential reads, we observed the following results:
 
-image:nvme-vsphere-image6.png[]
+image:nvme-vsphere-image6.png["A chart showing FlexPod AFF A800 64KB sequential read latency rising from 0.2 to 0.78 ms as IOPS increase"]
 
 In our testing, we found that the system achieved around 250k IOPS while maintaining just under 1ms of server-side latency.
 
 For 64KB block size and 100% sequential writes, we observed the following results:
 
-image:nvme-vsphere-image7.png[]
+image:nvme-vsphere-image7.png["A chart showing FlexPod AFF A800 64KB sequential write latency rising with IOPS"]
 
 In our testing, we found that the system achieved around 120k IOPS while maintaining under 1ms of server-side latency.
 
