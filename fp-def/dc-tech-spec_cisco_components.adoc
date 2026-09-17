@@ -249,7 +249,7 @@ https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-swi
 
 == Cisco APIC options
 
-Cisco APIC is the main architectural component of Cisco ACI. It is the unified point of automation and management for the Cisco ACI fabric.
+Cisco APIC is the main architectural component of Cisco ACI. It provides centralized management, policy control, and automation for Cisco ACI fabrics.
 
 For more information about APIC product specifications, refer to Table 1 through Table 3 on the https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/application-policy-infrastructure-controller-apic/datasheet-c78-739715.html[Cisco Application Policy Infrastructure Controller Datasheet^].
 
