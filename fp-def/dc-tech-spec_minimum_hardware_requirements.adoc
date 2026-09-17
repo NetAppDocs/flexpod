@@ -27,11 +27,11 @@ A FlexPod configuration has the following minimum hardware requirements:
 
 * Two Cisco UCS 6400, 6500, or 6600 Series Fabric Interconnects in a redundant configuration, if using the UCS C-Series Rack Servers or the X-Series Modular systems.
 
-* Two Cisco UCS C-Series rack servers with FI connectivity with Intersight-managed configuration (IMM), or the Cisco UCS X-Series Direct with Cisco IMM, or the Cisco UCS X-Series Modular with Cisco Intersight-managed configuration(IMM). 
+* Two Cisco UCS C-Series rack servers with FI connectivity with Intersight Managed Mode configuration (IMM), or the Cisco UCS X-Series Direct with Cisco IMM, or the Cisco UCS X-Series Modular with Cisco IMM. 
 
 [NOTE]
-    If you are using the UCS rack servers without FI connectivity, you could use CIMC or the Intersight standalone mode for management.
+    If you are using the UCS rack servers without FI connectivity, you could use CIMC or the Intersight standalone mode for management(ISM).
 
-* Two NetApp AFF, NetApp ASA, or NetApp FAS controllers in a high-availability (HA) pair configuration deployed as a two-node cluster. If using NetApp AFX, a minimum of four NetApp AFX controllers are required and is to be deployed as a four-node HA cluster along with a pair of cluster interconnect switches.
+* Two NetApp AFF, NetApp ASA, or NetApp FAS controllers in a high-availability (HA) pair configuration deployed as a two-node cluster. If using NetApp AFX, a minimum of four NetApp AFX controllers are required and must be deployed as a four-node cluster with 2 HA pairs along with a pair of cluster interconnect switches.
 
 * A minimum of one NetApp disk shelf is required for the storage controllers that do not have a built-in disk shelf.
