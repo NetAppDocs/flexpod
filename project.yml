@@ -12,6 +12,7 @@ sidebar:
       url: /index.html
     - section: fp-def
     - section: flexpod-dc
+    - section: ontap-select-cisco-unified-edge
     - section: hybrid-cloud
     - section: ent-db
     - section: healthcare
