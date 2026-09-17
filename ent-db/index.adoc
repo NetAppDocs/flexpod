@@ -12,6 +12,7 @@ summary: This page provides an introduction to the use of FlexPod with SAP HANA 
 :linkattrs:
 :imagesdir: ../media/
 
+[.lead]
 The FlexPod platform is a predesigned, best practice data center architecture that is built on the Cisco Unified Computing System (Cisco UCS), the Cisco Nexus family of switches, and NetApp storage controllers.
 
 FlexPod is a suitable platform for running SAP applications, and the solutions provided here allows you to quickly and reliably deploy SAP HANA with a model of tailored datacenter integration. FlexPod delivers not only a baseline configuration, but also the flexibility to be sized and optimized to accommodate many different use cases and requirements.
