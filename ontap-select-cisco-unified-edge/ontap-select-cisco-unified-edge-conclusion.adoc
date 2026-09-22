@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: ontap-select-cisco-unified-edge/ontap-select-cisco-unified-edge-conclusion.html
 keywords: ontap select, cisco unified edge, conclusion, flexpod
-summary: TODO: Add a summary for the conclusion page.
+summary: FlexPod Edge combines Cisco Unified Edge and ONTAP Select to deliver software-defined storage and enterprise data services within a single compact chassis at the edge.
 ---
 
 = Conclusion
@@ -12,7 +12,5 @@ summary: TODO: Add a summary for the conclusion page.
 :linkattrs:
 :imagesdir: ../media/
 
-link:ontap-select-cisco-unified-edge-deployment-methodology.html[Previous: High-level Deployment Methodology.]
-
 [.lead]
-TODO: Add conclusion content.
+Deploying FlexPod Edge with software-defined storage gives customers a practical path to enterprise data services at the edge. The architecture combines Cisco’s compact, centrally managed Unified Edge platform with ONTAP’s mature data services, enabling software-defined storage inside a single chassis that can support local workloads where data is created and manipulated.
