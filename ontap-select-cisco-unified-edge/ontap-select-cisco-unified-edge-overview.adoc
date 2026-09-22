@@ -17,7 +17,7 @@ As a software-defined-storage alternative a dedicated NetApp appliance, ONTAP Se
 
 When deployed together, ONTAP Select and Cisco Unified Edge create a consolidated edge architecture. A storage-optimized compute node supplies the local NVMe media. The hypervisor presents the appropriate resources to the ONTAP Select virtual machine. ONTAP Select then organizes the local media into ONTAP aggregates and volumes, exposing storage to application workloads running locally in the same chassis or elsewhere at the edge site. This design keeps data close to applications, reduces dependency on WAN connectivity for day-to-day operations, and aligns with centralized management and data protection practices.
 
-image::ots-on-cue.png[ONTAP Select on Cisco Unified Edge architecture,width=500]
+image::ots-on-cue.png[ONTAP Select on Cisco Unified Edge architecture,width=700,align="center"]
 
 The four drive limitation and dependance on software RAID in XE130c and XE150c compute nodes limits ONTAP Select deployments to a single-controller archicture. Unlike a multi-node storage architecture with controller failover, a single storage controller cannot be taken offline for controller-level maintenance without affecting the local storage services it hosts.
 
