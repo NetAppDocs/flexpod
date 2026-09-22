@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: ontap-select-cisco-unified-edge/ontap-select-cisco-unified-edge-deployment-methodology.html
 keywords: ontap select, cisco unified edge, deployment, methodology, flexpod
-summary: Describes the high-level steps for licensing, deploying, sizing, and configuring local storage for ONTAP Select on Cisco Unified Edge.
+summary: Describes the high-level steps for licensing, sizing, configuring local storage, and deploying ONTAP Select on Cisco Unified Edge.
 ---
 
 = High-level Deployment Methodology
@@ -13,7 +13,7 @@ summary: Describes the high-level steps for licensing, deploying, sizing, and co
 :imagesdir: ../media/
 
 [.lead]
-This section describes the high-level steps for licensing, deploying, sizing, and configuring local storage for ONTAP Select on Cisco Unified Edge.
+This section describes the high-level steps for licensing, sizing, configuring local storage, and deploying ONTAP Select on Cisco Unified Edge.
 
 == 1. ONTAP Select licensing
 
@@ -34,4 +34,8 @@ VMDirectPath I/O Pass-through is used on the NVMe drives to maximize efficiency.
 One of the four NVMe drives is used a system disk containing the virtual machine's boot drive, core, and NVRAM. The remaining three drives are configured as data disks with software RAID 4 to provide parity-based protection against individual drive failures. Each data disk is divided into three partitions: a small root partition and two equal-sized partitions to create two data disks seen within the ONTAP Select VM. Refer to link:https://docs.netapp.com/us-en/ontap-select/concept_stor_swraid_local.html#ontap-select-virtual-and-physical-disks[ONTAP Select software RAID configuration services for local attached storage] for additional detail.
 
 The system disk can have a lower storage capacity than the three data disks to reduce the overall storage costs of the solution. A 1.6TB high-performance, high-endurance drive (UCSXE-NVE11T6K1P) is sufficient.
+
+== 5. Deploy the ONTAP Select instance
+
+ONTAP Select is deployed as a virtual machine using the ONTAP Select Deploy tooling and the supported hypervisor environment. During deployment, the administrator defines the node, management interfaces, data interfaces, capacity, and local disk assignments. After ONTAP Select is running, administrators should create volumes or LUNs for the local applications and apply appropriate policies, shares, initiator groups, or access controls.
 
