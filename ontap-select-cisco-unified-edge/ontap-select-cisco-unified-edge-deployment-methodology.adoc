@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: ontap-select-cisco-unified-edge/ontap-select-cisco-unified-edge-deployment-methodology.html
 keywords: ontap select, cisco unified edge, deployment, methodology, flexpod
-summary: TODO: Add a summary describing the high-level deployment methodology.
+summary: Describes the high-level deployment methodology for ONTAP Select on Cisco Unified Edge.
 ---
 
 = High-level Deployment Methodology
