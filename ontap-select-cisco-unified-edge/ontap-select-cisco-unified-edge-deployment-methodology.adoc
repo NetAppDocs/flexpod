@@ -1,0 +1,41 @@
+---
+sidebar: sidebar
+permalink: ontap-select-cisco-unified-edge/ontap-select-cisco-unified-edge-deployment-methodology.html
+keywords: ontap select, cisco unified edge, deployment, methodology, flexpod
+summary: Describes the high-level steps for licensing, sizing, configuring local storage, and deploying ONTAP Select on Cisco Unified Edge.
+---
+
+= High-level Deployment Methodology
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+This section describes the high-level steps for licensing, sizing, configuring local storage, and deploying ONTAP Select on Cisco Unified Edge.
+
+== 1. ONTAP Select licensing
+
+A Premium XL license is required when using NVMe drives. Customers can choose between a flexible capacity pool license that shares capacity between multiple sites and a perpetual license tied to a specific node. Refer to link:https://docs.netapp.com/us-en/ontap-select/concept_lic_workflow.html[License purchasing workflow for ONTAP Select] for additional details.
+
+== 2. Obtain ONTAP Select Deploy software
+
+ONTAP Select Deploy is the administration utility used to deploy and manage ONTAP Select clusters. Deploy is packaged as a Linux virtual machine which you must install before creating an ONTAP Select cluster. It can be installed from link:https://stackautomation.cisco.com/[Cisco Stack Automation] or downloaded as an .ova from the link:https://mysupport.netapp.com/site/[NetApp Support Site].
+
+== 3. Choose ONTAP Select virtual machine size
+
+ONTAP Select with Premium XL license can be deployed as small, medium, or large virtual machine instance sizes to meet storage performance requirements. XE130c or XE150c compute nodes with 12-cores can support small or medium instance sizes while 20- or 32-core nodes are required for large instances. Refer to link:https://docs.netapp.com/us-en/ontap-select/reference_plan_ots_hardware.html#basic-hardware-requirements[ONTAP Select VMware hypervisor and hardware considerations] for additional details on requirements for instance sizing.
+
+== 4. Prepare local storage
+
+VMDirectPath I/O Pass-through is used on the NVMe drives to maximize efficiency. This setting exposes the drives to the virtual machine, allowing ONTAP to have direct PCI access to the device. Refer to link:https://docs.netapp.com/us-en/ontap-select/task_chk_nvme_configure.html[Configure an ONTAP Select host to use NVMe drives] for details on enabling NVMe pass-through.
+
+One of the four NVMe drives is used a system disk containing the virtual machine's boot drive, core, and NVRAM. The remaining three drives are configured as data disks with software RAID 4 to provide parity-based protection against individual drive failures. Each data disk is divided into three partitions: a small root partition and two equal-sized partitions to create two data disks seen within the ONTAP Select VM. Refer to link:https://docs.netapp.com/us-en/ontap-select/concept_stor_swraid_local.html#ontap-select-virtual-and-physical-disks[ONTAP Select software RAID configuration services for local attached storage] for additional detail.
+
+The system disk can have a lower storage capacity than the three data disks to reduce the overall storage costs of the solution. A 1.6TB high-performance, high-endurance drive (UCSXE-NVE11T6K1P) is sufficient.
+
+== 5. Deploy the ONTAP Select instance
+
+ONTAP Select is deployed as a virtual machine using the ONTAP Select Deploy tooling and the supported hypervisor environment. During deployment, the administrator defines the node, management interfaces, data interfaces, capacity, and local disk assignments. After ONTAP Select is running, administrators should create volumes or LUNs for the local applications and apply appropriate policies, shares, initiator groups, or access controls.
+

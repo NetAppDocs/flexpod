@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: ontap-select-cisco-unified-edge/ontap-select-cisco-unified-edge-overview.html
+keywords: ontap select, cisco unified edge, overview, flexpod
+summary: ONTAP Select runs as a virtual machine on Cisco Unified Edge compute nodes to deliver a consolidated, single-controller storage architecture for edge sites, with operational tradeoffs that customers must plan around.
+---
+
+= Deploying ONTAP Select on Cisco Unified Edge
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+
+[.lead]
+As a software-defined storage alternative to a dedicated NetApp appliance, ONTAP Select runs as a virtual machine on a supported hypervisor (KVM or VMware vSphere) and uses locally attached storage to provide NAS and SAN services. ONTAP Select is ideal for remote offices, back-office locations, purpose-built edge deployments, mobile environments, and other scenarios where customers want the complete set of ONTAP data services capabilities.
+
+NOTE: ONTAP Select (OTS) on Cisco Unified Edge is deployed as a single-node instance without high availability (HA).
+
+When deployed together, ONTAP Select and Cisco Unified Edge create a consolidated edge architecture. A storage-optimized compute node supplies the local NVMe media. The hypervisor presents the appropriate resources to the ONTAP Select virtual machine. ONTAP Select then organizes the local media into ONTAP aggregates and volumes, exposing storage to application workloads running locally in the same chassis or elsewhere at the edge site. This design keeps data close to applications, reduces dependency on WAN connectivity for day-to-day operations, and aligns with centralized management and data protection practices.
+
+image::ots-on-cue.png[ONTAP Select on Cisco Unified Edge architecture,width=600,role="text-center"]
+
+The four drive limitation and dependence on software RAID in XE130c and XE150c compute nodes limits ONTAP Select deployments to a single-controller architecture. Unlike a multi-node storage architecture with controller failover, a single storage controller cannot be taken offline for controller-level maintenance without affecting the local storage services it hosts.
+
+This limitation does not eliminate the value of the architecture, but it must be reflected in the operational model. Suitable workloads are those that can tolerate planned storage outages, rely on application-level resiliency, or use replication to a central ONTAP environment for recovery. Customers should define maintenance calendars, communicate service windows to application owners, verify current backups or replicas before disruptive work, and document rollback procedures. If workloads require continuous storage availability during controller maintenance, customers should evaluate an external ONTAP storage array instead of a single-controller ONTAP Select configuration.

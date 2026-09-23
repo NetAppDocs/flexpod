@@ -19,6 +19,7 @@ sidebar:
     - section: modern-apps
     - section: express
     - section: security
+    - section: ontap-select-cisco-unified-edge
     - section: ontap-connector-for-intersight
     - section: infrastructure
     - title: Legal notices
