@@ -17,7 +17,7 @@ This section describes the high-level steps for licensing, sizing, configuring l
 
 == 1. ONTAP Select licensing
 
-A Premium XL license is required when using NVMe drives. Customers can choose between flexible capacity pool license that shares capacity between multiple sites or a perpetual license tied to a specific node. Refer to link:https://docs.netapp.com/us-en/ontap-select/concept_lic_workflow.html[License purchasing workflow for ONTAP Select] for additional details.
+A Premium XL license is required when using NVMe drives. Customers can choose between a flexible capacity pool license that shares capacity between multiple sites and a perpetual license tied to a specific node. Refer to link:https://docs.netapp.com/us-en/ontap-select/concept_lic_workflow.html[License purchasing workflow for ONTAP Select] for additional details.
 
 == 2. Obtain ONTAP Select Deploy software
 
