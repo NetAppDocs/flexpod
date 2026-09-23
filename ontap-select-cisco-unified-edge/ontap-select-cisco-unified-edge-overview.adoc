@@ -13,7 +13,7 @@ summary: ONTAP Select runs as a virtual machine on Cisco Unified Edge compute no
 :imagesdir: ../media/
 
 [.lead]
-As a software-defined-storage alternative a dedicated NetApp appliance, ONTAP Select runs as a virtual machine on a supported hypervisor (KVM or VMware vSphere) and uses locally attached storage to provide NAS and SAN services. ONTAP Select is ideal for remote offices, back-office locations, purpose-built edge deployments, mobile environments, and other scenarios where customers want the complete set of ONTAP data services capabilities.
+As a software-defined storage alternative to a dedicated NetApp appliance, ONTAP Select runs as a virtual machine on a supported hypervisor (KVM or VMware vSphere) and uses locally attached storage to provide NAS and SAN services. ONTAP Select is ideal for remote offices, back-office locations, purpose-built edge deployments, mobile environments, and other scenarios where customers want the complete set of ONTAP data services capabilities.
 
 NOTE: ONTAP Select (OTS) on Cisco Unified Edge is deployed as a single-node instance without high availability (HA).
 
