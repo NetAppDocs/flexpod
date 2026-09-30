@@ -148,8 +148,8 @@ image:sm-bcs-image11.png["A diagram that shows NetApp AFF and ASA controllers an
 
 |AFF series
 |link:https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62247[AFF series documentation^]
-|ASA series
-|link:https://docs.netapp.com/allsan/index.jsp[ASA series documentation^]
+|ASA r2 systems
+|link:https://docs.netapp.com/us-en/ontap-systems/asa-r2/index.html[ASA r2 systems documentation^]
 |===
 
 Consult the https://www.netapp.com/data-storage/disk-shelves-storage-media/[NetApp disk shelves and storage media documentation^] and https://hwu.netapp.com/[NetApp Hardware Universe^] for details on the disk shelves and the supported disk shelves for each storage controller model.
