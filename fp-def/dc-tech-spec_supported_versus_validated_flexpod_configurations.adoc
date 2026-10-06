@@ -10,7 +10,7 @@ summary: The FlexPod architecture is defined by the set of rules described in th
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 [.lead]
