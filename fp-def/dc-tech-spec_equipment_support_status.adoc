@@ -10,7 +10,7 @@ summary: This section explains how to verify equipment support status for Cisco 
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 
 
