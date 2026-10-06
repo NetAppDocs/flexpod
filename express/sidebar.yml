@@ -85,8 +85,9 @@ entries:
       - title: FlexPod Express cabling information
         url: /express/express-c-series-aff220-deploy_flexpod_express_cabling_information.html
       - title: Deployment procedures
-        url: /express/express-c-series-aff220-deploy_deployment_procedures_overview.html
         entries:
+          - title: Overview
+            url: /express/express-c-series-aff220-deploy_deployment_procedures_overview.html
           - title: Cisco Nexus 3172P deployment procedure
             url: /express/express-c-series-aff220-deploy_cisco_nexus_3172p_deployment_procedure.html
           - title: NetApp storage deployment procedure (part 1)
