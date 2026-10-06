@@ -5,7 +5,7 @@ keywords: vmware, vcenter, server, appliance, download
 summary: This document provides details for configuring a fully redundant, highly available FlexPod Express system and provisioning multiple Cisco UCS hosts.
 ---
 
-= Deployment procedures
+= Deployment procedures overview
 :hardbreaks:
 :nofooter:
 :icons: font
