@@ -10,7 +10,7 @@ summary: The following information describes the software version recommendation
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./../media/
+:imagesdir: ../media/
 
 [.lead]
 A FlexPod configuration has the following software version recommendations:
