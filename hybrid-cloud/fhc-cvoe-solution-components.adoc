@@ -32,9 +32,9 @@ FlexPod is the ideal platform for healthcare workload needs because it provides 
 * Streamlining imaging apps with scalable, reliable infrastructure.
 * Deploying quickly and efficiently with a proven approach for healthcare-specific apps such as EHR.
 
-== Epic
+== EHR
 
-Epic Electronic Health Records (EHRs) makes software for midsize and large medical groups, hospitals, and integrated healthcare organizations. Customers also include community hospitals, academic facilities, children's organizations, safety net providers, and multi-hospital systems. EHR-integrated software spans clinical, access, and revenue functions and extends into the home.
+Electronic Health Records (EHRs) makes software for midsize and large medical groups, hospitals, and integrated healthcare organizations. Customers also include community hospitals, academic facilities, children's organizations, safety net providers, and multi-hospital systems. EHR-integrated software spans clinical, access, and revenue functions and extends into the home.
 
 Healthcare provider organizations remain under pressure to maximize the benefits of their substantial investments in industry-leading EHRs. When customers design their data centers for EHR solutions and mission-critical applications, they often identify the following goals for their data center architecture:
 
