@@ -137,7 +137,7 @@ We downloaded the BAM files and the corresponding index, dictionary, and referen
 
 Cromwell is an open-source engine geared towards scientific workflows that enables workflow management. The Cromwell engine can be run in two https://cromwell.readthedocs.io/en/stable/Modes/[modes^], Server mode or a single- workflow Run mode. The behavior of the Cromwell engine can be controlled using the https://github.com/broadinstitute/cromwell/blob/develop/cromwell.example.backends/cromwell.examples.conf[Cromwell engine configuration file^].
 
-* *Server mode.* Enables https://cromwell.readthedocs.io/en/stable/api/RESTAPI/[RESTful^] execution of workflows in Cromwell engine.
+* *Server mode.* Enables https://cromwell.readthedocs.io/en/stable/Modes/[RESTful^] execution of workflows in Cromwell engine.
 * *Run mode.* Run mode is best suited for executing single workflows in Cromwell, https://cromwell.readthedocs.io/en/stable/CommandLine/[ref^] for a complete set of available options in Run mode.
 
 We use the Cromwell engine to execute the workflows and pipelines at scale. The Cromwell engine uses a user-friendly https://openwdl.org/[workflow description language^] (WDL)-based scripting language. Cromwell also supports a second workflow scripting standard called the common workflow language (CWL). Throughout this technical report, we used WDL. WDL was originally developed by the Broad Institute for genome analysis pipelines. Using the WDL workflows can be implemented using several strategies, including the following:
