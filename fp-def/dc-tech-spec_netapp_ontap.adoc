@@ -17,3 +17,52 @@ summary: NetApp ONTAP software is installed on every NetApp AFF, ASA, FAS, and A
 The NetApp ONTAP software is the operating system that runs on AFF, ASA, FAS, and AFX storage systems. ONTAP provides a highly scalable storage architecture that enables non-disruptive operations, non-disruptive upgrades, and an agile data infrastructure. With the ONTAP One licensing model, all enterprise data services are included in a single package, simplifying deployment and management while providing full access to advanced capabilities. ONTAP delivers robust data protection through technologies such as SnapMirror for replication and disaster recovery, as well as SnapCenter for application-consistent backup and restore. It also incorporates built-in security features, including Autonomous Ransomware Protection and encryption, to safeguard data against modern threats. In addition, ONTAP enables seamless hybrid cloud integration with capabilities such as SnapMirror Cloud and S3-based replication, allowing data mobility across on-premises and cloud environments while maintaining consistency and control.
 
 For more information about ONTAP, see the https://www.netapp.com/ontap-data-management-software/[ONTAP Data Management Software^] product page.
+
+
+== ONTAP Features
+
+The following are a mandatory list of ONTAP Features that needs to be implemented in every FlexPod solution.
+
+=== Multipath I/O
+
+The FlexPod architecture is designed to provide high availability if a component or a link fails in your entire compute, network, and storage stack. Multiple network paths for client access and storage access provide load balancing and optimal resource utilization. 
+
+Multipath I/O  in ONTAP is achieved using Logical Interfaces. A LIF (logical interface) is an IP address or WWPN with associated characteristics, such as a role, a home port, a home node, a list of ports to fail over to, and a firewall policy. 
+
+Following table lists the recommended/minimum number of logical interfaces to be created for each protocol.
+
+|===
+|Storage Protocol |Number of Logical interfaces
+
+|NFS / CIFS / S3
+|2
+|iSCSI / NVMe Over TCP
+|4
+|FC / NVMe over FC
+|4
+|===
+
+For more information on configuring logical interfaces, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vvf_9_fc_boot_manual_deploy.html
+
+
+=== ONTAP Snapshot, SnapMirror and SnapCenter
+
+A snapshot is a read-only, point-in-time image of a volume. After a snapshot is created, the active file system and the snapshot point to the same disk blocks; therefore, the snapshot does not use extra disk space. Over time, the image consumes minimal storage space and incurs negligible performance overhead because it records only changes to files since the last snapshot was made. You can use a snapshot to recover individual files or LUNs, or to restore the entire contents of a volume. ONTAP compares pointer information in the snapshot with data on disk to reconstruct the missing or damaged object, without downtime or a significant performance cost.
+
+SnapMirror is disaster recovery technology, designed for failover from primary storage to secondary storage at a geographically remote site. As its name implies, SnapMirror creates a replica, or mirror, of your working data in secondary storage from which you can continue to serve data in the event of a catastrophe at the primary site.
+
+SnapCenter Software is a simple, centralized, scalable platform that provides application-consistent data protection for applications, databases, host file systems, and VMs running on ONTAP systems anywhere in the Hybrid Cloud.
+
+We recommend the customers incorporate data protection in their FlexPod architecture making use of technologies such as SnapMirror for replication and disaster recovery, as well as SnapCenter for application-consistent backup and restore.
+
+=== Multi-Tenancy
+
+Multi-tenancy is a core ONTAP capability that allows multiple customers, business units or environments to securely share the same ONTAP platform while remaining completely isolated from each other.
+
+Multi-tenancy in ONTAP is achieved via storage virtual machines(SVMs) and IP Spaces. 
+
+Like a virtual machine running on a hypervisor, an SVM is a logical entity that abstracts physical resources. Data accessed through the SVM isn't bound to a location in storage. Network access to the SVM isn't bound to a physical port. An SVM serves data to clients and hosts from one or more volumes, through one or more network logical interfaces (LIFs). 
+
+IPspaces enable you to configure a single ONTAP cluster so that it can be accessed by clients from more than one administratively separate network domain, even if those clients are using the same IP address subnet range. This allows for separation of client traffic for privacy and security.
+
+An IPspace defines a distinct IP address space in which storage virtual machines (SVMs) reside. Ports and IP addresses defined for an IPspace are applicable only within that IPspace. A distinct routing table is maintained for each SVM within an IPspace; therefore, no cross-SVM or cross- IPspace traffic routing occurs.
