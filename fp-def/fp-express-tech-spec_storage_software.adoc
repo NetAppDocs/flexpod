@@ -25,7 +25,7 @@ For more information about ONTAP, see the https://www.netapp.com/ontap-data-mana
 
 === ONTAP Prerequisites
 
-====The following are a mandatory list of ONTAP prerequisites that needs to be implemented in every FlexPod solution.
+*The following are a mandatory list of ONTAP prerequisites that needs to be implemented in every FlexPod solution.*
 
 ==== Multipathing and Logical Interfaces
 
@@ -36,14 +36,17 @@ Multipath I/O  in ONTAP is achieved using Logical Interfaces. A LIF (logical int
 Following table lists the minimum number of logical interfaces that are to be created for each protocol per node in a HA pair.
 
 |===
-|Storage Protocol |Number of Logical interfaces per node in a HA pair
+|Storage Protocol |Number of Logical interfaces per node in an HA pair| Number of logical interfaces per HA pair
 
 |NFS / CIFS / S3
 |1
+|2
 |iSCSI / NVMe Over TCP
 |2
+|4
 |FC / NVMe over FC
 |2
+|4
 |===
 
 For more information on configuring logical interfaces, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vvf_9_fc_boot_manual_deploy.html
