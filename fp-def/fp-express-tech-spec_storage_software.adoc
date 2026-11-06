@@ -25,7 +25,7 @@ For more information about ONTAP, see the https://www.netapp.com/ontap-data-mana
 
 === ONTAP Prerequisites
 
-*The following are a mandatory list of ONTAP prerequisites that needs to be implemented in every FlexPod solution.*
+====The following are a mandatory list of ONTAP prerequisites that needs to be implemented in every FlexPod solution.
 
 ==== Multipathing and Logical Interfaces
 
