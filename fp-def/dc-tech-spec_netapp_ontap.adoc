@@ -19,27 +19,27 @@ The NetApp ONTAP software is the operating system that runs on AFF, ASA, FAS, an
 For more information about ONTAP, see the https://www.netapp.com/ontap-data-management-software/[ONTAP Data Management Software^] product page.
 
 
-== ONTAP Features
+== ONTAP Prerequisites
 
-The following are a mandatory list of ONTAP Features that needs to be implemented in every FlexPod solution.
+*The following are a mandatory list of ONTAP prerequisites that needs to be implemented in every FlexPod solution.*
 
-=== Multipath I/O
+=== Multipathing and Logical Interfaces
 
 The FlexPod architecture is designed to provide high availability if a component or a link fails in your entire compute, network, and storage stack. Multiple network paths for client access and storage access provide load balancing and optimal resource utilization. 
 
 Multipath I/O  in ONTAP is achieved using Logical Interfaces. A LIF (logical interface) is an IP address or WWPN with associated characteristics, such as a role, a home port, a home node, a list of ports to fail over to, and a firewall policy. 
 
-Following table lists the recommended/minimum number of logical interfaces to be created for each protocol.
+Following table lists the minimum number of logical interfaces that are to be created for each protocol per node in a HA pair.
 
 |===
-|Storage Protocol |Number of Logical interfaces
+|Storage Protocol |Number of Logical interfaces per node in a HA pair
 
 |NFS / CIFS / S3
-|2
+|1
 |iSCSI / NVMe Over TCP
-|4
+|2
 |FC / NVMe over FC
-|4
+|2
 |===
 
 For more information on configuring logical interfaces, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vvf_9_fc_boot_manual_deploy.html
