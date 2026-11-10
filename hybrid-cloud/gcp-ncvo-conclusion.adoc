@@ -136,7 +136,7 @@ https://kb.netapp.com/Cloud/ncds/nds/cvo/cvo_kbs[https://kb.netapp.com/Cloud/ncd
 
 * Terraform Cloud
 +
-https://www.terraform.io/cloud[https://www.terraform.io/cloud^]
+https://www.hashicorp.com/en/products/terraform[https://www.terraform.io/cloud^]
 
 * Terraform Documentation
 +
