@@ -48,7 +48,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/concept-replication.html
 
 * TR-3928: Epic on ONTAP
 +
-https://www.netapp.com/pdf.html?item=/media/17137-tr3928pdf.pdf[https://docs.netapp.com/us-en/ontap-apps-dbs/pdfs/sidebar/Epic.pdf^]
+https://docs.netapp.com/us-en/ontap-apps-dbs/pdfs/sidebar/Epic.pdf[https://www.netapp.com/pdf.html?item=/media/17137-tr3928pdf.pdf^]
 
 * TR-4693: FlexPod Datacenter for Epic EHR Deployment Guide
 +
