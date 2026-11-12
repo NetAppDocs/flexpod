@@ -136,11 +136,11 @@ https://kb.netapp.com/Cloud/ncds/nds/cvo/cvo_kbs[https://kb.netapp.com/Cloud/ncd
 
 * Terraform Cloud
 +
-https://www.terraform.io/cloud[https://www.terraform.io/cloud^]
+https://www.hashicorp.com/en/products/terraform[https://www.hashicorp.com/en/products/terraform^]
 
 * Terraform Documentation
 +
-https://www.terraform.io/docs/[https://www.terraform.io/docs/^]
+https://developer.hashicorp.com/terraform/docs[https://developer.hashicorp.com/terraform/docs^]
 
 * NetApp Cloud Manager Registry
 +
