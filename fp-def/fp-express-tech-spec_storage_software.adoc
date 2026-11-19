@@ -23,9 +23,9 @@ The NetApp ONTAP software is the operating system that runs on AFF, ASA, and FAS
 For more information about ONTAP, see the https://www.netapp.com/ontap-data-management-software/[ONTAP product page^].
 
 
-=== ONTAP Prerequisites
+=== Recommended ONTAP Features/Configurations
 
-*The following are a mandatory list of ONTAP prerequisites that needs to be implemented in every FlexPod solution.*
+FlexPod achieves the peak performance, enterprise grade redundancy and high availability outlined in our verified architectures by utilizing the following features/configurations:
 
 ==== Multipathing and Logical Interfaces
 
@@ -33,7 +33,7 @@ The FlexPod architecture is designed to provide high availability if a component
 
 Multipath I/O  in ONTAP is achieved using Logical Interfaces. A LIF (logical interface) is an IP address or WWPN with associated characteristics, such as a role, a home port, a home node, a list of ports to fail over to, and a firewall policy. 
 
-Following table lists the minimum number of logical interfaces that are to be created for each protocol per node in a HA pair.
+Following table lists the minimum number of logical interfaces that are to be created for each protocol per node in an HA pair.
 
 |===
 |Storage Protocol |Number of Logical interfaces per node in an HA pair| Number of logical interfaces per HA pair
@@ -49,8 +49,6 @@ Following table lists the minimum number of logical interfaces that are to be cr
 |4
 |===
 
-For more information on configuring logical interfaces, see https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vvf_9_fc_boot_manual_deploy.html
-
 
 ==== ONTAP Snapshot, SnapMirror and SnapCenter
 
@@ -62,14 +60,15 @@ SnapCenter Software is a simple, centralized, scalable platform that provides ap
 
 We recommend the customers incorporate data protection in their FlexPod architecture making use of technologies such as SnapMirror for replication and disaster recovery, as well as SnapCenter for application-consistent backup and restore.
 
-==== Multi-Tenancy
+==== Secure Multi-Tenancy
 
-Multi-tenancy is a core ONTAP capability that allows multiple customers, business units or environments to securely share the same ONTAP platform while remaining completely isolated from each other.
+Secure multi-tenancy is the use of secure virtual partitions within a shared physical storage environment for the purpose of sharing the physical environment among multiple distinct tenants. For instance, a storage service provider might configure a storage array in such a way that each of three different customers is provisioned a certain portion of the array’s disk capacity and network resources. In a secure multi-tenant environment, each customer would have access only to the resources explicitly provisioned to that customer. The customer would not have access to other customers’ data or even be aware of the existence of the other customers or the fact that they share a common physical array. Secure multi-tenant environments should also provide a means to make sure that no single tenant consumes so much of the shared performance capability so as to affect the other tenants.
 
 Multi-tenancy in ONTAP is achieved via storage virtual machines(SVMs) and IP Spaces. 
 
-Like a virtual machine running on a hypervisor, an SVM is a logical entity that abstracts physical resources. Data accessed through the SVM isn't bound to a location in storage. Network access to the SVM isn't bound to a physical port. An SVM serves data to clients and hosts from one or more volumes, through one or more network logical interfaces (LIFs). 
+Like a virtual machine running on a hypervisor, an SVM is a logical entity that abstracts physical resources. An SVM serves data to clients and hosts from one or more volumes, through one or more network logical interfaces (LIFs). 
 
 IPspaces enable you to configure a single ONTAP cluster so that it can be accessed by clients from more than one administratively separate network domain, even if those clients are using the same IP address subnet range. This allows for separation of client traffic for privacy and security.
 
-An IPspace defines a distinct IP address space in which storage virtual machines (SVMs) reside. Ports and IP addresses defined for an IPspace are applicable only within that IPspace. A distinct routing table is maintained for each SVM within an IPspace; therefore, no cross-SVM or cross- IPspace traffic routing occurs.
+[NOTE]
+For FlexPod best practices on ONTAP configuration, see the https://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/UCS_CVDs/flexpod_vvf_9_fc_boot_manual_deploy.html#NetAppONTAPStorageConfiguration[FlexPod CVD: NetApp ONTAP Storage Configuration^].
